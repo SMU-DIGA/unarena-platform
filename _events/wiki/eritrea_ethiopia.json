@@ -1,0 +1,340 @@
+{
+  "topic": "eritrea_ethiopia",
+  "label": "Eritrea and Ethiopia",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 43,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 3,
+  "vague_dated_segments": 19,
+  "cross_article_duplicates": 7,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Eritrean–Ethiopian War",
+      "pageid": 71613555,
+      "revid": 1348566498,
+      "revision_timestamp": "2026-04-13T08:18:42Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=71613555",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "1998-05-06",
+          "date_latest": "1998-05-06",
+          "date_precision": "day",
+          "text": "Large scale Eritrean mechanized force penetrated the Badme region, resulting fighting between Eritrean soldiers and the Tigrayan militia and security police they encountered."
+        },
+        {
+          "date": "1998-05-13",
+          "date_latest": "1998-05-13",
+          "date_precision": "day",
+          "text": "In what Eritrean radio described as a \"total war\" policy, Ethiopia mobilized its forces for a full assault against Eritrea."
+        },
+        {
+          "date": "1998-06-05",
+          "date_latest": "1998-06-05",
+          "date_precision": "day",
+          "text": "The Eritrean air force attacked an elementary school in Mekelle that killed 49 of the students and their parents and the neighbors that came to help immediately."
+        },
+        {
+          "date": "1999-02-06",
+          "date_latest": "1999-02-06",
+          "date_precision": "day",
+          "text": "Hostility worsened following Ethiopia's claim that Eritrea violated moratorium on air raids by bombing Adigrat."
+        },
+        {
+          "date": "1999-02-22",
+          "date_latest": "1999-02-22",
+          "date_precision": "day",
+          "text": "With refusal to accept the US/Rwanda peace plan, Ethiopia launched a massive military offensive to recapture Badme."
+        },
+        {
+          "date": "1999-02-27",
+          "date_latest": "1999-02-27",
+          "date_precision": "day",
+          "text": "Eritrea accepted OAU peace plan after Ethiopian force were 10 kilometers (six miles) deep into Eritrean territory after five days of heavy fighting."
+        },
+        {
+          "date": "1999-03-16",
+          "date_latest": "1999-03-16",
+          "date_precision": "day",
+          "text": "BBC reported that after a two week lull, fighting occurred when the Ethiopian force attacked at Valessa on the Tsorona front line."
+        },
+        {
+          "date": "1999-06-01",
+          "date_latest": "1999-06-30",
+          "date_precision": "month",
+          "text": "Fighting continued with both sides in entrenched positions."
+        },
+        {
+          "date": "2000-05-12",
+          "date_latest": "2000-05-12",
+          "date_precision": "day",
+          "text": "Ethiopia launched massive combined arms offensive on multiple fronts involving four armoured divisions and 22 infantry divisions."
+        },
+        {
+          "date": "2000-05-16",
+          "date_latest": "2000-05-16",
+          "date_precision": "day",
+          "text": "Ethiopian sources stated that Ethiopian aircraft attacked targets between Areza and Maidema and between Barentu and Omhajer and that all aircraft returned to base, while heavy ground fighting continued in the Da'se and Barentu area and in Maidema."
+        },
+        {
+          "date": "2000-05-17",
+          "date_latest": "2000-05-17",
+          "date_precision": "day",
+          "text": "The United Nations Security Council adopted Resolution 1298 imposing an arms embargo on both countries."
+        },
+        {
+          "date": "2000-05-23",
+          "date_latest": "2000-05-23",
+          "date_precision": "day",
+          "text": "Ethiopia claimed that its \"troops had seized vital command posts in the heavily defended Zalambessa area, about 100 km (60 mi) south of the Eritrean capital Asmara."
+        },
+        {
+          "date": "2000-05-25",
+          "date_latest": "2000-05-25",
+          "date_precision": "day",
+          "text": "In accordance with OAU request and Eritrean withdrawal from some territories, Ethiopia declared the war was over."
+        },
+        {
+          "date": "2000-06-18",
+          "date_latest": "2000-06-18",
+          "date_precision": "day",
+          "text": "the parties agreed to a comprehensive agreement and binding arbitration of their disputes under the Algiers Agreement."
+        },
+        {
+          "date": "2000-07-31",
+          "date_latest": "2000-07-31",
+          "date_precision": "day",
+          "text": "The United Nations Security Council adopted Resolution 1312 and a 25-kilometer-wide Temporary Security Zone (TSZ) was established within Eritrea."
+        },
+        {
+          "date": "2000-12-12",
+          "date_latest": "2000-12-12",
+          "date_precision": "day",
+          "text": "Peace agreement was signed by the two governments."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Eritrean War of Independence",
+      "pageid": 3385749,
+      "revid": 1370617072,
+      "revision_timestamp": "2026-08-22T03:07:44Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=3385749",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1961-09-01",
+          "date_latest": "1961-09-01",
+          "date_precision": "day",
+          "text": "The war started on 1 September 1961 with the Battle of Adal, when Hamid Idris Awate and his companions engaged the occupying Ethiopian Army and police."
+        },
+        {
+          "date": "1974-11-24",
+          "date_latest": "1974-11-24",
+          "date_precision": "day",
+          "text": "However, the assassination of Andom and other officials by the Derg regime on November 24, 1974, marked the end to the pursuit of a political resolution."
+        },
+        {
+          "date": "1991-07-05",
+          "date_latest": "1991-07-05",
+          "date_precision": "day",
+          "text": "A high-level U.S. delegation was present in Addis Ababa for the 1–5 July 1991 conference that established a transitional government in Ethiopia."
+        },
+        {
+          "date": "1993-05-28",
+          "date_latest": "1993-05-28",
+          "date_precision": "day",
+          "text": "On 28 May 1993, the United Nations formally admitted Eritrea to its membership."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Eritrean–Ethiopian War",
+      "pageid": 1781189,
+      "revid": 1370629600,
+      "revision_timestamp": "2026-08-22T04:47:18Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1781189",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "1997-05-01",
+          "date_latest": "1997-05-31",
+          "date_precision": "month",
+          "text": "In 1998, prior to mobilization for war, Eritrea had an estimated 40,000 troops, while Ethiopia's military numbered around 120,000. Eritrea possessed 200 to 300 tanks—though not all were operational—compared to Ethiopia's 350 to 400. After the Derg’s fall the Ethiopian army was initially Tigrayan‑dominated, but wartime expansion soon drew in other ethnicities. Amhara officers from the Derg era were released from prison and re‑entered service, yet Tigrayans still held roughly 80% of senior posts. Eventually both Ethiopia and Eritrea each mobilized nearly 250,000 troops."
+        },
+        {
+          "date": "1997-05-01",
+          "date_latest": "1997-05-31",
+          "date_precision": "month",
+          "text": "Tensions between Ethiopia and Eritrea had been simmering well before the outbreak of war. Prior to full-scale conflict, there were already brief border clashes involving exchanges of fire. In the disputed areas of Bure and Bada, Ethiopian forces reportedly burned villages and expelled Eritrean administrators. In the view of the Eritrean government, the Tigrayan People's Liberation Front (TPLF)-dominated administration in Addis Ababa appeared to be engaging in territorial encroachment and attempting to redraw the map. The first major incident leading to the war came during July 1997, when over 1,000 Ethiopian troops occupied the border village of Bada (also referred to as Ari Murug region) in eastern Eritrea. The Ethiopians dismantled the civilian administration there, resulting in diplomatic protests from the Eritreans to the Ethiopian government. Tensions escalated further in October of that year when the Ethiopian government published a new map of Tigray Region that incorporated large parts of Eritrean territory. The map reinforced fears within the Eritrean government that conceding any territory could set a precedent for further Ethiopian claims along the border. Relations deteriorated sharply in November 1997 after Eritrea introduced its own currency (the nakfa), triggering a trade war. In late December, a brief military confrontation occurred at an Eritrean border post in northern Dankalia. Shortly afterward, several thousand Eritreans residing in western Tigray were ordered to adopt Ethiopian nationality or leave the area."
+        },
+        {
+          "date": "1998-02-01",
+          "date_latest": "1998-02-28",
+          "date_precision": "month",
+          "text": "Both countries spent several hundred million dollars on new military equipment. This was despite the peace mediation efforts by the Organization of African Unity (OAU) and a US/Rwanda peace plan that was in the works. The US/Rwanda proposal was a four-point peace plan that called for withdrawal of both forces to pre-June 1998 positions. Eritrea refused and instead demanded the demilitarization of all disputed areas along the common border, to be overseen by a neutral monitoring force, and direct talks. In 1999, the war entered a new phase as Ethiopia had fully mobilized its reserves and replenished its arsenal. Eritrea also called up its reserves—one-fifth of whom were women—but relied primarily on weapons it had captured years prior during the war of independence. Ethiopian military operations routinely bogged down due to poor logistics."
+        },
+        {
+          "date": "1998-05-01",
+          "date_latest": "1998-05-31",
+          "date_precision": "month",
+          "text": "After a series of armed incidents in which several Eritrean officials were killed near Badme, on 6 May 1998, a large Eritrean mechanized force entered the Badme region along the border of Eritrea and Ethiopia's northern Tigray Region, resulting in a firefight between the Eritrean soldiers and a Tigrayan militia and Ethiopian police they encountered. Accounts differ on who initiated the conflict. Eritrea claimed the war began with an unprovoked attack by Ethiopian forces on Eritrean positions, while Ethiopia accused Eritrea of invading and occupying disputed border areas. Both sides began massing large numbers of troops and military equipment along the border. On 13 May 1998, the Ethiopian parliament declared war on Eritrea. What followed was characterized by observers as the most intense fighting in Africa since World War II. The clashes escalated with what was described as a \"terrifying speed\".",
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "1998-05-01",
+          "date_latest": "1998-05-31",
+          "date_precision": "month",
+          "text": "Heavy fighting erupted throughout May 1998, involving artillery, mortars, and small arms across the broad valley. The Ethiopian military launched attacks on 22, 23, 25, and 31 May, while Eritrean forces opened an offensive along the highway between Addis Ababa and Asmara at Zalambessa. The start of June 1998 saw the onset of the rainy season and a brief lull in fighting. The normally dry riverbed of Badme region became flooded and severely impeded Eritrean military logistics. Around the same time, the Ethiopian Air Force launched airstrikes on Asmara’s airport, using bombs and napalm. Eritrean air defenses shot down one of the attacking jets, and the captured pilot was identified as Bezabeh Petros—a former prisoner of war from the War of Independence who had been repatriated after being shot down while serving in the Derg regime’s Air Force. His return to combat operations despite being returned angered the Eritreans. On 5 June 1998, the Eritrean Air Force bombed Ethiopia's Tigray region, targeting the capital Mekelle. A military airbase was targeted and hit, but cluster bombs accidentally struck civilians. Dozens of children and their parents were killed when an elementary school was bombed in Mekelle. These raids caused civilian casualties and deaths on both sides of the border. The United Nations Security Council adopted Resolution 1177 condemning the use of force and welcomed statements from both sides to end the air strikes.",
+          "names_later_date": true
+        },
+        {
+          "date": "1999-02-01",
+          "date_latest": "1999-02-28",
+          "date_precision": "month",
+          "text": "With Eritrea's refusal to accept the US/Rwanda peace plan, on 22 February 1999, Ethiopia launched a massive military offensive to recapture Badme. Tension had been high since 6 February 1999, when Ethiopia claimed that Eritrea had violated the moratorium on air raids by bombing Adigrat, a claim it later withdrew. Surveying the extensive trenches the Eritreans had constructed, Ethiopian General Samora Yunis observed, \"The Eritreans are good at digging trenches and we are good at converting trenches into graves. They, too, know this. We know each other very well\". Ethiopia's offensive, codenamed Operation Sunset, began with an air attack on Assab airport by four Ethiopian fighter jets, followed by a massive artillery barrage against Eritrean positions on the Tsorona front, which was meant as a diversion to make the Eritreans prepare for an Ethiopian offensive against eastern or southern Eritrea. The following day, the Ethiopian ground attack began. Three Ethiopian divisions broke through the Eritrean defenses in the Biyukundi area and then advanced toward Dukambiya, 20 kilometers southeast of Barentu, before turning east and hitting an Eritrean division north of Badme in the flank, taking the Eritreans by surprise. The Eritrean division was almost totally destroyed, and the Ethiopians continued their advance toward Dukambiya. Realizing that they were about to be cut off, the remaining Eritrean units deployed in the Badme area hastily retreated, abandoning nearly 100 kilometers of fortifications and most of their heavy weapons. Ethiopian Mi-24 helicopter gunships attacked the fleeing Eritreans with rockets. After five days of heavy fighting, Ethiopian forces were 10 kilometers (six miles) deep into Eritrean territory. Eritreaaccepted the OAU peace plan on 27 February 1999. While both states said that they accepted the OAU peace plan, Ethiopia did not immediately stop its advance, because it demanded that peace talks be contingent on an Eritrean withdrawal from territory occupied since the first outbreak of fighting. Operation Sunset was a pyrrhic victory for the Ethiopians, and independent observers estimated that 30,000 men had died on both sides during the offensive.",
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "1999-03-01",
+          "date_latest": "1999-03-31",
+          "date_precision": "month",
+          "text": "The widespread use of trench warfare by both sides resulted in comparisons of the conflict to the trench warfare of World War I. According to some reports, trench warfare led to the loss of \"thousands of young lives in human-wave assaults on Eritrea's positions\". On 16 March, following a two-week lull, Ethiopian forces launched an offensive on the Tsorona front, on the border south of Eritrea's capital, Asmara. A month after Operation Sunset, the Ethiopian military launched an even larger assault on the fortified border town of Tsorona. Ethiopian troops were massed and sent forward in successive waves. Tens of thousands of poorly trained recruits were funneled into a 3-mile wide front. The first wave was largely destroyed after encountering a minefield. Subsequent assaults came under intense Eritrean artillery and machine-gun fire, though Ethiopian forces managed to advance close enough by the first night for fighting to devolve into close-quarters combat. By morning, Eritrean forces mounted a counterattack and reportedly inflicted heavy losses on the remaining Ethiopian units. Several Ethiopian divisions may have been destroyed during the operation. Foreign journalists who later toured the battlefield described seeing the bodies of several thousand Ethiopian soldiers scattered across the area. The Eritreans claimed to have destroyed 45 Ethiopian tanks during the battle. 1/5th of Eritrean forces during the fight for Tsorona had been women. April 1999 saw the intensity of fighting diminish significantly. In June 1999, the fighting continued with both sides in entrenched positions.",
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "According to the Coalition to Stop the Use of Child Soldiers, there were \"credible reports\" that the Ethiopian armed forces used thousands of children during the war:Children were also forcibly recruited in groups from public places. The lack of a functioning birth registration system has made it difficult to estimate the number of children affected, but it is clear that the use of children was widespread; for example, most Ethiopian prisoners of war in one large POW camp in Eritrea were estimated to be aged 14–18."
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "Estimates of casualties from the war vary widely and remain contested, but the toll on both Ethiopia and Eritrea was severe. Press access restrictions and lack of independent verification made it difficult to ascertain the true extent of losses on both sides. Eritrean authorities frequently publicized the heavy losses they claimed to have inflicted on Ethiopian troops. The Ethiopians in contrast claimed that they had so severely depleted Eritrean manpower that border defenses had nearly collapsed. Most international reports put the total war casualties from both sides as being around 70,000, but some analysts within the region suggested that the overall death toll may have been as high as 300,000. All these figures have been contested, and other news reports simply state that \"tens of thousands\" or \"as many as 100,000\" were killed in the war. According to the Encyclopedia of Conflicts Since World War II (2015), approximately 19,000 Eritrean soldiers and 120,000 Ethiopian soldiers were killed during the conflict. Eritrea officially claimed that 19,000 of their soldiers were killed during the conflict;Eritrean KIA"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "Human wave attacks were used by the Ethiopians to overwhelm the Eritrean trenches around Badme during 1999. During the May 2000 offensive Eritrea accused the Ethiopians of employing the tactic again, though foreign correspondent Peter Biles, reporting on the offensive for The Independent stated he saw no visible signs of such tactics from the air. The Ethiopian military had created army units dedicated to burying their dead troops in mass graves, known as the agalay."
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "On 14 April 2002, the Eritrea–Ethiopia Boundary Commission that was established under the Algiers Agreement in collaboration with Permanent Court of Arbitration in The Hague agreed upon a \"final and binding\" verdict. The ruling awarded some territory to each side, but Badme (the flash point of the conflict) was awarded to Eritrea. Martin Pratt writes: Both Ethiopia and Eritrea were placed under a U.S.-backed international arms embargo as a result of the war. However, the embargo was later lifted for Ethiopia to enable its large-scale military operation in Somalia during 2006 as part of the U.S.-led war on terror.",
+          "names_later_date": true,
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "On 18 June 2000, the parties agreed to a comprehensive peace agreement and binding arbitration of their disputes under the Algiers Agreement. On 31 July 2000, the United Nations Security Council adopted Resolution 1312 and a 25-kilometer-wide Temporary Security Zone (TSZ) was established within Eritrea, patrolled by the United Nations Mission in Ethiopia and Eritrea (UNMEE), which was composed of personnel from over 60 countries. On 12 December 2000 a peace agreement was signed by the two governments.",
+          "names_later_date": true,
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "Proximity talks broke down in early May 2000, with Ethiopia accusing Eritrea of imposing \"unacceptable conditions.\" On 12 May, Ethiopia launched a massive combined arms offensive on multiple fronts involving four armored divisions and 22 infantry divisions, extensive artillery and close air support. The Ethiopians used pack animals such as donkeys for logistical support for their infantry, and, due to their cumbersome logistical chain, primarily relied on infantry assaults to capture Eritrean positions. They held their tanks in reserve, then brought them forward to secure positions captured by the infantry. Ethiopian forces initially struggled to exploit the gaps they had torn in the Eritrean positions, often at great cost in frontal assaults against Eritrean trenches. The Ethiopians broke through the Eritrean lines between Shambuko and Mendefera, crossed the Mareb River, and cut the road between Barentu and Mendefera, the main supply line for Eritrean troops on the western front of the fighting. Ethiopian sources stated that on 16 May, Ethiopian aircraft attacked targets between Areza and Maidema, and between Barentu and Omhajer, and that all aircraft returned to base, while heavy ground fighting continued in the Da'se and Barentu area and in Maidema. The next day, Ethiopian ground forces with air support captured Da'se. Barentu was taken in a surprise Ethiopian pincer movement on the Western front. The Ethiopians attacked a mined but lightly defended mountain, resulting in the capture of Barentu and an Eritrean retreat. Fighting also continued in Maidema. Also on 17 May, due to the continuing hostilities, the United Nations Security Council adopted Resolution 1298 imposing an arms embargo on both countries. By 23 May, Ethiopia claimed that its \"troops had seized vital command posts in the heavily defended Zalambessa area, about 100 km south of the Eritrean capital, Asmara\". But the Eritreans claimed they withdrew from the disputed border town of Zalambessa and other disputed areas on the central front as a goodwill' gesture to revive peace talks\" and claimed it was a 'tactical retreat' to take away one of Ethiopia's last remaining excuses for continuing the war; a report from Chatham House observes, \"the scale of Eritrean defeat was apparent when Eritrea unexpectedly accepted the OAU peace framework.\" Having recaptured most of the contested territories – and having learned that the Eritrean government would withdraw from any other territories it occupied at the start of the conflict, in accordance with a request from the OAU – Ethiopia declared the war was over on 25 May 2000.",
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "The economies of both countries were already weak as a result of decades of cold-war politics, colonialism, civil war and drought. The war exacerbated these problems, resulting in food shortages. Prior to the war, much of Eritrea's trade was with Ethiopia, and much of Ethiopia's foreign trade relied on Eritrean roads and ports. According to former Eritrean official Fathi Osman, Eritrea attempted to alleviate its money problems by issuing war bonds to the Eritrean diaspora, as they lacked other means to fund their military operations. Ethiopia engaged in a 6-year long disarmament, demobilization and reintegration (DDR) programme for the over 148,000 veterans who fought in the war. In total, the programme cost $174 million; the Ethiopian government could only pay around $3.1 million themselves, and had to pay the rest back with a $170 million loan from the World Bank."
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "The fighting also spread to Somalia as both governments tried to outflank one another. The Eritrean government began supporting the Oromo Liberation Front, a rebel group seeking independence of Oromia from Ethiopia that was based in a part of Somalia controlled by Mohamed Farrah Aidid. Ethiopia retaliated by supporting groups in southern Somalia who were opposed to Aidid, and by renewing relations with the Islamic regime in Sudan—which is accused of supporting the Eritrean Islamic Salvation, a Sudan-based group that had launched attacks in the Eritrea–Sudan border region—while also lending support to various Eritrean rebel groups including a group known as the Eritrean Islamic Jihad. As the war was ongoing, the Ogaden National Liberation Front (ONLF) opened offices in Eritrea during 1999."
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "The fighting led to massive internal displacement in both countries as civilians fled the war zone – by the end of May 2000, Ethiopia occupied about a quarter of Eritrea's territory, displacing 650,000 people, and destroying key components of Eritrea's infrastructure. The Eritrean government forcibly expelled an estimated 70,000 Ethiopians according to the report by Human rights Watch. Ethiopia expelled 77,000 Eritreans and Ethiopians of Eritrean origin it deemed a security risk, thus compounding Eritrea's refugee problem. The majority of those were considered well off by the Ethiopian standard of living. They were deported after their belongings had been confiscated. Ethiopians living in Eritrea were interned, and thousands of others were deported. After the retaliatory bombings of Asmara Airport by Ethiopia on 5 and 6 June 1998, many Ethiopians working in Eritrean towns were sacked, apparently as a reprisal, and subsequently lost their rented housing through losing their means of income or, in some cases, by being evicted for being Ethiopian. Many Ethiopians were forced to sleep on the streets outside the Ethiopian embassy in Asmara, in church compounds or elsewhere according to a report by Amnesty International. In July 1998, Ethiopia alleged that up to 60 Ethiopians had died in Assab after being locked in a shipping container by the Eritrean police in daytime temperatures of over 40C. According to Human Rights Watch, detainees on both sides were subject in some cases to torture, rape, or other degrading treatment. This was believed to be a continuation of the 1991–93 expulsions of 125,000 Ethiopians from Eritrean territory."
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "The outcome of the Eritrean–Ethiopian War remains contested, with no clear consensus on which side emerged victorious. Press access was heavily restricted throughout the conflict, and while a ceasefire and peace agreement were eventually brokered by the United Nations, the absence of independent verification left much of the war’s legacy shaped by the propaganda of both governments.",
+          "duplicate_of": "Timeline of the Eritrean–Ethiopian War"
+        },
+        {
+          "date": "2000-05-01",
+          "date_latest": "2000-05-31",
+          "date_precision": "month",
+          "text": "Writing after the war had finished, Jon Abbink postulated that President Isaias Afewerki of Eritrea realised that his influence over the government in Ethiopia was slipping, and \"in the absence of a concrete border being marked,\" calculated that Eritrea could annex Badme. If successful, this acquisition could have been used to enhance his reputation and help maintain Eritrea's privileged economic relationship with Ethiopia. However, because Badme was in Tigray Province – the region from which many of the members of the Ethiopian government originated (including Meles Zenawi, the Ethiopian prime minister) – the Ethiopian government came under political pressure from within the EPRDF, as well as from the wider Ethiopian public, to meet force with force."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Eritrean–Ethiopian border conflict",
+      "pageid": 51922991,
+      "revid": 1371260341,
+      "revision_timestamp": "2026-08-25T14:10:15Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=51922991",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2005-12-07",
+          "date_latest": "2005-12-07",
+          "date_precision": "day",
+          "text": "On 7 December 2005, Eritrea banned UN helicopter flights and ordered Western members (particularly from the United States and Europe) of the UN peacekeeping mission on its border with Ethiopia to leave within 10 days, sparking concerns of further conflict with its neighbour."
+        },
+        {
+          "date": "2005-12-10",
+          "date_latest": "2005-12-10",
+          "date_precision": "day",
+          "text": "On 10 December 2005, Ethiopia announced it was withdrawing some of its forces from the Eritrean border \"in the interests of peace\"."
+        },
+        {
+          "date": "2005-12-21",
+          "date_latest": "2005-12-21",
+          "date_precision": "day",
+          "text": "On 21 December 2005, a commission at the Permanent Court of Arbitration in The Hague ruled that Eritrea broke international law when it attacked Ethiopia in 1998, triggering the broader conflict."
+        },
+        {
+          "date": "2008-06-19",
+          "date_latest": "2008-06-19",
+          "date_precision": "day",
+          "text": "On 19 June 2008 the BBC published a time line (which they update periodically) of the conflict and reported that the \"Border dispute rumbles on\":In August 2009, Eritrea and Ethiopia were ordered to pay each other compensation for the war."
+        },
+        {
+          "date": "2018-12-13",
+          "date_latest": "2018-12-13",
+          "date_precision": "day",
+          "text": "Later on 13 December 2018 President Afwerki went to Somalia for the first time in two decades."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

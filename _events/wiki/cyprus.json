@@ -1,0 +1,276 @@
+{
+  "topic": "cyprus",
+  "label": "Cyprus dispute",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 35,
+  "flagged_vote_language": 3,
+  "flagged_names_later_date": 2,
+  "vague_dated_segments": 23,
+  "cross_article_duplicates": 3,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Cyprus problem",
+      "pageid": 183570,
+      "revid": 1370614524,
+      "revision_timestamp": "2026-08-22T02:54:17Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=183570",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "1996-08-01",
+          "date_latest": "1996-08-31",
+          "date_precision": "month",
+          "text": "In August 1996, Greek Cypriot refugees demonstrated with a motorcycle protest in Deryneia against the Turkish occupation of Cyprus. The ‘Motorcyclists March’ involved 2000 bikers from European countries and was organised by the Motorcyclists’ Federation of Cyprus. The rally begun from Berlin to Kyrenia (a city in Occupied Cyprus) in commemoration of the twenty-second year of Cyprus as a divided country and aimed to cross the border using peaceful means. The demonstrators' demand was the complete withdrawal of Turkish troops and the return of Cypriot refugees to their homes and properties. Among them was Tassos Isaac who was beaten to death. Another man, Solomos Solomou, was shot to death by Turkish troops while he was climbing to a flagpole to strike Turkish Flag during the same protests on 14 August 1996. An investigation by authorities of the Republic of Cyprus followed, and the suspects were named as Kenan Akin and Erdan Emanet. International legal proceedings were instigated and arrest warrants for both were issued via Interpol. During the demonstrations on 14 August 1996, two British soldiers were also shot by the Turkish forces: Neil Emery and Jeffrey Hudson, both from 39th Regiment Royal Artillery. Bombardier Emery was shot in his arm, whilst Gunner Hudson was shot in the leg by a high velocity rifle round and was airlifted to hospital in Nicosia then on to RAF Akrotiri."
+        },
+        {
+          "date": "1996-08-01",
+          "date_latest": "1996-08-31",
+          "date_precision": "month",
+          "text": "The situation took another turn for the worse at the start of 1997 when the Greek Cypriots announced that they intended to purchase the Russian-made S-300 anti-aircraft missile system. Soon afterwards, the Cyprus Missile Crisis started. The crisis effectively ended in December 1998 with the decision of the Cypriot government to transfer the S-300s to Crete, in exchange for alternative weapons from Greece."
+        },
+        {
+          "date": "2004-04-24",
+          "date_latest": "2004-04-24",
+          "date_precision": "day",
+          "text": "In 2004, the Turkish Cypriot community was awarded \"observer status\" in the Parliamentary Assembly of the Council of Europe (PACE), as part of the Cypriot delegation. Since then, two Turkish Cypriot representatives of PACE have been elected in the Assembly of Northern Cyprus. On 1 May 2004, a week after the referendum, Cyprus joined the European Union. Under the terms of accession the whole island is considered to be a member of the European Union. However, the terms of the acquis communautaire, the EU's body of laws, have been suspended in Northern Cyprus. , North Nicosia, in 2006]] After the referendum, in June 2004, the Turkish Cypriot community, despite the objection of the Cypriot government, had its designation at the Organisation of Islamic Cooperation, of which it has been an observer since 1979, changed to the \"Turkish Cypriot State\". Despite initial hopes that a new process to modify the rejected plan would start by autumn, most of the rest of 2004 was taken up with discussions over a proposal by the European Union to open up direct trade with the Turkish Cypriots and provide €259,000,000 in funds to help them upgrade their infrastructure. This provoked considerable debate. The Greek Cypriots stated that there can be no direct trade via ports and airports in Northern Cyprus as these are unrecognised and said that Turkish Cypriots should use Greek Cypriot facilities in the south as they are internationally recognised. This was rejected by the Turkish Cypriots as insincere and mocking by Papadopoulos and his government. At the same time, attention turned to the question of the start of Turkey's future membership of the European Union. At a European Council held on 17 December 2004, and despite earlier Greek Cypriot threats to impose a veto, Turkey was granted a start date for formal membership talks on condition that it signed a protocol extending the customs union to the new entrants to the EU, including Cyprus. Assuming this was done, formal membership talks would begin on 3 October 2005. Following the defeat of the UN plan in the referendum there has been no attempt to restart negotiations between the two sides. While both sides have reaffirmed their commitment to continuing efforts to reach an agreement, the UN Secretary-General has not been willing to restart the process until he can be sure that any new negotiations will lead to a comprehensive settlement based on the plan he put forward in 2004. To this end, he asked the Greek Cypriots to present a written list of the changes they would like to see made to the agreement. This was rejected by President Tassos Papadopoulos on the grounds that no side should be expected to present their demands in advance of negotiations. However, it appears as though the Greek Cypriots would be prepared to present their concerns orally. Another Greek Cypriot concern centres on the procedural process for new talks. Mr. Papadopoulos said that he would not accept arbitration or timetables for discussions. The UN fears that this would lead to another open-ended process that could drag on indefinitely. In October 2012, Northern Cyprus became an \"observer member\" country of the Economic Cooperation Organization under the name \"Turkish Cypriot State\". According to Stratis Efthymiou, even though defeated, the referendum had a formative impact on the Greek Cypriot community; Greek Cypriots felt that reunification is a touchable reality, and this undermined the nationalist struggle and ideas of military defence. According to Efthymiou, since the referendum, the phenomenon of draft dodging has become prevalent and the defence budget has turned into a trivial amount.",
+          "mentions_vote": true,
+          "names_later_date": true
+        },
+        {
+          "date": "2004-04-24",
+          "date_latest": "2004-04-24",
+          "date_precision": "day",
+          "text": "The podium display after the 2006 Turkish Grand Prix caused a controversy, when winner Felipe Massa received the trophy from Mehmet Ali Talat, who was referred to as the \"President of the Turkish Republic of Northern Cyprus\". The government of the Republic of Cyprus filed an official complaint with the FIA. After investigating the incident, the FIA fined the organisers of the Grand Prix $5 million on 19 September 2006. The Turkish Motorsports Federation (TOSFED) and the organisers of the Turkish Grand Prix (MSO) agreed to pay half the fined sum pending an appeal to be heard by the FIA International Court of Appeal on 7 November 2006. TOSFED insisted the move was not planned and that Talat did fit FIA's criteria for podium presentations as a figure of world standing. It is likely that the FIA wanted to repair their impartiality in international politics, the FIA stood their ground forcing the appeal to be withdrawn.",
+          "names_later_date": true
+        },
+        {
+          "date": "2004-04-24",
+          "date_latest": "2004-04-24",
+          "date_precision": "day",
+          "text": "Under the terms of the plan, the Annan plan would only come into force if accepted by the two communities in simultaneous referendums. These were set for 24 April 2004. In the weeks that followed there was intense campaigning in both communities. However, and in spite of opposition from Rauf Denktaş, who had boycotted the talks in Switzerland, it soon became clear that the Turkish Cypriots would vote in favour of the agreement. Among Greek Cypriots opinion was heavily weighted against the plan. Tassos Papadopoulos, the president of Cyprus, in a speech delivered on 7 April called on Greek Cypriots to reject the plan. His position was supported by the centrist Diko party and the socialists of EDEK as well as other smaller parties. His major coalition partner AKEL, one of the largest parties on the island, chose to reject the plan bowing to the wishes of the majority of the party base. Support for the plan was voiced by Democratic Rally (DISY) leadership, the main right-wing party, despite opposition to the plan from the majority of party followers, and the United Democrats, a small centre-left party led by George Vasiliou, a former president. Glafcos Clerides, now retired from politics, also supported the plan. Prominent members of DISY who did not support the Annan plan split from the party and openly campaigned against it. The Greek Cypriot Church also opposed the plan in line with the views of the majority of public opinion. The United Kingdom (a guarantor power) and the United States came out in favour of the plan. Turkey signalled its support for the plan. The Greek Government decided to remain neutral. However, Russia was troubled by an attempt by Britain and the US to introduce a resolution in the UN Security Council supporting the plan and used its veto to block the move. This was done because they believed that the resolution would provide external influence to the internal debate, which they did not view as fair. In 24 April referendum the Turkish Cypriots endorsed the plan by a margin of almost two to one. However, the Greek Cypriots resoundingly voted against the plan, by a margin of about three to one.",
+          "mentions_vote": true
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Timeline of Cypriot history",
+      "pageid": 12302640,
+      "revid": 1369974679,
+      "revision_timestamp": "2026-08-18T09:58:45Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=12302640",
+      "strategy": "table",
+      "segments": [
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "Archbishop Makarios III was elected the political and spiritual leader of Cyprus, the head of the autocephalous Cypriot Orthodox Church and leader of the campaign for Enosis with the support of Greece."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "Sir Robert Perceval Armitage became governor."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "Sir John Harding became governor."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "Britain deported Makarios to the Seychelles in an attempt to quell the revolt."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "Field Marshal Sir John Harding was replaced by the civilian governor Sir Hugh Foot in a conciliatory move."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "27 January First of 2 days of serious rioting by Turkish Cypriots. Seven were killed by British security forces."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "11-19 February London and Zürich Agreements started with an agreement on 19 February 1959 in Lancaster House, London, between Turkey, Greece, the United Kingdom and Cypriot community leaders. On that basis, a constitution was drafted and agreed together with two prior Treaties of Alliance and Guarantee in Zürich on 11 February 1959."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "British occupation ended."
+        },
+        {
+          "date": "1963-01-01",
+          "date_latest": "1963-12-31",
+          "date_precision": "year",
+          "text": "Greek Cypriots began to view the constitution as unworkable and proposed changes abolishing all veto rights and many ethnic clauses; these proposals were rejected by Turkish Cypriots and the Turkish government. Inter-communal fighting erupted. Tylliria was bombarded with napalm bombs. A UN Peace Keeping Force was sent in, but soon proved powerless to prevent incidents. Thousands of Turkish Cypriots retreated into enclaves where they were embargoed by the Greek Cypriots. The UN attempted to supply them with food and medicine. Akritas plan",
+          "mentions_vote": true
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "The Battle of Tylliria takes place. Greek-Cypriot forces storm the Turkish-held Kokkina enclave, prompting a Turkish military intervention and airstrikes on the Greek forces. However, Soviet pressure prevented the Turks from going any further, and when the battle ended after four days of fierce fighting, the Kokkina enclave had been reduced to 50-40% of its original size."
+        },
+        {
+          "date": "1973-01-01",
+          "date_latest": "1973-12-31",
+          "date_precision": "year",
+          "text": "The Turks emerged from their enclaves."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "Turkish invasion of Cyprus"
+        },
+        {
+          "date": "1975-01-01",
+          "date_latest": "1975-12-31",
+          "date_precision": "year",
+          "text": "Turks announced a Federate State in the north, with Rauf Denktaş as leader. UN Forces remained as buffer between the two zones."
+        },
+        {
+          "date": "1977-01-01",
+          "date_latest": "1977-12-31",
+          "date_precision": "year",
+          "text": "Makarios died. He was succeeded by Spyros Kyprianou."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "The Turkish Federated State declared itself the independent Turkish Republic of Northern Cyprus (TRNC), with Denktaş as president. The new state was not recognised by any country except Turkey and was officially boycotted."
+        },
+        {
+          "date": "1992-01-01",
+          "date_latest": "1992-12-31",
+          "date_precision": "year",
+          "text": "UN sponsored talks began between the two sides."
+        },
+        {
+          "date": "1995-01-01",
+          "date_latest": "1995-12-31",
+          "date_precision": "year",
+          "text": "The UN talks ran into the sand, but with a commitment to resume."
+        },
+        {
+          "date": "2001-01-01",
+          "date_latest": "2001-12-31",
+          "date_precision": "year",
+          "text": "The European Court of Human Rights found Turkey guilty of continuing human rights violations against the Greek Cypriots."
+        },
+        {
+          "date": "2003-01-01",
+          "date_latest": "2003-12-31",
+          "date_precision": "year",
+          "text": "Cyprus was set to join the European Union in May 2004. Renewed negotiations about the status of the island took place."
+        },
+        {
+          "date": "2004-01-01",
+          "date_latest": "2004-12-31",
+          "date_precision": "year",
+          "text": "24 April 2004 Annan Plan Referendum: The Annan Plan was accepted by the majority of Turkish Cypriots but overwhelmingly rejected by the Greek Cypriots.",
+          "duplicate_of": "Cyprus problem"
+        },
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-12-31",
+          "date_precision": "year",
+          "text": "Demetris Christofias replaced Tassos Papadopoulos as president of the Republic of Cyprus. It was the first time that a leader of the Greek Cypriot communist party, AKEL, had entered the presidential race. He was at the time the only communist leader in the European Union."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "History of Cyprus (1878–present)",
+      "pageid": 1455366,
+      "revid": 1357295462,
+      "revision_timestamp": "2026-06-01T21:20:43Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1455366",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1955-11-26",
+          "date_latest": "1955-11-26",
+          "date_precision": "day",
+          "text": "The British Governor proclaimed a State of Emergency on 26 November 1955."
+        },
+        {
+          "date": "1959-02-19",
+          "date_latest": "1959-02-19",
+          "date_precision": "day",
+          "text": "On February 19, 1959, the Zürich agreement attempted to end the conflict."
+        },
+        {
+          "date": "1959-12-13",
+          "date_latest": "1959-12-13",
+          "date_precision": "day",
+          "text": "Archbishop Makarios III, a charismatic religious and political leader, was elected the first president of independent Cyprus on 13 December 1959."
+        },
+        {
+          "date": "1960-08-16",
+          "date_latest": "1960-08-16",
+          "date_precision": "day",
+          "text": "On August 16, 1960 Cyprus gained its independence from the United Kingdom, after the long anti-British campaign by the Greek Cypriot EOKA (National Organisation of Cypriot Fighters), a guerrilla group which desired political union with Greece, or enosis."
+        },
+        {
+          "date": "1963-12-23",
+          "date_latest": "1963-12-23",
+          "date_precision": "day",
+          "text": "The confrontation prompted widespread intercommunal fighting in December 1963, after which the Akritas Plan was put into motion and Turkish Cypriot participation in the central government ceased on December 23, 1963, when all Cypriot Turks from the lowest civil servants to ministers, including the Turkish Vice-president Dr."
+        },
+        {
+          "date": "1974-07-20",
+          "date_latest": "1974-07-20",
+          "date_precision": "day",
+          "text": "The Turkish invasion of Cyprus began on 20 July 1974, under Article 4 of the Guarantee Treaty of 1960 by Turkey, after failed UN meetings for international support.",
+          "duplicate_of": "Timeline of Cypriot history"
+        },
+        {
+          "date": "2004-05-01",
+          "date_latest": "2004-05-01",
+          "date_precision": "day",
+          "text": "Cyprus joined the European Union on 1 May 2004.",
+          "duplicate_of": "Cyprus problem"
+        },
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-01-01",
+          "date_precision": "day",
+          "text": "On 1 January 2008, Cyprus joined the Eurozone, adopting the euro as its currency to replace the Cypriot pound."
+        },
+        {
+          "date": "2023-02-28",
+          "date_latest": "2023-02-28",
+          "date_precision": "day",
+          "text": "On 28 February 2023, Nikos Christodoulides, the winner of the 2023 presidential election run-off, was sworn in as the eighth president of the Republic of Cyprus."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

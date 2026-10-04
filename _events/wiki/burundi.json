@@ -1,0 +1,264 @@
+{
+  "topic": "burundi",
+  "label": "Burundi",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 34,
+  "flagged_vote_language": 2,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 0,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Burundian Civil War",
+      "pageid": 1078676,
+      "revid": 1371355413,
+      "revision_timestamp": "2026-08-26T02:04:17Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=1078676",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1994-04-06",
+          "date_latest": "1994-04-06",
+          "date_precision": "day",
+          "text": "Ndadaye's successor Cyprien Ntaryamira was assassinated in the same plane crash with Rwandan President Juvénal Habyarimana on 6 April 1994."
+        },
+        {
+          "date": "1996-07-20",
+          "date_latest": "1996-07-20",
+          "date_precision": "day",
+          "text": "Hutu rebels grew in power and killed about 300 Tutsi in a major attack on 20 July 1996."
+        },
+        {
+          "date": "1998-06-15",
+          "date_latest": "1998-06-15",
+          "date_precision": "day",
+          "text": "Formal peace talks with the rebels began at Arusha, Tanzania on 15 June 1998."
+        },
+        {
+          "date": "2000-11-30",
+          "date_latest": "2000-11-30",
+          "date_precision": "day",
+          "text": "The Arusha talks closed on November 30, 2000."
+        },
+        {
+          "date": "2000-12-28",
+          "date_latest": "2000-12-28",
+          "date_precision": "day",
+          "text": "Twenty Tutsis and one British woman were killed on 28 December 2000, in the Titanic Express massacre."
+        },
+        {
+          "date": "2001-04-18",
+          "date_latest": "2001-04-18",
+          "date_precision": "day",
+          "text": "On 18 April 2001, an attempted coup against Buyoya failed."
+        },
+        {
+          "date": "2001-07-23",
+          "date_latest": "2001-07-23",
+          "date_precision": "day",
+          "text": "On 23 July 2001, it was agreed that the transitional government would be led by Buyoya for 18 months, followed by Domitien Ndayizeye, a Hutu and FRODEBU leader."
+        },
+        {
+          "date": "2001-11-09",
+          "date_latest": "2001-11-09",
+          "date_precision": "day",
+          "text": "Some 300 boys were kidnapped from Museuma College on November 9, 2001."
+        },
+        {
+          "date": "2002-09-09",
+          "date_latest": "2002-09-09",
+          "date_precision": "day",
+          "text": "The September 9, 2002 Itaba massacre left hundreds of unarmed civilians dead."
+        },
+        {
+          "date": "2002-12-03",
+          "date_latest": "2002-12-03",
+          "date_precision": "day",
+          "text": "After being promised to be included in the new government, two wings of CNDD-FDD finally agreed to a ceasefire and joined the Arusha agreement on 3 December 2002."
+        },
+        {
+          "date": "2003-04-09",
+          "date_latest": "2003-04-09",
+          "date_precision": "day",
+          "text": "On April 9, 2003, the force headquarters of the African Union Mission in Burundi was established in Bujumbura under South African Maj."
+        },
+        {
+          "date": "2003-04-30",
+          "date_latest": "2003-04-30",
+          "date_precision": "day",
+          "text": "As previously agreed, Buyoya stepped down, and Ndayizeye became President on 30 April 2003."
+        },
+        {
+          "date": "2003-10-08",
+          "date_latest": "2003-10-08",
+          "date_precision": "day",
+          "text": "A power-sharing deal was signed on 8 October 2003, and Nkurunziza was appointed Minister of State in charge of good governance and the general inspection of the state."
+        },
+        {
+          "date": "2003-10-18",
+          "date_latest": "2003-10-18",
+          "date_precision": "day",
+          "text": "On 18 October 2003, it was announced that the African Union Mission had reached full strength: 1,483 South Africans, 820 Ethiopians, and 232 personnel from Mozambique."
+        },
+        {
+          "date": "2003-12-29",
+          "date_latest": "2003-12-29",
+          "date_precision": "day",
+          "text": "On December 29, 2003, Archbishop Michael Courtney, the papal nuncio for the country, was murdered."
+        },
+        {
+          "date": "2006-04-15",
+          "date_latest": "2006-04-15",
+          "date_precision": "day",
+          "text": "After 12 years of living with a midnight-to-dawn curfew, Burundians were free to stay out late when the curfew was lifted on April 15, 2006, for the first time since 1993."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Burundian unrest (2015–2018)",
+      "pageid": 46597403,
+      "revid": 1371157925,
+      "revision_timestamp": "2026-08-24T22:53:15Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=46597403",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2015-12-11",
+          "date_latest": "2015-12-11",
+          "date_precision": "day",
+          "text": "Three military camps and an officers' school in Bujumbura came under fire on 11 December 2015. Several soldiers were reportedly killed, but the government said that the attacks had failed. Nevertheless, fighting continued well into the day, although it had apparently stopped by 12 December. Army Spokesman Gaspard Baratuza later updated the death toll to say: \"The final toll of the attacks yesterday is 79 enemies killed, 45 captured, and 97 weapons seized, and on our side eight soldiers and policemen were killed and 21 wounded.\" While residents in Bujumbura discovered 39 bodies lying on the streets, Baratuza later said the bodies belonged to \"enemies.\" The death toll also later rose to 87. Meanwhile, reports indicated soldiers and police went door to door dragging out young men from their homes before killing them. Other residents posted pictures on social media showing some of the bodies with their hands tied behind their backs, while police spokesman Pierre Nkurikiye said there were \"no collateral victims.\" Baratuza added that those who attempted to raid the Ngagara military camp retreated and were pursued by security forces who \"inflicted on them considerable losses.\" Kenya Airways also cancelled flights to Bujumbura International Airport on 11 December but said they would resume them on 13 December. In the context of this violence, the African Union announced in mid-December 2015 that it planned to send peacekeepers to Burundi, but the government rejected any such deployment and said that if the troops were sent without its permission, it would be considered an invasion. On 23 December, the formation of a rebel group dedicated to forcing Nkurunziza out of power was officially announced; the group called itself the Republican Forces of Burundi (FOREBU). Nkurunziza reiterated on 30 December that AU peacekeepers were not welcome and that the army would fight back if they tried to deploy in Burundi. Other militants organized the \"Resistance for the Rule of Law in Burundi\" (RED-Tabara). The Burundian government subsequently began to claim that RED-Tabara was led by a prominent opposition figure, Alexis Sinduhije, and affiliated with the Movement for Solidarity and Democracy party. The rebel group denied links to Sinduhije."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "History of Burundi",
+      "pageid": 42794,
+      "revid": 1366884085,
+      "revision_timestamp": "2026-07-30T19:09:18Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=42794",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1959-01-20",
+          "date_latest": "1959-01-20",
+          "date_precision": "day",
+          "text": "On 20 January 1959, Burundi's ruler Mwami Mwambutsa IV requested Burundi's independence from Belgium and dissolution of the Ruanda-Urundi union."
+        },
+        {
+          "date": "1959-11-10",
+          "date_latest": "1959-11-10",
+          "date_precision": "day",
+          "text": "The trust territory guidelines required that the trust territories be prepared for independence and majority rule but it wasn't until 10 November 1959 that Belgium committed itself to political reform and legalised the emergence of competing political parties."
+        },
+        {
+          "date": "1961-09-08",
+          "date_latest": "1961-09-08",
+          "date_precision": "day",
+          "text": "Burundi's first elections took place on 8 September 1961 and UPRONA won just over 80% of the electorate's votes.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1962-07-01",
+          "date_latest": "1962-07-01",
+          "date_precision": "day",
+          "text": "(1962–1966).]] .]] Full independence was achieved on July 1, 1962."
+        },
+        {
+          "date": "1965-01-15",
+          "date_latest": "1965-01-15",
+          "date_precision": "day",
+          "text": "The 15 January 1965 assassination of the Hutu prime minister Pierre Ngendandumwe set in motion a series of destabilizing Hutu revolts and subsequent governmental repression."
+        },
+        {
+          "date": "1965-05-10",
+          "date_latest": "1965-05-10",
+          "date_precision": "day",
+          "text": "The monarchy refused to recognize gains by Hutu candidates in the first legislative elections held by Burundi as an independent country on 10 May 1965."
+        },
+        {
+          "date": "1965-10-18",
+          "date_latest": "1965-10-18",
+          "date_precision": "day",
+          "text": "In response, a group of Hutu carried out a failed coup attempt against the monarchy on 18 October 1965, which in turn prompted the killing of scores of Hutu politicians and intellectuals."
+        },
+        {
+          "date": "1966-07-09",
+          "date_latest": "1966-07-09",
+          "date_precision": "day",
+          "text": "On 9 July 1966 , King Mwambutsa IV was deposed by his son, Prince Ntare V, who himself was deposed by his prime minister Capt."
+        },
+        {
+          "date": "1972-01-14",
+          "date_latest": "1972-01-14",
+          "date_precision": "day",
+          "text": "On 14 January 1972, a military tribunal sentenced four Banyaruguru officers and five civilians to death, and seven to life imprisonment."
+        },
+        {
+          "date": "2015-05-13",
+          "date_latest": "2015-05-13",
+          "date_precision": "day",
+          "text": "On May 13, 2015, Burundi army General Godefroid Niyombareh, former head of Burundian intelligence, declared a coup via radio while Nkurunziza was abroad attending a summit in Tanzania with other African leaders."
+        },
+        {
+          "date": "2015-07-24",
+          "date_latest": "2015-07-24",
+          "date_precision": "day",
+          "text": "The presidential election results were announced on 24 July 2015."
+        },
+        {
+          "date": "2016-09-30",
+          "date_latest": "2016-09-30",
+          "date_precision": "day",
+          "text": "On 30 September 2016, the United Nations Human Rights Council established the Commission of Inquiry on Burundi through resolution 33/24."
+        },
+        {
+          "date": "2017-09-29",
+          "date_latest": "2017-09-29",
+          "date_precision": "day",
+          "text": "On 29 September 2017 the Commission of Inquiry on Burundi called on Burundian government to put an end to serious human rights violations."
+        },
+        {
+          "date": "2018-12-24",
+          "date_latest": "2018-12-24",
+          "date_precision": "day",
+          "text": "On 24 December 2018, the government moved Burundi's political capital from Bujumbura back to Gitega, where it had been until 1966."
+        },
+        {
+          "date": "2020-05-20",
+          "date_latest": "2020-05-20",
+          "date_precision": "day",
+          "text": "On 20 May 2020, Évariste Ndayishimiye, a candidate who was hand-picked as Nkurunziza's successor by the CNDD-FDD, won the election with 71.45% of the vote.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2020-06-09",
+          "date_latest": "2020-06-09",
+          "date_precision": "day",
+          "text": "Shortly after, on 9 June 2020, Nkurunziza died of a cardiac arrest, at the age of 55."
+        },
+        {
+          "date": "2020-06-18",
+          "date_latest": "2020-06-18",
+          "date_precision": "day",
+          "text": "As per the constitution, Pascal Nyabenda, the president of the national assembly, led the government until Ndayishimiye's inauguration on 18 June 2020."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# The scraped corpus stays local and is never committed or published.
+RES_*/
+*.pdf
+SECURITY/
+GENERAL/
+.DS_Store

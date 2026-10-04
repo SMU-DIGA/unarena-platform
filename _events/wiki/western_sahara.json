@@ -1,0 +1,281 @@
+{
+  "topic": "western_sahara",
+  "label": "Western Sahara",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 34,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 3,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 2,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Western Sahara conflict",
+      "pageid": 4255996,
+      "revid": 1370750677,
+      "revision_timestamp": "2026-08-22T22:16:10Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=4255996",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1973-05-10",
+          "date_latest": "1973-05-10",
+          "date_precision": "day",
+          "text": "The Polisario Front was formally constituted on 10 May 1973 in the Mauritanian city of Zouirate, with the express intention of militarily forcing an end to Spanish colonization."
+        },
+        {
+          "date": "1976-02-27",
+          "date_latest": "1976-02-27",
+          "date_precision": "day",
+          "text": "SADR was proclaimed by the Polisario Front on 27 February 1976, in Bir Lehlu, Western Sahara."
+        },
+        {
+          "date": "2007-04-30",
+          "date_latest": "2007-04-30",
+          "date_precision": "day",
+          "text": "On 30 April 2007, the United Nations Security Council passed Resolution 1754, which both urged the involved parties to \"enter into direct negotiations without preconditions and in good faith.\" and extended the MINURSO mission until 31 October 2007.",
+          "names_later_date": true
+        },
+        {
+          "date": "2007-06-19",
+          "date_latest": "2007-06-19",
+          "date_precision": "day",
+          "text": "The first round of talks took place on 18–19 June 2007, during which both parties agreed to resume talks on 10–11 August."
+        },
+        {
+          "date": "2008-01-09",
+          "date_latest": "2008-01-09",
+          "date_precision": "day",
+          "text": "After another inconclusive round of talks, the parties finally, on 8–9 January 2008, agreed on \"the need to move into a more intensive and substantive phase of negotiations\"."
+        },
+        {
+          "date": "2008-03-19",
+          "date_latest": "2008-03-19",
+          "date_precision": "day",
+          "text": "An additional round of talks was held from 18 to 19 March 2008, but once again no major agreement was reached."
+        },
+        {
+          "date": "2010-10-09",
+          "date_latest": "2010-10-09",
+          "date_precision": "day",
+          "text": "The Gdeim Izik protest camp was established in Western Sahara on 9 October 2010 and lasted into November, with related incidents occurring in the aftermath of its dismantlement on 8 November 2010.",
+          "names_later_date": true
+        },
+        {
+          "date": "2011-02-26",
+          "date_latest": "2011-02-26",
+          "date_precision": "day",
+          "text": "Another series of protests began on 26 February 2011, as a reaction to the failure of police to prevent anti-Sahrawi looting in the city of Dakhla, Western Sahara; protests soon spread throughout the territory."
+        },
+        {
+          "date": "2018-12-04",
+          "date_latest": "2018-12-04",
+          "date_precision": "day",
+          "text": "On 4 December 2018 Moroccan forces arrested Nezha El Khalidi under Article 381 for live-streaming a Sahrawi protest and subsequently failing to meet the qualifications of a journalist."
+        },
+        {
+          "date": "2018-12-06",
+          "date_latest": "2018-12-06",
+          "date_precision": "day",
+          "text": "The initial roundtable was held on 5–6 December 2018, followed by a second session on 21–22 March 2019.",
+          "names_later_date": true
+        },
+        {
+          "date": "2020-11-13",
+          "date_latest": "2020-11-13",
+          "date_precision": "day",
+          "text": "The ceasefire was upheld until 13 November 2020 when the Moroccan army entered into the demilitarized town of Guerguerat, and the Saharawi authorities responded by declaring that the ceasefire was broken and the SPLA armed forces attacked Moroccan army positions along the Moroccan Western Sahara Wall."
+        },
+        {
+          "date": "2020-11-14",
+          "date_latest": "2020-11-14",
+          "date_precision": "day",
+          "text": "(2021).]] On 14 November 2020, SADR president Brahim Ghali announced that he had signed a decree bringing the 29 year old ceasefire to an end, citing an incident two days prior in which the Moroccan army forcibly entered a crossing within the buffer zone that was being blocked by protesters—acts which the SADR considered a declaration of war."
+        },
+        {
+          "date": "2020-12-04",
+          "date_latest": "2020-12-04",
+          "date_precision": "day",
+          "text": "On 4 December 2020, the United States has recognized Moroccan sovereignty over the entire Western Sahara territory and has reaffirmed its support for Morocco's autonomy proposal as the only basis for a just and lasting solution to the dispute over the Western Sahara territory."
+        },
+        {
+          "date": "2020-12-10",
+          "date_latest": "2020-12-10",
+          "date_precision": "day",
+          "text": "On 10 December 2020, President Donald Trump announced that the United States would officially recognize Morocco's claims over Western Sahara, in exchange for Morocco agreeing to normalize relations with Israel."
+        },
+        {
+          "date": "2021-10-06",
+          "date_latest": "2021-10-06",
+          "date_precision": "day",
+          "text": "On 6 October 2021, United Nations Secretary‑General, António Guterres, announced the appointment of Staffan de Mistura as his Personal Envoy for Western Sahara."
+        },
+        {
+          "date": "2022-01-13",
+          "date_latest": "2022-01-13",
+          "date_precision": "day",
+          "text": "On 13 January 2022, De Mistura commenced a round of discussions starting with Morocco's Foreign Minister, Nasser Bourita."
+        },
+        {
+          "date": "2022-01-15",
+          "date_latest": "2022-01-15",
+          "date_precision": "day",
+          "text": "On 15 January 2022, de Mistura, met with Polisario's head of political organization, Khatri Addouh, in Shahid Al Hafed."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Western Sahara War",
+      "pageid": 14765083,
+      "revid": 1370975554,
+      "revision_timestamp": "2026-08-24T00:33:41Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=14765083",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1973-05-10",
+          "date_latest": "1973-05-10",
+          "date_precision": "day",
+          "text": "The Polisario Front was formally constituted on 10 May 1973 in the Mauritanian city of Zouérat, with the express intention of militarily forcing an end to Spanish colonization.",
+          "duplicate_of": "Western Sahara conflict"
+        },
+        {
+          "date": "1975-11-14",
+          "date_latest": "1975-11-14",
+          "date_precision": "day",
+          "text": "Due to this pressure, Spain entered negotiations that led to the signing of the Madrid Accords, by which it ceded the administrative control of the territory to Mauritania and Morocco on 14 November 1975."
+        },
+        {
+          "date": "1975-12-11",
+          "date_latest": "1975-12-11",
+          "date_precision": "day",
+          "text": "On 11 December 1975, the first Moroccan troops arrived in El Aaiún, and fighting erupted with the Polisario Front."
+        },
+        {
+          "date": "1976-01-27",
+          "date_latest": "1976-01-27",
+          "date_precision": "day",
+          "text": "On 27 January 1976, the First Battle of Amgala erupted between Morocco and Algeria with the Polisario."
+        },
+        {
+          "date": "1976-02-26",
+          "date_latest": "1976-02-26",
+          "date_precision": "day",
+          "text": "On 26 February 1976, Spain officially announced its full withdrawal from the area."
+        },
+        {
+          "date": "1976-02-27",
+          "date_latest": "1976-02-27",
+          "date_precision": "day",
+          "text": "The Polisario Front proclaimed the Sahrawi Arab Democratic Republic on 27 February 1976 and waged a guerrilla war against both Morocco and Mauritania."
+        },
+        {
+          "date": "1979-08-05",
+          "date_latest": "1979-08-05",
+          "date_precision": "day",
+          "text": "A comprehensive peace treaty was signed on 5 August 1979, in which the new Mauritanian government recognized Sahrawi rights to Western Sahara and relinquished its own claims."
+        },
+        {
+          "date": "1979-08-11",
+          "date_latest": "1979-08-11",
+          "date_precision": "day",
+          "text": "King Hassan II of Morocco immediately claimed the area of Western Sahara evacuated by Mauritania (Tiris al-Gharbiya, roughly corresponding to the southern half of Río de Oro), which was unilaterally annexed by Morocco on 11 August 1979."
+        },
+        {
+          "date": "1980-01-17",
+          "date_latest": "1980-01-17",
+          "date_precision": "day",
+          "text": "On 17 January 1980, the Spanish destroyer Almirante Ferrandiz was machine-gunned by a Moroccan Mirage fighter aircraft, 5 mi from the southern coast of Western Sahara."
+        },
+        {
+          "date": "1985-02-24",
+          "date_latest": "1985-02-24",
+          "date_precision": "day",
+          "text": "On 24 February 1985, the Polar 3, a Dornier 228-type research airplane from the Alfred Wegener Institute was shot down by guerrillas of the Polisario Front over Western Sahara."
+        },
+        {
+          "date": "1989-10-07",
+          "date_latest": "1989-10-07",
+          "date_precision": "day",
+          "text": "On 7 October 1989, the Polisario launched an attack against Moroccan troops in Guelta Zemmour (Centre of Western Sahara) and Algeria, but sustained heavy casualties and withdrew, leaving behind more than 18 tanks and a dozen other vehicles."
+        },
+        {
+          "date": "1991-09-06",
+          "date_latest": "1991-09-06",
+          "date_precision": "day",
+          "text": "In yellow, the territory under control by the Polisario Front. ]] A cease-fire between the Polisario and Morocco, monitored by MINURSO (UN), came into effect on 6 September 1991, with the promise of a referendum on independence the following year."
+        },
+        {
+          "date": "2020-11-13",
+          "date_latest": "2020-11-13",
+          "date_precision": "day",
+          "text": "On 13 November 2020 clashes between Moroccan and the Polisario Front forces began in Guerguerat and spread along the Moroccan Western Sahara Wall."
+        },
+        {
+          "date": "2021-04-08",
+          "date_latest": "2021-04-08",
+          "date_precision": "day",
+          "text": "On 8 April 2021, the head of the Sahrawi National Guard, Addah Al-Bendir, was killed by what reports claim to be a drone strike while attempting a raid on Moroccan positions along the sand wall."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Western Sahara peace process",
+      "pageid": 39666356,
+      "revid": 1336247568,
+      "revision_timestamp": "2026-02-02T18:51:13Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=39666356",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2011-02-26",
+          "date_latest": "2011-02-26",
+          "date_precision": "day",
+          "text": "Another series of protests began on 26 February 2011, in response to the police's failure to prevent anti-Sahrawi looting in the city of Dakhla, Western Sahara; the protests soon spread throughout the territory.",
+          "duplicate_of": "Western Sahara conflict"
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Mission for the Referendum in Western Sahara",
+      "pageid": 412902,
+      "revid": 1369291560,
+      "revision_timestamp": "2026-08-14T02:45:44Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=412902",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2007-04-11",
+          "date_latest": "2007-04-11",
+          "date_precision": "day",
+          "text": "In April 2007 the resolution extending the mandate to October took \"note of the Moroccan proposal presented on 11 April 2007 to the Secretary-General and welcoming serious and credible Moroccan efforts to move the process forward towards resolution\" and also took \"note of the Polisario Front proposal presented on 10 April 2007 to the Secretary-General\"."
+        },
+        {
+          "date": "2012-06-02",
+          "date_latest": "2012-06-02",
+          "date_precision": "day",
+          "text": "Special Representative of the Secretary-General and Chief of Mission: Alexander Ivanko () *Force Commander: Major general Jawwad Ahmed Qazi ( Pakistan) *Chief of Mission Support: Veneranda Mukandoli-Jefferson () *Chief of Staff: Nick Birnback () *Head of Liaison Office, Tindouf: Yusef Jedian () , Western Sahara, June 2, 2012."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

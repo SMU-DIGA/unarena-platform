@@ -1,0 +1,423 @@
+{
+  "topic": "war_crimes_tribunals",
+  "label": "International criminal tribunals",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 57,
+  "flagged_vote_language": 1,
+  "flagged_names_later_date": 4,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 4,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "International Criminal Tribunal for Rwanda",
+      "pageid": 73008,
+      "revid": 1370677842,
+      "revision_timestamp": "2026-08-22T13:29:26Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=73008",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1994-04-06",
+          "date_latest": "1994-04-06",
+          "date_precision": "day",
+          "text": "On April 6, 1994, a plane carrying then-President Juvenal Habyarimana, and Cyprien Ntaryamira of Burundi was shot down, killing everyone on board."
+        },
+        {
+          "date": "1994-11-08",
+          "date_latest": "1994-11-08",
+          "date_precision": "day",
+          "text": "Adopting Resolution 955, the Security Council created the ICTR on 8 November 1994 and the ICTR would also deal with other crimes against international humanitarian law committed on the territory of Rwanda and neighboring states between 1 January 1994 and 31 December 1994.",
+          "names_later_date": true
+        },
+        {
+          "date": "2000-10-23",
+          "date_latest": "2000-10-23",
+          "date_precision": "day",
+          "text": "The trial against \"hate media\" began on 23 October 2000."
+        },
+        {
+          "date": "2003-08-19",
+          "date_latest": "2003-08-19",
+          "date_precision": "day",
+          "text": "On 19 August 2003, at the tribunal in Arusha, life sentences were requested for Ferdinand Nahimana, and Jean-Bosco Barayagwiza, persons in charge for the Radio Télévision Libre des Mille Collines, as well as Hassan Ngeze, director and editor of the Kangura newspaper."
+        },
+        {
+          "date": "2003-12-03",
+          "date_latest": "2003-12-03",
+          "date_precision": "day",
+          "text": "On 3 December 2003, the court found all three defendants guilty and sentenced Nahimana and Ngeze to life imprisonment and Barayagwiza to imprisonment for 35 years."
+        },
+        {
+          "date": "2007-11-28",
+          "date_latest": "2007-11-28",
+          "date_precision": "day",
+          "text": "On 28 November 2007, the Appeals Chamber partially allowed appeals against conviction from all three men, reducing their sentences to 30 years' imprisonment for Nahimana, 32 years' imprisonment for Barayagwiza and 35 years' imprisonment for Ngeze."
+        },
+        {
+          "date": "2014-12-31",
+          "date_latest": "2014-12-31",
+          "date_precision": "day",
+          "text": "The United Nations Security Council called upon the tribunal to finish its work by 31 December 2014 to prepare for its closure and transfer of its responsibilities to the International Residual Mechanism for Criminal Tribunals (IRMCT or Mechanism) which had begun functioning for the ICTR branch on 1 July 2012."
+        },
+        {
+          "date": "2015-12-31",
+          "date_latest": "2015-12-31",
+          "date_precision": "day",
+          "text": "The Tribunal was officially closed on 31 December 2015."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "International Criminal Tribunal for the former Yugoslavia",
+      "pageid": 15274,
+      "revid": 1371742757,
+      "revision_timestamp": "2026-08-28T05:26:07Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=15274",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1993-02-22",
+          "date_latest": "1993-02-22",
+          "date_precision": "day",
+          "text": "]] United Nations Security Council Resolution 808 of 22 February 1993 decided that an \"international tribunal shall be established for the prosecution of persons responsible for serious violations of international humanitarian law committed in the territory of the former Yugoslavia since 1991\", and called on the Secretary-General to \"submit for consideration by the Council ... a report on all aspects of this matter, including specific proposals and where appropriate options ... taking into account suggestions put forward in this regard by Member States\"."
+        },
+        {
+          "date": "1993-05-25",
+          "date_latest": "1993-05-25",
+          "date_precision": "day",
+          "text": "It was established by Resolution 827 of the United Nations Security Council, which was passed on 25 May 1993.",
+          "duplicate_of": "International Criminal Tribunal for the former Yugoslavia"
+        },
+        {
+          "date": "1993-05-25",
+          "date_latest": "1993-05-25",
+          "date_precision": "day",
+          "text": "Resolution 827 of 25 May 1993 approved the S/25704 report of the secretary-general and adopted the Statute of the International Tribunal annexed to it, formally creating the ICTY."
+        },
+        {
+          "date": "1994-11-08",
+          "date_latest": "1994-11-08",
+          "date_precision": "day",
+          "text": "The very first hearing at the ICTY was a referral request in the Tadić case on 8 November 1994."
+        },
+        {
+          "date": "1995-02-13",
+          "date_latest": "1995-02-13",
+          "date_precision": "day",
+          "text": "This was followed on 13 February 1995 by two indictments comprising 21 individuals which were issued against a group of 21 Bosnian-Serbs charged with committing atrocities against Muslim and Croat civilian prisoners."
+        },
+        {
+          "date": "1995-04-26",
+          "date_latest": "1995-04-26",
+          "date_precision": "day",
+          "text": "He made his first appearance before the ICTY Trial Chamber on 26 April 1995, and pleaded not guilty to all of the charges in the indictment. 1995–1996: Between June 1995 and June 1996, 10 public indictments were confirmed against a total of 33 people."
+        },
+        {
+          "date": "2006-12-06",
+          "date_latest": "2006-12-06",
+          "date_precision": "day",
+          "text": "The prosecution on the other hand, could draw from the tribunal resources when conducting investigations and invoke the authority of the tribunal in contacts with national jurisdictions (demanding access to documents and witnesses and the surrender of suspects), the defense could only rely on other states' goodwill and informal contacts. ** On 6 December 2006, the Tribunal at The Hague approved the use of force-feeding of Serbian politician Vojislav Šešelj."
+        },
+        {
+          "date": "2011-07-20",
+          "date_latest": "2011-07-20",
+          "date_precision": "day",
+          "text": "Croat Serb General and former president of the Republic of Serbian Krajina Goran Hadžić was the last fugitive wanted by the tribunal to be arrested on 20 July 2011."
+        },
+        {
+          "date": "2011-07-20",
+          "date_latest": "2011-07-20",
+          "date_precision": "day",
+          "text": "The final fugitive, Goran Hadžić, was arrested on 20 July 2011.",
+          "duplicate_of": "International Criminal Tribunal for the former Yugoslavia"
+        },
+        {
+          "date": "2013-04-10",
+          "date_latest": "2013-04-10",
+          "date_precision": "day",
+          "text": "The interactive thematic debate on the role of international criminal justice in reconciliation: ** The debate convened on 10 April 2013 by the President of the General Assembly, Vuk Jeremić, the Minister of Foreign Affairs of Serbia during the resumed part of the GA's 67th Session."
+        },
+        {
+          "date": "2013-07-01",
+          "date_latest": "2013-07-01",
+          "date_precision": "day",
+          "text": "Residual functions of the ICTY, including the oversight of sentences and consideration of any appeal proceedings initiated since 1 July 2013, are under the jurisdiction of a successor body, the International Residual Mechanism for Criminal Tribunals (IRMCT)."
+        },
+        {
+          "date": "2013-07-01",
+          "date_latest": "2013-07-01",
+          "date_precision": "day",
+          "text": "The ICTY would also conduct and complete all appeal proceedings for which the notice of appeal against the judgement or sentence was filed before 1 July 2013."
+        },
+        {
+          "date": "2013-07-01",
+          "date_latest": "2013-07-01",
+          "date_precision": "day",
+          "text": "The IRMCT's ICTY branch began functioning on 1 July 2013."
+        },
+        {
+          "date": "2014-12-31",
+          "date_latest": "2014-12-31",
+          "date_precision": "day",
+          "text": "Resolution 1966 called upon the tribunal to finish its work by 31 December 2014 to prepare for its closure and the transfer of its responsibilities.",
+          "duplicate_of": "International Criminal Tribunal for Rwanda"
+        },
+        {
+          "date": "2017-11-22",
+          "date_latest": "2017-11-22",
+          "date_precision": "day",
+          "text": "The final ICTY trial to be completed in the first instance was that of Ratko Mladić, who was convicted on 22 November 2017."
+        },
+        {
+          "date": "2017-11-29",
+          "date_latest": "2017-11-29",
+          "date_precision": "day",
+          "text": "The final case to be considered by the ICTY was an appeal proceeding encompassing six individuals, whose sentences were upheld on 29 November 2017."
+        },
+        {
+          "date": "2017-11-29",
+          "date_latest": "2017-11-29",
+          "date_precision": "day",
+          "text": "The final judgment was issued on 29 November 2017 and the institution formally ceased to exist on 31 December 2017.",
+          "names_later_date": true
+        },
+        {
+          "date": "2017-11-29",
+          "date_latest": "2017-11-29",
+          "date_precision": "day",
+          "text": "They decided it was not \"torture, inhuman or degrading treatment if there is a medical necessity to do so ... and if the manner in which the detainee is force-fed is not inhuman or degrading\". ** Regarding the final case on 29 November 2017 proceeding encompassing six Bosnian-Croat individuals, one of whom, Slobodan Praljak, in protest in court drank poison and subsequently died, the Prime Minister of Croatia, Andrej Plenković, claimed the verdict was \"unjust\" and Praljak's suicide \"speaks of deep moral injustice to the six Croats, from Bosnia and Herzegovina and the Croat people\"."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "International Residual Mechanism for Criminal Tribunals",
+      "pageid": 31950186,
+      "revid": 1370677930,
+      "revision_timestamp": "2026-08-22T13:30:15Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=31950186",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2010-12-22",
+          "date_latest": "2010-12-22",
+          "date_precision": "day",
+          "text": "In order to oversee the residual functions of the ICTY and ICTR in an efficient manner, the Security Council passed Resolution 1966 on 22 December 2010, which created the Mechanism."
+        },
+        {
+          "date": "2012-07-01",
+          "date_latest": "2012-07-01",
+          "date_precision": "day",
+          "text": "It commenced functioning on 1 July 2012."
+        },
+        {
+          "date": "2013-07-01",
+          "date_latest": "2013-07-01",
+          "date_precision": "day",
+          "text": "The other branch is located in The Hague, Netherlands and began operating on 1 July 2013."
+        },
+        {
+          "date": "2024-05-15",
+          "date_latest": "2024-05-15",
+          "date_precision": "day",
+          "text": "In accordance with this Article, the ICTR Prosecutor requested referrals to Rwanda in the cases of the last two fugitives: Charles Sikubwabo and Charles Ryandikayo, later declared dead on 15 May 2024."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Special Court for Sierra Leone",
+      "pageid": 4547460,
+      "revid": 1343678815,
+      "revision_timestamp": "2026-03-15T19:46:11Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=4547460",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1996-11-30",
+          "date_latest": "1996-11-30",
+          "date_precision": "day",
+          "text": "selection/executive selection/cooption/etc --> }} The Special Court for Sierra Leone, or the \"Special Court\" (SCSL), also called the Sierra Leone Tribunal, was a judicial body set up by the government of Sierra Leone and the United Nations to \"prosecute persons who bear the greatest responsibility for serious violations of international humanitarian law and Sierra Leonean law\" committed in Sierra Leone after 30 November 1996 and during the Sierra Leone Civil War."
+        },
+        {
+          "date": "1997-05-25",
+          "date_latest": "1997-05-25",
+          "date_precision": "day",
+          "text": "The only indicted person who is not detained, and whose whereabouts remain uncertain, is the former dictator and AFRC chairman Johnny Paul Koroma, who seized power in a military coup on 25 May 1997."
+        },
+        {
+          "date": "2000-06-12",
+          "date_latest": "2000-06-12",
+          "date_precision": "day",
+          "text": "On 12 June 2000, Sierra Leone's President Ahmad Tejan Kabbah wrote a letter to United Nations Secretary-General Kofi Annan asking the international community to try those responsible for crimes during the conflict."
+        },
+        {
+          "date": "2000-08-10",
+          "date_latest": "2000-08-10",
+          "date_precision": "day",
+          "text": "On 10 August 2000, the United Nations Security Council adopted Resolution 1315 requesting the Secretary-General to start negotiations with the Sierra Leonean government to create a Special Court."
+        },
+        {
+          "date": "2002-01-16",
+          "date_latest": "2002-01-16",
+          "date_precision": "day",
+          "text": "On 16 January 2002, the UN and the government of Sierra Leone signed an agreement establishing the court."
+        },
+        {
+          "date": "2004-03-10",
+          "date_latest": "2004-03-10",
+          "date_precision": "day",
+          "text": "On 10 March 2004, the new courthouse building of the Special Court for Sierra Leone was officially opened, before an audience of national and international dignitaries."
+        },
+        {
+          "date": "2004-06-03",
+          "date_latest": "2004-06-03",
+          "date_precision": "day",
+          "text": "Their trial started on 3 June 2004 and concluded with closing arguments in September 2006."
+        },
+        {
+          "date": "2004-07-05",
+          "date_latest": "2004-07-05",
+          "date_precision": "day",
+          "text": "The trial for Kallon, Gbao and Sesay began on 5 July 2004."
+        },
+        {
+          "date": "2006-06-17",
+          "date_latest": "2006-06-17",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 1688 of 17 June 2006 allowed the Special Court to transfer Taylor's case to The Hague, Netherlands, where the physical infrastructure of the International Criminal Court would be used with the trial still being conducted under the SCSL's auspices."
+        },
+        {
+          "date": "2007-02-22",
+          "date_latest": "2007-02-22",
+          "date_precision": "day",
+          "text": "Norman died in custody on 22 February 2007 before judgement after having undergone a surgical procedure in Dakar, Senegal."
+        },
+        {
+          "date": "2007-06-04",
+          "date_latest": "2007-06-04",
+          "date_precision": "day",
+          "text": "Taylor's trial started on 4 June 2007, with the first witness appearing 7 January 2008.",
+          "names_later_date": true
+        },
+        {
+          "date": "2007-06-20",
+          "date_latest": "2007-06-20",
+          "date_precision": "day",
+          "text": "On 20 June 2007, the three suspects in the Armed Forces Revolutionary Council trial, Brima, Kanu, and Kamara, were each convicted of eleven of 14 counts."
+        },
+        {
+          "date": "2007-07-19",
+          "date_latest": "2007-07-19",
+          "date_precision": "day",
+          "text": "On 19 July 2007, Alex Tamba Brima and Santigie Borbor Kanu were sentenced to 50 years in jail, while Brima Kamara was sentenced to 45 years' imprisonment."
+        },
+        {
+          "date": "2007-08-02",
+          "date_latest": "2007-08-02",
+          "date_precision": "day",
+          "text": "On 2 August 2007, the two surviving CDF defendants, Kondewa and Fofana, were convicted of murder, cruel treatment, pillage and collective punishments."
+        },
+        {
+          "date": "2007-10-09",
+          "date_latest": "2007-10-09",
+          "date_precision": "day",
+          "text": "On 9 October 2007, the Court decided on the punishment."
+        },
+        {
+          "date": "2008-02-22",
+          "date_latest": "2008-02-22",
+          "date_precision": "day",
+          "text": "On 22 February 2008, the Appeals Chamber denied their appeal and reaffirmed the verdicts."
+        },
+        {
+          "date": "2008-05-28",
+          "date_latest": "2008-05-28",
+          "date_precision": "day",
+          "text": "On appellate judgements announced on 28 May 2008, the Appeals Chamber overturned convictions of both defendants on the collective punishments charge as well as Kondewa's conviction for the use of child soldiers."
+        },
+        {
+          "date": "2008-08-05",
+          "date_latest": "2008-08-05",
+          "date_precision": "day",
+          "text": "Final oral arguments were conducted on 4 and 5 August 2008."
+        },
+        {
+          "date": "2008-08-15",
+          "date_latest": "2008-08-15",
+          "date_precision": "day",
+          "text": "Kamara took up his post on 15 August 2008."
+        },
+        {
+          "date": "2009-02-25",
+          "date_latest": "2009-02-25",
+          "date_precision": "day",
+          "text": "On 25 February 2009, convictions of each of the three RUF defendants were handed down."
+        },
+        {
+          "date": "2009-02-27",
+          "date_latest": "2009-02-27",
+          "date_precision": "day",
+          "text": "The prosecution rested its case on 27 February 2009, and the defense began their case on 13 July and rested on 12 November 2010.",
+          "names_later_date": true
+        },
+        {
+          "date": "2009-04-08",
+          "date_latest": "2009-04-08",
+          "date_precision": "day",
+          "text": "Sentences were handed down on 8 April 2009."
+        },
+        {
+          "date": "2009-10-26",
+          "date_latest": "2009-10-26",
+          "date_precision": "day",
+          "text": "The convictions and sentences were appealed and, on 26 October 2009, the Appeals Chamber handed down an opinion denying that appeal.",
+          "duplicate_of": "Special Court for Sierra Leone"
+        },
+        {
+          "date": "2012-04-26",
+          "date_latest": "2012-04-26",
+          "date_precision": "day",
+          "text": "On 26 April 2012, Charles Taylor was convicted on all 11 counts with which he remained charged."
+        },
+        {
+          "date": "2012-04-26",
+          "date_latest": "2012-04-26",
+          "date_precision": "day",
+          "text": "On 26 April 2012, former Liberian President Charles Taylor became the first African head of state to be convicted for his part in war crimes."
+        },
+        {
+          "date": "2012-04-26",
+          "date_latest": "2012-04-26",
+          "date_precision": "day",
+          "text": "The Trial Chamber II scheduled the announcement of its verdict on 26 April 2012 The verdict was read starting at 11:00 by the presiding judge Richard Lussick, who said that \"the trial chamber unanimously finds you guilty of aiding and abetting [all of these] crimes:\" acts of terrorism; murder; violence to life, health or physical well being of persons; rape; sexual slavery; outrages upon personal dignity; violence to life, health and physical or mental well being of persons; other inhumane acts, a crime against humanity; conscripting or enlisting children under the age of 15 years into the armed forces; enslavement; and pillage in accordance with article 6.1 of the SCSL's statute.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2012-05-30",
+          "date_latest": "2012-05-30",
+          "date_precision": "day",
+          "text": "On 30 May 2012, he was sentenced to a term of 50 years in prison."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "topic": "cote_divoire",
+  "label": "Ivorian civil wars",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 32,
+  "flagged_vote_language": 2,
+  "flagged_names_later_date": 6,
+  "vague_dated_segments": 6,
+  "cross_article_duplicates": 1,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "First Ivorian Civil War",
+      "pageid": 1173504,
+      "revid": 1370619365,
+      "revision_timestamp": "2026-08-22T03:22:11Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=1173504",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2002-09-19",
+          "date_latest": "2002-09-19",
+          "date_precision": "day",
+          "text": "The \"opening salvo\" in the war was a rebellion against Gbagbo's government by Ivorian troops, who on 19 September 2002 executed a well-coordinated simultaneous attack on three Ivorian cities, including the largest city, Abidjan. It was reportedly planned by former pro-RDR or pro-Guéï dissidents in the military and in the Student Federation of Ivory Coast (FESCI, Fédération estudiantine et scolaire de Côte d'Ivoire). According to the International Crisis Group, the rebellion involved about 750 troops, but it reportedly originated in a smaller protest of about 200 soldiers, primarily from the north of the country, who objected to their demobilisation by the government, viewing it as ethnically motivated. A severe response from the government – which included demolishing the homes of immigrant workers accused of supporting the rebellion – was supported by ad hoc pro-government militias. Guéï was shot dead on the day of the rebellion – according to his family, while having lunch – \"in circumstances that lead many to believe the government wanted him eliminated\". After Ouattara's house was burned down, he took refuge at the French ambassador's residence; while former President Bédié was accommodated at the Canadian ambassador's residence. Having failed to take Abidjan, the rebels – who later identified themselves as the Patriotic Movement of Ivory Coast (MPCI, Mouvement patriotique de Côte d'Ivoire) – retreated northwards, and they quickly established control over much of the north, including the cities of Bouaké and Korhogo."
+        },
+        {
+          "date": "2002-09-22",
+          "date_latest": "2002-09-22",
+          "date_precision": "day",
+          "text": "of the French 1st Parachute Hussar Regiment in Ivory Coast.|246x246px]] Ivory Coast's former colonial power, France, was invested in the outcome of the conflict – given its significant business interests in Ivory Coast, and the presence of more than 20,000 French citizens there – but was extremely reluctant to intervene in support of Gbagbo. Nonetheless, on 22 September, France launched Operation Licorne, with an initial mandate focused on protecting and evacuating French nationals and other foreign nationals. Indeed, in the weeks after the rebellion, French and American forces evacuated 2,500 people – mostly foreign nationals – from the Ivory Coast. Operation Licorne was initially staffed by the 650 troops regularly based in Ivory Coast under the terms of a bilateral defence agreement. These were soon supplemented by additional troops shifted from French bases in Gabon and other African countries, as well as by a deployment of 70 additional paratroopers in October. France emphasised the forces' protection mandate, saying repeatedly that it was not intervening in the conflict, but the presence of French troops soon became crucial to the government's security, for example in barring rebel advances on the capital city, Yamoussoukro. It was also reported that France had agreed to provide Gbagbo's government with logistical support and tactical advice. However, both sides – the government and the rebels – accused France of supporting the other, and the French intervention faced opposition from a segment of the Ivorian public: on 22 October, French troops dispersed a demonstration outside their base, using grenades and tear gas to do so."
+        },
+        {
+          "date": "2002-10-01",
+          "date_latest": "2002-10-31",
+          "date_precision": "month",
+          "text": "The conflict continued to intensify, as both sides recruited and armed thousands of civilians – and, on the government side, contracted foreign mercenaries. However, on September 29, the Economic Community of West African States (ECOWAS) launched peace negotiations in Accra, Ghana, under the mediation of a high-level contact group comprising representatives from Ghana, Guinea-Bissau, Mali, Niger, Nigeria, and Togo. This initiative resulted on 17 October in a ceasefire between MPCI and the Ivorian government, as well as an agreement to continue substantive peace talks under ECOWAS auspices. Further bilateral talks were held in Lomé, Togo, in October and November, but failed to break a political deadlock: MPCI demanded Gbagbo's removal, fresh elections, and a review of the constitution. By then, moreover, MPCI was no longer the sole rebel group involved in the conflict. While MPCI continued to hold much of the north and the government much of the south, by the end of November, two rebel groups were operating in the west, near the Liberian border: the Movement for Justice and Peace (MJP, Mouvement pour la justice et la paix) and the Ivorian Popular Movement of the Great West (MPIGO, Mouvement populaire ivoirien du Grand Ouest). Both groups demanded Gbagbo's resignation and revenge for Guéï's death. On 28 November, MJP and MPIGO took control of Man, and French troops were drawn into hot conflict for the first time, recapturing the airport in a battle which killed ten rebels and injured one French soldier. On the government side, FPI supporters, led by the Young Patriots (COJEP, Congrès panafricain des jeunes et des patriotes), clashed frequently with opposition supporters in violent communal political demonstrations. By the middle of December 2002, 400 people had died in the conflict and 100,000 more had been displaced. At that time, there were more than 2,500 French troops, including members of the Foreign Legion, in the Ivory Coast; their mission had been enhanced, to include enforcing the 17 October ceasefire by maintaining a buffer zone between rebel forces in the north and government in the south. In December, the rebels regrouped politically, with MJP and MPGIO joined MPCI as junior partners in a new political coalition, the New Forces of Ivory Coast (FNCI, Forces Nouvelles de Côte d'Ivoire), led by Guillaume Soro of the MPCI.' This merger was viewed as a strategic choice to improve the rebels' bargaining position ahead of upcoming peace talks. Thereafter, the New Forces administered its northern territories in ten \"comzones\", each headed by a zone commander, who was typically a former military officer."
+        },
+        {
+          "date": "2003-01-18",
+          "date_latest": "2003-01-18",
+          "date_precision": "day",
+          "text": "ECOWAS leaders had agreed on 18 December 2002 to deploy an ECOWAS Peace Force for Côte d'Ivoire, comprising 3,200 military personnel. The force was to arrive before the end of December and take over from France in monitoring the ceasefire. However, its deployment was delayed, and the first contingent of troops did not arrive until 18 January 2003 and consisted of only 172 soldiers. According to the International Peace Institute, the inadequacy of ECOWAS's intervention motivated France to lobby in the United Nations (UN) Security Council for a UN peacekeeping operation and, in January 2003, to spearhead peace talks."
+        },
+        {
+          "date": "2003-01-26",
+          "date_latest": "2003-01-26",
+          "date_precision": "day",
+          "text": "From 15 to 26 January 2003, the various parties – government, rebel forces, and opposition political parties – met at Linas-Marcoussis, near Paris, France, to undertake substantive peace negotiations. The talks were \"a French-driven initiative with inputs from regional organizations and the UN\": they were chaired by Pierre Mazeaud, the chairman of the French Constitutional Council, who was assisted by Kéba Mbaye (a Senegalese judge), Seydou Diarra (former Ivorian prime minister and African Union (AU) special envoy), Mohamed Ibn Chambas (the executive secretary of ECOWAS), and Ahmedou Ould Abdallah (the Special Representative for West Africa of the UN Secretary-General). The New Forces had inherited MPCI's position in the negotiations: the rebels demanded a fresh election, viewing as illegitimate the results of the 2000 election; while the Ivorian government insisted that Gbagbo should complete his presidential term."
+        },
+        {
+          "date": "2003-01-26",
+          "date_latest": "2003-01-26",
+          "date_precision": "day",
+          "text": "Inside Ivory Coast, however, FPI and government supporters regarded the Linas-Marcoussis Accord with hostility. Opposition came especially from the military, which rejected New Forces control of the interior and defence ministries and the integration of the rebels into the army. Opposition to the agreement also acquired strong overtones of anti-French sentiment: French neutrality during the early phases of Operation Licorne had already been viewed as suspect, and the Linas-Marcoussis Accord was interpreted, by its Ivorian critics, as providing confirmation that France was attempting to undermine Gbagbo's leadership. Gbagbo's supporters blamed France for coercing him to accept the agreement. Indeed, in \"a clear move to distance himself\" from the agreement – which he referred to as a \"proposal\" – Gbagbo had not signed it, but had sent another representative to sign on FPI's behalf. Immediately after the accord was signed, the Young Patriots organised violent anti-French protests, apparently with Gbagbo's backing. A demonstration in Abidjan on 2 February drew 100,000 protesters, who objected to \"French occupation\" and to the power-sharing deal. The demonstrations continued on a daily basis, and at one point involved an attempt to seize the airport to prevent Diarra from returning to Abidjan to head the new coalition government. Amid attacks on French nationals, businesses, and bases, France carried out another wave of evacuations of French nationals. These protests in early 2003 marked the beginning of a surge in activity by Ivory Coast's so-called \"patriotic movement\", which continued to depend on mobilisation by the Young Patriots and to receive encouragement from Gbagbo, himself a longstanding nationalist. In the increasingly popular patriotic analysis, the crisis in Ivory Coast was a \"war of second independence\" from France's neocolonial influence, and international intervention in the crisis consisted in an attack on Ivorian sovereignty, particularly insofar as the Linas-Marcoussis Accord was viewed as recognising the legitimacy of the New Forces rebellion and as imposing constitutional change on Ivory Coast. Gbagbo was portrayed as a nationalist pioneer, persecuting for upsetting the status quo of French hegemony. In the months after Linas-Marcoussis, this narrative was used by Gbagbo to deny the legitimacy of international decisions, in favour of reasserting presidential prerogatives, and to justify his reluctance to implement the peace agreement."
+        },
+        {
+          "date": "2003-01-26",
+          "date_latest": "2003-01-26",
+          "date_precision": "day",
+          "text": "The parties signed a compromise peace agreement, the Linas-Marcoussis Accord, on 26 January. The agreement provided for power-sharing through a Government of National Reconciliation: Gbagbo would remain in office, but Seydou Diarra would be appointed as a non-partisan consensus prime minister, with the understanding that Diarra would not run in the next presidential election. The power-sharing government would include representation for all the agreement's signatories: the three major political parties (Bédié's PDCI, Ouattara's RDR, and Gbagbo's FDI), the three major rebel groups in the New Forces (MPCI, MJP, and MPIGO), and four smaller political parties – Movement of the Forces of the Future (Mouvement des forces de l'avenir), Ivorian Workers' Party (Parti ivoirien des travailleurs), Citizens' Democratic Union (Union démocratique et citoyenne), and Union for Democracy and Peace in Ivory Coast (Union pour la démocratie et la paix en Côte d'Ivoire). Most controversially, the rebels would control the important ministries of defence and the interior. The ultimate purpose of the Government of National Reconciliation was to allow credible elections to take place in 2005, and the appendix to the agreement outlined a nine-point plan for reforms to be undertaken to this end, including security sector reform, land tenure reform, and – perhaps most importantly – an end to divisive policies on citizenship, national identification, and electoral eligibility. The rebels agreed to disarm in exchange for amnesty and political representation. The agreement received international backing. On 4 February, the UN Security Council adopted unanimously its first resolution on the Ivorian crisis, calling, in Resolution 1464, for the implementation of the peace agreement, and expressing approval of the French and ECOWAS presence in Ivory Coast. UN Secretary General Kofi Annan appointed Albert Tévoédjrè as his Special Representative in Ivory Coast. encouraged a populist uproar over the French presence in Ivory Coast.]]",
+          "mentions_vote": true
+        },
+        {
+          "date": "2003-03-08",
+          "date_latest": "2003-03-08",
+          "date_precision": "day",
+          "text": "In a pattern that would be maintained in subsequent years, the signature of the Linas-Marcoussis Accord was followed by significant delays in its implementation, requiring the reopening of peace talks – though the Linas-Marcoussis Accord remained the basic framework within which all such talks took place between 2003 and 2006. On 7–8 March 2003, the first implementation stalemate was temporarily resolved during another summit in Accra, organised by ECOWAS and mediated by Ghanaian President John Kufuor, and therefore intended to mitigate the appearance of French domination of the peace process.' The objective of the talks was to revise the power-sharing formula outlined in the Linas-Marcoussis Accord. At Accra II, the parties re-committed to implementing the initial agreement, and, to this end, the New Forces renounced its claims on the defence and interior ministries. Instead, a fifteen-member National Security Council would be established and would agree on candidates to fill those posts."
+        },
+        {
+          "date": "2003-05-03",
+          "date_latest": "2003-05-03",
+          "date_precision": "day",
+          "text": "The parties signed a comprehensive ceasefire on 3 May, and, the same day, the UN Security Council passed Resolution 1479, which established the UN Mission in Côte d'Ivoire (MINUCI, Mission des Nations unies en Côte d'Ivoire) to monitor implementation of the Linas-Marcoussis Accord. MINUCI was headed by, and would assist, Tévoédirè, the UN Secretary General's Special Representative. MINUCI arrived in Ivory Coast on 27 June 2003; initially comprising 34 officers, it was planned to expand to 76 personnel by the end of the year. Notwithstanding the ceasefire, \"extreme violence\" continued in the western part of the country, necessitating in late May a joint operation involving elements of both government and rebel forces, as well as French and ECOWAS peacekeepers.",
+          "names_later_date": true
+        },
+        {
+          "date": "2003-07-04",
+          "date_latest": "2003-07-04",
+          "date_precision": "day",
+          "text": "On 4 July 2003, the government and New Forces announced publicly that the civil war was over, and that they had agreed to work together to implement the peace agreement. However, the violence did not entirely dissipate. In late August, Operation Licorne suffered its first casualties when two French soldiers were killed by rebels near Sakassou. The same week, French intelligence services in Paris arrested 10 people, including Ibrahim Coulibaly, who they said had been plotting to assassinate Gbagbo and destabilise the peace. Moreover, the political conflict raged on. The New Forces refused to begin the demobilisation and disarmament process – or to allow government administrators to return to the north of the country – until Gbagbo had made permanent appointments to the sensitive ministries of defence and the interior. Gbagbo also had not fulfilled his promise to revise electoral eligibility requirements. AFV. |left]]Progress appeared imminent by September 2003. Ivory Coast reopened its border with Burkina Faso, and the UN downgraded Ivory Coast's security rating, reflecting an improvement in conditions. On 13 September, Gbagbo finally made permanent appointments to the defence and interior portfolios. However, he declined to appoint the defence candidate proposed by the National Security Council, retired General Ouassenan Koré. Angered by this unilateral deviation from the Accra II agreement, New Forces representatives announced they would protest the move by suspending their participation in the reconciliation government. They also said that Gbagbo had refused to delegate executive powers to the prime minister and reconciliation government, as stipulated by the Linas-Marcoussis Accord, and warned that the resumption of violence was a real possibility. By the end of 2003, disarmament had not been implemented – in contravention of a 1 October deadline – and military authority in the country remained bifurcated under a de facto north-south partition, while inter-ethnic violence continued in the west, particularly between local Guéré and Yacouba. By then, over 700,000 people had been displaced in the conflict. On 27 February 2004, the UN Security Council passed Resolution 1528, authorising the replacement of MINUCI with an ambitious peacekeeping operation, the United Nations Operation in Côte d'Ivoire (UNOCI), with a mandate to police the buffer zone between the belligerents. However, in the first half of 2004, events inside Ivory Coast did not bode well for the implementation of the Linas-Marcoussis Accord, as relations between Ivorian actors continued to deteriorate. In mid-February, Ivorian authorities issued a ministerial decree which would \"Ivorianise\" workplaces, requiring that companies could only hire foreigners if they submitted a plan to turn the post over to an Ivorian within two years. On 4 March, opposition party PDCI suspended its participation in the reconciliation government, accusing FPI ministers of taking unilateral decisions. On 10 March, one group of Young Patriots stormed the main Ivorian courthouse and physically attacked several magistrates; while another attacked the Hotel du Golf, the residence of the New Forces ministers. The same week, responding to violent demonstrations by students in Daloa, state forces killed one student and wounded 48 others.",
+          "names_later_date": true
+        },
+        {
+          "date": "2004-03-25",
+          "date_latest": "2004-03-25",
+          "date_precision": "day",
+          "text": "On 25 March, opposition parties organised a public demonstration in Abidjan to call on the government to implement the Linas-Marcoussis Accord. In response, the security forces and pro-government militias opened fire on the demonstrators, while other opposition supporters were rounded up by militias in subsequent days. In May, the Office of the UN High Commissioner for Human Rights concluded an inquiry into the march and aftermath, finding that: at least 120 people were killed, 274 wounded and 20 disappeared. These figures are by no means final... It is equally clear that many of the killings on these two days did not take place in the street but in the dwellings of would-be demonstrators or even innocent civilians targeted by the security forces simply because of their name, origin or community group. It was a well-known fact that police officers or other security officials or parallel forces would harass, try to rob, or search and arrest without warrants people in Abidjan even in the days preceding 25 March. However, these activities had greatly intensified since 23 March and contributed to the explosive environment. Credible accounts received by the Commission indicate that these actions too had been planned and directed by the security forces and later executed in cooperation and collusion with the parallel forces.In protest against the violence, the New Forces and Ouattara's RDR announced their withdrawal from the reconciliation government. In May, Gbagbo publicly lambasted the opposition for suspending their participation; shortly afterwards, it was announced that he had sacked (permanently) three opposition ministers: PDCI's Patrick Achi, the New Forces' Youssouff Soumahoro, and Soro, the leader of the New Forces. Soro called the move \"tantamount to a coup d'état against the peace accords\", and said that it would be impossible to establish peace in Ivory Coast until Gbagbo was removed from office."
+        },
+        {
+          "date": "2004-07-01",
+          "date_latest": "2004-07-31",
+          "date_precision": "month",
+          "text": "Peace talks resumed in July 2004 in Accra in an attempt to revitalise the peace process. An agreement signed upon the conclusion of the talks once again committed the parties to implement the Linas-Marcoussis Accord, this time \"with specific deadlines and benchmarks for progress\". The talks focused on addressing key obstacles to the peace process – notably electoral eligibility, citizenship reform, and the disarmament programme. The rebels agreed to rejoin the reconciliation government, and Gbagbo agreed to revise article 35 of the constitution, which until then had disqualified Ouattara from standing in presidential elections. However, by October, it was apparent that the Accra III agreement had not broken the implementation deadlock: on 12 October, Gbagbo announced that he would not submit the revised article 35 for National Assembly approval until after the rebels had disarmed; the rebels announced, in response, that they would not disarm until real progress had been made towards credible elections. The New Forces therefore missed the October 15 deadline to begin disarmament, and in early November, as tensions mounted, they formally refused to disarm. By then, the New Forces had imposed a state of emergency in their territories, claiming to have found weaponry hidden in a commercial truck – which they said was a delivery from Gbagbo's forces to Soro's internal rivals in the north – and warning that \"the war isn't over yet. It is going to resume shortly\". A sustained assault on the press followed, with newspapers partial to the north being banned and two presses destroyed; dissenting radio stations were silenced."
+        },
+        {
+          "date": "2004-07-01",
+          "date_latest": "2004-07-31",
+          "date_precision": "month",
+          "text": "was head of the Ivorian Armed Forces for the duration of the war.]] On 4 November, Gbagbo's forces violated the prevailing ceasefire, as the military launched air attacks against rebel positions in Bouaké and Korhogo. The Young Patriots launched another attack on New Forces residences at the Hotel du Golf, expelling Prime Minister Diarra. After the attacks, Soro of the New Forces declared the Linas-Marcoussis Accord and subsequent Accra agreements \"null and void\"."
+        },
+        {
+          "date": "2004-11-01",
+          "date_latest": "2004-11-30",
+          "date_precision": "month",
+          "text": "(zone de confiance) created in Ivory Coast, as of spring 2007.]] The UN Security Council passed Resolution 1572 on 15 November, imposing an immediate arms embargo on Ivory Coast, though the effectiveness of the embargo is debatable. It also authorised targeted sanctions on Ivorian spoilers, and threatened to impose such sanctions if the belligerents did not return to peace negotiations timeously."
+        },
+        {
+          "date": "2004-11-01",
+          "date_latest": "2004-11-30",
+          "date_precision": "month",
+          "text": "On 6 November, one or two Ivorian Sukhoi Su-25 bombed an Operation Licorne base in Bouaké, killing nine French soldiers and an American aid worker and injuring 31 others, the heaviest casualties suffered by a French operation since the 1983 Beirut barrack bombings. France rejected the Ivorian claim that the bombing had been accidental, and French President Jacques Chirac ordered the retaliatory destruction of both Ivorian Sukhoi Su-25 and five MI-24 ground attack helicopters – the entirety of the Ivorian air force's fleet. The French–Ivorian clashes which followed represented \"a new peak\" in the conflict and threatened to derail the peace process entirely, as pro-Gbagbo youths rioted against the French response and looted French-owned businesses, triggering yet another wave of Western evacuations: in two weeks, some 9,000 expatriates left the country. On 7 November, French forces opened fire on rioters in Abidjan, killing between 20 and 60 people according to French and Ivorian estimates respectively. The clashes strengthened the pro-Gbagbo \"patriotic\" narrative that the conflict involved a \"second war of independence\" from France. On 13 November, Mamadou Coulibaly, the President of the Ivorian National Assembly, declared that the government of the Ivory Coast did not take any responsibility for the 6 November bombardment, and announced that the government intended to approach the International Court of Justice to hold France responsible for its destruction of Ivorian air force equipment and for the deaths that the French response had caused. In 2016, a French judicial investigation recommended that three French ministers – Michel Barnier, Dominique de Villepin and Michèle Alliot-Marie – be referred for prosecution for allegedly having obstructed an investigation into the initial Ivorian air raid. In 2021, a Paris court issued life sentences to two Ivorian officers and one Belarusian mercenary, who in absentia had been found guilty of carrying out the air raid."
+        },
+        {
+          "date": "2005-04-01",
+          "date_latest": "2005-04-30",
+          "date_precision": "month",
+          "text": "On 3 to 6 April 2005, South African President Thabo Mbeki chaired peace talks in Pretoria, South Africa, arranged under African Union (AU) auspices with the intention of reviving the peace process. The resulting Pretoria Agreement, intended as a supplement to the Linas-Marcoussis Accord, established a cessation of hostilities and ended the state of war. Mbeki had been involved in the Accra III talks, and, by acknowledging Gbagbo's concerns about Ivorian sovereignty, was able to nudge Gbagbo to a deal on sensitive electoral issues – notably the eligibility in elections of all peace talk participants, including Ouattara; and international supervision of the next Ivorian elections. In June, the UN Security Council passed Resolution 1603, calling on the UN Secretary-General to prepare to fulfil that supervisory role. Gbagbo also agreed to increase opposition representation on the Independent Electoral Commission and to disband pro-government militias. The New Forces and opposition parties mistrusted Mbeki, viewing him as a biased mediator, but did agree once again to disarm and to rejoin the reconciliation government. Rebel forces started to withdraw heavy weapons from the front line on 21 April, re-establishing the buffer zone,' and the parties met in Pretoria again in June 2005 to review and reaffirm the agreement."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Second Ivorian Civil War",
+      "pageid": 31062367,
+      "revid": 1370737092,
+      "revision_timestamp": "2026-08-22T20:54:26Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=31062367",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2011-04-05",
+          "date_latest": "2011-04-05",
+          "date_precision": "day",
+          "text": "On Ouattara's TV station, Serges Alla, a journalist claimed: \"Mangou was forced to leave the South African embassy because some of his relatives were made hostage by diehard supporters of Gbagbo, and Gbagbo militiamen were putting pressure on him, saying they would bomb his village if he doesn't show himself or doesn't return to the Gbagbo army.\" Early on 5 April 2011, Ouattara forces announced that they had captured the presidential palace."
+        },
+        {
+          "date": "2011-04-06",
+          "date_latest": "2011-04-06",
+          "date_precision": "day",
+          "text": "However, forces loyal to Ouattara moved to seize Gbagbo at his residence in Abidjan on 6 April 2011, after the negotiations failed."
+        },
+        {
+          "date": "2011-04-11",
+          "date_latest": "2011-04-11",
+          "date_precision": "day",
+          "text": "France's forces arrested Gbagbo at his residence on 11 April 2011.",
+          "duplicate_of": "Second Ivorian Civil War"
+        },
+        {
+          "date": "2011-06-30",
+          "date_latest": "2011-06-30",
+          "date_precision": "day",
+          "text": "The UN refused and the UN Security Council extended the mandate of the UN Mission in Ivory Coast until 30 June 2011."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Operation in Côte d'Ivoire",
+      "pageid": 3149155,
+      "revid": 1252777960,
+      "revision_timestamp": "2024-10-22T22:19:19Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=3149155",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2004-02-27",
+          "date_latest": "2004-02-27",
+          "date_precision": "day",
+          "text": "On 27 February 2004, during the First Ivorian Civil War, the United Nations (UN) Security Council adopted Resolution 1528, which authorized UNOCI to take over from the UN Mission in Côte d'Ivoire (MINUCI, French: Mission des Nations unies en Côte d'Ivoire), an existing political mission to Ivory Coast."
+        },
+        {
+          "date": "2005-06-24",
+          "date_latest": "2005-06-24",
+          "date_precision": "day",
+          "text": "It had an initial authorised strength of 6,240 uniformed personnel, and was expanded by Resolution 1609 on 24 June 2005 and Resolution 1682 on 2 June 2006.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-07-29",
+          "date_latest": "2008-07-29",
+          "date_precision": "day",
+          "text": "On 29 July 2008, the day before UNOCI's mandate was set to expire, the UN Security Council unanimously voted to extend its mandate to 31 January 2009 so that the peacekeepers could \"support the organization of free, open, fair and transparent elections\".",
+          "mentions_vote": true,
+          "names_later_date": true
+        },
+        {
+          "date": "2008-10-31",
+          "date_latest": "2008-10-31",
+          "date_precision": "day",
+          "text": "UNOCI's mandate was subsequently extended several times, including on 31 October 2008, 31 January 2010, 27 May 2010, 20 December 2010, and most recently on 27 July 2011.",
+          "names_later_date": true
+        },
+        {
+          "date": "2011-03-31",
+          "date_latest": "2011-03-31",
+          "date_precision": "day",
+          "text": "Heavy fighting broke out on 31 March 2011 as forces of Alassane Ouattara advanced on Abidjan from several directions."
+        },
+        {
+          "date": "2011-04-04",
+          "date_latest": "2011-04-04",
+          "date_precision": "day",
+          "text": "On 4 April 2011 UN and French helicopters also began firing on pro-Gbagbo military installations, a French military spokesman said the attacks were aimed at heavy artillery and armoured vehicles."
+        },
+        {
+          "date": "2012-04-30",
+          "date_latest": "2012-04-30",
+          "date_precision": "day",
+          "text": "On 30 April 2012 the force comprised 10,954 total uniformed personnel, including 9,404 troops, 200 military observers, 1,350 police, 400 international civilian personnel, 758 local staff and 290 United Nations Volunteers."
+        },
+        {
+          "date": "2012-06-08",
+          "date_latest": "2012-06-08",
+          "date_precision": "day",
+          "text": "On 8 June 2012, seven Niger soldiers, eight locals and one or two Ivorian soldiers were killed in an attack near the village of Taï in the southwestern region of the country."
+        },
+        {
+          "date": "2014-05-19",
+          "date_latest": "2014-05-19",
+          "date_precision": "day",
+          "text": "Abdoulaye Fall (Senegal) : April 2004 – April 2006 * Fernand Marcel Amoussou (Benin) : April 2006 – March 2010 * Abdul Hafiz (Bangladesh) : April 2010 – March 2011 * Gnakoudè Béréna (Togo) : March 2011 – May 2012 * Muhammad Iqbal Asi (Pakistan) : May 2012 – 19 May 2014 * Hafiz Masroor Ahmed (Pakistan) : 19 May 2014 – 30 June 2015 * Didier L'Hôte (France): 1 July 2015 – 30 June 2017",
+          "names_later_date": true
+        },
+        {
+          "date": "2016-12-31",
+          "date_latest": "2016-12-31",
+          "date_precision": "day",
+          "text": "Up until 31 December 2016, a total of 143 UN peacekeeping troops had died."
+        },
+        {
+          "date": "2017-03-31",
+          "date_latest": "2017-03-31",
+          "date_precision": "day",
+          "text": "On 31 March 2017 the mission comprised 17 uniformed personnel, including 7 troops and 10 police as well as 689 civilian personnel."
+        },
+        {
+          "date": "2017-06-30",
+          "date_latest": "2017-06-30",
+          "date_precision": "day",
+          "text": "The mission officially ended on 30 June 2017."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

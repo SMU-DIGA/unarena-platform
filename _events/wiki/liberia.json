@@ -1,0 +1,198 @@
+{
+  "topic": "liberia",
+  "label": "Liberian civil wars",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 22,
+  "flagged_vote_language": 1,
+  "flagged_names_later_date": 4,
+  "vague_dated_segments": 9,
+  "cross_article_duplicates": 3,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "First Liberian Civil War",
+      "pageid": 1561462,
+      "revid": 1370619407,
+      "revision_timestamp": "2026-08-22T03:22:23Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=1561462",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "1985-11-01",
+          "date_latest": "1985-11-30",
+          "date_precision": "month",
+          "text": "In 1985, Thomas Quiwonkpa, the former Commanding General of the Armed Forces of Liberia, whom Doe had demoted and forced to flee the country, attempted to overthrow Doe's regime from neighbouring Sierra Leone. The coup attempt failed and Quiwonkpa was killed and allegedly eaten. His body was publicly exhibited on the grounds of the Executive Mansion in Monrovia soon after his death."
+        },
+        {
+          "date": "1990-08-01",
+          "date_latest": "1990-08-31",
+          "date_precision": "month",
+          "text": "In August 1990, the 16-member Economic Community of West African States (ECOWAS) agreed to deploy a joint military intervention force, the Economic Community Monitoring Group (ECOMOG), and placed it under Nigerian leadership. The mission later included troops from non-ECOWAS countries, including Uganda and Tanzania. ECOMOG's objectives were to impose a cease-fire; help Liberians establish an interim government until elections could be held; stop the killing of innocent civilians; and ensure the safe evacuation of foreign nationals. ECOMOG also sought to prevent the conflict from spreading into neighboring states, which share a complex history of state, economic, and ethno-linguistic social relations with Liberia. The Economic Community of West African States (ECOWAS) attempted to persuade Doe to resign and go into exile, but despite his weak position – besieged in his mansion – he refused. On August 24, 1990, ECOMOG, an ECOWAS intervention force, arrived at the Freeport of Monrovia, landing from Nigerian and Ghanaian vessels."
+        },
+        {
+          "date": "1990-09-01",
+          "date_latest": "1990-09-30",
+          "date_precision": "month",
+          "text": "On 9 September 1990, Doe visited the newly established ECOMOG headquarters in the Free Port of Maher. According to Stephen Ellis, his motive was to complain that the ECOMOG commander had not paid a courtesy call to him as the Head of State; however, the exact circumstances that led to Doe's visit to the Free Port are still unclear. Doe had been under pressure to accept exile outside of Liberia. After Doe arrived, a large rebel force led by Prince Johnson's INPFL arrived and attacked Doe's party. Doe was captured and taken to the INPFL's Caldwell base. He was brutally tortured before being killed and dismembered. His torture and execution was videotaped by his captors. Johnson's INPFL and Taylor's NPFL continued to struggle for control of Monrovia in the months that followed. With military discipline absent and bloodshed throughout the capital region, members of ECOWAS created the Economic Community Monitoring Group (ECOMOG) to restore order. The force comprised some 4,000 troops from Nigeria, Ghana, Sierra Leone, the Gambia and Guinea. ECOMOG succeeded in bringing Taylor and Johnson to agree to its intervention. Taylor's forces later fought against ECOMOG in the port area of Monrovia."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Second Liberian Civil War",
+      "pageid": 2192998,
+      "revid": 1370737116,
+      "revision_timestamp": "2026-08-22T20:54:31Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=2192998",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2003-07-01",
+          "date_latest": "2003-07-31",
+          "date_precision": "month",
+          "text": "By July 2003 Monrovia appeared to be in danger of being occupied and devastated despite ongoing peace talks. The U.S. established Joint Task Force Liberia, built around a U.S. navy amphibious group with the 26th Marine Expeditionary Unit aboard, positioned off the West African coast. In July 2003 the United States (US) sent a small number of troops to bolster security around the US embassy in Monrovia, which had come under attack during Operation Shining Express. On 25 July 2003, the Southern Europe Task Force at Vicenza, Italy was designated the lead U.S. Army command for the operation. On 29 July 2003, LURD declared a ceasefire. ECOWAS sent two battalions of Nigerian peacekeepers to Liberia. The first Nigerian battalion detached from the United Nations Mission in Sierra Leone, and the second came from Nigeria itself."
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-31",
+          "date_precision": "month",
+          "text": "A group of Liberian women headed by Leymah Gbowee formed an organization called \"Women of Liberia Mass Action for Peace\" and forced a meeting with President Charles Taylor, extracting a promise from him to attend peace talks in Ghana. A delegation of women organized nonviolence protests and continued to apply pressure on the warring factions during the peace process. They staged a silent protest outside of the Presidential Palace, bringing about an agreement during the stalled peace talks. Their creative non-violent protest allowed them to use the power within women and mothers of Liberia; tactics included a sex strike until their men chose to set aside weapons, and threatening to undress during a sit in outside the peace talks in Ghana. Working together, over 3,000 Christian and Muslim women mobilized their efforts, and as a result, the women were able to achieve peace in Liberia after a 14-year civil war and helped bring to power the country's first female president. The story is told in the 2008 documentary film Pray the Devil Back to Hell. Among the women leaders who helped end the civil war was Ellen Johnson Sirleaf, who would become the first modern elected female head of state in Africa when she was elected in 2005. Her election was inspired by the powerful commitment of women who had seen the war perpetuated by men in their country and were unwilling to put a man back into that powerful role. This was despite the fact that Ellen Johnson-Sirleaf's role in triggering the war in the 1980s had hampered her presidential prospects in the 1990s. While the Truth and Reconciliation Commission had recommended that she be banned from participating in politics for 30 years, she was re-elected for a second term in 2011."
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-31",
+          "date_precision": "month",
+          "text": "In 2025, the Liberian government, under President Joseph Boakai, issued an official apology to victims of the conflict."
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-31",
+          "date_precision": "month",
+          "text": "In November 1997, following the completion of the mandate of the United Nations Observer Mission in Liberia UNOMIL on 30 September, the United Nations established the United Nations Peace-building Support Office in Liberia (UNOL), headed by a representative of the Secretary-General. That first United Nations post-conflict peace-building support office was tasked primarily with assisting the government in consolidating peace following the July 1997 multiparty elections. On 11 September 2003, UN Secretary General Kofi Annan recommended deployment of the peacekeeping mission, the United Nations Mission in Liberia (UNMIL), to maintain the peace agreement. The UN Security Council approved the mission on 19 September in Resolution 1509. Nigeria sent in peacekeepers as part of the interim ECOWAS force. UNMIL was made up of over 15,000 personnel, including both military and civilian troops. The bulk of the personnel were armed military troops, but there were also civilian policemen, as well as political advisers and humanitarian aid workers. On 1 October, the first peacekeepers changed their berets and became a UN force, with many more troops earmarked. During three days of riots in Monrovia in October 2004, nearly 400 people were wounded and 15 killed. The UN slowly built up its forces in the country, with 5,500 projected to be in place by November 2003, and worked to disarm the various factions. However, instability in neighbouring countries, an incomplete disarmament process, and general discontent threatened Liberia's fragile peace.",
+          "names_later_date": true
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-31",
+          "date_precision": "month",
+          "text": "President Taylor resigned on 11 August 2003, ahead of the Accra Comprehensive Peace Agreement (CPA) which formed the negotiated end to the war, and was flown into exile in Nigeria. An arrest warrant for Taylor for war crimes committed by his RUF rebel allies in Sierra Leone was later issued by Interpol but Nigeria refused to deport him for a time unless they receive a specific request from Liberia. Vice-President Moses Blah replaced Taylor. On 14 August, rebels lifted their siege of Monrovia and 200 United States Marines landed to support a West African peace force. Thousands of people danced and sang as American troops and ECOMIL, the Nigerian-led West African forces, took over the port and bridges which had split the capital into government and rebel-held zones. An estimated 1,000 people had been killed in Monrovia between 18 July and 14 August. Moses Blah handed over power to the National Transitional Government of Liberia on 14 October 2003. However, the transitional government exercised no real authority in the country, 80% of which was controlled by the rebel groups. Riots in Monrovia left approximately 16 people dead, with sources claiming that former combatants were behind the violence.",
+          "names_later_date": true
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-31",
+          "date_precision": "month",
+          "text": "child soldier ]] Both LURD and Charles Taylor made extensive use of children press ganged into military service as soldiers or ammunition porters. The use of child soldiers was prolific by both sides, regardless of prohibitions of the practice in the Geneva Convention. Observers from Human Rights Watch described a deadly and chaotic siege of Monrovia, with many very young fighters shooting \"shiny toys\" they had not been trained to use. Drugs made up an integral part of Liberian wartime culture. Child soldiers and other combatants were routinely addicted to cocaine, khat, and other drugs as a means of control. Several warlords felt that cocaine made soldiers more effective in battle."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Mission in Liberia",
+      "pageid": 3045642,
+      "revid": 1358861297,
+      "revision_timestamp": "2026-06-11T12:51:06Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=3045642",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1997-08-02",
+          "date_latest": "1997-08-02",
+          "date_precision": "day",
+          "text": "Following his inauguration on 2 August 1997, President Taylor formed a new Government and announced a policy of reconciliation and national unity."
+        },
+        {
+          "date": "2003-06-17",
+          "date_latest": "2003-06-17",
+          "date_precision": "day",
+          "text": "The Secretary-General proposed that the mandate of UNMIL would be to support the National Transitional Government of Liberia and the other parties in the effective and timely implementation of the Comprehensive Peace Agreement; to monitor adherence to the ceasefire agreement of June 17, 2003; to assist the National Transitional Government in extending State authority throughout Liberia; to provide security at key government installations, in particular, ports, airports and other vital infrastructure; to ensure the security and freedom of movement of United Nations personnel; to facilitate the free movement of people, humanitarian assistance and goods; to support the safe and sustainable return of refugees and internally displaced persons; and to protect civilians under imminent threat of physical violence in the areas of immediate deployment of United Nations formed military units."
+        },
+        {
+          "date": "2003-07-08",
+          "date_latest": "2003-07-08",
+          "date_precision": "day",
+          "text": "On 8 July 2003, as fighting between Government forces and various warring factions intensified and humanitarian tragedy threatened, the Secretary-General decided (S/2003/695) to appoint Jacques Paul Klein of the United States his Special Representative for Liberia."
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-01",
+          "date_precision": "day",
+          "text": "On 1 August 2003, the Security Council adopted Resolution 1497 (2003), authorizing the establishment of a multinational force in Liberia and declaring its readiness to establish a follow-on United Nations stabilization force to be deployed no later than 1 October 2003.",
+          "names_later_date": true
+        },
+        {
+          "date": "2003-08-18",
+          "date_latest": "2003-08-18",
+          "date_precision": "day",
+          "text": "On 18 August 2003, the Liberian parties signed a Comprehensive Peace Agreement in Accra.",
+          "duplicate_of": "Second Liberian Civil War"
+        },
+        {
+          "date": "2003-09-11",
+          "date_latest": "2003-09-11",
+          "date_precision": "day",
+          "text": "In September 2003, the Security Council welcomed the Secretary-General's report of 11 September 2003 and its recommendations and unanimously adopted Resolution 1509 establishing UNMIL with up to 15,000 United Nations military personnel, including up to 250 military observers and 160 staff officers, and up to 1,115 civilian police officers, including formed units to assist in the maintenance of law and order throughout Liberia, and the appropriate civilian component.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2003-09-19",
+          "date_latest": "2003-09-19",
+          "date_precision": "day",
+          "text": "}} The United Nations Mission in Liberia (UNMIL) was a United Nations peacekeeping operation in Liberia established by United Nations Security Council Resolution 1509 on 19 September 2003, following the resignation of President Charles Taylor, the signing of the Comprehensive Peace Agreement, and the end of major fighting in the Second Liberian Civil War."
+        },
+        {
+          "date": "2003-10-01",
+          "date_latest": "2003-10-01",
+          "date_precision": "day",
+          "text": "As scheduled, UNMIL took over peacekeeping duties from ECOWAS forces on October 1, 2003.",
+          "duplicate_of": "Second Liberian Civil War"
+        },
+        {
+          "date": "2003-10-01",
+          "date_latest": "2003-10-01",
+          "date_precision": "day",
+          "text": "UNMIL took over peacekeeping responsibilities from the ECOWAS-led ECOWAS Mission in Liberia (ECOMIL) on 1 October 2003.",
+          "duplicate_of": "Second Liberian Civil War"
+        },
+        {
+          "date": "2016-06-30",
+          "date_latest": "2016-06-30",
+          "date_precision": "day",
+          "text": "On 30 June 2016, security responsibilities were formally transferred to Liberian authorities, with a reduced UNMIL presence retained during the transition period."
+        },
+        {
+          "date": "2016-12-22",
+          "date_latest": "2016-12-22",
+          "date_precision": "day",
+          "text": "On 22 December 2016, the Security Council extended UNMIL's mandate for the final time, setting 30 March 2018 as the mission's closing date.",
+          "names_later_date": true
+        },
+        {
+          "date": "2018-03-30",
+          "date_latest": "2018-03-30",
+          "date_precision": "day",
+          "text": "The mission formally ended on 30 March 2018."
+        },
+        {
+          "date": "2018-03-30",
+          "date_latest": "2018-03-30",
+          "date_precision": "day",
+          "text": "UNMIL formally completed its mandate and withdrew on 30 March 2018."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

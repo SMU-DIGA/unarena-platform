@@ -1,0 +1,1810 @@
+{
+  "topic": "kashmir",
+  "label": "Kashmir conflict",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 290,
+  "flagged_vote_language": 2,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 111,
+  "cross_article_duplicates": 24,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Kashmir conflict",
+      "pageid": 4138574,
+      "revid": 1370454647,
+      "revision_timestamp": "2026-08-21T05:13:32Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=4138574",
+      "strategy": "timeline_event",
+      "segments": [
+        {
+          "date": "1846-03-16",
+          "date_latest": "1846-03-16",
+          "date_precision": "day",
+          "text": "Princely state of Jammu and Kashmir was created with the signing of the Second Treaty of Amritsar between the British East India company and Raja Gulab Singh of Jammu. It was an addendum to the Treaty of Lahore, signed one week earlier, which gave the terms of surrender of the Sikh Darbar at Lahore to the British. The Sikhs could not pay part of the demand made by the British; Gulab Singh paid Rs on their behalf, and in return received Kashmir Valley, part of the Sikh territories, to add to Jammu and Ladakh already under his rule. Gulab Singh accepted overall British sovereignty."
+        },
+        {
+          "date": "1857-05-10",
+          "date_latest": "1857-05-10",
+          "date_precision": "day",
+          "text": "India's First War of Independence."
+        },
+        {
+          "date": "1858-08-02",
+          "date_latest": "1858-08-02",
+          "date_precision": "day",
+          "text": "End of Company rule in India."
+        },
+        {
+          "date": "1927-04-20",
+          "date_latest": "1927-04-20",
+          "date_precision": "day",
+          "text": "Maharaja Hari Singh passed the Hereditary State Subject order, granting special privileges to the state subjects for jobs and residence in the state. According to the order an \"outsider\" could gain state subject status \"after the age of 18 on purchasing immovable property under permission of an ijazatnama and on obtaining a rayatnama after ten years continuous residence in the Jammu and Kashmir State\"."
+        },
+        {
+          "date": "1931-01-01",
+          "date_latest": "1931-12-31",
+          "date_precision": "year",
+          "text": "The movement against the Maharaja Hari Singh began and was brutally suppressed by the State forces. Hari Singh was part of a Hindu Dogra dynasty which ruled over a majority Muslim State. The predominantly Muslim population was kept poor, illiterate and inadequately represented in the State's services."
+        },
+        {
+          "date": "1932-04-01",
+          "date_latest": "1932-04-30",
+          "date_precision": "month",
+          "text": "The Glancy Commission appointed by the Maharaja recommended the establishment of a legislative assembly, called the Praja Sabha. It would have 75 members, with 15 official representatives, 33 elected representatives and the remaining seats held by the Maharaja's nominees. Of the 33 elected seats, 21 would be reserved for Muslims, 10 for Hindus and 2 for Sikhs."
+        },
+        {
+          "date": "1932-06-01",
+          "date_latest": "1932-06-30",
+          "date_precision": "month",
+          "text": "The All Jammu and Kashmir Muslim Conference was founded by Sheikh Abdullah in collaboration with Chaudhry Ghulam Abbas to fight for the rights of the State's Muslims."
+        },
+        {
+          "date": "1934-09-01",
+          "date_latest": "1934-09-30",
+          "date_precision": "month",
+          "text": "The first elections for the Praja Sabha (the state's legislative assembly) were held. The Muslim Conference won 16 of the 21 seats reserved for Muslims, but lost two of them to the Liberal Group, which had the majority in the assembly."
+        },
+        {
+          "date": "1937-01-01",
+          "date_latest": "1937-12-31",
+          "date_precision": "year",
+          "text": "Sheikh Abdullah met with Jawaharlal Nehru for the first time."
+        },
+        {
+          "date": "1938-05-01",
+          "date_latest": "1938-05-31",
+          "date_precision": "month",
+          "text": "The second election for the state's Legislative Assembly was held. The Muslim Conference won all 19 contested seats."
+        },
+        {
+          "date": "1939-06-01",
+          "date_latest": "1939-06-30",
+          "date_precision": "month",
+          "text": "Under Sheikh Abdullah's leadership, the Muslim Conference changed its name to National Conference and opened membership to people of all religions."
+        },
+        {
+          "date": "1940-03-23",
+          "date_latest": "1940-03-23",
+          "date_precision": "day",
+          "text": "The Pakistan Resolution was passed at Iqbal Park, Lahore. The resolution demanded the establishment of an independent state comprising all regions with Muslim majorities. The letter \"K\" in the name \"Pakistan\" represented Kashmir."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "71,667 Kashmiris joined the British Indian Army for World War II; seven-eighths of them were Muslim, mainly from the Poonch-Mirpur area."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "Chaudhry Ghulam Abbas left the National Conference and revived the old Muslim Conference. The Muslim Conference became a client of the Jinnah-led Muslim League."
+        },
+        {
+          "date": "1944-01-01",
+          "date_latest": "1944-12-31",
+          "date_precision": "year",
+          "text": "Mohammad Ali Jinnah visited Kashmir during the summer, supporting the Muslim Conference in preference to the National Conference."
+        },
+        {
+          "date": "1944-04-01",
+          "date_latest": "1944-04-30",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah proposed a Naya Kashmir (New Kashmir) programme to the Maharaja, calling for a constitutional monarchy."
+        },
+        {
+          "date": "1946-05-01",
+          "date_latest": "1946-05-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah launched the Quit Kashmir movement against the Maharaja; he was arrested and charged with sedition. Jawaharlal Nehru attempted to go to Kashmir to defend Abdullah in court but was arrested and forced to leave the State."
+        },
+        {
+          "date": "1946-06-01",
+          "date_latest": "1946-06-30",
+          "date_precision": "month",
+          "text": "Representatives of the Muslim Conference met Jinnah in Karachi and were told to capitalise on the failure of Sheikh Abdullah to unseat the Maharaja."
+        },
+        {
+          "date": "1946-07-01",
+          "date_latest": "1946-07-31",
+          "date_precision": "month",
+          "text": "The Maharaja declared that Kashmiris would decide their own destiny without outside interference."
+        },
+        {
+          "date": "1946-07-01",
+          "date_latest": "1946-07-31",
+          "date_precision": "month",
+          "text": "The Muslim Conference complained that Prime Minister Ram Chandra Kak was oppressing Muslims."
+        },
+        {
+          "date": "1946-10-01",
+          "date_latest": "1946-10-31",
+          "date_precision": "month",
+          "text": "The Muslim Conference launched a \"Campaign of Action\" demanding the end of autocratic rule by the Maharaja. Chaudhry Ghulam Abbas was imprisoned."
+        },
+        {
+          "date": "1946-11-01",
+          "date_latest": "1946-11-30",
+          "date_precision": "month",
+          "text": "The British Resident in Kashmir observed that the Maharaja and Prime Minister Ram Chandra Kak intended to stay away from the Indian Union (the proposed independent country, prior to the partition decision). The reason cited was \"antagonism... displayed by a Congress Central Government\" towards Kashmir."
+        },
+        {
+          "date": "1946-12-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "month",
+          "text": "Hindu and Sikh refugees from the Hazara district poured into Muzaffarabad. 2,500 of them were looked after by the state."
+        },
+        {
+          "date": "1946-12-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "month",
+          "text": "The British Resident reported that the \"new leaders\" of the Muslim Conference, Chaudhry Ghulam Abbas and Agha Shaukat Ali, were stirring anti-Hindu sentiments in the guise of Muslim unity."
+        },
+        {
+          "date": "1947-01-01",
+          "date_latest": "1947-01-31",
+          "date_precision": "month",
+          "text": "Elections were held for the State's legislative assembly. The National Conference boycotted the elections, and the Muslim Conference won 16 of the 21 Muslim seats."
+        },
+        {
+          "date": "1947-03-01",
+          "date_latest": "1947-03-31",
+          "date_precision": "month",
+          "text": "Lord Mountbatten arrived in India as the last Viceroy of India, amidst country-wide communal riots."
+        },
+        {
+          "date": "1947-03-01",
+          "date_latest": "1947-03-31",
+          "date_precision": "month",
+          "text": "Reuters reported that Kashmir had reinforced its troops along the Kashmir–Punjab border to ensure that the communal violence of Punjab did not spill into Kashmir. The border was virtually sealed."
+        },
+        {
+          "date": "1947-03-01",
+          "date_latest": "1947-03-31",
+          "date_precision": "month",
+          "text": "The British Resident reported that the Pir of Manki Sharif, a Muslim League leader in the North-West Frontier Province, had sent agents to Kashmir to prepare the people for a \"holy crusade\"."
+        },
+        {
+          "date": "1947-03-02",
+          "date_latest": "1947-03-02",
+          "date_precision": "day",
+          "text": "Khizar Hayat Khan Tiwana resigned as the premier of Punjab, representing a collapse of the Unionist government of Punjab. Punjab was rocked by communal violence, culminating in massacres of Sikhs and Hindus in the Rawalpindi Division. Tens of thousands of refugees fled the area, with many seeking shelter in Jammu and Kashmir."
+        },
+        {
+          "date": "1947-04-01",
+          "date_latest": "1947-04-30",
+          "date_precision": "month",
+          "text": "Hindus and Sikhs of Sialkot fled to Jammu in the face of increasing tensions."
+        },
+        {
+          "date": "1947-04-21",
+          "date_latest": "1947-04-21",
+          "date_precision": "day",
+          "text": "The Maharaja was met by a gathering of 40,000 demobilised soldiers in Rawalakot. He was \"specially impressed and alarmed\", according to Azad Kashmir sources."
+        },
+        {
+          "date": "1947-05-01",
+          "date_latest": "1947-05-01",
+          "date_precision": "day",
+          "text": "The Maharani of Jammu and Kashmir along with Yuvraj Karan Singh initiated discussions with Justice Mehr Chand Mahajan, a judge of the Punjab High Court with connections to the Indian National Congress, to come in as the Prime Minister of Kashmir. Mahajan showed reluctance."
+        },
+        {
+          "date": "1947-05-24",
+          "date_latest": "1947-05-24",
+          "date_precision": "day",
+          "text": "The Indian National Congress acting president Acharya Kripalani visited Kashmir to discuss democratic reforms and joining the Constituent Assembly of India."
+        },
+        {
+          "date": "1947-05-28",
+          "date_latest": "1947-05-28",
+          "date_precision": "day",
+          "text": "Muslim Conference acting president Choudhary Hamidullah announced that the party had decided \"to acquire independence for the State\"."
+        },
+        {
+          "date": "1947-06-01",
+          "date_latest": "1947-06-30",
+          "date_precision": "month",
+          "text": "Poonchis started a 'No Tax' campaign against the Maharaja's administration."
+        },
+        {
+          "date": "1947-06-01",
+          "date_latest": "1947-06-30",
+          "date_precision": "month",
+          "text": "The Maharaja met with Punjab businessman Rai Bahadur Gopal Das and expressed fears of ill-treatment at the hands of Congressmen. Gopal Das relayed this to Vallabhbhai Patel."
+        },
+        {
+          "date": "1947-06-03",
+          "date_latest": "1947-06-03",
+          "date_precision": "day",
+          "text": "Mountbatten proposed the partition plan to divide British India into independent dominions of India and Pakistan."
+        },
+        {
+          "date": "1947-06-13",
+          "date_latest": "1947-06-13",
+          "date_precision": "day",
+          "text": "At the Joint Defence Council meeting, Jinnah and Nehru disagreed on the accession of princely states, Jinnah asserting that it was for the rulers to decide and Nehru insisting that it was for the people."
+        },
+        {
+          "date": "1947-06-19",
+          "date_latest": "1947-06-19",
+          "date_precision": "day",
+          "text": "Lord Mountbatten visited Kashmir for 5 days to persuade the Maharaja to accede to India or Pakistan. The Maharaja showed reluctance."
+        },
+        {
+          "date": "1947-07-01",
+          "date_latest": "1947-07-31",
+          "date_precision": "month",
+          "text": "The Maharaja forced the disarming of demobilised soldiers in Poonch and Mirpur. Muslims complained that the arms they deposited with the police were distributed to Hindus and Sikhs for self-defence."
+        },
+        {
+          "date": "1947-07-03",
+          "date_latest": "1947-07-03",
+          "date_precision": "day",
+          "text": "Vallabhbhai Patel wrote to the Maharaja to allay his fears of ill-will from the Indian National Congress. Patel encouraged him to visit Delhi for discussions. The receipt of the letter was followed by detailed discussions between the Maharaja and Gopal Das. By 14 July, the Maharaja is reported to have decided on declaring general amnesty to all political prisoners and dismissing the Prime Minister Ram Chandra Kak."
+        },
+        {
+          "date": "1947-07-11",
+          "date_latest": "1947-07-11",
+          "date_precision": "day",
+          "text": "Muhammad Ali Jinnah advised the Muslim Conference acting president Choudhry Hamidullah to support the Maharaja's wish for independence. Jinnah also issued a press statement to the effect that, if Kashmir opted for independence, Pakistan would have friendly relations with it."
+        },
+        {
+          "date": "1947-07-19",
+          "date_latest": "1947-07-19",
+          "date_precision": "day",
+          "text": "At a convention of the Muslim Conference workers in Srinagar, followers of Acting President Choudhry Hamidullah supported independence for the state, and those of Mirwaiz Yousuf Shah supported accession to Pakistan. The eventual compromise resolution requested the Maharaja to declare the \"internal autonomy\" of the state and accede to Pakistan for defence, foreign affairs and communications. Jinnah's personal secretary K. H. Khurshid assured the Maharaja that Pakistan would not \"take away an iota of his power\"."
+        },
+        {
+          "date": "1947-07-23",
+          "date_latest": "1947-07-23",
+          "date_precision": "day",
+          "text": "State's Prime Minister Ram Chandra Kak visited Delhi for 5 days, meeting Mountbatten and the political leaders of Congress and Muslim League. He explained that the State had decided not to accede to either Dominion."
+        },
+        {
+          "date": "1947-08-01",
+          "date_latest": "1947-08-01",
+          "date_precision": "day",
+          "text": "Mahatma Gandhi visited the Maharaja and impressed upon him the need to be prompt in deciding on the State's accession based on the people's wishes. In discussions with Ram Chandra Kak, Gandhi pointed out Kak's lack of popularity among the people and Kak offered to resign."
+        },
+        {
+          "date": "1947-08-01",
+          "date_latest": "1947-08-01",
+          "date_precision": "day",
+          "text": "The Gilgit Agency was transferred by the British to the Maharaja. British Political Agent Colonel Roger Bacon handed over power to Major Ghansara Singh, the appointed Governor of Gilgit. Major William Brown was appointed the commander of Gilgit Scouts."
+        },
+        {
+          "date": "1947-08-11",
+          "date_latest": "1947-08-11",
+          "date_precision": "day",
+          "text": "Partition violence erupted in Sialkot, and drove the surviving Hindus and Sikhs to Jammu."
+        },
+        {
+          "date": "1947-08-11",
+          "date_latest": "1947-08-11",
+          "date_precision": "day",
+          "text": "The Maharaja dismissed Prime Minister Ram Chandra Kak and replaced him with retired Major Janak Singh. A second invitation was made to Justice Mahajan to become Prime Minister. Due to floods and partition violence, the message reached him on 25 August."
+        },
+        {
+          "date": "1947-08-14",
+          "date_latest": "1947-08-14",
+          "date_precision": "day",
+          "text": "Independence and Partition of British India into India and Pakistan. Kashmir signed the Standstill Agreement with Pakistan. India requested further discussions for a standstill agreement."
+        },
+        {
+          "date": "1947-08-18",
+          "date_latest": "1947-08-18",
+          "date_precision": "day",
+          "text": "In one of the worst train massacres of the Partition, Lohars and 'Kashmiris' of Nizamabad killed all the Hindu and Sikh passengers of a Wazirabad–Jammu train."
+        },
+        {
+          "date": "1947-08-20",
+          "date_latest": "1947-08-20",
+          "date_precision": "day",
+          "text": "Pakistan Army formulated Operation Gulmarg to organise a tribal invasion of Kashmir."
+        },
+        {
+          "date": "1947-08-23",
+          "date_latest": "1947-08-23",
+          "date_precision": "day",
+          "text": "Rebels under the command of Sardar Abdul Qayyum fired on the State Forces at Bagh."
+        },
+        {
+          "date": "1947-08-25",
+          "date_latest": "1947-08-25",
+          "date_precision": "day",
+          "text": "The Maharani's emissary delivered an invitation to Justice Mahajan, with a repeated request on 7 September."
+        },
+        {
+          "date": "1947-08-25",
+          "date_latest": "1947-08-25",
+          "date_precision": "day",
+          "text": "The Muslim Conference wrote to Pakistani Prime Minister Liaquat Ali Khan and claimed that the state's government and the National Conference were intriguing. \"If, God forbid, the Pakistan Government or the Muslim League do not act, Kashmir might be lost to them and the responsibility would be theirs,\" warned the communication."
+        },
+        {
+          "date": "1947-08-28",
+          "date_latest": "1947-08-28",
+          "date_precision": "day",
+          "text": "Colonel Akbar Khan, who would later operate as 'General Tariq' commanding Pakistani irregulars, arrived in Rawalpindi. The Prince Albert Victor's Own Cavalry (later 11th Cavalry) was briefed on Pakistan's \"invasion plans\" by Akbar Khan, along with Colonels Sher Khan and Khanzadeh."
+        },
+        {
+          "date": "1947-08-28",
+          "date_latest": "1947-08-28",
+          "date_precision": "day",
+          "text": "The Muslim Conference leader in Poonch, Sardar Ibrahim, arrived in Lahore to seek Pakistan's assistance for a rebellion. He was ignored by officials, but entertained by the provincial Muslim League leader Mian Iftikharuddin. Ibrahim headed to Murree to set up a base for the rebellion."
+        },
+        {
+          "date": "1947-09-01",
+          "date_latest": "1947-09-30",
+          "date_precision": "month",
+          "text": "Pakistan deputed Mian Iftikharuddin to visit Kashmir to assess Pakistan's prospects for its accession. En route, Iftikharuddin introduced Sardar Ibrahim to Colonel Akbar Khan in Murree. Sardar Ibrahim requested arms for the rebels."
+        },
+        {
+          "date": "1947-09-04",
+          "date_latest": "1947-09-04",
+          "date_precision": "day",
+          "text": "Civil & Military Gazette reported that there was an uprising in the Poonch area."
+        },
+        {
+          "date": "1947-09-04",
+          "date_latest": "1947-09-04",
+          "date_precision": "day",
+          "text": "Henry Lawrence Scott informed the Maharaja that 400 armed Muslims infiltrated from Kahuta into the state to terrorise the Hindu and Sikh minorities. Kashmir reported the information to Pakistan and urged it to control the infiltration."
+        },
+        {
+          "date": "1947-09-09",
+          "date_latest": "1947-09-09",
+          "date_precision": "day",
+          "text": "Pakistan blocked supplies of petrol, sugar, salt and kerosene and stopped trade in timber, fruits, fur and carpets in violation of the standstill agreement."
+        },
+        {
+          "date": "1947-09-12",
+          "date_latest": "1947-09-12",
+          "date_precision": "day",
+          "text": "Liaquat Ali Khan approved the plan for \"Armed Revolt inside Kashmir\" prepared by Colonel Akbar Khan and another plan prepared by Sardar Shaukat Hayat Khan. Khurshid Anwar of the Muslim League National Guard was dispatched to the Frontier to mobilise the Pashtun tribes for an armed attack."
+        },
+        {
+          "date": "1947-09-13",
+          "date_latest": "1947-09-13",
+          "date_precision": "day",
+          "text": "Justice Mehr Chand Mahajan visited Kashmir and accepted the Maharaja's invitation to be the prime minister of the state."
+        },
+        {
+          "date": "1947-09-13",
+          "date_latest": "1947-09-13",
+          "date_precision": "day",
+          "text": "Pakistan accepted the accession of the Junagadh State. The Poonch rebels in Murree began to lobby Jinnah with telegrams: \"Atrocious military oppression in Poonch.... Kindly intervene.\""
+        },
+        {
+          "date": "1947-09-13",
+          "date_latest": "1947-09-13",
+          "date_precision": "day",
+          "text": "Vallabhbhai Patel approved the request from Jammu and Kashmir for the secondment of Col. Kashmir Singh Katoch. He was intended to head the State forces upon the departure of General Henry Lawrence Scott. However, in the event, he was only appointed as the military advisor to the Maharaja."
+        },
+        {
+          "date": "1947-09-19",
+          "date_latest": "1947-09-19",
+          "date_precision": "day",
+          "text": "Mahajan met Jawaharlal Nehru and Vallabhbhai Patel in Delhi and apprised them of the situation in the state. He indicated the Maharaja's willingness to accede to India but asked for political reforms to be delayed. Nehru demanded the release of Sheikh Abdullah."
+        },
+        {
+          "date": "1947-09-19",
+          "date_latest": "1947-09-19",
+          "date_precision": "day",
+          "text": "The Muslim Conference acting president Choudhri Hamidullah and general secretary Ishaque Qureshi were summoned by Pakistani prime minister Liaquat Ali Khan and briefed about Pakistan's invasion plans."
+        },
+        {
+          "date": "1947-09-20",
+          "date_latest": "1947-09-20",
+          "date_precision": "day",
+          "text": "According to Sardar Ibrahim, a people's militia of 50,000 ex-servicemen had been raised to form an 'Azad Army'."
+        },
+        {
+          "date": "1947-09-22",
+          "date_latest": "1947-09-22",
+          "date_precision": "day",
+          "text": "Muslim Conference convention at Srinagar took a decision favouring accession to Pakistan.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1947-09-26",
+          "date_latest": "1947-09-26",
+          "date_precision": "day",
+          "text": "Civil & Military Gazette reported on the 'Exodus of Muslims from Jammu'. 50,000 Muslims were said to have migrated to West Punjab, halving Jammu city's Muslim population."
+        },
+        {
+          "date": "1947-09-26",
+          "date_latest": "1947-09-26",
+          "date_precision": "day",
+          "text": "The Pakistan Times reported that the Maharaja had decided to accede to India two weeks previously."
+        },
+        {
+          "date": "1947-09-27",
+          "date_latest": "1947-09-27",
+          "date_precision": "day",
+          "text": "Nehru wrote to Vallabhbhai Patel predicting a Pakistani incursion into Kashmir. He recommended that the Maharaja \"make friends\" with the National Conference."
+        },
+        {
+          "date": "1947-09-29",
+          "date_latest": "1947-09-29",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah was released from prison."
+        },
+        {
+          "date": "1947-09-30",
+          "date_latest": "1947-09-30",
+          "date_precision": "day",
+          "text": "Nehru proposed using plebiscite as a means of settling disputes regarding princely states. It was discussed in the Indian Cabinet and then communicated to Pakistani Prime Minister Liaquat Ali Khan in Delhi. Khan's eyes were said to have \"sparkled\" at the proposal, though he made no response."
+        },
+        {
+          "date": "1947-10-01",
+          "date_latest": "1947-10-01",
+          "date_precision": "day",
+          "text": "Dwarkanath Kachru, the secretary general of the All-India States Peoples' Conference, visited Kashmir for four days. He reported to Nehru that the National Conference had decided in favour of accession to India."
+        },
+        {
+          "date": "1947-10-03",
+          "date_latest": "1947-10-03",
+          "date_precision": "day",
+          "text": "Khwaja Ghulam Nabi Gilkar, under the assumed name \"Mr. Anwar\", issued the proclamation of a provisional 'Azad Kashmir' government in Muzaffarabad. This government failed with the arrest of Gilkar in Srinagar."
+        },
+        {
+          "date": "1947-10-06",
+          "date_latest": "1947-10-06",
+          "date_precision": "day",
+          "text": "An armed rebellion began in Poonch."
+        },
+        {
+          "date": "1947-10-06",
+          "date_latest": "1947-10-06",
+          "date_precision": "day",
+          "text": "The Maharaja replaced Chief of State Forces Banbury and Police Chief Powell with Hindu officers."
+        },
+        {
+          "date": "1947-10-07",
+          "date_latest": "1947-10-07",
+          "date_precision": "day",
+          "text": "The Maharaja imposed rigorous precensorship of the press, especially of all views regarding the State's accession."
+        },
+        {
+          "date": "1947-10-08",
+          "date_latest": "1947-10-08",
+          "date_precision": "day",
+          "text": "Pakistani raids on the borders of Jammu and Kathua districts began."
+        },
+        {
+          "date": "1947-10-08",
+          "date_latest": "1947-10-08",
+          "date_precision": "day",
+          "text": "The Owen Pattan post on Jhelum river was captured by rebels. Sehnsa and Throchi were abandoned by State Forces after attack."
+        },
+        {
+          "date": "1947-10-10",
+          "date_latest": "1947-10-10",
+          "date_precision": "day",
+          "text": "Sardar Vallabhbhai Patel expedited Justice Mahajan's leave from Punjab High Court, which enabled him to accept the Prime Ministership. Mahajan visited Indian leaders and Lord Mountbatten in Delhi before proceeding to Srinagar."
+        },
+        {
+          "date": "1947-10-12",
+          "date_latest": "1947-10-12",
+          "date_precision": "day",
+          "text": "K. H. Khurshid, Jinnah's private secretary, was sent to Kashmir to mobilise support for Pakistan, and reported: \"Muslim Conference is now practically a dead organisation.\" He advocated Pakistan to use force, and \"supply arms and foodstuff to the tribes within and without the state.\""
+        },
+        {
+          "date": "1947-10-14",
+          "date_latest": "1947-10-14",
+          "date_precision": "day",
+          "text": "Some activists of the Rashtriya Swayamsevak Sangh and the Akalis mounted attacks on villages of the Jammu district, which killed Muslims and set houses on fire"
+        },
+        {
+          "date": "1947-10-15",
+          "date_latest": "1947-10-15",
+          "date_precision": "day",
+          "text": "Mehr Chand Mahajan took charge as Prime Minister of the state. Concentration of tribesmen reported at Abbottabad-Mansehra."
+        },
+        {
+          "date": "1947-10-17",
+          "date_latest": "1947-10-17",
+          "date_precision": "day",
+          "text": "A battalion of Patiala State Forces arrives in Jammu and a mountain battery (artillery regiment) is stationed in Srinagar."
+        },
+        {
+          "date": "1947-10-17",
+          "date_latest": "1947-10-17",
+          "date_precision": "day",
+          "text": "Brigadier N.S. Rawat given the charge of the Jammu Brigade of the State Forces, and Brigadier Khuda Baksh made Chief of Staff, second in command."
+        },
+        {
+          "date": "1947-10-18",
+          "date_latest": "1947-10-18",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah attended the meeting of the Standing Committee of All India States Peoples Conference in Delhi."
+        },
+        {
+          "date": "1947-10-19",
+          "date_latest": "1947-10-19",
+          "date_precision": "day",
+          "text": "The Maharaja and the new prime minister travelled to Jammu province and investigated the Pakistani border raids, visiting Jammu (19 October), Bhimber (20 October), Kathua (21 October) and returning to Srinagar on 22 October."
+        },
+        {
+          "date": "1947-10-20",
+          "date_latest": "1947-10-20",
+          "date_precision": "day",
+          "text": "Lorries carrying 900 Mahsud tribesmen departed the Frontier tribal region heading to Kashmir. Governor George Cunningham sent a letter to Indian Army Chief Gen. Rob Lockhart warning him about the invasion; the letter was received on 23 or 24 October."
+        },
+        {
+          "date": "1947-10-21",
+          "date_latest": "1947-10-21",
+          "date_precision": "day",
+          "text": "Dak Bungalow at Bhimber was attacked by rebels. There were accusations that this was an effort to kill or abduct the Maharaja, who was scheduled to visit that day."
+        },
+        {
+          "date": "1947-10-21",
+          "date_latest": "1947-10-21",
+          "date_precision": "day",
+          "text": "Journalist G. K. Reddy, working for Associated Press of India (API) in Lahore, received a telephone call from the Pakistan Army Headquarters in Rawalpindi, stating that the Ramkot post was being attacked that night, and the news should be published as coming from Palandri."
+        },
+        {
+          "date": "1947-10-21",
+          "date_latest": "1947-10-21",
+          "date_precision": "day",
+          "text": "Pakistan precipitated the first Indo-Pakistani War when it launched a tribal lashkar (levy) from Waziristan to overthrow the Maharaja's government."
+        },
+        {
+          "date": "1947-10-21",
+          "date_latest": "1947-10-21",
+          "date_precision": "day",
+          "text": "The Maharaja appointed Bakshi Tek Chand, a retired judge of the Punjab High Court, to frame a constitution for the state."
+        },
+        {
+          "date": "1947-10-22",
+          "date_latest": "1947-10-22",
+          "date_precision": "day",
+          "text": "All the Muslim members of the State Police in Jammu City were disarmed and ordered to go to Pakistan."
+        },
+        {
+          "date": "1947-10-24",
+          "date_latest": "1947-10-24",
+          "date_precision": "day",
+          "text": "A second provisional government of Azad Kashmir was established under the leadership of Sardar Ibrahim with nominal headquarters at Palandri."
+        },
+        {
+          "date": "1947-10-24",
+          "date_latest": "1947-10-24",
+          "date_precision": "day",
+          "text": "Bhimber fell to rebels after an attack by armoured vehicles of the Pakistan Army."
+        },
+        {
+          "date": "1947-10-24",
+          "date_latest": "1947-10-24",
+          "date_precision": "day",
+          "text": "New Delhi received the news of tribal invasion via two channels, from General Gracey of Pakistan Army communicated to General Lockhart and from R.L. Batra, the Deputy Prime Minister of Jammu and Kashmir, to Nehru."
+        },
+        {
+          "date": "1947-10-25",
+          "date_latest": "1947-10-25",
+          "date_precision": "day",
+          "text": "A Defence Committee meeting in Delhi, headed by Lord Mountbatten, considered the Maharaja's request. Ministers were unanimous in sending military assistance, but disagreed on whether to accept Kashmir's accession. The secretary of the States Department, V. P. Menon, was sent to Kashmir to assess the situation.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1947-10-26",
+          "date_latest": "1947-10-26",
+          "date_precision": "day",
+          "text": "The Maharaja signed the Instrument of Accession (IOA), acceding the state to the Indian Union. India accepted the accession, regarding it provisional"
+        },
+        {
+          "date": "1947-10-26",
+          "date_latest": "1947-10-26",
+          "date_precision": "day",
+          "text": "V. P. Menon brought news that the situation in Kashmir was critical and that the Maharaja was ready to agree to \"any terms\". The accession was accepted on the condition of a future ratification by the people and the appointment Sheikh Abdullah to the government. The Maharaja moved from Srinagar to Jammu, his winter capital."
+        },
+        {
+          "date": "1947-10-27",
+          "date_latest": "1947-10-27",
+          "date_precision": "day",
+          "text": "Mohammad Ali Jinnah ordered General Douglas Gracey to send Pakistani troops into Kashmir. Gracey declined, pointing out the fact of Kashmir's accession to India. Gracey had a 'stand down order' from Supreme Commander Claude Auchinleck to the effect that, in the event of an inter-Dominion war, all the British officers in both the armies must stand down."
+        },
+        {
+          "date": "1947-10-27",
+          "date_latest": "1947-10-27",
+          "date_precision": "day",
+          "text": "The Indian army entered the state to repel the invaders. Sheikh Abdullah endorsed the accession but termed it ad hoc and to be ultimately decided by the people of Jammu and Kashmir. He was appointed head of the emergency administration."
+        },
+        {
+          "date": "1947-10-27",
+          "date_latest": "1947-10-27",
+          "date_precision": "day",
+          "text": "The Kashmir Liberation Committee was formed to manage Pakistan's conduct of the war. It was headed by Prime Minister Liaquat Ali Khan, with Colonel Akbar Khan as the military member, Ghulam Muhammad, the finance minister, and Sardar Ibrahim, the president of the provisional Azad Kashmir government."
+        },
+        {
+          "date": "1947-10-28",
+          "date_latest": "1947-10-28",
+          "date_precision": "day",
+          "text": "Field Marshal Auchinleck flew to Lahore to explain the stand down order to Jinnah. Upon his suggestion, Jinnah invited the Indian leaders for a conference in Lahore but the Indian Cabinet declined the invitation."
+        },
+        {
+          "date": "1947-10-29",
+          "date_latest": "1947-10-29",
+          "date_precision": "day",
+          "text": "Jinnah and Liaquat Ali Khan entered the war officially by deciding to maintain a force of at least 5,000 tribesmen in Kashmir."
+        },
+        {
+          "date": "1947-10-31",
+          "date_latest": "1947-10-31",
+          "date_precision": "day",
+          "text": "Major William Brown, the commander of the Gilgit Scouts, led a coup against the governor of Gilgit and imprisoned him. A provisional government was declared by the rebels."
+        },
+        {
+          "date": "1947-10-31",
+          "date_latest": "1947-10-31",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah was appointed as the head of the Emergency Administration in Kashmir.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1947-11-01",
+          "date_latest": "1947-11-01",
+          "date_precision": "day",
+          "text": "Lord Mountbatten and Mohammad Ali Jinnah met in Lahore, as the Governors General of India and Pakistan. Mountbatten offered India's proposal that the accession of Junagadh, Hyderabad and Kashmir should be decided by an impartial reference to the will of the people in the form of a plebiscite. Jinnah rejected the offer."
+        },
+        {
+          "date": "1947-11-01",
+          "date_latest": "1947-11-30",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah recommended that India give an ultimatum and declare war against Pakistan upon the expiry of the ultimatum. Nehru did not favour a broader war."
+        },
+        {
+          "date": "1947-11-03",
+          "date_latest": "1947-11-03",
+          "date_precision": "day",
+          "text": "Mendhar, in the eastern part of the Poonch district fell to rebels; Bagh and Rawalakot followed in quick succession. Hindu and Sikh refugees from these areas took shelter in Nowshera, Mirpur, Kotli and Poonch, which were all surrounded by rebels."
+        },
+        {
+          "date": "1947-11-03",
+          "date_latest": "1947-11-03",
+          "date_precision": "day",
+          "text": "Tribesmen broke through to within 5 mi of the Srinagar airport and were beaten back. Indians suffered heavy casualties. Indian Home Minister Vallabhbhai Patel argued for the army to be reinforced; two more battalions were air-lifted, and a squadron of armoured cars and field artillery were dispatched from Pathankot."
+        },
+        {
+          "date": "1947-11-05",
+          "date_latest": "1947-11-05",
+          "date_precision": "day",
+          "text": "Convoys of Muslim refugees from Jammu going to West Punjab were attacked by armed bands supported by State troops; very few survived."
+        },
+        {
+          "date": "1947-11-05",
+          "date_latest": "1947-11-05",
+          "date_precision": "day",
+          "text": "Most of the tribesmen withdrew to Uri in the face of the Indian assault. Many returned home, sensing that the fight was lost."
+        },
+        {
+          "date": "1947-11-07",
+          "date_latest": "1947-11-07",
+          "date_precision": "day",
+          "text": "Rajouri was captured by Azad rebels. 30,000 Hindus and Sikhs gathered there were killed in the 1947 Rajouri Massacre before it was relieved, with the exception of 1,500 who escaped to the hills."
+        },
+        {
+          "date": "1947-11-07",
+          "date_latest": "1947-11-07",
+          "date_precision": "day",
+          "text": "Reinforced Indian troops in the Kashmir Valley engaged the tribesmen at Shalateng and inflicted heavy casualties. The defeated tribal forces were pursued and Baramulla and Uri were recaptured."
+        },
+        {
+          "date": "1947-11-09",
+          "date_latest": "1947-11-09",
+          "date_precision": "day",
+          "text": "An attack on a convoy of Muslim refugees from Jammu was repelled by Indian troops, killing 150 of the attackers. No further attacks on convoys were reported after this incident."
+        },
+        {
+          "date": "1947-11-13",
+          "date_latest": "1947-11-13",
+          "date_precision": "day",
+          "text": "Major General Kalwant Singh issued an order to the 50 Para Brigade to relieve Nowshera, Jhangar, Mirpur, Kotli and Poonch in seven days. The ambitious plan was criticised by General Roy Bucher."
+        },
+        {
+          "date": "1947-11-16",
+          "date_latest": "1947-11-16",
+          "date_precision": "day",
+          "text": "Pakistan's Political Agent, Khan Mohammad Alam Khan, arrived in Gilgit and took over the administration. The provisional government was dismissed."
+        },
+        {
+          "date": "1947-11-17",
+          "date_latest": "1947-11-17",
+          "date_precision": "day",
+          "text": "The Jammu Praja Parishad was formed with Hari Wazir as party president and Hansraj Pangotra as general secretary. Pandit Prem Nath Dogra and Balraj Madhok were also major founding members."
+        },
+        {
+          "date": "1947-11-18",
+          "date_latest": "1947-11-18",
+          "date_precision": "day",
+          "text": "50 Para Brigade relieved Nowshera.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1947-11-25",
+          "date_latest": "1947-11-25",
+          "date_precision": "day",
+          "text": "Mirpur fell to rebels. 20,000 Hindus and Sikhs taking shelter at the town were killed in the 1947 Mirpur Massacre during the rebel occupation."
+        },
+        {
+          "date": "1947-11-26",
+          "date_latest": "1947-11-26",
+          "date_precision": "day",
+          "text": "50 Para Brigade relieved Kotli, but evacuated it the next day due to the difficulty of defending it against the surrounding rebels."
+        },
+        {
+          "date": "1947-11-26",
+          "date_latest": "1947-11-26",
+          "date_precision": "day",
+          "text": "During Liaquat Ali Khan's visit to Delhi for a Joint Defence Council meeting, the two countries reached an agreement on the sharing of sterling balances. A tentative agreement on Kashmir was reached; Pakistan agreed to use its influence on the raiders to withdraw, India to scale back its troops, and the UN to be approached for holding a plebiscite."
+        },
+        {
+          "date": "1947-11-28",
+          "date_latest": "1947-11-28",
+          "date_precision": "day",
+          "text": "Horace Alexander estimated that 200,000 Muslims had been affected by the anti-Muslim violence in Jammu. Mahatma Gandhi spoke about it in his prayer meeting, and reproached Sheikh Abdullah for not curtailing the Maharaja's powers."
+        },
+        {
+          "date": "1947-11-30",
+          "date_latest": "1947-11-30",
+          "date_precision": "day",
+          "text": "Large concentrations of insurgents were reported at Sialkot, Gujrat and Jhelum."
+        },
+        {
+          "date": "1947-12-01",
+          "date_latest": "1947-12-31",
+          "date_precision": "month",
+          "text": "Liaquat Ali Khan visited the Azad staging areas in the Sialkot District and was enraged by the reports of atrocities narrated by the Azad rebels. He issued a renewed call to arms."
+        },
+        {
+          "date": "1947-12-04",
+          "date_latest": "1947-12-04",
+          "date_precision": "day",
+          "text": "The British Commander-in-Chief of the Pakistan Army sanctioned military involvement in the Kashmir War. One million rounds of ammunition and twelve volunteer officers were provided."
+        },
+        {
+          "date": "1947-12-08",
+          "date_latest": "1947-12-08",
+          "date_precision": "day",
+          "text": "A meeting between Nehru and Liaquat Ali Khan, along with ministers and Lord Mountbatten, was deadlocked. Mountbatten proposed that the UN be invited to break the deadlock."
+        },
+        {
+          "date": "1947-12-15",
+          "date_latest": "1947-12-15",
+          "date_precision": "day",
+          "text": "Indian forces lost ground and Nehru contemplated escalating the war across the international border to strike against the raider's bases, but decides against it."
+        },
+        {
+          "date": "1947-12-20",
+          "date_latest": "1947-12-20",
+          "date_precision": "day",
+          "text": "Mountbatten recommended India take the matter to the UN, where he says it would have a \"cast-iron case\". He believed the UN would promptly direct Pakistan to withdraw. The proposal was discussed in the Indian Cabinet."
+        },
+        {
+          "date": "1947-12-22",
+          "date_latest": "1947-12-22",
+          "date_precision": "day",
+          "text": "Nehru handed Liaquat Ali Khan a formal letter demanding that Pakistan deny assistance to the raiders."
+        },
+        {
+          "date": "1947-12-24",
+          "date_latest": "1947-12-24",
+          "date_precision": "day",
+          "text": "Indian forces were evicted from Jhangar by rebels. However, they repelled the attack on Nowshera by 27 December. India reinforced Kashmir by an additional brigade."
+        },
+        {
+          "date": "1947-12-27",
+          "date_latest": "1947-12-27",
+          "date_precision": "day",
+          "text": "British Commonwealth Minister Philip Noel-Baker considered it a \"political miscalculation\" by India that the UN Security Council would condemn Pakistan as an aggressor. The events before Kashmir's accession would also come into play. He predicted that the question of plebiscite would be the focus of the Security Council."
+        },
+        {
+          "date": "1947-12-28",
+          "date_latest": "1947-12-28",
+          "date_precision": "day",
+          "text": "Mountbatten urged Nehru \"to stop the fighting and to stop it as soon as possible\". Exchanges between Mountbatten and Nehru were passed on to the British government, which was advised that any Indian defeat in the Kashmir valley would immediately lead to a broader war. Prime Minister Attlee warned Nehru that opening a broader war would jeopardise India's case in the UN. Britain alerted the US, which requested clarifications from the Indian government."
+        },
+        {
+          "date": "1947-12-31",
+          "date_latest": "1947-12-31",
+          "date_precision": "day",
+          "text": "India referred the Kashmir problem to the UN Security Council.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1947-12-31",
+          "date_latest": "1947-12-31",
+          "date_precision": "day",
+          "text": "The British Commonwealth Relations Office (CRO) asked its permanent representative at the UN, Alexander Cadogan, about the validity of Indian claims. Cadogan responded that India was entitled to charge Pakistan as an aggressor under Article 35 and to take measures for self-defence under Article 51, including \"pursuing invaders into Pakistan\"."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-01-01",
+          "date_precision": "day",
+          "text": "UN Security Council considered the Kashmir problem."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-01-31",
+          "date_precision": "month",
+          "text": "'Balawaristan' insurrection in Gilgit by the local people. It was put down by the Gilgit forces."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-01-31",
+          "date_precision": "month",
+          "text": "Noel-Baker won the support of the Western powers in the Security Council—the US, Canada and France—for the Pakistani position that the raiders cannot be withdrawn without a change of government in Kashmir. Draft resolutions were formulated along the lines of the 10 January proposals.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-01-02",
+          "date_latest": "1948-01-02",
+          "date_precision": "day",
+          "text": "The British Cabinet decided to send a special delegation to handle the Kashmir issue in the Security Council, sidestepping Alexander Cadogan. Commonwealth Relations Minister Philip Noel-Baker",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-01-10",
+          "date_latest": "1948-01-10",
+          "date_precision": "day",
+          "text": "Noel-Baker put forward the British proposals to the US State Department: Kashmir to be put under an \"impartial administration\" headed by a UN-appointed chairman; India–Pakistan joint military forces, along with UN troops, to operate under a UN-appointed commander-in-chief. He failed to win US support for these proposals."
+        },
+        {
+          "date": "1948-01-15",
+          "date_latest": "1948-01-15",
+          "date_precision": "day",
+          "text": "India and Pakistan made presentations to the UN Security Council. While India reiterated its demands in the original referral, Pakistan made wide-ranging allegations against India including 'genocide' against Muslims in various places in India, unlawful occupation of Junagadh and other issues. Pakistan demanded the withdrawal of both the raiders and the Indians from Kashmir.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-01-17",
+          "date_latest": "1948-01-17",
+          "date_precision": "day",
+          "text": "UN Security Council passed Resolution 38 which called upon India and Pakistan to refrain from aggravating the situation and requested they inform the Council of any \"material changes\" in the situation."
+        },
+        {
+          "date": "1948-01-20",
+          "date_latest": "1948-01-20",
+          "date_precision": "day",
+          "text": "UN Security Council passed Resolution 39 which announced a 3-member commission to investigate the Kashmir dispute. However the Commission did not come into fruition until May 1948.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-01-28",
+          "date_latest": "1948-01-28",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah, as a member of the Indian delegation to the Security Council, met US delegate Warren Austin and raised the possibility of independence for Kashmir. At this stage, the US showed no interest in further fragmentation of India.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-02-03",
+          "date_latest": "1948-02-03",
+          "date_precision": "day",
+          "text": "India requested an adjournment of the Security Council discussions. The Indian Cabinet was said to be in favour of withdrawing the UN referral unless greater consideration was shown to India's complaints."
+        },
+        {
+          "date": "1948-02-09",
+          "date_latest": "1948-02-09",
+          "date_precision": "day",
+          "text": "Gilgit rebels attacked Skardu. The State forces at Skardu defended it for almost six months afterwards."
+        },
+        {
+          "date": "1948-02-12",
+          "date_latest": "1948-02-12",
+          "date_precision": "day",
+          "text": "Security Council discussions were adjourned.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-02-27",
+          "date_latest": "1948-02-27",
+          "date_precision": "day",
+          "text": "Serious differences arose between the US and UK delegations in their approach to the Kashmir resolution. The US insisted on Pakistan's obligation to stop the assistance to the raiders, favoured keeping the interim government of Kashmir in place, and limited the role of the UN commission to the conduct of the plebiscite. However, the US refrained from making its views public."
+        },
+        {
+          "date": "1948-02-27",
+          "date_latest": "1948-02-27",
+          "date_precision": "day",
+          "text": "The Commonwealth Affairs Committee of the British Cabinet discussed the Kashmir question for the first time. Patrick Gordon Walker, the Parliamentary Under-Secretary for Commonwealth Relations, disagreed with Noel-Baker and proposed a 'completely neutral' attitude on the part of the UK. The committee formulated a new approach, overriding Noel-Baker."
+        },
+        {
+          "date": "1948-03-07",
+          "date_latest": "1948-03-07",
+          "date_precision": "day",
+          "text": "A small group of Indian troops crossed through the treacherous Zoji La pass, reaching Leh with guns and ammunition to raise a local volunteer force."
+        },
+        {
+          "date": "1948-03-10",
+          "date_latest": "1948-03-10",
+          "date_precision": "day",
+          "text": "Security Council deliberations resumed."
+        },
+        {
+          "date": "1948-03-18",
+          "date_latest": "1948-03-18",
+          "date_precision": "day",
+          "text": "The Republic of China, as the current Chair of the Security Council, tabled a resolution in three parts: restoration of peace by calling upon Pakistan to withdraw the raiders, request that India appoint a plebiscite administration with UN-nominated directors, and a request that India broaden the interim government with representatives from all major political groups."
+        },
+        {
+          "date": "1948-03-21",
+          "date_latest": "1948-03-21",
+          "date_precision": "day",
+          "text": "UN Security Council passed Resolution 47 which called for a three-step process for the resolution of the dispute: Pakistani withdrawal of its nationals, India to reduce its troops to minimum level, and arrangements for a plebiscite. The UN Commission, which was proposed in January, was enlarged from three to five members under the name of United Nations Commission for India and Pakistan (UNCIP). Both India and Pakistan rejected the resolution but promised to work with the Commission."
+        },
+        {
+          "date": "1948-05-10",
+          "date_latest": "1948-05-10",
+          "date_precision": "day",
+          "text": "Operation Sledge – Four columns of insurgents struck Indian lines of communication at Gund, Pandras, Dras and Kargil, and all except Gund were captured. The Indian land route to Skardu and Leh was severed."
+        },
+        {
+          "date": "1948-05-22",
+          "date_latest": "1948-05-22",
+          "date_precision": "day",
+          "text": "India established an air link to Leh."
+        },
+        {
+          "date": "1948-07-05",
+          "date_latest": "1948-07-05",
+          "date_precision": "day",
+          "text": "UNCIP arrived in the subcontinent. In Karachi, it was told by Pakistan that three brigades of regular Pakistan Army were operating in Kashmir, a \"bombshell\" of news according to Josef Korbel. In Delhi, the Commission was told that it needed to recognize the aggression by Pakistan. The Commission broached the possibility of partition, considered favourably by India but rejected by Pakistan."
+        },
+        {
+          "date": "1948-07-06",
+          "date_latest": "1948-07-06",
+          "date_precision": "day",
+          "text": "In response to an appeal by the UNCIP, India limited its operations to clearing the land route to Leh and relieving Poonch."
+        },
+        {
+          "date": "1948-08-13",
+          "date_latest": "1948-08-13",
+          "date_precision": "day",
+          "text": "UNCIP adopted its first resolution on Kashmir, fine-tuning the April resolution of the Security Council to take into account objections by both India and Pakistan. Pakistan's aggression was indirectly acknowledged by asking for its withdrawal as the first step. The resolution was accepted by India, but effectively rejected by Pakistan.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1948-08-14",
+          "date_latest": "1948-08-14",
+          "date_precision": "day",
+          "text": "State forces at Skardu fell after eight months of siege."
+        },
+        {
+          "date": "1948-09-21",
+          "date_latest": "1948-09-21",
+          "date_precision": "day",
+          "text": "After sustained negotiations with India and Pakistan, UNCIP left for Zurich to write an interim report to the UN Security Council."
+        },
+        {
+          "date": "1948-11-01",
+          "date_latest": "1948-11-01",
+          "date_precision": "day",
+          "text": "Zoji La pass was recaptured by India."
+        },
+        {
+          "date": "1948-11-20",
+          "date_latest": "1948-11-20",
+          "date_precision": "day",
+          "text": "Two Indian columns linked at Poonch, relieving the pressure on the garrison."
+        },
+        {
+          "date": "1948-12-14",
+          "date_latest": "1948-12-14",
+          "date_precision": "day",
+          "text": "A major attack was made by the regular Pakistan army on the Indian line of communications at Beripattan-Nowshera."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-01-01",
+          "date_precision": "day",
+          "text": "A ceasefire between Indian and Pakistani forces left India in control of the Kashmir Valley, most of the Jammu province and Ladakh, while Pakistan gained control of the western districts comprising the present day Azad Kashmir, the Gilgit Agency and Baltistan."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "Jammu Praja Parishad launched an agitation calling for the full integration of Jammu and Kashmir with India. 294 members of the party were arrested."
+        },
+        {
+          "date": "1949-01-05",
+          "date_latest": "1949-01-05",
+          "date_precision": "day",
+          "text": "UNCIP stated that the question of the accession of the State of Jammu and Kashmir to India or Pakistan would be decided through a free and impartial plebiscite."
+        },
+        {
+          "date": "1949-04-28",
+          "date_latest": "1949-04-28",
+          "date_precision": "day",
+          "text": "Azad Kashmir signed the Karachi Agreement with Pakistan, which ceded control over defence and foreign affairs and complete control over Gilgit-Baltistan. The agreement was kept secret until 1990."
+        },
+        {
+          "date": "1949-06-16",
+          "date_latest": "1949-06-16",
+          "date_precision": "day",
+          "text": "Nominated by the Maharaja, Sheikh Abdullah and his colleagues joined the Constituent Assembly of India"
+        },
+        {
+          "date": "1949-06-20",
+          "date_latest": "1949-06-20",
+          "date_precision": "day",
+          "text": "Maharaja Hari Singh announced his decision to abdicate and appointed his son Karan Singh as the Prince Regent."
+        },
+        {
+          "date": "1949-10-17",
+          "date_latest": "1949-10-17",
+          "date_precision": "day",
+          "text": "The Indian Constituent Assembly adopted Article 370 of the Constitution, ensuring a special status and internal autonomy for Jammu and Kashmir, with Indian jurisdiction in Kashmir limited to the three areas agreed in the Instrument of Accession: defence, foreign affairs and communications."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "At the end of the year, Jehadist rhetoric inflamed Pakistan and continued into 1951."
+        },
+        {
+          "date": "1950-05-01",
+          "date_latest": "1950-05-31",
+          "date_precision": "month",
+          "text": "UN mediator, Sir Owen Dixon, arrived in the subcontinent."
+        },
+        {
+          "date": "1950-07-01",
+          "date_latest": "1950-07-31",
+          "date_precision": "month",
+          "text": "India–Pakistan summit in the presence of Owen Dixon failed to make progress. After the summit, Dixon received a tentative proposal from Nehru for a \"partition cum plebiscite\": a plebiscite to be held in the Kashmir Valley and the remaining state to be partitioned as per prevailing control."
+        },
+        {
+          "date": "1950-08-01",
+          "date_latest": "1950-08-31",
+          "date_precision": "month",
+          "text": "Liaquat Ali Khan accepted the partition-cum-plebiscite principle provided India agreed to put the state under neutral administration. India rejected any idea of replacing the National Conference administration. Dixon reported failure."
+        },
+        {
+          "date": "1951-06-01",
+          "date_latest": "1951-06-30",
+          "date_precision": "month",
+          "text": "India moved troops to the India–Pakistan border in response to the rhetoric from Pakistan. A military stand-off ensued. Pakistan regarded India's behaviour as \"aggressive\"."
+        },
+        {
+          "date": "1951-09-01",
+          "date_latest": "1951-09-30",
+          "date_precision": "month",
+          "text": "Elections were held for the Constituent Assembly of Jammu and Kashmir, with 75 seats allocated to the Indian-administered part of Kashmir and 25 seats reserved for the Pakistan-administered part. Sheikh Abdullah's National Conference won all 75 seats in a rigged election."
+        },
+        {
+          "date": "1951-10-01",
+          "date_latest": "1951-10-31",
+          "date_precision": "month",
+          "text": "Jammu Praja Parishad became an affiliate of the newly founded Bharatiya Jana Sangh, the precursor of the Bharatiya Janata Party."
+        },
+        {
+          "date": "1951-11-01",
+          "date_latest": "1951-11-30",
+          "date_precision": "month",
+          "text": "The Constituent Assembly passed legislation stripping the Maharaja of all powers and making the government answerable to the Assembly."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-01-31",
+          "date_precision": "month",
+          "text": "Jammu Praja Parishad renewed agitation and called for the full integration of the state with India. The army was called to impose order and several hundred activists were imprisoned. Jana Sangh and other Hindu nationalist parties staged a demonstration outside the Indian Parliament in support of the Praja Parishad."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-01-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah veers around to the position of demanding self-determination for Kashmiris, having previously endorsed accession to India (c.1947). In his Ranbirsinghpura speech in April, he questioned the state's continued accession to India."
+        },
+        {
+          "date": "1952-06-01",
+          "date_latest": "1952-06-30",
+          "date_precision": "month",
+          "text": "State Constituent Assembly considered a proposal for abolishing the hereditary monarchy."
+        },
+        {
+          "date": "1952-07-01",
+          "date_latest": "1952-07-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah signed the Delhi Agreement with the Indian government on Centre-State relationship"
+        },
+        {
+          "date": "1952-11-01",
+          "date_latest": "1952-11-30",
+          "date_precision": "month",
+          "text": "Jammu Praja Parishad relaunched its agitation campaign for a third time. The Jana Sangh and other Hindu nationalist parties launched a parallel agitation in Delhi, which supported the Praja Parishad. Two days after a Hartal (Voluntary shutdown protest) in Jammu, Praja Parishad president Prem Nath Dogra and general secretary Sham Lal Sharma were arrested."
+        },
+        {
+          "date": "1952-11-01",
+          "date_latest": "1952-11-30",
+          "date_precision": "month",
+          "text": "The Constituent Assembly adopted a resolution which abolished the monarchy and replaced it with an elected Sadar-i-Riyasat (Head of State). The Prince Regent Karan Singh was elected to the position."
+        },
+        {
+          "date": "1952-12-14",
+          "date_latest": "1952-12-14",
+          "date_precision": "day",
+          "text": "A \"Satyagrahi\" named Mela Ram was shot and killed by police in Chhamb while attempting to hoist the Indian national flag. It is estimated over 30,000 individuals came to his funeral in mourning and in support of the movement."
+        },
+        {
+          "date": "1953-05-01",
+          "date_latest": "1953-05-31",
+          "date_precision": "month",
+          "text": "Abdullah headed a subcommittee of the National Conference which recommended four options for the state's future, all involving a plebiscite or independence. Abdullah remained firm in negotiations with the central government regarding centre–state relations."
+        },
+        {
+          "date": "1953-05-01",
+          "date_latest": "1953-05-31",
+          "date_precision": "month",
+          "text": "Jana Sangh leader Syama Prasad Mukherjee made a bid to enter Jammu and Kashmir, citing his rights as an Indian citizen. He was promptly arrested at the Jammu border. In a widespread agitation in Jammu, Punjab and Delhi, 10,000 activists were imprisoned."
+        },
+        {
+          "date": "1953-06-02",
+          "date_latest": "1953-06-02",
+          "date_precision": "day",
+          "text": "Pakistani prime minister Muhammad Ali Bogra and Nehru meet in London."
+        },
+        {
+          "date": "1953-06-23",
+          "date_latest": "1953-06-23",
+          "date_precision": "day",
+          "text": "Syama Prasad Mukherjee died in prison.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1953-07-25",
+          "date_latest": "1953-07-25",
+          "date_precision": "day",
+          "text": "Bilateral talks between Pakistan and India in Karachi."
+        },
+        {
+          "date": "1953-08-01",
+          "date_latest": "1953-08-31",
+          "date_precision": "month",
+          "text": "The National Conference working committee recommendations were opposed by three of Abdullah's five-member cabinet, including Deputy Prime Minister Bakshi Ghulam Mohammad. They were further strengthened by the communist faction led by G. M. Sadiq. They informed Sadr-i-Riyasat Karan Singh that Abdullah had lost the majority within the cabinet."
+        },
+        {
+          "date": "1953-08-08",
+          "date_latest": "1953-08-08",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah was dismissed by Sadr-i-Riyasat and later arrested. Bakshi Ghulam Mohammed was appointed as the new prime minister."
+        },
+        {
+          "date": "1953-08-16",
+          "date_latest": "1953-08-16",
+          "date_precision": "day",
+          "text": "Bilateral talks between Pakistan and India in Delhi. The two countries agreed to appoint a Plebiscite Administrator within six months. A plebiscite was to be held in all regions and the state partitioned on the basis of the results.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1953-09-01",
+          "date_latest": "1953-09-30",
+          "date_precision": "month",
+          "text": "Following reports of a US-Pakistan alliance, Nehru warned Pakistan that it had to choose between winning Kashmir through plebiscite and forming a military alliance with the United States."
+        },
+        {
+          "date": "1954-02-01",
+          "date_latest": "1954-02-28",
+          "date_precision": "month",
+          "text": "The Constituent Assembly, under the leadership of Bakshi Ghulam Mohammad, passed a resolution ratifying the accession of Kashmir to India."
+        },
+        {
+          "date": "1954-05-01",
+          "date_latest": "1954-05-31",
+          "date_precision": "month",
+          "text": "Pakistan and US signed a mutual defence assistance agreement. Nehru withdrew the plebiscite offer to Pakistan."
+        },
+        {
+          "date": "1955-02-01",
+          "date_latest": "1955-02-28",
+          "date_precision": "month",
+          "text": "The violent 1955 Poonch uprising erupted in Poonch Division in Pakistan administered Jammu and Kashmir as a result of the dismissal of Sardar Ibrahim Khan. The uprising was most severe in Rawalakot and Pallandri."
+        },
+        {
+          "date": "1955-08-01",
+          "date_latest": "1955-08-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah's lieutenant Mirza Afzal Beg formed the Plebiscite Front to fight for the plebiscite demand and the unconditional release of Sheikh Abdullah who was arrested after his dismissal."
+        },
+        {
+          "date": "1956-11-17",
+          "date_latest": "1956-11-17",
+          "date_precision": "day",
+          "text": "The state Constituent Assembly adopted a constitution for the state which declared it an integral part of the Indian Union."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "Elections were held for the first Legislative Assembly. National Conference won 69 of the 75 seats, where 47 seats were unopposed. Bakshi Ghulam Mohammad continued as prime minister."
+        },
+        {
+          "date": "1957-01-24",
+          "date_latest": "1957-01-24",
+          "date_precision": "day",
+          "text": "The UN Security Council passed Resolution 122 which stated that the state constitution was not a final legal disposition of the State."
+        },
+        {
+          "date": "1958-08-08",
+          "date_latest": "1958-08-08",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah was arrested in the Kashmir Conspiracy Case."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "China annexed Tibet. Tensions rose between China and India on the issue of the boundary between Tibet and India, especially in Aksai Chin."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "Elections were held for the second Legislative Assembly. The National Conference won 68 of the 74 seats."
+        },
+        {
+          "date": "1963-03-01",
+          "date_latest": "1963-03-31",
+          "date_precision": "month",
+          "text": "The Chinese government signed an agreement with Pakistan on the boundary between the Northern Areas and the Xinjiang province, ceding the Trans-Karakoram Tract."
+        },
+        {
+          "date": "1963-12-27",
+          "date_latest": "1963-12-27",
+          "date_precision": "day",
+          "text": "A mass uprising occurred in the Kashmir Valley when the holy relic was found missing from the Hazratbal Shrine; the lost relic was recovered after a few days."
+        },
+        {
+          "date": "1963-12-30",
+          "date_latest": "1963-12-30",
+          "date_precision": "day",
+          "text": "The Jammu Praja Parishad officially merged with the Bharatiya Jan Sangh, who continued to push the original demands of the Parishad."
+        },
+        {
+          "date": "1964-04-08",
+          "date_latest": "1964-04-08",
+          "date_precision": "day",
+          "text": "The government dropped all charges in the Kashmir Conspiracy Case."
+        },
+        {
+          "date": "1964-11-21",
+          "date_latest": "1964-11-21",
+          "date_precision": "day",
+          "text": "Articles 356 and 357 of the Indian Constitution were extended to the State, by virtue of which the Central Government can assume the government of the State and exercise its legislative powers. The State Assembly then amended the State Constitution, changing the posts of Sadr-i-Riyasat and \"prime minister\" to Governor and \"chief minister\", consistent with the Indian Constitution. Scholar Sumantra Bose regarded it the \"end of the road\" for Article 370 and the constitutional autonomy guaranteed by it."
+        },
+        {
+          "date": "1965-01-03",
+          "date_latest": "1965-01-03",
+          "date_precision": "day",
+          "text": "The Jammu and Kashmir National Conference dissolved itself and merged into the Indian National Congress, a centralising strategy."
+        },
+        {
+          "date": "1965-08-01",
+          "date_latest": "1965-08-31",
+          "date_precision": "month",
+          "text": "Indo-Pakistani War of 1965: Pakistan took advantage of the discontent in the Kashmir Valley and sent a few thousand armed Pakistani infiltrators across the cease-fire line in Operation Gibraltar. Incidents of violence increased in Kashmir Valley, and a full Indo-Pakistani war broke out until a ceasefire was made."
+        },
+        {
+          "date": "1966-01-01",
+          "date_latest": "1966-12-31",
+          "date_precision": "year",
+          "text": "On 10 January, the Tashkent Declaration was signed by both countries, agreeing to revert to their pre-1965 positions under Russian mediation. Pakistan-supported guerrilla groups in Kashmir increased their activities after the ceasefire. Kashmiri nationalists Amanullah Khan and Maqbool Bhat formed another Plebiscite Front with an armed wing called the Jammu and Kashmir National Liberation Front (NLF) in Azad Kashmir, with the objective of freeing Kashmir from Indian occupation."
+        },
+        {
+          "date": "1972-01-01",
+          "date_latest": "1972-12-31",
+          "date_precision": "year",
+          "text": "India and Pakistan agreed to respect the cease-fire as Line of Control (LOC)."
+        },
+        {
+          "date": "1972-07-02",
+          "date_latest": "1972-07-02",
+          "date_precision": "day",
+          "text": "India and Pakistan signed the Simla Agreement which stated that the final settlement of Kashmir would be decided bilaterally in the future and that both sides would respect the LOC."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "The 1927 State Subject law was officially abolished in Gilgit Baltistan, allowing Pakistanis to settle and buy land."
+        },
+        {
+          "date": "1975-02-24",
+          "date_latest": "1975-02-24",
+          "date_precision": "day",
+          "text": "The Indira-Sheikh accord was reached in February between Indian Prime Minister Indira Gandhi and Sheikh Abdullah."
+        },
+        {
+          "date": "1976-01-01",
+          "date_latest": "1976-12-31",
+          "date_precision": "year",
+          "text": "Maqbool Bhat was arrested on his return to Kashmir."
+        },
+        {
+          "date": "1977-05-01",
+          "date_latest": "1977-05-31",
+          "date_precision": "month",
+          "text": "Jammu and Kashmir Liberation Front (JKLF) was founded in the United Kingdom by converting the UK chapter of the Plebiscite Front."
+        },
+        {
+          "date": "1977-06-17",
+          "date_latest": "1977-06-17",
+          "date_precision": "day",
+          "text": "Mid-term elections were called by the government. Sheikh Abdullah's National Conference won a majority in what was regarded as the first \"free and fair\" election in the State. Abdullah was re-elected as the chief minister on 9 July."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "The USSR invaded Afghanistan. The US and Pakistan became involved in training, recruiting, arming, and unleashing the Mujahideen on Afghanistan."
+        },
+        {
+          "date": "1980-01-01",
+          "date_latest": "1980-12-31",
+          "date_precision": "year",
+          "text": "Pakistani President Zia ul-Haq sought help from the chief of Jamaat-e-Islami in Azad Kashmir for raising an insurgency in Indian-administered Kashmir. He promised to divert funds and resources from the American-sponsored insurgency in Afghanistan. The chief Maulana Abdul Bari travelled to Indian-administered Kashmir and conferred with the Jamaat-e-Islami Kashmir, telling them \"you will have to do the fighting and they [Pakistan] will provide all assistance.\""
+        },
+        {
+          "date": "1982-09-08",
+          "date_latest": "1982-09-08",
+          "date_precision": "day",
+          "text": "Sheikh Abdullah died. His son, Farooq Abdullah, later assumed office as Chief Minister of J&K."
+        },
+        {
+          "date": "1983-05-01",
+          "date_latest": "1983-05-31",
+          "date_precision": "month",
+          "text": "The chief of Jamaat-e-Islami Kashmir, Maulana Saaduddin Tarabali, struck a deal with Pakistani president Zia ul-Haq for conducting an armed insurgency. The first group of volunteers were sent to Pakistan-administered Kashmir for training in militancy."
+        },
+        {
+          "date": "1983-09-01",
+          "date_latest": "1983-09-30",
+          "date_precision": "month",
+          "text": "Ansarul Islam, possibly the first Islamist militant group in Kashmir and a precursor to the Hizbul Mujahideen, was founded by Hilal Ahmed Mir. In 1985–86, it started sending members to Pakistan and Afghanistan for armed training."
+        },
+        {
+          "date": "1984-02-06",
+          "date_latest": "1984-02-06",
+          "date_precision": "day",
+          "text": "The Indian consul general in Birmingham, Ravindra Mhatre, was abducted by JKLF militants and murdered. India hanged Maqbool Bhat soon afterward."
+        },
+        {
+          "date": "1984-04-01",
+          "date_latest": "1984-04-30",
+          "date_precision": "month",
+          "text": "Prime minister Indira Gandhi appointed Jagmohan as the Governor of Jammu and Kashmir. She apprehended that the security situation in the state was due to turn to worse."
+        },
+        {
+          "date": "1984-04-13",
+          "date_latest": "1984-04-13",
+          "date_precision": "day",
+          "text": "The Indian Army captured the Siachen Glacier region of Kashmir during Operation Meghdoot."
+        },
+        {
+          "date": "1984-07-01",
+          "date_latest": "1984-07-31",
+          "date_precision": "month",
+          "text": "Farooq Abdullah's government in Jammu and Kashmir was toppled by engineering defections. His brother-in-law G. M. Shah became the chief minister with the support of the Congress party."
+        },
+        {
+          "date": "1984-09-01",
+          "date_latest": "1984-09-30",
+          "date_precision": "month",
+          "text": "Pakistan's ISI, frustrated with the sluggishness of Jamaat-e-Islami Kashmir, sought a relationship with JKLF. Negotiations continued till 1986–87."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "JKLF's Farooq Haider and Raja Muzaffar agreed to partner with Pakistan's ISI to start an armed insurgency in Kashmir. Rauf Kashmiri was sent to Kashmir to explore opportunities."
+        },
+        {
+          "date": "1986-02-01",
+          "date_latest": "1986-02-28",
+          "date_precision": "month",
+          "text": "The 1986 Anantnag riots broke out. Properties and homes of Kashmiri Hindus were attacked and numerous Hindu Temples were vandalised and set on fire."
+        },
+        {
+          "date": "1986-03-01",
+          "date_latest": "1986-03-31",
+          "date_precision": "month",
+          "text": "G. M. Shah's government was dismissed due to deteriorating law and order situation in Jammu and Kashmir and Governor's Rule was declared, to be headed by Jagmohan."
+        },
+        {
+          "date": "1986-12-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "month",
+          "text": "Amanullah Khan and Hashim Qureshi were expelled from the UK and returned to Pakistan. Amanullah Khan approved the partnership with ISI in May 1987."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "Farooq Abdullah won the Assembly elections. The Muslim United Front (MUF) alleged that the elections had been rigged. The insurgency in the Kashmir Valley increased in momentum following this event."
+        },
+        {
+          "date": "1988-05-16",
+          "date_latest": "1988-05-16",
+          "date_precision": "day",
+          "text": "Multiple groups of radical Sunnis, led by Osama bin Laden (supported by Pervez Musharraf, General Zia-ul Haq and Mirza Aslam Beg) massacre hundreds of Shias in the 1988 Gilgit Massacre."
+        },
+        {
+          "date": "1988-07-31",
+          "date_latest": "1988-07-31",
+          "date_precision": "day",
+          "text": "De facto launch of the Kashmir insurgency by the Jammu and Kashmir Liberation Front (JKLF) with four attempted bombings in the Kashmir Valley. Two were successful. The group that carried out was Al-Hamza."
+        },
+        {
+          "date": "1989-01-01",
+          "date_latest": "1989-12-31",
+          "date_precision": "year",
+          "text": "Mass Exodus of Kashmiri Hindus started in Kashmir Valley"
+        },
+        {
+          "date": "1989-01-01",
+          "date_latest": "1989-12-31",
+          "date_precision": "year",
+          "text": "The end of the Soviet occupation of Afghanistan released a great deal of militant energy and weapons to Kashmir. Pakistan provided arms and training to both indigenous and foreign militants in Kashmir."
+        },
+        {
+          "date": "1990-01-01",
+          "date_latest": "1990-01-31",
+          "date_precision": "month",
+          "text": "Jagmohan was appointed Governor. Farooq Abdullah resigned."
+        },
+        {
+          "date": "1990-01-01",
+          "date_latest": "1990-12-31",
+          "date_precision": "year",
+          "text": "An officially estimated 10,000 Kashmiri youths crossed into Pakistan for training and procurement of arms. Indigenous and foreign militant groups besides pro-India renegade militants proliferated through the 1990s with an estimated half a million Indian security forces deployed in the Kashmir Valley. Increasing violence and human right violations by all sides led to tens of thousands of civilian casualties."
+        },
+        {
+          "date": "1990-01-21",
+          "date_latest": "1990-01-21",
+          "date_precision": "day",
+          "text": "An estimated 50 people were killed when a large group of unarmed protesters were fired upon by Indian troops at the Gawkadal bridge."
+        },
+        {
+          "date": "1990-02-01",
+          "date_latest": "1990-02-28",
+          "date_precision": "month",
+          "text": "Though the JKLF tried to explain that the killings of Pandits were not communal, the murders caused a scare among the minority Hindu community. The rise of new militant groups and unexplained killings of members of the community contributed to an atmosphere of insecurity for the Kashmiri Pandits. Joint reconciliation efforts by members from Muslim and Pandit communities were actively discouraged by Jagmohan."
+        },
+        {
+          "date": "1990-02-13",
+          "date_latest": "1990-02-13",
+          "date_precision": "day",
+          "text": "Lassa Kaul, director of Srinagar Doordarshan, was killed by the militants for implementing pro-Indian media policy."
+        },
+        {
+          "date": "1990-03-01",
+          "date_latest": "1990-03-01",
+          "date_precision": "day",
+          "text": "An estimated one million took to the streets and more than 40 people were killed in police firing."
+        },
+        {
+          "date": "1991-12-28",
+          "date_latest": "1991-12-28",
+          "date_precision": "day",
+          "text": "The Kashmiri Hindu organisation Panun Kashmir adopts the Margdarshan resolution in Jammu for the establishment of a separate Union Territory in Kashmir for Kashmiri Hindus, known as Panun Kashmir. The day is referred to as Homeland Day."
+        },
+        {
+          "date": "1998-01-01",
+          "date_latest": "1998-12-31",
+          "date_precision": "year",
+          "text": "Operation Sadbhavana (Goodwill) launched officially by the Indian army in Jammu and Kashmir."
+        },
+        {
+          "date": "1999-07-13",
+          "date_latest": "1999-07-13",
+          "date_precision": "day",
+          "text": "Terrorist entered to a residential complex of the Indian Border Security Forces and taken 12 hostages, after killing three officials. The hostages were freed at the next day."
+        },
+        {
+          "date": "2001-07-14",
+          "date_latest": "2001-07-14",
+          "date_precision": "day",
+          "text": "General Pervez Musharraf and Atal Bihari Vajpayee met for peace talks."
+        },
+        {
+          "date": "2001-10-01",
+          "date_latest": "2001-10-31",
+          "date_precision": "month",
+          "text": "Kashmiri assembly in Srinagar was attacked, 38 fatalities."
+        },
+        {
+          "date": "2001-12-01",
+          "date_latest": "2001-12-31",
+          "date_precision": "month",
+          "text": "The Indian Parliament in New Delhi was attacked."
+        },
+        {
+          "date": "2002-09-11",
+          "date_latest": "2002-09-11",
+          "date_precision": "day",
+          "text": "Mushtaq Ahmed Lone, the Kashmir Law Minister was shot dead at an election rally in Kupwara, India, by armed terrorist diseguised with burkas, killing two of the minister´s bodyguardas and wounding five people more, for the attack, Lashkar-e-Taiba, Al Barq and Al-Arifeen each claimed the attack. Eight days later, militants shot a civilian worker Azad Ahad Khan in Srinagar, died from his wounds in a hospital."
+        },
+        {
+          "date": "2003-04-01",
+          "date_latest": "2003-04-30",
+          "date_precision": "month",
+          "text": "Operation Sarp Vinash launched by the Indian army. The largest network of terrorist hideouts covering 100 square kilometers in Pir Panjal found and more than 60 terrorists killed."
+        },
+        {
+          "date": "2003-05-02",
+          "date_latest": "2003-05-02",
+          "date_precision": "day",
+          "text": "India and Pakistan restored diplomatic ties."
+        },
+        {
+          "date": "2003-07-11",
+          "date_latest": "2003-07-11",
+          "date_precision": "day",
+          "text": "Delhi-Lahore bus service resumed."
+        },
+        {
+          "date": "2004-04-01",
+          "date_latest": "2004-04-01",
+          "date_precision": "day",
+          "text": "An explosive device blats at a government building in Srinagar, wounding one employer, trying to boycott the coutrywide elections in the region."
+        },
+        {
+          "date": "2004-09-24",
+          "date_latest": "2004-09-24",
+          "date_precision": "day",
+          "text": "Prime Minister Manmohan Singh and President Musharraf met in New York during UN General Assembly."
+        },
+        {
+          "date": "2005-11-16",
+          "date_latest": "2005-11-16",
+          "date_precision": "day",
+          "text": "Four civilians were killed and forty five were wounded, when a car bomb blasts near a bank branch in Lal Chowk, Srinagar. Al-Arifeen claimed the attack in a telephone call to the Kashmir News Service."
+        },
+        {
+          "date": "2006-07-01",
+          "date_latest": "2006-07-31",
+          "date_precision": "month",
+          "text": "Second round of Indo-Pakistani peace talks were held."
+        },
+        {
+          "date": "2008-08-22",
+          "date_latest": "2008-08-22",
+          "date_precision": "day",
+          "text": "Following 2008 Kashmir unrest, hundreds of thousands of Muslims marched in Srinagar for independence, the largest protest against Indian rule in over a decade."
+        },
+        {
+          "date": "2010-06-01",
+          "date_latest": "2010-06-30",
+          "date_precision": "month",
+          "text": "Following the killing of a young Kashmiri, Tufail Ahmad Mattoo, protest demonstrations continued in Kashmir for months."
+        },
+        {
+          "date": "2012-08-01",
+          "date_latest": "2012-08-31",
+          "date_precision": "month",
+          "text": "The Chief Minister of Indian-administered Jammu and Kashmir, Omar Abdullah, said that the security situation was not yet conducive to the revoking of the Armed Forces Special Powers Act (AFSPA) in the state."
+        },
+        {
+          "date": "2012-09-01",
+          "date_latest": "2012-09-30",
+          "date_precision": "month",
+          "text": "Indian President Pranab Mukherjee visited Indian-administered Jammu and Kashmir within two months of taking office. Despite the threat of protests from separatists (see Insurgency in Jammu and Kashmir) there were no security incidents."
+        },
+        {
+          "date": "2014-11-25",
+          "date_latest": "2014-11-25",
+          "date_precision": "day",
+          "text": "Despite boycott calls by separatist Hurriyat leaders, the 2014 state election saw the highest voter turnout in the 25 years since insurgency erupted in the region."
+        },
+        {
+          "date": "2016-07-08",
+          "date_latest": "2016-07-08",
+          "date_precision": "day",
+          "text": "Following the killing of Burhan Muzaffar Wani on 8 July, violent protests broke out in Kashmir Valley. An imposed curfew continued, and more than 90 people were killed. Subsequently Operation All-Out was launched by the Indian security forces."
+        },
+        {
+          "date": "2019-08-05",
+          "date_latest": "2019-08-05",
+          "date_precision": "day",
+          "text": "The entire state of Jammu and Kashmir was placed in a lockdown along with a communication blackout, ostensibly to prevent militant activity but also to prevent public protests according to commentators. At least 627 people were detained, including former chief ministers and other leaders."
+        },
+        {
+          "date": "2019-08-05",
+          "date_latest": "2019-08-05",
+          "date_precision": "day",
+          "text": "The special status enjoyed by Jammu and Kashmir was revoked by the Government of India through Presidential orders backed by parliamentary resolutions. Simultaneously, the state was converted into a union territory, with Ladakh separated into a separate union territory, through the Jammu and Kashmir Reorganisation Act."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Timeline of the Kashmir conflict (1846–1946)",
+      "pageid": 53557593,
+      "revid": 1231165339,
+      "revision_timestamp": "2024-06-26T21:01:37Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=53557593",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "1846-01-01",
+          "date_latest": "1846-12-31",
+          "date_precision": "year",
+          "text": "Jammu and Kashmir (J&K) State is created with the signing of the Treaty of Amritsar between the British East India company and Raja Gulab Singh of Jammu.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1857-01-01",
+          "date_latest": "1857-12-31",
+          "date_precision": "year",
+          "text": "The War of independence, The Subcontinent fractured into hundreds of states."
+        },
+        {
+          "date": "1931-01-01",
+          "date_latest": "1931-12-31",
+          "date_precision": "year",
+          "text": "A widespread agitation triggered by a militant speech at the Khanqah-e-Moulain Srinagar by a Pashtun cook of a European officer occurred in the state. It resulted in the introduction of political reforms by the Maharaja."
+        },
+        {
+          "date": "1932-04-01",
+          "date_latest": "1932-04-30",
+          "date_precision": "month",
+          "text": "Glancy Commission recommends the establishment of a legislative assembly, called the Praja Sabha. It would have 75 members, with 15 official representatives, 33 elected representatives and the remaining seats held by the Maharaja's nominees. Of the 33 elected seats, 21 are reserved for Muslims, 10 for Hindus and 2 for Sikhs.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1932-06-01",
+          "date_latest": "1932-06-30",
+          "date_precision": "month",
+          "text": "All Jammu and Kashmir Muslim Conference founded by Sheikh Abdullah in collaboration with Chaudhry Ghulam Abbas to fight for the rights of State's Muslims.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1934-09-01",
+          "date_latest": "1934-09-30",
+          "date_precision": "month",
+          "text": "The first elections for the Praja Sabha (the state's legislative assembly) are held. The Muslim Conference wins 14 of the 21 seats reserved for Muslims. Soon afterwards, the younger leaders of the Muslim Conference plead for broadening the party to include all the people of the state.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1937-05-01",
+          "date_latest": "1937-05-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah elected president of the Muslim Conference. He demands responsible government."
+        },
+        {
+          "date": "1937-07-01",
+          "date_latest": "1937-07-31",
+          "date_precision": "month",
+          "text": "By-elections held for the Legislative Assembly. Muslim Conference emerges victorious."
+        },
+        {
+          "date": "1937-08-01",
+          "date_latest": "1937-08-31",
+          "date_precision": "month",
+          "text": "High Court reduces the prison sentence of three Muslims convicted of cow slaughter to one year. Protests by Hindu in Reasi, Udhampur, Kishtwar, Jammu and Bhimber."
+        },
+        {
+          "date": "1937-09-01",
+          "date_latest": "1937-09-30",
+          "date_precision": "month",
+          "text": "Srinagar session of the Legislative Assembly. The Muslim Conference members boycott the proceedings citing their demands."
+        },
+        {
+          "date": "1938-01-01",
+          "date_latest": "1938-01-31",
+          "date_precision": "month",
+          "text": "Muslim Conference Working Committee meets in Jammu. Maulana Sayeed Masoodi moves a resolution to rename Muslim Conference but withdraws it in the face of opposition."
+        },
+        {
+          "date": "1938-01-01",
+          "date_latest": "1938-01-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah's first meeting with Jawaharlal Nehru in a Lahore railway station. Abdullah's efforts to secularise the Muslim Conference supported by Nehru."
+        },
+        {
+          "date": "1938-03-01",
+          "date_latest": "1938-03-31",
+          "date_precision": "month",
+          "text": "At the annual session of the Muslim Conference, Sheikh Abdullah proposes amendments to the Constitution, including renaming of the party. Masoodi and Raja Mohammad Akbar introduce a resolution. Chaudhry Ghulam Abbas and Abdul Majid Qureshi request time to study the proposal."
+        },
+        {
+          "date": "1938-05-01",
+          "date_latest": "1938-05-31",
+          "date_precision": "month",
+          "text": "Hindu Progressive Party launched, pledging support to Hindu–Muslim unity."
+        },
+        {
+          "date": "1938-05-01",
+          "date_latest": "1938-05-31",
+          "date_precision": "month",
+          "text": "Second elections for the state's Legislative Assembly (Praja Sabha). Sheikh Abdullah campaigns on the platform of renaming the Muslim Conference. The party wins 19 seats, all the contested ones. Two other independent candidates that won are said to have joined the Muslim Conference later.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1938-06-01",
+          "date_latest": "1938-06-30",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah introduces the resolution for renaming the Muslim Conference to National Conference in the Working Committee of the party. The resolution carries with fourteen of the twenty members supporting. Four members oppose the resolution: Chaudhry Ghulam Abbas, Abdul Majid Qureshi and Chowdry Sheikh Abdullah Bhati from Jammu and Master Abdul Aziz from Muzaffarabad."
+        },
+        {
+          "date": "1939-06-10",
+          "date_latest": "1939-06-10",
+          "date_precision": "day",
+          "text": "Under Sheikh Abdullah's leadership, a special session of the Muslim Conference changes its name to National Conference and throws it open to people of all religions, 175 delegates vote in favour and 3 delegates against. At the same time, the National Conference joins the All India States Peoples Conference, a Congress-allied group of movements in princely states.",
+          "mentions_vote": true,
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1940-03-23",
+          "date_latest": "1940-03-23",
+          "date_precision": "day",
+          "text": "The Lahore Resolution is proposed by Muhammad Ali Jinnah and seconded by Sikandar Hayat Khan and Fazlul Haq. Referring to British India, it states \"That geographically contiguous units are demarcated into regions which should be so constituted, with such territorial readjustments as may be necessary, that the areas in which the Muslims are numerically in a majority, as in the North-Western and Eastern zones of India should be grouped to constitute Independent States in which the constituent units shall be autonomous and sovereign\". There is no mention of \"Pakistan\", an acronym invented by Chaudhury Rehmat Ali in England, but the Lahore Resolution later becomes known as the Pakistan Resolution."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "71,667 Kashmiris join the British Indian Army for the World War II, seven-eighths of them Muslim, mainly from the Poonch-Mirpur area.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "Chaudhry Ghulam Abbas breaks off from National Conference and revives the old Muslim Conference. The Muslim Conference becomes a client of the Jinnah-led Muslim League.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1944-04-01",
+          "date_latest": "1944-04-30",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah proposes a Naya Kashmir (New Kashmir) programme to the Maharaja, calling for a constitutional monarchy.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1946-05-01",
+          "date_latest": "1946-05-31",
+          "date_precision": "month",
+          "text": "Sheikh Abdullah launches the \"Quit Kashmir\" movement against the Maharaja. He is arrested. Jawaharlal Nehru attempts to go to Kashmir to defend Abdullah. He is arrested and forced to leave the State.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        },
+        {
+          "date": "1946-10-01",
+          "date_latest": "1946-10-31",
+          "date_precision": "month",
+          "text": "Muslim Conference launches a `Campaign of Action' demanding the end of autocratic rule by the Maharaja. Chaudhry Ghulam Abbas imprisoned.",
+          "duplicate_of": "Timeline of the Kashmir conflict"
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

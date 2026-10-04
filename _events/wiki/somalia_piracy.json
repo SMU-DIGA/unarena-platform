@@ -1,0 +1,1027 @@
+{
+  "topic": "somalia_piracy",
+  "label": "Somali civil war and piracy off Somalia",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 155,
+  "flagged_vote_language": 2,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 23,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "2011 timeline of the Somali Civil War",
+      "pageid": 30555936,
+      "revid": 1370781576,
+      "revision_timestamp": "2026-08-23T02:07:40Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=30555936",
+      "strategy": "header_bullets",
+      "segments": [
+        {
+          "date": "2011-01-03",
+          "date_latest": "2011-01-03",
+          "date_precision": "day",
+          "text": "1 Ahlu Sunna Waljama'a militant killed, 2 injured."
+        },
+        {
+          "date": "2011-01-05",
+          "date_latest": "2011-01-05",
+          "date_precision": "day",
+          "text": "disputed, 3 civilians injured, or two people killed and 1 injured."
+        },
+        {
+          "date": "2011-01-13",
+          "date_latest": "2011-01-13",
+          "date_precision": "day",
+          "text": "2 TFG soldiers injured, 1 civilian injured."
+        },
+        {
+          "date": "2011-01-18",
+          "date_latest": "2011-01-18",
+          "date_precision": "day",
+          "text": "Over 30 people killed, 60 injured, mostly civilians.",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-02-16",
+          "date_latest": "2011-02-16",
+          "date_precision": "day",
+          "text": "13 Somali soldiers and 4 civilians killed"
+        },
+        {
+          "date": "2011-02-22",
+          "date_latest": "2011-02-22",
+          "date_precision": "day",
+          "text": "16 Somali soldiers, 12 civilians and 8 insurgents killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-02-23",
+          "date_latest": "2011-02-23",
+          "date_precision": "day",
+          "text": "70 Somali soldiers, 60 insurgents killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-02-25",
+          "date_latest": "2011-02-25",
+          "date_precision": "day",
+          "text": "10 Ugandan soldiers and 88 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-10",
+          "date_latest": "2011-03-10",
+          "date_precision": "day",
+          "text": "51 civilians and 20 TFG militiamen or insurgents killed"
+        },
+        {
+          "date": "2011-03-12",
+          "date_latest": "2011-03-12",
+          "date_precision": "day",
+          "text": "44 TFG militiamen, insurgents and civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-13",
+          "date_latest": "2011-03-13",
+          "date_precision": "day",
+          "text": "23 Somali soldiers and insurgents killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-14",
+          "date_latest": "2011-03-14",
+          "date_precision": "day",
+          "text": "62 Somali soldiers and unknown number of insurgents killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-16",
+          "date_latest": "2011-03-16",
+          "date_precision": "day",
+          "text": "13 Somali soldiers and 9 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-17",
+          "date_latest": "2011-03-17",
+          "date_precision": "day",
+          "text": "9 Somali and 6 AU soldiers and 7 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-18",
+          "date_latest": "2011-03-18",
+          "date_precision": "day",
+          "text": "29 TFG militiamen and 9 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-20",
+          "date_latest": "2011-03-20",
+          "date_precision": "day",
+          "text": "35 insurgents, 28 civilians and 3 Somali soldiers killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-23",
+          "date_latest": "2011-03-23",
+          "date_precision": "day",
+          "text": "50 civilians and 11 Somali soldiers killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-03-28",
+          "date_latest": "2011-03-28",
+          "date_precision": "day",
+          "text": "58 Somali soldiers, 51 insurgents and 43 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-04-01",
+          "date_latest": "2011-04-01",
+          "date_precision": "day",
+          "text": "21 insurgents and 17 Somali soldiers killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-04-03",
+          "date_latest": "2011-04-03",
+          "date_precision": "day",
+          "text": "77 Somali soldiers, 57 civilians and 44 insurgents killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-04-08",
+          "date_latest": "2011-04-08",
+          "date_precision": "day",
+          "text": "45 insurgents, 9 civilians and 6 AU soldiers killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-04-09",
+          "date_latest": "2011-04-09",
+          "date_precision": "day",
+          "text": "15 government soldiers and 13 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-04-27",
+          "date_latest": "2011-04-27",
+          "date_precision": "day",
+          "text": "46 government soldiers, 35 TFG militiamen, 165 insurgents and 27 civilians killed",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-06-20",
+          "date_latest": "2011-06-20",
+          "date_precision": "day",
+          "text": "3 killed and 10 wounded in a gun battle between joint TFG-ASJW forces against extremist al-Shabab Islamist group in Southern Somalia's Gedo region. The extremist group suffered heavy losses."
+        },
+        {
+          "date": "2011-06-23",
+          "date_latest": "2011-06-23",
+          "date_precision": "day",
+          "text": "A US drone fires a missile at two senior al-Shabaab members driving in a convoy. The two people were injured. This is the first US drone attack inside Somalia."
+        },
+        {
+          "date": "2011-10-04",
+          "date_latest": "2011-10-04",
+          "date_precision": "day",
+          "text": "A bomb on a lorry kills more than 70 people in Mogadishu near a compound containing government buildings."
+        },
+        {
+          "date": "2011-10-10",
+          "date_latest": "2011-10-10",
+          "date_precision": "day",
+          "text": "AU troops claim to have driven al-Shabab fighters from their last stronghold in Mogadishu."
+        },
+        {
+          "date": "2011-10-11",
+          "date_latest": "2011-10-11",
+          "date_precision": "day",
+          "text": "The SOS Children hospital on Mogadishu closes after being hit by shells. The attack killed one staff member."
+        },
+        {
+          "date": "2011-10-16",
+          "date_latest": "2011-10-16",
+          "date_precision": "day",
+          "text": "A coordinated incursion in southern Somalia between Kenyan troops and the Somali army begins as a response to alleged kidnappings of foreigners by al-Shabaab militants in Kenya."
+        },
+        {
+          "date": "2011-10-18",
+          "date_latest": "2011-10-18",
+          "date_precision": "day",
+          "text": "A car bomb kills at least two people in Mogadishu."
+        },
+        {
+          "date": "2011-10-21",
+          "date_latest": "2011-10-21",
+          "date_precision": "day",
+          "text": "Al-Shabab fighters present the bodies of at least 70 people who they claim are African Union peacekeepers from Burundi. However the African Union said that they only lost ten soldiers and two were missing."
+        },
+        {
+          "date": "2011-10-23",
+          "date_latest": "2011-10-23",
+          "date_precision": "day",
+          "text": "African Union announced that it had advanced towards the outskirts of Mogadishu"
+        },
+        {
+          "date": "2011-10-24",
+          "date_latest": "2011-10-24",
+          "date_precision": "day",
+          "text": "A fighter jet bombed the town of Kismayo, an al-Shabab stronghold. The origin of the jet could not be determined, and al-Shabab said that the attack has caused no casualties."
+        },
+        {
+          "date": "2011-10-28",
+          "date_latest": "2011-10-28",
+          "date_precision": "day",
+          "text": "A Kenyan supply convoy traveling 60 km inside Somali territory in the direction of Kismayo comes under attack from al-Shabaab fighters. The fight lasts for 30 minutes. According to the Kenyan military nine al-Shabab fighters are killed and two Kenyan soldiers wounded. Al-Shabab denies those figures and claims 20 Kenyan soldiers were killed.",
+          "duplicate_of": "2011 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2011-10-29",
+          "date_latest": "2011-10-29",
+          "date_precision": "day",
+          "text": "Al-Shabaab fighters dressed as AU soldiers try to storm the AMISOM base in Mogadishu. In the resulting gun fight, at least 10 people are killed."
+        },
+        {
+          "date": "2011-10-29",
+          "date_latest": "2011-10-29",
+          "date_precision": "day",
+          "text": "The US confirms that it operates MQ-9 Reaper drones from an Ethiopian air base near Arba Minch to conduct missions over Somalia."
+        },
+        {
+          "date": "2011-11-19",
+          "date_latest": "2011-11-19",
+          "date_precision": "day",
+          "text": "According to witnesses Ethiopian troops with at least 20 vehicles cross into Somalia near Guri'el and Beledweyne. The Ethiopian government however denied the incursion."
+        },
+        {
+          "date": "2011-11-30",
+          "date_latest": "2011-11-30",
+          "date_precision": "day",
+          "text": "4 government soldiers killed, 12 wounded."
+        },
+        {
+          "date": "2011-12-06",
+          "date_latest": "2011-12-06",
+          "date_precision": "day",
+          "text": "Five people are killed by a suicide attack in the Hodan district in Mogadishu."
+        },
+        {
+          "date": "2011-12-07",
+          "date_latest": "2011-12-07",
+          "date_precision": "day",
+          "text": "Al-Shabab fighters attack an AU training camp in Wadajir."
+        },
+        {
+          "date": "2011-12-08",
+          "date_latest": "2011-12-08",
+          "date_precision": "day",
+          "text": "Heavy fighting between al-Shabab and AU troops in Mogadishu's Karan and Huriwa district."
+        },
+        {
+          "date": "2011-12-20",
+          "date_latest": "2011-12-20",
+          "date_precision": "day",
+          "text": "1 al-Shabab commander killed, 17 al-Shabab fighters killed."
+        },
+        {
+          "date": "2011-12-20",
+          "date_latest": "2011-12-20",
+          "date_precision": "day",
+          "text": "The first of a 900 strong Djiboutian force arrived in Mogadishu to augment African Union peacekeepers."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "2012 timeline of the Somali Civil War",
+      "pageid": 34307271,
+      "revid": 1366300785,
+      "revision_timestamp": "2026-07-27T06:32:29Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=34307271",
+      "strategy": "header_bullets",
+      "segments": [
+        {
+          "date": "2012-01-07",
+          "date_latest": "2012-01-07",
+          "date_precision": "day",
+          "text": "Kenyan military claims that it had killed 60 Al-Shabaab fighters with an air strike. A Kenyan army spokesperson also said that 20 al-Shabaab fighters had defected."
+        },
+        {
+          "date": "2012-01-20",
+          "date_latest": "2012-01-20",
+          "date_precision": "day",
+          "text": "Transitional Federal Government forces and their AMISOM allies launch a successful offensive against al-Shabaab positions on the northern outskirts of Mogadishu. The move was intended to secure the city's outer perimeters from external attack. Two AMISOM soldiers were wounded in the ensuing battle."
+        },
+        {
+          "date": "2012-01-24",
+          "date_latest": "2012-01-24",
+          "date_precision": "day",
+          "text": "Al-Shabaab launches a suicide attack against an Ethiopian military base in Beledweyne. The group claims it killed 10 Ethiopian soldiers."
+        },
+        {
+          "date": "2012-02-15",
+          "date_latest": "2012-02-15",
+          "date_precision": "day",
+          "text": "African Union forces say they launched a major assault on Afgoye, an important al-Shabab base in Southern Somalia. A BBC Correspondent said an African Union force of 100 tanks and armoured vehicles were within 10 km of Afgoye."
+        },
+        {
+          "date": "2012-02-18",
+          "date_latest": "2012-02-18",
+          "date_precision": "day",
+          "text": "Reuters report Ethiopian and Somali troops seized the strategic city of Baidoa after al-Shabab withdrew earlier in the day."
+        },
+        {
+          "date": "2012-02-18",
+          "date_latest": "2012-02-18",
+          "date_precision": "day",
+          "text": "Somali police arrested a suspicious driver. While waiting for a bomb disposal unit in front of the criminal investigations department a bomb in the car detonated injuring two police officers. Al-Shabab claimed the bomb was detonated remotely."
+        },
+        {
+          "date": "2012-02-24",
+          "date_latest": "2012-02-24",
+          "date_precision": "day",
+          "text": "An air strike in the al-Shabab-held K60 region destroyed two cars and killed at least six people including foreigners. It is unknown who carried out the attack. Kenya denied any involvement."
+        },
+        {
+          "date": "2012-03-02",
+          "date_latest": "2012-03-02",
+          "date_precision": "day",
+          "text": "African Union forces and pro-government militia captured Maslah, an important al-Shabaab base 5 km north of Mogadishu."
+        },
+        {
+          "date": "2012-03-02",
+          "date_latest": "2012-03-02",
+          "date_precision": "day",
+          "text": "Al Shabaab fighters attacked Puntland checkpoints at Bosasso on March 2 and Baliqadar on March 3 morning. Al Shabaab spokesman said the group has killed 32 Puntland soldiers and lost three of its own fighters. Puntland soldiers pursuing the militia after the attack killed seven insurgents."
+        },
+        {
+          "date": "2012-03-03",
+          "date_latest": "2012-03-03",
+          "date_precision": "day",
+          "text": "Militants from al-Shabaab took over Diif in Lower Juba. Kenyan army along with TGF and Ras Kamboni clan militia managed to retake the village the following day after several hours of fighting."
+        },
+        {
+          "date": "2012-03-10",
+          "date_latest": "2012-03-10",
+          "date_precision": "day",
+          "text": "Al-Shabaab fighters clashed with Ethiopian army in the village of Yurkut in what is described \"the most intense fighting since Ethiopian forces entered Somalia\" that left 40 Ethiopian soldiers killed."
+        },
+        {
+          "date": "2012-03-19",
+          "date_latest": "2012-03-19",
+          "date_precision": "day",
+          "text": "Dozens of mortar rounds were fired at Somalia's presidential compound in Mogadishu but missed and landed on a nearby refugee camp, killing six civilians. Al-Shabaab claimed responsibility for the attack, the first of such kind since August 2011."
+        },
+        {
+          "date": "2012-03-20",
+          "date_latest": "2012-03-20",
+          "date_precision": "day",
+          "text": "Al Shabaab fighters again recaptured Diif in Lower Jubba region, without any resistance, from Raskamboni militia led by pro-Somalia government Sheik Ahmed Modobe, who abandoned the area before insurgents poured in. Al Shabaab militants however fled the town after briefly occupying it for few hours, paving way for TFG and Raskamboni troops to return taking full control of the town. There are reports of air strikes bombing Diif in the aftermath of its capture, killing 37 al-Shabaab fighters."
+        },
+        {
+          "date": "2012-03-20",
+          "date_latest": "2012-03-20",
+          "date_precision": "day",
+          "text": "Al Shabaab raided Dhusamareb at dawn, briefly captured the city then fled after intense fighting with Ahlu Sunna Waljama'a (ASWJ) fighters, which claimed 100 Al Shabaab militants were killed. Al Shabaab denied the claim and announce it had killed 15 ASWJ troops and captured 6 vehicles."
+        },
+        {
+          "date": "2012-03-22",
+          "date_latest": "2012-03-22",
+          "date_precision": "day",
+          "text": "Ethiopian and Somali troops seized Hudur, the administrative headquarters of Bakool region from al-Shabaab militants."
+        },
+        {
+          "date": "2012-03-23",
+          "date_latest": "2012-03-23",
+          "date_precision": "day",
+          "text": "Kenyan jets carried out an airstrike on the outskirts of Fafadun town near Kenya border, hitting three al-Shabaab training camps. At least 10 al-Shabab fighters were killed and 25 others, including woman and children, were injured."
+        },
+        {
+          "date": "2012-03-24",
+          "date_latest": "2012-03-24",
+          "date_precision": "day",
+          "text": "Central Somalia front: ASWJ fighters liberate Waradhumale and Gobo from al-Shabaab forces while large Ethiopian forces begin to move into Guri'el and Dhusamareb, prepare for an offensive on the al-Shabaab controlled town of El Bur situated 100 km away."
+        },
+        {
+          "date": "2012-03-26",
+          "date_latest": "2012-03-26",
+          "date_precision": "day",
+          "text": "Ethiopian troops and the pro-government militia Ahlu Sunna Waljama'a seize the Central Somali town of El Bur."
+        },
+        {
+          "date": "2012-03-30",
+          "date_latest": "2012-03-30",
+          "date_precision": "day",
+          "text": "AMISOM reported that African Union troops and Somali government forces attacked and seized the key district of Deynile near Mogadishu, which served as a staging ground for al-Shabaab forces attacking Mogadishu, Afgoye, Balad, and other major cities. Despite denials by al-Shabaab spokesmen, African Union troops claimed to have captured the entire area, including an airstrip and a local hospital. 20 al-Shabaah fighters and one Burundian soldier were reportedly killed."
+        },
+        {
+          "date": "2012-03-31",
+          "date_latest": "2012-03-31",
+          "date_precision": "day",
+          "text": "Fresh fightings erupted east of Jowhar in region of Middle Shabelle between al-Shabaab and local militia, leaving 8 people dead."
+        },
+        {
+          "date": "2012-04-04",
+          "date_latest": "2012-04-04",
+          "date_precision": "day",
+          "text": "A bomb exploded at the reopened national theater in Mogadishu, where Somali Prime Minister Abdiweli Mohamed Ali and several other dignitaries were commemorating the first anniversary of the launch of Somalia's first national television station. Eight people were confirmed to be killed in the blast. Among the dead were Aden Yabarow Wiish, who served as President of the Somali Olympic Committee, and Said Mohamed Nuir, Chief of the Somali Football Federation. Prime Minister Mohamed escaped unharmed. Al-Shabaab claimed responsibility for the attack, having used improvised explosives rather than committing to a suicide attack."
+        },
+        {
+          "date": "2012-04-09",
+          "date_latest": "2012-04-09",
+          "date_precision": "day",
+          "text": "An explosion occurred in a busy marketplace in the city of Baidoa after a bomb planted in a basket was detonated; the local governor reported that at least twelve people were killed in the blast, most of them allegedly women and children. The bombing occurred just as Somali forces loyal to the government and African Union peacekeepers arrived to reinforce their hold on the city. It has yet to be determined who's responsible for the blast, though most suspect al-Shabaab as the likely culprit."
+        },
+        {
+          "date": "2012-04-11",
+          "date_latest": "2012-04-11",
+          "date_precision": "day",
+          "text": "To reinforce their ties with al-Qaeda elements in nearby Yemen, militants loyal to al-Shabaab are reportedly moving northward towards the Golis mountain range, located in the Bari and Sanaag regions. The President of the autonomous Puntland region Abdirahman Farole has announced his intention to deploy military forces to respond to any threat posed by the insurgents to the territory."
+        },
+        {
+          "date": "2012-04-28",
+          "date_latest": "2012-04-28",
+          "date_precision": "day",
+          "text": "A South African private security contractor is killed by gunmen while on a mission targeting pirates in Puntland."
+        },
+        {
+          "date": "2012-04-29",
+          "date_latest": "2012-04-29",
+          "date_precision": "day",
+          "text": "Al Shabaab insurgents clashed with Somali and AMISOM forces in Dharkenley and Hoosh district, north of Mogadishu, killing 4 civilians. In a separate incident, 3 people are killed and 10 injured in Hodan district when Al Shabaab attacks a movie theater by grenades."
+        },
+        {
+          "date": "2012-04-30",
+          "date_latest": "2012-04-30",
+          "date_precision": "day",
+          "text": "At least 11 people were killed when Al Shabaab insurgents clashed with Somali and Ethiopian troops in an overnight attack at Hudur."
+        },
+        {
+          "date": "2012-05-01",
+          "date_latest": "2012-05-01",
+          "date_precision": "day",
+          "text": "Seven people, including two MPs were killed in a suicide bombing in Dusa Mareb. Several other MPs and prominent politicians, including former Security Minister Ahmed Abdi Salam, were also injured. Al-Shabaab claimed it was behind the attack."
+        },
+        {
+          "date": "2012-05-19",
+          "date_latest": "2012-05-19",
+          "date_precision": "day",
+          "text": "Multiple explosions in various locations in Mogadishu kills 7 TFG and AMISOM troops in addition to 1 civilian, and injures at least 15 other people. Meanwhile, joint Somalia-Kenya forces took part in heavy fighting against al-Shabaab near the village of Tabta."
+        },
+        {
+          "date": "2012-05-25",
+          "date_latest": "2012-05-25",
+          "date_precision": "day",
+          "text": "Somali government forces backed by African Union tanks reportedly capture the Islamist stronghold of Afgooye, located on the outskirts of Mogadishu. The town was considered strategically important, as it offered al-Shabaab insurgents direct access to the capital. Thousands of people on the outskirts of the town fled toward Mogadishu and Afgooye ahead of the offensive, with international aid now likely to reach them. No civilian casualties were reported. According to the BBC, securing Afgooye essentially cuts the militant group's controlled territory in half."
+        },
+        {
+          "date": "2012-05-29",
+          "date_latest": "2012-05-29",
+          "date_precision": "day",
+          "text": "Kenyan naval forces shell Kismayo after al-Shabaab insurgents opened fire on Kenyan patrol vessels on the Somali littoral."
+        },
+        {
+          "date": "2012-05-29",
+          "date_latest": "2012-05-29",
+          "date_precision": "day",
+          "text": "Militants ambush a convoy of vehicles carrying President Sharif Ahmed travelling from the newly liberated town of Afgoye back to Mogadishu. The attack was repelled and Ahmed returned safely to the capital."
+        },
+        {
+          "date": "2012-05-31",
+          "date_latest": "2012-05-31",
+          "date_precision": "day",
+          "text": "Somali government forces and African Union troops from Kenya capture Afmadow from al-Shabaab, a southern town considered important in the military campaign owing to its network of roads that grant access to many different parts of the country. Prime Minister of Somalia Ali also announces that Kismayo, situated 115 km (71 miles) to the south and the seat of al-Shabaab's headquarters, would be the next likely target, followed by other towns and cities in the larger region."
+        },
+        {
+          "date": "2012-06-06",
+          "date_latest": "2012-06-06",
+          "date_precision": "day",
+          "text": "Tensions reported by local residents in the Bari province of Puntland, after the autonomous region's government forces clashed with Ras-Casayr militias. Puntland officials indicate that they entered the town of Bargaal to repel pirates."
+        },
+        {
+          "date": "2012-06-11",
+          "date_latest": "2012-06-11",
+          "date_precision": "day",
+          "text": "Self-appointed President of Ras-Casayr enclave in the Bari province renounces sovereignty claims, indicating that he is content with the Puntland government's development projects in the region and averring that he will now support the administration."
+        },
+        {
+          "date": "2012-06-16",
+          "date_latest": "2012-06-16",
+          "date_precision": "day",
+          "text": "A suicide car bombing at a military base in Afogye where Somali and African Union soldiers were staying kills two Somali soldiers and injures three civilians. Al-Shabaab assumes responsibility for the explosion. No AU injuries were reported, but al-Shabaab claims that it killed several AMISOM soldiers."
+        },
+        {
+          "date": "2012-06-22",
+          "date_latest": "2012-06-22",
+          "date_precision": "day",
+          "text": "Al-Shabaab fighters ambush a Somali military convoy in the Elasha Biyaha neighborhood of Mogadishu, killing the local police chief."
+        },
+        {
+          "date": "2012-06-23",
+          "date_latest": "2012-06-23",
+          "date_precision": "day",
+          "text": "AMISOM troops wrest control of the Middle Shabelle region's Esaley Airstrip and Elma'an Port from al-Shabaab. Situated about 37 km northeast of Mogadishu, the Esaley Airstrip was strategically important for the insurgent group since it was used by the militants to transport illicit weapons and to fly in foreign fighters from the Gulf of Aden."
+        },
+        {
+          "date": "2012-06-26",
+          "date_latest": "2012-06-26",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by AMISOM soldiers and tanks capture the al-Shabaab stronghold of Balad, situated 30 km (20 miles) to the north of Mogadishu, in addition to the surrounding villages. The insurgents reportedly fled the area prior to the arrival of the allied troops. Securing Balad gives the Somali authorities and AMISOM control of a key bridge over the Shebelle River leading toward Jowhar and more northerly areas."
+        },
+        {
+          "date": "2012-07-11",
+          "date_latest": "2012-07-11",
+          "date_precision": "day",
+          "text": "AMISOM and pro-government forces captured the al-Shabaab stronghold of Lanta-Buro 25 miles (40 km) west of Mogadishu; the city had been one of al-Shabaab's primary training bases for militant forces across the country. The city was reportedly abandoned by al-Shabaab before the offensive force arrived and no fighting was reported. According to the combined Somali-AMISOM leadership, the next target of the offensive would be the coastal city of Merka."
+        },
+        {
+          "date": "2012-08-04",
+          "date_latest": "2012-08-04",
+          "date_precision": "day",
+          "text": "Somali forces engaged in battle with al-Shabaab insurgents in the town of Qansah Dhere, at least 15 people were killed."
+        },
+        {
+          "date": "2012-08-08",
+          "date_latest": "2012-08-08",
+          "date_precision": "day",
+          "text": "Kenyan jets bombed an al Shabaab base near the Birta-Dheer village north of Kismayu. Kenyan forces also reportedly massing tanks and artillery around Biibi village, 85 km north of Kismayu in an attempt to take this port town."
+        },
+        {
+          "date": "2012-08-12",
+          "date_latest": "2012-08-12",
+          "date_precision": "day",
+          "text": "Two Uganda People's Defence Force MI-24 helicopters flying from Entebbe, Uganda to Somalia crashed in rugged terrain in Kenya. They were found two days later, burned out, with no likely survivors from the 10 Ugandan servicemen on board. Another aircraft from the same flight crashed on Mount Kenya and all of its seven Ugandan servicemen were rescued a day later."
+        },
+        {
+          "date": "2012-08-16",
+          "date_latest": "2012-08-16",
+          "date_precision": "day",
+          "text": "Kenyan Defense Forces stationed in Southern Somalia as part of AMISOM were reported to have engaged in combat with as many as a thousand al-Shabaab militants who attempted to assault the Kenyan garrison in Fafadhun. The Kenyan forces however were said to have successfully repulsed the attack, with at least two Kenyan soldiers and at least 73 al-Shabaab militants reported dead as a result of the fighting. After the remaining attackers fled, the Kenyan forces reportedly captured forty guns and six trucks abandoned by al-Shabaab in their retreat. The increased Kenyan presence in the area is part of Kenya's effort to reinforce the security of its southern border with Somalia and as part of AMISOM's effort to eventually retake the al-Shabaab stronghold of Kismayo."
+        },
+        {
+          "date": "2012-08-27",
+          "date_latest": "2012-08-27",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by AMISOM troops capture the port town of Merca from al-Shabaab. Residents indicate that the militants had fled a few hours earlier to Kismayo, which represents the outfit's last major stronghold."
+        },
+        {
+          "date": "2012-08-29",
+          "date_latest": "2012-08-29",
+          "date_precision": "day",
+          "text": "Somali government forces backed by African Union troops battle al-Shabaab militants in the villages of Aglibah, Janaay, Abdulle and Birta Dheer, situated between Afmadow and Kismayo. According to General Ismail Sahardiid, the commander in charge of Somali Army troops in the Lower Jubba region, over 60 insurgents died in the crossfire. Al-Shabaab claims in turn to have killed dozens of government soldiers in the ensuing gun battle. With the allied forces reportedly around 50 kilometers (31 miles) near Kismayo, General Sahardiid indicates that his men are advancing toward the stronghold with caution but expect to capture it within a period of seven days. According to a local resident, al-Shabaab have also positioned armored vehicles on the circumference of the town and are patrolling the area in heavy battle gear and wagons."
+        },
+        {
+          "date": "2012-09-01",
+          "date_latest": "2012-09-01",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by African Union troops continue their march toward Kismayo, capturing the southern town of Miido, situated 86 km from the al-Shabaab stronghold. As many as 36 insurgents were reportedly slain in the assault. AMISOM also deny claims that the insurgents had seized back Afmadow, and dismiss as \"untrue Al Shabaab propaganda\" reports that the militant group had gunned down an AU helicopter. Additionally, an AMISOM spokesman characterizes as a \"very despicable and a shameful act\" photos released by al-Shabaab showing bodies of four allied soldiers being dragged through the Kismayo streets."
+        },
+        {
+          "date": "2012-09-03",
+          "date_latest": "2012-09-03",
+          "date_precision": "day",
+          "text": "In support of the Somali army's offensive in Kismayo against al-Shabaab, AMISOM soldiers backed by KDF vessels and helicopters reach the nearby town of Harbole. The move comes after intensive attacks since August 31 by allied forces against nearby Islamist bases, which resulted in 36 militant casualties. Ugandan and Burundian AU troops are reportedly making their way southward toward the stronghold, with the Kenyan contingent within AMISOM providing facilitative assistance. The combined forces are awaiting for military authorization to launch the ground offensive."
+        },
+        {
+          "date": "2012-09-04",
+          "date_latest": "2012-09-04",
+          "date_precision": "day",
+          "text": "As part of an offensive by AMISOM, the Kenyan navy shells the Islamist stronghold of Kismayo. According to local residents, hundreds of people begin fleeing the area ahead of an expected land-based assault, with most heading for Jilib to the north and the Somali government-controlled port of Merca."
+        },
+        {
+          "date": "2012-09-04",
+          "date_latest": "2012-09-04",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by African Union troops capture the port of El-ma'an from al-Shabaab, situated on the outskirts of Mogadishu. According to Daud Hajji Iro, the Middle Shabelle region's spokesman, the insurgents abandoned the town after a bout of fighting. The Islamist group was reportedly unavailable for comment."
+        },
+        {
+          "date": "2012-09-05",
+          "date_latest": "2012-09-05",
+          "date_precision": "day",
+          "text": "Somali government forces and allied AMISOM troops continue their march toward Kismayo, advancing from the liberated Miido to the nearby town of Biibi. Around 200 al-Shabaab insurgents and a few senior commanders in Afmadow also surrender to the coalition forces. The defections are interpreted as substantially enhancing the allied offensive since the insurgents could provide details on al-Shabaab's combat strategy. Additionally, AMISOM's Ugandan and Burundian contingents in Harbole await clearance to attack Kismayo, with Kenyan AU troops preparing to launch an assault from Jilib and Bulla-Hajji in the Jubba region. Residents of Kismayo simultaneously continue to leave the port for the eastern cities of Barawe and Merca ahead of the planned offensive."
+        },
+        {
+          "date": "2012-09-18",
+          "date_latest": "2012-09-18",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by AMISOM troops continue their march towards Kismayo. Local residents report that al-Shabaab militants are leaving the port in trucks and buses with heavy weaponry in tow, in the direction of Jilib to the northeast. The insurgents also reportedly free some prisoners before exiting. Al-Shabaab dismiss the claims as \"blatant lies\" and suggest that affairs in Kismayo are \"business as usual.\" An estimated 5,200 people have fled the town since the start of the month ahead of the offensive. According to Somali National Army General Ismail Sahareed, his forces defeated the insurgents in confrontations a few days earlier, and the SNA, which is positioned about 67 km away, is now preparing to close in on Kismayo; AMISOM forces are in turn reportedly stationed about 39 km from the city, in the town of Jana Cabdalla. Al-Shabaab claim instead to have killed around 100 Somali government soldiers and AU troops from Kenya. Additionally, a spokesperson with the US Navy admits that an American warship is positioned near the port, but suggests that it is there for maintenance purposes. He also asserts that he does not know if the vessel intends to alight on the city.",
+          "duplicate_of": "2012 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2012-09-22",
+          "date_latest": "2012-09-22",
+          "date_precision": "day",
+          "text": "An additional 200 al-Shabaab insurgents in the town of Garsale near Jowhar surrender to allied troops. This followed a round of internal battles between rival militants, which left eight of the outfit's fighters dead, including two top commanders. AMISOM announces in a press statement that it expects the total number of al-Shabaab defections in the area to reach 250 men."
+        },
+        {
+          "date": "2012-09-24",
+          "date_latest": "2012-09-24",
+          "date_precision": "day",
+          "text": "Hizbul Islam spokesman Mohamed Moallim announces that his group is discontinuing its association with al-Shabaab, an outfit that he asserts his organization had only nominally united with. Moallim cites the significant political changes happening in Somalia as well as al-Shabaab's reported issuance of propaganda against Hizbul Islam as the primary reasons for his group's decision to leave the coalition. He adds that his organization does not share al-Shabaab's political philosophy, and that he feels the militant group has been considerably \"weakened\". Moallim also indicates that Hizbul Islam is open to talks with any political actors in the country working for a common good."
+        },
+        {
+          "date": "2012-09-24",
+          "date_latest": "2012-09-24",
+          "date_precision": "day",
+          "text": "Somali National Army spokesman Adan Mohamed Hirsi accuses Kenyan troops of intentionally killing seven Somali civilians in a joint Somali-AMISOM operation in Janay Abdalla village. The murders came after an earlier ambush attempt by al-Shabaab against Somali and Kenyan soldiers. The young men were in the process of buying sugar when they were shot down, and two other civilians were reportedly also injured. According to BBC correspondent Gabriel Gatehouse, Kenyan forces have already been accused of indiscriminately killing civilians when they shelled Kismayo from warships operating off of the port city's coastline. Hirsi condemns the latest murders and requests that the Somali authorities take action. AU spokesman Col. Ali Aden also indicates that an investigation into the incident has been launched and appropriate action will be pursued once it concludes."
+        },
+        {
+          "date": "2012-09-25",
+          "date_latest": "2012-09-25",
+          "date_precision": "day",
+          "text": "Fighter jets belonging to AMISOM's Kenyan contingent bombard an airport armoury and warehouse in Kismayo that was used by al-Shabaab. Although casualty figures are uncertain, Ali Mohamud Rage, a spokesman for the Islamist group, indicates that there are no deaths or property damage, but that \"the Kenyan airforce was maybe trying to boost the morale of its demoralised soldiers.\" Kenyan troops are reportedly positioned around 40 km from Kismayo. They have been striving to defeat al-Shabaab militants in the city since they first deployed soldiers to southern Somalia in 2011."
+        },
+        {
+          "date": "2012-09-28",
+          "date_latest": "2012-09-28",
+          "date_precision": "day",
+          "text": "According to AMISOM official Col. Cyrus Oguna, the Somali National Army and Kenyan AU naval, air and ground forces launched a surprise attack on Kismayo, capturing the city with little resistance mounted by al-Shabaab. The spokesman asserts that the insurgents incurred \"heavy losses\" during the offensive, whereas no allied soldiers were wounded or killed. Fighters from the Ras Kamboni militia also reportedly assisted the SNA and AU troops, who led the charge. Al-Shabaab's military operations spokesman Sheikh Abdiasis Abu Musab states that \"fierce fighting\" is underway between his comrades and the Somali and AMISOM forces. Local residents similarly indicate that the allied troops have seized the port, but the militants are still present elsewhere in the town and are quickly making their way toward the frontlines in vehicles. The Islamist group's propaganda radio station is also still reportedly broadcasting material and allegedly attempting to trick residents into fleeing toward the oncoming Somali government and AMISOM troops. Kismayo is regarded as al-Shabaab's last major stronghold on account of the revenue that the group has been able to generate for itself through exporting charcoal and levying port taxes on imported goods. Col. Oguna indicates that capturing the city \"may signal the end of al-Shabab because Kismayo has been the bastion which has financed activities of the al-Shabab in other regions of Somalia\". Owing to uncertainty as to who will administer the town after the Islamists have been completely ousted, the AU spokesman adds that the offensive was \"meticulously planned\".",
+          "duplicate_of": "2012 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2012-10-14",
+          "date_latest": "2012-10-14",
+          "date_precision": "day",
+          "text": "Somali government soldiers assisted by AMISOM troops capture the strategically important town of Wanla Weyn, located 93 km northwest of Mogadishu. The victory permits a direct route connecting the capital with the recently secured city of Baidoa. According to Somali government and AU officials, it also cuts off al-Shabaab's access to other regions, and denies the militants another key source of funds. Additionally, the allied forces seize control of a former Somali Air Force (SAF) base, situated within 15 km of Wanla Weyn."
+        },
+        {
+          "date": "2012-10-29",
+          "date_latest": "2012-10-29",
+          "date_precision": "day",
+          "text": "Somali military sources report that General Mohamed Ibrahim Farah (Gordan) is killed in an ambush attack by al-Shabaab insurgents. The surprise assault occurred in the town of El Waregow, near the port of Marko (Merca). Al-Shabaab did not comment on the assassination."
+        },
+        {
+          "date": "2012-11-12",
+          "date_latest": "2012-11-12",
+          "date_precision": "day",
+          "text": "At least 7 soldiers and 3 civilians were killed in an ambush by al-Shabaab insurgents on an Ethiopian convoy near Baidoa."
+        },
+        {
+          "date": "2012-11-25",
+          "date_latest": "2012-11-25",
+          "date_precision": "day",
+          "text": "Al Shabaab fighters attack Bulohawo near the border with Kenya. They briefly took control of the small town before retreating to the Somali army. Twelve people from both sides were reportedly killed."
+        },
+        {
+          "date": "2012-12-09",
+          "date_latest": "2012-12-09",
+          "date_precision": "day",
+          "text": "Somali government forces assisted by AMISOM troops capture the al-Shabaab stronghold of Jowhar, situated 90 kilometres (60 miles) north of Mogadishu.",
+          "duplicate_of": "2012 timeline of the Somali Civil War"
+        },
+        {
+          "date": "2012-12-17",
+          "date_latest": "2012-12-17",
+          "date_precision": "day",
+          "text": "Al-Shabaab posts a message on Twitter publicly chastising the group's senior American commander Abu Mansoor al-Amriki (Omar Shafik Hammami) for releasing videos in a \"narcissistic pursuit of fame.\" The tweet also asserts that attempts behind the scenes by the outfit to talk to al-Amriki were in vain, so al-Shabaab was morally obligated to divulge his \"obstinacy\"."
+        },
+        {
+          "date": "2012-12-18",
+          "date_latest": "2012-12-18",
+          "date_precision": "day",
+          "text": "Somalia national army (SNA) and Kenya defense forces have taken control of Kudha and Madhawa islands which are some 130 km (81 miles) to the West of Kismayo. Al-shabaab militants withdraw from Kudha island before the allied forces entered. But there was fighting in Madhawa."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Piracy off the coast of Somalia",
+      "pageid": 17015903,
+      "revid": 1370704318,
+      "revision_timestamp": "2026-08-22T16:41:49Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=17015903",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2007-05-28",
+          "date_latest": "2007-05-28",
+          "date_precision": "day",
+          "text": "On 28 May 2007, a Chinese sailor was killed by the pirates because the ship's owners failed to meet their ransom demand."
+        },
+        {
+          "date": "2007-06-03",
+          "date_latest": "2007-06-03",
+          "date_precision": "day",
+          "text": "On 3 June 2007, , a landing ship dock, engaged pirates attacking the freighter MV Danica White, but failed to repel them."
+        },
+        {
+          "date": "2007-10-28",
+          "date_latest": "2007-10-28",
+          "date_precision": "day",
+          "text": "On 28 October 2007, the destroyer , opened fire on pirates who had captured a freighter and, with other vessels, blockaded a port the pirates attempted to take refuge in."
+        },
+        {
+          "date": "2008-09-25",
+          "date_latest": "2008-09-25",
+          "date_precision": "day",
+          "text": "The Belize-flagged cargo ship owned and operated by Kaalbye Shipping, Ukraine, was seized by pirates 25 September 2008 and forced to proceed to anchorage off the Somali coast."
+        },
+        {
+          "date": "2008-10-05",
+          "date_latest": "2008-10-05",
+          "date_precision": "day",
+          "text": "On 5 October 2008, the United Nations Security Council adopted resolution 1838 calling on nations with vessels in the area to apply military force to repress the acts of piracy."
+        },
+        {
+          "date": "2008-11-18",
+          "date_latest": "2008-11-18",
+          "date_precision": "day",
+          "text": ", in the Gulf of Aden on 18 November 2008]] As of 2013, four international naval task forces operated in the region, with multiple national vessels and task forces entering and leaving the region, engaging in counter-piracy operations for various lengths of time."
+        },
+        {
+          "date": "2008-11-19",
+          "date_latest": "2008-11-19",
+          "date_precision": "day",
+          "text": "This is in stark contrast to the pirate attacks that were once frequent in the Strait of Malacca, another strategically important waterway for international trade, which were, according to maritime security expert Catherine Zara Raymond, generally directed against \"smaller, more vulnerable vessels carrying trade across the Straits or employed in the coastal trade on either side of the Straits.\" On 19 November 2008, the Indian Navy warship sank a suspected pirate mothership."
+        },
+        {
+          "date": "2008-11-21",
+          "date_latest": "2008-11-21",
+          "date_precision": "day",
+          "text": "On 21 November 2008, BBC News reported that the Indian Navy had received United Nations approval to enter Somali waters to combat piracy."
+        },
+        {
+          "date": "2009-04-08",
+          "date_latest": "2009-04-08",
+          "date_precision": "day",
+          "text": "On 8 April 2009, four Somali pirates seized 240 nmi southeast of the Somalia port city of Eyl."
+        },
+        {
+          "date": "2009-04-20",
+          "date_latest": "2009-04-20",
+          "date_precision": "day",
+          "text": "On 20 April 2009, United States Secretary of State Hillary Clinton commented on the capture and release of seven Somali pirates by Dutch Naval forces who were on a NATO mission."
+        },
+        {
+          "date": "2009-04-23",
+          "date_latest": "2009-04-23",
+          "date_precision": "day",
+          "text": "On 23 April 2009, international donors pledged over $250 million for Somalia, including $134 million to increase the African Union peacekeeping mission from 4,350 troops to 8,000 troops and $34 million for Somali security forces."
+        },
+        {
+          "date": "2009-05-02",
+          "date_latest": "2009-05-02",
+          "date_precision": "day",
+          "text": "On 2 May 2009, Somali pirates captured MV Ariana with its 24 Ukrainian crew."
+        },
+        {
+          "date": "2009-11-08",
+          "date_latest": "2009-11-08",
+          "date_precision": "day",
+          "text": "One suspected pirate was killed and 12 were taken into custody (see engaged pirate vessels).]] On 8 November 2009, Somali pirates threatened that a kidnapped British couple, the Chandlers, would be \"punished\" if a German warship did not release seven pirates."
+        },
+        {
+          "date": "2009-12-10",
+          "date_latest": "2009-12-10",
+          "date_precision": "day",
+          "text": "The ship was released on 10 December 2009 after a ransom of almost US$3,000,000 was paid. ."
+        },
+        {
+          "date": "2010-04-01",
+          "date_latest": "2010-04-01",
+          "date_precision": "day",
+          "text": "On 1 April 2010, was on patrol off the Somali coast when it took fire from men in a small skiff."
+        },
+        {
+          "date": "2010-05-11",
+          "date_latest": "2010-05-11",
+          "date_precision": "day",
+          "text": "On 11 May 2010, Somali pirates seized a Bulgarian-flagged ship in the Gulf of Aden."
+        },
+        {
+          "date": "2010-05-12",
+          "date_latest": "2010-05-12",
+          "date_precision": "day",
+          "text": "On 12 May 2010, Athens announced that Somali pirates had seized a Greek vessel in the Gulf of Aden with at least 24 people on board, including two Greek citizens and several Philippine citizens.",
+          "duplicate_of": "Piracy off the coast of Somalia"
+        },
+        {
+          "date": "2010-11-14",
+          "date_latest": "2010-11-14",
+          "date_precision": "day",
+          "text": "The Chandlers were released on 14 November 2010 after 388 days of captivity."
+        },
+        {
+          "date": "2011-01-14",
+          "date_latest": "2011-01-14",
+          "date_precision": "day",
+          "text": "On 14 January 2011, while speaking to reporters, Commodore Michiel Hijmans of the Royal Netherlands Navy stated that the use of hijacked vessels in more recent hijackings had led to increased range of pirating activities, as well as difficulty to actively thwart future events due to the use of kidnapped sailors as human shields."
+        },
+        {
+          "date": "2011-01-15",
+          "date_latest": "2011-01-15",
+          "date_precision": "day",
+          "text": "On 15 January 2011 13 Somali pirates seized Samho Jewelry, a Maltese-flagged chemical carrier operated by Samho Shipping, 650 km southeast of Muscat."
+        },
+        {
+          "date": "2011-01-21",
+          "date_latest": "2011-01-21",
+          "date_precision": "day",
+          "text": "In the early morning of 21 January 2011, 25 ROK Navy SEALs on small boats launched from Choi Young boarded Samho Jewelry while Choi Youngs Westland Super Lynx provided covering fire."
+        },
+        {
+          "date": "2011-01-28",
+          "date_latest": "2011-01-28",
+          "date_precision": "day",
+          "text": "On 28 January 2011, an Indian Coast Guard aircraft while responding to a distress call from CMA CGM Verdi, located two skiffs attempting a piracy attack near Lakshadweep."
+        },
+        {
+          "date": "2011-02-24",
+          "date_latest": "2011-02-24",
+          "date_precision": "day",
+          "text": "On 24 February 2011 a Danish family on a yacht were captured by pirates."
+        },
+        {
+          "date": "2011-10-10",
+          "date_latest": "2011-10-10",
+          "date_precision": "day",
+          "text": "They had been found guilty of attempted kidnapping for extortion and illegal possession of firearms, in connection with 10 October 2011 attack and seizure of an Italian-owned cargo vessel, the Montecristo."
+        },
+        {
+          "date": "2012-01-05",
+          "date_latest": "2012-01-05",
+          "date_precision": "day",
+          "text": "On 5 January 2012, an MH-60S Seahawk from the guided-missile destroyer , part of Carrier Strike Group 3 led by the , detected a suspected pirate skiff alongside the Iranian-flagged fishing boat, Al Molai."
+        },
+        {
+          "date": "2012-01-21",
+          "date_latest": "2012-01-21",
+          "date_precision": "day",
+          "text": "On 21 January 2012, while researching a book on piracy via a Pulitzer Center for Crisis Reporting grant, journalist Michael Scott Moore was abducted in Galkayo by a local gang of pirates."
+        },
+        {
+          "date": "2014-09-22",
+          "date_latest": "2014-09-22",
+          "date_precision": "day",
+          "text": "U.S. and German Foreign Ministry officials negotiated with the pirates until Moore was freed on September 22, 2014, after $USD1.6 million dollars ransom was paid, and following 977 days of captivity."
+        },
+        {
+          "date": "2017-03-13",
+          "date_latest": "2017-03-13",
+          "date_precision": "day",
+          "text": "The tanker Aris 13, which had been carrying fuel from Djibouti to Mogadishu, was hijacked off the coast of Somalia on 13 March 2017."
+        },
+        {
+          "date": "2017-03-16",
+          "date_latest": "2017-03-16",
+          "date_precision": "day",
+          "text": "After being captured, Aris 13 was taken to Alula and anchored there before its release without ransom was confirmed by security officials on 16 March 2017."
+        },
+        {
+          "date": "2024-03-17",
+          "date_latest": "2024-03-17",
+          "date_precision": "day",
+          "text": "On March 17, 2024 Indian naval commandos led a rescue operation taking back control of the vessel about 500 km off the coast of Somalia, bringing the 35 Somali pirates to prosecution in Mumbai."
+        },
+        {
+          "date": "2025-11-03",
+          "date_latest": "2025-11-03",
+          "date_precision": "day",
+          "text": "On November 3, 2025, the Cayman Islands-flagged chemical tanker Stolt Sagaland was attacked near the coast of Mogadishu."
+        },
+        {
+          "date": "2026-04-22",
+          "date_latest": "2026-04-22",
+          "date_precision": "day",
+          "text": "On 22 April 2026, the oil tanker Honour 25 was hijacked by pirates off the Somali coast, about 30 nautical miles offshore."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Somali Civil War",
+      "pageid": 3070332,
+      "revid": 1368927093,
+      "revision_timestamp": "2026-08-11T22:22:26Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=3070332",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1978-04-10",
+          "date_latest": "1978-04-10",
+          "date_precision": "day",
+          "text": ", Chairman of the Supreme Revolutionary Council and President of Somalia]] After Somalia lost the Ogaden War in March 1978, the president's popularity with Somalis plummeted and widespread discontent among his generals led to an attempted coup d'état on 10 April 1978."
+        },
+        {
+          "date": "1986-12-23",
+          "date_latest": "1986-12-23",
+          "date_precision": "day",
+          "text": "Although Barre managed to recover enough to present himself for reelection to a seven-year term on December 23, 1986, his poor health and advanced age led to speculation about who would succeed him."
+        },
+        {
+          "date": "1991-11-17",
+          "date_latest": "1991-11-17",
+          "date_precision": "day",
+          "text": "Violence flared up in Mogadishu on 17 November 1991, when the Aidid-aligned faction of the USC attacked Mahdi-aligned forces in the city."
+        },
+        {
+          "date": "1992-12-03",
+          "date_latest": "1992-12-03",
+          "date_precision": "day",
+          "text": "The political state was described by the UN’s summary as being chaos with a deteriorating security system and widespread death and destruction. points to identify a sniper's possible firing position (January 1994).]] United Nations Security Council Resolution 794 was unanimously passed on December 3, 1992, which approved a coalition of United Nations peacekeepers led by the United States.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1995-03-03",
+          "date_latest": "1995-03-03",
+          "date_precision": "day",
+          "text": "After the Battle of Mogadishu in October 1993, UN soldiers eventually withdrew altogether from the country on March 3, 1995."
+        },
+        {
+          "date": "1995-06-15",
+          "date_latest": "1995-06-15",
+          "date_precision": "day",
+          "text": "With the distorting effect of UNOSOM no longer present, the process of both political and economic transformation has been facilitated...alternative institutions have emerged without any external support.\" Aidid subsequently declared himself President of Somalia on June 15, 1995."
+        },
+        {
+          "date": "2007-01-08",
+          "date_latest": "2007-01-08",
+          "date_precision": "day",
+          "text": "On January 8, 2007, as the Battle of Ras Kamboni raged, TFG President and founder Abdullahi Yusuf Ahmed entered Mogadishu for the first time since being elected to office."
+        },
+        {
+          "date": "2008-05-01",
+          "date_latest": "2008-05-01",
+          "date_precision": "day",
+          "text": "On May 1, 2008, the U.S. made an airstrike on Dhusamareb, and followed on 3 May with another airstrike on the border town of Dobley."
+        },
+        {
+          "date": "2008-12-29",
+          "date_latest": "2008-12-29",
+          "date_precision": "day",
+          "text": "On December 29, 2008, Abdullahi Yusuf Ahmed announced before a united parliament in Baidoa his resignation as President of Somalia."
+        },
+        {
+          "date": "2009-02-03",
+          "date_latest": "2009-02-03",
+          "date_precision": "day",
+          "text": "The TFG thereafter became Somalia's internationally recognized government. withdrawal, February 3, 2009]] Following their defeat, the Islamic Courts Union splintered into several different factions."
+        },
+        {
+          "date": "2011-08-06",
+          "date_latest": "2011-08-06",
+          "date_precision": "day",
+          "text": "On August 6, 2011, Al-Shabaab was forced to withdraw from most of Mogadishu."
+        },
+        {
+          "date": "2012-09-28",
+          "date_latest": "2012-09-28",
+          "date_precision": "day",
+          "text": "A Kenyan-led AMISOM force, backed by the Raskamboni movement, then launched an offensive against Kismayo on September 28, 2012."
+        },
+        {
+          "date": "2014-03-05",
+          "date_latest": "2014-03-05",
+          "date_precision": "day",
+          "text": "On 5 March 2014, the UN Security Council unanimously voted to extend the partial easing of the arms embargo on Somalia to 25 October.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2014-09-01",
+          "date_latest": "2014-09-01",
+          "date_precision": "day",
+          "text": "On 1 September 2014, a U.S. drone strike carried out as part of the broader mission killed Al-Shabaab leader Muktar Abu Zubeyr."
+        },
+        {
+          "date": "2018-12-15",
+          "date_latest": "2018-12-15",
+          "date_precision": "day",
+          "text": "On 15 December 2018 there were demonstrations in the city of Baidoa by supporters of Mukhtar Rowbow, a presidential candidate who had been arrested two days earlier by government forces and transferred to Mogadishu."
+        },
+        {
+          "date": "2020-11-25",
+          "date_latest": "2020-11-25",
+          "date_precision": "day",
+          "text": "On 25 November 2020, it was reported that a CIA officer had been killed in Somalia."
+        },
+        {
+          "date": "2025-05-14",
+          "date_latest": "2025-05-14",
+          "date_precision": "day",
+          "text": "On May 14, 2025, in a post on social medias, Donald Trump claimed that he would \"support the Somali People, who should not allow the Houthis to embed.\", claiming that this initiative was \"to end terrorism, and bring prosperity to their Country”."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

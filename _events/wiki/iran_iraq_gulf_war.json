@@ -1,0 +1,1027 @@
+{
+  "topic": "iran_iraq_gulf_war",
+  "label": "Iran-Iraq War and the Gulf War",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 154,
+  "flagged_vote_language": 4,
+  "flagged_names_later_date": 7,
+  "vague_dated_segments": 1,
+  "cross_article_duplicates": 22,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Gulf War (1990–1991)",
+      "pageid": 52959112,
+      "revid": 1352975704,
+      "revision_timestamp": "2026-05-07T11:29:01Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=52959112",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "1990-05-28",
+          "date_latest": "1990-05-28",
+          "date_precision": "day",
+          "text": "Hussein and Emir of Kuwait Jaber Al-Ahmad Al-Sabah meet at the Arab League Summit in Baghdad."
+        },
+        {
+          "date": "1990-07-15",
+          "date_latest": "1990-07-15",
+          "date_precision": "day",
+          "text": "Iraq accuses Kuwait of stealing oil from the Rumaila oil field, an Iraqi oil field near the Iraqi-Kuwaiti border, and threatens military action in response."
+        },
+        {
+          "date": "1990-07-22",
+          "date_latest": "1990-07-22",
+          "date_precision": "day",
+          "text": "Iraq begins deploying troops to the Iraqi-Kuwaiti border, creating a massive military buildup."
+        },
+        {
+          "date": "1990-07-24",
+          "date_latest": "1990-07-24",
+          "date_precision": "day",
+          "text": "President of Egypt Hosni Mubarak travels to Baghdad to meet with Saddam Hussein and discuss the dispute between Kuwait and Iraq."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "About 100,000 Iraqi troops invade Kuwait."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "Battle of Dasman Palace. Emir Jaber Al-Ahmad Al-Sabah flees to Saudi Arabia with his family and ministers."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "United Nations Security Council (UNSC) Resolution 660 condemns the Iraqi invasion of Kuwait. Yemen is the only Arab country that does not take part in the vote in the UNSC.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1990-08-03",
+          "date_latest": "1990-08-03",
+          "date_precision": "day",
+          "text": "President of the United States George H.W. Bush announces that U.S. Navy ships have been deployed to the Persian Gulf."
+        },
+        {
+          "date": "1990-08-04",
+          "date_latest": "1990-08-04",
+          "date_precision": "day",
+          "text": "Alaa Hussein Ali is appointed Prime Minister of the Provisional Government of Free Kuwait and Ali Hassan al-Majid is appointed Governor of the Kuwait Governorate, which is declared the 19th Governorate of Iraq."
+        },
+        {
+          "date": "1990-08-05",
+          "date_latest": "1990-08-05",
+          "date_precision": "day",
+          "text": "Emir Jaber Al-Ahmad Al-Sabah forms a government in exile in Ta'if, Saudi Arabia.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-08-06",
+          "date_latest": "1990-08-06",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 661 implements international sanctions on Iraq. Yemen abstains from the vote in the UNSC.",
+          "mentions_vote": true,
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-08-06",
+          "date_latest": "1990-08-06",
+          "date_precision": "day",
+          "text": "United States Secretary of Defense Dick Cheney meets King Fahd of Saudi Arabia in Riyadh to discuss sending U.S. Armed Forces troops to defend Saudi Arabia in case of an Iraqi invasion."
+        },
+        {
+          "date": "1990-08-07",
+          "date_latest": "1990-08-07",
+          "date_precision": "day",
+          "text": "15,000 U.S. troops, 32 destroyers and 100 helicopters and fighter planes arrive in Saudi Arabia."
+        },
+        {
+          "date": "1990-08-08",
+          "date_latest": "1990-08-08",
+          "date_precision": "day",
+          "text": "Operation Desert Shield is launched by the United States."
+        },
+        {
+          "date": "1990-08-09",
+          "date_latest": "1990-08-09",
+          "date_precision": "day",
+          "text": "Iraq closes all its land borders."
+        },
+        {
+          "date": "1990-08-09",
+          "date_latest": "1990-08-09",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 662 condemns the Iraqi invasion of Kuwait.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-08-10",
+          "date_latest": "1990-08-10",
+          "date_precision": "day",
+          "text": "Arab League Cairo summit votes, by a very small margin, to send Egyptian, Syrian and Moroccan military troops to the Gulf region to support Kuwait.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1990-08-10",
+          "date_latest": "1990-08-10",
+          "date_precision": "day",
+          "text": "Arab League Emergency summit takes place in Cairo. The majority of Arab countries condemn the invasion and call on Iraq to withdraw its troops from Kuwait and reinstate Jaber Al-Ahmad Al-Sabah as Emir of Kuwait. Only Libya and the Palestine Liberation Organization support the Iraqi invasion.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-08-12",
+          "date_latest": "1990-08-12",
+          "date_precision": "day",
+          "text": "Naval blockade of Iraq begins."
+        },
+        {
+          "date": "1990-08-13",
+          "date_latest": "1990-08-13",
+          "date_precision": "day",
+          "text": "Indian Government starts to airlift Indian nationals from Kuwait via Amman to Mumbai. About 175,000 Indian nationals are evacuated from Kuwait through 20 October."
+        },
+        {
+          "date": "1990-08-15",
+          "date_latest": "1990-08-15",
+          "date_precision": "day",
+          "text": "Iran and Iraq re-establish diplomatic relations for the first time since the Iran–Iraq War."
+        },
+        {
+          "date": "1990-08-16",
+          "date_latest": "1990-08-16",
+          "date_precision": "day",
+          "text": "Secretary Dick Cheney orders U.S. naval ships to stop all cargo and tankers leaving and entering Iraq and Kuwait."
+        },
+        {
+          "date": "1990-08-18",
+          "date_latest": "1990-08-18",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 664 condemns Iraq and demands it leaves Kuwait.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-08-19",
+          "date_latest": "1990-08-19",
+          "date_precision": "day",
+          "text": "United Arab Emirates allows foreign troops to enter its territory."
+        },
+        {
+          "date": "1990-08-20",
+          "date_latest": "1990-08-20",
+          "date_precision": "day",
+          "text": "82 British nationals are taken hostage in Kuwait."
+        },
+        {
+          "date": "1990-08-20",
+          "date_latest": "1990-08-20",
+          "date_precision": "day",
+          "text": "Hundred of thousands of Pakistani, Egyptian, Palestinian, and Filipino guest workers flee Kuwait to Jordan."
+        },
+        {
+          "date": "1990-08-25",
+          "date_latest": "1990-08-25",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 665 implements international sanctions on Iraq."
+        },
+        {
+          "date": "1990-08-26",
+          "date_latest": "1990-08-26",
+          "date_precision": "day",
+          "text": "Iraq sieges foreign embassies in Kuwait City."
+        },
+        {
+          "date": "1990-08-28",
+          "date_latest": "1990-08-28",
+          "date_precision": "day",
+          "text": "Kuwait formally annexed by Iraq."
+        },
+        {
+          "date": "1990-08-29",
+          "date_latest": "1990-08-29",
+          "date_precision": "day",
+          "text": "United Nations Secretary-General Javier Pérez de Cuéllar travels to Baghdad to meet Foreign Minister of Iraq Tariq Aziz."
+        },
+        {
+          "date": "1990-09-01",
+          "date_latest": "1990-09-01",
+          "date_precision": "day",
+          "text": "Iraq allows 700 Westerners, held hostage since the invasion, to leave Iraq."
+        },
+        {
+          "date": "1990-09-02",
+          "date_latest": "1990-09-02",
+          "date_precision": "day",
+          "text": "Secretary-General Javier Pérez de Cuéllar returns from Baghdad without any agreement with the Government of Iraq."
+        },
+        {
+          "date": "1990-09-09",
+          "date_latest": "1990-09-09",
+          "date_precision": "day",
+          "text": "President of the United States George H. W. Bush and President of the Soviet Union Mikhail Gorbachev meet in summit in Helsinki to discuss the Iraqi invasion. In a press conference, the presidents demand Iraq leave Kuwait under the UNSC Resolutions of 660, 661, 662, 664 and 665."
+        },
+        {
+          "date": "1990-09-11",
+          "date_latest": "1990-09-11",
+          "date_precision": "day",
+          "text": "President George H. W. Bush in an address to a joint session of Congress issues conditions that Iraq must withdraw from Kuwait completely."
+        },
+        {
+          "date": "1990-09-14",
+          "date_latest": "1990-09-14",
+          "date_precision": "day",
+          "text": "United Kingdom and France announce the deployment of troops to Saudi Arabia."
+        },
+        {
+          "date": "1990-09-25",
+          "date_latest": "1990-09-25",
+          "date_precision": "day",
+          "text": "United Nations Security Council Resolution 661 implements civil aviation sanctions on Iraq.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-10-17",
+          "date_latest": "1990-10-17",
+          "date_precision": "day",
+          "text": "200,000 American, 15,000 British and 11,000 French troops are stationed in the Gulf region."
+        },
+        {
+          "date": "1990-11-08",
+          "date_latest": "1990-11-08",
+          "date_precision": "day",
+          "text": "U.S. sends more troops to the Gulf region. About 100,000 troops arrive to support the existing 220,000 troops in the region."
+        },
+        {
+          "date": "1990-11-19",
+          "date_latest": "1990-11-19",
+          "date_precision": "day",
+          "text": "Iraq sends about 200,000 more troops to Kuwait.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-11-29",
+          "date_latest": "1990-11-29",
+          "date_precision": "day",
+          "text": "President George H. W. Bush invites Foreign Minister of Iraq Tariq Aziz to meet in Washington D.C."
+        },
+        {
+          "date": "1990-11-29",
+          "date_latest": "1990-11-29",
+          "date_precision": "day",
+          "text": "The U.N. Security Council passes Resolution 678, requiring Iraq to withdraw from Kuwait before January 15, 1991, or face military action.",
+          "names_later_date": true
+        },
+        {
+          "date": "1990-12-06",
+          "date_latest": "1990-12-06",
+          "date_precision": "day",
+          "text": "Iraq releases 3,000 foreign hostages from Kuwait and Iraq.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-12-10",
+          "date_latest": "1990-12-10",
+          "date_precision": "day",
+          "text": "Iraq releases British hostages."
+        },
+        {
+          "date": "1991-01-09",
+          "date_latest": "1991-01-09",
+          "date_precision": "day",
+          "text": "United States Secretary of State James Baker meets Foreign Minister of Iraq Tariq Aziz at the Geneva Conference in Hotel InterContinental. No solution is reached."
+        },
+        {
+          "date": "1991-01-12",
+          "date_latest": "1991-01-12",
+          "date_precision": "day",
+          "text": "Soviet special envoy Yevgeny Primakov meets with Saddam Hussein in Baghdad to discuss the possible Coalition invasion of Kuwait."
+        },
+        {
+          "date": "1991-01-12",
+          "date_latest": "1991-01-12",
+          "date_precision": "day",
+          "text": "U.S. Congress passed a joint resolution authorizing the use of military force in Iraq and Kuwait. The votes were 52–47 in the U.S. Senate and 250–183 in the House of Representatives. These were the closest margins in authorizing force by the U.S. Congress since the War of 1812.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1991-01-12",
+          "date_latest": "1991-01-12",
+          "date_precision": "day",
+          "text": "United Nations Secretary-General Javier Pérez de Cuéllar meets Saddam Hussein in Baghdad but does not reach an agreement with the Government of Iraq to withdraw from Kuwait."
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "580,000 Coalition troops are stationed in the Gulf region, opposing 540,000 Iraqi troops."
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "First U.S. government statement relating to Operation Desert Storm is made."
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "Iraq ignores all UN resolutions."
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "Saddam Hussein announces that Iraq will consider withdrawing its troops from Kuwait under some conditions."
+        },
+        {
+          "date": "1991-01-16",
+          "date_latest": "1991-01-16",
+          "date_precision": "day",
+          "text": "Coalition forces led by the U.S. start deploying to Kuwait via the Persian Gulf and the Saudi Arabian border, triggering the first official infantry combat."
+        },
+        {
+          "date": "1991-01-16",
+          "date_latest": "1991-01-16",
+          "date_precision": "day",
+          "text": "President George H. W. Bush addresses the nation from the Oval Office on the beginning of US-Led Coalition forces strikes at the beginning of Operation Desert Storm."
+        },
+        {
+          "date": "1991-01-17",
+          "date_latest": "1991-01-17",
+          "date_precision": "day",
+          "text": "Foreign Minister of Iraq Tariq Aziz meets President of the Soviet Union Mikhail Gorbachev in Moscow where they discuss the Soviet peace plan."
+        },
+        {
+          "date": "1991-01-17",
+          "date_latest": "1991-01-17",
+          "date_precision": "day",
+          "text": "Operation Desert Storm is launched and the first air attacks are launched on Iraq and Kuwait."
+        },
+        {
+          "date": "1991-01-18",
+          "date_latest": "1991-01-18",
+          "date_precision": "day",
+          "text": "00 GMT: Iraq fires 12 Scud missiles at the Israeli cities of Haifa and Tel Aviv, slightly injuring 12 people. The United States tells Israel to not retaliate, out of fear that it will escalate the war and trigger the collapse of the Arab Coalition. The U.S. deploys Patriot SAM systems to Israel and Saudi Arabia."
+        },
+        {
+          "date": "1991-01-21",
+          "date_latest": "1991-01-21",
+          "date_precision": "day",
+          "text": "Foreign Minister of Iraq Tariq Aziz accepts the Soviet peace plan. President Bush refuses the peace plan as unrealistic for the coalition.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-01-22",
+          "date_latest": "1991-01-22",
+          "date_precision": "day",
+          "text": "Iraq burns Kuwaiti oil fields. About 600 oil fields are on fire."
+        },
+        {
+          "date": "1991-01-24",
+          "date_latest": "1991-01-24",
+          "date_precision": "day",
+          "text": "Coalition forces capture the small Kuwaiti island of Qaruh."
+        },
+        {
+          "date": "1991-01-24",
+          "date_latest": "1991-01-24",
+          "date_precision": "day",
+          "text": "Iraq continues to burn Kuwaiti oil fields and dumps the oil into the Persian Gulf."
+        },
+        {
+          "date": "1991-01-25",
+          "date_latest": "1991-01-25",
+          "date_precision": "day",
+          "text": "Iraqi troops dump millions of gallons of crude oil into the Persian Gulf."
+        },
+        {
+          "date": "1991-01-29",
+          "date_latest": "1991-01-29",
+          "date_precision": "day",
+          "text": "Iraqi forces invade the town of Khafji in Saudi Arabia. Iraqi forces are quickly engaged by Saudi Arabian and Qatari troops with help from the U.S. Marines."
+        },
+        {
+          "date": "1991-01-29",
+          "date_latest": "1991-01-29",
+          "date_precision": "day",
+          "text": "United States and the Soviet Union offer a ceasefire to Iraq if it withdraws all its troops from Kuwait."
+        },
+        {
+          "date": "1991-01-30",
+          "date_latest": "1991-01-30",
+          "date_precision": "day",
+          "text": "Coalition starts its first land operations in Kuwait and Southern Iraq to liberate Khafji."
+        },
+        {
+          "date": "1991-02-01",
+          "date_latest": "1991-02-01",
+          "date_precision": "day",
+          "text": "Iraqi forces are driven out of Saudi Arabia.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-02-22",
+          "date_latest": "1991-02-22",
+          "date_precision": "day",
+          "text": "U.S. President George H. W. Bush issues a 24-hour ultimatum: Iraq must withdraw from Kuwait to avoid starting a ground war."
+        },
+        {
+          "date": "1991-02-24",
+          "date_latest": "1991-02-24",
+          "date_precision": "day",
+          "text": "U.S.-led Coalition forces invade Iraq and Kuwait at around 4 a.m. Baghdad time. Special Air Service was the first to enter Iraqi territory."
+        },
+        {
+          "date": "1991-02-25",
+          "date_latest": "1991-02-25",
+          "date_precision": "day",
+          "text": "20,000 Iraqi troops surrender to the coalition. By the end of February, about 100,000 Iraqi troops will have surrendered."
+        },
+        {
+          "date": "1991-02-25",
+          "date_latest": "1991-02-25",
+          "date_precision": "day",
+          "text": "Iraq launches Scud missile attacks on Dhahran in Saudi Arabia which kills 28 American troops and injures 98."
+        },
+        {
+          "date": "1991-02-26",
+          "date_latest": "1991-02-26",
+          "date_precision": "day",
+          "text": "Anywhere from 800 to 1,000 retreating Iraqi troops are killed when coalition aircraft bombed their stolen civilian and military vehicles. This becomes known as the Highway of Death."
+        },
+        {
+          "date": "1991-02-26",
+          "date_latest": "1991-02-26",
+          "date_precision": "day",
+          "text": "Iraqi troops flee from Kuwait City."
+        },
+        {
+          "date": "1991-02-26",
+          "date_latest": "1991-02-26",
+          "date_precision": "day",
+          "text": "President of Iraq Saddam Hussein announces that Iraq will withdraw from Kuwait totally and accept the UN resolution. Saddam still does not renounce Iraqi claims over Kuwait."
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "101st Airborne Division is less than 250 km from Baghdad over Highway 8."
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "Coalition announces they have destroyed almost half of the all Iraqi divisions and 100,000 Iraqi troops have been taken as POWs."
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "President Bush announces that the Liberation of Kuwait has started and the cessation of hostilities will end that day at 04:00 GMT."
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "U.S. Marines and Saudi Arabian troops enter Kuwait City.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-02-28",
+          "date_latest": "1991-02-28",
+          "date_precision": "day",
+          "text": "Iraq announces that it will accept all UN resolutions.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-02-28",
+          "date_latest": "1991-02-28",
+          "date_precision": "day",
+          "text": "President of the United States George H. W. Bush announces the ceasefire, declaring that Kuwait is free and the Iraqi Army is defeated."
+        },
+        {
+          "date": "1991-03-01",
+          "date_latest": "1991-03-01",
+          "date_precision": "day",
+          "text": "A cease-fire plan is negotiated in Safwan, Iraq."
+        },
+        {
+          "date": "1991-03-01",
+          "date_latest": "1991-03-01",
+          "date_precision": "day",
+          "text": "Half of Saddam Hussein's Republican Guard tanks escape."
+        },
+        {
+          "date": "1991-03-01",
+          "date_latest": "1991-03-01",
+          "date_precision": "day",
+          "text": "Uprising (Shia rebellion) starts in Basra."
+        },
+        {
+          "date": "1991-03-03",
+          "date_latest": "1991-03-03",
+          "date_precision": "day",
+          "text": "Iraq accepts the terms of a ceasefire from the U.N. Security Council."
+        },
+        {
+          "date": "1991-03-13",
+          "date_latest": "1991-03-13",
+          "date_precision": "day",
+          "text": "United States Secretary of State James Baker meets President of Syria Hafez Al-Assad in Damascus to discuss future Middle East issues."
+        },
+        {
+          "date": "1991-03-14",
+          "date_latest": "1991-03-14",
+          "date_precision": "day",
+          "text": "Anti-Saddam rebellions continue in Iraq."
+        },
+        {
+          "date": "1991-03-26",
+          "date_latest": "1991-03-26",
+          "date_precision": "day",
+          "text": "White House announces that Iraqi helicopters will not be shot down."
+        },
+        {
+          "date": "1991-03-30",
+          "date_latest": "1991-03-30",
+          "date_precision": "day",
+          "text": "First Arab League summit since the Kuwaiti invasion starts in Cairo. An Iraqi delegation takes part in the summit."
+        },
+        {
+          "date": "1991-04-03",
+          "date_latest": "1991-04-03",
+          "date_precision": "day",
+          "text": "Iraqi army massacres Kurds in Northern Iraq."
+        },
+        {
+          "date": "1991-04-07",
+          "date_latest": "1991-04-07",
+          "date_precision": "day",
+          "text": "Kuwaiti Emir promises elections in Kuwait in 1992"
+        },
+        {
+          "date": "1991-04-11",
+          "date_latest": "1991-04-11",
+          "date_precision": "day",
+          "text": "Armistice is signed between the Coalition and Iraqi Army."
+        },
+        {
+          "date": "1991-04-17",
+          "date_latest": "1991-04-17",
+          "date_precision": "day",
+          "text": "U.S. troops enter Northern Iraq from Turkey to protect Kurdish refugees."
+        },
+        {
+          "date": "1991-04-21",
+          "date_latest": "1991-04-21",
+          "date_precision": "day",
+          "text": "General Schwarzkopf returns to the U.S."
+        },
+        {
+          "date": "1991-05-01",
+          "date_latest": "1991-05-31",
+          "date_precision": "month",
+          "text": "Bush extends pre-war economic sanctions \"until Saddam Hussein is out of power\"."
+        },
+        {
+          "date": "1991-06-15",
+          "date_latest": "1991-06-15",
+          "date_precision": "day",
+          "text": "29 people are accused of co-operating with the Iraqi forces, and are executed in Kuwait."
+        },
+        {
+          "date": "1991-08-16",
+          "date_latest": "1991-08-16",
+          "date_precision": "day",
+          "text": "UN repeals some Iraqi sanctions; Iraq is allowed to produce oil, limited to about USD$1.6 billion per barrel."
+        },
+        {
+          "date": "1991-08-30",
+          "date_latest": "1991-08-30",
+          "date_precision": "day",
+          "text": "Kuwaiti Air Force attacks Iraqi destroyer in the Persian Gulf."
+        },
+        {
+          "date": "1991-11-07",
+          "date_latest": "1991-11-07",
+          "date_precision": "day",
+          "text": "The final Kuwaiti oil fire is extinguished.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1993-06-26",
+          "date_latest": "1993-06-26",
+          "date_precision": "day",
+          "text": "United States bombs Iraq."
+        },
+        {
+          "date": "1994-11-10",
+          "date_latest": "1994-11-10",
+          "date_precision": "day",
+          "text": "Iraq recognizes Kuwaiti independence and acknowledge their shared border."
+        },
+        {
+          "date": "1995-04-14",
+          "date_latest": "1995-04-14",
+          "date_precision": "day",
+          "text": "United Nations Security Council approves the Oil-for-Food Programme to Iraq."
+        },
+        {
+          "date": "1996-09-03",
+          "date_latest": "1996-09-03",
+          "date_precision": "day",
+          "text": "United States bombs Iraq and extends the No-fly zone in Southern Iraq."
+        },
+        {
+          "date": "1998-10-31",
+          "date_latest": "1998-10-31",
+          "date_precision": "day",
+          "text": "Iraq ends its co-operation with the United Nations Special Commission."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Gulf War",
+      "pageid": 182000,
+      "revid": 1370995865,
+      "revision_timestamp": "2026-08-24T02:23:52Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=182000",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1983-12-20",
+          "date_latest": "1983-12-20",
+          "date_precision": "day",
+          "text": "The US also disliked Iraqi support for Palestinian militant groups, which led to Iraq's inclusion on the developing US list of State Sponsors of Terrorism in December 1979. , US special envoy to the Middle East, meets Saddam Hussein on 19–20 December 1983.]] The US remained officially neutral after Iraq's invasion of Iran in 1980, which became the Iran–Iraq War, although it provided resources, political support, and some \"non-military\" aircraft to Iraq."
+        },
+        {
+          "date": "1990-07-15",
+          "date_latest": "1990-07-15",
+          "date_precision": "day",
+          "text": "On 15 July 1990, Saddam's government laid out its combined objections to the Arab League, including that policy moves were costing Iraq $1 billion a year, that Kuwait was still using the Rumaila oil field, and that loans made by the UAE and Kuwait could not be considered debts to its \"Arab brothers\"."
+        },
+        {
+          "date": "1990-07-26",
+          "date_latest": "1990-07-26",
+          "date_precision": "day",
+          "text": "On 26 July 1990, only a few days before the Iraqi invasion, OPEC officials said that Kuwait and the United Arab Emirates had agreed to a proposal to limit their oil output to 1.5 e6oilbbl per day, \"down from the nearly 2 million barrels a day they had each been pumping,\" thus potentially settling differences over oil policy between Kuwait and Iraq."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "Johnston * Margaret Thatcher * John Major * François Mitterrand * King Fahd * Khalid bin Sultan * Hosni Mubarak * Sheikh Jaber Al Ahmad }} * Saddam Hussein * Tariq Aziz * Izzat Ibrahim al-Douri * Iyad Futayyih * Hussein Kamel al-Majid * Abid Hamid Mahmud * Muzahim Saab Hassan * Salah Aboud Mahmoud * Ali Hassan al-Majid * Alaa Hussein Ali }} * Total: * 13,488 * * Coalition: * 292 killed (147 killed by enemy action, 145 non-hostile deaths) * 776 wounded (467 wounded in action) * 31 tanks destroyed/disabled * 28 Bradley IFVs destroyed/damaged * 1 M113 APC destroyed * 2 British Warrior IFVs destroyed * 1 artillery piece destroyed * 75 aircraft destroyed * Kuwait: * 420 killed * 12,000 captured * ≈200 tanks destroyed/captured * 850+ other armored vehicles destroyed/captured * 57 aircraft lost * 8 aircraft captured (Mirage F1s) * 17 ships sunk, 6 captured * Total: * 175,000–300,000+ * * Iraqi: * 20,000–50,000 killed * 75,000+ wounded * 80,000–175,000 captured * 3,300 tanks destroyed * 2,100 APCs destroyed * 2,200 artillery pieces destroyed * 110 aircraft destroyed * 137 aircraft flown to Iran to escape destruction * 19 ships sunk, 6 damaged }} The Gulf War was an armed conflict between Iraq and a 42-country coalition led by the United States in response to Saddam Hussein invading neighboring Kuwait on 2 August 1990."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "The Iraqi response was to immediately order an invasion, which started on 2 August 1990 with the bombing of Kuwait's capital, Kuwait City."
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "These are sometimes incorrectly used as the conflict's overall name, especially the US Desert Storm: * Operation Desert Shield was the US operational name for the US buildup of forces and Saudi Arabia's defense from 2 August 1990 to 16 January 1991 * Operation Desert Storm was the US name of the airland conflict from 17 January 1991 through 28 February 1991 ** Operation Desert Sabre (early name Operation Desert Sword) was the US name for the air and land offensive against the Iraqi Army in the Kuwaiti Theater of Operations (the \"100-hour war\") from 24 to 28 February 1991, in itself, part of Operation Desert Storm * Operation Desert Farewell was the name given to the return of US units and equipment to the US in 1991 after Kuwait's liberation, sometimes referred to as Operation Desert Calm * Operativo Alfil was the Argentine name for Argentine military activities * Opération Daguet was the French name for French military activities in the conflict * Operation Friction was the name of the Canadian operations * Operation Granby was the British name for British military activities during the operations and conflict * Operazione Locusta (Italian for Locust) was the Italian name for the operations and conflict",
+          "names_later_date": true
+        },
+        {
+          "date": "1990-08-03",
+          "date_latest": "1990-08-03",
+          "date_precision": "day",
+          "text": "On 3 August 1990, the Arab League passed a resolution, which called for a solution from within the league, and warned against outside intervention."
+        },
+        {
+          "date": "1990-08-06",
+          "date_latest": "1990-08-06",
+          "date_precision": "day",
+          "text": "On 6 August 1990, after Iraq's invasion of Kuwait, the UN Security Council adopted Resolution 661 which imposed economic sanctions on Iraq, providing for a full trade embargo, excluding medical supplies, food and other items of humanitarian necessity, these to be determined by the council's sanctions committee."
+        },
+        {
+          "date": "1990-08-07",
+          "date_latest": "1990-08-07",
+          "date_precision": "day",
+          "text": "The operation began on 7 August 1990, when US troops were sent to Saudi Arabia, due also to the request of its monarch, King Fahd, who had called for US military assistance."
+        },
+        {
+          "date": "1990-08-12",
+          "date_latest": "1990-08-12",
+          "date_precision": "day",
+          "text": "On 12 August 1990, Saddam \"propose[d] that all cases of occupation, and those cases that have been portrayed as occupation, in the region, be resolved simultaneously\"."
+        },
+        {
+          "date": "1990-09-11",
+          "date_latest": "1990-09-11",
+          "date_precision": "day",
+          "text": "During a speech in a special joint session of the US Congress given on 11 September 1990, Bush summed up the reasons with the following remarks: \"Within three days, 120,000 Iraqi troops with 850 tanks had poured into Kuwait and moved south to threaten Saudi Arabia.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1990-09-25",
+          "date_latest": "1990-09-25",
+          "date_precision": "day",
+          "text": "Following the invasion and annexation of Kuwait by Iraq, on September 25, 1990, the Italian Government sent eight multirole fighter bombers Tornado IDS (plus two spare) in the Persian Gulf, belonging to the 6º, 36º and 50º Stormo, which were deployed at the Al Dhafra Air Base, near Abu Dhabi, in the United Arab Emirates."
+        },
+        {
+          "date": "1990-11-29",
+          "date_latest": "1990-11-29",
+          "date_precision": "day",
+          "text": "Resolution 678, passed on 29 November 1990, gave Iraq a withdrawal deadline until 15 January 1991 and authorized \"all necessary means to uphold and implement Resolution 660\", and a diplomatic formulation authorizing the use of force if Iraq failed to comply.",
+          "names_later_date": true
+        },
+        {
+          "date": "1990-11-29",
+          "date_latest": "1990-11-29",
+          "date_precision": "day",
+          "text": "The Security Council issued an ultimatum to Iraq on 29 November 1990, expiring on 15 January 1991, to withdraw from Kuwait, with member-states thereafter empowered to use \"all necessary means\" to force withdrawal.",
+          "names_later_date": true
+        },
+        {
+          "date": "1990-11-29",
+          "date_latest": "1990-11-29",
+          "date_precision": "day",
+          "text": "The proposal also \"include[d] offers to negotiate an oil agreement with the United States 'satisfactory to both nations' national security interests,' develop a joint plan 'to alleviate Iraq's economical and financial problems' and 'jointly work on the stability of the gulf.'\" On 29 November 1990, the Security Council passed Resolution 678, which gave Iraq until 15 January 1991 to withdraw from Kuwait, and empowered states to use \"all necessary means\" to force Iraq out of Kuwait after the deadline. during the Gulf War]] In December 1990, Iraq made a proposal to withdraw from Kuwait provided foreign troops left the region and that an agreement was reached regarding the Palestinian problem and the dismantlement of Israel's and Iraq's weapons of mass destruction.",
+          "names_later_date": true,
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-01-14",
+          "date_latest": "1991-01-14",
+          "date_precision": "day",
+          "text": "On 14 January 1991, France proposed that the UN Security Council call for \"a rapid and massive withdrawal\" from Kuwait along with a statement to Iraq that Council members would bring their \"active contribution\" to a settlement of the region's other problems, \"in particular, of the Arab–Israeli conflict and in particular to the Palestinian problem by convening, at an appropriate moment, an international conference\" to assure \"the security, stability and development of this region of the world.\" The proposal was supported by Belgium, Germany, Spain, Italy, Algeria, Morocco, Tunisia, and several non-aligned states."
+        },
+        {
+          "date": "1991-01-16",
+          "date_latest": "1991-01-16",
+          "date_precision": "day",
+          "text": "F-117 Nighthawk, one of the key aircraft used in Operation Desert Storm]] The Gulf War began with an extensive aerial bombing campaign on 16 January 1991."
+        },
+        {
+          "date": "1991-01-17",
+          "date_latest": "1991-01-17",
+          "date_precision": "day",
+          "text": "On 17 January 1991 the 101st Airborne Division Aviation Regiment fired the first shots of the war when eight AH-64 helicopters successfully destroyed two Iraqi early warning radar sites."
+        },
+        {
+          "date": "1991-01-22",
+          "date_latest": "1991-01-22",
+          "date_precision": "day",
+          "text": "On 22 January 1991, a Scud missile hit the Israeli city of Ramat Gan, after two coalition Patriots failed to intercept it."
+        },
+        {
+          "date": "1991-02-15",
+          "date_latest": "1991-02-15",
+          "date_precision": "day",
+          "text": "Elements of the 2nd Brigade, 1st Battalion 5th Cavalry of the 1st Cavalry Division of the US Army performed a direct attack into Iraq on 15 February 1991, followed by one in force on 20 February that led directly through seven Iraqi divisions which were caught off guard."
+        },
+        {
+          "date": "1991-02-15",
+          "date_latest": "1991-02-15",
+          "date_precision": "day",
+          "text": "On 15 February 1991 4th Battalion of the 3rd Field Artillery Regiment fired on a trailer and a few trucks in the Iraqi sector observing American forces."
+        },
+        {
+          "date": "1991-02-15",
+          "date_latest": "1991-02-15",
+          "date_precision": "day",
+          "text": "Task Force 1–41 was the first coalition force to breach the Saudi Arabian border on 15 February 1991, and to conduct ground combat operations in Iraq against the enemy on 17 February 1991.",
+          "names_later_date": true
+        },
+        {
+          "date": "1991-02-15",
+          "date_latest": "1991-02-15",
+          "date_precision": "day",
+          "text": "pose with a captured Iraqi tank, February 1991]] Task Force 1–41 Infantry was the first coalition force to breach the Saudi Arabian border on 15 February 1991 and conduct ground combat operations in Iraq engaging in direct and indirect fire fights with the enemy on 17 February 1991.",
+          "names_later_date": true,
+          "duplicate_of": "Gulf War"
+        },
+        {
+          "date": "1991-02-16",
+          "date_latest": "1991-02-16",
+          "date_precision": "day",
+          "text": "On 16 February 1991 several groups of Iraqi vehicles appeared to be performing reconnaissance on the Task Force and were driven away by fire from 4–3 FA."
+        },
+        {
+          "date": "1991-02-17",
+          "date_latest": "1991-02-17",
+          "date_precision": "day",
+          "text": "On 17 February 1991 the Task Force took enemy mortar fire, but the enemy forces managed to escape."
+        },
+        {
+          "date": "1991-02-22",
+          "date_latest": "1991-02-22",
+          "date_precision": "day",
+          "text": "On 22 February 1991, Iraq agreed to a Soviet-proposed ceasefire agreement."
+        },
+        {
+          "date": "1991-02-24",
+          "date_latest": "1991-02-24",
+          "date_precision": "day",
+          "text": "On 24 February 1991, the 1st and 2nd Marine Divisions and the 1st Light Armored Infantry Battalion crossed into Kuwait and headed toward Kuwait City."
+        },
+        {
+          "date": "1991-02-24",
+          "date_latest": "1991-02-24",
+          "date_precision": "day",
+          "text": "On 24 February 1991, the coalition launched a decisive ground assault liberating Kuwait and promptly advancing into Iraqi territory."
+        },
+        {
+          "date": "1991-02-24",
+          "date_latest": "1991-02-24",
+          "date_precision": "day",
+          "text": "T-55 tank destroyed by Task Force 1–41 Infantry, February 1991]] On 24 February 1991 the 1st Cavalry Division fired its artillery against Iraqi artillery units."
+        },
+        {
+          "date": "1991-02-24",
+          "date_latest": "1991-02-24",
+          "date_precision": "day",
+          "text": "The rebellions were encouraged by an airing of \"The Voice of Free Iraq\" on 24 February 1991, which was broadcast from a CIA-run radio station out of Saudi Arabia."
+        },
+        {
+          "date": "1991-02-25",
+          "date_latest": "1991-02-25",
+          "date_precision": "day",
+          "text": "On 25 February 1991, Iraqi forces fired a Scud missile at an American barracks in Dhahran, Saudi Arabia."
+        },
+        {
+          "date": "1991-02-25",
+          "date_latest": "1991-02-25",
+          "date_precision": "day",
+          "text": "On 25 February 1991, a Scud missile hit a US Army barracks of the 14th Quartermaster Detachment, out of Greensburg, Pennsylvania, stationed in Dhahran, Saudi Arabia, killing 28 soldiers and injuring over 100.",
+          "duplicate_of": "Gulf War"
+        },
+        {
+          "date": "1991-02-25",
+          "date_latest": "1991-02-25",
+          "date_precision": "day",
+          "text": "The largest single loss of life among coalition forces happened on 25 February 1991, when an Iraqi Al Hussein missile hit a US military barrack in Dhahran, Saudi Arabia, killing 28 US Army Reservists from Pennsylvania.",
+          "duplicate_of": "Gulf War"
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "The 1st Marine Division Task Force Ripper led the drive to the Kuwait International Airport on 27 February 1991."
+        },
+        {
+          "date": "1991-02-27",
+          "date_latest": "1991-02-27",
+          "date_precision": "day",
+          "text": "]] In the night of 26–27 February 1991, some Iraqi forces began leaving Kuwait on the main highway north of Al Jahra in a column of some 1,400 vehicles."
+        },
+        {
+          "date": "1991-02-28",
+          "date_latest": "1991-02-28",
+          "date_precision": "day",
+          "text": "By the end of combat operations on 28 February 1991, U.S.",
+          "duplicate_of": "Gulf War"
+        },
+        {
+          "date": "1991-03-01",
+          "date_latest": "1991-03-01",
+          "date_precision": "day",
+          "text": "On March 1, 1991, one day after the Gulf War ceasefire, a revolt broke out in Basra against the Iraqi government."
+        },
+        {
+          "date": "1991-03-15",
+          "date_latest": "1991-03-15",
+          "date_precision": "day",
+          "text": "So, I think we got it right, both when we decided to expel him from Kuwait, but also when the President made the decision that we'd achieved our objectives and we were not going to go get bogged down in the problems of trying to take over and govern Iraq.}} On 15 March 1991, Sheikh Jaber al-Ahmad al-Sabah returned to Kuwait, staying at the private home of a wealthy Kuwaiti as his own palace had been destroyed."
+        },
+        {
+          "date": "1991-03-21",
+          "date_latest": "1991-03-21",
+          "date_precision": "day",
+          "text": "The largest accident among coalition forces happened on 21 March 1991, when a Royal Saudi Air Force C-130H crashed in heavy smoke on approach to Ras Al-Mishab Airport, Saudi Arabia. 92 Senegalese soldiers and six Saudi crew members were killed."
+        },
+        {
+          "date": "1991-04-05",
+          "date_latest": "1991-04-05",
+          "date_precision": "day",
+          "text": "In the war's aftermath, the Iraqi government suppressed a series of uprisings until 5 April 1991."
+        },
+        {
+          "date": "1991-06-23",
+          "date_latest": "1991-06-23",
+          "date_precision": "day",
+          "text": "In the 23 June 1991 edition of The Washington Post, reporter Bart Gellman wrote: In the Jan/Feb 1995 edition of Foreign Affairs, French diplomat Eric Rouleau wrote: However, the UN subsequently spent billions rebuilding hospitals, schools, and water purification facilities throughout the country."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Iran–Iraq War",
+      "pageid": 14889,
+      "revid": 1370624232,
+      "revision_timestamp": "2026-08-22T03:55:39Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=14889",
+      "strategy": null,
+      "segments": [],
+      "needs_review": true,
+      "citation_rows_rejected": 2
+    },
+    {
+      "title": "Iraqi invasion of Kuwait",
+      "pageid": 2035563,
+      "revid": 1370843058,
+      "revision_timestamp": "2026-08-23T10:37:57Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=2035563",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1990-07-25",
+          "date_latest": "1990-07-25",
+          "date_precision": "day",
+          "text": "On 25 July 1990, April Glaspie, the U.S. ambassador to Iraq, asked the Iraqi high command to explain the military preparations in progress, including the massing of Iraqi troops near the border."
+        },
+        {
+          "date": "1990-07-26",
+          "date_latest": "1990-07-26",
+          "date_precision": "day",
+          "text": "According to oil workers in the area, Iraq's slant drilling claim was fabricated, as \"oil flows easily from the Rumaila field without any need for these techniques.\" On 26 July 1990, only a few days before the Iraqi invasion, OPEC officials said that Kuwait and the United Arab Emirates had agreed to a proposal to limit their oil output to 1.5 e6oilbbl per day, \"down from the nearly 2 million barrels a day they had each been pumping\", thus potentially settling differences over oil policy between Kuwait and Iraq.",
+          "duplicate_of": "Gulf War"
+        },
+        {
+          "date": "1990-08-02",
+          "date_latest": "1990-08-02",
+          "date_precision": "day",
+          "text": "On 2 August 1990 at 2:00 am, local time, by Saddam Hussein's order Iraq launched an invasion of Kuwait with four elite Iraqi Republican Guard divisions (the 1st Hammurabi Armoured Division, 2nd al-Medinah al-Munawera Armoured Division, the Tawakalna ala-Allah Division (mechanized infantry) and 4th Nebuchadnezzar Division (motorized infantry) and special forces units equivalent to a full division."
+        },
+        {
+          "date": "1990-08-03",
+          "date_latest": "1990-08-03",
+          "date_precision": "day",
+          "text": "On 3 August 1990, the UN Security Council passed Resolution 660 condemning the Iraqi invasion of Kuwait and demanding that Iraq unconditionally withdraw all forces deployed in Kuwait."
+        },
+        {
+          "date": "1990-08-04",
+          "date_latest": "1990-08-04",
+          "date_precision": "day",
+          "text": "After defeating the State of Kuwait on 4 August 1990, Iraq went on to militarily occupy the country for the next seven months."
+        },
+        {
+          "date": "1990-08-28",
+          "date_latest": "1990-08-28",
+          "date_precision": "day",
+          "text": "After initially establishing the \"Republic of Kuwait\" as a puppet state, Iraq annexed the entire country on 28 August 1990; northern Kuwait became the Saddamiyat al-Mitla' District and was merged into the existing Basra Governorate, while southern Kuwait was carved out as the all-new Kuwait Governorate.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "By November 1990, the adoption of UNSC Resolution 678 officially issued Iraq an ultimatum to withdraw unconditionally by 15 January 1991 or else be removed by \"all necessary means\" from Kuwaiti territory."
+        },
+        {
+          "date": "1991-01-15",
+          "date_latest": "1991-01-15",
+          "date_precision": "day",
+          "text": "NATO members were particularly critical of the Iraqi occupation of Kuwait and by late 1990, the United States had issued an ultimatum to Iraq to withdraw its forces from Kuwait by 15 January 1991 or face war."
+        },
+        {
+          "date": "1991-01-17",
+          "date_latest": "1991-01-17",
+          "date_precision": "day",
+          "text": "After Iraq failed to meet the UNSC's deadline, the coalition pursued the directive to forcefully expel Iraqi troops from Kuwait by initiating the Gulf War aerial bombardment campaign on 17 January 1991.",
+          "duplicate_of": "Timeline of the Gulf War (1990–1991)"
+        },
+        {
+          "date": "1991-02-23",
+          "date_latest": "1991-02-23",
+          "date_precision": "day",
+          "text": "However, no such retaliation took place, and the coalition began a ground invasion of Iraqi-occupied Kuwait and parts of Iraq on 23 February 1991."
+        },
+        {
+          "date": "1991-02-28",
+          "date_latest": "1991-02-28",
+          "date_precision": "day",
+          "text": "By 28 February 1991, the Iraqi military had been devastated and Kuwaiti independence was restored."
+        },
+        {
+          "date": "1991-03-15",
+          "date_latest": "1991-03-15",
+          "date_precision": "day",
+          "text": "On 15 March 1991, the Emir of Kuwait returned to the country after spending more than 8 months in exile."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis · UN Voting Corpus 1946–2025</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  /* Roles this page adds to the shared palette. The yes/no pair is the
+     palette's diverging blue<->red, with a neutral grey for abstentions --
+     stepped separately for the dark surface, not inverted. */
+  :root { --pos: #2a78d6; --neg: #e34948; --neutral: #c3c2b7; }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) { --pos: #3987e5; --neg: #e66767; --neutral: #64635e; }
+  }
+  :root[data-theme="dark"] { --pos: #3987e5; --neg: #e66767; --neutral: #64635e; }
+
+  .sechead {
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+    margin: 40px 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+  .sechead .no {
+    font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--series-1);
+    font-weight: 650;
+  }
+  .sechead h2 { margin: 0; font-size: 22px; }
+  .sechead span.s { font-size: 13px; color: var(--text-muted); }
+
+  .card > header .kicker {
+    font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--text-muted); margin-bottom: 4px;
+  }
+  .card > header .find {
+    margin-top: 10px; padding: 10px 14px; border-radius: 9px; font-size: 13.5px;
+    background: color-mix(in srgb, var(--series-1) 7%, var(--surface-1));
+    border: 1px solid color-mix(in srgb, var(--series-1) 18%, transparent);
+    color: var(--text-secondary); max-width: 92ch;
+  }
+  .card > header .find b { color: var(--text-primary); }
+
+  .split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 26px; }
+  .split.even { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .panel-t { font-size: 13px; font-weight: 620; color: var(--text-primary); margin: 0 0 2px; }
+  .panel-s { font-size: 12.5px; color: var(--text-muted); margin: 0 0 8px; }
+
+  .figmeta {
+    display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 12px;
+    font-size: 12.5px; color: var(--text-muted);
+  }
+  .figmeta b { color: var(--text-secondary); font-weight: 600; }
+
+  /* the veto log: one row per vetoed vote in the selected year */
+  .vlog { border: 1px solid var(--border); border-radius: 10px; background: var(--plane); margin-top: 14px; }
+  .vlog .h {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+    padding: 10px 14px; border-bottom: 1px solid var(--grid);
+  }
+  .vlog .h b { font-size: 15px; }
+  .vlog .h span { font-size: 12.5px; color: var(--text-muted); }
+  .vlog .rows { max-height: 236px; overflow: auto; }
+  .vlog .r {
+    display: grid; grid-template-columns: 92px 1fr auto; gap: 12px; align-items: center;
+    padding: 7px 14px; border-bottom: 1px solid var(--grid); font-size: 13px;
+  }
+  .vlog .r:last-child { border-bottom: 0; }
+  .vlog .r .d { color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .vlog .r .doc a { color: var(--text-primary); text-decoration: none; }
+  .vlog .r .doc a:hover { color: var(--series-1); text-decoration: underline; }
+  .vlog .r .doc .k { color: var(--text-muted); font-size: 12px; margin-left: 6px; }
+  .vlog .r .t { font-variant-numeric: tabular-nums; color: var(--text-secondary); font-size: 12.5px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 12px;
+    padding: 1px 8px 1px 6px; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--text-secondary); margin-right: 4px; white-space: nowrap;
+  }
+  .chip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+
+  .pairs { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 8px; }
+  .pairs button {
+    font-family: var(--font); font-size: 12.5px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 999px; padding: 3px 11px 3px 8px; display: inline-flex; align-items: center; gap: 6px;
+  }
+  .pairs button i { width: 9px; height: 9px; border-radius: 50%; background: var(--grid); }
+  .pairs button[aria-pressed="true"] { color: var(--text-primary); border-color: var(--axis); font-weight: 600; }
+
+  .filterrow {
+    display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
+    padding: 12px 14px; margin: 0 0 14px; border-radius: 10px;
+    background: var(--plane); border: 1px solid var(--border);
+  }
+  .filterrow label { font-size: 13px; color: var(--text-secondary); display: inline-flex; gap: 7px; align-items: center; }
+  .filterrow input[type="search"], .filterrow input[type="number"] {
+    font-family: var(--font); font-size: 13.5px; padding: 6px 10px; border-radius: 7px;
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  }
+  .filterrow input[type="search"] { width: 190px; }
+  .filterrow input[type="number"] { width: 78px; }
+  .filterrow .count { margin-left: auto; font-size: 12.5px; color: var(--text-muted); }
+
+  .basestrip { height: 92px; }
+
+  @media (max-width: 960px) {
+    .split, .split.even { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>What the votes show</h1>
+  <p class="lede">
+    Five analyses that read the voting record rather than narrate it. Every number on this page is
+    recomputed from the corpus as it stands on disk — including the Council's drafts and the vetoed
+    votes restored in September 2026 — and every chart states its base and what it cannot carry.
+    Hover for values, click to drill in, and open any table for the exact figures.
+  </p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <!-- ================================================= Security Council == -->
+  <div class="sechead"><span class="no">Part 1</span><h2>Security Council</h2>
+    <span class="s">3,000+ recorded votes, 1946–2025, failed drafts included</span></div>
+
+  <div class="card" id="veto-card">
+    <header>
+      <div class="kicker">Analysis 1 · the veto</div>
+      <h2>Who vetoed, when — and how much of the published record the corpus holds</h2>
+      <p>A veto is a permanent member's vote against a draft that otherwise had the required
+      majority; procedural votes cannot be vetoed. The corpus now reads vetoes from its voting
+      rounds, where the vetoed drafts sit even though they never received an S/RES number. The
+      left panel sets each member's count against the published reference; the right panel spreads
+      the same casts over time. <strong>Click any year</strong> to list its vetoed votes below.</p>
+      <div class="find" id="veto-find"></div>
+    </header>
+    <div class="split">
+      <div>
+        <p class="panel-t">Vetoes cast, corpus against the published record</p>
+        <p class="panel-s">Solid bar: in the corpus · pale frame: published reference, to 31 Dec 2025</p>
+        <div id="veto-cmp" class="chart" style="height:318px"></div>
+      </div>
+      <div>
+        <p class="panel-t">Vetoes cast per year, by permanent member</p>
+        <p class="panel-s">A double veto (e.g. China and Russia on one draft) counts once for each</p>
+        <div id="veto-year" class="chart" style="height:318px"></div>
+      </div>
+    </div>
+    <div class="vlog" id="vlog"></div>
+    <div class="figmeta" id="veto-meta"></div>
+    <div id="veto-table"></div>
+  </div>
+
+  <div class="card">
+    <header>
+      <div class="kicker">Analysis 2 · passing and failing</div>
+      <h2>How often a text put to the Council fails</h2>
+      <p>Every resolution the Council adopted, and every vote on which a text did not pass — split
+      into <strong>vetoed</strong> and <strong>failed</strong> (short of the required majority, no
+      veto needed). Resolutions adopted with no vote in the corpus — chiefly the 2020–21 written
+      procedure, when the Council could not meet — are shown hatched. Switch to <em>share</em> to
+      compare years with very different volumes.</p>
+      <div class="find" id="draft-find"></div>
+    </header>
+    <div class="controls">
+      <div class="seg" id="draft-seg">
+        <button aria-pressed="true" data-m="count">Count</button>
+        <button aria-pressed="false" data-m="share">Share of the year</button>
+      </div>
+    </div>
+    <div id="draft-chart" class="chart" style="height:360px"></div>
+    <div class="figmeta">
+      <span><b>Base</b> <span id="draft-n"></span></span>
+      <span><b>Not counted</b> adopted procedural votes (inviting a speaker, adopting the agenda), which carry no resolution number; failed ones are in <em>failed</em></span>
+      <span><b>Why not drafts</b> before the 1994 change of symbols the corpus holds mainly the drafts that did <em>not</em> pass, so draft entries overstate failure there</span>
+    </div>
+    <div id="draft-table"></div>
+  </div>
+
+  <div class="card">
+    <header>
+      <div class="kicker">Analysis 3 · the permanent five</div>
+      <h2>How often each pair of permanent members votes the same way</h2>
+      <p>Agreement is the share of votes on which both members cast the same direction — for,
+      against or abstain — counted over every recorded Council vote, so the drafts that failed are
+      in the base, not just the resolutions that passed. <strong>Pick a period</strong> to redraw
+      the matrix; <strong>click a cell</strong> (or a pair below) to follow it across the decades.
+      Seats changed hands twice: China's seat passed from the Republic of China to the People's
+      Republic in October 1971, and the USSR's to the Russian Federation in December 1991.</p>
+      <div class="find" id="p5-find"></div>
+    </header>
+    <div class="controls">
+      <label>Period <select id="p5-period"></select></label>
+    </div>
+    <div class="split even">
+      <div>
+        <p class="panel-t" id="p5-mt"></p>
+        <p class="panel-s" id="p5-ms"></p>
+        <div id="p5-matrix" class="chart" style="height:392px"></div>
+      </div>
+      <div>
+        <p class="panel-t">Agreement by decade</p>
+        <p class="panel-s">Up to three pairs in colour, the rest in grey; the base under each decade is the number of votes</p>
+        <div class="pairs" id="pair-btns"></div>
+        <div id="p5-lines" class="chart" style="height:352px"></div>
+      </div>
+    </div>
+    <div id="p5-table"></div>
+  </div>
+
+  <!-- ================================================ General Assembly == -->
+  <div class="sechead"><span class="no">Part 2</span><h2>General Assembly</h2>
+    <span class="s">79 sessions, 1946–2024 · coverage bands on every series</span></div>
+
+  <div class="card">
+    <header>
+      <div class="kicker">Analysis 4 · output and coverage</div>
+      <h2>What the Assembly adopted each session — and where the record is too thin to read</h2>
+      <p>The frame behind each bar is the session's expected output, taken from its resolution
+      numbering; the bar is what the corpus holds. Solid bars are sessions at 80% coverage or
+      better. <strong>Hatched bars are not a trend</strong>: the gap between bar and frame is a
+      collection gap, not a quiet year. The lower panel is the coverage itself, each point
+      marked by its band.</p>
+      <div class="find" id="ga-find"></div>
+    </header>
+    <div class="legend">
+      <span class="item"><span class="swatch" style="background:var(--series-2)"></span>In the corpus (coverage ≥ 80%)</span>
+      <span class="item"><span class="swatch hatch"></span>In the corpus (coverage &lt; 80%)</span>
+      <span class="item"><span class="swatch" style="border:1.5px solid var(--text-muted)"></span>Expected from the numbering</span>
+    </div>
+    <div id="ga-chart" class="chart" style="height:520px"></div>
+    <div class="figmeta">
+      <span><b>Base</b> <span id="ga-n"></span></span>
+      <span><b>Expected</b> sessions 1–30 numbered cumulatively (span is a lower bound); from 31 per session</span>
+      <span><b>Click</b> a bar to open that year's records</span>
+    </div>
+    <div id="ga-table"></div>
+  </div>
+
+  <div class="card">
+    <header>
+      <div class="kicker">Analysis 5 · where states stand</div>
+      <h2>Each state's split when the Assembly takes a recorded vote</h2>
+      <p>Each bar is one country's recorded votes, split into yes, abstain and no. Most Assembly
+      business is adopted without a vote, so a roll call is by construction the contested
+      minority — and many early ones are votes on amendments that failed, which is why "no" is not
+      the same as "isolated". The fourth measure, <strong>voting with the majority</strong>
+      (casting the most common direction in that vote), is the one to read for isolation.
+      Narrow the period, change the sort, or search for a country.</p>
+      <div class="find" id="st-find"></div>
+    </header>
+    <div class="filterrow" id="st-filters">
+      <label>From <select id="st-from"></select></label>
+      <label>to <select id="st-to"></select></label>
+      <label>Sort by <select id="st-sort">
+        <option value="maj">Least often with the majority</option>
+        <option value="no">Most often voting no</option>
+        <option value="notyes">Most often not voting yes</option>
+        <option value="yes">Most often voting yes</option>
+        <option value="name">Name, A–Z</option>
+      </select></label>
+      <label>Show <select id="st-top">
+        <option value="25">25</option><option value="50" selected>50</option><option value="999">all</option>
+      </select></label>
+      <label>Min. votes <input type="number" id="st-min" value="300" min="1" step="50"></label>
+      <label><input type="search" id="st-q" placeholder="Find a country…"></label>
+      <span class="count" id="st-count"></span>
+    </div>
+    <p class="panel-t">Recorded votes in the corpus per decade — the base every bar rests on</p>
+    <div id="st-base" class="basestrip"></div>
+    <div class="legend" style="margin-top:8px">
+      <span class="item"><span class="swatch" style="background:var(--pos)"></span>Yes</span>
+      <span class="item"><span class="swatch" style="background:var(--neutral)"></span>Abstain</span>
+      <span class="item"><span class="swatch" style="background:var(--neg)"></span>No</span>
+      <span class="item" style="color:var(--text-muted)">◆ with the majority (right-hand figure)</span>
+    </div>
+    <div id="st-chart" class="chart"></div>
+    <div class="figmeta" id="st-meta"></div>
+    <div id="st-table"></div>
+  </div>
+
+  <p class="note" style="margin-top:26px" id="built-note"></p>
+</main>
+
+<script src="assets/echarts.min.js"></script>
+<script src="data/analysis.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const A = window.ANALYSIS;
+const YEARS = A.years;
+const V = A.veto, P = A.p5, S = A.ga_stance;
+const P5 = V.states;                       // US UK FR CN RU -- fixed slot order
+const LAB = V.labels;
+const SHORT = { US: 'US', UK: 'UK', FR: 'France', CN: 'China', RU: 'Russia/USSR' };
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const slot = (c, s) => c.series[P5.indexOf(s)];   // colour follows the member, everywhere
+const sum = (a) => a.reduce((x, y) => x + (y || 0), 0);
+
+/* Like mountChart, but hands back the redraw so a control can call it. */
+function mount(el, build) {
+  const chart = echarts.init(el, null, { renderer: 'canvas' });
+  const draw = () => chart.setOption(build(ink(), baseOption(), axisStyle()), true);
+  draw();
+  REGISTRY.push(draw);
+  new ResizeObserver(() => chart.resize()).observe(el);
+  return { chart, draw };
+}
+
+let _hatch = {};
+function hatch(color) {
+  if (_hatch[color]) return _hatch[color];
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = 6;
+  const x = cv.getContext('2d');
+  x.strokeStyle = color; x.lineWidth = 1.3;
+  x.beginPath(); x.moveTo(0, 6); x.lineTo(6, 0); x.stroke();
+  x.beginPath(); x.moveTo(-1, 1); x.lineTo(1, -1); x.stroke();
+  x.beginPath(); x.moveTo(5, 7); x.lineTo(7, 5); x.stroke();
+  return (_hatch[color] = cv);
+}
+const tipHead = (t) => `<div style="font-weight:650;font-size:13.5px;margin-bottom:4px">${t}</div>`;
+const tipRow = (sw, k, v) => `<div style="display:flex;justify-content:space-between;gap:18px">
+  <span>${sw ? `<span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:${sw};margin-right:6px"></span>` : ''}${k}</span>
+  <b style="font-variant-numeric:tabular-nums">${v}</b></div>`;
+const tipFoot = (t, c) => `<div style="color:${c.muted};font-size:11.5px;margin-top:5px;max-width:260px;white-space:normal">${t}</div>`;
+
+/* ----------------------------------------------------------------- tiles */
+const vCorpus = sum(P5.map((s) => V.corpus[s]));
+const vRef = sum(P5.map((s) => V.reference[s]));
+const dT = A.drafts.total, dN = sum(Object.values(dT));
+const gaHave = sum(A.ga_sessions.map((s) => s.have)), gaExp = sum(A.ga_sessions.map((s) => s.expected));
+document.getElementById('tiles').innerHTML = `
+  <div class="tile"><div class="k">Vetoes cast in the corpus</div><div class="v">${fmt(vCorpus)}</div>
+    <div class="s">published record: ${fmt(vRef)} to the end of 2025</div></div>
+  <div class="tile"><div class="k">Vetoed drafts held</div><div class="v">${Math.round(100 * V.drafts_held / V.drafts_reference)}%</div>
+    <div class="s">${fmt(V.drafts_held)} of the ${fmt(V.drafts_reference)} on the published list</div></div>
+  <div class="tile"><div class="k">Council texts voted down</div><div class="v">${fmt(A.outcomes.total.vetoed + A.outcomes.total.failed)}</div>
+    <div class="s">${fmt(A.outcomes.total.vetoed)} vetoed · ${fmt(A.outcomes.total.failed)} short of the majority</div></div>
+  <div class="tile"><div class="k">Assembly roll calls</div><div class="v">${fmt(S.votes)}</div>
+    <div class="s">recorded votes naming each state, ${fmt(S.countries.length)} states</div></div>`;
+
+/* ============================================================ 1. vetoes */
+const refOrder = [...P5].sort((a, b) => V.reference[b] - V.reference[a]);
+{
+  const diff = refOrder.map((s) => `${SHORT[s]} ${V.corpus[s]}/${V.reference[s]}`).join(' · ');
+  const peak = YEARS.map((y, i) => [y, sum(P5.map((s) => V.by_year[s][i]))]).sort((a, b) => b[1] - a[1])[0];
+  const decs = [[1946, 1989], [1990, 2009], [2010, 2025]].map(([a, b]) => {
+    const per = {};
+    P5.forEach((s) => { per[s] = sum(V.by_year[s].slice(a - 1946, b - 1945)); });
+    const tot = sum(Object.values(per));
+    const top = P5.slice().sort((x, y) => per[y] - per[x])[0];
+    return { a, b, tot, top, n: per[top] };
+  });
+  document.getElementById('veto-find').innerHTML =
+    `<b>The corpus total is within ${Math.abs(vCorpus - vRef)} of the published record:
+    ${fmt(vCorpus)} casts against ${fmt(vRef)}</b> (${diff}). The residuals run both ways — a few
+    American casts are missing along with their meetings, while China and France each show a
+    handful more than the reference, which is not yet resolved. Over time the veto changes hands:
+    in ${decs[0].a}–${decs[0].b} ${decs[0].n} of ${decs[0].tot} casts came from ${LAB[decs[0].top]};
+    in ${decs[1].a}–${decs[1].b} there were only ${decs[1].tot}, mostly from ${LAB[decs[1].top]};
+    since ${decs[2].a} there have been ${decs[2].tot}, ${decs[2].n} of them from ${LAB[decs[2].top]}.
+    The busiest single year is ${peak[0]}, with ${peak[1]}.`;
+  document.getElementById('veto-meta').innerHTML = `
+    <span><b>Reference</b> ${esc(V.reference_note)}</span>
+    <span><b>Missing</b> ${fmt(V.drafts_reference - V.drafts_held)} vetoed drafts, mostly at meetings the corpus does not hold</span>`;
+}
+
+mount(document.getElementById('veto-cmp'), (c, base, ax) => ({
+  ...base,
+  legend: { show: false },
+  grid: { left: 112, right: 70, top: 6, bottom: 28 },
+  tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+    formatter: (ps) => {
+      const s = refOrder[ps[0].dataIndex];
+      const d = V.corpus[s] - V.reference[s];
+      return tipHead(LAB[s]) + tipRow(slot(c, s), 'In the corpus', V.corpus[s])
+        + tipRow(null, 'Published reference', V.reference[s])
+        + tipRow(null, 'Difference', (d > 0 ? '+' : '') + d);
+    } },
+  xAxis: { type: 'value', ...ax, minInterval: 1 },
+  /* two identical category axes, so each bar centres on its own row: with
+     barGap -100% bars of different widths align on their edge instead */
+  yAxis: [0, 1].map((k) => ({ type: 'category', data: refOrder.map((s) => LAB[s]), inverse: true, ...ax,
+    show: k === 0, axisLabel: { ...ax.axisLabel, color: c.secondary, fontSize: 12.5 }, splitLine: { show: false } })),
+  series: [
+    { name: 'Published reference', type: 'bar', barWidth: 26, z: 1, yAxisIndex: 0,
+      data: refOrder.map((s) => ({ value: V.reference[s],
+        itemStyle: { color: slot(c, s) + '26', borderColor: slot(c, s), borderWidth: 1.2, borderRadius: [0, 5, 5, 0] } })),
+      label: { show: true, position: 'right', color: c.secondary, fontSize: 12,
+        formatter: (p) => `${V.corpus[refOrder[p.dataIndex]]} / ${p.value}` } },
+    { name: 'In the corpus', type: 'bar', barWidth: 12, z: 2, yAxisIndex: 1,
+      data: refOrder.map((s) => ({ value: V.corpus[s], itemStyle: { color: slot(c, s), borderRadius: [0, 4, 4, 0] } })) },
+  ],
+}));
+
+let vetoYear = null;
+const vy = mount(document.getElementById('veto-year'), (c, base, ax) => ({
+  ...base,
+  legend: { ...base.legend, top: 0, right: 0, data: P5.map((s) => SHORT[s]) },
+  grid: { left: 36, right: 12, top: 34, bottom: 58 },
+  tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+    formatter: (ps) => {
+      const i = ps[0].dataIndex;
+      const tot = sum(P5.map((s) => V.by_year[s][i]));
+      const nv = V.events.filter((e) => +e.d.slice(0, 4) === YEARS[i]).length;
+      if (!tot) return tipHead(YEARS[i]) + tipFoot('No veto cast this year.', c);
+      return tipHead(YEARS[i]) + P5.filter((s) => V.by_year[s][i]).map((s) => tipRow(slot(c, s), LAB[s], V.by_year[s][i])).join('')
+        + tipFoot(`${tot} cast on ${nv} vetoed vote${nv === 1 ? '' : 's'} · click to list them`, c);
+    } },
+  dataZoom: [{ type: 'inside' }, { type: 'slider', bottom: 8, height: 18, borderColor: 'transparent',
+    backgroundColor: c.grid, fillerColor: c.series[0] + '22', handleStyle: { color: c.series[0] },
+    textStyle: { color: c.muted, fontSize: 11 } }],
+  xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false } },
+  yAxis: { type: 'value', ...ax, minInterval: 1 },
+  series: P5.map((s) => ({
+    name: SHORT[s], type: 'bar', stack: 'v', barCategoryGap: '22%',
+    itemStyle: { color: slot(c, s) },   // what the legend swatch reads
+    data: V.by_year[s].map((n, i) => ({ value: n || null,
+      itemStyle: { color: slot(c, s), borderColor: c.surface, borderWidth: n ? 1 : 0,
+        opacity: vetoYear == null || YEARS[i] === vetoYear ? 1 : 0.35 } })),
+    emphasis: { focus: 'none' },
+  })),
+}));
+vy.chart.on('click', (p) => { vetoYear = +p.name === vetoYear ? null : +p.name; vy.draw(); drawLog(); });
+
+function drawLog() {
+  const c = ink();
+  const y = vetoYear ?? Math.max(...V.events.map((e) => +e.d.slice(0, 4)));
+  const ev = V.events.filter((e) => +e.d.slice(0, 4) === y);
+  const casts = sum(ev.map((e) => e.who.length));
+  document.getElementById('vlog').innerHTML = `
+    <div class="h"><b>${y}${vetoYear == null ? ' <span style="font-weight:400">· latest year</span>' : ''}</b>
+      <span>${ev.length} vetoed vote${ev.length === 1 ? '' : 's'} · ${casts} cast${vetoYear != null ? ' · click the year again to clear' : ' · click a year in the chart'}</span></div>
+    <div class="rows">${ev.length ? ev.map((e) => `
+      <div class="r"><span class="d">${esc(e.d)}</span>
+        <span class="doc"><a href="browse.html?y=${y}&q=${encodeURIComponent(e.m)}">${esc(e.doc || 'draft (symbol not recorded)')}</a>
+          <span class="k">meeting ${esc(e.m)}${e.k === 'amendment' ? ' · amendment / separate vote' : ''}</span></span>
+        <span>${e.who.map((s) => `<span class="chip"><i style="background:${slot(c, s)}"></i>${SHORT[s]}</span>`).join('')}
+          <span class="t">${e.t.join('–')}</span></span></div>`).join('')
+      : '<div class="r"><span></span><span style="color:var(--text-muted)">No vetoed vote in the corpus this year.</span><span></span></div>'}
+    </div>`;
+}
+REGISTRY.push(drawLog);
+drawLog();
+
+tableView(document.getElementById('veto-table'),
+  ['Year', ...P5.map((s) => LAB[s]), 'Total'],
+  YEARS.map((y, i) => [y, ...P5.map((s) => V.by_year[s][i] || ''), sum(P5.map((s) => V.by_year[s][i])) || ''])
+    .filter((r) => r[r.length - 1]),
+  'Show vetoes cast per year');
+
+/* ============================================================ 2. drafts */
+/* Series in the palette's fixed slot order; 'unrecorded' takes slot 1's hue
+   hatched, because it is the same thing -- an adoption -- seen less well. */
+const OUT = [
+  ['adopted', 'Adopted by a recorded vote', 0], ['unrecorded', 'Adopted, no vote in the corpus', 0],
+  ['vetoed', 'Vetoed', 1], ['failed', 'Failed — short of the majority', 2],
+];
+let draftMode = 'count';
+const dS = A.outcomes.series, oT = A.outcomes.total;
+const dTot = YEARS.map((_, i) => sum(OUT.map(([k]) => dS[k][i])));
+document.getElementById('draft-n').textContent =
+  `${fmt(oT.adopted + oT.unrecorded)} resolutions and ${fmt(oT.vetoed + oT.failed)} votes on texts that did not pass`;
+{
+  const era = (a, b) => {
+    const g = (k) => sum(dS[k].slice(a - 1946, b - 1945));
+    const bad = g('vetoed') + g('failed');
+    return { bad, rate: 100 * bad / (bad + g('adopted')), v: g('vetoed') };
+  };
+  const e1 = era(1946, 1989), e2 = era(1990, 2009), e3 = era(2010, 2025);
+  document.getElementById('draft-find').innerHTML =
+    `<b>During the Cold War ${pct(e1.rate)} of the texts put to a vote failed</b> (${fmt(e1.bad)},
+    ${fmt(e1.v)} of them vetoed). After 1990 that collapsed to ${pct(e2.rate)} — ${fmt(e2.bad)} in
+    twenty years, the Council's most unanimous period — and since 2010 it has climbed back to
+    ${pct(e3.rate)}, with ${fmt(e3.v)} vetoes.`;
+}
+const dChart = mount(document.getElementById('draft-chart'), (c, base, ax) => ({
+  ...base,
+  legend: { ...base.legend, top: 0, left: 0, data: OUT.map(([, l]) => l) },
+  grid: { left: 46, right: 14, top: 40, bottom: 58 },
+  tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+    formatter: (ps) => {
+      const i = ps[0].dataIndex;
+      const bad = dS.vetoed[i] + dS.failed[i];
+      return tipHead(`${YEARS[i]}`) + OUT.filter(([k]) => dS[k][i]).map(([k, l, s]) =>
+        tipRow(c.series[s], l, `${dS[k][i]} <span style="font-weight:400;color:${c.muted}">(${pct(100 * dS[k][i] / dTot[i])})</span>`)).join('')
+        + tipFoot(bad ? `${pct(100 * bad / (bad + dS.adopted[i]))} of recorded votes failed` : 'No text failed this year', c);
+    } },
+  dataZoom: [{ type: 'inside' }, { type: 'slider', bottom: 8, height: 18, borderColor: 'transparent',
+    backgroundColor: c.grid, fillerColor: c.series[0] + '22', handleStyle: { color: c.series[0] },
+    textStyle: { color: c.muted, fontSize: 11 } }],
+  xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false } },
+  yAxis: { type: 'value', ...ax, max: draftMode === 'share' ? 100 : null,
+    axisLabel: { ...ax.axisLabel, formatter: draftMode === 'share' ? '{value}%' : '{value}' } },
+  series: OUT.map(([k, l, s]) => ({
+    name: l, type: 'bar', stack: 'd', barCategoryGap: '20%',
+    data: dS[k].map((n, i) => (n ? (draftMode === 'share' ? +(100 * n / dTot[i]).toFixed(1) : n) : null)),
+    itemStyle: k === 'unrecorded'
+      ? { color: { image: hatch(c.series[s]), repeat: 'repeat' }, borderColor: c.series[s], borderWidth: 0.8 }
+      : { color: c.series[s], borderColor: c.surface, borderWidth: 1 },
+  })),
+}));
+document.getElementById('draft-seg').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  draftMode = b.dataset.m;
+  [...e.currentTarget.children].forEach((x) => x.setAttribute('aria-pressed', x.dataset.m === draftMode));
+  dChart.draw();
+};
+tableView(document.getElementById('draft-table'),
+  ['Year', ...OUT.map(([, l]) => l), 'Total'],
+  YEARS.map((y, i) => [y, ...OUT.map(([k]) => dS[k][i] || ''), dTot[i]]).filter((r) => r[r.length - 1]),
+  'Show outcomes per year');
+
+/* =========================================================== 3. P5 pairs */
+const PAIRS = P.pairs.map((p) => ({ ...p, key: p.a + '-' + p.b, label: `${SHORT[p.a]} – ${SHORT[p.b]}` }));
+const rate = (x) => (x && x[1] ? 100 * x[0] / x[1] : null);
+let period = -1;                                        // -1 = all years
+let chosen = ['US-RU', 'CN-RU', 'US-CN'];               // default highlights
+const PAIR_SLOT = {};                                   // a pair keeps its colour while chosen
+chosen.forEach((k, i) => { PAIR_SLOT[k] = i; });
+
+const perSel = document.getElementById('p5-period');
+perSel.innerHTML = '<option value="-1">All years, 1946–2025</option>'
+  + P.decades.map((d, i) => `<option value="${i}">${d}</option>`).join('');
+perSel.onchange = () => { period = +perSel.value; pm.draw(); pl.draw(); syncP5Text(); };
+
+const cellOf = (p) => (period < 0 ? p.all : p.dec[period]);
+function syncP5Text() {
+  const n = period < 0 ? P.n_votes : P.base_votes[period];
+  document.getElementById('p5-mt').textContent =
+    `Agreement, ${period < 0 ? '1946–2025' : P.decades[period]}`;
+  document.getElementById('p5-ms').textContent =
+    `${fmt(n)} votes with at least two permanent members' directions recorded · colour scale starts at ${scaleFloor()}%, not 0`;
+}
+syncP5Text();
+{
+  const last = P.decades.length - 1;
+  const r = (k, d) => rate(PAIRS.find((p) => p.key === k).dec[d]);
+  const west = PAIRS.filter((p) => ['US', 'UK', 'FR'].includes(p.a) && ['CN', 'RU'].includes(p.b));
+  const wr = west.map((p) => rate(p.dec[last]));
+  document.getElementById('p5-find').innerHTML =
+    `<b>The post-Cold War consensus has come apart.</b> Through the 1990s–2000s every pair agreed on
+    more than 90% of votes. In ${P.decades[last]} <b>China–Russia holds at ${pct(r('CN-RU', last))}</b>,
+    while each Western member's agreement with China or Russia has fallen to
+    ${pct(Math.min(...wr))}–${pct(Math.max(...wr))}. The United States and the USSR agreed on only
+    ${pct(r('US-RU', 0))} of votes in 1946–49 — the Council's early years were dominated by
+    rejected Soviet proposals and Soviet vetoes.`;
+}
+
+/* The colour floor follows the period, down to the nearest 10 below its
+   lowest pair, and is printed in the panel subtitle: over all years every pair
+   sits between 75% and 96%, and a scale from 0 would paint them one shade. */
+function scaleFloor() {
+  const vals = PAIRS.map((p) => rate(cellOf(p))).filter((v) => v != null);
+  return Math.max(0, Math.floor((Math.min(...vals) - 2) / 10) * 10);
+}
+const pm = mount(document.getElementById('p5-matrix'), (c, base, ax) => {
+  const lo = scaleFloor();
+  const data = [];
+  P5.forEach((a, i) => P5.forEach((b, j) => {
+    if (i === j) return;
+    const p = PAIRS.find((x) => (x.a === a && x.b === b) || (x.a === b && x.b === a));
+    const v = rate(cellOf(p));
+    const on = chosen.includes(p.key);
+    data.push({ value: [j, i, v == null ? null : +v.toFixed(1)], pair: p.key, n: cellOf(p)[1],
+      dark: v != null && v >= lo + 0.62 * (100 - lo),
+      itemStyle: { borderColor: on ? c.primary : c.surface, borderWidth: on ? 2.5 : 3 } });
+  }));
+  return {
+    ...base,
+    grid: { left: 96, right: 14, top: 8, bottom: 70 },
+    tooltip: { ...base.tooltip, trigger: 'item',
+      formatter: (p) => {
+        const pr = PAIRS.find((x) => x.key === p.data.pair);
+        return tipHead(`${LAB[pr.a]} and ${LAB[pr.b]}`)
+          + tipRow(null, 'Voted the same way', p.value[2] == null ? '—' : p.value[2] + '%')
+          + tipRow(null, 'Votes compared', fmt(p.data.n))
+          + tipFoot(chosen.includes(pr.key) ? 'Click to remove from the decade chart' : 'Click to follow across the decades', c);
+      } },
+    xAxis: { type: 'category', data: P5.map((s) => SHORT[s]), ...ax, splitLine: { show: false },
+      axisLine: { show: false }, axisLabel: { ...ax.axisLabel, interval: 0, color: c.secondary, fontSize: 12 } },
+    yAxis: { type: 'category', data: P5.map((s) => SHORT[s]), inverse: true, ...ax, splitLine: { show: false },
+      axisLine: { show: false }, axisLabel: { ...ax.axisLabel, interval: 0, color: c.secondary, fontSize: 12 } },
+    visualMap: { min: lo, max: 100, calculable: false, orient: 'horizontal', left: 'center', bottom: 6,
+      itemWidth: 12, itemHeight: 180, text: ['100%', lo + '%'], textGap: 8,
+      textStyle: { color: c.muted, fontSize: 11 }, inRange: { color: c.seq } },
+    /* text colour flips on the dark end of the ramp; carried by rich styles
+       because a per-item label override suppresses heatmap labels */
+    series: [{ type: 'heatmap', data, label: { show: true,
+      formatter: (p) => (p.value[2] == null ? '—' : `{${p.data.dark ? 'w' : 'k'}|${Math.round(p.value[2])}}`),
+      rich: { w: { color: '#fff', fontSize: 13, fontWeight: 600 }, k: { color: c.primary, fontSize: 13, fontWeight: 600 } } },
+      emphasis: { itemStyle: { borderColor: c.primary, borderWidth: 2 } } }],
+  };
+});
+function togglePair(k) {
+  if (chosen.includes(k)) {
+    chosen = chosen.filter((x) => x !== k); delete PAIR_SLOT[k];
+  } else {
+    if (chosen.length >= 3) { const out = chosen.shift(); delete PAIR_SLOT[out]; }
+    const used = new Set(Object.values(PAIR_SLOT));
+    PAIR_SLOT[k] = [0, 1, 2].find((s) => !used.has(s));
+    chosen.push(k);
+  }
+  pm.draw(); pl.draw(); drawPairBtns();
+}
+pm.chart.on('click', (p) => p.data && togglePair(p.data.pair));
+
+function drawPairBtns() {
+  const c = ink();
+  document.getElementById('pair-btns').innerHTML = PAIRS.map((p) => {
+    const on = chosen.includes(p.key);
+    return `<button data-k="${p.key}" aria-pressed="${on}"><i style="background:${on ? c.series[PAIR_SLOT[p.key]] : c.grid}"></i>${p.label}</button>`;
+  }).join('');
+}
+document.getElementById('pair-btns').onclick = (e) => {
+  const b = e.target.closest('button'); if (b) togglePair(b.dataset.k);
+};
+REGISTRY.push(drawPairBtns);
+drawPairBtns();
+
+const pl = mount(document.getElementById('p5-lines'), (c, base, ax) => ({
+  ...base,
+  legend: { show: false },
+  grid: { left: 44, right: 58, top: 14, bottom: 46 },
+  tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'line', lineStyle: { color: c.axis } },
+    formatter: (ps) => {
+      const i = ps[0].dataIndex;
+      const on = PAIRS.filter((p) => chosen.includes(p.key));
+      const rest = PAIRS.filter((p) => !chosen.includes(p.key)).map((p) => rate(p.dec[i])).filter((v) => v != null);
+      return tipHead(`${P.decades[i]} · ${fmt(P.base_votes[i])} votes`)
+        + on.map((p) => tipRow(c.series[PAIR_SLOT[p.key]], p.label, pct(rate(p.dec[i])))).join('')
+        + (rest.length ? tipFoot(`Other ${rest.length} pairs: ${pct(Math.min(...rest))}–${pct(Math.max(...rest))}`, c) : '');
+    } },
+  xAxis: { type: 'category', data: P.decades, ...ax, splitLine: { show: false }, boundaryGap: false,
+    axisLabel: { ...ax.axisLabel, interval: 0, fontSize: 10.5,
+      formatter: (v, i) => `${v}\n{n|n=${fmt(P.base_votes[i])}}`,
+      rich: { n: { color: c.muted, fontSize: 9.5, lineHeight: 15 } } } },
+  yAxis: { type: 'value', min: 0, max: 100, ...ax, axisLabel: { ...ax.axisLabel, formatter: '{value}%' } },
+  series: [
+    ...PAIRS.filter((p) => !chosen.includes(p.key)).map((p) => ({
+      name: p.label, type: 'line', data: p.dec.map((x) => rate(x)), silent: true,
+      symbol: 'none', lineStyle: { width: 1.2, color: c.axis }, z: 1 })),
+    ...PAIRS.filter((p) => chosen.includes(p.key)).map((p) => {
+      const col = c.series[PAIR_SLOT[p.key]];
+      return {
+        name: p.label, type: 'line', data: p.dec.map((x) => rate(x)), z: 3,
+        symbol: 'circle', symbolSize: 8, lineStyle: { width: 2.4, color: col },
+        labelLayout: { moveOverlap: 'shiftY' },
+        itemStyle: { color: col, borderColor: c.surface, borderWidth: 2 },
+        /* value only: the pair chips above carry the names */
+        endLabel: { show: true, color: c.primary, fontSize: 12, fontWeight: 650, distance: 8,
+          formatter: pct(rate(p.dec[p.dec.length - 1])) },
+        /* the matrix's period, marked on the time axis */
+        markLine: period >= 0 && p.key === chosen[0] ? { silent: true, symbol: 'none',
+          lineStyle: { color: c.axis, type: 'solid', width: 1 }, label: { show: false },
+          data: [{ xAxis: P.decades[period] }] } : undefined,
+      };
+    }),
+  ],
+}));
+
+tableView(document.getElementById('p5-table'),
+  ['Pair', 'All years', ...P.decades],
+  PAIRS.map((p) => [p.label, pct(rate(p.all)), ...p.dec.map((x) => (x[1] ? `${pct(rate(x))} <span style="color:var(--text-muted)">(${x[1]})</span>` : '—'))]),
+  'Show agreement for all ten pairs');
+
+/* ======================================================= 4. GA sessions */
+const GS = A.ga_sessions;
+document.getElementById('ga-n').textContent =
+  `${fmt(gaHave)} adopted resolutions in the corpus against about ${fmt(gaExp)} expected — ${pct(100 * gaHave / gaExp)} overall`;
+{
+  const bad = GS.filter((s) => s.band === 'UNUSABLE');
+  const worst = [...GS].sort((a, b) => a.pct - b.pct)[0];
+  const deg = GS.filter((s) => s.band === 'DEGRADED' && s.year > 1995);
+  const s64 = GS.find((s) => s.year === 1964);
+  document.getElementById('ga-find').innerHTML =
+    `<b>${bad.length} sessions fall below 50% coverage, all between ${bad[0].year} and ${bad[bad.length - 1].year}</b>
+    — the worst is ${worst.year} at ${pct(worst.pct)} (${worst.have} of ${worst.expected}). The later dips
+    in ${deg.map((s) => `${s.year} (${pct(s.pct)})`).join(' and ')} are the same kind of gap, not
+    evidence of a quieter Assembly. <b>1964 is the one real trough</b>: coverage is
+    ${pct(s64.pct)} and the session still adopted only ${s64.have} resolutions, because the Article 19
+    arrears dispute stopped it voting at all.`;
+}
+const gaC = mount(document.getElementById('ga-chart'), (c, base, ax) => {
+  const x = GS.map((s) => String(s.year));
+  const bandCol = { RELIABLE: c.good, DEGRADED: c.warning, UNUSABLE: c.critical };
+  const bandLab = { RELIABLE: 'complete enough to read (≥ 80%)', DEGRADED: 'low (50–80%) — not a trend', UNUSABLE: 'too thin to use (< 50%)' };
+  return {
+    ...base,
+    legend: { show: false },
+    grid: [{ left: 50, right: 16, top: 16, height: 300 }, { left: 50, right: 16, top: 366, height: 96 }],
+    axisPointer: { link: [{ xAxisIndex: 'all' }] },
+    tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+      formatter: (ps) => {
+        const s = GS[ps[0].dataIndex];
+        return tipHead(`Session ${s.session} · opened ${s.year}`)
+          + tipRow(null, 'Resolutions in the corpus', fmt(s.have))
+          + tipRow(null, 'Expected from the numbering', fmt(s.expected))
+          + tipRow(bandCol[s.band], 'Coverage', pct(s.pct))
+          + (s.meetings ? tipRow(null, 'Plenary meetings that adopted', `${s.meetings} of ~${s.span}`) : '')
+          + tipFoot(bandLab[s.band] + ' · click to open the records', c);
+      } },
+    dataZoom: [{ type: 'inside', xAxisIndex: [0, 1] }],
+    xAxis: [0, 1].map((g) => ({ type: 'category', data: x, gridIndex: g, ...ax, splitLine: { show: false },
+      axisLabel: { ...ax.axisLabel, show: g === 1 } })),
+    yAxis: [
+      { type: 'value', gridIndex: 0, ...ax },
+      { type: 'value', gridIndex: 1, min: 0, max: 100, interval: 50, ...ax,
+        axisLabel: { ...ax.axisLabel, formatter: '{value}%' } },
+    ],
+    series: [
+      { name: 'Expected', type: 'bar', xAxisIndex: 0, yAxisIndex: 0, barCategoryGap: '24%', z: 1,
+        data: GS.map((s) => s.expected),
+        itemStyle: { color: 'transparent', borderColor: c.muted, borderWidth: 1, borderRadius: [3, 3, 0, 0] },
+        markArea: { silent: true, itemStyle: { color: c.critical + '0d' },
+          label: { color: c.muted, fontSize: 11, position: 'insideTop', distance: 8 },
+          data: [[{ xAxis: '1983', name: 'collection gap, 1983–1992' }, { xAxis: '1992' }]] } },
+      { name: 'In the corpus', type: 'bar', xAxisIndex: 0, yAxisIndex: 0, barGap: '-100%', z: 2,
+        data: GS.map((s) => ({ value: s.have, itemStyle: s.band === 'RELIABLE'
+          ? { color: c.series[1], borderRadius: [3, 3, 0, 0] }
+          : { color: { image: hatch(c.series[1]), repeat: 'repeat' }, borderColor: c.series[1], borderWidth: 1, borderRadius: [3, 3, 0, 0] } })) },
+      { name: 'Coverage', type: 'line', xAxisIndex: 1, yAxisIndex: 1, z: 3,
+        data: GS.map((s) => ({ value: s.pct, itemStyle: { color: bandCol[s.band] } })),
+        symbol: 'circle', symbolSize: 6, lineStyle: { width: 1.2, color: c.axis },
+        itemStyle: { borderColor: c.surface, borderWidth: 1 },
+        markLine: { silent: true, symbol: 'none', lineStyle: { color: c.axis, type: 'solid' },
+          label: { show: false },
+          data: [{ yAxis: 80 }] } },
+    ],
+    title: [{ text: 'Coverage of each session  ·  the rule marks 80%, the threshold for reading a trend', left: 50, top: 340,
+      textStyle: { fontSize: 12.5, fontWeight: 600, color: c.secondary } }],
+  };
+});
+gaC.chart.on('click', (p) => { if (p.name) location.href = `browse.html?y=${p.name}`; });
+tableView(document.getElementById('ga-table'),
+  ['Session', 'Opened', 'In corpus', 'Expected', 'Coverage', 'Band', 'Meetings that adopted', 'Plenary span'],
+  GS.map((s) => [s.session, s.year, fmt(s.have), fmt(s.expected), pct(s.pct), s.band, fmt(s.meetings), fmt(s.span)]),
+  'Show all 79 sessions');
+
+/* ========================================================= 5. GA stance */
+const D = S.decades;
+['st-from', 'st-to'].forEach((id, k) => {
+  document.getElementById(id).innerHTML = D.map((d, i) =>
+    `<option value="${i}"${(k ? i === D.length - 1 : i === 0) ? ' selected' : ''}>${d}</option>`).join('');
+});
+const q = (id) => document.getElementById(id);
+/* decade indices -> '1946–2025', '1960–1979' */
+const span = (a, b) => `${a ? 1940 + 10 * a : 1946}–${b === D.length - 1 ? 2025 : 1949 + 10 * b}`;
+function stanceRows() {
+  let a = +q('st-from').value, b = +q('st-to').value;
+  if (a > b) [a, b] = [b, a];
+  const min = Math.max(1, +q('st-min').value || 1);
+  const term = q('st-q').value.trim().toLowerCase();
+  const all = S.countries.map((c) => {
+    const t = [0, 0, 0, 0];
+    for (let i = a; i <= b; i++) c.dec[i].forEach((v, k) => { t[k] += v; });
+    const n = t[0] + t[1] + t[2];
+    return { name: c.name, hist: c.hist, n, y: t[0], ab: t[1], no: t[2], maj: t[3],
+      py: n ? 100 * t[0] / n : 0, pa: n ? 100 * t[1] / n : 0, pn: n ? 100 * t[2] / n : 0, pm: n ? 100 * t[3] / n : 0 };
+  });
+  const eligible = all.filter((r) => r.n >= min);
+  const key = { maj: (r) => r.pm, no: (r) => -r.pn, notyes: (r) => -(r.pa + r.pn), yes: (r) => -r.py }[q('st-sort').value];
+  const sorted = q('st-sort').value === 'name' ? eligible.sort((x, y) => x.name.localeCompare(y.name))
+    : eligible.sort((x, y) => key(x) - key(y) || y.n - x.n);
+  const shown = term ? all.filter((r) => r.name.toLowerCase().includes(term) && r.n)
+    : sorted.slice(0, +q('st-top').value);
+  const votes = sum(S.votes_by_decade.slice(a, b + 1));
+  return { a, b, min, term, shown, eligible: eligible.length, votes, sorted };
+}
+let SR = stanceRows();
+
+mount(document.getElementById('st-base'), (c, base, ax) => ({
+  ...base,
+  grid: { left: 50, right: 16, top: 8, bottom: 22 },
+  tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+    formatter: (ps) => tipHead(D[ps[0].dataIndex]) + tipRow(null, 'Recorded votes', fmt(S.votes_by_decade[ps[0].dataIndex]))
+      + tipFoot('The corpus holds recorded votes very unevenly; the 2000s are thin.', c) },
+  xAxis: { type: 'category', data: D, ...ax, splitLine: { show: false } },
+  yAxis: { type: 'value', ...ax, splitNumber: 2 },
+  series: [{ type: 'bar', barWidth: '46%', data: S.votes_by_decade.map((v, i) => ({ value: v,
+    itemStyle: { color: i >= SR.a && i <= SR.b ? c.series[0] : c.grid, borderRadius: [3, 3, 0, 0] } })),
+    label: { show: true, position: 'top', color: c.muted, fontSize: 10.5 } }],
+}));
+const stEl = document.getElementById('st-chart');
+const st = mount(stEl, (c, base, ax) => {
+  const R = SR.shown;
+  const col = { y: css('--pos'), ab: css('--neutral'), no: css('--neg') };
+  const seg = (k, lab, textDark) => ({
+    name: lab, type: 'bar', stack: 's', barWidth: 13,
+    data: R.map((r) => +r['p' + k[0]].toFixed(1)),
+    itemStyle: { color: col[k], borderColor: c.surface, borderWidth: 1 },
+    label: { show: true, color: textDark ? c.primary : '#fff', fontSize: 10.5,
+      formatter: (p) => (p.value >= 9 ? Math.round(p.value) : '') },
+  });
+  return {
+    ...base,
+    legend: { show: false },
+    grid: { left: 150, right: 104, top: 6, bottom: 26 },
+    tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'shadow', shadowStyle: { color: c.grid + '66' } },
+      formatter: (ps) => {
+        const r = R[ps[0].dataIndex];
+        return tipHead(`${esc(r.name)}${r.hist ? ' <span style="font-weight:400">(historical)</span>' : ''}`)
+          + tipRow(col.y, 'Yes', `${fmt(r.y)} · ${pct(r.py)}`)
+          + tipRow(col.ab, 'Abstain', `${fmt(r.ab)} · ${pct(r.pa)}`)
+          + tipRow(col.no, 'No', `${fmt(r.no)} · ${pct(r.pn)}`)
+          + tipRow(null, 'With the majority', pct(r.pm))
+          + tipFoot(`${fmt(r.n)} recorded votes, ${span(SR.a, SR.b)}`, c);
+      } },
+    xAxis: { type: 'value', max: 100, ...ax, position: 'top', axisLabel: { ...ax.axisLabel, formatter: '{value}%' } },
+    yAxis: { type: 'category', inverse: true, data: R.map((r) => r.name), ...ax, splitLine: { show: false },
+      axisLine: { show: false },
+      axisLabel: { ...ax.axisLabel, color: c.secondary, fontSize: 12, width: 140, overflow: 'truncate' } },
+    series: [seg('y', 'Yes', false), seg('ab', 'Abstain', true), seg('no', 'No', false),
+      /* the with-majority figure, printed beside each bar with its n */
+      { type: 'scatter', data: R.map((_, i) => [100, i]), symbolSize: 0, silent: true, z: 5,
+        label: { show: true, position: 'right', distance: 10, fontSize: 11.5, color: c.primary,
+          formatter: (p) => `◆ ${Math.round(R[p.dataIndex].pm)}%  {n|n=${fmt(R[p.dataIndex].n)}}`,
+          rich: { n: { color: c.muted, fontSize: 10.5 } } } },
+    ],
+  };
+});
+function redrawStance() {
+  SR = stanceRows();
+  stEl.style.height = Math.max(120, SR.shown.length * 21 + 40) + 'px';
+  REGISTRY.forEach((d) => d());
+  const shownTxt = SR.term ? `${SR.shown.length} match "${esc(SR.term)}"` : `showing ${SR.shown.length} of ${SR.eligible} states with ≥ ${fmt(SR.min)} votes`;
+  q('st-count').innerHTML = `${shownTxt} · ${fmt(SR.votes)} roll calls`;
+  const top = SR.sorted.slice().sort((x, y) => x.pm - y.pm);
+  const us = SR.sorted.find((r) => r.name === 'United States');
+  q('st-find').innerHTML = top.length ? `<b>In ${span(SR.a, SR.b)}, ${esc(top[0].name)}
+    votes with the majority least often (${pct(top[0].pm)} of ${fmt(top[0].n)} votes)</b>, then
+    ${top.slice(1, 4).map((r) => `${esc(r.name)} (${pct(r.pm)})`).join(', ')}.
+    ${us && top[0].name !== 'United States' ? `The United States: ${pct(us.pm)}.` : ''}
+    At the other end, ${top.slice(-3).reverse().map((r) => `${esc(r.name)} (${pct(r.pm)})`).join(', ')}
+    almost never part from it.` : 'No state reaches the minimum number of votes in this period.';
+  tableView(q('st-table'),
+    ['Country', 'Recorded votes', 'Yes', 'Abstain', 'No', 'With the majority'],
+    SR.sorted.map((r) => [esc(r.name), fmt(r.n), pct(r.py), pct(r.pa), pct(r.pn), pct(r.pm)]),
+    `Show the numbers for all ${SR.sorted.length} states in this selection`);
+}
+['st-from', 'st-to', 'st-sort', 'st-top'].forEach((id) => { q(id).onchange = redrawStance; });
+q('st-min').oninput = redrawStance;
+q('st-q').oninput = redrawStance;
+redrawStance();
+q('st-meta').innerHTML = `
+  <span><b>Base</b> ${fmt(S.votes)} roll calls from ${fmt(S.files)} meeting records; ${fmt(S.dropped_duplicates)} duplicate extractions and ${fmt(S.dropped_fragments)} fragments under 20 names dropped</span>
+  <span><b>Names</b> normalised by <code>countries.py</code>; ${fmt(S.unresolved_records)} records unmatched</span>
+  <span><b>Historical states</b> (USSR, Yugoslavia, …) are kept separate from their successors</span>`;
+
+tableView(document.getElementById('p5-table').appendChild(document.createElement('div')),
+  ['Member', 'For', 'Against', 'Abstain'],
+  P5.map((s) => { const d = P.directions[s]; const n = (d.Y || 0) + (d.N || 0) + (d.A || 0);
+    return [LAB[s], `${fmt(d.Y)} (${pct(100 * d.Y / n)})`, `${fmt(d.N)} (${pct(100 * d.N / n)})`, `${fmt(d.A)} (${pct(100 * d.A / n)})`]; }),
+  'Show how each permanent member voted overall');
+
+document.getElementById('built-note').innerHTML =
+  `Built ${esc(A.built)} from <code>RES_Security</code> and <code>RES_General</code> by
+  <code>_site\\build_analysis.py</code> (after <code>_report\\census.py</code> and <code>coverage.py</code>).
+  The four static figures this page used to show were drawn in July 2026, before the Council drafts
+  and the corrected veto record entered the corpus; they are superseded.`;
+</script>
+</body>
+</html>

@@ -1,0 +1,639 @@
+{
+  "topic": "dr_congo",
+  "label": "Democratic Republic of the Congo conflict",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 87,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 3,
+  "vague_dated_segments": 27,
+  "cross_article_duplicates": 14,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Kivu conflict (2020)",
+      "pageid": 65737350,
+      "revid": 1366304562,
+      "revision_timestamp": "2026-07-27T07:06:31Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=65737350",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2020-01-01",
+          "date_latest": "2020-01-01",
+          "date_precision": "day",
+          "text": "An Nduma Defense of Congo-Renovated (NDC-R) fighter shot and killed a 40-year-old man in Kituruku village in Walikale territory."
+        },
+        {
+          "date": "2020-01-03",
+          "date_latest": "2020-01-03",
+          "date_precision": "day",
+          "text": "The National Coalition of the People for the Sovereignty of Congo (CNPSC) ambushed the Ngumino and Twiganeho in Ibumba village in Fizi territory. Overall in the attack six Ngumino and Twiganeho fighters were killed, and one CNPSC fighter was killed and three wounded. The Ngumino were also attacked in the villages of Rubibi, Rubarati, and Kanogo in Uvira territory by the Mai-Mai Biloze Bishambuke. The Mai-Mai Biloze Bishambuke captured all of those villages from them."
+        },
+        {
+          "date": "2020-01-05",
+          "date_latest": "2020-01-05",
+          "date_precision": "day",
+          "text": "The (RDF) attacked National Resistance Council for Democracy (CNRD) fighters in Muuzi village in Mwenga territory. Two CNRD fighters were captured and 16 CNRD fighters were killed."
+        },
+        {
+          "date": "2020-01-07",
+          "date_latest": "2020-01-07",
+          "date_precision": "day",
+          "text": "The RDF attacked CNRD fighters in Nyabaleke village in Mwenga territory. Two CNRD fighters were captured and two CNRD dependants were killed in the attack. Two weapons were recovered by the RDF.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-01-08",
+          "date_latest": "2020-01-08",
+          "date_precision": "day",
+          "text": "Five unidentified armed men raided a house in Kakombe neighbourhood in rural Uvira. The attackers kidnapped a woman."
+        },
+        {
+          "date": "2020-01-09",
+          "date_latest": "2020-01-09",
+          "date_precision": "day",
+          "text": "Five Raia Mutomboki Walike members raided Kiseku village in Shabunda territory and looted money, four solar panels, three goats, eight chickens, two sacks of cassava flour and other goods. They also kidnapped twenty people who they forced to carry the goods. The Mai-Mai Kyandenga clashed with the FARDC in Visiki, Beni territory resulting in one Kyandengan death. Unidentified armed men in Mahya, Masisi territory resisted an attack by the FARDC."
+        },
+        {
+          "date": "2020-01-10",
+          "date_latest": "2020-01-10",
+          "date_precision": "day",
+          "text": "The Mai-Mai Ebu Ela ambushed the Ngumino and Twiganeho near Kahwela village in Fizi territory. The attack resulted in the death of a 16-year-old boy who was shot dead. The Mai-Mai Ebu Ela also set fire to houses and looted livestock in the villages of Kahwela, Kivumu, and Misinji. In the village of Kalungu in Mwenga territory, RDF forces attacked the National Forces of Liberation (FNL)."
+        },
+        {
+          "date": "2020-01-11",
+          "date_latest": "2020-01-11",
+          "date_precision": "day",
+          "text": "The RDF attacked CNRD fighters in Kasika village in Mwenga territory. 20 CNRD dependants died in the attack.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-01-13",
+          "date_latest": "2020-01-13",
+          "date_precision": "day",
+          "text": "The Congolese army raided Allied Democratic Forces's (ADF) headquarters camp, nicknamed \"Madina\", which is located near Beni. 30 Congolese soldiers were killed and 70 were wounded in the intense battle with ADF. 40 ADF insurgents were also reported killed, including five top commanders. The Congolese army nevertheless captures the camp, but failed to apprehend the target of the raid, ADF leader Musa Baluku. The FARDC also attacked the Mai-Mai Malaika and the Raia Mutomboki Jean Musumbu in Kalabula village in Shabunda territory. The FARDC kicked out the Mai-Mai Malaika and the Raia Mutomboki Jean Musumbu from Kalabula. Overall in the attack, four FARDC soldiers were killed, and six Mai-Mai Malaika and Raia Mutomboki Jean Musumbu fighters were captured. Six AK47 weapons were recovered, and the perpetrators looted ten goats and five solar panels."
+        },
+        {
+          "date": "2020-01-14",
+          "date_latest": "2020-01-14",
+          "date_precision": "day",
+          "text": "The FARDC recaptured the village of Katale, Kalehe territory from the Nyatura Kalume."
+        },
+        {
+          "date": "2020-01-16",
+          "date_latest": "2020-01-16",
+          "date_precision": "day",
+          "text": "Unidentified armed men raided Mikanda village in Mwenga territory. The attackers raped four women, kidnapped two men and wounded three others. They also looted money and goods.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-01-17",
+          "date_latest": "2020-01-17",
+          "date_precision": "day",
+          "text": "Unidentified armed captured the head nurse from a health centre and tried to capture the guard. The kidnappers demanded a ransom of $1,000 for the hostage's release."
+        },
+        {
+          "date": "2020-01-19",
+          "date_latest": "2020-01-19",
+          "date_precision": "day",
+          "text": "The NDC-R captured the village of Hembe, Masisi territory from the Alliance of Patriots for a Free and Sovereign Congo (APCLS) and Nyatura APRDC. Four APCLS fighters and two men were killed in the attack."
+        },
+        {
+          "date": "2020-01-20",
+          "date_latest": "2020-01-20",
+          "date_precision": "day",
+          "text": "Unidentified armed looted 62 cows in Nakanango village in Uvira territory only to be attacked by the army. In total, the army was able to free 60 of the cows."
+        },
+        {
+          "date": "2020-01-22",
+          "date_latest": "2020-01-22",
+          "date_precision": "day",
+          "text": "6 civilians were killed in an ADF attack in the Beni territory. The NDC-R attacked the Nyatura Domi under the Collective of movements for change (CMC) and the FDLR-FOCA in the villages of Mukaka, Kinyamugenzi, and Bumbasha, Rutshuru territory. The Nyatura Domi and the FDLR-FOCA resisted the attack by NDC-R. The NDC-R killed eighteen people when they were returning to Katsiru."
+        },
+        {
+          "date": "2020-01-24",
+          "date_latest": "2020-01-24",
+          "date_precision": "day",
+          "text": "APCLS fighters captured the village of Ndurumo, Masisi territory from NDC-R.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-01-25",
+          "date_latest": "2020-01-25",
+          "date_precision": "day",
+          "text": "The Mai-Mai Kashumba attacked the Ngumino in Kahololo village in Uvira territory and killed seven Ngumino fighters.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-01-26",
+          "date_latest": "2020-01-26",
+          "date_precision": "day",
+          "text": "The Mai-Mai Biloze Bishambuke attacked the Ngumino and Twiganeho in the villages of Kinyuni, Kajembwe, Kagogo, Mugete, Masata, Kahuna, Irangi, and Masroro in Uvira territory. Houses, a health centre and schools were burnt down in the attack. The Mai-Mai Biloze Bishambuke also looted cows."
+        },
+        {
+          "date": "2020-01-27",
+          "date_latest": "2020-01-27",
+          "date_precision": "day",
+          "text": "A Mai-Mai Kifuafua Delphin Mbaenda militant killed a 38-year-old man in Nyamimba village in Walikale territory."
+        },
+        {
+          "date": "2020-01-28",
+          "date_latest": "2020-01-28",
+          "date_precision": "day",
+          "text": "ADF militants hack 38 civilians to death with machetes in Oicha. Down in South Kivu the Mai-Mai Biloze Bishambuke raided Mitamba village in Uvira territory. The attackers set houses and market stalls on fire. They also looted cows. Following a misunderstanding the Mai-Mai FPP Kabido clashed with one another in Masumo, Lubero territory."
+        },
+        {
+          "date": "2020-01-29",
+          "date_latest": "2020-01-29",
+          "date_precision": "day",
+          "text": "ADF killed 3 civilians and a soldier in the villages of Malonga and Pikamaibo, Beni territory. The ADF attacked a FARDC position in Mayi-Moya, Beni territory. The FARDC supported by MONUSCO repelled the attackers. The attack resulted in the destruction of ten houses by mortars. The FARDC attacked the Raia Mutomboki Lukoba in Tugoka, Kabare territory."
+        },
+        {
+          "date": "2020-01-30",
+          "date_latest": "2020-01-30",
+          "date_precision": "day",
+          "text": "ADF militants kill 21 civilians in three separate attacks on Oicha, Ache, and Mandumbi. In a different attack, unidentified gunmen shot and killed two boys aged 16 and 17 in a field in Rusankuku village in Mwenga territory. The ADF also killed one soldier and six civilians in Mamove village, Beni territory. The ADF later clashed with the FARDC in Mbau locality, Beni territory."
+        },
+        {
+          "date": "2020-02-03",
+          "date_latest": "2020-02-03",
+          "date_precision": "day",
+          "text": "The Nyatura Jean-Marie attacked the NDC-R in Kitso, Masisi territory. Five men, five women and four children were killed in the attack."
+        },
+        {
+          "date": "2020-02-06",
+          "date_latest": "2020-02-06",
+          "date_precision": "day",
+          "text": "Unidentified armed men attacked the ADF near Mulobya, Beni territory and killed one ADF fighter. NDC-R attacked APCLS and Nyatura APRDC fighters in Karumu, Masisi territory. One APCLS fighter and another man were killed in the attack."
+        },
+        {
+          "date": "2020-02-07",
+          "date_latest": "2020-02-07",
+          "date_precision": "day",
+          "text": "8 civilians were killed in an ADF attack in the Beni territory. The Mai-Mai Simba under the command of Mangalibi ambushed the FARDC near Egombo, Lubero territory. An FARDC soldier was wounded in the attack."
+        },
+        {
+          "date": "2020-02-09",
+          "date_latest": "2020-02-09",
+          "date_precision": "day",
+          "text": "60 ADF fighters attacked the village of Makeke, North Kivu, and killed seven people. 40 of them were later captured by the FARDC. Down in South Kivu the Ngumino raided Musika village in territory. The attackers wounded two men and set fire to four houses. The Mai-Mai Ebu Ela later chased them out of the village. The Mai-Mai FPP Kabido killed two policemen and stole two AK47 weapons. APCLS fighters supported by the Nyatura Domi Under the CMC attacked the NDC-R in Bushimoo, Masisi territory. APCLS fighters attacked the NDC-R in Mashango, Masisi territory. Ten NDC Guidon fighters, four women and one child were killed in the attack.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-10",
+          "date_latest": "2020-02-10",
+          "date_precision": "day",
+          "text": "NDC-R captured the village of Mumo from APCLS and Nyatura-APRDC fighters in Masisi territory. Two women were killed in the attack. The ADF attacked the FARDC in Linzo, Beni territory. The attackers were fought off and one FARDC soldier died. The FARDC attacked the Mai-Mai Mazembe in the Buleusa, Walikale territory. One man was shot and wounded in the attack. NDC-R kicked APCLS and Nyatura APRDC out of Mumo, Masisi territory and killed two women.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-11",
+          "date_latest": "2020-02-11",
+          "date_precision": "day",
+          "text": "The ADF raided Mbau locality, Beni territory. The FARDC retaliated by attacking them. The FARDC then chased the attackers away. APCLS fighters attacked the NDC-R in Kinumbi, Masisi territory. 8 APCLS fighters and 5 civilians were killed in the attack."
+        },
+        {
+          "date": "2020-02-12",
+          "date_latest": "2020-02-12",
+          "date_precision": "day",
+          "text": "The FDLR-RUD attacked the FARDC who were investigating the situation following a shooting near Katwiguru locality, Rutshuru territory. The FARDC kicked the FDLR-RUD out of the village."
+        },
+        {
+          "date": "2020-02-14",
+          "date_latest": "2020-02-14",
+          "date_precision": "day",
+          "text": "The FARDC recaptured the village of Kiyeye, Rutshuru territory from Nyatura Domi under the CMC. One civilian was killed and one wounded in the attack. The Raia Mutomboki Lance Muteya attacked the FARDC in Mutale, Kalehe territory. One FARDC was killed and three Raia Mutomboki wounded in the attack.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-16",
+          "date_latest": "2020-02-16",
+          "date_precision": "day",
+          "text": "The Nyatura Domi under the CMC attacked the NDC-R in Kamudoka, Rutshuru territory. A woman was killed and a man was wounded in the attack.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-17",
+          "date_latest": "2020-02-17",
+          "date_precision": "day",
+          "text": "Five civilians were taken hostage by the ADF and found murdered near Virunga National Park. The ADF raided Halungupa, Beni territory and killed one FARDC soldier and 10 civilians. They also set fire to four motorbikes and ten houses. The Nyatura Domi under the CMC alliance raided Malemo, Walikale territory and killed one of two NDC-R fighters who were passing through the village."
+        },
+        {
+          "date": "2020-02-18",
+          "date_latest": "2020-02-18",
+          "date_precision": "day",
+          "text": "APCLS combatants attacked the NDC-R in Nyabiondo locality, Masisi territory and killed a man.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-20",
+          "date_latest": "2020-02-20",
+          "date_precision": "day",
+          "text": "Unidentified armed men ambushed an FARDC convoy carrying soldiers' salary near Rwaza, Rutshuru territory. Seven FARDC soldiers and one man were killed in the ambush. The attackers stole $117,647."
+        },
+        {
+          "date": "2020-02-21",
+          "date_latest": "2020-02-21",
+          "date_precision": "day",
+          "text": "The ADF ambushed a FARDC jeep carrying ammunition and food to the Ngadi neighbourhood, Beni. Two FARDC and two ADF fighters were killed. One FARDC fighter was also wounded. The APCLS and Nyatura APRDC repelled an attack by NDC-R in Kivuye, Masisi territory. NDC-R attacked APCLS fighters in the villages of Buhiri, Hembe, Kosovo, and Bukere, Masisi territory.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-24",
+          "date_latest": "2020-02-24",
+          "date_precision": "day",
+          "text": "The Ngumino and Twiganeho attacked the Mai-Mai Biloze Bishambuke in Biziba village in Uvira territory. The Mai-Mai Biloze Bishambuke repelled the attack by Ngumino and Twiganeho.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-02-26",
+          "date_latest": "2020-02-26",
+          "date_precision": "day",
+          "text": "The ADF attacked the FARDC at KP 25 on the Mbau-Kamango axis in Beni territory. The FARDC repelled the attackers.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-03-19",
+          "date_latest": "2020-03-19",
+          "date_precision": "day",
+          "text": "The Ngumino raided Bigaragara village in Fizi territory. The Mai-Mai Biloze Bishambuke retaliated by chasing the Ngumino out of the village. The FARDC intervened to break up the two armed groups. The Mai-Mai Charles under the command of Je t'aime recruited more than one hundred and three children in the villages of Kisharo, Buramba and Nyamilima in Rutshuru territory."
+        },
+        {
+          "date": "2020-03-30",
+          "date_latest": "2020-03-30",
+          "date_precision": "day",
+          "text": "A skirmish between the ADF and FARDC left two civilians and one Congolese soldier dead. After the skirmish the ADF was forced to release 38 civilian hostages."
+        },
+        {
+          "date": "2020-04-06",
+          "date_latest": "2020-04-06",
+          "date_precision": "day",
+          "text": "The NDC-R attacked APCLS and Nyatura APRDC fighters in Bukucha village in Masisi territory. The APCLS and the Nyatura APRDC fighters repelled the NDC-R. One NDC-R fighter was killed and another wounded in the attack.",
+          "duplicate_of": "Timeline of the Kivu conflict (2020)"
+        },
+        {
+          "date": "2020-05-24",
+          "date_latest": "2020-05-24",
+          "date_precision": "day",
+          "text": "The Twiganeho supported by the Ngumino attacked the FARDC in the villages of Kakenge, Kalongi, Kabingo, and Madegu, Fizi territory. 21 FARDC soldiers were killed and three were wounded in the attack. 7 Twiganeho and Ngumino militants were wounded. One woman was also wounded."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Democratic Republic of the Congo–Rwanda conflict (2022–present)",
+      "pageid": 71002044,
+      "revid": 1370690178,
+      "revision_timestamp": "2026-08-22T15:22:56Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=71002044",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2022-03-01",
+          "date_latest": "2022-03-31",
+          "date_precision": "month",
+          "text": "Soon after the beginning of the offensive, the Democratic Republic of the Congo claimed that Rwanda supported the insurgent operation, a claim which was denied by the Rwandan government and the rebels. International Crisis Group researcher Onesphore Sematumba argued that claims about Rwandan aid were believable. He suggested that the resurgence of M23 was probably influenced by Rwanda's wish to stop an infrastructure project which would link the DR Congo and Uganda."
+        },
+        {
+          "date": "2022-05-01",
+          "date_latest": "2022-05-31",
+          "date_precision": "month",
+          "text": "Congolese forces said that they had captured two Rwandan soldiers that had been sent into the DRC in disguise in May. Both were released on 11 June. On 23 May, FARDC troops reportedly shelled Musanze District, in the Northern Province of Rwanda, injuring several people. Two days later, the DRC ordered the suspension of all RwandAir flights. Rwanda condemned the action, and RwandAir decided to retaliate by cancelling flights to Kinshasa, Lubumbashi, and Goma. In response to these conflicts, African Union Chairman and President of Senegal Macky Sall said on 29 May that the African Union was supporting a \"peaceful resolution\" to the tensions."
+        },
+        {
+          "date": "2022-06-01",
+          "date_latest": "2022-06-30",
+          "date_precision": "month",
+          "text": "Mediation attempts continued into the following month; on 2 June, Angolan President João Lourenço attempted to mediate a resolution between the two countries in Luanda. On 8 June, Alexander De Croo, the Prime Minister of Belgium, compared the situation in the eastern DRC to that of Ukraine in a visit to Kinshasa, additionally making comments implying his support for the Congo in its border crisis with Rwanda. On 9 June, the DRC said it had discovered that 500 Rwandan special forces in disguise had been sent into the area near the town of Tshanzu in North Kivu. The day afterwards, the DRC accused Rwanda of firing rockets at a school in Biruma, killing two children and seriously injuring another person of unspecified age. Rwanda also said that the Congo had fired rockets into Western Rwanda from the direction of Bunagana. The UN called for a ceasefire between the two countries, but on 12 June, the DRC alleged that Rwanda intended to occupy the city of Bunagana, which M23 forces would then capture one day later. The arrival of the M23 forced about 30,000 people to flee to Uganda. The DRC claimed that Rwandan forces were helping to occupy the city. The rebels claimed that taking Bunagana wasn't their goal, but decided to do it after repeated attacks by the Congolese army. They also said that they were open to doing direct negotiations with the government. The DRC described the fall of Bunagana as \"no less than an invasion\" by Rwanda. Two senior Congolese security sources claimed that Uganda was also helping the M23 in their offensive. That same day, Rwanda charged the MONUSCO mission of taking sides in the conflict, which it said was allowing the Congo to carry out cross-border attacks in Rwanda. The heavy fighting also caused about 137 Congolese soldiers and 37 police officers to flee into Uganda, where they surrendered to Ugandan forces. A Kinyarwanda-speaking lieutenant colonel was attacked and beaten by a mob in Kisangani. On 15 June, thousands of demonstrators organized a protest against Rwandan actions in Goma. The protest quickly turned into an anti-Rwandan riot, as an angry mob pillaged and attacked shops owned by Rwandans, seizing vehicles to check if Rwandans were inside. Congolese riot police fired tear gas at protesters after some tried to enter a border checkpoint at the Rwandan border. Several Rwandans in Goma responded by fleeing the country. On the same day, the DRC suspended all \"memoranda of understanding, agreements, and conventions concluded with Rwanda\", demanding the withdrawal of all alleged Rwandan military personnel within the boundaries of the country. Just a few hours after Congolese security officials called for the DRC to cut all ties with Rwanda, a Congolese soldier crossed into Rubavu District carrying an AK-47 and was shot to death by a Rwanda National Police officer on 17 June. The RDF said that the soldier was killed after he started shooting at civilians and security forces, and had injured two officers. The Congo shut down the two countries' border in response to the officer's death, adding that it would open an investigation into the events. As a vehicle brought back the officer's body to Goma, a crowd made up of hundreds of people followed the vehicle shouting \"hero, hero\" and describing President of Rwanda Paul Kagame as an assassin. Some members of the crowd were documented yelling hateful slogans against Tutsis."
+        },
+        {
+          "date": "2022-07-01",
+          "date_latest": "2022-07-31",
+          "date_precision": "month",
+          "text": "Representatives of Rwanda and the DRC both came to an agreement held in Angola on 6 July to begin a \"de-escalation process\" between the two nations. M23 leader Willy Ngoma ordered a new offensive the next day, asserting that \"Only the M23 can sign the cease-fire with the government.\""
+        },
+        {
+          "date": "2022-08-01",
+          "date_latest": "2022-08-31",
+          "date_precision": "month",
+          "text": "In early August, a report for the United Nations by independent experts was leaked to the press. The report provided evidence that Rwandan troops had entered Congolese territory to support M23, fighting alongside the insurgents. These findings led to calls by journalists and officials in the DRC for the UN to sanction Rwanda."
+        },
+        {
+          "date": "2022-10-01",
+          "date_latest": "2022-10-31",
+          "date_precision": "month",
+          "text": "On 24 October, a Rwandan soldier running away from the Rwandan military's 401st battalion surrendered himself to a MONUSCO base in Kiwanja, saying that he had been sent to Rwanda as part of a military operation and begged the UN troops not to send him back to Rwanda. He was handed over to FARDC forces on 4 November. The Kivu Security Barometre, a project of the New York University's Congo Research Group, found that satellite photos showing a battle from late October 2022 in Rugari, Rutshuru Territory revealed soldiers with insignias similar to those of the Rwandan Defence Force."
+        },
+        {
+          "date": "2022-11-01",
+          "date_latest": "2022-11-30",
+          "date_precision": "month",
+          "text": "On 19 November, a Congolese soldier was shot dead as he crossed a border post near Rubavu. The Rwanda Defence Force said that he had been killed after shooting at the guard towers. The FARDC confirmed that the soldier had been killed, identifying him as a recent recruit to the armed forces who went missing after he had gotten lost during an army patrol. The DRC and Rwanda both say they are investigating the incident. At the 2022 Francophonie summit in Tunis, the DRC representative Jean-Michel Sama Lukonde refused to take part in a group photo with other Francophone leaders (including the Rwandan representative) as a protest against Rwanda's actions in the Congo. The East African Community demanded, on 24 November, for both a ceasefire between Rwanda and the DRC as well as ordering the M23 movement to withdraw from all occupied territories. The EAC stated it would lead a military intervention to quell the unrest in Kivu if the orders were not obeyed. At a summit in Luanda, Angola, both Rwanda and the DRC agreed to hold a ceasefire which was officially enforced on 25 November at 16:00 GMT. The M23 rejected the ceasefire, since they had not been invited to participate in the dialogue. A spokesman for the rebel group told Agence France-Presse that \"M23 has seen the document on social media. [...] There was nobody [from the M23] in the summit, so it doesn't really concern us... Normally when there is a cease-fire it is between the two warring sides.\""
+        },
+        {
+          "date": "2022-12-01",
+          "date_latest": "2022-12-31",
+          "date_precision": "month",
+          "text": "On 5 December, the DRC announced that 272 civilians were killed in a massacre in the eastern town of Kishishe, North Kivu. The Congolese government blamed the killings on the M23, though M23 themselves denied culpability. An investigation was opened by Jean-Paul Mukolo, attorney general of the DRC."
+        },
+        {
+          "date": "2023-01-01",
+          "date_latest": "2023-01-31",
+          "date_precision": "month",
+          "text": "On 19 January 2023, The Rwandan government claimed that the DRC had a \"clear indication\" that it was \"preparing for war.\" Rwanda also claimed that the DRC had imported European mercenaries on their behalf. Five days later, on 24 January, a Congolese Su-25 was damaged by MANPAD fire by Rwandan forces after Rwanda claimed it violated its airspace. The attack, which happened between the cities of Gisenyi and Goma, was responded to with a statement that said, \"The government considers this umpteenth attack by Rwanda as a deliberate action.\" It was also said that the plane suffered only minor damage."
+        },
+        {
+          "date": "2023-07-01",
+          "date_latest": "2023-07-31",
+          "date_precision": "month",
+          "text": "The DRC claimed on 27 July that it had repelled an incursion by the Rwandan army north of Goma. According to local sources, a Rwandan soldier was killed in the clash."
+        },
+        {
+          "date": "2023-10-01",
+          "date_latest": "2023-10-31",
+          "date_precision": "month",
+          "text": "On 18 October, the UN expressed concern about the risk of a direct war between both countries."
+        },
+        {
+          "date": "2023-11-01",
+          "date_latest": "2023-11-30",
+          "date_precision": "month",
+          "text": "On November 6, U.S. Secretary of State Antony Blinken called on Congolese President Félix Tshisekedi and Rwandan President Paul Kagame to de-escalate the conflict after a surge of rebel clashes in Kinshasa. On 21 November, the two leaders agreed on steps to deescalate the tensions between both countries, according to U.S. intelligence. The following day, M23 rebels claimed that they captured the town of Mweso."
+        },
+        {
+          "date": "2023-12-01",
+          "date_latest": "2023-12-31",
+          "date_precision": "month",
+          "text": "In a speech made on 9 December, Tshisekedi said, \"if Kagame [wants] to behave like Adolf Hitler by having expansionist aims, I promise he will end up like Adolf Hitler\". A Rwandan government spokesperson condemned this statement, accusing Tshisekedi of making \"a loud and clear threat\". On 20 December, Tshisekedi threatened an invasion of Rwanda, stating \"I've had enough of invasions and M23 rebels backed by Kigali,\" being met with chants of \"Kagame out!\""
+        },
+        {
+          "date": "2024-01-01",
+          "date_latest": "2024-01-31",
+          "date_precision": "month",
+          "text": "In the first incident of the year, a Congolese soldier was killed by Rwandan forces on January 16 in Rwanda's Rubavu District. The soldier allegedly opened fire on Rwandan soldiers before being shot dead. Two other Congolese soldiers were arrested in the same event. Félix Tshisekedi was sworn into his second term as president having promised to deal with the unrest in the east of the country."
+        },
+        {
+          "date": "2024-02-01",
+          "date_latest": "2024-02-29",
+          "date_precision": "month",
+          "text": "On 17 February, the U.S. Department of State published a statement condemning Rwanda's alleged support of M23, while calling for the Rwandan government to remove all RDF personnel and surface-to-air missile systems from the DRC. The Rwandan Ministry of Foreign Affairs and Cooperation (MINAFFET) responded with a rejection of U.S. demands, stating their recent moves were justified as defensive measures against the FDLR, and questioned the ability of the U.S. to act as a credible mediator in the African Great Lakes. The Rwandan statement ended with an assertion that the FDLR must be demobilized and repatriated to Rwanda, with MINAFFET furthermore proclaiming, \"Rwanda reserves the right to take any legitimate measures to defend our country, so long as this threat exists.\" The DRC accused Rwanda of carrying out a drone attack that damaged a civilian aircraft at Goma International Airport. Protests were held in the city and western flags were burned."
+        },
+        {
+          "date": "2024-05-01",
+          "date_latest": "2024-05-31",
+          "date_precision": "month",
+          "text": "On May 4, refugee camps near Goma were struck by bombs in coordinated attacks that killed 12 and injured at least 20. Both the Congolese administration and the U.S. Department of State blamed the Rwandan military and M23 for the attack. Yolande Makolo, spokeswoman for the Rwandan government, denied Rwandan culpability, saying on X, “The RDF, a professional army, would never attack an IDP camp. Look to the lawless FDLR [and] Wazalendo supported by the FARDC, for this kind of atrocity.”"
+        },
+        {
+          "date": "2024-08-01",
+          "date_latest": "2024-08-31",
+          "date_precision": "month",
+          "text": "On August 30, 2024, the Democratic Republic of Congo committed to suing Rwanda before the East African Court of Justice."
+        },
+        {
+          "date": "2024-12-01",
+          "date_latest": "2024-12-31",
+          "date_precision": "month",
+          "text": "A planned summit between Tshisekedi and Kagame on 15 December 2024, meant to address the disarmament of the FDLR, was canceled after Kagame withdrew. This development reinforced suspicions that Rwanda's presence in eastern DRC was less about security concerns and more about economic exploitation. The Congolese government stated that \"If Kigali is in good faith in the negotiations and on its promise to withdraw ... its troops from Congolese soil, the conflict will end with the M23, and at the same time it will stop with Rwanda.\""
+        },
+        {
+          "date": "2025-01-01",
+          "date_latest": "2025-01-31",
+          "date_precision": "month",
+          "text": "A rebel advance towards the city of Goma, the North Kivu provincial capital, during January 2025 displaced over 178,000 people. The town of Minova in South Kivu, a key point on the supply route to Goma, was captured on 21 January by M23. The Congolese government accused a Rwandan sniper of killing North Kivu's military governor. As the rebels approached the city, on 25 January the DRC ended diplomatic relations with Rwanda, recalling its embassy staff from the country and ordering the Rwandan embassy in Kinshasa to end its operations. A spokesman for the Congolese military claimed that \"Rwanda is determined to seize the city of Goma.\" The UN estimates that 4,000 Rwandan soldiers are in the DRC assisting the rebel group, and the Rwandan military command set up a headquarters one mile away from the Congolese border, although Rwanda denies involvement in the conflict. On 26 January fighting started between Congolese army and M23 troops in the outskirts of Goma. UN sources estimated that around 500–1,000 Rwandan troops are helping the M23 rebels in the Goma area. An emergency session of the UN Security Council was held, where Congolese foreign minister Thérèse Kayikwamba Wagner called Rwanda's actions a \"declaration of war.\" She also asked the UN Security Council to impose sanctions on Rwanda. Shelling by Congolese army troops killed five civilians in Gisenyi, Rwanda, on 27 January."
+        },
+        {
+          "date": "2025-02-01",
+          "date_latest": "2025-02-28",
+          "date_precision": "month",
+          "text": "On 5 February 2025, the M23 captured Goma, and vehicle wreckage was seen from the heavy fighting. On 7 February 2025, the United Nations Human Rights Council (UNHRC) condemned Rwanda's support for M23 rebels in eastern Congo and launched an investigation to examine rights violations. The council urged M23 and Rwandan forces to cease abuses and allow humanitarian aid. Volker Türk said that estimated 3,000 people were killed and nearly 2,900 injured since 26 January 2025. On 18 February 2025, Volker Türk accused Rwanda-backed M23 rebels of executing and recruiting children and attacking aid facilities after seizing Bukavu and Goma. While they claimed to protect Tutsis, critics saw their actions as a cover for Rwandan influence. Meanwhile, Ugandan troops entered Bunia to curb ethnic violence. On 21 February 2025, Rwanda's government expressed solidarity with General James Kabarebe, who was sanctioned by the U.S. over his alleged role in the violence in eastern Congo. Rwanda rejected the sanctions as “unjustified and unfounded” emphasizing that border security with Congo was a national priority. Despite Rwanda's denials, the U.S. and UN have linked Rwanda to M23's actions, urging dialogue between Congo and the rebels. However, Congo's President Tshisekedi has refused talks, seeing M23 as a proxy of Rwanda. On 25 February 2025, the UK announced to suspend bilateral aid to Rwanda and impose sanctions on Kigali due to its involvement in Congo conflict."
+        },
+        {
+          "date": "2025-03-01",
+          "date_latest": "2025-03-31",
+          "date_precision": "month",
+          "text": "On 1 March 2025, the Congo River Alliance and M23 formally turned over to Rwandan custody several alleged FDLR militia fighters at the border along Rwanda's Rubavu District. The Rwandan Ministry of Defense claimed that captured FDLR members had worked closely with the Congolese military (FARDC) and other government forces. A spokesman for the FARDC said that this was a \"setup\" to discredit the FARDC and an attempt to justify the invasion of the Congo, using former FDLR members from Rwandan prisons and dressing them in captured Congolese uniforms. He also accused Rwanda of being responsible for war crimes in Goma and for having previously ordered an FDLR commander to attack Congolese. On 9 March 2025, the M23 fully captured Goma and Bukavu, pushing deeper into the mineral-rich DRC. The DRC offered USD$5,000,000 for M23 leaders’ arrest AND USD$4,000,000 for accomplices. On 18 March 2025, Presidents Félix Tshisekedi of the Democratic Republic of the Congo (DRC) and Paul Kagame of Rwanda met in Doha, Qatar, to discuss the ongoing conflict in eastern DRC. The leaders, alongside Qatar's Emir Sheikh Tamim bin Hamad Al Thani, called for an \"immediate and unconditional ceasefire\" in the region. Despite this, M23 rebels, supported by Rwanda, seized the town of Walikale on 20 March 2025, pushing further into DRC's interior. M23 leaders rejected the ceasefire, citing unresolved issues."
+        },
+        {
+          "date": "2025-06-01",
+          "date_latest": "2025-06-30",
+          "date_precision": "month",
+          "text": "A preliminary peace deal was reached on 19 June 2025 between Congolese and Rwandan delegations following three days of talks in Washington, D.C., brokered by the second Trump administration. President Tshisekedi had invited President Donald Trump to participate in mediating the conflict. The talks did not involve M23, and reportedly had terms that included the withdrawal of Rwandan troops from the DRC and some Congolese minerals mined on a small scale to be exported through Rwanda. The U.S. indicated it would invest in the DRC's mining industry. The signing of the final deal was scheduled for 27 June. On 26 June it was reported that the DRC dropped its demand for an immediate Rwandan troop withdrawal. An M23 spokesman said that the deal does not concern the group. A peace agreement was signed on 27 June by the foreign ministers of Rwanda and the DRC, Olivier Nduhungirehe and Thérèse Kayikwamba Wagner, in the presence of U.S. secretary of state Marco Rubio. A signing ceremony was also held later that day in the White House, with President Trump. The agreement pledges to create a joint security cooperation mechanism between the two countries within a month, to monitor the withdrawal of Rwandan troops from the DR Congo within 90 days, and the DRC pledged to end its support for the FDLR. Rwanda and the DRC also agreed to create regional economic integration framework within a month to \"expand foreign trade and investment derived from regional critical mineral supply chains\"."
+        },
+        {
+          "date": "2025-12-01",
+          "date_latest": "2025-12-31",
+          "date_precision": "month",
+          "text": "On 4 December 2025, U.S. President Donald Trump hosted Rwandan President Paul Kagame and Democratic Republic of Congo President Félix Tshisekedi in Washington to ratify the peace agreement. The leaders reaffirmed their commitments to the U.S.-brokered peace deal reached in June, 2025. On 5 December 2025, only one day after the latest peace agreement was signed, fighting resumed between the Congolese military and the M23. On 6 December, the Congolese military spokesman accused Rwanda and the M23 of launching artillery attacks on targets in South Kivu, including civilian areas. Rwanda denied the allegation on 7 December. On 8 December, Tshisekedi publicly accused Rwanda of violating the peace agreement. On the same day, Burundian Foreign Minister Édouard Bizimana alleged that 8,000 Rwandan troops are present in South Kivu. Thousands of people, including civilian refugees, FARDC and pro-government Wazalendo militiamen, and Burundian FDNB troops retreated as M23/AFC forces captured the town of Sange in the Uvira Territory, as part of the offensive towards Uvira. They fled into neighboring areas or crossed the border into Burundi. The FDNB chief of staff, General Prime Niyongabo, reportedly made the decision for the remaining Burundian troops in the DRC to withdraw back into their country."
+        },
+        {
+          "date": "2026-02-01",
+          "date_latest": "2026-02-28",
+          "date_precision": "month",
+          "text": "Willy Ngoma, the military spokesperson for the M23 rebel movement, was killed in a drone strike near Rubaya in North Kivu. Reuters reported the death on 24 February 2026, citing Congolese officials and local sources who attributed the strike to Congolese forces; the M23 had not issued an immediate public confirmation in those initial reports."
+        },
+        {
+          "date": "2026-03-01",
+          "date_latest": "2026-03-31",
+          "date_precision": "month",
+          "text": "The United States imposed sanctions over what it described as Rwanda's support for M23, which Rwanda continues to deny despite extensive evidence to the contrary. DR Congo and Rwanda agreed in US-hosted talks to take coordinated steps to reduce tensions, including mutual respect for sovereignty, a Rwandan withdrawal from specified areas, and renewed Congolese action against the FDLR."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "First Congo War",
+      "pageid": 1273364,
+      "revid": 1370619288,
+      "revision_timestamp": "2026-08-22T03:21:22Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1273364",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1996-08-31",
+          "date_latest": "1996-08-31",
+          "date_precision": "day",
+          "text": "The government in Kigali began forming Tutsi militias for operations in Zaire probably as early as 1995 and chose to act following an exchange of fire between Rwandan Tutsi and Zairian Green Berets that marked the outbreak of the Banyamulenge Rebellion on 31 August 1996."
+        },
+        {
+          "date": "1996-10-24",
+          "date_latest": "1996-10-24",
+          "date_precision": "day",
+          "text": "Overthrow of the Mobutu regime *Zaire renamed back to the Democratic Republic of the Congo *Installation of Laurent-Désiré Kabila as President *Beginning of Second Congo War * ' ** FAZ ** White Legion * Sudan * * Ex-FAR/ALiR * Interahamwe * CNDD–FDD * UNITA * ADF * FLNC * LRA * UNRF II Supported by: (military aid) ---- * Mai-Mai * AFDL * * * * * SPLA * ---- * Mai-Mai * Mobutu Sese Seko * Donatien Mahele Lieko Bokungu * Christian Tavernier * Omar al-Bashir * Jonas Savimbi * Paul Rwarakabije * Robert Kajuga * Tharcisse Renzaho * Laurent-Désiré Kabila * André Kisase Ngandu * Paul Kagame * James Kabarebe * Yoweri Museveni * Pierre Buyoya * José Eduardo dos Santos * AFDL: 57,000 ** Kadogo (child soldiers): 10,000–15,000 * Rwanda: 3,500–4,000 * Angola: 3,000+ * Eritrea: 1 battalion }} The First Congo War, also known as Africa's First World War, was a civil and international military conflict that lasted from 24 October 1996 to 16 May 1997, primarily taking place in Zaire (which was renamed the Democratic Republic of the Congo during the conflict).",
+          "names_later_date": true
+        },
+        {
+          "date": "1996-12-25",
+          "date_latest": "1996-12-25",
+          "date_precision": "day",
+          "text": "With active support from Rwanda, Uganda, and Eritrea, Kabila's AFDL was able to capture 800 x 100 km of territory along the border with Rwanda, Uganda, and Burundi by 25 December 1996."
+        },
+        {
+          "date": "1997-09-07",
+          "date_latest": "1997-09-07",
+          "date_precision": "day",
+          "text": "Mobutu fled first to his palace at Gbadolite, then to Togo, and finally to Rabat, Morocco, where he died on 7 September 1997."
+        },
+        {
+          "date": "1998-07-26",
+          "date_latest": "1998-07-26",
+          "date_precision": "day",
+          "text": "This culminated in the expulsion of all foreign forces from the DRC on 26 July 1998."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Kivu conflict",
+      "pageid": 14687290,
+      "revid": 1371415961,
+      "revision_timestamp": "2026-08-26T08:28:07Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=14687290",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-01-31",
+          "date_precision": "month",
+          "text": "Nkunda's group attended the talks, but walked out on 10 January 2008, after an alleged attempted arrest of one of their members. They later returned to the talks. The talks' schedule was extended to last until 21 January, and then to 22 January as an agreement appeared to be within reach. It was further extended to 23 January over final disagreements regarding war crimes cases. The peace deal was signed on 23 January and included provisions for an immediate ceasefire, the phased withdrawal of all rebel forces in North Kivu, the resettlement of thousands of villagers, and immunity for Nkunda's forces. The agreement encouraged FARDC and the United Nations to remove FDLR forces from Kivu. Dissatisfaction with progress and lack of resettlement of refugees caused the CNDP forces to declare war on the FDLR and hostilities to resume, including civilian atrocities. Neither the Democratic Forces for the Liberation of Rwanda nor the Rwandan government took part in the talks, a fact which may hurt the stability of the agreement."
+        },
+        {
+          "date": "2009-03-23",
+          "date_latest": "2009-03-23",
+          "date_precision": "day",
+          "text": "In March 2009, the CNDP had signed a peace treaty with the government, in which it agreed to become a political party in exchange for the release of its imprisoned members. In April 2012, former National Congress for the Defence of the People (CNDP) soldiers mutinied against the government. The mutineers formed a rebel group called the March 23 Movement (M23). Former CNDP commander Bosco Ntaganda, known as \"the Terminator\" is accused of founding the movement. On 4 April, Ntaganda and 300 loyal troops defected from the DRC and clashed with government forces in the Rutshuru region north of Goma. Africa Confidential said on 25 May 2012 that \"the revolt now seems to be as much about resisting an attempt by Kinshasa to disrupt CNDP networks in the restive Kivu provinces, a process of which Ntaganda may find himself a casualty.\" On 20 November 2012, the M23 took control of Goma after the national army retreated westward. MONUSCO, the United Nations peacekeeping force, watched the takeover without intervening, stating that its mandate allowed it only to protect civilians. M23 withdrew from Goma in early December following negotiations with the government and regional powers. On 24 February 2013, leaders of 11 African nations signed an agreement designed to bring peace to the eastern region of the Democratic Republic of Congo. The M23 rebels were not represented in the deal's negotiations or at the signing. Following disagreements in the M23 about how to react to the peace agreements, M23 political coordinator Jean-Marie Runiga Lugerero, was sacked by its military chief Sultani Makenga. Makenga declared himself interim leader and clashes between those loyal to him and those loyal to Jean-Marie Runiga Lugerero, who is allied with Bosco Ntaganda, have killed ten men and two others were hospitalized. In March 2013, the United Nations Security Council authorized the deployment of an intervention brigade within MONUSCO to carry out targeted offensive operations, with or without the Congolese national army, against armed groups that threaten peace in eastern DRC. It is the first peacekeeping unit tasked with carrying out offensive operations.",
+          "names_later_date": true
+        },
+        {
+          "date": "2009-03-23",
+          "date_latest": "2009-03-23",
+          "date_precision": "day",
+          "text": "International diplomatic efforts, combined with pressure on both Kinshasa and Kigali, eventually led to negotiations between the DRC and Rwanda. These talks culminated in the signing of the Ihusi Agreement on 16 January 2009.:33–36 Prior to this, the United Nations Group of Experts on the DRC had revealed that the conflict in the Kivus had evolved into a proxy war, with Kinshasa supporting Mai-Mai groups and the FDLR, while Kigali backed the CNDP.:33–36 The Goma Conference on 23 January 2008, further raised Nkunda's profile, with his media presence straining relations with Rwanda. In January 2009, Ntaganda announced the removal of Nkunda as the leader of the CNDP, citing mismanagement. Nkunda, caught by surprise, was unable to resist this change. On 16 January 2009, Ntaganda publicly declared the CNDP's integration into the Congolese army during a ceremony in Goma, attended by both the Rwandan Defence Minister and the Congolese Interior and Security Minister. The stated goal of this Rwanda-DRC agreement was to initiate joint operations against the FDLR, but the immediate priority was the consolidation of CNDP control and its integration into the Congolese military. On January 22, 2009, Nkunda crossed into Rwanda at Kabuhanga, where he was arrested by Rwandan officers. His associates, including Makenga, were directed to proceed with the integration process. Following Nkunda's removal, Rwandan and Congolese forces launched Operation Umoja Wetu (\"Our Unity\"), deploying approximately 4,000 Rwandan troops into eastern DRC to combat the FDLR. Concurrently, former CNDP officers were integrated into the Congolese army, securing key positions within it, with guarantees they would not be stationed outside the Kivus. On 23 March 2009, the Kinshasa government finalized agreements with the CNDP and other armed groups, officially integrating CNDP forces into the national military, resulting in the dissolution of the CNDP. However, the integration process was fraught with difficulties, as many CNDP officers retained significant control in the Kivus. Operation Umoja Wetu was marked by significant human rights abuses, with both government and former rebel forces committing atrocities. Between January and September 2009, Human Rights Watch reported over 1,400 civilian deaths, primarily women, children, and the elderly, often accompanied by widespread sexual violence. In the first nine months of 2009, health centers in North and South Kivu recorded over 7,500 cases of sexual violence, nearly double the previous year's numbers. The instability created by these events contributed to the emergence of new armed groups in the region. On 18 August, three Indian UN soldiers were killed by Mai-Mai rebels in a surprise attack at a MONUSCO base in Kirumba, Nord-Kivu. On 23 October, Mai-Mai rebels attacked a MONUSCO base in Rwindi (30 km north of Kirumba). UN troops killed 8 rebels in the battle. Ntaganda emerged as a key figure in the post-integration period, securing the role of deputy commander in government operations against the FDLR. He leveraged this position to appoint former CNDP officers to strategic roles, particularly in the mineral-rich regions of Nyabibwe, Bisie, and Bibatama, expanding their influence over mining operations. The CNDP continued to manipulate the integration process, incorporating Rwandan personnel into the Congolese army, including individuals with no prior affiliation to the CNDP. Some CNDP factions also remained outside the integration framework, hedging their positions for future developments. By 2011, Ntaganda had consolidated substantial power, particularly after the incapacitation of General Dieudonné Amuli in a plane crash. His growing authority allowed him to oversee military operations and personnel appointments across the Kivus. The 23 March 2009 agreement would later serve as a reference point for future conflicts, particularly with the emergence of the March 23 Movement in 2012, a rebellion led by former CNDP officers who contested the terms of the integration and broader governance of the region."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "M23 campaign (2022–present)",
+      "pageid": 71001703,
+      "revid": 1371464836,
+      "revision_timestamp": "2026-08-26T16:11:03Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=71001703",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2012-05-06",
+          "date_latest": "2012-05-06",
+          "date_precision": "day",
+          "text": "The rebellion formally commenced on 6 May 2012, culminating in clashes with the Congolese army and the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO)."
+        },
+        {
+          "date": "2021-11-07",
+          "date_latest": "2021-11-07",
+          "date_precision": "day",
+          "text": "On 7 November 2021, Makenga's troops carried out a small-scale attack on FARDC positions in Ndiza, Cyanzu, and Runyoni, resulting in four fatalities."
+        },
+        {
+          "date": "2022-03-23",
+          "date_latest": "2022-03-23",
+          "date_precision": "day",
+          "text": "During the M23 offensive in Bunagana on 23 March 2022, Ugandan soldiers intervened to safeguard Dott Services personnel and assets."
+        },
+        {
+          "date": "2022-03-27",
+          "date_latest": "2022-03-27",
+          "date_precision": "day",
+          "text": "In the night of 27 March 2022, M23 rebels launched a new offensive in North Kivu, first attacking the villages of Tshanzu and Runyoni in the Rutshuru Territory from their strongholds at the surrounding hills."
+        },
+        {
+          "date": "2022-11-15",
+          "date_latest": "2022-11-15",
+          "date_precision": "day",
+          "text": "By 15 November 2022, M23 had pushed to the towns of Rugari and Tongo, forcing hundreds of civilians to flee."
+        },
+        {
+          "date": "2022-12-28",
+          "date_latest": "2022-12-28",
+          "date_precision": "day",
+          "text": "On 28 December 2022, South Sudan sent a contingency of 750 troops to join the East African Contingency to be stationed in Goma."
+        },
+        {
+          "date": "2023-01-26",
+          "date_latest": "2023-01-26",
+          "date_precision": "day",
+          "text": "On 26 January 2023, M23 captured Kitchanga."
+        },
+        {
+          "date": "2024-02-04",
+          "date_latest": "2024-02-04",
+          "date_precision": "day",
+          "text": "On 4 February 2024, M23 seized the town of Shasha, adjacent settlements, and was in control of the road linking Goma to Minova."
+        },
+        {
+          "date": "2024-04-30",
+          "date_latest": "2024-04-30",
+          "date_precision": "day",
+          "text": "Rwanda, in turn, has cultivated an image as a stable and efficient trading hub within the mineral sector. , the largest coltan mine in the African Great Lakes region and a major contributor to the country's mining economy, accounting for 15% of global coltan production, has been under M23 control since April 2024.]] On 30 April 2024, M23 and RDF forces seized key mining areas in southern Masisi Territory, including Rubaya, one of the world's largest coltan deposits."
+        },
+        {
+          "date": "2024-07-08",
+          "date_latest": "2024-07-08",
+          "date_precision": "day",
+          "text": "Resources: * Gold mines * Tantalum, tungsten or tin mines}} () * Congo River Alliance (since Dec. 2023) ** M23 Movement ** Twirwaneho (since Feb. 2025) * RED-Tabara (since Feb. 2025) * Mai-Mai Rushaba (since March 2025) * ---- * Anti-government Nyatura-factions ---- *Uganda (since June 2022) *Malawi (since 2025) *South Africa (since 2026) }} SADC Mission in DRC (until 2025) FDLR }} * M23 forces ** Bisimwa faction (Revolutionary Army of Congo) ** Makenga faction * Rwandan Defence Force (denied by Rwanda) ** 401st Battalion * DR Congo forces ** Armed Forces (FARDC) *** Operations sector \"Sokola 2/Nord-Kivu\" **** 32nd Military Region *** Air Force ** Republican Guard ** Congolese National Police ** Pro-government militias * Romanian mercenaries * UN FIB * EAC Regional Force ** Uganda People's Defence Force *** 25th Battalion *** 35th Battalion * 2.5 million displaced in total (as of 8 July 2024) * 7,000 killed (25 Jan 2025 – 25 Feb 2025) * ~900 dead to associated Ebola outbreak exacerbated by the conflict }} The M23 campaign is an ongoing series of military offensives launched by the March 23 Movement (M23), a Rwandan-backed rebel paramilitary group in the Democratic Republic of the Congo, since March 2022."
+        },
+        {
+          "date": "2025-03-17",
+          "date_latest": "2025-03-17",
+          "date_precision": "day",
+          "text": "On 17 March 2025, the European Commission imposed restrictive measures on nine individuals and one entity for serious human rights violations and exploitation of the conflict in the DRC, including M23's president Bertrand Bisimwa, recruitment and propaganda chief Désiré Rukomera, Col."
+        },
+        {
+          "date": "2025-08-06",
+          "date_latest": "2025-08-06",
+          "date_precision": "day",
+          "text": "On 6 August 2025, the OHCHR reported that between 9 and 21 July, M23 forces, aided by the RDF, killed at least 319 civilians in North Kivu, including 48 women and 19 children, most of whom were farmers camping in their fields."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Second Congo War",
+      "pageid": 877492,
+      "revid": 1370736925,
+      "revision_timestamp": "2026-08-22T20:53:26Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=877492",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2002-04-01",
+          "date_latest": "2002-04-30",
+          "date_precision": "month",
+          "text": "Under the leadership of South Africa, peace talks held in that country between April and December 2002 led to the signing of a \"comprehensive peace agreement.\" The Sun City Agreement was formalised on 19 April 2002. It was a framework for providing the Congo with a unified, multiparty government and democratic elections. However, critics noted that there were no stipulations regarding the unification of the army, which weakened the effectiveness of the agreement. There were several reported breaches of the Sun City agreement, but it had seen a reduction in the fighting. The agreement came about due to the military stalemate rather than any actual desire for peace. The rebels, who lacked ideology, large civilian constituency, and a unified cause, apart from their hopes of profiting politically and economically from the dissolution of the Congo, were stuck in a perpetual war, especially following the inauguration of the Bush administration, which had turned a cold-shoulder to Rwanda. The Clinton administration had, throughout 1996 and 2000, supported or at least tolerated the invasions of the Congo, as the country felt deeply embarrassed by its inaction during the Rwandan genocide. Under George W. Bush, this support began to wane as the United States grew tired of Rwanda exploiting its \"genocide guilt credit\" to justify what increasingly appeared to be a policy of deliberate deception in the Congo. For the exhausted Congolese government, whose weak 120,000 man army included a large number of ghost soldiers, the statement by the Angolan government that its support was about to end, whom along with Zimbabwe (whose support it feared might also wear out over time), it desperately relied on, raised fears in the government about the possibility of the government's armed forces collapsing from lack of support. On 30 July 2002, Rwanda and the Democratic Republic of Congo signed a peace deal known as the Pretoria Accord after five days of talks in Pretoria, South Africa. The talks centered on two issues. One was the withdrawal of the estimated 20,000 Rwandan soldiers in the Congo. The other was the rounding up of the ex-Rwandan soldiers and the dismantling of the Hutu militia known as Interahamwe, which took part in Rwanda's 1994 genocide and continues to operate out of eastern Congo. Rwanda had previously refused to withdraw until the Hutu militias were dealt with. Signed on 6 September, the Luanda Agreement formalised peace between Congo and Uganda. The treaty aimed to get Uganda to withdraw its troops from Bunia and to improve the relationship between the two countries, but implementation proved troublesome. Eleven days later, the first Rwandan soldiers were withdrawn from the eastern DRC. On 5 October Rwanda announced the completion of its withdrawal; MONUC confirmed the departure of over 20,000 Rwandan soldiers. On 21 October, the UN published its expert panel's report on the pillage of natural resources by armed groups. Both Rwanda and Uganda rejected accusations that senior political and military figures were involved in illicit trafficking of plundered resources. Zimbabwe Defense Minister Sydney Sekeramayi says the Zimbabwean military withdrew from the DRC in October 2002, but in June 2006 reporters said a 50-man force had stayed in the DRC to protect Kabila. On 17 December 2002, the Congolese parties of the Inter Congolese Dialogue (the national government, the MLC, the RCD, the RCD-ML, the RCD-N, the domestic political opposition, representatives of civil society and the Mai Mai) signed the Global and All-Inclusive Agreement. The agreement described a plan for transitional governance that would have resulted in legislative and presidential elections within two years of its signing and marked the formal end of the Second Congo War.",
+          "names_later_date": true
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

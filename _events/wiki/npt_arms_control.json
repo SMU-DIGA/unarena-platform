@@ -1,0 +1,2945 @@
+{
+  "topic": "npt_arms_control",
+  "label": "Non-Proliferation Treaty and arms control",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 469,
+  "flagged_vote_language": 6,
+  "flagged_names_later_date": 7,
+  "vague_dated_segments": 361,
+  "cross_article_duplicates": 18,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of nuclear weapons development",
+      "pageid": 22330724,
+      "revid": 1357165347,
+      "revision_timestamp": "2026-06-01T02:51:49Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=22330724",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "1895-01-01",
+          "date_latest": "1895-12-31",
+          "date_precision": "year",
+          "text": "Wilhelm Konrad Röntgen discovers X-rays at the University of Würzburg."
+        },
+        {
+          "date": "1896-01-01",
+          "date_latest": "1896-12-31",
+          "date_precision": "year",
+          "text": "Henri Becquerel discovers that uranium emits radiation at the National Museum of Natural History in Paris."
+        },
+        {
+          "date": "1898-01-01",
+          "date_latest": "1898-12-31",
+          "date_precision": "year",
+          "text": "J.J. Thomson observes the photoelectric effect."
+        },
+        {
+          "date": "1900-01-01",
+          "date_latest": "1900-12-31",
+          "date_precision": "year",
+          "text": "Max Planck theorizes that matter can only absorb energy in fixed quanta."
+        },
+        {
+          "date": "1904-01-01",
+          "date_latest": "1904-12-31",
+          "date_precision": "year",
+          "text": "Frederick Soddy first proposes a bomb powered by nuclear fission to the Royal Engineers."
+        },
+        {
+          "date": "1905-01-01",
+          "date_latest": "1905-12-31",
+          "date_precision": "year",
+          "text": "Albert Einstein proposes mass–energy equivalence, deriving from his theory of special relativity, which he had developed earlier that year."
+        },
+        {
+          "date": "1911-01-01",
+          "date_latest": "1911-12-31",
+          "date_precision": "year",
+          "text": "Ernest Rutherford discovers that the majority of the energy in an atom is contained in the nucleus through experiments at the University of Manchester."
+        },
+        {
+          "date": "1912-01-01",
+          "date_latest": "1912-12-31",
+          "date_precision": "year",
+          "text": "J.J. Thomson discovers isotopes through experiments with neon."
+        },
+        {
+          "date": "1914-01-01",
+          "date_latest": "1914-12-31",
+          "date_precision": "year",
+          "text": "H.G. Wells writes The World Set Free, a science fiction novel postulating a world war in 1956 pitting the United Kingdom and France against Germany and Austria-Hungary. Inspired by the research of Rutherford, Sir William Ramsay, and Frederick Soddy, the novel predicts the development of atomic weapons, and features a \"carolinum\"-based hand grenade that does not extinguish once detonated."
+        },
+        {
+          "date": "1920-01-01",
+          "date_latest": "1920-12-31",
+          "date_precision": "year",
+          "text": "Rutherford postulates the existence of a neutral particle in the atomic nucleus at a Bakerian Lecture in London."
+        },
+        {
+          "date": "1924-01-01",
+          "date_latest": "1924-12-31",
+          "date_precision": "year",
+          "text": "Writing for The Pall Mall Gazette, Winston Churchill speculates \"Might a bomb no bigger than an orange be found to possess a secret power to destroy a whole block of buildings – nay to concentrate the force of a thousand tons of cordite and blast a township at a stroke?\""
+        },
+        {
+          "date": "1932-01-01",
+          "date_latest": "1932-12-31",
+          "date_precision": "year",
+          "text": "James Chadwick discovers the neutron, leading to experiments in which elements are bombarded with the new particle."
+        },
+        {
+          "date": "1933-01-01",
+          "date_latest": "1933-12-31",
+          "date_precision": "year",
+          "text": "Leó Szilárd realizes the concept of the nuclear chain reaction, although no such reaction was known at the time. He invented the idea of an atomic bomb in 1933 while crossing a London street in Russell Square. He patented it in 1934. (British patent 630,726)"
+        },
+        {
+          "date": "1934-01-01",
+          "date_latest": "1934-12-31",
+          "date_precision": "year",
+          "text": "Enrico Fermi conducts experiments in which he exposes uranium and thorium to neutrons to create distinct new substances. Although he is unaware at the time, he creates the first synthetic elements, the transuranium elements."
+        },
+        {
+          "date": "1938-01-01",
+          "date_latest": "1938-12-31",
+          "date_precision": "year",
+          "text": "December – The German chemists Otto Hahn and Fritz Strassman detect barium after bombarding uranium with neutrons. This is correctly interpreted by Lise Meitner and her nephew Otto Robert Frisch as nuclear fission."
+        },
+        {
+          "date": "1938-01-01",
+          "date_latest": "1938-12-31",
+          "date_precision": "year",
+          "text": "Fermi is awarded the Nobel Prize in Physics for his achievements, and flees from Fascist Italy to the United States due to the racial laws ratified under pressure from Nazi Germany."
+        },
+        {
+          "date": "1939-01-01",
+          "date_latest": "1939-12-31",
+          "date_precision": "year",
+          "text": "April – Nazi Germany begins the German nuclear energy project."
+        },
+        {
+          "date": "1939-01-01",
+          "date_latest": "1939-12-31",
+          "date_precision": "year",
+          "text": "January – Otto Robert Frisch experimentally confirms Otto Hahn and Fritz Strassman's discovery of nuclear fission. Frisch goes to Copenhagen to share the discovery with Niels Bohr, who in turn reports the discovery to his American colleagues. Bohr and John Archibald Wheeler determine later that year through chain-reaction experiments at Princeton University that uranium-235 could produce a nuclear explosion."
+        },
+        {
+          "date": "1939-01-01",
+          "date_latest": "1939-12-31",
+          "date_precision": "year",
+          "text": "October – U.S. President Franklin D. Roosevelt receives the Einstein–Szilárd letter and authorizes the creation of the Advisory Committee on Uranium. The Uranium Committee has its first meeting on October 21, and $6,000 was budgeted for conducting neutron experiments."
+        },
+        {
+          "date": "1939-01-01",
+          "date_latest": "1939-12-31",
+          "date_precision": "year",
+          "text": "September 1 – World War II begins after the invasion and subsequent partition of Poland between Nazi Germany and the Soviet Union."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "April – The MAUD Committee (Military Application of Uranium Detonation) is established by Henry Tizard and the British Ministry of Aircraft Production to investigate feasibility of an atomic bomb."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "July – The Soviet Academy of Sciences starts a committee to investigate the development of a nuclear bomb."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "July – The paper explaining that Dr. Yoshio Nishina and Kenjiro Kimura discovered symmetric fission on the previously described test appeared in Nature. The LibreTexts libraries based upon work supported by the National Science Foundation says, \"Multiple combinations of symmetric fission products are possible for fission chain reactions.\" And, again, it as fission product yield, is known that the higher the energy of the state that undergoes nuclear fission is more likely a symmetric fission."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "June - The French Third Republic collapses during the Battle of France. The rapid military collapse would contribute to nearly universal French public support for a nuclear deterrent in later years."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "May - After the defeat of Belgium in only 18 days, the Nazis took possession of a significant amount of high quality uranium ore from the Belgian Congo, some still \"on the docks\". In 1939 both Britain and France had expressed interest in securing Belgium's uranium inventory but no action was taken."
+        },
+        {
+          "date": "1940-01-01",
+          "date_latest": "1940-12-31",
+          "date_precision": "year",
+          "text": "September – Belgian mining engineer Edgar Sengier orders that half of the uranium stock available from the Shinkolobwe mine in the Belgian Congo—about 1,050 tons—be secretly dispatched to New York by African Metals Corp., a commercial division of Union Minière."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "December – The United States enters World War II after the Pearl Harbor attack and the German declaration of war against the United States, leading to an influx in funding and research for atomic weapons."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "February – Plutonium discovered by Glenn Seaborg and Arthur Wahl at the University of California, Berkeley."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "June 15 – The MAUD Committee approves a report that a uranium bomb could be built."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "June 22 – Operation Barbarossa, the 1941 German invasion of the Soviet Union, begins. Soviet nuclear research is subsequently delayed."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "June – President Roosevelt forms the Office of Scientific Research and Development under Vannevar Bush."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "May – A review committee postulates that the United States will not isolate enough uranium-235 to build an atomic bomb until 1945."
+        },
+        {
+          "date": "1941-01-01",
+          "date_latest": "1941-12-31",
+          "date_precision": "year",
+          "text": "October – President Roosevelt receives MAUD report on the design and costs to develop a nuclear weapon. Roosevelt approves project to confirm MAUD's finding."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "April – Joseph Stalin was first informed of the efforts to develop nuclear weapons based on a letter sent to him by Georgii Flerov pointing out that there was nothing being published on nuclear fission since its discovery, and the prominent physicists likely involved had not been publishing at all. This urged the Soviet Union to start a nuclear weapons program."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "August through November – The Manhattan Project is established by the U.S. Army Corps of Engineers under command of General Leslie Groves. \"Site X\" is chosen in Tennessee, for isotopic separation of uranium-235 from natural uranium, and will later become Oak Ridge National Laboratory. Hanford Site is chosen in Washington, for making plutonium in nuclear reactors. \"Site Y\" is chosen by Groves and Dr. J. Robert Oppenheimer near Albuquerque, New Mexico, for bomb design and manufacture, and will later become Los Alamos National Laboratory."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "December 2 – Enrico Fermi and his team achieve the first controlled nuclear reaction at Chicago Pile-1 constructed at the University of Chicago in a squash court underneath Stagg Field."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "July through September – A summer conference at University of California, Berkeley is convened by physicist Robert Oppenheimer and discusses the design of a fission bomb. Edward Teller introduces the \"Super\" hydrogen bomb as a major discussion point."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "July – The Heereswaffenamt (HWA, Army Ordnance Office) relinquishes control of the German nuclear energy project to the Reichsforschungsrat (RFR, Reich Research Council), essentially making it only a research project with objectives far short of making a weapon."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "November - The first uranium oxide shipment leaves the Congolese port of Lobito (it will later change to Matadi because of better security). Only two shipments will ever be lost at sea. Aerodromes at Elizabethville and Leopoldville are expanded with US assistance. The OSS is employed to prevent ore smuggling to Nazi Germany."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "October - 100 tons of Sengier's uranium ore is sent to Canada for refining by Eldorado Mining and Refining in Port Hope, Ontario."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "October - A special detachment from United States Army Corps of Engineers arrives in the Belgian Congo to reopen the Shinkolobwe mine. Work involves draining water from flooded workings, upgrading the plant machinery and constructing transportation facilities."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "September - Lieutenant Colonel Kenneth Nichols meets Edgar Sengier in the New York offices of Union Minière. Nichols has been ordered by General Groves to find uranium. Sengier's answer has become history: \"You can have the ore now. It is in New York, a thousand tons of it. I was waiting for your visit.\" Nichols reaches an agreement with Sengier that an average of 400 tons of uranium oxide will begin shipping to the US from Shinkolobwe each month."
+        },
+        {
+          "date": "1942-01-01",
+          "date_latest": "1942-12-31",
+          "date_precision": "year",
+          "text": "The United Kingdom opts to support the United States' efforts to build a bomb rather than to pursue its own nuclear weapons program due to wartime economic damage, and allows the Tube Alloys programme to be subsumed into the American project."
+        },
+        {
+          "date": "1943-01-01",
+          "date_latest": "1943-12-31",
+          "date_precision": "year",
+          "text": "April – Introductory lectures begin at Los Alamos, which later are compiled into The Los Alamos Primer."
+        },
+        {
+          "date": "1943-01-01",
+          "date_latest": "1943-12-31",
+          "date_precision": "year",
+          "text": "August – The Quebec Agreement is signed by President Roosevelt and British Prime Minister Winston Churchill. James Chadwick, as head of the British Mission to the Los Alamos Laboratory, led a multinational team of distinguished scientists that included Sir Geoffrey Taylor, James Tuck, Niels Bohr, Rudolf Peierls, Otto Frisch, Klaus Fuchs and Ernest Titterton."
+        },
+        {
+          "date": "1943-01-01",
+          "date_latest": "1943-12-31",
+          "date_precision": "year",
+          "text": "Laboratory No. 2 is established to pursue nuclear weapons research under Igor Kurchatov."
+        },
+        {
+          "date": "1943-01-01",
+          "date_latest": "1943-12-31",
+          "date_precision": "year",
+          "text": "March – The Japanese Committee on Research in the Application of Nuclear Physics, chaired by Yoshio Nishina concludes in a report that while an atomic bomb was feasible, it would be unlikely to produce one during the war. Japan then concentrated on research into radar."
+        },
+        {
+          "date": "1944-01-01",
+          "date_latest": "1944-12-31",
+          "date_precision": "year",
+          "text": "April – Emilio Segrè discovers that the spontaneous fission rate of plutonium is too high to be used in a gun-type fission weapon. Leads to change in priority to the design of an implosion-type nuclear weapon. The calutrons at the Y-12 uranium enrichment plant are activated."
+        },
+        {
+          "date": "1944-01-01",
+          "date_latest": "1944-12-31",
+          "date_precision": "year",
+          "text": "July – Sergei Korolev is released from a Gulag and assigned for rocket development."
+        },
+        {
+          "date": "1944-01-01",
+          "date_latest": "1944-12-31",
+          "date_precision": "year",
+          "text": "September 8 – The Wehrmacht launches the V-2 rocket, the first ballistic missile and the template for later American and Soviet nuclear missile designs. It is based on the designs of Wernher von Braun."
+        },
+        {
+          "date": "1944-01-01",
+          "date_latest": "1944-12-31",
+          "date_precision": "year",
+          "text": "September – The first plutonium reactor is activated in Hanford, but shuts itself off immediately."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "April 12 – U.S. Vice President Harry S. Truman is inaugurated President after the death of Franklin D. Roosevelt, and is informed about the Manhattan Project by War Secretary Henry L. Stimson."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "August 11 – The Smyth Report is published detailing the efforts of the Manhattan Project."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "August 15 – Japan surrenders to the Allied Powers."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "August 6 – \"Little Boy\", a gun-type uranium-235 weapon, is dropped on Hiroshima, Japan."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "August 9 – \"Fat Man\", an implosion-type plutonium-239 weapon, is dropped on Nagasaki, Japan."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "August – The Soviet atomic bomb project is accelerated under a Special Commission chaired by Lavrentiy Beria. The program would be heavily reliant on espionage on the Manhattan Project, especially by Fuchs and Theodore A. Hall."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "July 16 – The first nuclear explosion, the Trinity test of an implosion-type plutonium-based nuclear weapon known as \"the gadget\", near Alamogordo, New Mexico."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "July 22 – Truman alludes to Stalin about having successfully detonated an atomic bomb at the Potsdam Conference."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "June – The Office of Military Government, United States hands over Nordhausen, including the Mittelwerk factory where the V-2 rocket was constructed, to the Group of Soviet Occupation Forces in Germany. Soviet forces find documents and equipment from the factory and recruit Helmut Gröttrup."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "March 10 – A Japanese Fu-Go balloon bomb nearly knocks out electrical power to the Hanford plant."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "May – The United States captures a number of important German rocket scientists, including Wernher von Braun, for work on American missile programs through Operation Paperclip. Von Braun is eventually assigned to the Army Ballistic Missile Agency at the Redstone Arsenal in Huntsville, Alabama."
+        },
+        {
+          "date": "1945-01-01",
+          "date_latest": "1945-12-31",
+          "date_precision": "year",
+          "text": "October 18 – The Atomic Energy Commission (CEA) is established in France by French President Charles de Gaulle to investigate military uses of atomic energy."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "April – Conference is held at Los Alamos that concludes that a \"Super\" (hydrogen) bomb can likely be built."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "August – The Convair B-36 Peacemaker is introduced as the first purpose-built nuclear bomber."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "December 25 – The Soviet Union activates the F-1 pile in Moscow, producing the first controlled nuclear reaction in Europe."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "January – The Atomic Energy Act of 1946 takes effect, officially turning over the Manhattan Project to the United States Atomic Energy Commission."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "June – First meeting of the United Nations Atomic Energy Commission, which was established by the first resolution of the U.N. General Assembly, is held."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "June – The Soviet Union rejects the Baruch Plan."
+        },
+        {
+          "date": "1946-01-01",
+          "date_latest": "1946-12-31",
+          "date_precision": "year",
+          "text": "March 26 – The Strategic Air Command is established in the U.S. Army Air Forces for command and control of nuclear weapons."
+        },
+        {
+          "date": "1947-01-01",
+          "date_latest": "1947-12-31",
+          "date_precision": "year",
+          "text": "A steppe near Semipalatinsk, Kazakh SSR is selected by Beria as the Soviet Union's nuclear test site."
+        },
+        {
+          "date": "1947-01-01",
+          "date_latest": "1947-12-31",
+          "date_precision": "year",
+          "text": "January – British prime minister Clement Attlee approves the development of an atomic bomb through the High Explosive Research programme led by William Penney, Baron Penney."
+        },
+        {
+          "date": "1947-01-01",
+          "date_latest": "1947-12-31",
+          "date_precision": "year",
+          "text": "The RTV-A-2 Hiroc, the first design of an intercontinental ballistic missile, is cancelled by the United States."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-12-31",
+          "date_precision": "year",
+          "text": "Andrei Sakharov proposes the first design for a Soviet hydrogen bomb."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-12-31",
+          "date_precision": "year",
+          "text": "Indian Prime Minister Jawaharlal Nehru ratifies an act establishing the Atomic Energy Commission of India chaired by Homi J. Bhabha."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-12-31",
+          "date_precision": "year",
+          "text": "June 19 – The Soviet Union's first plutonium production reactor is activated at Chelyabinsk-40."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-12-31",
+          "date_precision": "year",
+          "text": "September – The Soviet Union launches its first ballistic missile, a reverse-engineered version of the V-2 rocket later renamed the R-1 rocket."
+        },
+        {
+          "date": "1948-01-01",
+          "date_latest": "1948-12-31",
+          "date_precision": "year",
+          "text": "The United States transfers nuclear-capable B-29 bombers to Europe during the Berlin Blockade."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "August 29 – The Soviet Union conducts its first atomic test, RDS-1 (nicknamed Joe 1 by the Americans)."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "Following the Berlin Blockade and the articulation of the Truman Doctrine, the North Atlantic Treaty is ratified by 22 signatories in Western Europe and North America, including the United States, creating the collective security alliance NATO. The Treaty places its members under an American \"nuclear umbrella\" against a Soviet attack and provides the basis for nuclear weapons sharing agreements with Italy, the Netherlands, and Belgium."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "September 23 – President Truman announces that the Soviets have conducted an atomic test."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "September 3 – U.S. atmospheric monitoring flights begin detecting effects of the Soviet test."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "September through December – Debate occurs within the Truman administration over whether to authorize the development of a hydrogen bomb. Although the AEC General Advisory Committee chaired by Oppenheimer condemns the idea, the bomb is encouraged by the Department of State, the Department of Defense, the Joint Chiefs of Staff, the Joint Committee on Atomic Energy, and the National Security Council."
+        },
+        {
+          "date": "1949-01-01",
+          "date_latest": "1949-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Department of Defense prepares Operation Dropshot, a contingency plan for a nuclear and conventional war against the Soviet Union."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "April 7 – The National Security Council issues its classified NSC 68 policy paper advocating for the United States to expand its conventional and nuclear arms in response to the Cold War and the decline of former great powers such as the United Kingdom, France, and Japan. President Truman takes the paper's advice and triples U.S. military expenditures over the course of three years."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "December – General Douglas MacArthur of the UN Command requests 34 nuclear bombs after China intervenes in the Korean War."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "January 31 – President Harry S. Truman authorizes the development of the hydrogen bomb."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "Klaus Fuchs and Julius and Ethel Rosenberg are arrested in the United States for leaking atomic secrets to the Soviet Union."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "March 10 – President Truman instructs AEC to prepare for hydrogen bomb production."
+        },
+        {
+          "date": "1950-01-01",
+          "date_latest": "1950-12-31",
+          "date_precision": "year",
+          "text": "The US Air Force Strategic Air Command (SAC) stations 11 model 1561 Fat Man atomic bombs at RCAF Station Goose Bay in Labrador."
+        },
+        {
+          "date": "1951-01-01",
+          "date_latest": "1951-12-31",
+          "date_precision": "year",
+          "text": "China and the Soviet Union sign an agreement whereby China would supply uranium ore in exchange for technical assistance in producing nuclear weapons."
+        },
+        {
+          "date": "1951-01-01",
+          "date_latest": "1951-12-31",
+          "date_precision": "year",
+          "text": "January 12 – In response to the threat of a Soviet nuclear attack, President Truman creates the Federal Civil Defense Administration. The FCDA is succeeded by the Federal Civil Defense Authority in 1972, which is in turn succeeded by the Federal Emergency Management Agency in 1979."
+        },
+        {
+          "date": "1951-01-01",
+          "date_latest": "1951-12-31",
+          "date_precision": "year",
+          "text": "MacArthur, with the approval of the Commander-in-Chief of the Strategic Air Command Curtis LeMay and South Korean President Syngman Rhee, pressures the government for the use of nuclear weapons against China. He is overruled and it becomes a factor in President Truman's relief of General Douglas MacArthur."
+        },
+        {
+          "date": "1951-01-01",
+          "date_latest": "1951-12-31",
+          "date_precision": "year",
+          "text": "President Truman establishes the CONELRAD emergency broadcasting system to alert the United States to an enemy attack. The system is later succeeded by the Emergency Broadcast System in 1963 and the Emergency Alert System in 1997."
+        },
+        {
+          "date": "1951-01-01",
+          "date_latest": "1951-12-31",
+          "date_precision": "year",
+          "text": "The United States opens the Nevada Test Site for nuclear weapons tests."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-12-31",
+          "date_precision": "year",
+          "text": "Greece and Turkey join NATO, allowing them to participate in nuclear sharing programs."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-12-31",
+          "date_precision": "year",
+          "text": "October 31 – The United States test the first fusion bomb, Ivy Mike."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-12-31",
+          "date_precision": "year",
+          "text": "October – The United Kingdom conducts Operation Hurricane, the first test of a British nuclear weapon. The plutonium implosion-type nuclear weapon was detonated in a lagoon between the Montebello Islands, Western Australia."
+        },
+        {
+          "date": "1952-01-01",
+          "date_latest": "1952-12-31",
+          "date_precision": "year",
+          "text": "September – President Truman declines proposal by the State Department Panel of Consultants on Disarmament that the first test of a hydrogen bomb be delayed."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "August 12 – The Soviet Union conducts its first test of a hydrogen bomb, nicknamed Joe 4 by the Americans. Unlike the American hydrogen bomb, the Soviet RDS-4 design is deliverable."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "August 20 – The United States test-fires the PGM-11 Redstone rocket, its first ballistic missile."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "December 8 – U.S. President Dwight D. Eisenhower announces the Atoms for Peace program at the U.N. General Assembly."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "February – President Eisenhower considers using nuclear weapons when negotiations on the Korean Armistice Agreement stalled."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "October 30 – The United States formalizes its New Look foreign policy through NSC 162/2, emphasizing the United States's superiority in nuclear and conventional forces."
+        },
+        {
+          "date": "1953-01-01",
+          "date_latest": "1953-12-31",
+          "date_precision": "year",
+          "text": "The first nuclear-tipped rockets are deployed by the United States. The MGR-1 Honest John is such as example."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "British English Electric Canberra bombers of the Royal Air Force are outfitted with atomic bombs."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "December 26 – The French nuclear weapons program is secretly established by Prime Minister Pierre Mendès France."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "January 12 – U.S. Secretary of State John Foster Dulles articulates a policy of \"massive retaliation.\""
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "June 17 – Prime Minister Churchill decides to begin the British hydrogen bomb programme, and Minister of Defense Harold Macmillan publicly announces it in the next year on February 17."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "March 1 – The United States detonates its first deliverable thermonuclear weapons at Bikini Atoll, Marshall Islands. One device had a yield almost three times as large as expected, leading to the worst radiological disaster in US history."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "September – The First Taiwan Strait Crisis begins when Communist China begins an artillery bombardment of the Kuomintang-held islands of Kinmen and the Matsu Islands, resulting in the United States concluding a Mutual Defense Treaty with Taiwan and contemplating a nuclear attack against the Mainland. Although the crisis ends after China's participation in the Bandung Conference, the Soviet Union agrees to assist China with nuclear weapons development as a result."
+        },
+        {
+          "date": "1954-01-01",
+          "date_latest": "1954-12-31",
+          "date_precision": "year",
+          "text": "The Lockheed EC-121 Warning Star is introduced as the United States' primary airborne early warning and control aircraft."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "February – The Boeing B-52 Stratofortress replaces the B-36 as the U.S. Air Force's primary strategic nuclear bomber."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "February – The President's Science Advisory Committee recommends that the United States make missile production a national priority."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "India purchases a PUREX reactor from Canada and the United States, and constructs the Bhabha Atomic Research Centre at Trombay."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "January 15 – China begins Project-596 under Marshal Nie Rongzheng with the approval of Mao Zedong. The Third Ministry of Machine Building, a predecessor of the China National Nuclear Corporation, is created to oversee the project."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "The Soviet Union introduces a modified version of the Myasishchev M-4 bomber capable of striking targets in continental North America."
+        },
+        {
+          "date": "1955-01-01",
+          "date_latest": "1955-12-31",
+          "date_precision": "year",
+          "text": "West Germany joins NATO, allowing it to participate in nuclear sharing."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "Development on the Avro Blue Steel air-to-surface missile for the British \"V-bomber\" fleet begins."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "November 30 – France establishes a secret committee for the Military Applications of Atomic Energy under Pierre Guillaumat and Yves Rocard. It establishes a secret protocol between the CEA and the Ministry of Defence for procuring weapons material."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "October–November – The Soviet Union threatens nuclear strikes against the United Kingdom and France during the Suez Crisis."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "The Pakistan Atomic Energy Commission is established. This commission is responsible for the development of both the nuclear reactors and nuclear weapons of Pakistan."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "The Tupolev Tu-95, the primary intercontinental strategic bomber of the Soviet Air Forces, enters service."
+        },
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "The nuclear-capable PGM-19 Jupiter medium-range ballistic missile is created from the Redstone rocket."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "August 26 – The Soviet Union announces the successful test of an intercontinental ballistic missile, the R-7 Semyorka, capable of flying \"into any part of the world.\""
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "December 12 – The SM-65 Atlas, the first U.S. ICBM, is launched."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "December 17 – The Strategic Rocket Forces is established to maintain the Soviet nuclear arsenal."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "In response to the new threat of Soviet ICBMs, the U.S. Army accelerates production on the Nike Zeus missile, an anti-ballistic missile designed to intercept ICBMs in mid-air."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "Iran commences its nuclear program under Shah Mohammad Reza Pahlavi."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "Israel purchases a nuclear reactor from France, which is built at Dimona in the Negev. By this time it has already started a weapons program under Israeli Prime Minister David Ben-Gurion, Defense Minister Shimon Peres, and Ernst David Bergmann."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "July – The International Atomic Energy Agency is founded."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "October 10 – The Windscale fire occurs in Seascale, Cumbria after a graphite-moderated reactor built for the British hydrogen bomb project catches fire, resulting in the release of radioactive contamination across the United Kingdom and Europe. An inquiry determines that the accident was avoidable and that the British Army ignored warnings by scientists, but is suppressed by the government to prevent damaging the Special Relationship."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "October 15 – The Soviet Union agrees to provide a \"sample bomb\" and extensive technical assistance to the Chinese nuclear program."
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "October 4 – The Sputnik 1, the first artificial satellite, is launched using a modified version of the Soviet Union's ICBM, beginning the Space Race.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1957-01-01",
+          "date_latest": "1957-12-31",
+          "date_precision": "year",
+          "text": "Operation Antler, the final British nuclear test in Australia, occurs in Maralinga, South Australia."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "August – The PGM-17 Thor intermediate-range ballistic missile, the U.S. Air Force's first ballistic missile, is declared operational and begins deployment in the United Kingdom through Project Emily."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "January – The United States deploys nuclear weapons to South Korea."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "November 10 – Soviet general secretary Nikita Khrushchev makes a speech demanding the withdrawal of American, British, and French forces from West Berlin, beginning a series of political crises."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "November 4 – The Democratic Party wins the 1958 United States elections in part due to public perception of a \"missile gap\" against the Soviet Union following the release of the Gaither Report. Although later proven to be an overestimate, the concept later helps John F. Kennedy to win the 1960 presidential election."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "November – The United States and the Soviet Union observe a nuclear-testing moratorium."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "RAFAEL is formed by the Israeli Ministry of Defense to coordinate its nuclear program."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The Campaign for Nuclear Disarmament is formed in the United Kingdom."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The Jiuquan Atomic Energy Complex is opened in China in the Gansu Province."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Air Force drafts Project A119, a classified plan to detonate a nuclear bomb on the Moon. The plan is quickly cancelled in favor of a Moon landing."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The United States and the United Kingdom sign the 1958 US-UK Mutual Defence Agreement. This is a bilateral treaty on nuclear weapons cooperation signed after the United Kingdom successfully tested a hydrogen bomb during Operation Grapple. Under the agreement the United States supplies the United Kingdom with nuclear weapons through Project E."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The United States considers a nuclear strike on China during the Second Taiwan Strait Crisis, in which China resumed its bombardment of Kinmen and the Matsu Islands."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "Fidel Castro takes power in Cuba and creates a Marxism–Leninist government aligned with the Soviet Union."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "Nuclear tests in Antarctica are banned under the Antarctic Treaty."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "The Soviet Union scales back nuclear assistance to China as a result of the emerging Sino-Soviet split."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "1 May – An American Lockheed U-2 spy plane piloted by Francis Gary Powers is shot down over Soviet territory, deteriorating Soviet Union–United States relations, sabotaging the Four-Power summit in Paris, and hindering General Secretary Khrushchev's policy of peaceful coexistence."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "December – The China Institute of Atomic Energy begins research on thermonuclear weapons."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "February 13 – France successfully tests a nuclear weapon, called Gerboise Bleue, in the Sahara near Reggane, French Algeria."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "Operation Chrome Dome, in which nuclear-armed B-52 bombers are continually flown by the U.S. Air Force close to the Soviet Union on continuous alert, begins."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "RAND Corporation analyst Herman Kahn releases On Thermonuclear War, which argues that the destructiveness of nuclear war can be limited through anti-aircraft defenses, civil defense preparations, and a doctrine targeting counterforces. The book becomes influential in U.S. nuclear strategy and helps formulate the Kennedy administration's policy of flexible response."
+        },
+        {
+          "date": "1960-01-01",
+          "date_latest": "1960-12-31",
+          "date_precision": "year",
+          "text": "The United Kingdom cancels the De Havilland Blue Streak medium-range ballistic missile in favor of the American-produced Douglas GAM-87 Skybolt air-launched ballistic missile, ending its attempts to produce an independent delivery system."
+        },
+        {
+          "date": "1961-01-01",
+          "date_latest": "1961-12-31",
+          "date_precision": "year",
+          "text": "Australia considers purchasing nuclear weapons from the United Kingdom, but the idea is rejected by the Cabinet of Prime Minister Robert Menzies."
+        },
+        {
+          "date": "1961-01-01",
+          "date_latest": "1961-12-31",
+          "date_precision": "year",
+          "text": "October 27 – The Berlin crisis occurring after the construction of the Berlin Wall by East German authorities culminates when the United States deploys tanks to Checkpoint Charlie, a move reciprocated by the Soviet Union. President Kennedy and General Secretary Khrushchev ultimately negotiate the removal of the tanks through diplomatic backchannels and prevent a war."
+        },
+        {
+          "date": "1961-01-01",
+          "date_latest": "1961-12-31",
+          "date_precision": "year",
+          "text": "October 30 – The Soviet Union detonates Tsar Bomba, the largest, most powerful nuclear weapon ever detonated."
+        },
+        {
+          "date": "1961-01-01",
+          "date_latest": "1961-12-31",
+          "date_precision": "year",
+          "text": "President Kennedy announces that the federal government will begin the construction of fallout shelters."
+        },
+        {
+          "date": "1961-01-01",
+          "date_latest": "1961-12-31",
+          "date_precision": "year",
+          "text": "The Israeli Prime Minister David Ben-Gurion informed the Canadian Prime Minister John Diefenbaker that a pilot plutonium-separation plant would be built at the Dimona reactor. Intelligence would indicate from this and other information that Israel intended to produce nuclear weapons."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "December 21 – President John F. Kennedy and Prime Minister Harold Wilson ratify the Nassau Agreement agreeing for the United States to supply the United Kingdom with Polaris submarine-launched missiles. The Polaris Sales Agreement is signed on 6 April 1963 by Secretary of State Dean Rusk and British Ambassador to the United States David Ormsby-Gore.",
+          "names_later_date": true
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "July 9 – The Starfish Prime high-altitude nuclear test over Johnston Island creates an electromagnetic pulse that causes electrical damage in parts of Hawaii, disrupts telecommunications in the Pacific Ocean, and disables satellites in low Earth orbit."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "October 17 through October 28 – The Soviet Union attempts to deploy R-12 Dvina medium-range ballistic missiles and R-14 Chusovaya intermediate-range ballistic missiles to Cuba within 90 miles of the contiguous United States, and is discovered by an American U-2 plane. The subsequent Cuban Missile Crisis nearly leads to a world war, and is only averted by an agreement between Soviet General Secretary Nikita Khrushchev and U.S. President John F. Kennedy to withdraw the missiles from Cuba in exchange for a public promise not to invade Cuba and a secret withdrawal of American missiles from Turkey."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "The Boeing LGM-30 Minuteman-I, the first American ICBM using liquid-propellant rocket to be able to have an immediate launch, is introduced."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "The Lockheed UGM-27 Polaris, the U.S. Navy's first submarine-launched ballistic missile, is introduced."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "The term \"mutually-assured destruction\" is coined."
+        },
+        {
+          "date": "1963-01-01",
+          "date_latest": "1963-12-31",
+          "date_precision": "year",
+          "text": "American nuclear weapons are deployed at Canadian Armed Forces bases in West Germany, through the NATO nuclear sharing program. Additional American nuclear weapons systems are deployed in Canada under U.S. control through NORAD."
+        },
+        {
+          "date": "1963-01-01",
+          "date_latest": "1963-12-31",
+          "date_precision": "year",
+          "text": "August – President Kennedy considers using conventional and nuclear air strikes against China's nuclear facilities to prevent it from developing an atomic bomb."
+        },
+        {
+          "date": "1963-01-01",
+          "date_latest": "1963-12-31",
+          "date_precision": "year",
+          "text": "August – The Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water opens for signatures. The treaty limited nuclear weapons tests to underground detonations."
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "India produces weapons-grade plutonium."
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "January 29 – The Stanley Kubrick film Dr. Strangelove or, How I Learned to Stop Worrying and Love the Bomb is released satirizing predominant nuclear strategy."
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "October 13 – Leonid Brezhnev becomes General Secretary of the Soviet Union, and increases military expenditures."
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "October 16 – China successfully tests an atomic bomb at Lop Nur."
+        },
+        {
+          "date": "1964-01-01",
+          "date_latest": "1964-12-31",
+          "date_precision": "year",
+          "text": "The R-17 Elbrus tactical ballistic missile enters service in the Soviet Union. The subsequent series of Scud missiles eventually becomes a major proliferation concern."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "January – The Soviet Union detonates Chagan as part of their Nuclear Explosions for the National Economy series to study the peaceful use of nuclear explosions."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "March 10 – Israeli Prime Minister Levi Eshkol claims that Israel \"will not be the first state to introduce nuclear weapons\" into the Middle East."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "Pakistan constructs a research reactor purchased from the United States."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "The Command Center for the Office of Emergency Planning mistakes the Northeast blackout for a nuclear attack."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "The television docudrama The War Game is filmed in the United Kingdom as an episode of The Wednesday Play anthology series providing a realistic depiction of a nuclear war. Although the film's broadcast is blocked by the BBC and the British government for 20 years due to its disturbing content, it is released abroad to critical acclaim, and receives the 1966 Academy Award for Best Documentary Feature in the United States."
+        },
+        {
+          "date": "1966-01-01",
+          "date_latest": "1966-12-31",
+          "date_precision": "year",
+          "text": "China begins moving its nuclear facilities into the interior during its Third Five-Year Plan."
+        },
+        {
+          "date": "1966-01-01",
+          "date_latest": "1966-12-31",
+          "date_precision": "year",
+          "text": "France withdraws from SHAPE and the NATO integrated command structure due to disputes over its nuclear weapons and does not rejoin until 2009."
+        },
+        {
+          "date": "1966-01-01",
+          "date_latest": "1966-12-31",
+          "date_precision": "year",
+          "text": "October 27 - China tests a nuclear-armed Dongfeng-2 missile, which launches from Shuangchengzi Space and Missile Center and strikes Lop Nur. It is the only time a country has tested an armed nuclear missile over populated areas."
+        },
+        {
+          "date": "1966-01-01",
+          "date_latest": "1966-12-31",
+          "date_precision": "year",
+          "text": "The United States' nuclear stockpile peaks at 31,149 warheads."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "December – Japan, under Prime Minister Eisaku Satō, adopts the Three Non-Nuclear Principles."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "February 27 – The Treaty of Tlatelolco is signed in Mexico City, creating a nuclear-weapon-free zone in Latin America."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "January – President Johnson claims that the Soviet Union has constructed an anti-ballistic missile barrier around Moscow."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "January – The Outer Space Treaty prohibits nuclear tests in space."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "June 10 – Israel wins the Six-Day War, hindering the nuclear program in Egypt started by Gamal Abdel Nasser."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "June 17 – China successfully tests a hydrogen bomb."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "June 23–26 – President Johnson and Soviet premier Alexei Kosygin express a willingness to conduct arms-control negotiations at the Glassboro Summit Conference."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "March 29 – The French Navy launches the Redoutable-class submarine."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "September – The United Kingdom assists France in thermonuclear weapons development in a failed attempt to lobby France to allow Britain to join the European Economic Community."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-12-31",
+          "date_precision": "year",
+          "text": "The United States provides Iran with a 5-megawatt research reactor at the University of Tehran and supplies of enriched uranium."
+        },
+        {
+          "date": "1968-01-01",
+          "date_latest": "1968-12-31",
+          "date_precision": "year",
+          "text": "During the 1968 United States presidential election Curtis LeMay becomes the running mate of the controversial American Independent Party candidate George Wallace, and advocates the use of nuclear weapons against North Vietnam. The ticket captures 13.5% of the popular vote and wins five states in the Electoral College.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1968-01-01",
+          "date_latest": "1968-12-31",
+          "date_precision": "year",
+          "text": "February 10 – During the Vietnam War, General William C. Westmoreland orders the movement of nuclear weapons to South Vietnam during the Battle of Khe Sanh, but is overruled by Walt W. Rostow and President Lyndon B. Johnson."
+        },
+        {
+          "date": "1968-01-01",
+          "date_latest": "1968-12-31",
+          "date_precision": "year",
+          "text": "January 28 – An aircraft accident occurs when an American B-52 bomber armed with a Mark 28 nuclear bomb bound for Thule Air Base, Greenland, has an in-flight fire and is forced to make a crash landing in North Star Bay, resulting in the detonation of the bomb's conventional explosives and the release of radioactive contamination over Greenland. The accident causes the cancellation of Operation Chrome Dome."
+        },
+        {
+          "date": "1968-01-01",
+          "date_latest": "1968-12-31",
+          "date_precision": "year",
+          "text": "July – The Nuclear Non-Proliferation Treaty opens for signatures. This treaty is intended to limit the spread of nuclear weapons. To date, 189 countries have signed the treaty, including the five permanent members of the UN Security Council. Only India, Israel, Pakistan, and North Korea have not signed the treaty (as sovereign states)."
+        },
+        {
+          "date": "1968-01-01",
+          "date_latest": "1968-12-31",
+          "date_precision": "year",
+          "text": "With its ratification of the Nuclear Non-Proliferation Treaty, Sweden formally ends the nuclear weapons program it has run since 1945."
+        },
+        {
+          "date": "1969-01-01",
+          "date_latest": "1969-12-31",
+          "date_precision": "year",
+          "text": "November – The Strategic Arms Limitation Talks commence in Helsinki, Finland."
+        },
+        {
+          "date": "1969-01-01",
+          "date_latest": "1969-12-31",
+          "date_precision": "year",
+          "text": "October – President Richard Nixon, as part of his \"madman theory\" postulating that the Soviet Union would avoid aggressive acts if they feared an unpredictable response from the United States, and National Security Advisor Henry Kissinger approve Operation Giant Lance, an operation involving nuclear-armed B-52 bombers flying near the Soviet border to simulate an American nuclear attack."
+        },
+        {
+          "date": "1969-01-01",
+          "date_latest": "1969-12-31",
+          "date_precision": "year",
+          "text": "The United Kingdom transfers its strategic nuclear warheads to its Polaris submarines away from the aging V-bomber fleet."
+        },
+        {
+          "date": "1970-01-01",
+          "date_latest": "1970-12-31",
+          "date_precision": "year",
+          "text": "The LGM-30 Minuteman III, the United States's current intercontinental-ballistic missile, is introduced."
+        },
+        {
+          "date": "1970-01-01",
+          "date_latest": "1970-12-31",
+          "date_precision": "year",
+          "text": "The Soviet Navy considers constructing a base for nuclear submarines in Cienfuegos, Cuba."
+        },
+        {
+          "date": "1971-01-01",
+          "date_latest": "1971-12-31",
+          "date_precision": "year",
+          "text": "December – India wins the Indo-Pakistani War of 1971, resulting in the independence of Bangladesh."
+        },
+        {
+          "date": "1971-01-01",
+          "date_latest": "1971-12-31",
+          "date_precision": "year",
+          "text": "March 31 – The United States deploys the UGM-73 Poseidon submarine-launched ballistic missile on James Madison-class submarines."
+        },
+        {
+          "date": "1972-01-01",
+          "date_latest": "1972-12-31",
+          "date_precision": "year",
+          "text": "April 25 – President Nixon proposes using nuclear weapons to end the Vietnam War, but is quickly dissuaded by National Security Advisor Kissinger."
+        },
+        {
+          "date": "1972-01-01",
+          "date_latest": "1972-12-31",
+          "date_precision": "year",
+          "text": "March 26 – The SALT I Agreement is ratified between the United States and the Soviet Union, leading to the Anti-Ballistic Missile Treaty."
+        },
+        {
+          "date": "1972-01-01",
+          "date_latest": "1972-12-31",
+          "date_precision": "year",
+          "text": "May – Pakistani nuclear scientist Abdul Qadeer Khan is employed at a Urenco Group nuclear laboratory in Amsterdam and makes repeated visits to an enrichment plant in Almelo."
+        },
+        {
+          "date": "1972-01-01",
+          "date_latest": "1972-12-31",
+          "date_precision": "year",
+          "text": "Zulfikar Ali Bhutto launched Pakistan's atomic program in response to the loss of the war by making Munir Ahmad Khan as the program head."
+        },
+        {
+          "date": "1973-01-01",
+          "date_latest": "1973-12-31",
+          "date_precision": "year",
+          "text": "October – Israel considers using nuclear weapons during the Yom Kippur War, while the Soviet Union considers transporting nuclear weapons to Egypt and causes the United States to place its military on high alert."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "May – India tests its first nuclear device, \"Smiling Buddha\", at Pokhran using a core designed by Rajagopala Chidambaram."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "May – Pakistan's Project-706 is established under command of General Zahid Ali Akbar."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "November – A major breakthrough in the SALT II negotiations occurs at the Vladivostok Summit Meeting on Arms Control between General Secretary Leonid Brezhnev and President Gerald Ford."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "South Africa secretly decides to pursue a capability for nuclear bombs, ostensibly for peaceful nuclear explosions."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "The Iranian nuclear program is commenced by Shah Mohammad Reza Pahlavi, who founds the Atomic Energy Organization of Iran."
+        },
+        {
+          "date": "1975-01-01",
+          "date_latest": "1975-12-31",
+          "date_precision": "year",
+          "text": "Brazil purchases a nuclear reactor from West Germany, a move criticized by the United States and Mexico due to concerns that it will use the reactor to produce nuclear weapons."
+        },
+        {
+          "date": "1975-01-01",
+          "date_latest": "1975-12-31",
+          "date_precision": "year",
+          "text": "China deploys its first intercontinental ballistic missile, the Dong-Feng 4."
+        },
+        {
+          "date": "1975-01-01",
+          "date_latest": "1975-12-31",
+          "date_precision": "year",
+          "text": "December – Khan returns to Pakistan with photographs and blueprints from his job."
+        },
+        {
+          "date": "1975-01-01",
+          "date_latest": "1975-12-31",
+          "date_precision": "year",
+          "text": "The number of American nuclear warheads deployed in the Atlantic Ocean peaks at 4,500."
+        },
+        {
+          "date": "1976-01-01",
+          "date_latest": "1976-12-31",
+          "date_precision": "year",
+          "text": "Khan forms the Engineering Research Laboratories with the Pakistan Atomic Energy Commission."
+        },
+        {
+          "date": "1977-01-01",
+          "date_latest": "1977-12-31",
+          "date_precision": "year",
+          "text": "July 13 – Somalia invades Ethiopia in the Ogaden War, and congressional support for SALT II in the United States weakens as a result of Soviet intervention in the war."
+        },
+        {
+          "date": "1977-01-01",
+          "date_latest": "1977-12-31",
+          "date_precision": "year",
+          "text": "March – The Boeing E-3 Sentry is introduced as NATO's primary AWACS aircraft."
+        },
+        {
+          "date": "1977-01-01",
+          "date_latest": "1977-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Department of Energy is formed to maintain American nuclear weapons. James R. Schlesinger is the first Secretary of Energy."
+        },
+        {
+          "date": "1977-01-01",
+          "date_latest": "1977-12-31",
+          "date_precision": "year",
+          "text": "Walter Pincus reports in The Washington Post that the United States is developing a neutron bomb, a warhead that causes relatively little blast damage but high casualties due to radiation, for deployment in Western Europe. The report causes political controversy in the United States, and U.S. President Jimmy Carter cancels the program in the next year."
+        },
+        {
+          "date": "1978-01-01",
+          "date_latest": "1978-12-31",
+          "date_precision": "year",
+          "text": "France begins development of the Aérospatiale Air-Sol Moyenne Portée missile."
+        },
+        {
+          "date": "1978-01-01",
+          "date_latest": "1978-12-31",
+          "date_precision": "year",
+          "text": "Pakistan produces enriched uranium."
+        },
+        {
+          "date": "1978-01-01",
+          "date_latest": "1978-12-31",
+          "date_precision": "year",
+          "text": "South Africa develops highly enriched uranium at the Valindaba site near Pretoria."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "December 12 – NATO makes its Double-Track Decision responding to the Soviet Union's increased deployment of RSD-10 Pioneer intermediate-range ballistic missiles and Tupolev Tu-22M bombers by deploying increased numbers of medium-range and intermediate-range ballistic missiles, including Martin Marietta Pershing II missiles and GD BGM-109G Gryphon Ground Launched Cruise Missiles, in Western Europe while continuing to make the Warsaw Pact offers for negotiations. This results in increased east–west international tensions and domestic political controversy."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "December 25 – The Soviet invasion of Afghanistan begins, resulting in collapse of support for SALT II."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "Iran temporarily halts its nuclear program after the Islamic Revolution."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "June 18 – General Secretary Brezhnev and President Carter sign the SALT II Agreement in Vienna agreeing to limit strategic nuclear weapons."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "November 9 – A computer glitch at NORAD creates a false alarm for a Soviet missile launch, and U.S. nuclear forces prepare for a retaliatory strike."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "September 22 – An American Vela Hotel satellite records a strange double-flash of light near the Prince Edward Islands in Antarctica known as the Vela incident. The flash is widely believed to have been caused by a nuclear test, possibly carried out by South Africa or Israel."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "The United States begins to deploy Trident I C-4 missiles, its first SLBMs with intercontinental range, aboard its Ohio-class submarines."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "The Warsaw Pact conducts its Seven Days to the River Rhine military simulation emulating a retaliatory nuclear strike against NATO."
+        },
+        {
+          "date": "1980-01-01",
+          "date_latest": "1980-12-31",
+          "date_precision": "year",
+          "text": "January 3 – President Carter withdraws SALT II from the Senate for formal ratification."
+        },
+        {
+          "date": "1981-01-01",
+          "date_latest": "1981-12-31",
+          "date_precision": "year",
+          "text": "June 7 -The Israeli Air Force conducts an airstrike, Operation Opera, on Baathist Iraq's light-water nuclear reactor near Baghdad, hindering the country's uranium enrichment and nuclear weapons program. As a result, only a few grams of weapons-grade uranium is produced by the time the program is ended after the Gulf War."
+        },
+        {
+          "date": "1981-01-01",
+          "date_latest": "1981-12-31",
+          "date_precision": "year",
+          "text": "October – President Ronald Reagan announces an update of the U.S. nuclear arsenal, including increased numbers of bombers and missiles and development of new projects such as the Rockwell B-1 Lancer, the MX missile, and the MGM-134 Midgetman missile."
+        },
+        {
+          "date": "1981-01-01",
+          "date_latest": "1981-12-31",
+          "date_precision": "year",
+          "text": "The United Kingdom's nuclear stockpile peaks at over 500 warheads."
+        },
+        {
+          "date": "1982-01-01",
+          "date_latest": "1982-12-31",
+          "date_precision": "year",
+          "text": "June 12 – The largest anti-war demonstration in history occurs against nuclear weapons in Central Park in New York City during a UN disarmament conference."
+        },
+        {
+          "date": "1982-01-01",
+          "date_latest": "1982-12-31",
+          "date_precision": "year",
+          "text": "The BDS AGM-86 ALCM air-launched cruise missile is introduced in the United States."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "2 November-11 November – The Soviet Union, which had been monitoring American nuclear forces through the KGB's Operation RYAN, mistakes NATO's Able Archer 83 command post exercise for genuine preparations for a preemptive nuclear strike, and places its forces in East Germany and Poland on high alert."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "December 23 – The United States begins its deployment of Pershing II missiles to West Germany."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "March 20 – President Reagan announces the Strategic Defense Initiative to defend against a Soviet nuclear attack."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "November 20 – The television film The Day After premieres on ABC, significantly changing attitudes on nuclear war. A similar film, Threads, is released by the BBC and the Nine Network next year, while Testament is released by PBS and Paramount Pictures."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "September 26 – A false alarm occurs in the Soviet Union when the Oko early-warning system malfunctions and erroneously reports an incoming American missile strike. The Soviet Air Defense Forces command officer at the Serpukhov-15 bunker, Lieutenant Colonel Stanislav Petrov, correctly deduces that the alarm was false and does not report it to his superiors, preventing a retaliatory strike."
+        },
+        {
+          "date": "1983-01-01",
+          "date_latest": "1983-12-31",
+          "date_precision": "year",
+          "text": "The TTAPS study in Science first introduces the possibility of a nuclear winter, and a co-author Carl Sagan publishes an article on the subject in Parade magazine."
+        },
+        {
+          "date": "1984-01-01",
+          "date_latest": "1984-12-31",
+          "date_precision": "year",
+          "text": "Canada no longer allows nuclear weapons to be stored in Canada."
+        },
+        {
+          "date": "1984-01-01",
+          "date_latest": "1984-12-31",
+          "date_precision": "year",
+          "text": "China joins the IAEA, and under Premier Zhao Ziyang expresses a stronger commitment against nuclear proliferation."
+        },
+        {
+          "date": "1984-01-01",
+          "date_latest": "1984-12-31",
+          "date_precision": "year",
+          "text": "Iranian Supreme Leader Ayatollah Ruhollah Khomenei revives Iran's nuclear program due to the stalemate in the Iran-Iraq War and Iran's chronic energy shortages."
+        },
+        {
+          "date": "1985-01-01",
+          "date_latest": "1985-12-31",
+          "date_precision": "year",
+          "text": "August 6 – The Treaty of Rarotonga establishes a nuclear-weapons-free zone in the South Pacific."
+        },
+        {
+          "date": "1985-01-01",
+          "date_latest": "1985-12-31",
+          "date_precision": "year",
+          "text": "International Physicians for the Prevention of Nuclear War is awarded the Nobel Peace Prize."
+        },
+        {
+          "date": "1985-01-01",
+          "date_latest": "1985-12-31",
+          "date_precision": "year",
+          "text": "July 10 – The Greenpeace ship Rainbow Warrior is sunken by the DGSE at the Ports of Auckland in New Zealand while traveling to protest French nuclear tests in Moruroa. causing international political controversy."
+        },
+        {
+          "date": "1985-01-01",
+          "date_latest": "1985-12-31",
+          "date_precision": "year",
+          "text": "South Africa decides to covertly build nuclear weapons."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "New Zealand announces a nuclear-free zone in its territorial waters, resulting in the unofficial cessation of the ANZUS Treaty."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "October 11 – The Reykjavik Summit occurs between President Ronald Reagan and General Secretary Mikhail Gorbachev."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "September – Mordechai Vanunu divulges secrets about the Israeli nuclear weapons program to The Sunday Times in London. Vanunu would be abducted by the Mossad in Rome and imprisoned."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "The Soviet Union's nuclear arsenal peaks at 39,197 warheads."
+        },
+        {
+          "date": "1986-01-01",
+          "date_latest": "1986-12-31",
+          "date_precision": "year",
+          "text": "The Yongbyon Nuclear Scientific Research Center becomes operational near Pyongyang."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "Chang Hsien-yi, a colonel of the Republic of China Army and the deputy director of the INER, defects to the United States and provides the CIA with classified documents revealing a secret nuclear weapons program in Taiwan. The program is shut down by ROC president Chiang Ching-kuo under pressure from the IAEA and President Reagan."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "December 8- The Intermediate-Range Nuclear Forces Treaty is signed by Gorbachev and Reagan at the Washington Summit, and is later ratified by both countries."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "The Missile Technology Control Regime is formed by the Group of Seven to limit proliferation of weapons of mass destruction."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "The United States ends production of nuclear material for weapons."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "Yugoslavia abandons its nuclear weapons program.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1988-01-01",
+          "date_latest": "1988-12-31",
+          "date_precision": "year",
+          "text": "Pakistan reportedly has the capacity to build a nuclear bomb."
+        },
+        {
+          "date": "1988-01-01",
+          "date_latest": "1988-12-31",
+          "date_precision": "year",
+          "text": "Switzerland abandons its nuclear weapons program."
+        },
+        {
+          "date": "1989-01-01",
+          "date_latest": "1989-12-31",
+          "date_precision": "year",
+          "text": "Communism collapses in the Eastern Bloc during the Revolutions of 1989. The Soviet Union and the United States subsequently hold the Malta Summit aboard the TS Maxim Gorkiy announcing the end of the Cold War."
+        },
+        {
+          "date": "1989-01-01",
+          "date_latest": "1989-12-31",
+          "date_precision": "year",
+          "text": "South Africa opts to dismantle the six nuclear weapons it has secretly built amid the negotiations to end apartheid."
+        },
+        {
+          "date": "1990-01-01",
+          "date_latest": "1990-12-31",
+          "date_precision": "year",
+          "text": "July – NATO issues the London Declaration declaring its relations with the Warsaw Pact and the Soviet Union to be no longer adversarial and urging reductions in tactical nuclear forces in Europe."
+        },
+        {
+          "date": "1990-01-01",
+          "date_latest": "1990-12-31",
+          "date_precision": "year",
+          "text": "October 16 – The Radiation Exposure Compensation Act is ratified in the United States, providing monetary compensation to victims of radiation-related illnesses, including cancer, caused by contact with nuclear testing and uranium mining."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "December 25 – The Soviet Union, which possesses the largest nuclear arsenal in the world, collapses. Gorbachev hands over the nuclear briefcase, the Cheget, to the new Russian President Boris Yeltsin."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "December 30 – The Commonwealth of Independent States ratifies a preliminary agreement to transfer nuclear weapons of the former Soviet Union held in Belarus, Ukraine, and Kazakhstan to the new Russian Federation, but to allow their governments to veto their use.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "December – The United States withdraws its nuclear weapons from South Korea."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "France and China ratify the Nuclear Non-Proliferation Treaty."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "July 31 – The START I Treaty is ratified between the Soviet Union and the United States."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "June – The Brazilian-Argentine Agency for Accounting and Control of Nuclear Materials is established to play an active role in verifying the pacific use of nuclear materials that could be used for the manufacture of nuclear weapons in Argentina and Brazil."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "South Africa signs the Nuclear Non-Proliferation Treaty; they also announce that from 1979 to 1989, they had built and then dismantled a number of nuclear weapons. The IAEA confirms that the program has been fully dismantled."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "Soviet President Mikhail Gorbachev signs a moratorium on nuclear weapons testing. The Soviet Union's 1990 nuclear test series became its last."
+        },
+        {
+          "date": "1992-01-01",
+          "date_latest": "1992-12-31",
+          "date_precision": "year",
+          "text": "France's nuclear stockpile peaks at over 500 warheads."
+        },
+        {
+          "date": "1992-01-01",
+          "date_latest": "1992-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Senate votes for a nuclear testing moratorium despite opposition from President George HW Bush and Defense Secretary Dick Cheney. Operation Julin is the final American weapons test, and also ends British nuclear testing in the United States.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1993-01-01",
+          "date_latest": "1993-12-31",
+          "date_precision": "year",
+          "text": "January 3 – The United States and Russia mutually agree to ban multiple independently targetable reentry vehicles through the START II Treaty."
+        },
+        {
+          "date": "1993-01-01",
+          "date_latest": "1993-12-31",
+          "date_precision": "year",
+          "text": "North Korea rejects IAEA inspections and threatens to withdraw from the Nuclear Non-Proliferation Treaty."
+        },
+        {
+          "date": "1993-01-01",
+          "date_latest": "1993-12-31",
+          "date_precision": "year",
+          "text": "Russia formulates a military doctrine de-emphasizing nuclear weapons except in the case of a large-scale global conflict, although President Yeltsin authorizes development of the RT-2PM2 Topol-M intercontinental ballistic missile and the Borei-class submarine fleet."
+        },
+        {
+          "date": "1993-01-01",
+          "date_latest": "1993-12-31",
+          "date_precision": "year",
+          "text": "The United States agrees to purchase excess highly enriched uranium from dismantled Soviet nuclear warheads from Russia for conversion into lower-grade uranium for electricity production through the Megatons to Megawatts Program."
+        },
+        {
+          "date": "1994-01-01",
+          "date_latest": "1994-12-31",
+          "date_precision": "year",
+          "text": "After a meeting between Kim Il-Sung and Jimmy Carter and the ratification of the Agreed Framework, North Korea agrees to freeze its nuclear program in exchange for aid, easing of sanctions, and two civilian light-water reactors, which are built by the Korean Peninsula Energy Development Corporation."
+        },
+        {
+          "date": "1994-01-01",
+          "date_latest": "1994-12-31",
+          "date_precision": "year",
+          "text": "December 10 – Ukraine agrees to the Budapest Memorandum transferring its strategic nuclear weapons to Russia and dismantling its nuclear infrastructure through the U.S.-sponsored Cooperative Threat Reduction Program in exchange for a guarantee of sovereignty from Russia."
+        },
+        {
+          "date": "1994-01-01",
+          "date_latest": "1994-12-31",
+          "date_precision": "year",
+          "text": "January – The United States and Russia negotiate a detargeting agreement that they will no longer directly target each other with nuclear weapons."
+        },
+        {
+          "date": "1994-01-01",
+          "date_latest": "1994-12-31",
+          "date_precision": "year",
+          "text": "The Vanguard-class submarines are introduced by the Royal Navy as an upgrade of the British strategic nuclear force, and carry American-built UGM-133 Trident II missiles."
+        },
+        {
+          "date": "1995-01-01",
+          "date_latest": "1995-12-31",
+          "date_precision": "year",
+          "text": "April – Kazakhstan completes the transfer of its nuclear weapons to Russia."
+        },
+        {
+          "date": "1995-01-01",
+          "date_latest": "1995-12-31",
+          "date_precision": "year",
+          "text": "January 27 – A false alarm occurs after a Norwegian Black Brant XII sounding rocket launched to study the aurora borealis from Andøya is mistaken for an American high-altitude nuclear attack by Russia's Main Centre for Missile Attack Warning, and President Yeltsin activates the Cheget before the error is rectified."
+        },
+        {
+          "date": "1995-01-01",
+          "date_latest": "1995-12-31",
+          "date_precision": "year",
+          "text": "Russia agrees to complete the Bushehr Nuclear Power Plant in Iran that had been commenced by West Germany in the 1970s."
+        },
+        {
+          "date": "1995-01-01",
+          "date_latest": "1995-12-31",
+          "date_precision": "year",
+          "text": "The Comprehensive Nuclear-Test-Ban Treaty is ratified by 168 states. India, Pakistan, and North Korea have not signed the Treaty while China, Iran, Israel, and the United States have signed but not ratified it."
+        },
+        {
+          "date": "1996-01-01",
+          "date_latest": "1996-12-31",
+          "date_precision": "year",
+          "text": "April 11 – The Treaty of Pelindaba is ratified, creating a nuclear-weapon-free zone in Africa."
+        },
+        {
+          "date": "1996-01-01",
+          "date_latest": "1996-12-31",
+          "date_precision": "year",
+          "text": "Belarus and Ukraine complete the transfer of strategic nuclear weapons, ICBMs, and strategic bombers they had inherited after the dissolution of the Soviet Union to Russia through the U.S.-sponsored Cooperative Threat Reduction Program."
+        },
+        {
+          "date": "1996-01-01",
+          "date_latest": "1996-12-31",
+          "date_precision": "year",
+          "text": "January – France performs its last nuclear tests to date on Moruroa atoll."
+        },
+        {
+          "date": "1996-01-01",
+          "date_latest": "1996-12-31",
+          "date_precision": "year",
+          "text": "July 29 – China conducts its final nuclear test."
+        },
+        {
+          "date": "1996-01-01",
+          "date_latest": "1996-12-31",
+          "date_precision": "year",
+          "text": "July 8 – The International Court of Justice rules in its Advisory opinion on the Legality of the Threat or Use of Nuclear Weapons that the use and threat of nuclear weapons is legal under international law."
+        },
+        {
+          "date": "1997-01-01",
+          "date_latest": "1997-12-31",
+          "date_precision": "year",
+          "text": "After the U.S. Senate ratifies the START II Agreement, President Clinton and President Yeltsin begin negotiations for START III. The talks collapse due to tensions over NATO intervention in the Kosovo War, the 1998 U.S. bombing of Iraq, and Operation Infinite Reach."
+        },
+        {
+          "date": "1997-01-01",
+          "date_latest": "1997-12-31",
+          "date_precision": "year",
+          "text": "France launches Operation Xouthos, its final nuclear test."
+        },
+        {
+          "date": "1997-01-01",
+          "date_latest": "1997-12-31",
+          "date_precision": "year",
+          "text": "March 21 – France launches the first of its Triomphant-class submarines."
+        },
+        {
+          "date": "1998-01-01",
+          "date_latest": "1998-12-31",
+          "date_precision": "year",
+          "text": "May – India tests five more nuclear weapons as part of Operation Shakti at the Pokhran test site. This was India's second round of nuclear weapons testing."
+        },
+        {
+          "date": "1998-01-01",
+          "date_latest": "1998-12-31",
+          "date_precision": "year",
+          "text": "May – Pakistan detonates five high-enriched uranium nuclear weapons in the Chagai Hills. A sixth nuclear test, at Kharan, was a plutonium device."
+        },
+        {
+          "date": "1998-01-01",
+          "date_latest": "1998-12-31",
+          "date_precision": "year",
+          "text": "The Iraqi disarmament crisis intensifies after Saddam Hussein forces the UN inspectors out, leading to Operation Desert Fox."
+        },
+        {
+          "date": "1998-01-01",
+          "date_latest": "1998-12-31",
+          "date_precision": "year",
+          "text": "The United Kingdom decommissions the WE.177 bomb, the final warhead used by the Royal Air Force and the final tactical nuclear weapon used by Britain. The United Kingdom shifts towards exclusive reliance on its strategic SLBM programs for a nuclear deterrent in its Strategic Defence Review."
+        },
+        {
+          "date": "1999-01-01",
+          "date_latest": "1999-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Defense Intelligence Agency estimates that Israel possesses between 60 and 80 nuclear weapons."
+        },
+        {
+          "date": "2000-01-01",
+          "date_latest": "2000-12-31",
+          "date_precision": "year",
+          "text": "January – Russia publicly begins to reformulate its doctrine to include the possibility of a nuclear response to a large-scale conventional attack."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "December 16 – President Bush issues a national security directive to construct a missile defense system in California and Alaska."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "June – The Group of Eight announces the Global Partnership Against the Spread of Weapons and Materials of Mass Destruction at its 28th summit in Kananaskis, Alberta."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "June – The United States withdraws from the ABM Treaty, while Russia withdraws from the START II Agreement."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "November 13 – UNMOVIC inspectors return to Iraq after the Iraq Resolution and UN Security Council Resolution 1441 to ensure that it has ended its CNBR weapons."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "November 25 – The International Code of Conduct against Ballistic Missile Proliferation is ratified at The Hague, Netherlands, regulating proliferation of nuclear-capable ballistic missiles."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "The National Council of Resistance of Iran reports the existence of secret Iranian nuclear facilities at Natanz and Arak. The IAEA inspects them a year later."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "The Strategic Offensive Reductions Treaty is signed by U.S. president Bush and Russian president Vladimir Putin, and is ratified by the U.S. Senate and the Russian State Duma on June 1."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "U.S. President George W. Bush refuses to certify North Korea's compliance with the Agreed Framework and links it in an \"Axis of Evil\" with Iraq and Iran."
+        },
+        {
+          "date": "2003-01-01",
+          "date_latest": "2003-12-31",
+          "date_precision": "year",
+          "text": "December – Libya announces the closure of its WMD programs, including an early attempt to develop an atomic bomb using designs from Abdul Qadeer Khan."
+        },
+        {
+          "date": "2003-01-01",
+          "date_latest": "2003-12-31",
+          "date_precision": "year",
+          "text": "March 20 – Although Hans Blix and Mohamed ElBaradei claim there is no evidence that Iraqi CNBR weapons development has resumed, President Bush authorizes the U.S.-led invasion of Iraq. During the occupation of Iraq no evidence of weapons of mass destruction is found."
+        },
+        {
+          "date": "2003-01-01",
+          "date_latest": "2003-12-31",
+          "date_precision": "year",
+          "text": "North Korea announces that it has several nuclear explosives. The Six-Party Talks begin in Beijing."
+        },
+        {
+          "date": "2003-01-01",
+          "date_latest": "2003-12-31",
+          "date_precision": "year",
+          "text": "North Korea withdraws from the Nuclear Non-Proliferation Treaty."
+        },
+        {
+          "date": "2005-01-01",
+          "date_latest": "2005-12-31",
+          "date_precision": "year",
+          "text": "August – In Iran, Ayatollah Ali Khamenei issued a fatwa forbidding the production, stockpiling and use of nuclear weapons."
+        },
+        {
+          "date": "2005-01-01",
+          "date_latest": "2005-12-31",
+          "date_precision": "year",
+          "text": "June - Mahmoud Ahmadinejad is elected President of Iran and declares that Iran has a right to construct nuclear weapons."
+        },
+        {
+          "date": "2006-01-01",
+          "date_latest": "2006-12-31",
+          "date_precision": "year",
+          "text": "April 11 - President Ahmedinejad announces that Iran has produced enriched uranium in defiance of the UN and the IAEA, leading to sanctions."
+        },
+        {
+          "date": "2006-01-01",
+          "date_latest": "2006-12-31",
+          "date_precision": "year",
+          "text": "December – The Blair government in the United Kingdom issues a white paper announcing development of a new nuclear submarine using the Rolls-Royce PWR3 nuclear reactor."
+        },
+        {
+          "date": "2006-01-01",
+          "date_latest": "2006-12-31",
+          "date_precision": "year",
+          "text": "July – Prior to the 32nd G8 summit, Russia threatens to retaliate to missile defense preparations in Eastern Europe by targeting European urban centers."
+        },
+        {
+          "date": "2006-01-01",
+          "date_latest": "2006-12-31",
+          "date_precision": "year",
+          "text": "May – The United States begins preparing missile defense systems in the Czech Republic and Poland."
+        },
+        {
+          "date": "2006-01-01",
+          "date_latest": "2006-12-31",
+          "date_precision": "year",
+          "text": "October 9 – North Korea tests a nuclear weapon for the first time in the Hamgyong Mountains."
+        },
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-12-31",
+          "date_precision": "year",
+          "text": "January – Israel is believed to have tested its first intercontinental ballistic missile, the Jericho III."
+        },
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-12-31",
+          "date_precision": "year",
+          "text": "November – Poland and the Czech Republic agree to delay deployment of radar sites until after the 2008 United States presidential elections and the presidential transition."
+        },
+        {
+          "date": "2008-01-01",
+          "date_latest": "2008-12-31",
+          "date_precision": "year",
+          "text": "The Russian Navy conducts ten limited patrols with its strategic nuclear submarines, its greatest amount since the collapse of the Soviet Union."
+        },
+        {
+          "date": "2009-01-01",
+          "date_latest": "2009-12-31",
+          "date_precision": "year",
+          "text": "April 4 – President Barack Obama pledges a \"world without nuclear weapons\" in a speech at Hradčany Square in Prague, Czech Republic."
+        },
+        {
+          "date": "2009-01-01",
+          "date_latest": "2009-12-31",
+          "date_precision": "year",
+          "text": "November 12 – President Obama announces changes to the NATO missile defense system, including an increased reliance on the sea-based Aegis Ballistic Missile Defense System and the AN/TPY-2 radar, and the RIM-161 Standard Missile 3 missile system."
+        },
+        {
+          "date": "2009-01-01",
+          "date_latest": "2009-12-31",
+          "date_precision": "year",
+          "text": "October 29 - Iran rejects the Obama administration's first proposal for an anti-nuclear agreement."
+        },
+        {
+          "date": "2010-01-01",
+          "date_latest": "2010-12-31",
+          "date_precision": "year",
+          "text": "April 8 – U.S. president Barack Obama and Russian President Dimitri Medvedev sign the New START Treaty reducing strategic warheads."
+        },
+        {
+          "date": "2010-01-01",
+          "date_latest": "2010-12-31",
+          "date_precision": "year",
+          "text": "February – Russia issues a revision of its military doctrine limiting the use of nuclear weapons to strictly defensive purposes."
+        },
+        {
+          "date": "2010-01-01",
+          "date_latest": "2010-12-31",
+          "date_precision": "year",
+          "text": "May – The United Kingdom releases the Strategic Defence and Security Review under the Cameron-Clegg coalition pledging to limit its number of operational nuclear warheads to 120 with 40 per submarine, which it does by January 2015."
+        },
+        {
+          "date": "2010-01-01",
+          "date_latest": "2010-12-31",
+          "date_precision": "year",
+          "text": "North Korea reveals its new uranium-enrichment plant during tensions from the ROKS Cheonan sinking, the May 24 measures, and the bombardment of Yeonpyeong."
+        },
+        {
+          "date": "2010-01-01",
+          "date_latest": "2010-12-31",
+          "date_precision": "year",
+          "text": "November 2 – The United Kingdom and France agree to closer cooperation regarding nuclear forces in the Lancaster House Treaties."
+        },
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-12-31",
+          "date_precision": "year",
+          "text": "April 19 – India tests its first intercontinental ballistic missile, the Agni-V."
+        },
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-12-31",
+          "date_precision": "year",
+          "text": "October – The Ministry of Foreign Affairs states that Russia will not renew the framework for cooperation with the United States on nuclear dismantlement after the expiration of the Nunn-Lugar Act."
+        },
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-12-31",
+          "date_precision": "year",
+          "text": "Russia announces that it will resume regular patrols with its SSBN fleet in international waters."
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-12-31",
+          "date_precision": "year",
+          "text": "After negotiations between Iran and the P5+1, the Joint Plan of Action is adopted."
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-12-31",
+          "date_precision": "year",
+          "text": "June – President Obama proposes reducing American strategic nuclear weapons to their lowest point since 1953 in a speech at the Brandenburg Gate in Berlin."
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-12-31",
+          "date_precision": "year",
+          "text": "The U.S. Department of Defense reports to Congress that the PLA Navy is developing a ballistic missile submarine force."
+        },
+        {
+          "date": "2014-01-01",
+          "date_latest": "2014-12-31",
+          "date_precision": "year",
+          "text": "December – After increasing tensions in Russia–United States diplomatic relations following the Russian annexation of Crimea and the Russian military intervention in Ukraine, cooperation with the United States on securing Russian nuclear stockpiles ends."
+        },
+        {
+          "date": "2014-01-01",
+          "date_latest": "2014-12-31",
+          "date_precision": "year",
+          "text": "September 18 – The 2014 Scottish independence referendum occurs and support for the Scottish National Party begins to grow. Speculations begin on how to withdraw the British nuclear arsenal from Scotland, where its SSBN fleet is deployed at HMNB Clyde and its nuclear arsenal is stored at RNAD Coulport, if it received independence or full fiscal autonomy."
+        },
+        {
+          "date": "2015-01-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "year",
+          "text": "November – The Strategic Defence and Security Review 2015 announces the Dreadnought-class submarines a replacement for Britain's aging Vanguard-class submarines and Trident missiles, but is eventually delayed due to \"Brexit\"."
+        },
+        {
+          "date": "2015-01-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "year",
+          "text": "Reports about Russia's Status-6 Oceanic Multipurpose System, a system of unmanned underwater vehicles capable of delivering a thermonuclear cobalt bomb, leak."
+        },
+        {
+          "date": "2015-01-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "year",
+          "text": "September 12 – Jeremy Corbyn, a longtime opponent of nuclear weapons, wins the 2015 Labour Party leadership election and becomes Leader of the Opposition. He proposes ending the Trident programme or removing the Trident missiles' nuclear capability."
+        },
+        {
+          "date": "2015-01-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "year",
+          "text": "Under the Joint Comprehensive Plan of Action, Iran agrees to limit its uranium-enrichment operations in exchange for submitting to IAEA inspections and reduced sanctions."
+        },
+        {
+          "date": "2016-01-01",
+          "date_latest": "2016-12-31",
+          "date_precision": "year",
+          "text": "January – North Korea Hydrogen bomb is 'tested' and confirmed by North Korea leader Kim Jong-Un."
+        },
+        {
+          "date": "2016-01-01",
+          "date_latest": "2016-12-31",
+          "date_precision": "year",
+          "text": "May 27 – President Obama becomes the first American head of state to visit Hiroshima, expressing sympathy for victims but not issuing a public apology for the bombings as many expected."
+        },
+        {
+          "date": "2017-01-01",
+          "date_latest": "2017-12-31",
+          "date_precision": "year",
+          "text": "December 12 – The National Defense Authorization Act for Fiscal Year 2018 is ratified, declaring Russia to be in violation of the Intermediate-Range Nuclear Forces Treaty (INF) Treaty."
+        },
+        {
+          "date": "2017-01-01",
+          "date_latest": "2017-12-31",
+          "date_precision": "year",
+          "text": "July 7- The Treaty on the Prohibition of Nuclear Weapons, the first legally-binding international nuclear weapons ban, is ratified by 90 countries. The International Campaign to Abolish Nuclear Weapons wins the Nobel Peace Prize for its campaigning for the Treaty."
+        },
+        {
+          "date": "2017-01-01",
+          "date_latest": "2017-12-31",
+          "date_precision": "year",
+          "text": "September – North Korea conducted its seventh nuclear test with a yield between fifty and two hundred fifty kilotons, causing an international crisis. President Donald Trump adopts more bellicose rhetoric towards the country."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "April 27 – Kim Jong-un meets South Korean President Moon Jae-in in Panmunjom for a summit and pledges a denuclearized Korean Peninsula."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "February – Under President Trump, the U.S. Department of Defense's Nuclear Posture Review announces the first expansion of the United States' nuclear arsenal since the end of the Cold War, citing violations of non-proliferation treaties by China and Russia as well as the Russian military intervention in Ukraine and the South China Sea territorial disputes."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "June 12 – Trump and Kim meet at the 2018 North Korea–United States Singapore Summit, the first American and North Korean heads of state to meet, and issue a joint declaration pledging a denuclearized Korea."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "March 15 – Crown Prince Mohammad bin Salman announces on a 60 Minutes interview that the Kingdom of Saudi Arabia will pursue nuclear weapons in the event of a successful Iranian nuclear test."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "May 1 – President Putin announces a major modernization to Russian nuclear forces in his annual Presidential Address to the Federal Assembly, including announcing the Avangard hypersonic glide vehicle."
+        },
+        {
+          "date": "2018-01-01",
+          "date_latest": "2018-12-31",
+          "date_precision": "year",
+          "text": "May 8 – President Trump announces the United States withdrawal from the Joint Comprehensive Plan of Action."
+        },
+        {
+          "date": "2019-01-01",
+          "date_latest": "2019-12-31",
+          "date_precision": "year",
+          "text": "February 28 – The 2019 North Korea–United States Hanoi Summit ends prematurely without a deal, but both parties express commitment to a better relationship."
+        },
+        {
+          "date": "2019-01-01",
+          "date_latest": "2019-12-31",
+          "date_precision": "year",
+          "text": "February – The United States and Russia withdraw from the INF Treaty."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 1,
+      "needs_review": false
+    },
+    {
+      "title": "Comprehensive Nuclear-Test-Ban Treaty",
+      "pageid": 7851,
+      "revid": 1367615330,
+      "revision_timestamp": "2026-08-04T03:45:19Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=7851",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1945-07-16",
+          "date_latest": "1945-07-16",
+          "date_precision": "day",
+          "text": "Between the Trinity nuclear test of 16 July 1945 and the signing of the Partial Test Ban Treaty (PTBT) on 5 August 1963, 499 nuclear tests were conducted.",
+          "names_later_date": true
+        },
+        {
+          "date": "1954-03-01",
+          "date_latest": "1954-03-01",
+          "date_precision": "day",
+          "text": "The Castle Bravo test of 1 March 1954, in particular, attracted significant attention as the detonation resulted in fallout that spread over inhabited areas and sickened a group of Japanese fishermen."
+        },
+        {
+          "date": "1957-09-19",
+          "date_latest": "1957-09-19",
+          "date_precision": "day",
+          "text": "These fears were amplified following the US Rainier shot of 19 September 1957, which was the first contained underground test of a nuclear weapon."
+        },
+        {
+          "date": "1963-07-25",
+          "date_latest": "1963-07-25",
+          "date_precision": "day",
+          "text": "Disagreement over verification would lead to the Anglo-American and Soviet negotiators abandoning a comprehensive test ban (i.e., a ban on all tests, including those underground) in favor of a partial ban, which would be finalized on 25 July 1963."
+        },
+        {
+          "date": "1990-12-11",
+          "date_latest": "1990-12-11",
+          "date_precision": "day",
+          "text": "The TTBT and PNET entered into force on 11 December 1990."
+        },
+        {
+          "date": "1996-09-10",
+          "date_latest": "1996-09-10",
+          "date_precision": "day",
+          "text": "It was adopted by the United Nations General Assembly on 10 September 1996, but has not entered into force, as it has not been ratified by all the required states."
+        },
+        {
+          "date": "1996-09-10",
+          "date_latest": "1996-09-10",
+          "date_precision": "day",
+          "text": "On 10 September 1996, the Comprehensive Test-Ban Treaty (CTBT) was adopted by a large majority, exceeding two-thirds of the General Assembly's Membership."
+        },
+        {
+          "date": "1996-09-10",
+          "date_latest": "1996-09-10",
+          "date_precision": "day",
+          "text": "The Treaty was adopted by the United Nations General Assembly on 10 September 1996.",
+          "duplicate_of": "Comprehensive Nuclear-Test-Ban Treaty"
+        },
+        {
+          "date": "1996-09-24",
+          "date_latest": "1996-09-24",
+          "date_precision": "day",
+          "text": "It opened for signature in New York on 24 September 1996, when it was signed by 71 states, including five of the eight then nuclear-capable states. 7, 179 states have ratified the CTBT and another nine states have signed but not ratified it."
+        },
+        {
+          "date": "1996-09-24",
+          "date_latest": "1996-09-24",
+          "date_precision": "day",
+          "text": "It opened for signature in New York on 24 September 1996.",
+          "duplicate_of": "Comprehensive Nuclear-Test-Ban Treaty"
+        },
+        {
+          "date": "1999-10-13",
+          "date_latest": "1999-10-13",
+          "date_precision": "day",
+          "text": "On 13 October 1999, the resolution to ratify the CTBT, including an amendment of six safeguards, was defeated by a 51-48 vote, mostly along party lines.",
+          "mentions_vote": true
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "History of nuclear weapons",
+      "pageid": 242883,
+      "revid": 1363110951,
+      "revision_timestamp": "2026-07-08T02:54:09Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=242883",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1939-01-13",
+          "date_latest": "1939-01-13",
+          "date_precision": "day",
+          "text": "Frisch confirmed this experimentally on January 13, 1939.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1939-01-25",
+          "date_latest": "1939-01-25",
+          "date_precision": "day",
+          "text": "In the United States, scientists at Columbia University in New York City decided to replicate the experiment and on January 25, 1939, conducted the first nuclear fission experiment in the United States in the basement of Pupin Hall."
+        },
+        {
+          "date": "1939-05-04",
+          "date_latest": "1939-05-04",
+          "date_precision": "day",
+          "text": "This patent was applied for on May 4, 1939, but only granted in 1950, being withheld by French authorities in the meantime."
+        },
+        {
+          "date": "1942-12-02",
+          "date_latest": "1942-12-02",
+          "date_precision": "day",
+          "text": "After many subcritical designs, Chicago Pile-1 achieved criticality on December 2, 1942."
+        },
+        {
+          "date": "1945-05-08",
+          "date_latest": "1945-05-08",
+          "date_precision": "day",
+          "text": "At the time of the unconditional surrender of Germany on May 8, 1945, the Manhattan Project was still months away from producing a working weapon."
+        },
+        {
+          "date": "1945-07-16",
+          "date_latest": "1945-07-16",
+          "date_precision": "day",
+          "text": ", an implosion-type plutonium device tested on July 16, 1945, by the United States was the first successful nuclear weapon ever created."
+        },
+        {
+          "date": "1945-07-16",
+          "date_latest": "1945-07-16",
+          "date_precision": "day",
+          "text": "On July 16, 1945, in the desert north of Alamogordo, New Mexico, the first nuclear test took place, code-named \"Trinity\", using a device nicknamed \"the gadget.\" The test, a plutonium implosion-type device, released energy equivalent to 22 kilotons of TNT, far more powerful than any weapon ever used before.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1945-08-06",
+          "date_latest": "1945-08-06",
+          "date_precision": "day",
+          "text": "On August 6, 1945, a uranium-based weapon, Little Boy, was detonated above the Japanese city of Hiroshima, and three days later, a plutonium-based weapon, Fat Man, was detonated above the Japanese city of Nagasaki.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1945-08-06",
+          "date_latest": "1945-08-06",
+          "date_precision": "day",
+          "text": "]] The atomic bombings of Hiroshima and Nagasaki and the end of World War II quickly followed the 1945 Trinity nuclear test, and the Little Boy device was detonated over the Japanese city of Hiroshima on 6 August 1945."
+        },
+        {
+          "date": "1949-08-29",
+          "date_latest": "1949-08-29",
+          "date_precision": "day",
+          "text": "On August 29, 1949, the effort brought its results, when the USSR successfully tested its first fission bomb, dubbed \"Joe-1\" by the U.S."
+        },
+        {
+          "date": "1950-01-31",
+          "date_latest": "1950-01-31",
+          "date_precision": "day",
+          "text": "On January 31, 1950, Truman announced a crash program to develop the hydrogen (fusion) bomb."
+        },
+        {
+          "date": "1952-02-26",
+          "date_latest": "1952-02-26",
+          "date_precision": "day",
+          "text": "An improved version of 'Fat Man' was developed, and on 26 February 1952, Prime Minister Winston Churchill announced that the United Kingdom had an atomic bomb and a successful test took place on 3 October 1952.",
+          "names_later_date": true
+        },
+        {
+          "date": "1952-11-01",
+          "date_latest": "1952-11-01",
+          "date_precision": "day",
+          "text": "Many scientists, initially against the weapon, such as Oppenheimer and Bethe, changed their previous opinions, seeing the development as being unstoppable. , the first full test of the Teller–Ulam design (a staged fusion bomb), with a yield of 10.4 megatons (November 1, 1952)]] The first fusion bomb was tested by the United States in Operation Ivy on November 1, 1952, on Elugelab Island in the Enewetak (or Eniwetok) Atoll of the Marshall Islands, code-named \"Mike.\" Mike used liquid deuterium as its fusion fuel and a large fission weapon as its trigger.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1953-01-07",
+          "date_latest": "1953-01-07",
+          "date_precision": "day",
+          "text": "Truman had initially tried to create a media blackout about the test—hoping it would not become an issue in the upcoming presidential election—but on January 7, 1953, Truman announced the development of the hydrogen bomb to the world as hints and speculations of it were already beginning to emerge in the press."
+        },
+        {
+          "date": "1953-08-12",
+          "date_latest": "1953-08-12",
+          "date_precision": "day",
+          "text": "Not to be outdone, the Soviet Union exploded its first thermonuclear device, designed by the physicist Andrei Sakharov, on August 12, 1953, labeled \"Joe-4\" by the West."
+        },
+        {
+          "date": "1954-03-01",
+          "date_latest": "1954-03-01",
+          "date_precision": "day",
+          "text": "On March 1, 1954, the U.S. detonated its first practical thermonuclear weapon (which used isotopes of lithium as its fusion fuel), known as the \"Shrimp\" device of the Castle Bravo test, at Bikini Atoll, Marshall Islands."
+        },
+        {
+          "date": "1955-04-18",
+          "date_latest": "1955-04-18",
+          "date_precision": "day",
+          "text": "The signatories included eleven pre-eminent intellectuals and scientists, including Albert Einstein, who signed it just days before his death on April 18, 1955."
+        },
+        {
+          "date": "1955-07-09",
+          "date_latest": "1955-07-09",
+          "date_precision": "day",
+          "text": "The Russell–Einstein Manifesto was issued in London on July 9, 1955, by Bertrand Russell in the midst of the Cold War."
+        },
+        {
+          "date": "1956-10-11",
+          "date_latest": "1956-10-11",
+          "date_precision": "day",
+          "text": "A Vickers Valiant dropped the first UK nuclear weapon on 11 October 1956 at Maralinga, South Australia."
+        },
+        {
+          "date": "1960-03-25",
+          "date_latest": "1960-03-25",
+          "date_precision": "day",
+          "text": "File:USS Halibut (SSGN-587) firing a Regulus missile next to USS Lexington (CV-16), 25 March 1960.jpg|A SSM-N-8 Regulus is launched from ; prior to the development of the SLBM, the United States employed submarines with Regulus cruise missiles in the submarine-based strategic deterrent role."
+        },
+        {
+          "date": "1961-11-01",
+          "date_latest": "1961-11-01",
+          "date_precision": "day",
+          "text": "On November 1, 1961, at the height of the Cold War, about 50,000 women brought together by Women Strike for Peace marched in 60 cities in the United States to demonstrate against nuclear weapons."
+        },
+        {
+          "date": "1964-10-16",
+          "date_latest": "1964-10-16",
+          "date_precision": "day",
+          "text": "It tested its first atomic bomb at Lop Nur on October 16, 1964 (Project 596); and tested a nuclear missile on October 25, 1966; and tested a thermonuclear (hydrogen) bomb (Test No. 6) on June 14, 1967.",
+          "names_later_date": true,
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1967-01-27",
+          "date_latest": "1967-01-27",
+          "date_precision": "day",
+          "text": "On January 27, 1967, more than 60 nations signed the Outer Space Treaty, banning nuclear weapons in space.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "1982-06-12",
+          "date_latest": "1982-06-12",
+          "date_precision": "day",
+          "text": "In New York on June 12, 1982, one million people gathered to protest about nuclear weapons, and to support the second UN Special Session on Disarmament."
+        },
+        {
+          "date": "1987-02-06",
+          "date_latest": "1987-02-06",
+          "date_precision": "day",
+          "text": "For example, on February 6, 1987, nearly 2,000 demonstrators, including six members of Congress, protested against nuclear weapons testing and more than 400 people were arrested."
+        },
+        {
+          "date": "1992-01-26",
+          "date_latest": "1992-01-26",
+          "date_precision": "day",
+          "text": "In a major move of symbolic de-escalation, Boris Yeltsin, on January 26, 1992, announced that Russia planned to stop targeting United States cities with nuclear weapons."
+        },
+        {
+          "date": "2006-10-09",
+          "date_latest": "2006-10-09",
+          "date_precision": "day",
+          "text": "The first claimed detonation was the 2006 North Korean nuclear test, conducted on October 9, 2006."
+        },
+        {
+          "date": "2009-05-25",
+          "date_latest": "2009-05-25",
+          "date_precision": "day",
+          "text": "On May 25, 2009, North Korea continued nuclear testing, violating United Nations Security Council Resolution 1718."
+        },
+        {
+          "date": "2013-02-13",
+          "date_latest": "2013-02-13",
+          "date_precision": "day",
+          "text": "A third test was conducted on 13 February 2013, two tests were conducted in 2016 in January and September, followed by test a year later in September 2017."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Nuclear disarmament",
+      "pageid": 22165,
+      "revid": 1371490476,
+      "revision_timestamp": "2026-08-26T19:31:26Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=22165",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1945-08-06",
+          "date_latest": "1945-08-06",
+          "date_precision": "day",
+          "text": "On August 6, 1945, towards the end of World War II, the \"Little Boy\" device was detonated over the Japanese city of Hiroshima.",
+          "duplicate_of": "History of nuclear weapons"
+        },
+        {
+          "date": "1945-08-09",
+          "date_latest": "1945-08-09",
+          "date_precision": "day",
+          "text": "Detonation of the \"Fat Man\" device exploded over the Japanese city of Nagasaki three days later on August 9, 1945, destroying 60% of the city and killing 35,000–40,000 people outright, though up to 40,000 additional deaths may have occurred over some time after that."
+        },
+        {
+          "date": "1961-11-01",
+          "date_latest": "1961-11-01",
+          "date_precision": "day",
+          "text": "On November 1, 1961, at the height of the Cold War, about 50,000 women brought together by Women Strike for Peace marched in 60 cities in the United States to demonstrate against nuclear weapons.",
+          "duplicate_of": "History of nuclear weapons"
+        },
+        {
+          "date": "1981-06-03",
+          "date_latest": "1981-06-03",
+          "date_precision": "day",
+          "text": "On June 3, 1981, William Thomas launched the White House Peace Vigil in Washington, D.C."
+        },
+        {
+          "date": "1982-06-12",
+          "date_latest": "1982-06-12",
+          "date_precision": "day",
+          "text": "On June 12, 1982, one million people demonstrated in New York City's Central Park against nuclear weapons and for an end to the Cold War arms race."
+        },
+        {
+          "date": "1983-06-20",
+          "date_latest": "1983-06-20",
+          "date_precision": "day",
+          "text": "International Day of Nuclear Disarmament protests were held on June 20, 1983, at 50 sites across the United States."
+        },
+        {
+          "date": "2005-05-01",
+          "date_latest": "2005-05-01",
+          "date_precision": "day",
+          "text": "On May 1, 2005, 40,000 anti-nuclear/anti-war protesters marched past the United Nations in New York, 60 years after the atomic bombings of Hiroshima and Nagasaki."
+        },
+        {
+          "date": "2008-10-21",
+          "date_latest": "2008-10-21",
+          "date_precision": "day",
+          "text": "Nunn reinforced that agenda during a speech at the Harvard Kennedy School on October 21, 2008, saying, \"I'm much more concerned about a terrorist without a return address that cannot be deterred than I am about deliberate war between nuclear powers."
+        },
+        {
+          "date": "2016-02-27",
+          "date_latest": "2016-02-27",
+          "date_precision": "day",
+          "text": "During a 2010 lecture at the University of Missouri, which was broadcast by C-SPAN, Mueller has also argued that the threat from nuclear weapons, especially nuclear terrorism, has been exaggerated, both in the popular media and by officials. speaking at the #StopTrident rally at Trafalgar Square on February 27, 2016]] Former Secretary Kissinger says there is a new danger, which cannot be addressed by deterrence: \"The classical notion of deterrence was that there was some consequences before which aggressors and evildoers would recoil."
+        },
+        {
+          "date": "2017-07-07",
+          "date_latest": "2017-07-07",
+          "date_precision": "day",
+          "text": "On July 7, 2017, a UN conference adopted the Treaty on the Prohibition of Nuclear Weapons with the backing of 122 states."
+        },
+        {
+          "date": "2017-07-07",
+          "date_latest": "2017-07-07",
+          "date_precision": "day",
+          "text": "on July 7, 2017 ]] Eliminating nuclear weapons has long been an aim of the pacifist left."
+        },
+        {
+          "date": "2017-09-20",
+          "date_latest": "2017-09-20",
+          "date_precision": "day",
+          "text": "It opened for signature on September 20, 2017."
+        },
+        {
+          "date": "2021-01-22",
+          "date_latest": "2021-01-22",
+          "date_precision": "day",
+          "text": "While the treaty is not in force, Russia has not tested a nuclear weapon since 1990 and the United States has not since 1992. * New START Treaty—signed 2010, into force in 2011: replaces SORT treaty, reduces deployed nuclear warheads by about half, will remain into force until 2026. * Treaty on the Prohibition of Nuclear Weapons—signed 2017, entered into force on January 22, 2021: prohibits possession, manufacture, development, and testing of nuclear weapons, or assistance in such activities, by its parties."
+        },
+        {
+          "date": "2022-01-03",
+          "date_latest": "2022-01-03",
+          "date_precision": "day",
+          "text": "On January 3, 2022, the permanent members of the United Nations Security Council, China, France, Russia, Britain, and the United States issued a statement on prevention of nuclear war, affirming that \"a nuclear war cannot be won and must never be fought.\" On February 21, 2023, Russian President Vladimir Putin suspended Russia's participation in the New START nuclear arms reduction treaty with the United States.",
+          "names_later_date": true
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Nuclear proliferation",
+      "pageid": 22158,
+      "revid": 1370152037,
+      "revision_timestamp": "2026-08-19T11:39:50Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=22158",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2002-10-18",
+          "date_latest": "2002-10-18",
+          "date_precision": "day",
+          "text": "A New York Times report on 18 October 2002 quoted U.S. intelligence officials having stated that Pakistan was a major supplier of critical equipment to North Korea."
+        },
+        {
+          "date": "2002-10-18",
+          "date_latest": "2002-10-18",
+          "date_precision": "day",
+          "text": "Other reports also indicate that North Korea had been working covertly to develop an enrichment capability for nuclear weapons for at least five years and had used technology obtained from Pakistan (The Washington Times, 18 October 2002)."
+        },
+        {
+          "date": "2002-11-22",
+          "date_latest": "2002-11-22",
+          "date_precision": "day",
+          "text": "Separate reports indicate (The Washington Times, 22 November 2002) that U.S. intelligence had as early as 1999 picked up signs that North Korea was continuing to develop nuclear arms."
+        },
+        {
+          "date": "2002-11-27",
+          "date_latest": "2002-11-27",
+          "date_precision": "day",
+          "text": "Bermudez Jr. in Jane's Defence Weekly (27 November 2002) reports that Western analysts had begun to question what North Korea received in payment for the missiles; many suspected it was the nuclear technology."
+        },
+        {
+          "date": "2003-12-19",
+          "date_latest": "2003-12-19",
+          "date_precision": "day",
+          "text": "On 19 December 2003, Gaddafi announced that Libya would voluntarily eliminate all materials, equipment and programs that could lead to internationally proscribed weapons, including weapons of mass destruction and long-range ballistic missiles."
+        },
+        {
+          "date": "2004-04-21",
+          "date_latest": "2004-04-21",
+          "date_precision": "day",
+          "text": "He was freed on 21 April 2004, but was severely limited by the Israeli government."
+        },
+        {
+          "date": "2004-11-11",
+          "date_latest": "2004-11-11",
+          "date_precision": "day",
+          "text": "He was arrested again on 11 November 2004, though formal charges were not immediately filed."
+        },
+        {
+          "date": "2005-01-10",
+          "date_latest": "2005-01-10",
+          "date_precision": "day",
+          "text": "On 10 January 2005, North Korea declared that it was in the possession of nuclear weapons."
+        },
+        {
+          "date": "2005-08-09",
+          "date_latest": "2005-08-09",
+          "date_precision": "day",
+          "text": "On 9 August 2005, Ayatollah Ali Khamenei issued a fatwa forbidding the production, stockpiling and use of nuclear weapons.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "2005-09-19",
+          "date_latest": "2005-09-19",
+          "date_precision": "day",
+          "text": "On 19 September 2005, the fourth round of the Six-Party Talks ended with a joint statement in which North Korea agreed to end its nuclear programs and return to the NPT in exchange for diplomatic, energy and economic assistance."
+        },
+        {
+          "date": "2006-10-09",
+          "date_latest": "2006-10-09",
+          "date_precision": "day",
+          "text": "On 9 October 2006, North Korea announced that it has performed its first-ever nuclear weapon test.",
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "2006-10-09",
+          "date_latest": "2006-10-09",
+          "date_precision": "day",
+          "text": "The legality of North Korea's withdrawal is debatable but on 9 October 2006 North Korea said it tested a nuclear device, for which it was sanctioned by the UN Security Council."
+        },
+        {
+          "date": "2006-12-18",
+          "date_latest": "2006-12-18",
+          "date_precision": "day",
+          "text": "On 18 December 2006, the six-party talks finally resumed."
+        },
+        {
+          "date": "2007-02-13",
+          "date_latest": "2007-02-13",
+          "date_precision": "day",
+          "text": "On 13 February 2007, the parties announced \"Initial Actions\" to implement the 2005 joint statement including shutdown and disablement of North Korean nuclear facilities in exchange for energy assistance."
+        },
+        {
+          "date": "2007-09-06",
+          "date_latest": "2007-09-06",
+          "date_precision": "day",
+          "text": "On 6 September 2007, Israel bombed an officially unidentified site in Syria which it later asserted was a nuclear reactor under construction (see Operation Outside the Box)."
+        },
+        {
+          "date": "2009-05-25",
+          "date_latest": "2009-05-25",
+          "date_precision": "day",
+          "text": "Reacting to UN sanctions imposed after missile tests in April 2009, North Korea withdrew from the six-party talks, restarted its nuclear facilities and conducted a second nuclear test on 25 May 2009."
+        },
+        {
+          "date": "2013-02-12",
+          "date_latest": "2013-02-12",
+          "date_precision": "day",
+          "text": "On 12 February 2013, North Korea conducted an underground nuclear explosion with an estimated yield of 6 to 7 kilotonnes."
+        },
+        {
+          "date": "2015-07-03",
+          "date_latest": "2015-07-03",
+          "date_precision": "day",
+          "text": "As of 3 July 2015, 146 countries have signed the Additional Protocols and 126 have brought them into force."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Treaty on the Non-Proliferation of Nuclear Weapons",
+      "pageid": 22107,
+      "revid": 1368637725,
+      "revision_timestamp": "2026-08-10T06:08:35Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=22107",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-01-01",
+          "date_precision": "day",
+          "text": "Article IX: \"For the purposes of this Treaty, a nuclear-weapon State is one which has manufactured and exploded a nuclear weapon or other nuclear explosive device prior to 1 January 1967.\" Article X: Establishes the right to withdraw from the Treaty giving 3 months' notice."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-01-01",
+          "date_precision": "day",
+          "text": "Some countries such as India have criticized the NPT, because it \"discriminated against states not possessing nuclear weapons on 1 January 1967,\" while Iran and numerous Arab states have criticized Israel for not signing the NPT."
+        },
+        {
+          "date": "1967-01-01",
+          "date_latest": "1967-01-01",
+          "date_precision": "day",
+          "text": "The treaty defines nuclear-weapon states as those that have built and tested a nuclear explosive device before 1 January 1967; these are the United States (1945), Russia (1949), the United Kingdom (1952), France (1960), and China (1964)."
+        },
+        {
+          "date": "1985-12-12",
+          "date_latest": "1985-12-12",
+          "date_precision": "day",
+          "text": "North Korea acceded to the treaty on 12 December 1985 in order to obtain assistance from the Soviet Union in the construction of four light-water reactors, but was found to be in noncompliance with its IAEA safeguards agreement after a series of inspections in 1992-93 which determined that North Korea had not fully declared its history of reprocessing spent fuel at the Yongbyon nuclear facility."
+        },
+        {
+          "date": "1993-03-12",
+          "date_latest": "1993-03-12",
+          "date_precision": "day",
+          "text": "North Korea responded by announcing its intent to withdraw from the treaty on 12 March 1993, and President Bill Clinton responded by announcing sanctions and considering military action."
+        },
+        {
+          "date": "1995-05-11",
+          "date_latest": "1995-05-11",
+          "date_precision": "day",
+          "text": "Even though the treaty was originally conceived with a limited duration of 25 years, the signing parties decided, by consensus, to unconditionally extend the treaty indefinitely during the Review Conference in New York City on 11 May 1995, in the culmination of U.S. government efforts led by Ambassador Thomas Graham Jr."
+        },
+        {
+          "date": "1996-07-08",
+          "date_latest": "1996-07-08",
+          "date_precision": "day",
+          "text": "The International Court of Justice (ICJ), in its advisory opinion on the Legality of the Threat or Use of Nuclear Weapons, issued 8 July 1996, unanimously interprets the text of Article VI as implying that There exists an obligation to pursue in good faith and bring to a conclusion negotiations leading to nuclear disarmament in all its aspects under strict and effective international control.",
+          "mentions_vote": true,
+          "duplicate_of": "Timeline of nuclear weapons development"
+        },
+        {
+          "date": "2003-01-10",
+          "date_latest": "2003-01-10",
+          "date_precision": "day",
+          "text": "In response, North Korea expelled IAEA inspectors, disabled IAEA equipment, and, on 10 January 2003, announced that it was ending the suspension of its previous NPT withdrawal notification."
+        },
+        {
+          "date": "2003-01-10",
+          "date_latest": "2003-01-10",
+          "date_precision": "day",
+          "text": "The U.S. subsequently halted fuel oil shipments to North Korea in December 2002 and the DPRK government again gave notice of withdrawal from NPT on 10 January 2003."
+        },
+        {
+          "date": "2003-04-10",
+          "date_latest": "2003-04-10",
+          "date_precision": "day",
+          "text": "The withdrawal became effective 10 April 2003, making North Korea the first state ever to withdraw from the treaty."
+        },
+        {
+          "date": "2005-02-10",
+          "date_latest": "2005-02-10",
+          "date_precision": "day",
+          "text": "On 10 February 2005, North Korea publicly declared that it possessed nuclear weapons and pulled out of the six-party talks. \"We had already taken the resolute action of pulling out of the Nuclear Non-Proliferation Treaty and have manufactured nuclear arms for self-defence to cope with the Bush administration's evermore undisguised policy to isolate and stifle the DPRK [Democratic People's Republic of Korea],\" a North Korean Foreign Ministry statement said regarding the issue.",
+          "duplicate_of": "Nuclear proliferation"
+        },
+        {
+          "date": "2005-09-19",
+          "date_latest": "2005-09-19",
+          "date_precision": "day",
+          "text": "On 19 September 2005, North Korea announced that it would agree to a preliminary accord."
+        },
+        {
+          "date": "2005-09-19",
+          "date_latest": "2005-09-19",
+          "date_precision": "day",
+          "text": "The Joint Statement of 19 September 2005 at the end of the Fourth Round of the Six-Party Talks called for North Korea to \"return\" to the NPT, implicitly acknowledging that it had withdrawn.",
+          "duplicate_of": "Nuclear proliferation"
+        },
+        {
+          "date": "2006-10-02",
+          "date_latest": "2006-10-02",
+          "date_precision": "day",
+          "text": "On 2 October 2006, the North Korean foreign minister announced that his country was planning to conduct a nuclear test \"in the future\", although it did not state when."
+        },
+        {
+          "date": "2006-10-09",
+          "date_latest": "2006-10-09",
+          "date_precision": "day",
+          "text": "On Monday, 9 October 2006 at 01:35:28 (UTC) the United States Geological Survey detected a magnitude 4.3 seismic event 70 km north of Kimchaek, North Korea indicating a nuclear test."
+        },
+        {
+          "date": "2007-09-06",
+          "date_latest": "2007-09-06",
+          "date_precision": "day",
+          "text": "It resulted in Operation Orchard, that took place on 6 September 2007 and saw as many as eight Israeli Air Force aircraft taking part."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-01",
+          "date_precision": "day",
+          "text": "On 1 August 2008, the IAEA approved the India Safeguards Agreement and on 6 September 2008, India was granted the waiver at the Nuclear Suppliers Group (NSG) meeting held in Vienna, Austria.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-10-08",
+          "date_latest": "2008-10-08",
+          "date_precision": "day",
+          "text": "Congress approved this agreement and President Bush signed it on 8 October 2008."
+        },
+        {
+          "date": "2009-09-18",
+          "date_latest": "2009-09-18",
+          "date_precision": "day",
+          "text": "On 18 September 2009, the General Conference of the International Atomic Energy Agency called on Israel to open its nuclear facilities to IAEA inspection and adhere to the non-proliferation treaty as part of a resolution on \"Israeli nuclear capabilities\", which passed by a narrow margin of 49–45 with 16 abstentions.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2010-04-13",
+          "date_latest": "2010-04-13",
+          "date_precision": "day",
+          "text": "The \"Global Summit on Nuclear Security\" took place 12–13 April 2010."
+        },
+        {
+          "date": "2012-02-29",
+          "date_latest": "2012-02-29",
+          "date_precision": "day",
+          "text": "Bilateral negotiations between North Korea and the United States after the death of Kim Jong-il led to the 29 February 2012 \"Leap Day Agreement\" in which North Korea would agree to allow IAEA inspections and resume the six-party talks."
+        },
+        {
+          "date": "2014-04-24",
+          "date_latest": "2014-04-24",
+          "date_precision": "day",
+          "text": "On 24 April 2014, it was announced that the nation of the Marshall Islands has brought suit in The Hague against the United States, the former Soviet Union, the United Kingdom, France, China, India, Pakistan, North Korea and Israel seeking to have the disarmament provisions of the NPT enforced."
+        },
+        {
+          "date": "2014-09-05",
+          "date_latest": "2014-09-05",
+          "date_precision": "day",
+          "text": "On 5 September 2014 Tony Abbott, Gillard's successor as Australian Prime Minister, sealed a civil nuclear deal to sell uranium to India. \"We signed a nuclear cooperation agreement because Australia trusts India to do the right thing in this area, as it has been doing in other areas,\" Abbott told reporters after he and Indian Prime Minister Narendra Modi signed a pact to sell uranium for peaceful power generation."
+        },
+        {
+          "date": "2015-07-14",
+          "date_latest": "2015-07-14",
+          "date_precision": "day",
+          "text": "On 14 July 2015, the P5+1 and Iran concluded the Joint Comprehensive Plan of Action (JCPOA), lifting sanctions on Iran in exchange for constraints and on Iran's nuclear activities and increased verification by the IAEA."
+        },
+        {
+          "date": "2016-05-19",
+          "date_latest": "2016-05-19",
+          "date_precision": "day",
+          "text": "Pakistan applied for membership on 19 May 2016, supported by Turkey and China."
+        },
+        {
+          "date": "2017-07-07",
+          "date_latest": "2017-07-07",
+          "date_precision": "day",
+          "text": "For further information see 2010 Nuclear Security Summit. on 7 July 2017 ]] In a major policy speech at the Brandenburg Gate in Berlin on 19 June 2013, Obama outlined plans to further reduce the number of warheads in the U.S. nuclear arsenal."
+        },
+        {
+          "date": "2017-09-20",
+          "date_latest": "2017-09-20",
+          "date_precision": "day",
+          "text": "Based on concerns over the slow pace of nuclear disarmament and the continued reliance on nuclear weapons in military and security concepts, doctrines and policies, the Treaty on the Prohibition of Nuclear Weapons was adopted in July 2017 and was subsequently opened for signature on 20 September 2017.",
+          "duplicate_of": "Nuclear disarmament"
+        },
+        {
+          "date": "2018-05-08",
+          "date_latest": "2018-05-08",
+          "date_precision": "day",
+          "text": "On 8 May 2018, President Donald Trump withdrew the United States from the JCPOA and reimposed sanctions on Iran."
+        },
+        {
+          "date": "2021-01-22",
+          "date_latest": "2021-01-22",
+          "date_precision": "day",
+          "text": "Entering into force on 22 January 2021, it prohibits each state party from the development, testing, production, stockpiling, stationing, transfer, use and threat of use of nuclear weapons, as well as assistance to those activities."
+        },
+        {
+          "date": "2022-02-27",
+          "date_latest": "2022-02-27",
+          "date_precision": "day",
+          "text": "On 27 February 2022, shortly after the 2022 Russian invasion of Ukraine, a referendum was staged in Belarus to remove a constitutional prohibition on basing nuclear weapons on its territory."
+        },
+        {
+          "date": "2022-06-25",
+          "date_latest": "2022-06-25",
+          "date_precision": "day",
+          "text": "On 25 June 2022, President of Belarus Lukashenko met Russian President Putin to discuss the deployment of Russian short-range nuclear-capable missiles on the territory of Belarus."
+        },
+        {
+          "date": "2022-08-26",
+          "date_latest": "2022-08-26",
+          "date_precision": "day",
+          "text": "The Tenth Review Conference convened 1–26 August 2022, after a two-year postponement due to the COVID-19 pandemic, and concluded without adopting a final document."
+        },
+        {
+          "date": "2023-06-14",
+          "date_latest": "2023-06-14",
+          "date_precision": "day",
+          "text": "On 14 June 2023, president Lukashenko said that Russia had started moving tactical nuclear weapons into Belarus's territory."
+        },
+        {
+          "date": "2023-06-23",
+          "date_latest": "2023-06-23",
+          "date_precision": "day",
+          "text": "On June 23, 2023, The US Department of State issued a statement that the United States hosted the meeting on June 13–14 in Cairo among the five nuclear weapons states, describing it as \"an ongoing exchange in the context of the Nuclear Non-Proliferation Treaty (NPT).\" The Eleventh Review Conference convened 27 April to 22 May 2026 at United Nations Headquarters in New York, and concluded without adopting a final document.",
+          "names_later_date": true
+        },
+        {
+          "date": "2024-12-02",
+          "date_latest": "2024-12-02",
+          "date_precision": "day",
+          "text": "On 2 December 2024, the United Nations General Assembly adopted a resolution that \"calls upon South Sudan to join the Treaty at the earliest opportunity\"."
+        },
+        {
+          "date": "2025-06-16",
+          "date_latest": "2025-06-16",
+          "date_precision": "day",
+          "text": "On 16 June 2025, as a result of the Twelve-Day War, Iran announced that its parliament was drafting a bill to withdraw from the NPT."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

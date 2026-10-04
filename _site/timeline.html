@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charts by year · UN Voting Corpus 1946–2025</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main>
+  <h1>Activity timeline, 1946—2025</h1>
+  <p class="lede">
+    Annual output from both bodies, aligned on the <strong>calendar year</strong>. The Assembly
+    corpus is stored by session (the Nth session opens in September and runs into the following
+    September), so each resolution has been re-dated here using the <strong>adoption date</strong>
+    printed in its own text — which is what makes a year-for-year comparison possible.
+    Drag the slider below to zoom any stretch; all three panels move together.
+  </p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="controls">
+    <div class="seg" id="era-seg"></div>
+    <label style="margin-left:6px">
+      <input type="checkbox" id="show-events" checked> Show historical event markers
+    </label>
+  </div>
+
+  <div class="card">
+    <header>
+      <h2>Annual output and voting structure</h2>
+      <p>Three panels share one time axis and one zoom slider. <strong>No dual y-axis is
+      used</strong> — two series of different magnitude laid over one another cross wherever the
+      axis scaling puts them rather than where the data does, and that artefact is deliberately
+      excluded from this project.</p>
+    </header>
+    <div class="legend">
+      <span class="item"><span class="swatch" style="background:var(--series-1)"></span>Council resolutions adopted</span>
+      <span class="item"><span class="swatch" style="background:var(--series-2)"></span>Assembly resolutions (corpus ≥80% complete)</span>
+      <span class="item"><span class="swatch hatch"></span>Assembly (coverage &lt;80%, not readable as a trend)</span>
+      <span class="item" style="color:var(--text-muted)">Panel ③:</span>
+      <span class="item"><span class="swatch" style="background:var(--series-1)"></span>US</span>
+      <span class="item"><span class="swatch" style="background:var(--series-2)"></span>UK</span>
+      <span class="item"><span class="swatch" style="background:var(--series-3)"></span>France</span>
+      <span class="item"><span class="swatch" style="background:var(--series-4)"></span>China</span>
+      <span class="item"><span class="swatch" style="background:var(--series-5)"></span>Russia/USSR</span>
+    </div>
+    <div id="main-chart" class="chart" style="height:740px"></div>
+    <p class="note" id="range-note"></p>
+    <div id="main-table"></div>
+  </div>
+
+  <div class="callout critical">
+    <strong>The Assembly line cannot be read between 1980 and 1992.</strong>
+    Seven sessions in that stretch sit at 13.4%–44% corpus coverage (1991 is the worst, at 13.4%),
+    with a further five (1980–82, 1984, 1986) between 59.9% and 79.9%. They are drawn as hatched, hollow bars. These troughs
+    are <strong>collection gaps</strong>, not a decline in the Assembly's real output, and they
+    should certainly not be read as a political phenomenon of the late Cold War.
+  </div>
+
+  <div class="callout">
+    <strong>1964 is the one exception.</strong> Coverage that year is 100%, yet the Assembly
+    adopted just 2 resolutions. The fight over Article 19 of the Charter — the loss of voting
+    rights for states in arrears — kept the 19th session from voting at all, and the session was
+    pushed back to 30 December 1964 before it adopted anything. It is the only year in the whole
+    span where the corpus is complete and output genuinely collapsed, so it is the only trough
+    that can be treated as a finding.
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <header>
+        <h2>Council voting structure</h2>
+        <p>Both series are percentages, so they share one scale and belong on one axis.</p>
+      </header>
+      <div id="struct-chart" class="chart short"></div>
+      <div id="struct-table"></div>
+    </div>
+    <div class="card">
+      <header>
+        <h2>Year detail</h2>
+        <p>Both bodies for the selected year. Click any year in the main chart to change it.</p>
+      </header>
+      <div id="year-detail"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <header>
+      <h2>Assembly corpus coverage</h2>
+      <p>The share of each calendar year's actual resolutions that the corpus holds. This is the
+      precondition for reading the Assembly series above: below 80%, bar height reflects how much
+      was collected rather than how much was adopted.</p>
+    </header>
+    <div id="cov-chart" class="chart short"></div>
+    <div id="cov-table"></div>
+  </div>
+</main>
+
+<script src="assets/echarts.min.js"></script>
+<script src="data/timeline.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const T = window.TIMELINE;
+const YEARS = T.years;
+const BAND_LABEL = { RELIABLE: 'corpus complete', DEGRADED: 'coverage low',
+                     UNUSABLE: 'coverage insufficient — unusable',
+                     PARTIAL_YEAR: 'partial year', MISSING: 'missing' };
+
+const ERAS = [
+  ['Full span 1946–2025', 1946, 2025],
+  ['Cold War 1946–1989', 1946, 1989],
+  ['Post-Cold War 1990–2001', 1990, 2001],
+  ['Counter-terrorism 2001–2010', 2001, 2010],
+  ['Contemporary 2011–2025', 2011, 2025],
+];
+let era = 0;
+let selectedYear = 2022;
+const sum = (a) => a.reduce((x, y) => x + (y || 0), 0);
+const VETO_STATES = [['United States', ['USA']], ['United Kingdom', ['GBR']], ['France', ['FRA']],
+  ['China', ['CHN']], ['Russia / USSR', ['RUS', 'USSR']]];
+const vetoesOf = (i) => VETO_STATES.map(([lab, codes]) => [lab, sum(codes.map((s) => (T.veto_by_state[s] || [])[i] || 0))]);
+
+/* Coverage decides how a GA bar is drawn: solid when the corpus is complete,
+   hatched and hollow when it is not. Encoding it in the mark itself means the
+   caveat cannot be separated from the number. */
+function gaBarStyle(i, c) {
+  const band = T.ga.band[i];
+  if (band === 'RELIABLE') return { color: c.series[1] };
+  if (band === 'MISSING') return { color: 'transparent' };
+  return {
+    color: { type: 'pattern', image: hatchCanvas(c.series[1]), repeat: 'repeat' },
+    borderColor: c.series[1],
+    borderWidth: 1,
+  };
+}
+
+let _hatch = {};
+function hatchCanvas(color) {
+  if (_hatch[color]) return _hatch[color];
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = 6;
+  const x = cv.getContext('2d');
+  x.strokeStyle = color;
+  x.lineWidth = 1.4;
+  x.beginPath(); x.moveTo(0, 6); x.lineTo(6, 0); x.stroke();
+  x.beginPath(); x.moveTo(-1, 1); x.lineTo(1, -1); x.stroke();
+  x.beginPath(); x.moveTo(5, 7); x.lineTo(7, 5); x.stroke();
+  _hatch[color] = cv;
+  return cv;
+}
+
+function idxRange() {
+  const [, a, b] = ERAS[era];
+  return [YEARS.indexOf(a), YEARS.indexOf(b)];
+}
+
+/* ------------------------------------------------------------ main chart */
+mountChart(document.getElementById('main-chart'), (c, base, ax) => {
+  const [zs, ze] = idxRange();
+  const showEv = document.getElementById('show-events').checked;
+  const evMarks = showEv ? {
+    silent: true,
+    symbol: 'none',
+    label: {
+      show: true, position: 'end', rotate: 90, align: 'left', verticalAlign: 'middle',
+      color: c.muted, fontSize: 10, distance: 6,
+      formatter: (p) => p.name,
+    },
+    lineStyle: { color: c.grid, width: 1, type: [4, 4] },
+    data: T.events.map(([y, t]) => ({ xAxis: String(y), name: t })),
+  } : { data: [] };
+
+  const grids = [
+    { left: 68, right: 26, top: 152, height: 156 },
+    { left: 68, right: 26, top: 348, height: 156 },
+    { left: 68, right: 26, top: 544, height: 76 },
+  ];
+
+  return {
+    ...base,
+    /* the page already carries an HTML legend above the canvas; a second one
+       here would sit exactly where the event labels need the room */
+    legend: { show: false },
+    grid: grids,
+    axisPointer: { link: [{ xAxisIndex: 'all' }], label: { backgroundColor: c.secondary } },
+    tooltip: {
+      ...base.tooltip,
+      trigger: 'axis',
+      axisPointer: { type: 'cross', crossStyle: { color: c.axis }, lineStyle: { color: c.axis } },
+      formatter: (ps) => {
+        if (!ps.length) return '';
+        const y = ps[0].axisValue;
+        const i = YEARS.indexOf(+y);
+        const label = BAND_LABEL[T.ga.band[i]] || T.ga.band[i];
+        return `<b style="font-size:14px">${y}</b><br>`
+          + `<span style="color:${c.series[0]}">■</span> Council adopted <b>${fmt(T.sc.adopted[i])}</b>`
+          + ` (${fmt(T.sc.meetings[i])} meetings)<br>`
+          + (T.sc.vetoes[i] ? `<span style="color:${c.muted}">■</span> Vetoes cast <b>${T.sc.vetoes[i]}</b>: `
+            + vetoesOf(i).filter(([, n]) => n).map(([l, n]) => `${l} ${n}`).join(', ') + '<br>' : '')
+          + `<span style="color:${c.series[1]}">■</span> Assembly adopted <b>${fmt(T.ga.adopted[i])}</b><br>`
+          + `<span style="color:${c.muted};font-size:11.5px">Assembly coverage ${pct(T.ga.coverage_pct[i])} · ${label}</span>`;
+      },
+    },
+    dataZoom: [
+      { type: 'inside', xAxisIndex: [0, 1, 2], startValue: zs, endValue: ze },
+      { type: 'slider', xAxisIndex: [0, 1, 2], startValue: zs, endValue: ze,
+        bottom: 14, height: 22, borderColor: 'transparent',
+        backgroundColor: c.grid, fillerColor: c.series[0] + '22',
+        handleStyle: { color: c.series[0] }, moveHandleSize: 4,
+        textStyle: { color: c.muted, fontSize: 11 } },
+    ],
+    xAxis: [0, 1, 2].map((i) => ({
+      type: 'category', data: YEARS.map(String), gridIndex: i,
+      ...ax, splitLine: { show: false },
+      axisLabel: { ...ax.axisLabel, show: i === 2 },
+      axisLine: { lineStyle: { color: c.axis } },
+    })),
+    /* units live in the panel titles: an ECharts yAxis `name` renders at the
+       axis top-left, exactly where these titles sit */
+    yAxis: [
+      { type: 'value', gridIndex: 0, ...ax },
+      { type: 'value', gridIndex: 1, ...ax },
+      { type: 'value', gridIndex: 2, ...ax, minInterval: 1 },
+    ],
+    title: [
+      /* Panel ① carries the event markers, whose rotated labels are anchored to
+         the grid top and extend upward — they own the whole band a title above
+         the grid would need. So this one sits inside the plot instead, in the
+         top-left corner the 1940s-50s bars leave empty. Panels ②/③ have no
+         markers, so their titles stay above, one clear line off the top tick. */
+      { text: '① Council resolutions adopted (per year) · all 2,811 numbers held, usable throughout',
+        left: 78, top: 162,
+        textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
+      { text: '② Assembly resolutions adopted (per year) · dated by the adoption date in the text',
+        left: 0, top: 312,
+        textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
+      { text: '③ Vetoes cast (per year, by permanent member) · read from the vetoed votes; ~80% of the published list held',
+        left: 0, top: 508,
+        textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
+    ],
+    series: [
+      { name: 'Council resolutions', type: 'bar', xAxisIndex: 0, yAxisIndex: 0,
+        data: T.sc.adopted, itemStyle: { color: c.series[0], borderRadius: [3, 3, 0, 0] },
+        barCategoryGap: '26%', markLine: evMarks },
+      { name: 'Assembly resolutions', type: 'bar', xAxisIndex: 1, yAxisIndex: 1,
+        data: T.ga.adopted.map((v, i) => ({ value: v, itemStyle: { ...gaBarStyle(i, c), borderRadius: [3, 3, 0, 0] } })),
+        barCategoryGap: '26%' },
+      /* same member colours as the Analysis page: slot order US UK FR CN RU */
+      ...VETO_STATES.map(([lab, codes], k) => ({
+        name: lab, type: 'bar', xAxisIndex: 2, yAxisIndex: 2, stack: 'veto',
+        data: YEARS.map((_, i) => sum(codes.map((s) => (T.veto_by_state[s] || [])[i] || 0)) || null),
+        itemStyle: { color: c.series[k], borderColor: c.surface, borderWidth: 1 },
+        barCategoryGap: '26%' })),
+    ],
+  };
+});
+
+/* --------------------------------------------------------- structure */
+mountChart(document.getElementById('struct-chart'), (c, base, ax) => ({
+  ...base,
+  /* clear of the legend above: the top tick label renders centred on the grid
+     line and would otherwise sit under the legend text */
+  grid: { left: 52, right: 20, top: 48, bottom: 34 },
+  tooltip: { ...base.tooltip, trigger: 'axis',
+    axisPointer: { type: 'line', lineStyle: { color: c.axis } },
+    valueFormatter: (v) => (v == null ? '—' : v.toFixed(1) + '%') },
+  legend: { ...base.legend, top: 0, left: 0 },
+  xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false },
+           axisLabel: { ...ax.axisLabel, interval: 9 } },
+  yAxis: { type: 'value', name: '%', max: 100, ...ax },
+  series: [
+    { name: 'Adopted unanimously', type: 'line', data: T.sc.unanimity_pct, smooth: 0.25,
+      showSymbol: false, symbolSize: 8, lineStyle: { width: 2, color: c.series[0] },
+      itemStyle: { color: c.series[0] }, connectNulls: false },
+    { name: 'Invoking Chapter VII', type: 'line', data: T.sc.chapter_vii_pct, smooth: 0.25,
+      showSymbol: false, symbolSize: 8, lineStyle: { width: 2, color: c.series[2] },
+      itemStyle: { color: c.series[2] }, connectNulls: false },
+  ],
+}));
+
+/* ---------------------------------------------------------- coverage */
+mountChart(document.getElementById('cov-chart'), (c, base, ax) => ({
+  ...base,
+  grid: { left: 52, right: 20, top: 22, bottom: 34 },
+  tooltip: { ...base.tooltip, trigger: 'axis',
+    formatter: (ps) => {
+      const i = YEARS.indexOf(+ps[0].axisValue);
+      return `<b>${ps[0].axisValue}</b><br>Coverage <b>${pct(T.ga.coverage_pct[i])}</b><br>`
+        + `<span style="color:${c.muted};font-size:11.5px">${BAND_LABEL[T.ga.band[i]] || T.ga.band[i]}</span>`;
+    } },
+  xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false },
+           axisLabel: { ...ax.axisLabel, interval: 9 } },
+  yAxis: { type: 'value', name: '%', max: 100, ...ax },
+  series: [{
+    name: 'Assembly corpus coverage', type: 'bar',
+    data: T.ga.coverage_pct.map((v) => ({
+      value: v,
+      itemStyle: {
+        color: v == null ? c.grid : v >= 80 ? c.good : v >= 50 ? c.warning : c.critical,
+        borderRadius: [3, 3, 0, 0],
+      },
+    })),
+    barCategoryGap: '20%',
+    markLine: { silent: true, symbol: 'none', lineStyle: { color: c.axis, type: [5, 5] },
+      label: { color: c.muted, fontSize: 11, formatter: '80% usable threshold' },
+      data: [{ yAxis: 80 }] },
+  }],
+}));
+
+/* ------------------------------------------------------ year detail */
+function renderYearDetail() {
+  const i = YEARS.indexOf(selectedYear);
+  const ev = T.events.find(([y]) => y === selectedYear);
+  const band = T.ga.band[i];
+  const cls = band === 'RELIABLE' ? 'good' : band === 'DEGRADED' ? 'warning' : 'critical';
+  document.getElementById('year-detail').innerHTML = `
+    <div style="font-size:33px;font-weight:650;letter-spacing:-.02em">${selectedYear}</div>
+    ${ev ? `<div style="color:var(--text-secondary);font-size:14px;margin-bottom:14px">${ev[1]}</div>`
+         : '<div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">(no marked event)</div>'}
+    <table style="font-size:13.5px">
+      <tbody>
+        <tr><td>Council resolutions adopted</td><td><b>${fmt(T.sc.adopted[i])}</b></td></tr>
+        <tr><td>Council meetings with a vote</td><td>${fmt(T.sc.meetings[i])}</td></tr>
+        <tr><td>Adopted unanimously</td><td>${pct(T.sc.unanimity_pct[i])}</td></tr>
+        <tr><td>Invoking Chapter VII</td><td>${pct(T.sc.chapter_vii_pct[i])}</td></tr>
+        <tr><td>Vetoes cast</td><td>${fmt(T.sc.vetoes[i])}</td></tr>
+        <tr><td>Assembly resolutions adopted</td><td><b>${fmt(T.ga.adopted[i])}</b></td></tr>
+        <tr><td>Assembly corpus coverage</td><td><span class="badge ${cls}">${pct(T.ga.coverage_pct[i])} · ${BAND_LABEL[band] || band}</span></td></tr>
+      </tbody>
+    </table>
+    <a class="badge" style="margin-top:14px;text-decoration:none;border-color:var(--series-1);color:var(--series-1)"
+       href="browse.html?y=${selectedYear}">Open every ${selectedYear} meeting record →</a>`;
+}
+
+/* --------------------------------------------------------------- tiles */
+const scTotal = T.sc.adopted.reduce((a, b) => a + (b || 0), 0);
+const gaTotal = T.ga.adopted.reduce((a, b) => a + (b || 0), 0);
+const usable = T.ga.band.filter((b) => b === 'RELIABLE').length;
+const peakI = T.sc.adopted.indexOf(Math.max(...T.sc.adopted.map((v) => v || 0)));
+const vetoTotal = sum(T.sc.vetoes);
+document.getElementById('tiles').innerHTML = `
+  <div class="tile"><div class="k">Council resolutions</div><div class="v">${fmt(scTotal)}</div>
+    <div class="s">1946–2025 · every S/RES number held</div></div>
+  <div class="tile"><div class="k">Assembly resolutions</div><div class="v">${fmt(gaTotal)}</div>
+    <div class="s">placed in a calendar year by their adoption date</div></div>
+  <div class="tile"><div class="k">Usable Assembly years</div><div class="v">${usable} <span style="font-size:16px;color:var(--text-muted)">/ 80</span></div>
+    <div class="s">calendar years at ≥80% coverage</div></div>
+  <div class="tile"><div class="k">Council peak year</div><div class="v">${YEARS[peakI]}</div>
+    <div class="s">${T.sc.adopted[peakI]} resolutions, the highest on record</div></div>
+  <div class="tile"><div class="k">Vetoes cast</div><div class="v">${fmt(vetoTotal)}</div>
+    <div class="s">by year and member in panel ③; <a href="assessment.html">analysis</a></div></div>`;
+
+/* ------------------------------------------------------------ controls */
+document.getElementById('era-seg').innerHTML =
+  ERAS.map(([l], i) => `<button aria-pressed="${i === 0}" data-i="${i}">${l}</button>`).join('');
+document.getElementById('era-seg').onclick = (e) => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  era = +b.dataset.i;
+  [...e.currentTarget.children].forEach((x, i) => x.setAttribute('aria-pressed', i === era));
+  document.getElementById('range-note').textContent =
+    `Showing ${ERAS[era][1]}–${ERAS[era][2]}. The slider fine-tunes further; dragging or scrolling zooms all three panels together.`;
+  REGISTRY.forEach((d) => d());
+};
+document.getElementById('show-events').onchange = () => REGISTRY.forEach((d) => d());
+document.getElementById('range-note').textContent =
+  'Showing 1946–2025. The slider fine-tunes further; dragging or scrolling zooms all three panels together.';
+
+/* click a year on the main chart to pin it in the detail panel */
+echarts.getInstanceByDom(document.getElementById('main-chart')).on('click', (p) => {
+  if (p.name && !isNaN(+p.name)) { selectedYear = +p.name; renderYearDetail(); }
+});
+renderYearDetail();
+
+/* ------------------------------------------------------- table views */
+tableView(document.getElementById('main-table'),
+  ['Year', 'Council adopted', 'Council meetings w/ vote', 'Assembly adopted', 'Assembly coverage', 'Band', 'Vetoes cast'],
+  YEARS.map((y, i) => [y, fmt(T.sc.adopted[i]), fmt(T.sc.meetings[i]), fmt(T.ga.adopted[i]),
+                       pct(T.ga.coverage_pct[i]), T.ga.band[i], fmt(T.sc.vetoes[i])]),
+  'Show year-by-year table (80 rows)');
+
+tableView(document.getElementById('struct-table'),
+  ['Year', 'Adopted unanimously', 'Chapter VII', 'Abstentions per resolution'],
+  YEARS.map((y, i) => [y, pct(T.sc.unanimity_pct[i]), pct(T.sc.chapter_vii_pct[i]),
+                       T.sc.abstentions_per_voted[i] == null ? '—' : T.sc.abstentions_per_voted[i].toFixed(2)]),
+  'Show voting-structure table');
+
+tableView(document.getElementById('cov-table'),
+  ['Year', 'Resolutions in corpus', 'Estimated coverage', 'Band'],
+  YEARS.map((y, i) => [y, fmt(T.ga.adopted[i]), pct(T.ga.coverage_pct[i]), T.ga.band[i]]),
+  'Show coverage table');
+</script>
+</body>
+</html>

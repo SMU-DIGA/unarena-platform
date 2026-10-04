@@ -1,0 +1,2041 @@
+{
+  "topic": "dprk_nuclear",
+  "label": "North Korean nuclear programme",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 320,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 3,
+  "vague_dated_segments": 29,
+  "cross_article_duplicates": 60,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the North Korean nuclear program",
+      "pageid": 10373265,
+      "revid": 1366795008,
+      "revision_timestamp": "2026-07-30T07:43:38Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=10373265",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "1956-01-01",
+          "date_latest": "1956-12-31",
+          "date_precision": "year",
+          "text": "The Soviet Union begins training North Korean scientists and engineers, giving them \"basic knowledge\" to initiate a nuclear program."
+        },
+        {
+          "date": "1958-01-01",
+          "date_latest": "1958-12-31",
+          "date_precision": "year",
+          "text": "The U.S. deploys nuclear armed Honest John missiles and 280 mm atomic cannons to South Korea."
+        },
+        {
+          "date": "1959-01-01",
+          "date_latest": "1959-12-31",
+          "date_precision": "year",
+          "text": "North Korea and the USSR sign a nuclear cooperation agreement."
+        },
+        {
+          "date": "1962-01-01",
+          "date_latest": "1962-12-31",
+          "date_precision": "year",
+          "text": "The Yongbyon Nuclear Scientific Research Center opens."
+        },
+        {
+          "date": "1965-01-01",
+          "date_latest": "1965-12-31",
+          "date_precision": "year",
+          "text": "The Yongbyon IRT-2000 research reactor reaches a power rating of 2 MW."
+        },
+        {
+          "date": "1974-01-01",
+          "date_latest": "1974-12-31",
+          "date_precision": "year",
+          "text": "The Yongbyon IRT-2000 research reactor reaches a power rating of 4 MW."
+        },
+        {
+          "date": "1980-01-01",
+          "date_latest": "1980-12-31",
+          "date_precision": "year",
+          "text": "North Korea builds a factory at Yongbyon to refine yellowcake and produce fuel for reactors."
+        },
+        {
+          "date": "1984-01-01",
+          "date_latest": "1984-12-31",
+          "date_precision": "year",
+          "text": "North Korea completes construction on a 5 MWe gas-cooled, graphite-moderated nuclear reactor for plutonium production. North Korea also commences with the construction of a second 50 MWe nuclear reactor."
+        },
+        {
+          "date": "1984-01-01",
+          "date_latest": "1984-12-31",
+          "date_precision": "year",
+          "text": "The DPRK completes construction of a \"Radiochemical laboratory\", which is actually a reprocessing plant used to separate plutonium from spent nuclear fuel at the Yongbyon site."
+        },
+        {
+          "date": "1987-01-01",
+          "date_latest": "1987-12-31",
+          "date_precision": "year",
+          "text": "The Yongbyon IRT-2000 research reactor reaches a power rating of 8 MW."
+        },
+        {
+          "date": "1989-01-01",
+          "date_latest": "1989-12-31",
+          "date_precision": "year",
+          "text": "Soviet control of communist governments throughout Europe begins to weaken, and the Cold War comes to a close. Post-Soviet states emerge in Eastern Europe and Central Asia. As the USSR's power declines, North Korea loses the security guarantees and economic support that had sustained it for 45 years."
+        },
+        {
+          "date": "1990-12-01",
+          "date_latest": "1990-12-31",
+          "date_precision": "month",
+          "text": "North Korea conducts 70–80 high-explosives tests at its Yongbyon facility."
+        },
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-12-31",
+          "date_precision": "year",
+          "text": "The U.S. withdrew its last nuclear weapons from South Korea in December 1991, though U.S. affirmation of this action was not clear, resulting in rumors persisting that nuclear weapons remained in South Korea. The U.S. had deployed nuclear weapons in South Korea since January 1958, peaking in number at about 950 warheads in 1967."
+        },
+        {
+          "date": "1992-01-01",
+          "date_latest": "1992-12-31",
+          "date_precision": "year",
+          "text": "In May, for the first time, North Korea allows a team from the International Atomic Energy Agency (IAEA). The Agency inspection finds inconsistencies with North Korea declarations. Hans Blix, head of the IAEA, and the U.S. suspect that North Korea is secretly using its five-megawatt reactor and reprocessing facility at Yongbyon to turn spent fuel into weapons-grade plutonium. Before leaving, Blix arranges for fully equipped inspection teams to follow."
+        },
+        {
+          "date": "1993-01-01",
+          "date_latest": "1993-12-31",
+          "date_precision": "year",
+          "text": "In March, North Korea threatens to withdraw from the NPT. Facing heavy domestic pressure from Republicans who oppose negotiations with North Korea, President Bill Clinton appoints Robert Gallucci to start a new round of negotiations. After 89 days, North Korea announces it has suspended its withdrawal. (The NPT requires three months notice before a country can withdraw.)"
+        },
+        {
+          "date": "1994-10-12",
+          "date_latest": "1994-10-12",
+          "date_precision": "day",
+          "text": "the United States and North Korea signed the \"Agreed Framework\": North Korea agreed to freeze its plutonium production program in exchange for fuel oil, economic cooperation, and the construction of two modern light-water nuclear power plants. Eventually, North Korea's existing nuclear facilities were to be dismantled, and the spent reactor fuel taken out of the country."
+        },
+        {
+          "date": "1994-10-26",
+          "date_latest": "1994-10-26",
+          "date_precision": "day",
+          "text": "IAEA Chairman Hans Blix tells the British House of Commons' Foreign Affairs Select Committee the IAEA is \"not very happy\" with the Agreed Framework because it gives North Korea too much time to begin complying with the inspections regime."
+        },
+        {
+          "date": "1996-03-18",
+          "date_latest": "1996-03-18",
+          "date_precision": "day",
+          "text": "Hans Blix tells the IAEA's Board of Governors North Korea has still not made its initial declaration of the amount of plutonium they possess, as required under the Agreed Framework, and warned that without the declaration IAEA would lose the ability to verify North Korea was not using its plutonium to develop weapons."
+        },
+        {
+          "date": "1997-10-01",
+          "date_latest": "1997-10-31",
+          "date_precision": "month",
+          "text": "spent nuclear fuel rods were encased in steel containers, under IAEA inspection."
+        },
+        {
+          "date": "1998-08-31",
+          "date_latest": "1998-08-31",
+          "date_precision": "day",
+          "text": "North Korea launched a Paektusan-1 space launch vehicle in a launch attempt of its Kwangmyŏngsŏng-1 satellite. U.S. military analysts suspect satellite launch is a ruse for the testing of an ICBM. This missile flew over Japan causing the Japanese government to retract 1 billion in aid for two civilian light-water reactors."
+        },
+        {
+          "date": "2002-01-29",
+          "date_latest": "2002-01-29",
+          "date_precision": "day",
+          "text": "U.S. President George W. Bush in his State of the Union Address named North Korea as part of the axis of evil, aiming to threaten the peace of the world and posing a grave danger."
+        },
+        {
+          "date": "2002-08-07",
+          "date_latest": "2002-08-07",
+          "date_precision": "day",
+          "text": "\"First Concrete\" pouring at the construction site of the light-water nuclear power plants being built by the Korean Peninsula Energy Development Organization under the 1994 Agreed Framework. Construction of both reactors was many years behind the agreement's target completion date of 2003."
+        },
+        {
+          "date": "2002-09-17",
+          "date_latest": "2002-09-17",
+          "date_precision": "day",
+          "text": "Japanese Prime Minister Junichiro Koizumi becomes the first Japanese prime minister to visit Pyongyang, making a number of political and cooperative offers."
+        },
+        {
+          "date": "2002-10-03",
+          "date_latest": "2002-10-03",
+          "date_precision": "day",
+          "text": "On a visit to the North Korean capital Pyongyang, US Assistant Secretary of State James Kelly presses the North on suspicions that it is continuing to pursue a nuclear energy and missiles programme. Mr Kelly says he has evidence of a secret uranium-enriching program carried out in defiance of the 1994 Agreed Framework. Under this deal, North Korea agreed to forsake nuclear ambitions in return for the construction of two safer light water nuclear power reactors and oil shipments from the US."
+        },
+        {
+          "date": "2002-10-16",
+          "date_latest": "2002-10-16",
+          "date_precision": "day",
+          "text": "The US announces that North Korea admitted in their talks to a \"clandestine nuclear-weapons\" program."
+        },
+        {
+          "date": "2002-10-17",
+          "date_latest": "2002-10-17",
+          "date_precision": "day",
+          "text": "Initially the North appears conciliatory. Leader Kim Jong-il says he will allow international weapons inspectors to check that nuclear facilities are out of use."
+        },
+        {
+          "date": "2002-10-20",
+          "date_latest": "2002-10-20",
+          "date_precision": "day",
+          "text": "North-South Korea talks in Pyongyang are undermined by the North's nuclear program \"admission\". US Secretary of State Colin Powell says further US aid to North Korea is now in doubt. The North adopts a mercurial stance, at one moment defiantly defending its \"right\" to weapons development and at the next offering to halt nuclear program in return for aid and the signing of a non-aggression pact with the US. It argues that the US has not kept to its side of the Agreed Framework, as the construction of the light water reactors—due to be completed in 2003—is now years behind schedule.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2002-11-14",
+          "date_latest": "2002-11-14",
+          "date_precision": "day",
+          "text": "US President George W Bush declares November oil shipments to the North will be the last if the North does not agree to put a halt to its weapons ambitions."
+        },
+        {
+          "date": "2002-11-18",
+          "date_latest": "2002-11-18",
+          "date_precision": "day",
+          "text": "Confusion clouds a statement by North Korea in which it initially appears to acknowledge having nuclear weapons. A key Korean phrase understood to mean the North does have nuclear weapons could have been mistaken for the phrase \"entitled to have\", Seoul says."
+        },
+        {
+          "date": "2002-11-27",
+          "date_latest": "2002-11-27",
+          "date_precision": "day",
+          "text": "The North accuses the US of deliberately misinterpreting its contested statement, twisting an assertion of its \"right\" to possess weapons into an \"admission\" of possession."
+        },
+        {
+          "date": "2002-12-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "month",
+          "text": "South Korean presidential election. The Grand National Party, who opposed the Sunshine Policy which was conceived in 1998, made much of the North Korean situation, although it eventually lost the election."
+        },
+        {
+          "date": "2002-12-04",
+          "date_latest": "2002-12-04",
+          "date_precision": "day",
+          "text": "The North rejects a call to open its nuclear facilities to inspection."
+        },
+        {
+          "date": "2002-12-11",
+          "date_latest": "2002-12-11",
+          "date_precision": "day",
+          "text": "North Korean-made Scud missiles are found aboard a ship bound for Yemen. The US illegally detains the ship, but is later forced to allow the ship to go, conceding that neither country has broken any law."
+        },
+        {
+          "date": "2002-12-12",
+          "date_latest": "2002-12-12",
+          "date_precision": "day",
+          "text": "The North pledges to reactivate nuclear facilities for energy generation, saying the Americans' decision to halt oil shipments leaves it with no choice. It claims the US wrecked the 1994 pact."
+        },
+        {
+          "date": "2002-12-13",
+          "date_latest": "2002-12-13",
+          "date_precision": "day",
+          "text": "North Korea asks the UN's International Atomic Energy Agency (IAEA) to remove seals and surveillance equipment – the IAEA's \"eyes and ears\" on the North's nuclear status—from its Yongbyon power plant."
+        },
+        {
+          "date": "2002-12-22",
+          "date_latest": "2002-12-22",
+          "date_precision": "day",
+          "text": "The North begins removing monitoring devices from the Yongbyon plant."
+        },
+        {
+          "date": "2002-12-24",
+          "date_latest": "2002-12-24",
+          "date_precision": "day",
+          "text": "North Korea begins repairs at the Yongbyon plant. North-South Korea talks over reopening road and rail border links, which have been struggling on despite the increased tension, finally stall."
+        },
+        {
+          "date": "2002-12-25",
+          "date_latest": "2002-12-25",
+          "date_precision": "day",
+          "text": "It emerges that North Korea had begun shipping fuel rods to the Yongbyon plant which could be used to produce plutonium."
+        },
+        {
+          "date": "2002-12-26",
+          "date_latest": "2002-12-26",
+          "date_precision": "day",
+          "text": "The IAEA expresses concern in the light of UN confirmation that 1,000 fuel rods have been moved to the Yongbyon reactor."
+        },
+        {
+          "date": "2002-12-27",
+          "date_latest": "2002-12-27",
+          "date_precision": "day",
+          "text": "North Korea says it is expelling the two IAEA nuclear inspectors from the country. It also says it is planning to reopen a reprocessing plant, which could start producing weapons grade plutonium within months."
+        },
+        {
+          "date": "2003-01-02",
+          "date_latest": "2003-01-02",
+          "date_precision": "day",
+          "text": "South Korea asks China to use its influence with North Korea to try to reduce tension over the nuclear issue, and two days later Russia offers to press Pyongyang to abandon its nuclear programme."
+        },
+        {
+          "date": "2003-01-06",
+          "date_latest": "2003-01-06",
+          "date_precision": "day",
+          "text": "The IAEA passes a resolution demanding that North Korea readmit UN inspectors and abandon its secret nuclear weapons programme \"within weeks\", or face possible action by the UN Security Council."
+        },
+        {
+          "date": "2003-01-07",
+          "date_latest": "2003-01-07",
+          "date_precision": "day",
+          "text": "The US says it is \"willing to talk to North Korea about how it meets its obligations to the international community\". But it \"will not provide quid pro quos to North Korea to live up to its existing obligations\"."
+        },
+        {
+          "date": "2003-01-09",
+          "date_latest": "2003-01-09",
+          "date_precision": "day",
+          "text": "North Korea sends diplomats to meet with New Mexico governor Bill Richardson about the nuclear crisis; North Korea also agrees to hold cabinet-level talks with South Korea on 21 January."
+        },
+        {
+          "date": "2003-01-10",
+          "date_latest": "2003-01-10",
+          "date_precision": "day",
+          "text": "North Korea announces it will withdraw from the Nuclear Non-Proliferation Treaty."
+        },
+        {
+          "date": "2003-01-20",
+          "date_latest": "2003-01-20",
+          "date_precision": "day",
+          "text": "US Secretary of State Colin Powell calls on the IAEA to refer the North Korean nuclear issue to the United Nations Security Council for resolution."
+        },
+        {
+          "date": "2003-01-21",
+          "date_latest": "2003-01-21",
+          "date_precision": "day",
+          "text": "Diplomatic talks commence between cabinet-level officials from both North Korea and South Korea; the North is represented by Kim Ryong Song."
+        },
+        {
+          "date": "2003-01-24",
+          "date_latest": "2003-01-24",
+          "date_precision": "day",
+          "text": "Cabinet-level talks between North and South Korea end without making progress. South Korean President-elect Roh Moo-hyun proposes face-to-face meeting with Kim Jong-il."
+        },
+        {
+          "date": "2003-01-28",
+          "date_latest": "2003-01-28",
+          "date_precision": "day",
+          "text": "In his annual State of the Union address, President Bush alleges North Korea is \"an oppressive regime [whose] people live in fear and starvation\". He accuses North Korea of deception over its nuclear ambitions and says \"America and the world will not be blackmailed\"."
+        },
+        {
+          "date": "2003-01-29",
+          "date_latest": "2003-01-29",
+          "date_precision": "day",
+          "text": "North Korea says President Bush's speech is an \"undisguised declaration of aggression to topple the DPRK system\" and dubs him a \"shameless charlatan\". At the same time, however, it reiterates its demand for bilateral talks on a non-aggression pact."
+        },
+        {
+          "date": "2003-01-31",
+          "date_latest": "2003-01-31",
+          "date_precision": "day",
+          "text": "Unnamed American officials are quoted as saying that spy satellites have tracked movement at the Yongbyon plant throughout January, prompting fears that North Korea is trying to reprocess plutonium for nuclear bombs."
+        },
+        {
+          "date": "2003-02-04",
+          "date_latest": "2003-02-04",
+          "date_precision": "day",
+          "text": "The United States says it is considering new military deployments in the Pacific Ocean to back up its forces in South Korea, as a deterrent against any North Korean aggression that might arise in the event that the US initiated a new military campaign in Iraq."
+        },
+        {
+          "date": "2003-02-05",
+          "date_latest": "2003-02-05",
+          "date_precision": "day",
+          "text": "North Korea says it has reactivated its nuclear facilities and their operations are now going ahead \"on a normal footing\"."
+        },
+        {
+          "date": "2003-02-06",
+          "date_latest": "2003-02-06",
+          "date_precision": "day",
+          "text": "North Korea warns the United States that any decision to build up its troops in the region could lead the North to make a pre-emptive attack on American forces."
+        },
+        {
+          "date": "2003-02-12",
+          "date_latest": "2003-02-12",
+          "date_precision": "day",
+          "text": "The IAEA finds North Korea in breach of nuclear safeguards and refers the matter to the UN security council."
+        },
+        {
+          "date": "2003-02-16",
+          "date_latest": "2003-02-16",
+          "date_precision": "day",
+          "text": "Kim Jong-il celebrates his 61st birthday, but state media warns North Korean citizens to be on \"high alert\"."
+        },
+        {
+          "date": "2003-02-17",
+          "date_latest": "2003-02-17",
+          "date_precision": "day",
+          "text": "The US and South Korea announce that they will hold joint military exercises in March."
+        },
+        {
+          "date": "2003-02-24",
+          "date_latest": "2003-02-24",
+          "date_precision": "day",
+          "text": "North Korea fires a missile into the sea between South Korea and Japan."
+        },
+        {
+          "date": "2003-02-25",
+          "date_latest": "2003-02-25",
+          "date_precision": "day",
+          "text": "Roh Moo-hyun sworn in as South Korean president.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2003-03-02",
+          "date_latest": "2003-03-02",
+          "date_precision": "day",
+          "text": "Four North Korean fighter jets intercept a US reconnaissance plane in international air space and shadow it for 22 minutes."
+        },
+        {
+          "date": "2003-03-10",
+          "date_latest": "2003-03-10",
+          "date_precision": "day",
+          "text": "North Korea fires a second missile into the sea between South Korea and Japan in as many weeks.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2003-03-22",
+          "date_latest": "2003-03-22",
+          "date_precision": "day",
+          "text": "As a blistering bombing campaign pounds the Iraqi capital, and South Korean and US forces perform military exercises on its doorstep, a jumpy North denounces their \"confrontational posture\" and calls off talks with the South."
+        },
+        {
+          "date": "2003-04-01",
+          "date_latest": "2003-04-01",
+          "date_precision": "day",
+          "text": "The US announces that \"stealth\" fighters sent to South Korea for a training exercise are to stay on once the exercises end."
+        },
+        {
+          "date": "2003-04-07",
+          "date_latest": "2003-04-07",
+          "date_precision": "day",
+          "text": "Ministerial talks between North and South Korea are canceled after Pyongyang fails to confirm they would take place."
+        },
+        {
+          "date": "2003-04-09",
+          "date_latest": "2003-04-09",
+          "date_precision": "day",
+          "text": "The United Nations Security Council expresses concern about North Korea's nuclear programme, but fails to condemn Pyongyang for pulling out of the Nuclear Non-proliferation Treaty.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2003-04-12",
+          "date_latest": "2003-04-12",
+          "date_precision": "day",
+          "text": "In a surprise move, North Korea signals it may be ready to end its insistence on direct talks with the US, announcing that \"if the US is ready to make a bold switchover in its Korea policy for a settlement of the nuclear issue, [North Korea] will not stick to any particular dialogue format\"."
+        },
+        {
+          "date": "2003-04-18",
+          "date_latest": "2003-04-18",
+          "date_precision": "day",
+          "text": "North Korea announces that it has started reprocessing its spent fuel rods. The statement is later amended to read that Pyongyang has been \"successfully going forward to reprocess\" the rods."
+        },
+        {
+          "date": "2003-04-23",
+          "date_latest": "2003-04-23",
+          "date_precision": "day",
+          "text": "Talks begin in Beijing between the US and North Korea, hosted by China. The talks are led by the US Assistant Secretary of State for East Asian affairs, James Kelly, and the deputy director general of North Korea's American Affairs Bureau, Li Gun."
+        },
+        {
+          "date": "2003-04-24",
+          "date_latest": "2003-04-24",
+          "date_precision": "day",
+          "text": "American officials say Pyongyang has told them that it now has nuclear weapons, after the first direct talks for months between the US and North Korea in Beijing end a day early."
+        },
+        {
+          "date": "2003-04-25",
+          "date_latest": "2003-04-25",
+          "date_precision": "day",
+          "text": "Talks end amid mutual recrimination, after the US says North Korea had made its first admission that it possessed nuclear weapons."
+        },
+        {
+          "date": "2003-04-28",
+          "date_latest": "2003-04-28",
+          "date_precision": "day",
+          "text": "US Secretary of State Colin Powell says North Korea made an offer to US officials, during the talks in Beijing, to scrap its nuclear programme in exchange for major concessions from the United States. He does not specify what those concessions are, but reports say that Pyongyang wants normalized relations with the US and economic assistance. Mr Powell says Washington is studying the offer."
+        },
+        {
+          "date": "2003-05-05",
+          "date_latest": "2003-05-05",
+          "date_precision": "day",
+          "text": "North Korea demands the US respond to what it terms the \"bold proposal\" it made during the Beijing talks."
+        },
+        {
+          "date": "2003-05-12",
+          "date_latest": "2003-05-12",
+          "date_precision": "day",
+          "text": "North Korea says it is scrapping a 1992 agreement with the South to keep the peninsula free from nuclear weapons – Pyongyang's last remaining international agreement on non-proliferation."
+        },
+        {
+          "date": "2003-05-15",
+          "date_latest": "2003-05-15",
+          "date_precision": "day",
+          "text": "South Korean President Roh Moo-hyun meets US President George W Bush in Washington for talks on how to handle North Korea's nuclear ambitions."
+        },
+        {
+          "date": "2003-06-02",
+          "date_latest": "2003-06-02",
+          "date_precision": "day",
+          "text": "A visiting delegation of US congressmen led by Curt Weldon says North Korean officials admitted the country had nuclear weapons and had \"just about completed\" reprocessing 8,000 spent fuel rods which would allow it to build more."
+        },
+        {
+          "date": "2003-06-09",
+          "date_latest": "2003-06-09",
+          "date_precision": "day",
+          "text": "North Korea says publicly that it will build a nuclear deterrent, \"unless the US gives up its hostile policy\"."
+        },
+        {
+          "date": "2003-06-13",
+          "date_latest": "2003-06-13",
+          "date_precision": "day",
+          "text": "South Korea's Yonhap News Agency says North Korean officials told the US on 30 June that it had completed reprocessing the fuel rods."
+        },
+        {
+          "date": "2003-06-18",
+          "date_latest": "2003-06-18",
+          "date_precision": "day",
+          "text": "North Korea says it will \"put further spurs to increasing its nuclear deterrent force for self-defence\"."
+        },
+        {
+          "date": "2003-07-09",
+          "date_latest": "2003-07-09",
+          "date_precision": "day",
+          "text": "South Korea's spy agency says North Korea has started reprocessing a \"small number\" of the 8,000 spent nuclear fuel rods at Yongbyon."
+        },
+        {
+          "date": "2003-08-01",
+          "date_latest": "2003-08-01",
+          "date_precision": "day",
+          "text": "North Korea agrees to six-way talks on its nuclear programme, South Korea confirms. The US, Japan, China and Russia will also be involved."
+        },
+        {
+          "date": "2003-08-27",
+          "date_latest": "2003-08-27",
+          "date_precision": "day",
+          "text": "Six-nation talks in Beijing on North Korea's nuclear programme. The meeting fails to bridge the gap between Washington and Pyongyang. Delegates agree to meet again."
+        },
+        {
+          "date": "2003-10-02",
+          "date_latest": "2003-10-02",
+          "date_precision": "day",
+          "text": "North Korea announces publicly it has reprocessed the spent fuel rods.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2003-10-16",
+          "date_latest": "2003-10-16",
+          "date_precision": "day",
+          "text": "North Korea says it will \"physically display\" its nuclear deterrent.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2003-10-30",
+          "date_latest": "2003-10-30",
+          "date_precision": "day",
+          "text": "North Korea agrees to resume talks on the nuclear crisis, after saying it is prepared to consider the US offer of a security guarantee in return for ending its nuclear programme."
+        },
+        {
+          "date": "2003-11-21",
+          "date_latest": "2003-11-21",
+          "date_precision": "day",
+          "text": "Kedo, the international consortium formed to build 'tamper-proof' nuclear power plants in North Korea, decides to suspend the project."
+        },
+        {
+          "date": "2003-12-09",
+          "date_latest": "2003-12-09",
+          "date_precision": "day",
+          "text": "North Korea offers to \"freeze\" its nuclear programme in return for a list of concessions from the US. It says that unless Washington agrees, it will not take part in further talks. The US rejects North Korea's offer. President George W Bush says Pyongyang must dismantle the programme altogether."
+        },
+        {
+          "date": "2003-12-27",
+          "date_latest": "2003-12-27",
+          "date_precision": "day",
+          "text": "North Korea says it will take part in a new round of six-party talks on its nuclear programme in early 2004.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2004-01-02",
+          "date_latest": "2004-01-02",
+          "date_precision": "day",
+          "text": "South Korea confirms that the North has agreed to allow a group of US experts, including a top nuclear scientist, visit Yongbyon nuclear facility."
+        },
+        {
+          "date": "2004-01-10",
+          "date_latest": "2004-01-10",
+          "date_precision": "day",
+          "text": "The unofficial US team visits the North's \"nuclear deterrent\" facility at Yongbyon."
+        },
+        {
+          "date": "2004-01-22",
+          "date_latest": "2004-01-22",
+          "date_precision": "day",
+          "text": "US nuclear scientist Siegfried Hecker tells Congress that the delegates visiting Yongbyon were shown what appeared to be weapons-grade plutonium, but he did not see any evidence of a nuclear bomb."
+        },
+        {
+          "date": "2004-02-03",
+          "date_latest": "2004-02-03",
+          "date_precision": "day",
+          "text": "North Korea reports that the next round of six-party talks on the nuclear crisis will be held on 25 February."
+        },
+        {
+          "date": "2004-02-25",
+          "date_latest": "2004-02-25",
+          "date_precision": "day",
+          "text": "Second round of six nation talks end without breakthrough in Beijing."
+        },
+        {
+          "date": "2004-05-23",
+          "date_latest": "2004-05-23",
+          "date_precision": "day",
+          "text": "The UN atomic agency is reported to be investigating allegations that North Korea secretly sent uranium to Libya when Tripoli was trying to develop nuclear weapons."
+        },
+        {
+          "date": "2004-06-23",
+          "date_latest": "2004-06-23",
+          "date_precision": "day",
+          "text": "Third round of six nation talks held in Beijing, with the US making a new offer to allow North Korea fuel aid if it freezes then dismantles its nuclear programmes."
+        },
+        {
+          "date": "2004-07-02",
+          "date_latest": "2004-07-02",
+          "date_precision": "day",
+          "text": "US Secretary of State Colin Powell meets the North Korean Foreign Minister, Paek Nam-sun, in the highest-level talks between the two countries since the crisis erupted."
+        },
+        {
+          "date": "2004-07-24",
+          "date_latest": "2004-07-24",
+          "date_precision": "day",
+          "text": "North Korea rejects US suggestions that it follow Libya's lead and give up its nuclear ambitions, calling the US proposal a daydream."
+        },
+        {
+          "date": "2004-08-03",
+          "date_latest": "2004-08-03",
+          "date_precision": "day",
+          "text": "North Korea is in the process of developing a new missile system for ships or submarines, according to a report in Jane's Defence Weekly."
+        },
+        {
+          "date": "2004-08-23",
+          "date_latest": "2004-08-23",
+          "date_precision": "day",
+          "text": "North Korea describes US President George W Bush as an \"imbecile\" and a \"tyrant that puts Hitler in the shade\", in response to comments President Bush made describing the North's Kim Jong-il as a \"tyrant\"."
+        },
+        {
+          "date": "2004-09-12",
+          "date_latest": "2004-09-12",
+          "date_precision": "day",
+          "text": "Clinton Former Secretary of State Madeleine Albright admits North Korean \"cheating\" on the Agreed Framework occurred during the \"Clinton Watch.\"Transcript for September 12"
+        },
+        {
+          "date": "2004-09-28",
+          "date_latest": "2004-09-28",
+          "date_precision": "day",
+          "text": "North Korea says it has turned plutonium from 8,000 spent fuel rods into nuclear weapons. Speaking at the UN General Assembly, Vice Foreign Minister Choe Su-hon said the weapons were needed for \"self-defence\" against \"US nuclear threat\"."
+        },
+        {
+          "date": "2005-01-14",
+          "date_latest": "2005-01-14",
+          "date_precision": "day",
+          "text": "North Korea says it is willing to restart stalled talks on its nuclear programme, according to the official KCNA news agency. The statement says North Korea \"would not stand against the US but respect and treat it as a friend unless the latter slanders the former's system and interferes in its internal affairs\"."
+        },
+        {
+          "date": "2005-01-19",
+          "date_latest": "2005-01-19",
+          "date_precision": "day",
+          "text": "Condoleezza Rice, President George W Bush's nominee as secretary of state, identifies North Korea as one of six \"outposts of tyranny\" where the US must help bring freedom."
+        },
+        {
+          "date": "2005-02-10",
+          "date_latest": "2005-02-10",
+          "date_precision": "day",
+          "text": "North Korea says it is suspending its participation in the talks over its nuclear programme for an \"indefinite period\", blaming the Bush administration's intention to \"antagonise, isolate and stifle it at any cost\". The statement also repeats North Korea's assertion to have built nuclear weapons for self-defence."
+        },
+        {
+          "date": "2005-04-18",
+          "date_latest": "2005-04-18",
+          "date_precision": "day",
+          "text": "South Korea says North Korea has shut down its Yongbyon reactor, a move which could allow it to extract more fuel for nuclear weapons."
+        },
+        {
+          "date": "2005-05-01",
+          "date_latest": "2005-05-01",
+          "date_precision": "day",
+          "text": "North Korea fires a short-range missile into the Sea of Japan (East Sea of Korea), on the eve of a meeting of members of the international Non-Proliferation Treaty."
+        },
+        {
+          "date": "2005-05-11",
+          "date_latest": "2005-05-11",
+          "date_precision": "day",
+          "text": "North Korea says it has completed extraction of spent fuel rods from Yongbyon, as part of plans to \"increase its nuclear arsenal\"."
+        },
+        {
+          "date": "2005-05-16",
+          "date_latest": "2005-05-16",
+          "date_precision": "day",
+          "text": "North and South Korea hold their first talks in 10 months, with the North seeking fertilizer for its troubled agriculture sector."
+        },
+        {
+          "date": "2005-05-25",
+          "date_latest": "2005-05-25",
+          "date_precision": "day",
+          "text": "The US suspends efforts to recover the remains of missing US servicemen in North Korea, saying restrictions placed on its work were too great."
+        },
+        {
+          "date": "2005-06-07",
+          "date_latest": "2005-06-07",
+          "date_precision": "day",
+          "text": "China's envoy to the UN says he expects North Korea to rejoin the six-nation talks \"in the next few weeks\"."
+        },
+        {
+          "date": "2005-06-22",
+          "date_latest": "2005-06-22",
+          "date_precision": "day",
+          "text": "North Korea requests more food aid from the South during ministerial talks in Seoul, the first for a year."
+        },
+        {
+          "date": "2005-07-09",
+          "date_latest": "2005-07-09",
+          "date_precision": "day",
+          "text": "North Korea says it will rejoin nuclear talks, as US Secretary of State Condoleezza Rice begins a tour of the region."
+        },
+        {
+          "date": "2005-07-12",
+          "date_latest": "2005-07-12",
+          "date_precision": "day",
+          "text": "South Korea offers the North huge amounts of electricity as an incentive to end its nuclear weapons programme."
+        },
+        {
+          "date": "2005-07-25",
+          "date_latest": "2005-07-25",
+          "date_precision": "day",
+          "text": "Fourth round of six-nation talks begins in Beijing."
+        },
+        {
+          "date": "2005-08-07",
+          "date_latest": "2005-08-07",
+          "date_precision": "day",
+          "text": "The talks reach deadlock and a recess is called."
+        },
+        {
+          "date": "2005-09-13",
+          "date_latest": "2005-09-13",
+          "date_precision": "day",
+          "text": "Talks resume. North Korea requests the building of the light-water reactors promised in the Agreed Framework, but the U.S. refuses, prompting warnings of a \"standoff\" between the parties."
+        },
+        {
+          "date": "2005-09-19",
+          "date_latest": "2005-09-19",
+          "date_precision": "day",
+          "text": "In what is initially hailed as an historic joint statement, North Korea agrees to give up all its nuclear activities and rejoin the nuclear Non-Proliferation Treaty, while the US says it had no intention of attacking."
+        },
+        {
+          "date": "2005-09-20",
+          "date_latest": "2005-09-20",
+          "date_precision": "day",
+          "text": "North Korea says it will not scrap its nuclear programme until it is given a civilian nuclear reactor, undermining the joint statement and throwing further talks into doubt."
+        },
+        {
+          "date": "2005-12-07",
+          "date_latest": "2005-12-07",
+          "date_precision": "day",
+          "text": "A senior US diplomat brands North Korea a \"criminal regime\" involved in arms sales, drug trafficking and currency forgery."
+        },
+        {
+          "date": "2005-12-20",
+          "date_latest": "2005-12-20",
+          "date_precision": "day",
+          "text": "North Korea says it intends to resume building nuclear reactors, because the US had pulled out of a key deal to build it two new reactors."
+        },
+        {
+          "date": "2006-04-12",
+          "date_latest": "2006-04-12",
+          "date_precision": "day",
+          "text": "A two-day meeting aimed at persuading North Korea to return to talks on its nuclear program fails to resolve the deadlock."
+        },
+        {
+          "date": "2006-06-26",
+          "date_latest": "2006-06-26",
+          "date_precision": "day",
+          "text": "A report by the Institute for Science and International Security estimates that current North Korea plutonium stockpiles is sufficient for four to thirteen nuclear weapons."
+        },
+        {
+          "date": "2006-07-03",
+          "date_latest": "2006-07-03",
+          "date_precision": "day",
+          "text": "Washington dismisses a threat by North Korea that it will launch a nuclear strike against the US in the event of an American attack, as a White House spokesman described the threat as \"deeply hypothetical\"."
+        },
+        {
+          "date": "2006-07-04",
+          "date_latest": "2006-07-04",
+          "date_precision": "day",
+          "text": "North Korea test-fires at least six missiles, including a long-range Taepodong-2, despite repeated warnings from the international community."
+        },
+        {
+          "date": "2006-07-05",
+          "date_latest": "2006-07-05",
+          "date_precision": "day",
+          "text": "North Korea test-fires a seventh missile, despite international condemnation of its earlier launches."
+        },
+        {
+          "date": "2006-07-06",
+          "date_latest": "2006-07-06",
+          "date_precision": "day",
+          "text": "North Korea announces it would continue to launch missiles, as well as \"stronger steps\", if other countries were to apply additional pressure as a result of the latest missile launches, claiming it to be their sovereign right to carry out these tests. A US television network also reports that they have quoted intelligence sources in saying that North Korea is readying another Taepodong-2 long-range missile for launch."
+        },
+        {
+          "date": "2006-10-03",
+          "date_latest": "2006-10-03",
+          "date_precision": "day",
+          "text": "North Korea announces plans to test a nuclear weapon in the future, blaming \"hostile US policy\". Their full text can be read at BBC News."
+        },
+        {
+          "date": "2006-10-05",
+          "date_latest": "2006-10-05",
+          "date_precision": "day",
+          "text": "A US envoy directly threatens North Korea as to the upcoming test, stating \"It (North Korea) can have a future or it can have these (nuclear) weapons, it cannot have them both.\" The envoy also mentions that any attempt to test a nuclear device would be seen as a \"highly provocative act\"."
+        },
+        {
+          "date": "2006-10-06",
+          "date_latest": "2006-10-06",
+          "date_precision": "day",
+          "text": "The United Nations Security Council issues a statement declaring, \"The Security Council urges the DPRK not to undertake such a test and to refrain from any action that might aggravate tension, to work on the resolution of non-proliferation concerns and to facilitate a peaceful and comprehensive solution through political and diplomatic efforts. Later in the day, there are unconfirmed reports of the North Korean government successfully testing a nuclear bomb.\""
+        },
+        {
+          "date": "2006-10-09",
+          "date_latest": "2006-10-09",
+          "date_precision": "day",
+          "text": "North Korea announces that it has performed its first-ever nuclear weapon test. The country's official Korean Central News Agency said the test was performed successfully, and there was no radioactive leakage from the site. South Korea's Yonhap news agency said the test was conducted at 10:36 a.m. (01:36 GMT) in Hwaderi near Kilju city, citing defense officials. The USGS detected an earthquake with a preliminary estimated magnitude of 4.2 at 41.311°N, 129.114°E . The USGS coordinate indicates that the location in much north of Hwaderi, near the upper stream of Oran-chon, 17 km NNW of Punggye-Yok, according to analysts reports. In an interview on The Daily Show with Jon Stewart, former Secretary of State James Baker let it slip that North Korea “... had a rudimentary nuclear weapon way back in the days when I was Secretary of State, but now this is a more advanced one evidently.” He was Secretary of State between 1989 and 1992."
+        },
+        {
+          "date": "2006-10-10",
+          "date_latest": "2006-10-10",
+          "date_precision": "day",
+          "text": "Some western scientists had doubts as to whether the nuclear weapon test that took place on 9 October 2006 was in fact successful. The scientists cite that the measurements recorded only showed an explosion equivalent to 500 metric tons of TNT, as compared to the 1998 nuclear tests that India and Pakistan conducted which were 24–50 times more powerful. This could indicate that the test resulted in a fizzle. Some also speculated that the test may be a ruse using conventional explosives and nuclear material."
+        },
+        {
+          "date": "2006-10-14",
+          "date_latest": "2006-10-14",
+          "date_precision": "day",
+          "text": "The United Nations Security Council passed U.N. Resolution 1718, imposing sanctions on North Korea for its announced nuclear test on 9 October 2006 that include largely symbolic steps to hit the North Korea's nuclear and missile programs, a reiteration of financial sanctions that were already in place, as well as keeping luxury goods away from its leaders, for example French wines and spirits or jet skis. However, the sanctions do not have the full support of China and Russia. The resolution was pushed in large part by the administration of George W. Bush, whose party at the time was engaged in an important mid-term election."
+        },
+        {
+          "date": "2006-10-27",
+          "date_latest": "2006-10-27",
+          "date_precision": "day",
+          "text": "Japanese Chief Cabinet Secretary Yasuhisa Shiozaki, based upon U.S. intelligence, announces, \"We reached the conclusion that the probability that North Korea conducted a nuclear test is extremely high.\" He continued on to admit that Japanese aircraft could not confirm the U.S. and South Korean reports."
+        },
+        {
+          "date": "2006-12-18",
+          "date_latest": "2006-12-18",
+          "date_precision": "day",
+          "text": "The six-party talks resume in what is known as the fifth round, second phase. After a week of negotiations, the parties managed to reaffirm the 19 September declaration, as well as reiterate their parties' stances. For more information, see six-party talks."
+        },
+        {
+          "date": "2007-01-13",
+          "date_latest": "2007-01-13",
+          "date_precision": "day",
+          "text": "North Korean official Song Il-ho was reported to have told his Japanese counterpart Taku Yamasaki that whether the North Koreans conduct a second nuclear test depends on \"US actions in the future\"."
+        },
+        {
+          "date": "2007-01-16",
+          "date_latest": "2007-01-16",
+          "date_precision": "day",
+          "text": "In-between-round talks between North Korea and the US are held in Berlin, Germany. Certain areas of agreement have been reached, as confirmed by both sides. North Korea claims these were bilateral negotiations; the US claims these \"set the groundwork for the next round of six-party talks\"."
+        },
+        {
+          "date": "2007-01-26",
+          "date_latest": "2007-01-26",
+          "date_precision": "day",
+          "text": "On 26 January 2007, Russian chief negotiator Alexander Losyukov told reporters that the third phase was most likely to take place in late January or early February 2007, most likely 5–8 February 2007, before the Lunar New Year.",
+          "names_later_date": true
+        },
+        {
+          "date": "2007-02-10",
+          "date_latest": "2007-02-10",
+          "date_precision": "day",
+          "text": "Reports emanating from Washington suggest that the CIA reports in 2002 that North Korea was developing uranium enrichment technology overstated or misread the intelligence. U.S. officials are no longer making this a major issue in the six-party talks."
+        },
+        {
+          "date": "2007-02-13",
+          "date_latest": "2007-02-13",
+          "date_precision": "day",
+          "text": "The fifth round of the six-party talks conclude with an agreement. Pyongyang promises to shut down the Yongbyon reactor in exchange for 50,000 metric tons of fuel aid, with more to follow upon verification that the site has been permanently disabled. IAEA inspectors will be re-admitted, and the United States will begin the process of normalizing relations with North Korea."
+        },
+        {
+          "date": "2007-03-19",
+          "date_latest": "2007-03-19",
+          "date_precision": "day",
+          "text": "The sixth round of six-party talks commences in Beijing."
+        },
+        {
+          "date": "2007-06-25",
+          "date_latest": "2007-06-25",
+          "date_precision": "day",
+          "text": "North Korea announces resolution of the banking dispute regarding US$25 million in DPRK assets in Macau's Banco Delta Asia."
+        },
+        {
+          "date": "2007-07-14",
+          "date_latest": "2007-07-14",
+          "date_precision": "day",
+          "text": "North Korea announces it is shutting down the Yongbyon reactor after receiving 6,200 tons in South Korean fuel oil aid."
+        },
+        {
+          "date": "2007-07-17",
+          "date_latest": "2007-07-17",
+          "date_precision": "day",
+          "text": "A 10-person team of IAEA inspectors confirms that North Korea has shut down its Yongbyon reactor, a step IAEA Director Mohamed ElBaradei said was \"a good step in the right direction\". On the same day, a second shipment of 7,500 tons of oil aid was dispatched from South Korea for the North Korea city of Nampo, part of the 50,000 tons North Korea is due to receive in exchange for shutting down the reactor, according to the 13 February agreement.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2007-09-11",
+          "date_latest": "2007-09-11",
+          "date_precision": "day",
+          "text": "Inspectors from the United States, China and Russia conduct a site visit at Yongbyon reactor to determine ways to permanently disable the reactor. U.S. delegation leader, Sung Kim, declared they \"saw everything they had asked to see,\" State Department spokesman Sean McCormack said."
+        },
+        {
+          "date": "2008-02-25",
+          "date_latest": "2008-02-25",
+          "date_precision": "day",
+          "text": "CNN chief international correspondent Christiane Amanpour toured North Korea's nuclear plant. CNN was one of only two U.S. news organizations at the facility."
+        },
+        {
+          "date": "2008-05-10",
+          "date_latest": "2008-05-10",
+          "date_precision": "day",
+          "text": "Sung Kim, the U.S. State Department's top Korea specialist, returned to South Korea by land across the heavily fortified border after collecting approximately 18,000 secret papers of Yongbyon nuclear reactor activities during a three-day visit to Pyongyang."
+        },
+        {
+          "date": "2008-06-26",
+          "date_latest": "2008-06-26",
+          "date_precision": "day",
+          "text": "North Korea hands over 60 pages of documents detailing its capabilities in nuclear power and nuclear weapons"
+        },
+        {
+          "date": "2008-06-27",
+          "date_latest": "2008-06-27",
+          "date_precision": "day",
+          "text": "North Korea destroys a cooling tower at Yongbyon's main atomic reactor."
+        },
+        {
+          "date": "2008-10-11",
+          "date_latest": "2008-10-11",
+          "date_precision": "day",
+          "text": "The US removes North Korea from its State Sponsors of Terrorism list."
+        },
+        {
+          "date": "2009-04-05",
+          "date_latest": "2009-04-05",
+          "date_precision": "day",
+          "text": "North Korea's launch of its Kwangmyŏngsŏng-2 satellite, intended to broadcast \"immortal revolutionary songs,\" ends in failure."
+        },
+        {
+          "date": "2009-04-14",
+          "date_latest": "2009-04-14",
+          "date_precision": "day",
+          "text": "Following a UN resolution denouncing its missile launch, North Korea says that it \"will never again take part in such [six party] talks and will not be bound by any agreement reached at the talks.\" North Korea expelled nuclear inspectors from the country and also informed the IAEA that they would resume their nuclear weapons program."
+        },
+        {
+          "date": "2009-04-25",
+          "date_latest": "2009-04-25",
+          "date_precision": "day",
+          "text": "North Korea says it has reactivated its nuclear facilities.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2009-05-25",
+          "date_latest": "2009-05-25",
+          "date_precision": "day",
+          "text": "North Korea tests its second nuclear device."
+        },
+        {
+          "date": "2012-04-01",
+          "date_latest": "2012-04-30",
+          "date_precision": "month",
+          "text": "North Korea prepares to test its third nuclear device."
+        },
+        {
+          "date": "2012-04-13",
+          "date_latest": "2012-04-13",
+          "date_precision": "day",
+          "text": "North Korea's launch of its Kwangmyŏngsŏng-3 satellite, which fails shortly after launching. It was intended to mark the centenary of Kim Il Sung's 100th birthday, and was designed to estimate crop yields and collect weather data, as well as assess the country's forest coverage and natural resources."
+        },
+        {
+          "date": "2012-12-12",
+          "date_latest": "2012-12-12",
+          "date_precision": "day",
+          "text": "North Korea's launch of its Kwangmyŏngsŏng-3 Unit 2 satellite that is meant to replace the failed Kwangmyŏngsŏng-3 satellite, and became the 10th space power that is capable of putting satellites in orbit using its own launch vehicles. The launch came during the period when the DPRK was commemorating the first anniversary of the death of former leader Kim Jong-il and just before the first South Korean domestic launch of a satellite and the South Korean presidential election on 19 December 2012.",
+          "names_later_date": true
+        },
+        {
+          "date": "2013-02-05",
+          "date_latest": "2013-02-05",
+          "date_precision": "day",
+          "text": "South Korea's President warned that North Korea could be planning \"multiple nuclear tests at two places or more\"."
+        },
+        {
+          "date": "2013-02-12",
+          "date_latest": "2013-02-12",
+          "date_precision": "day",
+          "text": "North Korea tests its third nuclear device.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2013-03-01",
+          "date_latest": "2013-03-31",
+          "date_precision": "month",
+          "text": "North Korea crisis (2013)",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2015-05-20",
+          "date_latest": "2015-05-20",
+          "date_precision": "day",
+          "text": "North Korea claims to have nuclear weapons capable of hitting the United States."
+        },
+        {
+          "date": "2015-12-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "month",
+          "text": "In early December, North Korea leader Kim Jong-un claimed that the country was prepared to detonate a hydrogen bomb, however significant doubts surround the claim."
+        },
+        {
+          "date": "2016-01-06",
+          "date_latest": "2016-01-06",
+          "date_precision": "day",
+          "text": "North Korea conducts its fourth nuclear test. Although the government claims it to be its first hydrogen bomb, the claim was met with significant skepticism."
+        },
+        {
+          "date": "2016-07-06",
+          "date_latest": "2016-07-06",
+          "date_precision": "day",
+          "text": "A high-level DPRK Government spokesman's statement was made defining a more precise meaning of \"denuclearization\", as covering the whole Korean peninsula and its vicinity, signaling a willingness to continue negotiations on the topic."
+        },
+        {
+          "date": "2016-09-09",
+          "date_latest": "2016-09-09",
+          "date_precision": "day",
+          "text": "North Korea conducts its fifth underground nuclear test. With an estimate yield of over 10kt, it would make it the most powerful North Korean nuclear test thus far."
+        },
+        {
+          "date": "2016-10-26",
+          "date_latest": "2016-10-26",
+          "date_precision": "day",
+          "text": "United States Director of National Intelligence James Clapper said during a speech that persuading North Korea to abandon its program is \"probably a lost cause\" since, to North Korea, it was \"their ticket to survival\" and any discussions about ending their nuclear ambitions would be a \"non-starter\"."
+        },
+        {
+          "date": "2017-03-06",
+          "date_latest": "2017-03-06",
+          "date_precision": "day",
+          "text": "North Korea launched four ballistic missiles, three of which landed 200 miles off Japan's coastline. Supreme leader Kim Jong-un promised that the country will eventually have nuclear-armed, intercontinental ballistic missiles that can reach the continental United States, thus challenging the Trump administration of the United States to review its policy options, including preemptive strikes or further isolation of the North Korean economy."
+        },
+        {
+          "date": "2017-04-15",
+          "date_latest": "2017-04-15",
+          "date_precision": "day",
+          "text": "at the yearly major public holiday Day of the Sun, North Korea staged a massive military parade to commemorate the 105th birth anniversary of Kim Il-sung, the country's founder and grandfather of current leader, Kim Jong-un. The parade took place amid hot speculation in the United States, Japan, and South Korea that the country would look to also potentially test a sixth nuclear device, which it did not do."
+        },
+        {
+          "date": "2017-09-03",
+          "date_latest": "2017-09-03",
+          "date_precision": "day",
+          "text": "At 3:31 AM UTC, the United States Geological Survey reported that it had detected a magnitude 6.3 earthquake in North Korea near the Punggye-ri Nuclear Test Site. Given the shallow depth of the quake and its proximity to North Korea's primary nuclear weapons testing facility, experts concluded that the country had conducted a sixth nuclear weapon test (2017 North Korean nuclear test). North Korea claimed that they had tested a hydrogen bomb capable of being mounted on an ICBM. The independent seismic monitoring agency NORSAR initially estimated that the blast had a yield of around 120 kilotons but subsequently revised to 250 ktonTNT based on a tremor of 6.1M"
+        },
+        {
+          "date": "2018-04-20",
+          "date_latest": "2018-04-20",
+          "date_precision": "day",
+          "text": "Kim Jong Un announces he would immediately suspend nuclear and missile testing and shut down the Punggye-ri site that was used for six earlier nuclear tests."
+        },
+        {
+          "date": "2018-10-31",
+          "date_latest": "2018-10-31",
+          "date_precision": "day",
+          "text": "South Korea's National Intelligence Service conducts first ever inspection of North Korea's nuclear program and recommends international experts accept North Korea's invitation for an international inspection."
+        },
+        {
+          "date": "2019-12-01",
+          "date_latest": "2019-12-01",
+          "date_precision": "day",
+          "text": "North Korea announced it had recently conducted a \"very important test\" at its Sohae site. Some analysts believed the test involved a new ICBM engine, as the country was believed to be migrating from its liquid-fueled missiles to new solid-fueled versions that were easier to transport, conceal and launch."
+        },
+        {
+          "date": "2019-12-14",
+          "date_latest": "2019-12-14",
+          "date_precision": "day",
+          "text": "The country announced it had conducted a \"crucial test' at the Sohae site.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2019-12-21",
+          "date_latest": "2019-12-21",
+          "date_precision": "day",
+          "text": "The New York Times reported that \"American military and intelligence officials tracking North Korea’s actions by the hour say they are bracing for an imminent test of an intercontinental ballistic missile capable of reaching American shores, but appear resigned to the fact that President Trump has no good options to stop it.\" Pyongyang had previously promised a \"Christmas gift\" if progress was not seen on relaxation of American sanctions. NBC News published commercial satellite photos showing what appeared to be the production and modification of ICBM launchers at a Pyongsong site."
+        },
+        {
+          "date": "2019-12-31",
+          "date_latest": "2019-12-31",
+          "date_precision": "day",
+          "text": "The Korean Central News Agency announced that Kim had abandoned his moratoriums on nuclear and intercontinental ballistic missile tests, quoting Kim as saying, \"the world will witness a new strategic weapon to be possessed by the DPRK in the near future.\""
+        },
+        {
+          "date": "2020-01-17",
+          "date_latest": "2020-01-17",
+          "date_precision": "day",
+          "text": "John Hyden, Vice Chairman of the Joint Chiefs of Staff, states that North Korea is \"building new missiles, new capabilities, new weapons as fast as anybody on the planet.\""
+        },
+        {
+          "date": "2020-10-10",
+          "date_latest": "2020-10-10",
+          "date_precision": "day",
+          "text": "North Korea unveiled a massive ICBM during a military parade for the 75th anniversary of the Workers' Party of North Korea, with CNN reporting that it is one of the world's biggest road mobile ballistic missiles."
+        },
+        {
+          "date": "2024-04-22",
+          "date_latest": "2024-04-22",
+          "date_precision": "day",
+          "text": "North Korea claimed to have tested a new command and control system in a simulated nuclear counterattack."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "List of North Korean missile tests",
+      "pageid": 5831012,
+      "revid": 1359786666,
+      "revision_timestamp": "2026-06-17T05:23:55Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=5831012",
+      "strategy": "table",
+      "segments": [
+        {
+          "date": "1976-01-01",
+          "date_latest": "1976-12-31",
+          "date_precision": "year",
+          "text": "North Korea commences its missile development program using Scud-B from the Soviet Union and a launchpad from Egypt."
+        },
+        {
+          "date": "1984-04-09",
+          "date_latest": "1984-04-09",
+          "date_precision": "day",
+          "text": "First Scud-B (Hwasong-5) missile test firing."
+        },
+        {
+          "date": "1984-09-01",
+          "date_latest": "1984-09-30",
+          "date_precision": "month",
+          "text": "North Korea test-fired Scud-B (Hwasong-5) missile three times.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "1986-05-01",
+          "date_latest": "1986-05-31",
+          "date_precision": "month",
+          "text": "Secret test of \"long-range guided missile\", according to South Korean Defense Minister ko."
+        },
+        {
+          "date": "1988-01-01",
+          "date_latest": "1988-12-31",
+          "date_precision": "year",
+          "text": "Operational deployment of Scud-B (Hwasong-5) and Scud-C (Hwasong-6) missiles."
+        },
+        {
+          "date": "1990-05-01",
+          "date_latest": "1990-05-31",
+          "date_precision": "month",
+          "text": "First Hwasong-7 (Nodong) missile test, but failed."
+        },
+        {
+          "date": "1993-05-29",
+          "date_latest": "1993-05-29",
+          "date_precision": "day",
+          "text": "Test-fires of Hwasong-6 and Hwasong-7."
+        },
+        {
+          "date": "1998-08-31",
+          "date_latest": "1998-08-31",
+          "date_precision": "day",
+          "text": "North Korea fires off its first ballistic missile, the Unha-1 rocket, also known as the Taepodong-1 missile, from the launch site of Musudan-ri in North Hamgyong Province."
+        },
+        {
+          "date": "1999-09-24",
+          "date_latest": "1999-09-24",
+          "date_precision": "day",
+          "text": "North Korea agrees to a moratorium on long-range missile tests."
+        },
+        {
+          "date": "2002-01-01",
+          "date_latest": "2002-12-31",
+          "date_precision": "year",
+          "text": "North Korea pledges to extend moratorium on missile tests beyond 2003."
+        },
+        {
+          "date": "2004-01-01",
+          "date_latest": "2004-12-31",
+          "date_precision": "year",
+          "text": "North Korea reaffirms moratorium."
+        },
+        {
+          "date": "2005-01-01",
+          "date_latest": "2005-12-31",
+          "date_precision": "year",
+          "text": "North Korea fires short-range missile into Sea of Japan.",
+          "duplicate_of": "Timeline of the North Korean nuclear program"
+        },
+        {
+          "date": "2006-03-08",
+          "date_latest": "2006-03-08",
+          "date_precision": "day",
+          "text": "North Korea has test fired two short-range missiles into Sea of Japan."
+        },
+        {
+          "date": "2006-07-05",
+          "date_latest": "2006-07-05",
+          "date_precision": "day",
+          "text": "2006 North Korean missile test – Failed test-fire of Taepodong-2. Hwasong-6 and Hwasong-7 were also tested."
+        },
+        {
+          "date": "2007-05-25",
+          "date_latest": "2007-05-25",
+          "date_precision": "day",
+          "text": "North Korea fired short-range missiles."
+        },
+        {
+          "date": "2007-06-07",
+          "date_latest": "2007-06-07",
+          "date_precision": "day",
+          "text": "North Korea fires missiles off coast."
+        },
+        {
+          "date": "2008-03-28",
+          "date_latest": "2008-03-28",
+          "date_precision": "day",
+          "text": "North Korea fires three ship-to-ship missiles."
+        },
+        {
+          "date": "2008-05-30",
+          "date_latest": "2008-05-30",
+          "date_precision": "day",
+          "text": "North Korea fires three short-range missiles into west coast.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2008-10-07",
+          "date_latest": "2008-10-07",
+          "date_precision": "day",
+          "text": "North Korea fires short-range missiles into international water.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2009-04-05",
+          "date_latest": "2009-04-05",
+          "date_precision": "day",
+          "text": "Failed orbit of the Kwangmyongsong-2 satellite aboard an Unha-2 carrier rocket."
+        },
+        {
+          "date": "2009-07-02",
+          "date_latest": "2009-07-02",
+          "date_precision": "day",
+          "text": "2009 North Korean missile test – Test-fires of Hwasong-6 and Hwasong-7."
+        },
+        {
+          "date": "2009-10-12",
+          "date_latest": "2009-10-12",
+          "date_precision": "day",
+          "text": "North Korea fires five short-range missiles."
+        },
+        {
+          "date": "2012-04-13",
+          "date_latest": "2012-04-13",
+          "date_precision": "day",
+          "text": "Failed launch of the Kwangmyŏngsŏng-3 satellite aboard an Unha-3 carrier rocket."
+        },
+        {
+          "date": "2012-12-12",
+          "date_latest": "2012-12-12",
+          "date_precision": "day",
+          "text": "Successful launch of the Kwangmyŏngsŏng-3 Unit 2 satellite aboard a three-stage rocket",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2013-03-15",
+          "date_latest": "2013-03-15",
+          "date_precision": "day",
+          "text": "North Korea fires short-range missiles."
+        },
+        {
+          "date": "2013-05-18",
+          "date_latest": "2013-05-18",
+          "date_precision": "day",
+          "text": "2013 North Korean missile tests – Test-fires of multiple missiles of unknown types, possibly KN-02 Toksa or multiple rocket launcher or anti-ship missiles."
+        },
+        {
+          "date": "2014-02-27",
+          "date_latest": "2014-02-27",
+          "date_precision": "day",
+          "text": "North Korea fires four Hwasong-5 (Scud-B) short-range missiles."
+        },
+        {
+          "date": "2014-03-03",
+          "date_latest": "2014-03-03",
+          "date_precision": "day",
+          "text": "North Korea fires two Hwasong-6 (Scud-C) short-range missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-03-04",
+          "date_latest": "2014-03-04",
+          "date_precision": "day",
+          "text": "North Korea fires three volley of rockets into Sea of Japan."
+        },
+        {
+          "date": "2014-03-16",
+          "date_latest": "2014-03-16",
+          "date_precision": "day",
+          "text": "North Korea fires ten short-range missiles into Sea of Japan.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-03-26",
+          "date_latest": "2014-03-26",
+          "date_precision": "day",
+          "text": "Test-fires of Hwasong-7 (Nodong). Two missiles were successfully launched."
+        },
+        {
+          "date": "2014-06-26",
+          "date_latest": "2014-06-26",
+          "date_precision": "day",
+          "text": "Test-fire of a KN-02 missile."
+        },
+        {
+          "date": "2014-06-29",
+          "date_latest": "2014-06-29",
+          "date_precision": "day",
+          "text": "Test-fire of two Hwasong-6 missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-07-09",
+          "date_latest": "2014-07-09",
+          "date_precision": "day",
+          "text": "North Korea fired two Hwasong-6 missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-07-13",
+          "date_latest": "2014-07-13",
+          "date_precision": "day",
+          "text": "Two Hwasong-6 missiles were launched.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-07-26",
+          "date_latest": "2014-07-26",
+          "date_precision": "day",
+          "text": "Test-fire of a Hwasong-6 missile.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-08-14",
+          "date_latest": "2014-08-14",
+          "date_precision": "day",
+          "text": "Test-fire of a KN-02 missile.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-09-01",
+          "date_latest": "2014-09-01",
+          "date_precision": "day",
+          "text": "North Korea continued to fire a KN-02 missile.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2014-09-06",
+          "date_latest": "2014-09-06",
+          "date_precision": "day",
+          "text": "A KN-02 missile was fired."
+        },
+        {
+          "date": "2015-02-08",
+          "date_latest": "2015-02-08",
+          "date_precision": "day",
+          "text": "North Korea test-fired five projectiles: one KN-02 missile and four 300-mm guided artillery rockets."
+        },
+        {
+          "date": "2015-03-01",
+          "date_latest": "2015-03-01",
+          "date_precision": "day",
+          "text": "North Korea test-fired two Hwasong-6 missiles."
+        },
+        {
+          "date": "2015-04-02",
+          "date_latest": "2015-04-02",
+          "date_precision": "day",
+          "text": "North Korea test-fired a missile, assumed to be KN-02.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2015-04-03",
+          "date_latest": "2015-04-03",
+          "date_precision": "day",
+          "text": "North Korea test-fired four missiles. These missile were also assumed to be KN-02.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2015-05-09",
+          "date_latest": "2015-05-09",
+          "date_precision": "day",
+          "text": "North Korea claims to launch a missile, named Pukguksong-1 from a submarine."
+        },
+        {
+          "date": "2015-11-28",
+          "date_latest": "2015-11-28",
+          "date_precision": "day",
+          "text": "Failed test-fire of a Pukguksong-1 missile."
+        },
+        {
+          "date": "2015-12-21",
+          "date_latest": "2015-12-21",
+          "date_precision": "day",
+          "text": "Failed test-fire of a Pukguksong-1 missile. The Korean Central Television appears to doctor the launch footage.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-02-07",
+          "date_latest": "2016-02-07",
+          "date_precision": "day",
+          "text": "Successful launch of the Kwangmyŏngsŏng-4 satellite."
+        },
+        {
+          "date": "2016-03-10",
+          "date_latest": "2016-03-10",
+          "date_precision": "day",
+          "text": "North Korea launched two Hwasong-6 missiles."
+        },
+        {
+          "date": "2016-03-18",
+          "date_latest": "2016-03-18",
+          "date_precision": "day",
+          "text": "North Korea launched two Hwasong-7 missiles. Only one missile was successfully fired, the other was failed.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-03-29",
+          "date_latest": "2016-03-29",
+          "date_precision": "day",
+          "text": "North Korea launched an unidentified short-range missile. The missile hit an inland target."
+        },
+        {
+          "date": "2016-04-09",
+          "date_latest": "2016-04-09",
+          "date_precision": "day",
+          "text": "Test of engine designed for an intercontinental ballistic missile."
+        },
+        {
+          "date": "2016-04-15",
+          "date_latest": "2016-04-15",
+          "date_precision": "day",
+          "text": "Test-fire of a Hwasong-10 (Musudan) missile, but failed."
+        },
+        {
+          "date": "2016-04-23",
+          "date_latest": "2016-04-23",
+          "date_precision": "day",
+          "text": "North Korea announced that a Pukguksong-1 missile was successfully launched."
+        },
+        {
+          "date": "2016-04-28",
+          "date_latest": "2016-04-28",
+          "date_precision": "day",
+          "text": "Failed test-fires of two Hwasong-10 missiles."
+        },
+        {
+          "date": "2016-05-30",
+          "date_latest": "2016-05-30",
+          "date_precision": "day",
+          "text": "North Korea tried to launch a Hwasong-10 missile but also failed."
+        },
+        {
+          "date": "2016-06-22",
+          "date_latest": "2016-06-22",
+          "date_precision": "day",
+          "text": "Two Hwasong-10 missiles were launched. One was successfully tested, the other appears to be exploded midair. North Korea claimed the two test-fires to be successful.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-07-09",
+          "date_latest": "2016-07-09",
+          "date_precision": "day",
+          "text": "A failed test flight of Pukguksong-1 occurred."
+        },
+        {
+          "date": "2016-07-18",
+          "date_latest": "2016-07-18",
+          "date_precision": "day",
+          "text": "North Korea test-fired one Scud-type missile and two Hwasong-7 missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-08-03",
+          "date_latest": "2016-08-03",
+          "date_precision": "day",
+          "text": "North Korea test-fired two Hwasong-7 missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-08-24",
+          "date_latest": "2016-08-24",
+          "date_precision": "day",
+          "text": "North Korea claimed that a successful launch of the submarine-launched ballistic missile Pukguksong-1 was conducted. According to Kim Jong Un, it is a missile capable of striking the United States mainland and its target in Pacific.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-09-05",
+          "date_latest": "2016-09-05",
+          "date_precision": "day",
+          "text": "North Korea test-fired three Hwasong-9 (Scud-ER) missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-10-15",
+          "date_latest": "2016-10-15",
+          "date_precision": "day",
+          "text": "Failed North Korean ballistic missile launch.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2016-10-19",
+          "date_latest": "2016-10-19",
+          "date_precision": "day",
+          "text": "Failed launch of an intermediate-range ballistic missile."
+        },
+        {
+          "date": "2017-02-11",
+          "date_latest": "2017-02-11",
+          "date_precision": "day",
+          "text": "North Korea test-fired a Pukguksong-2 missile over the Sea of Japan. This was the first launch of the new medium-range ballistic missile."
+        },
+        {
+          "date": "2017-03-06",
+          "date_latest": "2017-03-06",
+          "date_precision": "day",
+          "text": "North Korea launched four Hwasong-9 missiles from the Tongchang-ri launch site in the northwest. Some flew 1000 km before falling into the Sea of Japan."
+        },
+        {
+          "date": "2017-04-04",
+          "date_latest": "2017-04-04",
+          "date_precision": "day",
+          "text": "North Korea test-fired a Hwasong-12 medium-range ballistic missile from its eastern port of Sinpo into the Sea of Japan. The launch failed.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2017-04-15",
+          "date_latest": "2017-04-15",
+          "date_precision": "day",
+          "text": "North Korea test-fired a Hwasong-12 missile from the naval base in Sinpo but it exploded almost immediately after the takeoff."
+        },
+        {
+          "date": "2017-04-28",
+          "date_latest": "2017-04-28",
+          "date_precision": "day",
+          "text": "North Korea test-fired a Hwasong-12 missile from Pukchang airfield. The missile exploded and broke apart minutes after liftoff."
+        },
+        {
+          "date": "2017-05-14",
+          "date_latest": "2017-05-14",
+          "date_precision": "day",
+          "text": "North Korea test-fired a Hwasong-12 missile from a test site in the area of Kusong. The missile, later revealed to be an intermediate range ballistic missile, traveled 30 minutes, reached an altitude of more than 2,111.5 km, and flew a horizontal distance of 789 km, before falling into the Sea of Japan. Such a missile would have a range of at least 4,000, reaching Guam, to 6,000 km."
+        },
+        {
+          "date": "2017-05-21",
+          "date_latest": "2017-05-21",
+          "date_precision": "day",
+          "text": "North Korea test-fired another Pukguksong-2 medium-range ballistic missile from Pukchang airfield, which traveled approximately 500 km before falling into the Sea of Japan. The missile landed about 350 km from North Korea's east coast.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2017-05-29",
+          "date_latest": "2017-05-29",
+          "date_precision": "day",
+          "text": "North Korea fired a KN-18 short range ballistic missile into the Sea of Japan. It traveled .",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2017-06-08",
+          "date_latest": "2017-06-08",
+          "date_precision": "day",
+          "text": "North Korea fired several missiles into the Sea of Japan. They are believed to be anti-ship missiles. The South Korean military said the launches show the reclusive regime's \"precise targeting capability.\""
+        },
+        {
+          "date": "2017-06-23",
+          "date_latest": "2017-06-23",
+          "date_precision": "day",
+          "text": "North Korea tested a new rocket engine that could possibly be fitted to an intercontinental ballistic missile. This engine was later believed to be for the second stage of the Hwasong-15, first flown later in 2017."
+        },
+        {
+          "date": "2017-07-04",
+          "date_latest": "2017-07-04",
+          "date_precision": "day",
+          "text": "North Korea tested its first intercontinental ballistic missile (ICBM) named Hwasong-14 on July 4. It launched from the Panghyon Aircraft Factory southeast of Panghyon Airport. It was aimed straight up at a lofted trajectory and reached more than 2,500 km into space. It landed 37 minutes later, more than 930 km from its launch site, into Japan's exclusive economic zone. Aiming long, the missile would have traveled 7,000–8,000 km or more, reaching Alaska, Hawaii, and possibly Seattle. Its operational range would be farther, bringing a 500 kg payload to targets in most of the contiguous United States 9,700 km away."
+        },
+        {
+          "date": "2017-07-28",
+          "date_latest": "2017-07-28",
+          "date_precision": "day",
+          "text": "The 14th missile test carried out by North Korea in 2017 was another ICBM launched at 23:41 North Korea time (15:41 GMT) from Chagang Province in the north of the country on July 28, 2017. Los Angeles, Denver, Chicago, Boston, and New York City appear to be within range. The missile's reentry vehicle (RV) was seen by people in Japan as it entered the atmosphere and landed near the northernmost Japanese island, Hokkaido. Analysis later revealed that the RV broke up on re-entry; further testing would be required. The CIA made an assessment expecting adequate performance of the RV under the different stresses of a shallower trajectory towards the continental US."
+        },
+        {
+          "date": "2017-08-26",
+          "date_latest": "2017-08-26",
+          "date_precision": "day",
+          "text": "North Korea test-fired three short-range ballistic missiles from the Kangwon Province on August 26. Two travel approximately 250 kilometers in a northeastern direction and one explodes immediately after launch."
+        },
+        {
+          "date": "2017-08-29",
+          "date_latest": "2017-08-29",
+          "date_precision": "day",
+          "text": "On August 29, 2017, at 6 AM local time, North Korea launched a Hwasong-12 missile over Northern Japan. The missile's short and low trajectory and its breakup into three pieces is consistent with the failure of a heavy post-boost vehicle."
+        },
+        {
+          "date": "2017-09-15",
+          "date_latest": "2017-09-15",
+          "date_precision": "day",
+          "text": "North Korea launched a Hwasong-12 missile on September 15 from Sunan airfield. It reached a height of and flew a distance of for 17 minutes over Hokkaido before landing in the Pacific."
+        },
+        {
+          "date": "2017-11-28",
+          "date_latest": "2017-11-28",
+          "date_precision": "day",
+          "text": "North Korea launched a Hwasong-15 ICBM from the vicinity of Pyongsong at 3:00 am Pyongyang time. The rocket traveled for 50 minutes and reached 4500 km in height, both of which were new milestones. The missile flew 970 km east into the Sea of Japan; unlike summer launches, the Japanese government did not issue cellphone alerts to warn its citizens. Its potential range appears to be more than 8,000 mi, able to reach Washington and the rest of the continental United States and Australia. Much about the missile is unknown. The missile might have been fitted with a mock warhead to increase its range, in which case the maximum missile range while carrying a heavy warhead might be shorter than 13,000 km. Based on satellite imagery, some experts believe that North Korea may now be able to fuel missiles horizontally, shortening the delay between when a missile becomes visible to when it can be launched. The rocket is believed to have broken up on re-entry into the atmosphere."
+        },
+        {
+          "date": "2019-05-04",
+          "date_latest": "2019-05-04",
+          "date_precision": "day",
+          "text": "North Korea launched several short-range projectiles from the vicinity of Wonsan on the country's east coast, initial speculation as possibly a Russian Iskander missile which can make course corrections during its flight. Later designated as KN-23 and in 2023, the official name was revealed as Hwasong-11A."
+        },
+        {
+          "date": "2019-05-09",
+          "date_latest": "2019-05-09",
+          "date_precision": "day",
+          "text": "North Korea launched two Hwasong-11A missiles from the vicinity of Sino-ri in North Pyongan Province (launch area also, in another source, identified as Kusong) at 4:29 p.m. and 4:49 p.m. local time."
+        },
+        {
+          "date": "2019-07-25",
+          "date_latest": "2019-07-25",
+          "date_precision": "day",
+          "text": "North Korea launched two Hwasong-11A short-range ballistic missiles. Demonstrated maximum range is 690 km."
+        },
+        {
+          "date": "2019-07-31",
+          "date_latest": "2019-07-31",
+          "date_precision": "day",
+          "text": "North Korea launched \"several\" short-range ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2019-08-02",
+          "date_latest": "2019-08-02",
+          "date_precision": "day",
+          "text": "North Korea launched two short-range ballistic missiles at 2:59 a.m. and 3:23 a.m. local time.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2019-08-24",
+          "date_latest": "2019-08-24",
+          "date_precision": "day",
+          "text": "North Korea launched two short-range ballistic missiles from Sondok in South Hamgyong Province. Both fell in the Sea of Japan.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2019-09-10",
+          "date_latest": "2019-09-10",
+          "date_precision": "day",
+          "text": "North Korea launched two short-range projectiles from Kaechon shortly after proposing to resume denuclearization negotiations with the US. Both the projectiles fell into the sea off the North's east coast."
+        },
+        {
+          "date": "2019-10-02",
+          "date_latest": "2019-10-02",
+          "date_precision": "day",
+          "text": "North Korea test-fired a new-type submarine-launched ballistic missile (SLBM) in the waters off Wonsan. The Republic of Korea Armed Forces said the missile, which was dubbed Pukguksong-3, flew about 450 kilometers and reached a maximum altitude of 910 kilometers, making it an intermediate-range ballistic missile. It fell into the exclusive economic zone of Japan off Shimane Prefecture. North Korea said the launch was successful."
+        },
+        {
+          "date": "2019-10-31",
+          "date_latest": "2019-10-31",
+          "date_precision": "day",
+          "text": "North Korea test-fired two short-range projectiles from Sunchon at 4:35 p.m. and 4:38 p.m. Both flew around 370 km and reached a maximum altitude of 90 km before falling in the Sea of Japan."
+        },
+        {
+          "date": "2019-11-28",
+          "date_latest": "2019-11-28",
+          "date_precision": "day",
+          "text": "North Korea test-launched two \"short-range projectiles\". Rocket exhaust was visible from Russia."
+        },
+        {
+          "date": "2020-03-02",
+          "date_latest": "2020-03-02",
+          "date_precision": "day",
+          "text": "North Korea carried out test-launch of two unidentified projectiles from eastwards over the sea from the Wonsan area on the east coast. Projectiles are equipped with an operational range of 240 kilometres, and capable to flew a height of 35 kilometres."
+        },
+        {
+          "date": "2021-03-25",
+          "date_latest": "2021-03-25",
+          "date_precision": "day",
+          "text": "North Korea carried out test-launch of two upgraded Hwasong-11A (KN-23) short-range ballistic missiles carrying a 2.5-tonne live warhead each that correctly hit the simulated targets. While North Korea official statement reported a 600 km range, Japanese and South Korean sources reported that the missiles flew just over 400 km. Later, the South Korean Joint Chiefs of Staff revised their range assessment of new North Korean missile to 600 km and the Defense Minister said that blind spots due to earth curvature led to initial estimate of 450 km. Later, the missiles were identified as Hwasong-11C."
+        },
+        {
+          "date": "2021-09-11",
+          "date_latest": "2021-09-11",
+          "date_precision": "day",
+          "text": "North Korea carried out tests of a new long-range cruise missile on 11 and 12 September 2021, according to the KCNA. The missiles flew for 1,500 kilometres and successfully hit their target in North Korea's waters, and were meant for a \"strategic role\" according to the news agency, which analyst Ankit Panda stated was a common euphemism for a missile capable of carrying nuclear warheads.",
+          "names_later_date": true
+        },
+        {
+          "date": "2021-09-15",
+          "date_latest": "2021-09-15",
+          "date_precision": "day",
+          "text": "North Korea fired two unidentified ballistic missiles towards the Sea of Japan. Japan's Ministry of Defense stated that they had landed in the country's exclusive economic zone. The South Korean Joint Chiefs of Staff reported that the missiles flew for 800 kilometres, while reaching an altitude of 60 kilometres, and were fired from Yangdok County. KCNA later stated that they were part of a railway-borne missile system."
+        },
+        {
+          "date": "2021-09-28",
+          "date_latest": "2021-09-28",
+          "date_precision": "day",
+          "text": "A short-range missile was fired by North Korea towards the Sea of Japan from Chagang Province, according to South Korean officials. The Japanese government meanwhile suspected it to be a ballistic missile. Rodong Sinmun stated that North Korea had tested a new hypersonic missile called Hwasong-8 and it was launched from Toyang-ri in Ryongrim County. The test, including that of its gliding warhead, was a success according to the state media, which also called it a weapon of \"great strategic significance\"."
+        },
+        {
+          "date": "2021-09-30",
+          "date_latest": "2021-09-30",
+          "date_precision": "day",
+          "text": "KCNA stated that North Korea had successfully tested a new anti-aircraft missile. It added that the missile contained the new technologies of twin-rudder control and double-impulse flight engine."
+        },
+        {
+          "date": "2021-10-19",
+          "date_latest": "2021-10-19",
+          "date_precision": "day",
+          "text": "South Korea JCS announced that a ballistic missile was fired from Sinpo at 10:17am; JoongAng Ilbo claims that the missile fired was a SLBM. Rodong Sinmun reported on the launch on 20 October, revealing that it was a new SLBM launched from a Sinpo-class submarine named 'Hero 8.24'. The new missile features advanced guidance technologies, and can conduct 'pull-up' manoeuvres. Later, the missile was identified as Hwasong-11S."
+        },
+        {
+          "date": "2022-01-05",
+          "date_latest": "2022-01-05",
+          "date_precision": "day",
+          "text": "North Korea test-fired a hypersonic missile, in the first major weapons test by the nation in 2022 and claimed the same as \"The successive successes\" in the test launches."
+        },
+        {
+          "date": "2022-01-10",
+          "date_latest": "2022-01-10",
+          "date_precision": "day",
+          "text": "North Korea test fired the second ballistic missile of the year, likely a Hwasong-8 missile. It is claimed that it had a detached hypersonic glide vehicle (HGV). The missile hit its target in Sea of Japan. The missile reached speeds of Mach 10 as per South Korea's Joint Chiefs (JCS), however the JCS have so far refused to confirm that the missile is an actual hypersonic glide vehicle (HGV). The missile reached a range of 700 km or 434.96 miles and an apogee of 60 km or 37.3 miles. NORAD and the FAA also reacted to this launch by grounding West coast airplanes up to Portland for 5 to 7 minutes, the FAA gave no official reason for these delays, likely so NORAD could try to intercept the missile if it went towards the US. This US military reaction seems to indicate that North Korea does indeed possess rudimentary hypersonic vehicle capabilities."
+        },
+        {
+          "date": "2022-01-15",
+          "date_latest": "2022-01-15",
+          "date_precision": "day",
+          "text": "North Korea test-fired two Hwasong-11A (KN-23) short range missiles from two separate trains in a short notice mission. The drill was meant to test the response time and alert posture of the country's new railway-borne missile regiment. This was the second reported railway-based missile test since its first launch in September 15 of 2021. The missiles hit its target in the Sea of Japan. The missile reached a range of 430 km and an apogee of 36 km and a top speed of Mach 6 (7,350kmph). Due to the successful nature of the tests it was claimed by North Korea's State media that the railway-borne missile capabilities will be expanded across the country."
+        },
+        {
+          "date": "2022-01-25",
+          "date_latest": "2022-01-25",
+          "date_precision": "day",
+          "text": "North Korea test-launched two long-range cruise missiles to the dummy target, 1800 km away at an average speed of Mach 1.47 (720 km/h.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-01-30",
+          "date_latest": "2022-01-30",
+          "date_precision": "day",
+          "text": "North Korea launched an Intermediate Range Ballistic Missile (IRBM) Hwasong-12 missile. The missile was fired at a lower apogee thereby limiting its true range, the missile reached a height of 2000 km and reached a range of 800 km where it fell into the exclusive economic zone of the Korean peninsula in the Sea of Japan. The launch was the seventh test in the month and the second IRBM since the November 2017 test."
+        },
+        {
+          "date": "2022-02-27",
+          "date_latest": "2022-02-27",
+          "date_precision": "day",
+          "text": "North Korea launched a ballistic missile towards the Sea of Japan. The missile reached a height of 600 km and reached a range of 300 km, detected in the Sunan area. North Korea resumed the test-launch spree after a break of 28 days."
+        },
+        {
+          "date": "2022-03-05",
+          "date_latest": "2022-03-05",
+          "date_precision": "day",
+          "text": "North Korea test launched its Hwasong-17 ICBM system, albeit with a reduced capability or range."
+        },
+        {
+          "date": "2022-03-16",
+          "date_latest": "2022-03-16",
+          "date_precision": "day",
+          "text": "North Korea attempted to test-fire a projectile alleged to be an ICBM according to NHK, Japan citing a source in Ministry of Defense (Japan). The rocket broke up soon after liftoff."
+        },
+        {
+          "date": "2022-03-24",
+          "date_latest": "2022-03-24",
+          "date_precision": "day",
+          "text": "North Korea conducted its first successful ICBM launch in over four years. The ICBM launched with a distance of 1080 km and an altitude of 6000 km, suggesting an ability to reach the entire continental United States. North Korea claimed the ICBM was the new Hwasong-17; some analysts believe the launch was in fact a smaller 2017 Hwasong-15 ICBM, and that in order to allow it to travel farther it had been stripped of any significant payload."
+        },
+        {
+          "date": "2022-04-16",
+          "date_latest": "2022-04-16",
+          "date_precision": "day",
+          "text": "North Korea test launched two short-range tactical devices towards east coast which reached a height of 24 km and reached a range of 112 km. The missiles were later identified to be Hwasong-11D."
+        },
+        {
+          "date": "2022-05-04",
+          "date_latest": "2022-05-04",
+          "date_precision": "day",
+          "text": "North Korea launched a ballistic missile into the sea outside of Japan's Exclusive Economic Zone. The missile travelled a distance of 500 km with an altitude of 800 km.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-05-07",
+          "date_latest": "2022-05-07",
+          "date_precision": "day",
+          "text": "North Korea launched a short-range ballistic missile, probably from a submarine, with a 600 km trajectory and an altitude around 60 km. The missile landed in the Sea of Japan."
+        },
+        {
+          "date": "2022-05-12",
+          "date_latest": "2022-05-12",
+          "date_precision": "day",
+          "text": "According to South Korea, North Korea launched three short-range ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-05-25",
+          "date_latest": "2022-05-25",
+          "date_precision": "day",
+          "text": "According to South Korea, North Korea launched an ICBM and two other missiles."
+        },
+        {
+          "date": "2022-06-05",
+          "date_latest": "2022-06-05",
+          "date_precision": "day",
+          "text": "North Korea launched eight short-range ballistic missiles. According to Japan, at least one missile had a variable trajectory.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-08-17",
+          "date_latest": "2022-08-17",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired two cruise missiles into the sea, in its first cruise missile testing since January. Unlike ballistic missile tests, cruise missile tests are not forbidden by the UN sanctions against North Korea."
+        },
+        {
+          "date": "2022-09-25",
+          "date_latest": "2022-09-25",
+          "date_precision": "day",
+          "text": "North Korea fired a ballistic missile into its eastern sea, South Korea's military said. The test came shortly after the US nuclear-powered aircraft carrier USS Ronald Reagan, and its strike group arrived in South Korea for joint military exercises."
+        },
+        {
+          "date": "2022-09-28",
+          "date_latest": "2022-09-28",
+          "date_precision": "day",
+          "text": "North Korea fired two missiles, reportedly on irregular trajectories.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-09-29",
+          "date_latest": "2022-09-29",
+          "date_precision": "day",
+          "text": "North Korea fired at least one missile.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-10-01",
+          "date_latest": "2022-10-01",
+          "date_precision": "day",
+          "text": "North Korea fired ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-10-04",
+          "date_latest": "2022-10-04",
+          "date_precision": "day",
+          "text": "North Korea launched an IRBM that flew over and past Japan, landing in the Sea of Japan without incident."
+        },
+        {
+          "date": "2022-10-06",
+          "date_latest": "2022-10-06",
+          "date_precision": "day",
+          "text": "North Korea fired ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-10-09",
+          "date_latest": "2022-10-09",
+          "date_precision": "day",
+          "text": "North Korea fired two ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-10-12",
+          "date_latest": "2022-10-12",
+          "date_precision": "day",
+          "text": "North Korea fired two long-range cruise missiles, each of which travelled 2000 km, and were reported to have hit their targets."
+        },
+        {
+          "date": "2022-10-14",
+          "date_latest": "2022-10-14",
+          "date_precision": "day",
+          "text": "North Korea launched a short-range ballistic missile, towards its eastern waters.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-10-28",
+          "date_latest": "2022-10-28",
+          "date_precision": "day",
+          "text": "North Korea was reported to have launched a ballistic missile off its east coast.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-11-02",
+          "date_latest": "2022-11-02",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired 23 missiles of various types—the most in a single day—including a ballistic missile that landed in international waters 167 kilometers off Ulleung island, triggering air raid sirens there."
+        },
+        {
+          "date": "2022-11-03",
+          "date_latest": "2022-11-03",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired three ballistic missiles—one long-range and two short range—off its east coast, including one that flew near Japan."
+        },
+        {
+          "date": "2022-11-05",
+          "date_latest": "2022-11-05",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired four short-range ballistic missiles into the western sea. The South Korean military said that the missiles travelled around 130 km at an altitude of around 20 km."
+        },
+        {
+          "date": "2022-11-08",
+          "date_latest": "2022-11-08",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired at least one ballistic missile into the sea on Wednesday, and South Korea said it had identified debris from an earlier launch as part of a Soviet-era SA-5 surface-to-air missile."
+        },
+        {
+          "date": "2022-11-18",
+          "date_latest": "2022-11-18",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired at least one ballistic missile into the sea on Friday, believed to be the first successful full flight of its Hwasong-17. The missile landed in Japan's exclusive economic zone."
+        },
+        {
+          "date": "2022-12-18",
+          "date_latest": "2022-12-18",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired two medium-range ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-12-23",
+          "date_latest": "2022-12-23",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired two short-range ballistic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2022-12-31",
+          "date_latest": "2022-12-31",
+          "date_precision": "day",
+          "text": "North Korea reportedly fired three short-range ballistic missiles, flying approximately 350 km.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2023-02-18",
+          "date_latest": "2023-02-18",
+          "date_precision": "day",
+          "text": "North Korea fired a Hwasong-15 ICBM."
+        },
+        {
+          "date": "2023-02-20",
+          "date_latest": "2023-02-20",
+          "date_precision": "day",
+          "text": "North Korea launched two ballistic missiles."
+        },
+        {
+          "date": "2023-02-24",
+          "date_latest": "2023-02-24",
+          "date_precision": "day",
+          "text": "North Korea fired four Hwasal-2 strategic cruise missiles off the east coast of the Korean Peninsula.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2024-01-14",
+          "date_latest": "2024-01-14",
+          "date_precision": "day",
+          "text": "North Korea fired a ballistic missile, later determined to be an IRBM, possibly named Hwasong-16A."
+        },
+        {
+          "date": "2024-04-02",
+          "date_latest": "2024-04-02",
+          "date_precision": "day",
+          "text": "North Korea fired a ballistic missile, later determined to be Hwasong-16B.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2024-06-27",
+          "date_latest": "2024-06-27",
+          "date_precision": "day",
+          "text": "North Korea claims successful developmental test of multiple warhead-armed missile."
+        },
+        {
+          "date": "2024-09-18",
+          "date_latest": "2024-09-18",
+          "date_precision": "day",
+          "text": "North Korea fired multiple short-range ballistic missiles that traveled at distance of about 400 km."
+        },
+        {
+          "date": "2024-10-31",
+          "date_latest": "2024-10-31",
+          "date_precision": "day",
+          "text": "North Korea tested an intercontinental ballistic missile.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2025-01-06",
+          "date_latest": "2025-01-06",
+          "date_precision": "day",
+          "text": "North Korea launched Hwasong-16B hypersonic IRBM."
+        },
+        {
+          "date": "2025-03-10",
+          "date_latest": "2025-03-10",
+          "date_precision": "day",
+          "text": "North Korea fired missiles to Yellow Sea."
+        },
+        {
+          "date": "2025-05-07",
+          "date_latest": "2025-05-07",
+          "date_precision": "day",
+          "text": "North Korea fired short-range missiles that flew up to 800 km (497 miles).",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2025-10-22",
+          "date_latest": "2025-10-22",
+          "date_precision": "day",
+          "text": "North Korea fired two hypersonic missiles.",
+          "duplicate_of": "List of North Korean missile tests"
+        },
+        {
+          "date": "2026-04-19",
+          "date_latest": "2026-04-19",
+          "date_precision": "day",
+          "text": "North Korea fired five Hwasongpho-11 Ra surface-to-surface tactical ballistic missiles."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "North Korea and weapons of mass destruction",
+      "pageid": 106424,
+      "revid": 1370954486,
+      "revision_timestamp": "2026-08-23T22:29:07Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=106424",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2015-12-01",
+          "date_latest": "2015-12-31",
+          "date_precision": "month",
+          "text": "In December 2015, Kim Jong Un suggested that the country had the capacity to launch a hydrogen bomb, a device of considerably more power than conventional atomic bombs used in previous tests. The remark was met with skepticism from the White House and from South Korean officials."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

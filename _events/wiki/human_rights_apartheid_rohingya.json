@@ -1,0 +1,789 @@
+{
+  "topic": "human_rights_apartheid_rohingya",
+  "label": "Human rights: apartheid and the Rohingya",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 116,
+  "flagged_vote_language": 1,
+  "flagged_names_later_date": 2,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 6,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Apartheid",
+      "pageid": 2200527,
+      "revid": 1370538805,
+      "revision_timestamp": "2026-08-21T18:39:51Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=2200527",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1951-06-18",
+          "date_latest": "1951-06-18",
+          "date_precision": "day",
+          "text": "The previous government had introduced the Separate Representation of Voters Bill into Parliament in 1951, turning it into an Act on 18 June 1951; however, four voters, G Harris, W D Franklin, W D Collins and Edgar Deane, challenged its validity in court with support from the United Party."
+        },
+        {
+          "date": "1955-02-09",
+          "date_latest": "1955-02-09",
+          "date_precision": "day",
+          "text": "Despite a vigorous ANC protest campaign and worldwide publicity, the removal of Sophiatown began on 9 February 1955 under the Western Areas Removal Scheme."
+        },
+        {
+          "date": "1960-03-21",
+          "date_latest": "1960-03-21",
+          "date_precision": "day",
+          "text": "In 1959, a group of disenchanted ANC members formed the Pan Africanist Congress of Azania (PAC), which organised a demonstration against pass books on 21 March 1960."
+        },
+        {
+          "date": "1961-05-31",
+          "date_latest": "1961-05-31",
+          "date_precision": "day",
+          "text": "As a result, South Africa withdrew from the Commonwealth on 31 May 1961, the day that the Republic came into existence."
+        },
+        {
+          "date": "1961-12-16",
+          "date_latest": "1961-12-16",
+          "date_precision": "day",
+          "text": "Its first sabotage plans were carried out on 16 December 1961, the anniversary of the Battle of Blood River."
+        },
+        {
+          "date": "1966-09-06",
+          "date_latest": "1966-09-06",
+          "date_precision": "day",
+          "text": "On 6 September 1966, Verwoerd was fatally stabbed at Parliament House by parliamentary messenger Dimitri Tsafendas."
+        },
+        {
+          "date": "1977-08-18",
+          "date_latest": "1977-08-18",
+          "date_precision": "day",
+          "text": "The leader of the movement, Steve Biko, was taken into custody on 18 August 1977 and was beaten to death in detention."
+        },
+        {
+          "date": "1985-07-20",
+          "date_latest": "1985-07-20",
+          "date_precision": "day",
+          "text": "On 20 July 1985, Botha declared a State of Emergency in 36 magisterial districts."
+        },
+        {
+          "date": "1986-02-21",
+          "date_latest": "1986-02-21",
+          "date_precision": "day",
+          "text": "On 21 February 1986a week before he was assassinatedSweden's Prime Minister Olof Palme made the keynote address to the Swedish People's Parliament Against Apartheid held in Stockholm."
+        },
+        {
+          "date": "1986-06-12",
+          "date_latest": "1986-06-12",
+          "date_precision": "day",
+          "text": "On 12 June 1986, four days before the tenth anniversary of the Soweto uprising, the state of emergency was extended to cover the whole country."
+        },
+        {
+          "date": "1988-06-11",
+          "date_latest": "1988-06-11",
+          "date_precision": "day",
+          "text": "The U.K. government also declared the ANC a terrorist organisation. , Netherlands, 11 June 1988]] By the late-1980s, with no sign of a political resolution in South Africa, Western patience began to run out."
+        },
+        {
+          "date": "1990-02-02",
+          "date_latest": "1990-02-02",
+          "date_precision": "day",
+          "text": "The transition of de Klerk's ideology regarding apartheid is seen clearly in his opening address to parliament on 2 February 1990."
+        },
+        {
+          "date": "1990-02-11",
+          "date_latest": "1990-02-11",
+          "date_precision": "day",
+          "text": "On 11 February 1990, Nelson Mandela was released from Victor Verster Prison after more than 27 years behind bars."
+        },
+        {
+          "date": "1990-03-21",
+          "date_latest": "1990-03-21",
+          "date_precision": "day",
+          "text": "Having been instructed by the UN Security Council to end its long-standing involvement in South West Africa/Namibia, and in the face of military stalemate in Southern Angola, and an escalation in the size and cost of the combat with the Cubans, the Angolans, and SWAPO forces and the growing cost of the border war, South Africa negotiated a change of control; Namibia became independent on 21 March 1990."
+        },
+        {
+          "date": "1992-06-17",
+          "date_latest": "1992-06-17",
+          "date_precision": "day",
+          "text": "One of the worst cases of ANC-IFP violence was the Boipatong massacre of 17 June 1992, when 200 IFP militants attacked the Gauteng township of Boipatong, killing 45."
+        },
+        {
+          "date": "1992-07-03",
+          "date_latest": "1992-07-03",
+          "date_precision": "day",
+          "text": "On 3 July 1992, FIFA finally welcomed South Africa back into international football."
+        },
+        {
+          "date": "1992-09-07",
+          "date_latest": "1992-09-07",
+          "date_precision": "day",
+          "text": "The Bisho massacre on 7 September 1992 brought matters to a head."
+        },
+        {
+          "date": "1993-04-10",
+          "date_latest": "1993-04-10",
+          "date_precision": "day",
+          "text": "The assassination of Chris Hani on 10 April 1993 threatened to plunge the country into chaos."
+        },
+        {
+          "date": "1993-06-25",
+          "date_latest": "1993-06-25",
+          "date_precision": "day",
+          "text": "On 25 June 1993, the AWB used an armoured vehicle to crash through the doors of the Kempton Park World Trade Centre where talks were still going ahead under the Negotiating Council, though this did not derail the process."
+        },
+        {
+          "date": "1993-07-25",
+          "date_latest": "1993-07-25",
+          "date_precision": "day",
+          "text": "In the St James Church massacre on 25 July 1993, members of the APLA opened fire in a church in Cape Town, killing 11 members of the congregation and wounding 58."
+        },
+        {
+          "date": "1994-04-27",
+          "date_latest": "1994-04-27",
+          "date_precision": "day",
+          "text": "At midnight on 26–27 April 1994 the previous \"orange white blue\" flag adopted in 1928 was lowered, and the old (now co-official) national anthem Die Stem (\"The Call\") was sung, followed by the raising of the new Y-shaped flag and singing of the other co-official anthem, Nkosi Sikelel' iAfrika (\"God Bless Africa\")."
+        },
+        {
+          "date": "1994-04-27",
+          "date_latest": "1994-04-27",
+          "date_precision": "day",
+          "text": "adopted in 1994 to mark the end of Apartheid]] The election was held on 27 April 1994 and went off peacefully throughout the country as 20 million South Africans cast their votes.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1994-05-10",
+          "date_latest": "1994-05-10",
+          "date_precision": "day",
+          "text": "On 10 May 1994, Mandela was sworn in as the new President of South Africa."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Internal resistance to apartheid",
+      "pageid": 16001001,
+      "revid": 1371253430,
+      "revision_timestamp": "2026-08-25T13:12:10Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=16001001",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1953-08-15",
+          "date_latest": "1953-08-15",
+          "date_precision": "day",
+          "text": "On 15 August 1953, at the Cape ANC conference in Cradock, Professor Z."
+        },
+        {
+          "date": "1955-06-26",
+          "date_latest": "1955-06-26",
+          "date_precision": "day",
+          "text": "The Congress of the People was held 25–26 June 1955 in Kliptown, south of Johannesburg. 3,000 delegates gathered under police watch to revise and accept the Freedom Charter that had been endorsed by the ANC's National Executive on the eve of the Congress."
+        },
+        {
+          "date": "1956-12-05",
+          "date_latest": "1956-12-05",
+          "date_precision": "day",
+          "text": "On the morning of 5 December 1956, the police detained 156 Congress Alliance leaders: 104 African, 23 white, 21 Indian and eight Coloured people."
+        },
+        {
+          "date": "1960-03-21",
+          "date_latest": "1960-03-21",
+          "date_precision": "day",
+          "text": "Many PAC principals were taken into custody on 21 March 1960, and those released were hampered by bans."
+        },
+        {
+          "date": "1960-03-21",
+          "date_latest": "1960-03-21",
+          "date_precision": "day",
+          "text": "The PAC called for blacks to demonstrate against pass books on 21 March 1960.",
+          "duplicate_of": "Apartheid"
+        },
+        {
+          "date": "1961-12-16",
+          "date_latest": "1961-12-16",
+          "date_precision": "day",
+          "text": "On 16 December 1961, MK operatives bombed a number of public facilities in several major South African cities, namely Johannesburg, Cape Town, Port Elizabeth and Durban."
+        },
+        {
+          "date": "1964-07-24",
+          "date_latest": "1964-07-24",
+          "date_precision": "day",
+          "text": "On 24 July 1964, Frederick John Harris, an associate of ARM, planted a time bomb in the Johannesburg station."
+        },
+        {
+          "date": "1976-04-30",
+          "date_latest": "1976-04-30",
+          "date_precision": "day",
+          "text": "The resentment grew until 30 April 1976, when children at Orlando West Junior School in Soweto went on strike and refused to go to school."
+        },
+        {
+          "date": "1976-06-08",
+          "date_latest": "1976-06-08",
+          "date_precision": "day",
+          "text": "This form of protest spread quickly to other schools in Soweto and peaked around 8 June 1976."
+        },
+        {
+          "date": "1976-06-13",
+          "date_latest": "1976-06-13",
+          "date_precision": "day",
+          "text": "On 13 June 1976, nearly 400 SASM associates gathered to start a movement for mass action."
+        },
+        {
+          "date": "1976-06-16",
+          "date_latest": "1976-06-16",
+          "date_precision": "day",
+          "text": "Students formed an Action Committee (later known as the Soweto Students' Representative Council) and organised a mass rally for 16 June 1976."
+        },
+        {
+          "date": "1976-06-16",
+          "date_latest": "1976-06-16",
+          "date_precision": "day",
+          "text": "The protest was scheduled for 16 June 1976 and the organisers were determined to only use aggression if they were assaulted by the police."
+        },
+        {
+          "date": "1977-08-18",
+          "date_latest": "1977-08-18",
+          "date_precision": "day",
+          "text": "Biko was taken into custody on 18 August 1977 and brutally tortured by unidentified security personnel until he lapsed into a coma."
+        },
+        {
+          "date": "1980-03-11",
+          "date_latest": "1980-03-11",
+          "date_precision": "day",
+          "text": "APLA was destroyed by the Tanzanian military at Chunya on 11 March 1980 for refusing to accept the reformist-diplomatic leadership by Make."
+        },
+        {
+          "date": "1981-01-30",
+          "date_latest": "1981-01-30",
+          "date_precision": "day",
+          "text": "On 30 January 1981, ANC guerrillas launched a surprise attack on the SADF base in Matola, Mozambique, killing 16 SADF soldiers and wounding more than 40."
+        },
+        {
+          "date": "1982-12-08",
+          "date_latest": "1982-12-08",
+          "date_precision": "day",
+          "text": "On 8 December 1982, ANC guerrillas attacked the South African embassy in Maseru, Lesotho, killing three people and injuring several others and on 14 November 1987, the ANC targeted the Vlakplaas police station in Pretoria with a car bomb, killing three police officers and injuring 18 others.",
+          "names_later_date": true
+        },
+        {
+          "date": "1983-05-20",
+          "date_latest": "1983-05-20",
+          "date_precision": "day",
+          "text": "For example, On 20 May 1983, the ANC detonated a car bomb outside the South African Air Force headquarters in Pretoria, killing 19 people and injuring more than 200."
+        },
+        {
+          "date": "1988-02-29",
+          "date_latest": "1988-02-29",
+          "date_precision": "day",
+          "text": "On 29 February 1988 Tutu and some other church leaders were arrested during a protest in front of the parliamentary buildings in Cape Town."
+        },
+        {
+          "date": "1991-06-17",
+          "date_latest": "1991-06-17",
+          "date_precision": "day",
+          "text": "Further apartheid laws were abolished on 17 June 1991, and multiparty negotiations proceeded until the first multi-racial general election held in April 1994."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Persecution of Muslims in Myanmar",
+      "pageid": 10943601,
+      "revid": 1365126457,
+      "revision_timestamp": "2026-07-20T12:00:07Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=10943601",
+      "strategy": null,
+      "segments": [],
+      "needs_review": true,
+      "citation_rows_rejected": 1
+    },
+    {
+      "title": "Rohingya conflict",
+      "pageid": 37399133,
+      "revid": 1370728671,
+      "revision_timestamp": "2026-08-22T19:59:09Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=37399133",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1957-11-07",
+          "date_latest": "1957-11-07",
+          "date_precision": "day",
+          "text": "An additional 214 mujahideen under the leadership of al-Rashid disarmed and surrendered to government forces on 7 November 1957."
+        },
+        {
+          "date": "1961-05-01",
+          "date_latest": "1961-05-01",
+          "date_precision": "day",
+          "text": "The governments of Burma and Pakistan began negotiating on how to deal with the mujahideen at their border, and on 1 May 1961 the Mayu Frontier District was established in Arakan to appease the Rohingya."
+        },
+        {
+          "date": "1961-07-04",
+          "date_latest": "1961-07-04",
+          "date_precision": "day",
+          "text": "On 4 July 1961, 290 mujahideen in southern Maungdaw Township surrendered their arms in front of Brigadier-General Aung Gyi, who was Deputy Commander-in-Chief of the Burma Army at the time."
+        },
+        {
+          "date": "1961-11-15",
+          "date_latest": "1961-11-15",
+          "date_precision": "day",
+          "text": "On 15 November 1961, a few more mujahideen surrendered to Aung Gyi in Buthidaung."
+        },
+        {
+          "date": "1964-04-26",
+          "date_latest": "1964-04-26",
+          "date_precision": "day",
+          "text": "On 26 April 1964, the Rohingya Independence Front (RIF) was established with the goal of creating an autonomous Muslim zone for the Rohingya."
+        },
+        {
+          "date": "1972-07-15",
+          "date_latest": "1972-07-15",
+          "date_precision": "day",
+          "text": "Moulvi Jafar Kawal founded the Rohingya Liberation Party (RLP) on 15 July 1972, after mobilising various former mujahideen factions under his command."
+        },
+        {
+          "date": "1973-09-12",
+          "date_latest": "1973-09-12",
+          "date_precision": "day",
+          "text": "The name of the group was changed to the Rohingya Independence Army (RIA) in 1969 and then to the Rohingya Patriotic Front (RPF) on 12 September 1973."
+        },
+        {
+          "date": "1982-10-15",
+          "date_latest": "1982-10-15",
+          "date_precision": "day",
+          "text": "The Burmese Citizenship Law was introduced on 15 October 1982, and with the exception of the Kaman people, Muslims in the country were legally unrecognised and denied Burmese citizenship."
+        },
+        {
+          "date": "1994-04-28",
+          "date_latest": "1994-04-28",
+          "date_precision": "day",
+          "text": "On 28 April 1994, nine out of twelve bombs planted in different areas in Maungdaw by RSO insurgents exploded, damaging a fire engine and a few buildings, and seriously wounding four civilians."
+        },
+        {
+          "date": "2001-04-05",
+          "date_latest": "2001-04-05",
+          "date_precision": "day",
+          "text": "The Rohingya National Army (RNA), alongside the Arakan Army, attacked Myanmar Army positions on 5 April 2001, killing five soldiers and wounding a dozen others."
+        },
+        {
+          "date": "2016-10-09",
+          "date_latest": "2016-10-09",
+          "date_precision": "day",
+          "text": "A police document obtained by Reuters in March 2017 listed 423 Rohingyas detained by the police since 9 October 2016, 13 of whom were children, the youngest being ten years old."
+        },
+        {
+          "date": "2016-10-09",
+          "date_latest": "2016-10-09",
+          "date_precision": "day",
+          "text": "patrolling in Maungdaw in September 2017.]] On 9 October 2016, hundreds of unidentified insurgents attacked three Burmese border posts along Myanmar's border with Bangladesh."
+        },
+        {
+          "date": "2016-10-11",
+          "date_latest": "2016-10-11",
+          "date_precision": "day",
+          "text": "On 11 October 2016, four soldiers were killed on the third day of fighting."
+        },
+        {
+          "date": "2016-10-17",
+          "date_latest": "2016-10-17",
+          "date_precision": "day",
+          "text": "However, on 17 October 2016, a group calling itself Harakah al-Yaqin (later changed to the Arakan Rohingya Salvation Army or ARSA) claimed responsibility."
+        },
+        {
+          "date": "2016-11-15",
+          "date_latest": "2016-11-15",
+          "date_precision": "day",
+          "text": "The Myanmar Army announced on 15 November 2016 that 69 Rohingya insurgents and 17 security forces (10 policemen, 7 soldiers) had been killed in recent clashes in northern Rakhine State, bringing the death toll to 134 (102 insurgents and 32 security forces)."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "An estimated 655,000 to 700,000 Rohingya people reportedly fled to Bangladesh between 25 August 2017 and December 2017, to avoid ethnic and religious persecution by Myanmar's security forces in their \"clearance operations\" against insurgents, joining an additional 300,000 Rohingya refugees in Bangladesh who had arrived after fleeing earlier waves of communal violence."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "During the early hours of 25 August 2017, up to 150 insurgents launched coordinated attacks on 24 police posts and the 552nd Light Infantry Battalion army base in Rakhine State, leaving 71 dead (12 security personnel and 59 insurgents)."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "The report noted that prior to the attacks on 25 August 2017 and the military crackdown that ensued, the military pursued a strategy to: * have male Rohingyas between the ages of 15–40 years arrested and/or arbitrarily detained * have Rohingya political, cultural and religious figures arrested and/or arbitrarily detained * ensure that access to food, livelihoods and other means of conducting daily activities and life be taken away from Rohingya villagers * drive out Rohingya villagers en masse through repeated acts of humiliation and violence, such as [the] incitement of [sectarian] hatred, violence and killings * instill deep and widespread fear and trauma (physical, emotional and psychological) in Rohingyas, through acts of brutality; namely killings, disappearances, torture, and rape (and other forms of sexual violence)"
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "Violence erupted again in November 2016, bringing the 2016 death toll to 134, and again on 25 August 2017, when the Arakan Rohingya Salvation Army (formerly Harakah al-Yaqin) launched coordinated attacks on 24 police posts and an army base that left 71 dead."
+        },
+        {
+          "date": "2017-09-01",
+          "date_latest": "2017-09-01",
+          "date_precision": "day",
+          "text": "The Tatmadaw stated on 1 September 2017 that the death toll from fighting in the area had risen to 370 insurgents, 13 security personnel, two government officials and 14 civilians."
+        },
+        {
+          "date": "2017-09-09",
+          "date_latest": "2017-09-09",
+          "date_precision": "day",
+          "text": "A one-month unilateral ceasefire was declared by ARSA on 9 September 2017, in an attempt to allow aid groups and humanitarian workers safe access into northern Rakhine State."
+        },
+        {
+          "date": "2017-10-11",
+          "date_latest": "2017-10-11",
+          "date_precision": "day",
+          "text": "A subsequent military crackdown by Myanmar prompted the Office of the United Nations High Commissioner for Human Rights (OHCHR) to investigate the matter and release a report on 11 October 2017 detailing the Burmese military's \"systematic process\" of driving hundreds of thousands of Rohingyas from Myanmar \"through repeated acts of humiliation and violence\"."
+        },
+        {
+          "date": "2017-10-11",
+          "date_latest": "2017-10-11",
+          "date_precision": "day",
+          "text": "High Commissioner for Human Rights (OHCHR) released on 11 October 2017.",
+          "duplicate_of": "Rohingya conflict"
+        },
+        {
+          "date": "2017-10-11",
+          "date_latest": "2017-10-11",
+          "date_precision": "day",
+          "text": "On 11 October 2017, the Office of the U.N.",
+          "duplicate_of": "Rohingya conflict"
+        },
+        {
+          "date": "2018-05-22",
+          "date_latest": "2018-05-22",
+          "date_precision": "day",
+          "text": "On 22 May 2018, Amnesty International released a report claiming it had evidence that ARSA rounded up and killed as many as 99 Hindu civilians on 25 August 2017, the same day that ARSA launched a massive attack against Myanmar's security forces."
+        },
+        {
+          "date": "2018-07-31",
+          "date_latest": "2018-07-31",
+          "date_precision": "day",
+          "text": "The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) estimated on 31 July 2018 that 128,000 Rohingyas were internally displaced inside of Rakhine State."
+        },
+        {
+          "date": "2018-09-03",
+          "date_latest": "2018-09-03",
+          "date_precision": "day",
+          "text": "The Burmese military later apologised on 3 September 2018 for misusing the photos, saying in a statement, \"We sincerely apologize to the readers and the owners of the photographs for the mistake.\""
+        },
+        {
+          "date": "2018-10-03",
+          "date_latest": "2018-10-03",
+          "date_precision": "day",
+          "text": "Seven Rohingya refugees were deported from India on 3 October 2018, following a decision by the Supreme Court of India to reject a petition to halt their deportation."
+        },
+        {
+          "date": "2020-01-23",
+          "date_latest": "2020-01-23",
+          "date_precision": "day",
+          "text": "On 23 January 2020, in what has become known as the Rohingya genocide case, The Gambia (representing the Organisation of Islamic Cooperation) won a judgment against Myanmar at the International Court of Justice for provisional measure of protection because the respondent government was in default of its Genocide Convention obligations."
+        },
+        {
+          "date": "2025-04-27",
+          "date_latest": "2025-04-27",
+          "date_precision": "day",
+          "text": "On 27 April, 2025, Bangladesh's Jamaat-e-Islami proposed a Rohingya-majority state independent from Myanmar during a meeting with Chinese Communist Party officials."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Rohingya genocide",
+      "pageid": 53106125,
+      "revid": 1371040211,
+      "revision_timestamp": "2026-08-24T06:28:09Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=53106125",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2015-11-08",
+          "date_latest": "2015-11-08",
+          "date_precision": "day",
+          "text": "Democracy has only existed in Myanmar since 2011 when the country's military made an arrangement with the opposition, under which a free election was permitted to be held on 8 November 2015."
+        },
+        {
+          "date": "2016-03-17",
+          "date_latest": "2016-03-17",
+          "date_precision": "day",
+          "text": "Before the most recent outbreak of violence, in its 17 March 2016 Atrocities Prevention Report, the U.S."
+        },
+        {
+          "date": "2016-10-09",
+          "date_latest": "2016-10-09",
+          "date_precision": "day",
+          "text": "According to Myanmar state reports, on 9 October 2016, armed individuals attacked several border police posts in Rakhine State and left nine police personnel dead."
+        },
+        {
+          "date": "2016-10-09",
+          "date_latest": "2016-10-09",
+          "date_precision": "day",
+          "text": "In March 2017, a police document obtained by Reuters listed 423 Rohingyas detained by the police since 9 October 2016, 13 of whom were children, the youngest being ten years old.",
+          "duplicate_of": "Rohingya conflict"
+        },
+        {
+          "date": "2016-12-19",
+          "date_latest": "2016-12-19",
+          "date_precision": "day",
+          "text": "In a meeting with other ASEAN foreign ministers on 19 December 2016, Malaysian Foreign Minister Anifah Aman called for a collective effort to resolve the crisis."
+        },
+        {
+          "date": "2017-01-21",
+          "date_latest": "2017-01-21",
+          "date_precision": "day",
+          "text": "On 21 January 2017, the bodies of three Rohingya men were found in shallow graves in Maungdaw."
+        },
+        {
+          "date": "2017-02-03",
+          "date_latest": "2017-02-03",
+          "date_precision": "day",
+          "text": "On 3 February 2017, the Office of the United Nations High Commissioner for Human Rights (OHCHR) released a report based on interviews with more than 200 Rohingya refugees, which said that the abuses included gang-rape, mass killing, and killing children."
+        },
+        {
+          "date": "2017-04-26",
+          "date_latest": "2017-04-26",
+          "date_precision": "day",
+          "text": "A day before the 30th ASEAN Summit was held on 26 April 2017, Reuters reported on the Myanmar military operations on the Rohingya in November 2016."
+        },
+        {
+          "date": "2017-04-30",
+          "date_latest": "2017-04-30",
+          "date_precision": "day",
+          "text": "Various regions responded to the arrival of the refugees: * On 30 April 2017 Sri Lanka intercepted and detained an Indian boat of 32 Rohingya refugees off its northern coast after it entered Sri Lankan waters. * In May 2017, Bangladesh detained 12 Rohingya people and two smugglers who attempted to leave the country by boat for Malaysia. * In August 2017, Thailand announced that it was \"preparing to receive\" Rohingya refugees fleeing Myanmar. * On 14 August 2017 India announced that it was deporting an estimated 40,000 Rohingya refugees including 14,000 of those registered with the UN refugee agency as well.",
+          "names_later_date": true
+        },
+        {
+          "date": "2017-05-23",
+          "date_latest": "2017-05-23",
+          "date_precision": "day",
+          "text": "On 23 May 2017, the Myanmar military released a report rejecting the allegations made by the OHCHR in February, stating that \"[o]ut of 18 accusations included in the OHCHR report, 12 were found to be incorrect, with the remaining six accusations found to be false and fabricated accusations based on lies and invented statements.\" In December 2017, a coalition of 69 human rights non-governmental organisations appointed an Independent Fact-Finding Mission team, including Amnesty International and the Human Rights Watch, and called upon the UN Security Council to take \"immediate action\" in response to the humanitarian crisis by exploring \"all avenues for justice and accountability, including through international courts\"."
+        },
+        {
+          "date": "2017-07-04",
+          "date_latest": "2017-07-04",
+          "date_precision": "day",
+          "text": "On 4 July 2017, a mob of at least a hundred Rakhine Buddhists in Sittwe attacked seven Rohingya men from the Dapaing camp for internally displaced persons with bricks, killing one and severely injuring another."
+        },
+        {
+          "date": "2017-07-26",
+          "date_latest": "2017-07-26",
+          "date_precision": "day",
+          "text": "On 26 July 2017 a man was arrested in relation to the attacks."
+        },
+        {
+          "date": "2017-07-30",
+          "date_latest": "2017-07-30",
+          "date_precision": "day",
+          "text": "On 30 July 2017, packages of high energy biscuits gifted from the United Nations World Food Programme (WFP) as aid were discovered in a terrorist hideout in the Mayu mountain range in Maungdaw Township."
+        },
+        {
+          "date": "2017-07-31",
+          "date_latest": "2017-07-31",
+          "date_precision": "day",
+          "text": "On 31 July 2017, three decapitated bodies were found in Rathedaung Township."
+        },
+        {
+          "date": "2017-08-03",
+          "date_latest": "2017-08-03",
+          "date_precision": "day",
+          "text": "On 3 August 2017, six Mro farmers were found killed in Maungdaw Township, supposedly as the work of Muslim militants."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "In August 2018, a study estimated that more than 24,000 Rohingya people were killed by the Burmese military and local Buddhists since the \"clearance operations\" which had started on 25 August 2017."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "Independent International Fact-Finding Mission on Myanmar released a report stating that at least 392 Rohingya villages in Rakhine State had been razed to the ground since 25 August 2017."
+        },
+        {
+          "date": "2017-08-25",
+          "date_latest": "2017-08-25",
+          "date_precision": "day",
+          "text": "On 25 August 2017, the Myanmar government announced that 71 people (one soldier, one immigration officer, 10 policemen and 59 insurgents) had been killed overnight during coordinated attacks by up to 150 insurgents across 24 police posts and the 552nd Light Infantry Battalion army base in Rakhine State.",
+          "duplicate_of": "Rohingya conflict"
+        },
+        {
+          "date": "2017-09-02",
+          "date_latest": "2017-09-02",
+          "date_precision": "day",
+          "text": "In February 2018, Reuters reported a massacre event which occurred in Rakhine state's Inn Din village on 2 September 2017."
+        },
+        {
+          "date": "2017-09-07",
+          "date_latest": "2017-09-07",
+          "date_precision": "day",
+          "text": "On 7 September 2017, The Guardian reported a mass killing of Rohingyas at the Tula Toli village and called it the Tula Toli massacre."
+        },
+        {
+          "date": "2017-09-08",
+          "date_latest": "2017-09-08",
+          "date_precision": "day",
+          "text": "Protests were held on 8 September 2017 across Asia in Bangladesh, Indonesia, the Philippines, Malaysia, and Pakistan in solidarity of the Rohingya people."
+        },
+        {
+          "date": "2017-10-11",
+          "date_latest": "2017-10-11",
+          "date_precision": "day",
+          "text": "According to the Mission report of OHCHR (released on 11 October 2017 by the United Nations Office of the High Commissioner for Human Rights), the Burmese military began a \"systematic\" process of driving hundreds of thousands of Rohingya from Myanmar in early August 2017.",
+          "duplicate_of": "Rohingya conflict"
+        },
+        {
+          "date": "2017-12-05",
+          "date_latest": "2017-12-05",
+          "date_precision": "day",
+          "text": "On 5 December 2017, Ra'ad announced that the Rohingya persecution may constitute genocide under international human rights laws."
+        },
+        {
+          "date": "2017-12-12",
+          "date_latest": "2017-12-12",
+          "date_precision": "day",
+          "text": "Near Rangoon on 12 December 2017, two Reuters journalists who had been covering the refugee story were charged and imprisoned by the police for violating a 1923 colonial law related to secrecy."
+        },
+        {
+          "date": "2018-02-01",
+          "date_latest": "2018-02-01",
+          "date_precision": "day",
+          "text": "On 1 February 2018, a Myanmar court denied bail for the two Reuters journalists."
+        },
+        {
+          "date": "2018-09-12",
+          "date_latest": "2018-09-12",
+          "date_precision": "day",
+          "text": "On 12 September 2018, the OHCHR Independent Fact-Finding Mission on Myanmar issued its report to the United Nations Human Rights Council."
+        },
+        {
+          "date": "2018-10-24",
+          "date_latest": "2018-10-24",
+          "date_precision": "day",
+          "text": "On 24 October 2018, Marzuki Darusman, chairman of the Independent International Fact-Finding Mission on Myanmar, reported examples of atrocities committed by Myanmar security forces against Rohingya Muslims."
+        },
+        {
+          "date": "2018-11-13",
+          "date_latest": "2018-11-13",
+          "date_precision": "day",
+          "text": "On 13 November 2018, the plan to repatriate an initial 2,200 Rohingya was abandoned due to protests by Rohingya refugees."
+        },
+        {
+          "date": "2019-04-23",
+          "date_latest": "2019-04-23",
+          "date_precision": "day",
+          "text": "On 23 April 2019, a Burmese gunship strafed the Rohingya village of Buthidaung."
+        },
+        {
+          "date": "2019-05-07",
+          "date_latest": "2019-05-07",
+          "date_precision": "day",
+          "text": "The UN Secretary-General António Guterres expressed his concern and called for the release of the two journalists, who were released on 7 May 2019 along with over 6,000 other prisoners in a presidential pardon."
+        },
+        {
+          "date": "2019-06-07",
+          "date_latest": "2019-06-07",
+          "date_precision": "day",
+          "text": "Azeem Ibrahim, the author of The Rohingyas: Inside Myanmar's Hidden Genocide, noted \"Myanmar's interactions with ASEAN are perhaps indicative of its wider approach to international relations.\" As of 7 June 2019, ASEAN released a report stating optimism that half a million Rohingyas (referred to as \"Muslim\") will return to Myanmar in two years."
+        },
+        {
+          "date": "2019-11-11",
+          "date_latest": "2019-11-11",
+          "date_precision": "day",
+          "text": "On 11 November 2019, The Gambia, with the support of the 57 nations of the Organization for Islamic Cooperation, filed a lawsuit against Myanmar in the UN International Court of Justice on behalf of the Rohingya."
+        },
+        {
+          "date": "2019-11-13",
+          "date_latest": "2019-11-13",
+          "date_precision": "day",
+          "text": "Separately, on 13 November 2019, in Argentina, the Burmese Rohingya Organisation UK (BROUK) filed a federal case under \"universal jurisdiction\"—the legal basis that for certain grave crimes any state can prosecute regardless of where the crime was committed and who was involved—against Suu Kyi and other top military and civilian leaders."
+        },
+        {
+          "date": "2019-11-14",
+          "date_latest": "2019-11-14",
+          "date_precision": "day",
+          "text": "On 14 November 2019, the UN International Criminal Court authorised a full investigation into possible crimes against the Rohingya by senior military and civilian officials."
+        },
+        {
+          "date": "2019-12-12",
+          "date_latest": "2019-12-12",
+          "date_precision": "day",
+          "text": "Aung San Suu Kyi personally led a legal team at the International Court of Justice to defend Myanmar in the first public hearings for this case on 10–12 December 2019."
+        },
+        {
+          "date": "2020-01-23",
+          "date_latest": "2020-01-23",
+          "date_precision": "day",
+          "text": "On 23 January 2020, the International Court of Justice ordered Myanmar to prevent genocidal violence against its Rohingya minority and to preserve evidence of past attacks."
+        },
+        {
+          "date": "2024-03-08",
+          "date_latest": "2024-03-08",
+          "date_precision": "day",
+          "text": ", a Deputy Minister of Human Rights for the National Unity Government of Myanmar speaks with VOA about Rohingya conscription on March 8, 2024.]] Since 10 February 2024, the Tatmadaw reportedly conscripted young Rohingya men between the ages of 18 and 35, despite the law only applying to citizens."
+        },
+        {
+          "date": "2024-03-09",
+          "date_latest": "2024-03-09",
+          "date_precision": "day",
+          "text": "On 9 March 2024, a Myanmar Police Force artillery shell struck the Aung Mingalar district of Sittwe."
+        },
+        {
+          "date": "2024-08-05",
+          "date_latest": "2024-08-05",
+          "date_precision": "day",
+          "text": "On 5 August 2024, the Arakan Army attacked Rohingya civilians in Maungdaw Township, Rakhine State, killing 221."
+        },
+        {
+          "date": "2024-08-05",
+          "date_latest": "2024-08-05",
+          "date_precision": "day",
+          "text": "On August 5, 2024, the AA reportedly conducted drone and artillery attacks along the Naf River around Maungdaw District, resulting in over 200 Rohingya deaths."
+        },
+        {
+          "date": "2025-02-14",
+          "date_latest": "2025-02-14",
+          "date_precision": "day",
+          "text": "On 14 February 2025, the court issued arrest warrants against junta leader Min Aung Hlaing, former president Htin Kyaw, and former state counsellor Aung San Suu Kyi on charges of \"genocide and crimes against humanity\" against the Rohingyas."
+        },
+        {
+          "date": "2025-03-14",
+          "date_latest": "2025-03-14",
+          "date_precision": "day",
+          "text": "The deal arose after a diplomatic meeting on the matter between Aung San Suu Kyi and Abul Hassan Mahmud Ali, the foreign minister of Bangladesh. * In September 2024 around 8000 Rohingya fled to Bangladesh to escape violence western Rakhine state. * On March 14, 2025, United Nations Secretary General António Guterres and Bangladesh's Chief Adviser, Muhammad Yunus visited the Rohingya refugee camps in Cox's Bazar."
+        },
+        {
+          "date": "2025-08-03",
+          "date_latest": "2025-08-03",
+          "date_precision": "day",
+          "text": "On 3 August 2025, the Arakan Rohingya National Council published photos showing human remains from a massacre allegedly committed by AA against at least 600 Rohingya in Htan Shauk Khan village, Buthidaung Township, on 2 May 2024."
+        },
+        {
+          "date": "2026-05-14",
+          "date_latest": "2026-05-14",
+          "date_precision": "day",
+          "text": "On 14 May 2026, the Burmese Rohingya Organisation UK released a briefing alleging an increase in sexual violence against Rohingya women and girls by the Arakan Army in their controlled areas."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

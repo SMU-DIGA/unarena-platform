@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entry · UN Voting Corpus</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.backlink { font-size: 13.5px; color: var(--series-1); text-decoration: none; }
+.backlink:hover { text-decoration: underline; }
+.wherechips { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 0; }
+.wherechips span {
+  font-size: 12px; padding: 3px 10px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text-secondary);
+}
+.srclist { display: flex; flex-direction: column; gap: 2px; }
+.srcrow {
+  display: grid; grid-template-columns: 1fr auto auto; gap: 14px; align-items: baseline;
+  padding: 8px 2px; border-bottom: 1px solid var(--grid); font-size: 13.5px;
+}
+.srcrow:last-child { border-bottom: 0; }
+.srcrow a { color: var(--series-1); text-decoration: none; }
+.srcrow a:hover { text-decoration: underline; }
+.srcrow .n { font-size: 12.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.srcrow .rev { font-size: 11.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+
+.mrow {
+  display: grid; grid-template-columns: 96px 1fr auto; gap: 16px; align-items: start;
+  padding: 12px 10px; border-bottom: 1px solid var(--grid);
+  color: inherit; border-radius: 8px;
+}
+.mrow .when .d { font-size: 14px; font-weight: 620; font-variant-numeric: tabular-nums; }
+.mrow .when .b { font-size: 11.5px; color: var(--text-muted); }
+.mrow .mid { min-width: 0; }
+.mrow .ttl { font-size: 14px; font-weight: 560; margin-bottom: 3px; }
+.mrow .ag {
+  font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.mrow .meta { font-size: 11.5px; color: var(--text-muted); margin-top: 5px; display: flex; gap: 12px; flex-wrap: wrap; }
+.mrow .side { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; }
+.pill {
+  font-size: 11px; padding: 2px 9px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap;
+}
+.pill.sc { color: var(--series-1); border-color: color-mix(in srgb, var(--series-1) 45%, transparent); }
+.pill.ga { color: var(--series-2); border-color: color-mix(in srgb, var(--series-2) 45%, transparent); }
+.pill.title { color: var(--series-4); border-color: color-mix(in srgb, var(--series-4) 50%, transparent); }
+.pager { display: flex; gap: 8px; align-items: center; justify-content: center; padding: 18px 0 2px; }
+.pager button {
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  border-radius: 8px; padding: 7px 13px; font-size: 13.5px; font-family: var(--font); cursor: pointer;
+}
+.pager button:disabled { opacity: .4; cursor: default; }
+.pager .pos { font-size: 13px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.matbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.matbar input {
+  font-family: var(--font); font-size: 13.5px; padding: 8px 11px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  min-width: 240px; flex: 1;
+}
+.matbar .n { font-size: 13px; color: var(--text-muted); }
+mark { background: color-mix(in srgb, var(--series-4) 45%, transparent); color: inherit; border-radius: 2px; }
+.lowconf { color: var(--warning); }
+</style>
+</head>
+<body>
+<main>
+  <p style="margin:0 0 18px">
+    <a class="backlink" href="entries.html">← All entries</a> &nbsp;·&nbsp;
+    <a class="backlink" href="geo.html">Map</a>
+  </p>
+  <div id="content"><p class="note">Loading…</p></div>
+</main>
+
+<script src="assets/echarts.min.js"></script>
+<script src="data/topics.js"></script>
+<script src="data/topic_meetings.js"></script>
+<script src="data/topic_images.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const ID = new URLSearchParams(location.search).get('id');
+const T = (window.TOPICS.topics || []).find((t) => t.id === ID);
+const MEETINGS = (window.TOPIC_MEETINGS || {})[ID] || [];
+const LABELS = Object.fromEntries(window.TOPICS.topics.map((t) => [t.id, t.label]));
+
+function render() {
+  const key = `topic:${T.id}`;
+  const where = T.countries.length
+    ? T.countries.map((c) => `<span>${esc(c)}</span>`).join('')
+    : '<span>no single country — this entry is global</span>';
+  const mat = T.material;
+
+  document.getElementById('content').innerHTML = `
+    <div style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px">
+      Topic entry
+    </div>
+
+    <div class="ehero" style="margin-bottom:26px">
+      <div>
+        <h1 style="margin-bottom:10px">${esc(T.label)}</h1>
+        <p class="lede" style="margin-bottom:14px">${esc(T.blurb)}</p>
+        ${T.note ? `<div class="callout" style="margin:0 0 12px">${T.note}</div>` : ''}
+        <div class="wherechips">${where}</div>
+      </div>
+      <div>
+        <div class="pic">${pictureFor(key, { title: T.label, years: T.years, id: T.id, kicker: 'entry' })}</div>
+        ${creditFor(key, 'Drawn from this entry’s own record: meetings per year in the corpus.')}
+      </div>
+    </div>
+
+    <div class="tiles">
+      <div class="tile"><div class="k">Meetings carrying this entry</div><div class="v">${fmt(T.total)}</div>
+        <div class="s">Council ${fmt(T.sc)} · Assembly ${fmt(T.ga)}</div></div>
+      <div class="tile"><div class="k">First and last</div><div class="v" style="font-size:21px">${T.first} → ${T.last}</div>
+        <div class="s">by meeting date, not by when the events happened</div></div>
+      <div class="tile"><div class="k">Dated passages behind it</div><div class="v">${fmt(mat.segments)}</div>
+        <div class="s">${fmt(mat.prose)} pulled from prose rather than a dated timeline</div></div>
+      <div class="tile"><div class="k">Median description</div><div class="v">${fmt(T.chars.median)}</div>
+        <div class="s">characters per meeting; longest ${fmt(T.chars.max)}</div></div>
+      <div class="tile"><div class="k">Matched on</div><div class="v" style="font-size:21px">${fmt(T.basis.agenda)} / ${fmt(T.basis.resolution_title)}</div>
+        <div class="s">the meeting’s agenda / a resolution title</div></div>
+    </div>
+
+    <div class="card">
+      <header>
+        <h2>When this question was in front of the two bodies</h2>
+        <p>Meetings per year that carry this entry. This is a reading of the corpus, not of the
+          conflict: a year with no bar is a year in which neither body recorded a vote on it —
+          or, before 1993, a year the Assembly corpus may simply be missing.</p>
+      </header>
+      <div id="years" class="chart short"></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <header>
+          <h2>Where the text comes from</h2>
+          <p>Every passage is quoted from English Wikipedia. Each article is recorded with the
+            exact revision it was taken from, so any sentence on this site can be traced back.</p>
+        </header>
+        <div class="srclist">
+          ${T.articles.map((a) => `
+            <div class="srcrow">
+              <div>
+                ${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>`
+                        : esc(a.title)}
+                ${a.low_confidence ? '<span class="badge warning" style="margin-left:6px">sentence-extracted</span>' : ''}
+              </div>
+              <div class="n">${fmt(a.segments)} passages</div>
+              <div class="rev">rev ${a.revid ?? '—'}</div>
+            </div>`).join('')}
+        </div>
+        <p class="note">
+          Text is available under
+          <a href="${esc(T.licence_url)}" target="_blank" rel="noopener">${esc(T.licence)}</a>.
+          Reuse requires attribution to the articles above and share-alike.
+        </p>
+      </div>
+
+      <div class="card">
+        <header><h2>How a meeting gets this entry</h2></header>
+        <p style="font-size:13.5px;color:var(--text-secondary);margin:0 0 12px">
+          Two things can attach an entry to a meeting, and they are not equally strong, so the
+          corpus records which one it was:
+        </p>
+        <div style="font-size:13.5px;color:var(--text-secondary);line-height:1.7">
+          <div style="margin-bottom:9px">
+            <b style="color:var(--text-primary)">${fmt(T.basis.agenda)} on the agenda</b> — the
+            label the UN itself gave the meeting names this subject.
+          </div>
+          <div style="margin-bottom:9px">
+            <b style="color:var(--text-primary)">${fmt(T.basis.resolution_title)} on a resolution
+            heading</b> — the agenda was generic or empty, but the opening of a resolution
+            adopted that day names the subject. Weaker, and marked as such on every row below.
+          </div>
+          <div>
+            Resolution <em>text</em> is deliberately not used: matching anywhere in the body
+            would add a third again as many meetings on the strength of passing mentions, and
+            that precision cannot be demonstrated. One caveat on the heading rule — Council
+            resolutions as printed often carry no subject line at all, going straight from
+            <em>Resolution 186 (1964)</em> to <em>The Security Council,</em>. For about a third
+            of the Council rows matched this way the words that matched therefore sit in the
+            first lines of the preamble rather than in a title.
+          </div>
+        </div>
+        <div class="callout" style="margin-bottom:0">
+          <strong>The description stops at the meeting's own date.</strong>
+          Each meeting carries only what had happened before it sat, so a 1967 record cannot
+          contain 1973. Votes and delegation positions are held out of the description on
+          purpose — those live in the vote records and the speeches, which is what the corpus
+          is for.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <h2>The ${fmt(MEETINGS.length)} meetings</h2>
+        <p>Every Council and Assembly meeting this entry covers, with its date, agenda and
+          resolutions.</p>
+      </header>
+      <div class="controls" style="margin-bottom:10px">
+        <div class="seg" id="bodyseg">
+          <button aria-pressed="true" data-b="">Both bodies</button>
+          <button aria-pressed="false" data-b="SC">Council ${fmt(T.sc)}</button>
+          <button aria-pressed="false" data-b="GA">Assembly ${fmt(T.ga)}</button>
+        </div>
+        <div class="seg" id="basisseg">
+          <button aria-pressed="true" data-m="">Any match</button>
+          <button aria-pressed="false" data-m="agenda">Agenda only</button>
+        </div>
+      </div>
+      <div id="mrows"></div>
+      <div class="pager" id="pager"></div>
+    </div>
+
+    <div class="card">
+      <header>
+        <h2>The entry itself</h2>
+        <p>All ${fmt(mat.segments)} dated passages behind this entry, in order. What any single
+          meeting received is this list truncated at that meeting's date — open a meeting above to
+          see its own slice.</p>
+      </header>
+      <div id="material"><p class="note">Loading the source material…</p></div>
+    </div>`;
+
+  drawYears();
+  wireMeetings();
+  loadMaterial();
+}
+
+/* ------------------------------------------------------------- year chart */
+function drawYears() {
+  const lo = 1946, hi = 2025;
+  const years = [];
+  for (let y = lo; y <= hi; y++) years.push(y);
+  const map = Object.fromEntries(T.years);
+  const byBody = { SC: {}, GA: {} };
+  MEETINGS.forEach((m) => { byBody[m.b][m.y] = (byBody[m.b][m.y] || 0) + 1; });
+
+  mountChart(document.getElementById('years'), (c, base, ax) => ({
+    ...base,
+    grid: { left: 46, right: 18, top: 26, bottom: 30, containLabel: true },
+    legend: { ...base.legend, top: 0, right: 0,
+      data: ['Security Council', 'General Assembly'] },
+    tooltip: { ...base.tooltip, trigger: 'axis',
+      formatter: (ps) => {
+        const y = ps[0].axisValue;
+        const tot = map[y] || 0;
+        return `<b>${y}</b><br>` + ps.filter((p) => p.value)
+          .map((p) => `<span style="color:${p.color}">■</span> ${p.seriesName} <b>${p.value}</b>`)
+          .join('<br>') + (tot ? '' : '<span style="color:var(--text-muted)">no meeting</span>');
+      } },
+    xAxis: { type: 'category', data: years.map(String), ...ax, splitLine: { show: false },
+      axisLabel: { ...ax.axisLabel, interval: 9 } },
+    yAxis: { type: 'value', name: 'meetings', ...ax, minInterval: 1 },
+    series: [
+      { name: 'Security Council', type: 'bar', stack: 'a',
+        data: years.map((y) => byBody.SC[y] || 0),
+        itemStyle: { color: c.series[0] } },
+      { name: 'General Assembly', type: 'bar', stack: 'a',
+        data: years.map((y) => byBody.GA[y] || 0),
+        itemStyle: { color: c.series[1] } },
+    ],
+  }));
+}
+
+/* -------------------------------------------------------- meeting list -- */
+let mBody = '', mBasis = '', mPage = 0;
+const PER = 40;
+
+function wireMeetings() {
+  document.getElementById('bodyseg').onclick = (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    mBody = b.dataset.b; mPage = 0;
+    [...e.currentTarget.children].forEach((x) => x.setAttribute('aria-pressed', x === b));
+    drawMeetings();
+  };
+  document.getElementById('basisseg').onclick = (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    mBasis = b.dataset.m; mPage = 0;
+    [...e.currentTarget.children].forEach((x) => x.setAttribute('aria-pressed', x === b));
+    drawMeetings();
+  };
+  drawMeetings();
+}
+
+function drawMeetings() {
+  const view = MEETINGS.filter((m) => (!mBody || m.b === mBody)
+    && (!mBasis || m.mb === mBasis));
+  const start = mPage * PER;
+  const slice = view.slice(start, start + PER);
+
+  document.getElementById('mrows').innerHTML = slice.map((m) => {
+    const co = m.co.map((t) =>
+      `<a class="pill" href="entry.html?id=${encodeURIComponent(t)}">also ${esc(LABELS[t] || t)}</a>`).join('');
+    return `<div class="mrow">
+      <div class="when">
+        <div class="d">${esc(m.d || '—')}</div>
+        <div class="b">${m.b === 'SC' ? 'Council' : 'Assembly'} ${esc(String(m.n))}</div>
+      </div>
+      <div class="mid">
+        <div class="ttl">${m.b === 'SC' ? 'Meeting' : 'Plenary'} ${esc(String(m.n))}</div>
+        <div class="ag">${m.a ? esc(m.a) : '<span style="color:var(--text-muted)">(no agenda recorded)</span>'}</div>
+        <div class="meta">
+          ${m.ns ? `<span>${m.ns} speeches</span>` : ''}
+          ${m.res.length ? `<span>${esc(m.res.slice(0, 3).join(', '))}${m.res.length > 3 ? ` +${m.res.length - 3}` : ''}</span>` : ''}
+          <span>${fmt(m.dl)} chars of description</span>
+        </div>
+      </div>
+      <div class="side">
+        <span class="pill ${m.b.toLowerCase()}">${m.b === 'SC' ? 'Council' : 'Assembly'}</span>
+        ${m.mb === 'resolution_title' ? '<span class="pill title">via resolution title</span>' : ''}
+        ${co}
+      </div>
+    </div>`;
+  }).join('') || '<p class="note">No meeting matches that filter.</p>';
+
+  const pages = Math.max(1, Math.ceil(view.length / PER));
+  document.getElementById('pager').innerHTML = view.length > PER ? `
+    <button id="prev" ${mPage === 0 ? 'disabled' : ''}>← Previous</button>
+    <span class="pos">${start + 1}–${Math.min(start + PER, view.length)} of ${fmt(view.length)}</span>
+    <button id="next" ${mPage >= pages - 1 ? 'disabled' : ''}>Next →</button>` : '';
+  if (view.length > PER) {
+    document.getElementById('prev').onclick = () => { mPage--; drawMeetings(); };
+    document.getElementById('next').onclick = () => { mPage++; drawMeetings(); };
+  }
+}
+
+/* ----------------------------------------------------------- material --- */
+function loadMaterial() {
+  const host = document.getElementById('material');
+  if (!SERVED) { host.innerHTML = needsServerNotice(); return; }
+  fetch(`../_events/wiki/${encodeURIComponent(T.id)}.json`)
+    .then((r) => { if (!r.ok) throw new Error(`${r.status} ${r.statusText}`); return r.json(); })
+    .then(drawMaterial)
+    .catch((err) => {
+      host.innerHTML = `<div class="callout critical">
+        <strong>Could not load the source material.</strong>
+        <div style="margin-top:6px">${esc(err.message)} — tried
+        <code>/_events/wiki/${esc(T.id)}.json</code>. The counts above come from the
+        index and are unaffected.</div></div>`;
+    });
+}
+
+function drawMaterial(w) {
+  const segs = [];
+  (w.articles || []).forEach((a) => {
+    (a.segments || []).forEach((s) => segs.push({ ...s, art: a.title, low: !!a.low_confidence }));
+  });
+  segs.sort((x, y) => (x.date || '').localeCompare(y.date || ''));
+
+  const host = document.getElementById('material');
+  host.innerHTML = `
+    <div class="matbar">
+      <input type="text" id="mq" placeholder="Search these ${fmt(segs.length)} passages…">
+      <span class="n" id="mn"></span>
+    </div>
+    <div class="datelines" id="dlines"></div>
+    <p class="note">
+      A passage dated to a month or a year alone is sliced on the last day it could have
+      happened, never the first — otherwise a meeting in March could be handed something from
+      the following December. Passages that name a vote, or that mention a date later than
+      their own, are withheld from the descriptions entirely; they are shown here, in the
+      material, because this page is the audit trail.
+    </p>`;
+
+  const q = document.getElementById('mq');
+  const n = document.getElementById('mn');
+  const box = document.getElementById('dlines');
+
+  function draw() {
+    const term = q.value.trim();
+    const tl = term.toLowerCase();
+    const shown = tl ? segs.filter((s) => (s.text || '').toLowerCase().includes(tl)
+      || (s.date || '').includes(tl)) : segs;
+    n.textContent = shown.length === segs.length
+      ? `${fmt(segs.length)} passages`
+      : `${fmt(shown.length)} of ${fmt(segs.length)}`;
+    const mark = (t) => {
+      const safe = esc(t);
+      if (!term) return safe;
+      return safe.replace(new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
+    };
+    box.innerHTML = shown.slice(0, 1500).map((s) => `
+      <div class="dline">
+        <div class="d">${esc(s.date)}
+          ${s.date_precision && s.date_precision !== 'day'
+            ? `<span class="p">${esc(s.date_precision)} precision</span>` : ''}
+          ${s.mentions_vote ? '<span class="p lowconf">vote — withheld</span>' : ''}
+          ${s.names_later_date ? '<span class="p lowconf">later date — withheld</span>' : ''}
+        </div>
+        <div class="t">${mark(s.text || '')}</div>
+      </div>`).join('')
+      + (shown.length > 1500
+        ? `<div class="dline sec">first 1,500 of ${fmt(shown.length)} shown — narrow the search to see the rest</div>`
+        : '');
+  }
+  q.addEventListener('input', draw);
+  draw();
+}
+
+/* Bootstrap goes last on purpose: render() reaches the paging state below via
+   drawMeetings(), and `let`/`const` at script scope are unreachable until
+   their own declaration has run. Calling render() from the top of the file
+   throws before a single meeting row is written. */
+if (!T) {
+  document.getElementById('content').innerHTML =
+    `<div class="callout critical"><strong>No such entry.</strong>
+     <div style="margin-top:6px">Nothing is registered under
+     <code>${esc(ID || '(nothing)')}</code>. See <a href="entries.html">all entries</a>.</div></div>`;
+} else {
+  document.title = `${T.label} · UN Voting Corpus`;
+  render();
+}
+</script>
+</body>
+</html>

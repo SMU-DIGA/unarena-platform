@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entries &amp; map · UN Voting Corpus 1946–2025</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+/* ---- page opening, in the same key as the landing page ------------------- */
+.phero { padding: 6px 0 30px; position: relative; }
+.phero .kicker {
+  font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--text-muted); margin-bottom: 16px;
+}
+.phero h1 { font-size: clamp(31px, 4.2vw, 50px); line-height: 1.1; letter-spacing: -.025em;
+  margin: 0 0 16px; max-width: 24ch; }
+.phero h1 em {
+  font-style: normal;
+  background: linear-gradient(100deg, var(--seq-400), var(--series-3) 92%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.phero p.lede { font-size: 16px; max-width: 66ch; margin-bottom: 26px; }
+
+.pnums { display: flex; flex-wrap: wrap; gap: 38px; }
+.pnums .n { font-size: 30px; font-weight: 660; letter-spacing: -.028em; line-height: 1.05;
+  font-variant-numeric: tabular-nums; }
+.pnums .l { font-size: 12.5px; color: var(--text-muted); max-width: 20ch; margin-top: 4px; }
+
+/* ---- the map plate -------------------------------------------------------
+   The map is the page, so it gets a plate of its own rather than sitting in
+   the same card as everything else: a recessed panel, one tone below the
+   surface, with the description above it and the reading rules below. */
+.plate {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 16px; padding: 22px 24px 20px; margin-bottom: 22px;
+}
+.plate > header { margin-bottom: 16px; display: grid; grid-template-columns: 1fr auto;
+  gap: 20px; align-items: start; }
+.plate > header h2 { font-size: 21px; letter-spacing: -.01em; margin: 0 0 6px; }
+.plate > header p { margin: 0; color: var(--text-secondary); font-size: 13.5px; max-width: 78ch; }
+.plate .inset {
+  background: var(--plane); border: 1px solid var(--border); border-radius: 12px;
+  padding: 6px 4px 2px; overflow: hidden;
+}
+.plate .chart { height: 600px; }
+.hint { font-size: 12.5px; color: var(--text-muted); margin: 12px 0 0; }
+.hint b { color: var(--text-secondary); font-weight: 560; }
+
+/* A compact reading of the scale, next to the title rather than under the map. */
+.scalekey { text-align: right; font-size: 11.5px; color: var(--text-muted); white-space: nowrap; }
+.scalekey .ramp {
+  display: block; height: 8px; border-radius: 4px; margin: 6px 0 5px;
+  background: linear-gradient(90deg, var(--seq-100), var(--seq-250), var(--seq-400),
+              var(--seq-550), var(--seq-700));
+}
+.scalekey .ends { display: flex; justify-content: space-between; gap: 10px;
+  font-variant-numeric: tabular-nums; }
+
+/* ---- the country a click selects ---------------------------------------- */
+.selpanel {
+  margin-top: 20px; padding: 18px 20px; border-radius: 13px;
+  background: color-mix(in srgb, var(--series-3) 7%, var(--surface-1));
+  border: 1px solid color-mix(in srgb, var(--series-3) 32%, transparent);
+}
+.selpanel .hd { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 15px; }
+.selpanel .hd h3 { font-size: 23px; margin: 0; letter-spacing: -.015em; }
+.selpanel .hd .n { font-size: 13px; color: var(--text-secondary); }
+.selpanel .hd button { margin-left: auto; }
+
+/* ---- hover card: each entry's share of the country's meetings ------------ */
+.maphover .row { position: relative; }
+.maphover .bar {
+  position: absolute; left: 0; bottom: 1px; height: 2px; border-radius: 2px;
+  background: var(--seq-400); opacity: .55;
+}
+
+/* ---- the labelled rule between the two halves --------------------------- */
+.secdiv {
+  display: flex; align-items: center; gap: 16px; margin: 46px 0 26px;
+  font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted);
+}
+.secdiv::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+/* ---- table ---------------------------------------------------------------- */
+.tablebar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.tablebar input {
+  font-family: var(--font); font-size: 13.5px; padding: 8px 11px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  min-width: 220px;
+}
+.tablebar .n { font-size: 12.5px; color: var(--text-muted); margin-left: auto; }
+table#full td:first-child { font-weight: 540; }
+
+@media (max-width: 760px) {
+  .plate { padding: 18px 15px 16px; }
+  .plate > header { grid-template-columns: 1fr; }
+  .scalekey { text-align: left; }
+  .plate .chart { height: 420px; }
+  .pnums { gap: 22px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <section class="phero">
+    <div class="kicker" id="kicker"></div>
+    <h1>Which question is each country <em>the subject of</em>?</h1>
+    <p class="lede">
+      Two maps of the same corpus. The first asks what a country was <em>discussed as</em>; the
+      second asks <em>who was in the room</em>. Hover anything shaded on the first map to see the
+      entries it carries, and click through to one.
+    </p>
+    <div class="pnums" id="pnums"></div>
+  </section>
+
+  <div class="plate">
+    <header>
+      <div>
+        <h2>Topic entries on the map</h2>
+        <p>Shading is the number of meetings the corpus holds on that country's questions —
+          Council and Assembly together. A country is shaded because an entry is <em>about</em>
+          it, a curated judgement recorded in <code>build_topics.py</code>, not a count of times
+          its name appears in a vote record.</p>
+      </div>
+      <div class="scalekey">
+        meetings per country
+        <span class="ramp"></span>
+        <span class="ends"><span>0</span><span id="emax"></span></span>
+      </div>
+    </header>
+    <div class="inset"><div id="emap" class="chart"></div></div>
+    <p class="hint" id="ehint"><b>Hover</b> a shaded country for its entries · <b>click</b> to open
+      one · <b>drag</b> and <b>scroll</b> to move around the map</p>
+    <div class="selpanel" id="selpanel" style="display:none"></div>
+  </div>
+
+  <div class="card">
+    <header>
+      <h2>Entries with no country</h2>
+      <p id="globals-desc">Some entries are about a regime or an institution rather than a place, so
+        they appear on no polygon.</p>
+    </header>
+    <div class="entrygrid" id="globals"></div>
+  </div>
+
+  <div class="secdiv">The other question</div>
+
+  <h2 style="margin:0 0 8px;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em">Who was in the room</h2>
+  <p class="lede">
+    Who sat at the table, who was invited into the chamber, and who voted against. Switch the
+    metric to redraw the map; the table at the foot of the page ranks every state on all of them
+    at once.
+  </p>
+
+  <div class="callout critical">
+    <strong>This second half of the page is essentially about the Security Council.</strong>
+    The Assembly JSON records only the <strong>presiding country</strong> for each meeting — no
+    member or invited lists — and holds just 929 country-level vote records. The map and the table
+    are therefore built almost entirely from Council data (<span id="sc-member"></span> member appearances,
+    <span id="sc-invited"></span> invitations, <span id="sc-pres"></span> presidencies). Reading this page as a portrait of the Assembly would be wrong.
+  </div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="plate">
+    <header>
+      <div>
+        <h2 id="map-title"></h2>
+        <p id="map-desc"></p>
+      </div>
+      <div class="scalekey">
+        <span id="metric-unit"></span>
+        <span class="ramp"></span>
+        <span class="ends"><span>0</span><span id="mmax"></span></span>
+      </div>
+    </header>
+    <div class="controls" style="margin-bottom:14px"><div class="seg" id="metric-seg"></div></div>
+    <div class="inset"><div id="map" class="chart"></div></div>
+    <p class="note">
+      Shading is a continuous magnitude on a single-hue ramp, light to dark. Grey means no record
+      under that metric. Historical entities — the USSR, Yugoslavia, Zaire — keep their own
+      identity in the table but borrow their successor's polygon to appear on the map at all;
+      that is a compromise for drawing, not a claim that the two are the same. Six states
+      (Maldives, Monaco, San Marino, Saint Kitts and Nevis, Nauru, Marshall Islands) have no
+      polygon in the basemap, so they appear in the table but cannot be shaded.
+    </p>
+  </div>
+
+  <div class="card">
+    <header>
+      <h2>Every state and entity</h2>
+      <p>All <span id="ncount"></span> of them, on every metric at once. Click a column to sort;
+        <em>Discussed as</em> links to the entries that country carries. That column is a join
+        through the basemap polygon, so historical entities borrowing a successor's polygon —
+        the USSR, Zaire — are left blank rather than credited with a question that postdates
+        them.</p>
+    </header>
+    <div class="tablebar">
+      <input type="text" id="tq" placeholder="Find a state…">
+      <span class="n" id="tn"></span>
+    </div>
+    <div class="tablewrap" style="max-height:560px"><table id="full"></table></div>
+    <p class="note">
+      The corpus contains 439 distinct country strings, 209 of which occur three times or fewer
+      and are mostly OCR noise (<code>Aus t r a l i a</code>, <code>Fran~e</code>). After
+      normalisation <span id="res-pct"></span> of country records resolve; the remaining <span id="unres"></span>
+      are unresolvable or are not states at all (the PLO, the Secretary-General) and are excluded.
+    </p>
+  </div>
+</main>
+
+<script src="assets/echarts.min.js"></script>
+<script src="assets/world.geo.js"></script>
+<script src="data/geo.js"></script>
+<script src="data/topics.js"></script>
+<script src="data/topic_images.js"></script>
+<script src="assets/common.js"></script>
+<script>
+echarts.registerMap('world', window.WORLD_GEOJSON);
+const G = window.GEO;
+const C = G.countries;
+
+/* ================================================== entries on the map ===
+   A country is shaded by the meetings its entries cover. One polygon can
+   carry several entries (Iraq carries both the Gulf War and the Iraq War),
+   and several polygons can carry one (the breakup of Yugoslavia covers six),
+   so the hover card lists them rather than showing a single number. */
+const TP = window.TOPICS;
+{
+  const g = TP.topics.filter((t) => t.global);
+  const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six'];
+  const big = Math.max(0, ...g.map((t) => t.total));
+  document.getElementById('globals-desc').textContent =
+    `${words[g.length] || g.length} entr${g.length === 1 ? 'y is' : 'ies are'} about a regime or an institution rather than a place, so `
+    + `${g.length === 1 ? 'it appears' : 'they appear'} on no polygon.`
+    + (big ? ` They are not smaller for it — one of them carries ${fmt(big)} meetings.` : '');
+}
+const BY_ID = Object.fromEntries(TP.topics.map((t) => [t.id, t]));
+const BY_COUNTRY = Object.fromEntries(TP.countries.map((c) => [c.name, c]));
+const EMAX = Math.max(...TP.countries.map((x) => x.total));
+
+document.getElementById('kicker').textContent =
+  `${TP.totals.topics} entries · ${TP.totals.polygons} countries · ${fmt(TP.totals.meetings)} meetings`;
+document.getElementById('emax').textContent = fmt(EMAX);
+document.getElementById('pnums').innerHTML = [
+  [fmt(TP.totals.polygons), 'countries carry at least one entry'],
+  [fmt(TP.totals.meetings), 'meetings the entries cover between them'],
+  [String(TP.totals.topics - TP.topics.filter((t) => t.global).length), 'entries tied to a place'],
+  [String(TP.topics.filter((t) => t.global).length), 'about a regime or an institution instead'],
+].map(([n, l]) => `<div><div class="n">${n}</div><div class="l">${esc(l)}</div></div>`).join('');
+
+mountChart(document.getElementById('emap'), (c, base, ax) => {
+  const max = EMAX;
+  return {
+    ...base,
+    tooltip: {
+      ...base.tooltip, trigger: 'item', enterable: false,
+      formatter: (p) => {
+        const rec = BY_COUNTRY[p.name];
+        if (!rec) {
+          return `<div class="maphover"><div class="h">${esc(p.name)}</div>
+            <div class="foot">No entry is about this country. It may still appear
+            throughout the records as a member, a sponsor or a voter — the second
+            map below covers that.</div></div>`;
+        }
+        /* Each row carries a bar of its own share, so a country with one big
+           entry and one small one reads as that rather than as two numbers. */
+        const top = Math.max(...rec.topics.map((t) => t.n));
+        const rows = rec.topics.map((t) => `
+          <div class="row">
+            <span class="lab">${esc(t.label)}</span>
+            <span class="num">${fmt(t.n)}</span>
+            <span class="bar" style="width:${(t.n / top * 100).toFixed(1)}%"></span>
+          </div>`).join('');
+        return `<div class="maphover">
+          <div class="h">${esc(p.name)}</div>
+          ${rows}
+          ${rec.topics.length > 1 ? `
+            <div class="row" style="border-top:1px solid var(--grid);margin-top:6px;padding-top:6px">
+              <span class="lab">meetings in total</span>
+              <span class="num">${fmt(rec.total)}</span></div>` : ''}
+          <div class="foot">${rec.topics.length > 1
+            ? 'Click to choose between these entries.'
+            : 'Click to open this entry.'}</div>
+        </div>`;
+      },
+    },
+    /* The scale is printed beside the title instead, which keeps the map
+       itself clear of furniture. */
+    visualMap: { show: false, min: 0, max, inRange: { color: c.seq } },
+    series: [{
+      type: 'map', map: 'world', roam: true, zoom: 1.18,
+      /* A map series draws a legend marker at each region's centroid whenever a
+         legend exists, and the shared base option declares one. With the
+         visualMap hidden those markers turned into a dot on every shaded
+         country — a second, meaningless encoding on top of the shading. */
+      showLegendSymbol: false,
+      itemStyle: { areaColor: c.grid, borderColor: c.plane, borderWidth: 0.7 },
+      /* Border-only emphasis: recolouring the area on hover would put a colour
+         on countries that carry no entry, which is exactly what the shading
+         means something else. */
+      emphasis: { itemStyle: { borderColor: c.primary, borderWidth: 1.6 }, label: { show: false } },
+      select: { itemStyle: { areaColor: c.series[2] }, label: { show: false } },
+      selectedMode: 'single',
+      data: TP.countries.map((x) => ({ name: x.name, value: x.total })),
+    }],
+  };
+}).on('click', (p) => selectCountry(p.name));
+
+function entryCard(t, extra) {
+  const key = `topic:${t.id}`;
+  return `<a class="ecard" href="entry.html?id=${encodeURIComponent(t.id)}">
+    <div class="pic">
+      ${pictureFor(key, { title: t.label, years: t.years, id: t.id, kicker: 'entry' })}
+      <span class="n">${fmt(t.total)} meetings</span>
+    </div>
+    <div class="body">
+      <div class="t">${esc(t.label)}</div>
+      <div class="d">${esc(t.blurb)}</div>
+      <div class="w">${extra || (t.countries.length ? t.countries.join(' · ') : 'global')} ·
+        ${t.first.slice(0, 4)}–${t.last.slice(0, 4)}</div>
+    </div>
+  </a>`;
+}
+
+function selectCountry(name, navigate = true) {
+  const rec = BY_COUNTRY[name];
+  const panel = document.getElementById('selpanel');
+  if (!rec) {
+    panel.style.display = 'none';
+    document.getElementById('ehint').textContent =
+      `${name} carries no entry. Hover a shaded country instead.`;
+    return;
+  }
+  /* A click on a country with one entry has nothing to choose, so it goes
+     straight there. A deep link must not: arriving at ?country=Syria and being
+     bounced somewhere else gives the visitor no way back to the map. */
+  if (navigate && rec.topics.length === 1) {
+    location.href = `entry.html?id=${encodeURIComponent(rec.topics[0].id)}`;
+    return;
+  }
+  panel.style.display = '';
+  panel.innerHTML = `
+    <div class="hd">
+      <h3>${esc(name)}</h3>
+      <span class="n">${rec.topics.length} entries · ${fmt(rec.total)} meetings between them</span>
+      <button class="ghost" id="closesel">Close</button>
+    </div>
+    <div class="entrygrid">
+      ${rec.topics.map((x) => entryCard(BY_ID[x.id])).join('')}
+    </div>`;
+  document.getElementById('closesel').onclick = () => { panel.style.display = 'none'; };
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+document.getElementById('globals').innerHTML = TP.topics
+  .filter((t) => t.global)
+  .map((t) => entryCard(t, 'global'))
+  .join('');
+
+/* deep link: geo.html?country=Iraq */
+const qsC = new URLSearchParams(location.search).get('country');
+if (qsC && BY_COUNTRY[qsC]) selectCountry(qsC, false);
+
+const METRICS = [
+  ['member', 'Council attendance',
+   'How often a state appears as a sitting Council member in the meeting records. The permanent members top this by construction, so the interesting signal is the spread among elected members.'],
+  ['invited', 'Invited to attend',
+   'How often a non-member was invited into the chamber to speak — usually because it was a party to that day’s question. This is the most direct measure of who gets discussed.'],
+  ['president', 'Held the presidency',
+   'The Council presidency rotates monthly in the English alphabetical order of member names, so the count is roughly proportional to months served.'],
+  ['against', 'Voted against',
+   'Votes cast against a Council resolution. Note that this is not the same as a veto: a vetoed draft is normally never numbered, so it never enters the corpus at all.'],
+  ['sponsored', 'Submitted drafts',
+   'How often a state appears as the submitting sponsor of a draft resolution.'],
+];
+let metric = 0;
+
+const val = (d) => d[METRICS[metric][0]];
+
+/* Historical entities share a polygon with their successor, so values are
+   summed per polygon rather than overwriting one another. Pulled out of the
+   chart builder because the scale key beside the title needs the maximum too. */
+function metricGeo() {
+  const rows = C.filter((d) => d.ne && val(d));
+  const perNe = {};
+  const labelFor = {};
+  rows.forEach((d) => {
+    perNe[d.ne] = (perNe[d.ne] || 0) + val(d);
+    (labelFor[d.ne] = labelFor[d.ne] || []).push(`${d.name} ${fmt(val(d))}`);
+  });
+  return { perNe, labelFor, max: Math.max(...Object.values(perNe)) };
+}
+
+document.getElementById('metric-seg').innerHTML =
+  METRICS.map(([, l], i) => `<button aria-pressed="${i === 0}" data-i="${i}">${l}</button>`).join('');
+document.getElementById('metric-seg').onclick = (e) => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  metric = +b.dataset.i;
+  [...e.currentTarget.children].forEach((x, i) => x.setAttribute('aria-pressed', i === metric));
+  syncText();
+  REGISTRY.forEach((d) => d());
+};
+
+function syncText() {
+  const [, label, desc] = METRICS[metric];
+  document.getElementById('map-title').textContent = `World map — ${label.toLowerCase()}`;
+  document.getElementById('map-desc').textContent = desc;
+  document.getElementById('metric-unit').textContent = `${label.toLowerCase()} per country`;
+  document.getElementById('mmax').textContent = fmt(metricGeo().max);
+}
+syncText();
+
+/* --------------------------------------------------------------- map */
+mountChart(document.getElementById('map'), (c, base, ax) => {
+  const { perNe, labelFor, max } = metricGeo();
+  return {
+    ...base,
+    tooltip: {
+      ...base.tooltip, trigger: 'item',
+      formatter: (p) => (p.value ? `<b>${p.name}</b><br>${METRICS[metric][1]}: <b>${fmt(p.value)}</b>`
+        + (labelFor[p.name] && labelFor[p.name].length > 1
+          ? `<br><span style="color:${c.muted};font-size:11.5px">includes ${labelFor[p.name].join(', ')}</span>` : '')
+        : `<b>${p.name}</b><br><span style="color:${c.muted}">no record</span>`),
+    },
+    visualMap: { show: false, min: 0, max, inRange: { color: c.seq } },
+    series: [{
+      type: 'map', map: 'world', roam: true, zoom: 1.18,
+      showLegendSymbol: false,
+      itemStyle: { areaColor: c.grid, borderColor: c.plane, borderWidth: 0.7 },
+      emphasis: { itemStyle: { borderColor: c.primary, borderWidth: 1.6 }, label: { show: false } },
+      select: { disabled: true },
+      data: Object.entries(perNe).map(([name, value]) => ({ name, value })),
+    }],
+  };
+});
+
+/* -------------------------------------------------------------- tiles */
+const withSeat = C.filter((d) => d.member_years).length;
+const invitedN = C.filter((d) => d.invited).length;
+const topInvited = C.slice().sort((a, b) => b.invited - a.invited)[0];
+document.getElementById('tiles').innerHTML = `
+  <div class="tile"><div class="k">States &amp; entities present</div><div class="v">${C.length}</div>
+    <div class="s">including entities that no longer exist</div></div>
+  <div class="tile"><div class="k">Have held a Council seat</div><div class="v">${withSeat}</div>
+    <div class="s">appear in the corpus as members</div></div>
+  <div class="tile"><div class="k">Have been invited</div><div class="v">${invitedN}</div>
+    <div class="s">non-members called into the chamber</div></div>
+  <div class="tile"><div class="k">Most often invited</div><div class="v" style="font-size:21px">${topInvited.name}</div>
+    <div class="s">${fmt(topInvited.invited)} times</div></div>`;
+
+/* ---------------------------------------------------------- full table
+   With the two ranking panels gone this table is the only ranking on the
+   page, so it carries the entry column as well: the same country row now
+   answers both "how often was it in the room" and "what was it discussed
+   as". Entries are keyed by basemap polygon, which is what `ne` holds. */
+document.getElementById('ncount').textContent = C.length;
+document.getElementById('unres').textContent = fmt(G.unresolved_records);
+{
+  const tot = (k) => C.reduce((s, d) => s + (d[k] || 0), 0);
+  const placed = ['member', 'invited', 'president', 'ga_president', 'against', 'abstain', 'sponsored']
+    .reduce((s, k) => s + tot(k), 0);
+  document.getElementById('sc-member').textContent = fmt(tot('member'));
+  document.getElementById('sc-invited').textContent = fmt(tot('invited'));
+  document.getElementById('sc-pres').textContent = fmt(tot('president'));
+  document.getElementById('res-pct').textContent =
+    (100 * placed / (placed + G.unresolved_records)).toFixed(1) + '%';
+}
+const COLS = [['name', 'State / entity'], ['topics', 'Discussed as'],
+  ['member_years', 'Seat years'], ['member', 'Attendance'],
+  ['invited', 'Invited'], ['president', 'Presidencies'], ['against', 'Against'],
+  ['abstain', 'Abstained'], ['sponsored', 'Drafts'], ['first', 'First'], ['last', 'Last']];
+let sortKey = 'member', sortDesc = true;
+
+/* The join runs through the basemap polygon, and historical entities borrow
+   their successor's — so reading it straight would credit the USSR with a
+   question that opened in 2014. Those rows are left blank instead of guessed
+   at; the polygon is a drawing compromise, not a claim of identity. */
+const entriesFor = (d) =>
+  (!d.historical && d.ne && BY_COUNTRY[d.ne] ? BY_COUNTRY[d.ne].topics : []);
+
+function renderTable() {
+  const q = document.getElementById('tq').value.trim().toLowerCase();
+  let rows = C.filter((d) => !q || d.name.toLowerCase().includes(q)
+    || entriesFor(d).some((t) => t.label.toLowerCase().includes(q)));
+  rows.sort((a, b) => {
+    if (sortKey === 'topics') {
+      const x = entriesFor(a).reduce((s, t) => s + t.n, 0);
+      const y = entriesFor(b).reduce((s, t) => s + t.n, 0);
+      return sortDesc ? y - x : x - y;
+    }
+    const x = a[sortKey], y = b[sortKey];
+    if (typeof x === 'string') return sortDesc ? y.localeCompare(x) : x.localeCompare(y);
+    return sortDesc ? (y ?? -1) - (x ?? -1) : (x ?? -1) - (y ?? -1);
+  });
+
+  document.getElementById('tn').textContent =
+    rows.length === C.length ? `${C.length} rows` : `${rows.length} of ${C.length}`;
+
+  const cell = (d, k) => {
+    if (k === 'topics') {
+      const ts = entriesFor(d);
+      if (!ts.length) return '<span style="color:var(--text-muted)">—</span>';
+      return ts.map((t) => `<a href="entry.html?id=${encodeURIComponent(t.id)}"
+        style="color:var(--series-3);text-decoration:none">${esc(t.label)}</a>`).join(', ');
+    }
+    if (d[k] == null) return '—';
+    return (k === 'first' || k === 'last') ? d[k] : fmt(d[k]);
+  };
+
+  document.getElementById('full').innerHTML =
+    `<thead><tr>${COLS.map(([k, l]) =>
+      `<th data-k="${k}" style="cursor:pointer">${l}${sortKey === k ? (sortDesc ? ' ↓' : ' ↑') : ''}</th>`).join('')}</tr></thead>`
+    + `<tbody>${rows.map((d) => `<tr><td>${esc(d.name)}${d.historical
+        ? ' <span class="badge">historical</span>' : ''}</td>`
+      + COLS.slice(1).map(([k]) =>
+          `<td${k === 'topics' ? ' style="text-align:left;white-space:normal;max-width:280px"' : ''}>${cell(d, k)}</td>`).join('')
+      + '</tr>').join('')}</tbody>`;
+}
+document.getElementById('full').onclick = (e) => {
+  const th = e.target.closest('th[data-k]');
+  if (!th) return;
+  if (sortKey === th.dataset.k) sortDesc = !sortDesc; else { sortKey = th.dataset.k; sortDesc = true; }
+  renderTable();
+};
+document.getElementById('tq').addEventListener('input', renderTable);
+renderTable();
+</script>
+</body>
+</html>

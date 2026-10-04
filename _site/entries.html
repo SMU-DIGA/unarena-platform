@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All entries · UN Voting Corpus 1946–2025</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.sortbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
+.sortbar input {
+  font-family: var(--font); font-size: 13.5px; padding: 8px 11px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  min-width: 210px;
+}
+.sortbar .n { font-size: 13px; color: var(--text-muted); margin-left: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The 32 topic entries</h1>
+  <p class="lede">
+    Every entry is a question the two bodies kept coming back to. Each one carries a dated
+    chronology quoted from English Wikipedia, and the corpus attaches it to every meeting whose
+    own agenda — or whose adopted resolution's title — names that subject. A meeting only ever
+    receives the part of the chronology that had already happened when it sat.
+  </p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="sortbar">
+    <input type="text" id="q" placeholder="Filter by name or country…">
+    <div class="seg" id="sortseg">
+      <button aria-pressed="true" data-k="total">Most meetings</button>
+      <button aria-pressed="false" data-k="first">Earliest</button>
+      <button aria-pressed="false" data-k="segments">Most material</button>
+      <button aria-pressed="false" data-k="label">A–Z</button>
+    </div>
+    <span class="n" id="count"></span>
+  </div>
+
+  <div class="entrygrid" id="grid"></div>
+
+  <div class="callout" style="margin-top:26px">
+    <strong>An entry's size measures the corpus, not the conflict.</strong>
+    Syria carries six meetings and Russia–Ukraine eleven, not because those wars were quiet at
+    the UN but because the Council files them under generic agenda headings that are deliberately
+    not matched, and because a vetoed draft never gets a resolution number to be indexed by.
+    Where an entry has a known limit of this kind, its own page says so.
+  </div>
+
+  <p class="note">
+    Text in the entries is quoted from English Wikipedia under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>;
+    each entry page lists its source articles with the revision id the text was taken from.
+    Photographs come from Wikimedia Commons and are credited where they appear. Entries with no
+    freely-licensed photograph get a cover drawn from their own record instead.
+  </p>
+</main>
+
+<script src="data/topics.js"></script>
+<script src="data/topic_images.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const P = window.TOPICS;
+const ALL = P.topics;
+let sortKey = 'total';
+
+document.getElementById('tiles').innerHTML = `
+  <div class="tile"><div class="k">Entries</div><div class="v">${P.totals.topics}</div>
+    <div class="s">${ALL.filter((t) => t.global).length} of them global rather than territorial</div></div>
+  <div class="tile"><div class="k">Meetings carrying one</div><div class="v">${fmt(P.totals.meetings)}</div>
+    <div class="s">of ${fmt(P.totals.sc_total + P.totals.ga_total)} in the corpus</div></div>
+  <div class="tile"><div class="k">Council coverage</div><div class="v">${pct(100 * P.totals.sc / P.totals.sc_total)}</div>
+    <div class="s">${fmt(P.totals.sc)} of ${fmt(P.totals.sc_total)} Council meetings</div></div>
+  <div class="tile"><div class="k">Assembly coverage</div><div class="v">${pct(100 * P.totals.ga / P.totals.ga_total)}</div>
+    <div class="s">${fmt(P.totals.ga)} of ${fmt(P.totals.ga_total)}; most plenary votes are procedural</div></div>
+  <div class="tile"><div class="k">Countries on the map</div><div class="v">${P.totals.polygons}</div>
+    <div class="s">shaded on the <a href="geo.html">map page</a></div></div>`;
+
+function draw() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const rows = ALL.filter((t) => !q
+    || t.label.toLowerCase().includes(q)
+    || t.id.includes(q)
+    || t.countries.some((c) => c.toLowerCase().includes(q)));
+
+  const cmp = {
+    total: (a, b) => b.total - a.total,
+    first: (a, b) => (a.first || '').localeCompare(b.first || ''),
+    segments: (a, b) => b.material.segments - a.material.segments,
+    label: (a, b) => a.label.localeCompare(b.label),
+  }[sortKey];
+  rows.sort(cmp);
+
+  document.getElementById('count').textContent =
+    rows.length === ALL.length ? `${ALL.length} entries` : `${rows.length} of ${ALL.length}`;
+
+  document.getElementById('grid').innerHTML = rows.map((t) => {
+    const key = `topic:${t.id}`;
+    const where = t.countries.length ? t.countries.join(' · ') : 'global';
+    return `<a class="ecard" href="entry.html?id=${encodeURIComponent(t.id)}">
+      <div class="pic">
+        ${pictureFor(key, { title: t.label, years: t.years, id: t.id, kicker: 'entry' })}
+        <span class="n">${fmt(t.total)} meetings</span>
+      </div>
+      <div class="body">
+        <div class="t">${esc(t.label)}</div>
+        <div class="d">${esc(t.blurb)}</div>
+        <div class="w">${esc(where)} · ${t.first.slice(0, 4)}–${t.last.slice(0, 4)} ·
+          ${fmt(t.material.segments)} passages</div>
+      </div>
+    </a>`;
+  }).join('') || '<p class="note">Nothing matches that filter.</p>';
+}
+
+document.getElementById('q').addEventListener('input', draw);
+document.getElementById('sortseg').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  sortKey = b.dataset.k;
+  [...e.currentTarget.children].forEach((x) => x.setAttribute('aria-pressed', x === b));
+  draw();
+};
+draw();
+</script>
+</body>
+</html>

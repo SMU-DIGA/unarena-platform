@@ -1,0 +1,165 @@
+{
+  "topic": "sierra_leone",
+  "label": "Sierra Leone civil war",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 19,
+  "flagged_vote_language": 1,
+  "flagged_names_later_date": 4,
+  "vague_dated_segments": 4,
+  "cross_article_duplicates": 2,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Sierra Leone Civil War",
+      "pageid": 2477816,
+      "revid": 1370746862,
+      "revision_timestamp": "2026-08-22T21:52:28Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=2477816",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1991-03-23",
+          "date_latest": "1991-03-23",
+          "date_precision": "day",
+          "text": "23 March 1991 – 18 January 2002 * ()}} * ' * SLA (before and after the AFRC) * CDF (Kamajors, Tamaboros, Kapras, etc.) * Foreign mercenaries * (2000–2002) * * ECOMOG forces (1998–2000) * Executive Outcomes (1995–1996) ---- }}}} * Liberated Zone ** RUF * AFRC (1997–2002) * West Side Boys (1998–2000) * (1997–2002) * Greater Liberia (1991–1997) ** NPFL (1991–1996) * Foreign mercenaries ---- }}}} * Joseph Saidu Momoh * Valentine Strasser * Julius Maada Bio * Ahmad Tejan Kabbah * Samuel Hinga Norman * Yahya Kanu * Solomon Musa * Moinina Fofana * Allieu Kondewa * Tony Blair * David Richards * Lansana Conté * Maxwell Khobe * Vijay Jetley * Daniel Opande}} * Foday Sankoh * Sam Bockarie * Issa Sesay * Augustine Gbao * Johnny Paul Koroma * Foday Kallay * Charles Taylor * Benjamin Yeaten}} * ~4,000 government soldiers and militiamen (1999) * ECOMOG: ~700 Nigerian soldiers * 6,000 UNAMSIL soldiers, 260 military observers, 4 Russian Mil Mi-24s (1999) * ~4,500 deployed into theatre (1,300 ashore)}} }} The Sierra Leonean Civil War (1991–2002) was a civil war in Sierra Leone that began on 23 March 1991 when the Revolutionary United Front (RUF), with support from the special forces of Liberian dictator Charles Taylor, the National Patriotic Front of Liberia (NPFL), intervened in Sierra Leone in an attempt to overthrow the Joseph Momoh government.",
+          "names_later_date": true
+        },
+        {
+          "date": "1992-04-29",
+          "date_latest": "1992-04-29",
+          "date_precision": "day",
+          "text": "As a result, the Momoh regime lost all remaining credibility and a group of disgruntled junior officers led by Captain Valentine Strasser overthrew Momoh on 29 April 1992."
+        },
+        {
+          "date": "1996-11-30",
+          "date_latest": "1996-11-30",
+          "date_precision": "day",
+          "text": "A second offensive captured the provincial capital and the largest city in Sierra Leone and destroyed the RUF's main base of operations near Bo, finally forcing the RUF to admit defeat and sign the Abidjan Peace Accord in Abidjan, Côte d'Ivoire on 30 November 1996."
+        },
+        {
+          "date": "1996-11-30",
+          "date_latest": "1996-11-30",
+          "date_precision": "day",
+          "text": "Subsequently, the Sierra Leonean government asked the UN to help set up a Special Court for Sierra Leone, which would try those who \"bear the greatest responsibility for the commission of crimes against humanity, war crimes and serious violations of international humanitarian law, as well as crimes under relevant Sierra Leonean law within the territory of Sierra Leone since 30 November 1996.\" Both the Truth and Reconciliation Commission and the Special Court began operating in the summer of 2002."
+        },
+        {
+          "date": "1997-05-25",
+          "date_latest": "1997-05-25",
+          "date_precision": "day",
+          "text": "On 25 May 1997, a group of disgruntled SLA officers freed and armed 600 prisoners from the Pademba Road prison in Freetown."
+        },
+        {
+          "date": "1999-03-27",
+          "date_latest": "1999-03-27",
+          "date_precision": "day",
+          "text": "The Lome Peace Accord, signed on 27 March 1999, was the result."
+        },
+        {
+          "date": "1999-07-07",
+          "date_latest": "1999-07-07",
+          "date_precision": "day",
+          "text": "The Lome Peace Accord, signed on 7 July 1999, is controversial in that Sankoh was pardoned for treason, granted the position of Vice President, and made chairman of the commission that oversaw Sierra Leone's diamond mines.",
+          "duplicate_of": "Sierra Leone Civil War"
+        },
+        {
+          "date": "2002-01-18",
+          "date_latest": "2002-01-18",
+          "date_precision": "day",
+          "text": "On 18 January 2002, President Kabbah declared the Sierra Leone Civil War over."
+        },
+        {
+          "date": "2002-01-18",
+          "date_latest": "2002-01-18",
+          "date_precision": "day",
+          "text": "On 18 January 2002, President Kabbah declared the eleven-year-long Sierra Leone Civil War officially over.",
+          "duplicate_of": "Sierra Leone Civil War"
+        },
+        {
+          "date": "2002-07-28",
+          "date_latest": "2002-07-28",
+          "date_precision": "day",
+          "text": "On 28 July 2002, the British withdrew a 200-strong military contingent that had been in country since the summer of 2000, leaving behind a 140-strong military training team with orders to professionalize the SLA and Navy."
+        },
+        {
+          "date": "2003-01-13",
+          "date_latest": "2003-01-13",
+          "date_precision": "day",
+          "text": "On 13 January 2003, a small group of armed men tried unsuccessfully to break into an armory in Freetown."
+        },
+        {
+          "date": "2003-05-05",
+          "date_latest": "2003-05-05",
+          "date_precision": "day",
+          "text": "On 5 May 2003, Bockarie was killed in Liberia."
+        },
+        {
+          "date": "2003-07-29",
+          "date_latest": "2003-07-29",
+          "date_precision": "day",
+          "text": "Sankoh died in prison in Freetown on 29 July 2003 from a pulmonary embolism."
+        },
+        {
+          "date": "2003-12-01",
+          "date_latest": "2003-12-01",
+          "date_precision": "day",
+          "text": "On 1 December 2003, Major General Tom Carew, who had been the Chief of Defence Staff for the Government of Sierra Leone and an important figure in the SLA, was reassigned to civilian duties."
+        },
+        {
+          "date": "2026-01-18",
+          "date_latest": "2026-01-18",
+          "date_precision": "day",
+          "text": "On 18 January 2026, Sierra Leone began holding a National Day of Remembrance to commemorate the victims of the civil war."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Mission in Sierra Leone",
+      "pageid": 990584,
+      "revid": 1324233998,
+      "revision_timestamp": "2025-11-26T11:16:35Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=990584",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2000-11-01",
+          "date_latest": "2000-11-30",
+          "date_precision": "month",
+          "text": "On 2 May 2001 the second meeting of the Committee of Six of the ECOWAS Mediation and Security Council addressed the ceasefire that had been maintained since the previous November. Both parties reiterated the commitment for the free movement of persons and the newly trained Sierra Leone Army, trained by UK personnel, would help monitor the cease fire. The meeting addressed the cross-border attacks from Guinea and the transformation of the RUF into a political party. Acting upon the November 2000 agreement, all seized UN arms were returned by 31 May 2001. With Charles Taylor facing sanctions, a diamond ban, and international pressure as well as the loss of troops and prestige in the Guinea attacks, these factors severely hindered Taylor's ability to sustain the war outside his borders. Losing the backing of a powerful neighbor and a series of defeats, a weak RUF agreed to treaties and failed to incite further violence to the same extent. On 18 January 2002, Sierra Leone president Ahmed Tejan Kabbah officially declared the end of the civil war that had spanned over a decade. There were a total of 192 UN fatalities: 69 troops, 2 military observers, 2 international civilians, 16 local civilians, 1 police, and 2 others.",
+          "names_later_date": true
+        },
+        {
+          "date": "2000-11-01",
+          "date_latest": "2000-11-30",
+          "date_precision": "month",
+          "text": "On 30 June 2005, United Nations Security Council Resolution 1610 extended UNAMSIL's mandate for a final six months with plans to withdraw on 31 December 2005. Two months later, resolution 1620 established the United Nations Integrated Office in Sierra Leone (UNIOSIL). As of November 2005, the size and strength of UNAMSIL had significantly shrunk with a total of 1,043 uniformed personnel still within the country including 944 troops, 69 military observers, 30 police, 216 international civilian personnel, and 369 local civilian staff. UNIOSIL become operational on January first 2006; the follow-up mission strategy was developed jointly with UNAMSIL and the UN country team to focus on poverty reduction through the UN's development framework as well as maintaining peace through economic good governance. UNIOSIL ended in September 2008 and was replaced by the United Nations Integrated Peacebuilding Office in Sierra Leone (UNIPSIL). The Security Council unanimously agreed to withdraw UNIPSIL by 31 March 2014 although the UN country office will remain present to continue to support the constitutional review process. Former UN Secretary-General Ban Ki-moon travelled to Freetown, Sierra Leone, to mark the closure of UNIPSIL where he stated: “Sierra Leone represents one of the world’s most successful cases of post-conflict recovery, peacekeeping and peacebuilding.”",
+          "mentions_vote": true,
+          "names_later_date": true
+        },
+        {
+          "date": "2000-11-01",
+          "date_latest": "2000-11-30",
+          "date_precision": "month",
+          "text": "The Freetown government emphasized pursuing a counter strategy against the rebels and not lessening the war effort, while UNAMSIL diverging interests pushed for another ceasefire. Attempts by UNAMSIL and ECOWAS to establish contact with RUF succeeded in October 2000 when RUF leaders expressed interest in a ceasefire and returning to the Lomé Agreement. A meeting convened on 10 November 2001 leading to a ceasefire between the government and RUF that included the agreement to return all seized UNAMSIL weapons and the immediate resumption of DDR. UNAMSIL was designated a monitoring role allowed access to all parts of the country and both parties agreed to the unrestricted movement of humanitarian workers and resources. Although mixed signals were presented through the media, RUF leadership reiterated their commitment to the agreement.",
+          "names_later_date": true
+        },
+        {
+          "date": "2000-11-01",
+          "date_latest": "2000-11-30",
+          "date_precision": "month",
+          "text": "The establishment of UNAMSIL constituted a policy shift in UN peacekeeping as it was one of the first missions where UN troops were permitted to use force. Canadian diplomats in the Security Council and the government of Sierra Leone advocated for this change, while all other Security Council members aimed for a Chapter VI peacekeeping mission. The Canadian mission to the Security Council hosted General Roméo Dallaire, commander for the UN during 1994 Rwandan Genocide, who is a spokesperson for force enforcing capabilities for troops. Chapter VII of the UN charter outlines the power of the Security Council to maintain peace through “measures it deems necessary”, including military power. When the Security Council changed the mandate of UNAMSIL, they outlined the ability to: “take the necessary action, in the discharge of its mandate, to ensure the security and freedom of movement of its personnel and, within its capabilities and areas of deployment, to afford protection to civilians under imminent threat of physical violence” The ability to use force was a powerful deterrent in the illicit diamond trade that fueled the conflict. UNAMSIL created buffer zones between skirmishes in the mining district of Kono and was successful in gaining authority over diamond rich areas. Before UNAMSIL, the Security Council mainly invoked Chapter VII to authorize force to other non-UN actors. However, after the Chapter VII force mandate for Sierra Leone, it has been similarly utilized in sixteen other peacekeeping missions since 1999. Despite the extreme setbacks the mission faced with the capture of over 500 UN personnel, the Security Council did not withdraw the mission. In the wake of Rwanda and Somalia, this represented another shift with sustained interest from the Security Council and bilateral involvement of the United Kingdom pushing the mission to completion."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

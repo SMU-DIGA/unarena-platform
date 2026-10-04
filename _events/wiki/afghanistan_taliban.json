@@ -1,0 +1,1777 @@
+{
+  "topic": "afghanistan_taliban",
+  "label": "War in Afghanistan and the Taliban",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 280,
+  "flagged_vote_language": 2,
+  "flagged_names_later_date": 1,
+  "vague_dated_segments": 9,
+  "cross_article_duplicates": 22,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the War in Afghanistan (2001–2021)",
+      "pageid": 11589843,
+      "revid": 1350418414,
+      "revision_timestamp": "2026-04-21T21:01:09Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=11589843",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2001-10-07",
+          "date_latest": "2001-10-07",
+          "date_precision": "day",
+          "text": "(9 p.m. local time): the United States, supported by Britain, begins its attack on Afghanistan, launching bombs and cruise missiles against Taliban military and communications facilities and suspected terrorist training camps. Kabul, Kandahar, and Herat were hit."
+        },
+        {
+          "date": "2001-10-09",
+          "date_latest": "2001-10-09",
+          "date_precision": "day",
+          "text": "A cruise missile kills four U.N. demining employees and injures four others in a building several miles east of Kabul."
+        },
+        {
+          "date": "2001-10-19",
+          "date_latest": "2001-10-19",
+          "date_precision": "day",
+          "text": "Airborne invasion into Afghanistan by Rangers of the Third Ranger Battalion, Seventy Fifth Ranger Regiment and others seizing a Qandahar airfield named Objective Rhino."
+        },
+        {
+          "date": "2001-10-26",
+          "date_latest": "2001-10-26",
+          "date_precision": "day",
+          "text": "Afghan mujahedeen commander Abdul Haq killed by the Taliban."
+        },
+        {
+          "date": "2001-11-06",
+          "date_latest": "2001-11-06",
+          "date_precision": "day",
+          "text": "Zari, Keshendeh and Aq-Kupruk fall to the Northern Alliance"
+        },
+        {
+          "date": "2001-11-08",
+          "date_latest": "2001-11-08",
+          "date_precision": "day",
+          "text": "Pakistan, being the only nation that still had diplomatic ties to the Taliban, asked Afghanistan's rulers to close their consulate in the city of Karachi."
+        },
+        {
+          "date": "2001-11-10",
+          "date_latest": "2001-11-10",
+          "date_precision": "day",
+          "text": "The Taliban and Northern Alliance fighters both claimed that the strategic northern Afghan city of Mazari Sharif was taken by Northern Alliance fighters."
+        },
+        {
+          "date": "2001-11-11",
+          "date_latest": "2001-11-11",
+          "date_precision": "day",
+          "text": "Journalists Pierre Billaud, Johanne Sutton, and Volker Handloik are ambushed and killed."
+        },
+        {
+          "date": "2001-11-12",
+          "date_latest": "2001-11-12",
+          "date_precision": "day",
+          "text": "Taliban forces abandon Kabul ahead of advancing Northern Alliance troops."
+        },
+        {
+          "date": "2001-11-14",
+          "date_latest": "2001-11-14",
+          "date_precision": "day",
+          "text": "Northern Alliance fighters took over Kabul, the Afghan capital, and then controlled virtually all the north of Afghanistan."
+        },
+        {
+          "date": "2001-11-16",
+          "date_latest": "2001-11-16",
+          "date_precision": "day",
+          "text": "Mohammed Atef, the military chief of al-Qaeda, killed in a US airstrike."
+        },
+        {
+          "date": "2001-11-19",
+          "date_latest": "2001-11-19",
+          "date_precision": "day",
+          "text": "Four foreign journalists - Harry Burton, Maria Grazia Cutuli, Azizullah Haidari, and Julio Fuentes – were ambushed and killed."
+        },
+        {
+          "date": "2001-11-25",
+          "date_latest": "2001-11-25",
+          "date_precision": "day",
+          "text": "Northern Alliance gained control of Kunduz, the last Taliban stronghold in Northern Afghanistan, but only after Pakistani aircraft rescue several thousand Taliban and Al-Qaeda fighters and their military advisers. The Taliban then controlled less than 25% of the country, mainly around Kandahar in the south."
+        },
+        {
+          "date": "2001-12-01",
+          "date_latest": "2001-12-31",
+          "date_precision": "month",
+          "text": "The Battle of Tora Bora against Taliban and al-Qaeda fighters; Osama bin Laden reportedly escapes during this battle."
+        },
+        {
+          "date": "2001-12-01",
+          "date_latest": "2001-12-31",
+          "date_precision": "month",
+          "text": "The Bonn Agreement establishes the postwar system of government for Afghanistan, and establishes the International Security Assistance Force."
+        },
+        {
+          "date": "2001-12-01",
+          "date_latest": "2001-12-31",
+          "date_precision": "month",
+          "text": "The Dasht-i-Leili massacre, where hundreds of Taliban were allegedly suffocated to death while being transported in metal containers."
+        },
+        {
+          "date": "2001-12-22",
+          "date_latest": "2001-12-22",
+          "date_precision": "day",
+          "text": "The interim Afghan government is sworn in."
+        },
+        {
+          "date": "2002-01-04",
+          "date_latest": "2002-01-04",
+          "date_precision": "day",
+          "text": "First US soldier dies due to hostile fire, Sergeant First Class (SFC) Nathan Chapman."
+        },
+        {
+          "date": "2002-02-14",
+          "date_latest": "2002-02-14",
+          "date_precision": "day",
+          "text": "Abdul Rahman, Afghan Aviation and Tourism Minister, killed by angry Hajj pilgrims."
+        },
+        {
+          "date": "2002-03-01",
+          "date_latest": "2002-03-01",
+          "date_precision": "day",
+          "text": "Operation Anaconda against al-Qaeda fighters launched."
+        },
+        {
+          "date": "2002-04-17",
+          "date_latest": "2002-04-17",
+          "date_precision": "day",
+          "text": "The 87-year-old exiled king of Afghanistan, Mohammed Zahir Shah, returns."
+        },
+        {
+          "date": "2002-04-18",
+          "date_latest": "2002-04-18",
+          "date_precision": "day",
+          "text": "Tarnak Farm incident leaves four Canadians dead from friendly fire."
+        },
+        {
+          "date": "2002-06-11",
+          "date_latest": "2002-06-11",
+          "date_precision": "day",
+          "text": "King Zahir Shah opens the first post-Taliban loya jirga."
+        },
+        {
+          "date": "2002-07-01",
+          "date_latest": "2002-07-01",
+          "date_precision": "day",
+          "text": "In Uruzgan province, a US AC-130 gunship struck a wedding party, killing 48 civilians and injuring 117. The United States claimed their plane had come under attack from anti-aircraft fire before the strike."
+        },
+        {
+          "date": "2002-07-06",
+          "date_latest": "2002-07-06",
+          "date_precision": "day",
+          "text": "Vice President Abdul Qadir assassinated in Kabul."
+        },
+        {
+          "date": "2002-09-05",
+          "date_latest": "2002-09-05",
+          "date_precision": "day",
+          "text": "2002 Kabul bombing kills 30 people."
+        },
+        {
+          "date": "2003-08-11",
+          "date_latest": "2003-08-11",
+          "date_precision": "day",
+          "text": "NATO officially takes command of peacekeeping in Afghanistan."
+        },
+        {
+          "date": "2003-12-14",
+          "date_latest": "2003-12-14",
+          "date_precision": "day",
+          "text": "2003 loya jirga convened to consider the proposed Afghan Constitution."
+        },
+        {
+          "date": "2004-01-04",
+          "date_latest": "2004-01-04",
+          "date_precision": "day",
+          "text": "Constitution approved by Loya Jirga."
+        },
+        {
+          "date": "2004-01-26",
+          "date_latest": "2004-01-26",
+          "date_precision": "day",
+          "text": "Constitution signed by President Hamid Karzai."
+        },
+        {
+          "date": "2004-10-09",
+          "date_latest": "2004-10-09",
+          "date_precision": "day",
+          "text": "2004 Afghan presidential election. In the country's first direct election, Hamid Karzai wins the presidency with 55.4% of the vote.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2005-06-28",
+          "date_latest": "2005-06-28",
+          "date_precision": "day",
+          "text": "Operation Red Wings results in the death of 19 Americans and many Taliban fighters."
+        },
+        {
+          "date": "2005-07-01",
+          "date_latest": "2005-07-31",
+          "date_precision": "month",
+          "text": "Prisoner abuses took place at Forward Operating Base Ripley. Two soldiers would eventually be sentenced for their actions in the July 2005 Afghan captive incident."
+        },
+        {
+          "date": "2005-09-18",
+          "date_latest": "2005-09-18",
+          "date_precision": "day",
+          "text": "2005 Afghan parliamentary election."
+        },
+        {
+          "date": "2006-01-13",
+          "date_latest": "2006-01-13",
+          "date_precision": "day",
+          "text": "Damadola airstrike by US in Pakistan kills at least 18 civilians."
+        },
+        {
+          "date": "2006-02-01",
+          "date_latest": "2006-02-01",
+          "date_precision": "day",
+          "text": "The Afghanistan Compact is developed, establishing a framework of international cooperation with Afghanistan."
+        },
+        {
+          "date": "2006-03-29",
+          "date_latest": "2006-03-29",
+          "date_precision": "day",
+          "text": "Battle of Lashkagar. Taliban fighters attack a NATO base."
+        },
+        {
+          "date": "2006-04-14",
+          "date_latest": "2006-04-14",
+          "date_precision": "day",
+          "text": "Beginning of the 2006 Taliban offensive."
+        },
+        {
+          "date": "2006-05-15",
+          "date_latest": "2006-05-15",
+          "date_precision": "day",
+          "text": "Operation Mountain Thrust is launched, the largest offensive since the fall of the Taliban.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2006-07-01",
+          "date_latest": "2006-07-31",
+          "date_precision": "month",
+          "text": "Battle of Panjwaii between Canadian NATO forces and the Taliban."
+        },
+        {
+          "date": "2006-09-02",
+          "date_latest": "2006-09-02",
+          "date_precision": "day",
+          "text": "Canadians launch Operation Medusa."
+        },
+        {
+          "date": "2006-09-16",
+          "date_latest": "2006-09-16",
+          "date_precision": "day",
+          "text": "Operation Mountain Fury, end of the 2006 Taliban offensive.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2006-10-07",
+          "date_latest": "2006-10-07",
+          "date_precision": "day",
+          "text": "Death of Karen Fischer and Christian Struwe"
+        },
+        {
+          "date": "2007-02-27",
+          "date_latest": "2007-02-27",
+          "date_precision": "day",
+          "text": "2007 Bagram Air Base bombing during US Vice President Dick Cheney’s visit."
+        },
+        {
+          "date": "2007-03-04",
+          "date_latest": "2007-03-04",
+          "date_precision": "day",
+          "text": "2007 Shinwar shooting occurs in which an unknown amount of civilians are killed by US troops."
+        },
+        {
+          "date": "2007-03-06",
+          "date_latest": "2007-03-06",
+          "date_precision": "day",
+          "text": "Operation Achilles against the Taliban in Helmand Province."
+        },
+        {
+          "date": "2007-05-13",
+          "date_latest": "2007-05-13",
+          "date_precision": "day",
+          "text": "Afghanistan–Pakistan Skirmishes."
+        },
+        {
+          "date": "2007-06-22",
+          "date_latest": "2007-06-22",
+          "date_precision": "day",
+          "text": "2007 Helmand Province airstrikes conducted by NATO kill 45 Afghan civilians."
+        },
+        {
+          "date": "2007-06-28",
+          "date_latest": "2007-06-28",
+          "date_precision": "day",
+          "text": "The Hyderabad airstrike kills a large number of civilians including women and children."
+        },
+        {
+          "date": "2007-07-19",
+          "date_latest": "2007-07-19",
+          "date_precision": "day",
+          "text": "2007 South Korean hostage crisis in Afghanistan begins."
+        },
+        {
+          "date": "2007-08-16",
+          "date_latest": "2007-08-16",
+          "date_precision": "day",
+          "text": "Nangar Khel massacre - Eight civilians including a pregnant women and a baby died when Polish soldiers shelled the village of Nangar Khel. Seven soldiers have been charged with war crimes."
+        },
+        {
+          "date": "2007-11-06",
+          "date_latest": "2007-11-06",
+          "date_precision": "day",
+          "text": "2007 Baghlan sugar factory bombing kills 75, including six Afghan MPs."
+        },
+        {
+          "date": "2007-12-07",
+          "date_latest": "2007-12-07",
+          "date_precision": "day",
+          "text": "Battle of Musa Qala, a major clash in Helmand Province."
+        },
+        {
+          "date": "2008-01-14",
+          "date_latest": "2008-01-14",
+          "date_precision": "day",
+          "text": "The 2008 Kabul Serena Hotel attack leaves six people dead."
+        },
+        {
+          "date": "2008-02-17",
+          "date_latest": "2008-02-17",
+          "date_precision": "day",
+          "text": "2008 Kandahar bombing kills 100 people, the deadliest suicide bombing of the war."
+        },
+        {
+          "date": "2008-06-10",
+          "date_latest": "2008-06-10",
+          "date_precision": "day",
+          "text": "Gora Prai airstrike in Pakistan kills 11 Pakistani paramilitary troops."
+        },
+        {
+          "date": "2008-06-13",
+          "date_latest": "2008-06-13",
+          "date_precision": "day",
+          "text": "Sarposa Prison attack. Taliban attack the Sarposa Prison, freeing up to 1,000 prisoners."
+        },
+        {
+          "date": "2008-07-06",
+          "date_latest": "2008-07-06",
+          "date_precision": "day",
+          "text": "Haska Meyna wedding party airstrike kills 47 civilians, mostly women and children, in Nangarhar province."
+        },
+        {
+          "date": "2008-07-07",
+          "date_latest": "2008-07-07",
+          "date_precision": "day",
+          "text": "The 2008 Indian embassy bombing in Kabul kills 58, including four Indians. India blames Pakistan's Inter-Services Intelligence for the attack."
+        },
+        {
+          "date": "2008-07-13",
+          "date_latest": "2008-07-13",
+          "date_precision": "day",
+          "text": "Battle of Wanat. Taliban fighters attack a NATO base, killing nine American soldiers."
+        },
+        {
+          "date": "2008-08-19",
+          "date_latest": "2008-08-19",
+          "date_precision": "day",
+          "text": "The Taliban kill 10 French soldiers in the Uzbin valley ambush."
+        },
+        {
+          "date": "2008-08-22",
+          "date_latest": "2008-08-22",
+          "date_precision": "day",
+          "text": "Azizabad airstrike kills up to 92 Afghan civilians.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2008-08-27",
+          "date_latest": "2008-08-27",
+          "date_precision": "day",
+          "text": "Operation Eagle's Summit begins in Helmand Province."
+        },
+        {
+          "date": "2008-09-01",
+          "date_latest": "2008-09-30",
+          "date_precision": "month",
+          "text": "United States-Pakistan skirmishes."
+        },
+        {
+          "date": "2008-09-03",
+          "date_latest": "2008-09-03",
+          "date_precision": "day",
+          "text": "Angoor Ada raid by US special forces into Pakistan."
+        },
+        {
+          "date": "2008-11-03",
+          "date_latest": "2008-11-03",
+          "date_precision": "day",
+          "text": "Wech Baghtu wedding party attack kills 37 civilians, mostly women and children.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2008-12-19",
+          "date_latest": "2008-12-19",
+          "date_precision": "day",
+          "text": "US vows to send 3,000 more troops to Afghanistan."
+        },
+        {
+          "date": "2009-02-11",
+          "date_latest": "2009-02-11",
+          "date_precision": "day",
+          "text": "February 2009 Kabul raids"
+        },
+        {
+          "date": "2009-05-04",
+          "date_latest": "2009-05-04",
+          "date_precision": "day",
+          "text": "The Granai airstrike resulted in one of the highest civilian death tolls from Western military action since foreign forces invaded Afghanistan in 2001."
+        },
+        {
+          "date": "2009-09-04",
+          "date_latest": "2009-09-04",
+          "date_precision": "day",
+          "text": "NATO planes attacks two fuel tankers, which had been hijacked by Taliban insurgents. Up to 142 people died in the attack, including over 100 Afghan civilian victims."
+        },
+        {
+          "date": "2009-12-01",
+          "date_latest": "2009-12-01",
+          "date_precision": "day",
+          "text": "U.S. President Barack Obama announces Afghanistan War troop surge of 2009."
+        },
+        {
+          "date": "2009-12-16",
+          "date_latest": "2009-12-16",
+          "date_precision": "day",
+          "text": "Operation Septentrion, assault by 1100 soldiers (mostly French) in the Uzbin Valley."
+        },
+        {
+          "date": "2009-12-29",
+          "date_latest": "2009-12-29",
+          "date_precision": "day",
+          "text": "10 Afghan civilians mostly school children killed by special operation forces in the botched Narang night raid."
+        },
+        {
+          "date": "2010-01-15",
+          "date_latest": "2010-01-15",
+          "date_precision": "day",
+          "text": "The first of the Maywand District murders occurs on this date."
+        },
+        {
+          "date": "2010-02-12",
+          "date_latest": "2010-02-12",
+          "date_precision": "day",
+          "text": "Five innocent civilians including two pregnant women and a teenage girl killed in the botched Khataba raid."
+        },
+        {
+          "date": "2010-02-21",
+          "date_latest": "2010-02-21",
+          "date_precision": "day",
+          "text": "Uruzgan helicopter attack kills 27-33 civilians including four women and a child in Uruzgan province."
+        },
+        {
+          "date": "2010-06-23",
+          "date_latest": "2010-06-23",
+          "date_precision": "day",
+          "text": "General Stanley A. McChrystal, commander of the ISAF, resigns after controversial comments critical of the Obama administration were published in a magazine."
+        },
+        {
+          "date": "2010-07-23",
+          "date_latest": "2010-07-23",
+          "date_precision": "day",
+          "text": "The Sangin airstrike kills a large number of Afghan civilians mostly women and children in Nangarhar province."
+        },
+        {
+          "date": "2010-07-25",
+          "date_latest": "2010-07-25",
+          "date_precision": "day",
+          "text": "WikiLeaks releases 90,000 leaked documents pertaining to the war in Afghanistan."
+        },
+        {
+          "date": "2010-09-18",
+          "date_latest": "2010-09-18",
+          "date_precision": "day",
+          "text": "Afghan Parliamentary Elections are held, widely criticized as fraudulent, although with notable instances of electoral institution impartiality."
+        },
+        {
+          "date": "2010-10-17",
+          "date_latest": "2010-10-17",
+          "date_precision": "day",
+          "text": "A US soldier murders a Taliban prisoner."
+        },
+        {
+          "date": "2011-01-26",
+          "date_latest": "2011-01-26",
+          "date_precision": "day",
+          "text": "The Afghan National Assembly is inaugurated."
+        },
+        {
+          "date": "2011-03-01",
+          "date_latest": "2011-03-01",
+          "date_precision": "day",
+          "text": "Mano Gai airstrike occurs in which NATO troops kill 9 minors."
+        },
+        {
+          "date": "2011-05-01",
+          "date_latest": "2011-05-01",
+          "date_precision": "day",
+          "text": "The number one Al-Qaeda leader Osama bin Laden is killed by U.S. Navy SEALs in Abbottabad, Pakistan, just miles from Islamabad."
+        },
+        {
+          "date": "2011-05-23",
+          "date_latest": "2011-05-23",
+          "date_precision": "day",
+          "text": "4 U.S. soldiers (2nd Battalion 27th Infantry Regiment) die and 1 wounded following an improvised explosive device attack in Kunar province."
+        },
+        {
+          "date": "2011-06-04",
+          "date_latest": "2011-06-04",
+          "date_precision": "day",
+          "text": "6: The Battle Of Gewi Ridge takes place where a platoon of U.S. soldiers air-assaulted the mountain ridge of Gewi (Kunar province) for over-watch of a major re-supply convoy. Following the insertion, an intensive firefight lasting 52 hours takes place, resulting in the deaths of 50+ Taliban insurgents."
+        },
+        {
+          "date": "2011-08-06",
+          "date_latest": "2011-08-06",
+          "date_precision": "day",
+          "text": "A CH-47 Chinook helicopter transporting 30 U.S. soldiers (including 17 Navy SEALs), 1 civilian interpreter and 7 Afghan troops is shot down in Wardak Province by RPG-wielding Taliban insurgents. There were no survivors of the crash. This incident marks the deadliest day for U.S. Forces in Afghanistan since the invasion in 2001."
+        },
+        {
+          "date": "2011-08-11",
+          "date_latest": "2011-08-11",
+          "date_precision": "day",
+          "text": "Vengeance is exacted on the 11 Taliban militants involved in downing the CH-47 Chinook, who are killed in an F-16 airstrike. Meanwhile, five ISAF service members die following an improvised explosive device attack in the southern provinces."
+        },
+        {
+          "date": "2011-09-20",
+          "date_latest": "2011-09-20",
+          "date_precision": "day",
+          "text": "Burhanuddin Rabbani, the former president and head of the High Peace Council, was assassinated by Taliban suicide bombers in Kabul."
+        },
+        {
+          "date": "2011-11-26",
+          "date_latest": "2011-11-26",
+          "date_precision": "day",
+          "text": "2011 NATO attack in Pakistan occurs in which 28 Pakistani soldiers are killed at the Durand Line, although it's disputed which side instigated the event."
+        },
+        {
+          "date": "2011-12-09",
+          "date_latest": "2011-12-09",
+          "date_precision": "day",
+          "text": "Mohammed Ishmael, Ghaziabad district (Kunar province) police chief is killed in a suicide bombing of a mosque carried out by a 12-year-old Pakistani boy."
+        },
+        {
+          "date": "2012-01-12",
+          "date_latest": "2012-01-12",
+          "date_precision": "day",
+          "text": "Footage surfaces in what is known as the Video of U.S. Marines urinating on Taliban fighters."
+        },
+        {
+          "date": "2012-02-08",
+          "date_latest": "2012-02-08",
+          "date_precision": "day",
+          "text": "2012 Kapisa airstrike occurs in which NATO forces kill 7 children and 1 adult."
+        },
+        {
+          "date": "2012-03-11",
+          "date_latest": "2012-03-11",
+          "date_precision": "day",
+          "text": "American soldier Robert Bales commits the Kandahar massacre in which he murdered 16 Afghan civilians, and injured a further 6."
+        },
+        {
+          "date": "2012-08-07",
+          "date_latest": "2012-08-07",
+          "date_precision": "day",
+          "text": "Shesh Aba raid committed by British forces kills 4 civilians."
+        },
+        {
+          "date": "2014-06-09",
+          "date_latest": "2014-06-09",
+          "date_precision": "day",
+          "text": "2014 Gaza Valley airstrike kills 5 American soldiers in a friendly-fire incident."
+        },
+        {
+          "date": "2015-10-03",
+          "date_latest": "2015-10-03",
+          "date_precision": "day",
+          "text": "Kunduz hospital airstrike occurs in which 42 civilians are killed at the Kunduz Trauma Centre due to an airstrike."
+        },
+        {
+          "date": "2016-12-31",
+          "date_latest": "2016-12-31",
+          "date_precision": "day",
+          "text": "United States troops withdraw from Afghanistan after 15 years."
+        },
+        {
+          "date": "2017-02-10",
+          "date_latest": "2017-02-10",
+          "date_precision": "day",
+          "text": "2017 Sangin airstrike kills at least 18 civilians."
+        },
+        {
+          "date": "2017-04-09",
+          "date_latest": "2017-04-09",
+          "date_precision": "day",
+          "text": "The first Battle of Darzab begins."
+        },
+        {
+          "date": "2017-04-13",
+          "date_latest": "2017-04-13",
+          "date_precision": "day",
+          "text": "2017 Nangarhar airstrike kills 96 militants."
+        },
+        {
+          "date": "2018-07-12",
+          "date_latest": "2018-07-12",
+          "date_precision": "day",
+          "text": "The second Battle of Darzab begins."
+        },
+        {
+          "date": "2020-02-29",
+          "date_latest": "2020-02-29",
+          "date_precision": "day",
+          "text": "Doha Agreement is signed between the Taliban and the United States."
+        },
+        {
+          "date": "2021-05-01",
+          "date_latest": "2021-05-01",
+          "date_precision": "day",
+          "text": "The Taliban begins its summer offensive."
+        },
+        {
+          "date": "2021-08-06",
+          "date_latest": "2021-08-06",
+          "date_precision": "day",
+          "text": "The Taliban capture Zaranj."
+        },
+        {
+          "date": "2021-08-13",
+          "date_latest": "2021-08-13",
+          "date_precision": "day",
+          "text": "Battle of Lashkargah concludes with a Taliban victory. Herat falls. Battle of Kandahar ends with Taliban victory."
+        },
+        {
+          "date": "2021-08-15",
+          "date_latest": "2021-08-15",
+          "date_precision": "day",
+          "text": "The Taliban capture Kabul. The Islamic Republic collapses as the Taliban begins reinstating the Islamic Emirate. An international airlift of refugees begins.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2021-08-26",
+          "date_latest": "2021-08-26",
+          "date_precision": "day",
+          "text": "A suicide bombing at Kabul International Airport left 182 people dead, among them 13 US servicemen who were part of the airlift operation."
+        },
+        {
+          "date": "2021-09-06",
+          "date_latest": "2021-09-06",
+          "date_precision": "day",
+          "text": "The capital of Panjshir Province, Bazarak and other districts fall, but the Resistance continues fighting guerrilla war."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Taliban",
+      "pageid": 30635,
+      "revid": 1371394946,
+      "revision_timestamp": "2026-08-26T05:28:23Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=30635",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1996-04-04",
+          "date_latest": "1996-04-04",
+          "date_precision": "day",
+          "text": "On 4 April 1996, Mullah Omar had \"the Cloak of the Prophet Mohammed\" taken from its shrine for the first time in 60 years."
+        },
+        {
+          "date": "1998-08-08",
+          "date_latest": "1998-08-08",
+          "date_precision": "day",
+          "text": "On 8 August 1998, the Taliban launched an attack on Mazar-i-Sharif."
+        },
+        {
+          "date": "1998-08-11",
+          "date_latest": "1998-08-11",
+          "date_precision": "day",
+          "text": "On 11 August 1998, the Taliban destroyed the Puli Khumri Public Library."
+        },
+        {
+          "date": "1999-07-06",
+          "date_latest": "1999-07-06",
+          "date_precision": "day",
+          "text": "On 6 July 1999, then president Bill Clinton signed into effect executive order 13129."
+        },
+        {
+          "date": "2000-12-19",
+          "date_latest": "2000-12-19",
+          "date_precision": "day",
+          "text": "On 19 December 2000, UN resolution 1333 was passed."
+        },
+        {
+          "date": "2001-03-02",
+          "date_latest": "2001-03-02",
+          "date_precision": "day",
+          "text": "On 2 March 2001, the Buddhas of Bamiyan were destroyed with dynamite, on orders from the Taliban's leader Mullah Omar."
+        },
+        {
+          "date": "2001-08-26",
+          "date_latest": "2001-08-26",
+          "date_precision": "day",
+          "text": "beating a woman in Kabul on 26 August 2001]] protesting against the Taliban, in Peshawar, Pakistan in 1998]] Brutal repression of women was widespread under the Taliban and it received significant international condemnation."
+        },
+        {
+          "date": "2007-05-23",
+          "date_latest": "2007-05-23",
+          "date_precision": "day",
+          "text": "Mullah Omar * Abdul Ghani Baradar }} * Mullah Omar(1994–2013) * Akhtar Mansour (2015–2016) * Hibatullah Akhundzada (2016–present) }} * 1994–1996 (militia) * 1996–2001 (1st government) * 2001–2021 (insurgency) * 2021–present (2nd government)}} Homophobia Misogyny }} * 45,000 (2001 est.) * 11,000 (2008 est.) * 36,000 (2010 est.) * 60,000 (2014 est.) * 60,000 (2017 est. excluding 90,000 local militia and 50,000 support elements) * 75,000 (2021 est.) * 168,000 soldiers and 210,121 police forces and pro-Taliban militia (2024 self-claim)}} * War in Afghanistan * War on terror}} }}, Spotlight on Terror, The Jamestown Foundation, Volume 4, Issue 2, 23 May 2007. and Jamia Uloom-ul-Islamia * Hezb-e Islami Khalis * Haqqani Network }} The Taliban, officially known as the Islamic Movement of Taliban, also referring to itself by the name of the government it operates, the Islamic Emirate of Afghanistan, is the ruling government and religious organization of Afghanistan, as well as a militant organization with an ideology comprising elements of the Deobandi movement of Islamic fundamentalism and Pashtun nationalism."
+        },
+        {
+          "date": "2020-09-12",
+          "date_latest": "2020-09-12",
+          "date_precision": "day",
+          "text": "Regarding its relations with the rest of the world, the Taliban's Islamic Emirate held a policy of isolationism: \"The Taliban believe in non-interference in the affairs of other countries and similarly desire no outside interference in their country's internal affairs\". meeting with Taliban delegation in Doha, Qatar, on 12 September 2020]] Traditionally, the Taliban were supported by Pakistan and Saudi Arabia, while Iran, Russia, Turkey, India, Uzbekistan, Kazakhstan, Kyrgyzstan, and Tajikistan supported the anti-Taliban Northern Alliance."
+        },
+        {
+          "date": "2021-07-23",
+          "date_latest": "2021-07-23",
+          "date_precision": "day",
+          "text": "]] In mid-2021, the Taliban led a major offensive in Afghanistan during the withdrawal of US troops from the country, which gave them control of over half of Afghanistan's 421 districts as of 23 July 2021."
+        },
+        {
+          "date": "2021-08-18",
+          "date_latest": "2021-08-18",
+          "date_precision": "day",
+          "text": "Ghani's asylum was confirmed by the UAE Ministry of Foreign Affairs and International Cooperation on 18 August 2021."
+        },
+        {
+          "date": "2021-10-10",
+          "date_latest": "2021-10-10",
+          "date_precision": "day",
+          "text": "We would like to have relations with all the regional countries and neighbouring countries as well as Asian countries.\" (right) with Japanese Ambassador Takashi Okada in May 2022]] On 10 October 2021, Russia hosted the Taliban for talks in Moscow in an effort to boost its influence across Central Asia."
+        },
+        {
+          "date": "2021-11-02",
+          "date_latest": "2021-11-02",
+          "date_precision": "day",
+          "text": "On 2 November 2021, the Taliban required that all economic transactions in Afghanistan use Afghanis and banned the use of all foreign currency."
+        },
+        {
+          "date": "2022-01-23",
+          "date_latest": "2022-01-23",
+          "date_precision": "day",
+          "text": "On 23 January 2022, a Taliban delegation arrived in Oslo, and closed-door meetings were held during the Taliban's first official trip to Western Europe and second official trip to Europe since their return to power."
+        },
+        {
+          "date": "2022-01-26",
+          "date_latest": "2022-01-26",
+          "date_precision": "day",
+          "text": "However, the Afghan Foreign Minister Amir Khan Muttaqi said that the international community's call for the formation of an inclusive government was a political \"excuse\" after the 3-day Oslo visit. with Iranian Foreign Minister Hossein Amir-Abdollahian in 2023]] At the United Nations Security Council meeting in New York on 26 January 2022, Norwegian Prime Minister Jonas Gahr Støre said the Oslo talks appeared to have been \"serious\" and \"genuine\"."
+        },
+        {
+          "date": "2022-03-21",
+          "date_latest": "2022-03-21",
+          "date_precision": "day",
+          "text": "This followed the announcement by the UN Security Council Counter-Terrorism Committee that the committee would extend a travel ban exemption until 21 March 2022 for 14 listed Taliban members to continue attending talks, along with a limited asset-freeze exemption for the financing of exempted travel."
+        },
+        {
+          "date": "2022-12-20",
+          "date_latest": "2022-12-20",
+          "date_precision": "day",
+          "text": "On 20 December 2022, the Taliban banned female students from attending higher education institutions with immediate effect."
+        },
+        {
+          "date": "2022-12-21",
+          "date_latest": "2022-12-21",
+          "date_precision": "day",
+          "text": "The following day, 21 December 2022, the Taliban revoked their plans for gender-inclusive education altogether and instituted a ban on all education for all girls and women around the country, alongside a ban on female staff in schools, including teaching professions."
+        },
+        {
+          "date": "2024-04-20",
+          "date_latest": "2024-04-20",
+          "date_precision": "day",
+          "text": "On 20 April 2024, the Taliban decided to abolish Afghanistan's pension system as Hibatullah Akhundzada claimed it was \"un-Islamic\", which prompted protests by retirees and older veterans of the Afghan Armed Forces in Kabul."
+        },
+        {
+          "date": "2025-07-04",
+          "date_latest": "2025-07-04",
+          "date_precision": "day",
+          "text": "Iran, Pakistan, Turkmenistan, the Russian Federation, and China were the first countries to accept the diplomatic credentials of Taliban-appointed envoys, although this is not equivalent to official recognition. summit in Khankendi, Azerbaijan, featuring Abdul Ghani Baradar, 4 July 2025]] On 4 July 2024, the Russian president Vladimir Putin stated that the Taliban is an ally of Russia in the fight against terrorism."
+        },
+        {
+          "date": "2025-10-09",
+          "date_latest": "2025-10-09",
+          "date_precision": "day",
+          "text": "Jaishankar in New Delhi, India, 9 October 2025]] After the fall of the Assad regime in Syria, the Taliban congratulated the Syrian opposition and \"the people of Syria\", hoping for \"a peaceful, unified and stable system\"."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Taliban insurgency",
+      "pageid": 4512092,
+      "revid": 1370749591,
+      "revision_timestamp": "2026-08-22T22:10:04Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=4512092",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2006-06-06",
+          "date_latest": "2006-06-06",
+          "date_precision": "day",
+          "text": "A roadside bombing leaves 2 American soldiers killed, the attack took place in the province of Nangarhar. Also a separate suicide bombing in Khost leaves three US soldiers wounded."
+        },
+        {
+          "date": "2006-06-15",
+          "date_latest": "2006-06-15",
+          "date_precision": "day",
+          "text": "A bus carrying workers to an American base explodes killing 10 and wounding 15. The explosives were placed on the bus."
+        },
+        {
+          "date": "2006-07-01",
+          "date_latest": "2006-07-01",
+          "date_precision": "day",
+          "text": "2 British soldiers are killed when their base came under small arms fire including rocket propelled grenades."
+        },
+        {
+          "date": "2006-08-08",
+          "date_latest": "2006-08-08",
+          "date_precision": "day",
+          "text": "4 Canadian NATO soldiers are killed in two separate attacks. And a suicide bomber targeting a NATO convoy detonated, killing 21 people.{{cite web|url=https://news.yahoo.com/s/ap/20070221/ap_on_re_mi_ea/iraq;_ylt=AkT3PvuzD9oUORQyhqSEX7Vn.3QA"
+        },
+        {
+          "date": "2006-08-20",
+          "date_latest": "2006-08-20",
+          "date_precision": "day",
+          "text": "3 American soldiers are killed and another 3 are wounded in a battle with Taliban militants after a roadside bomb hit an American patrol."
+        },
+        {
+          "date": "2006-09-08",
+          "date_latest": "2006-09-08",
+          "date_precision": "day",
+          "text": "A major suicide car bombing near the US embassy in Kabul kills 18 including 2 US soldiers."
+        },
+        {
+          "date": "2006-09-10",
+          "date_latest": "2006-09-10",
+          "date_precision": "day",
+          "text": "The governor of Afghanistan's southeastern Paktia province is killed alongside his bodyguard and nephew when a suicide bomber detonates himself beside the governor's car."
+        },
+        {
+          "date": "2006-10-14",
+          "date_latest": "2006-10-14",
+          "date_precision": "day",
+          "text": "A suicide attack in Kandahar city leaves 8 dead including one NATO soldier."
+        },
+        {
+          "date": "2006-10-15",
+          "date_latest": "2006-10-15",
+          "date_precision": "day",
+          "text": "2 Canadian soldiers were killed when Taliban militants attacked NATO troops using small arms fire and rocket propelled grenades.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2006-12-06",
+          "date_latest": "2006-12-06",
+          "date_precision": "day",
+          "text": "A suicide bomber blew himself up outside a security contractor's office killing 7 including 2 Americans, the attack took place south of Afghanistan in Kandahar."
+        },
+        {
+          "date": "2006-12-19",
+          "date_latest": "2006-12-19",
+          "date_precision": "day",
+          "text": "Mullah Akhtar Muhammad Osmani, reportedly number 4 in the Taliban shura, is killed by an American airstrike in southern Afghanistan."
+        },
+        {
+          "date": "2007-01-23",
+          "date_latest": "2007-01-23",
+          "date_precision": "day",
+          "text": "A suicide bomber blew himself up outside a US base in eastern Afghanistan, killing 10 people who were waiting outside the base."
+        },
+        {
+          "date": "2007-02-02",
+          "date_latest": "2007-02-02",
+          "date_precision": "day",
+          "text": "Taliban forces raided a southern Afghan town, destroying the government center and briefly holding some elders captive."
+        },
+        {
+          "date": "2007-02-19",
+          "date_latest": "2007-02-19",
+          "date_precision": "day",
+          "text": "The Taliban briefly seized a small town in western Afghanistan after police fled the town, the Taliban forces moved in for 30 minutes and seized three vehicles."
+        },
+        {
+          "date": "2007-02-20",
+          "date_latest": "2007-02-20",
+          "date_precision": "day",
+          "text": "A suicide bomber blew himself up during an opening hospital ceremony injuring 2 NATO soldiers and a hospital worker."
+        },
+        {
+          "date": "2007-02-27",
+          "date_latest": "2007-02-27",
+          "date_precision": "day",
+          "text": "23 people were killed when a suicide bomber attacked an American military base, Bagram Airfield (BAF), in Bagram District, Parwan Province. The attack took place while US vice president Dick Cheney was in the compound. Cheney was unhurt and was the intended target of the attack as claimed by the Taliban. The dead included an American soldier, a Korean soldier, and an American contractor.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2007-03-04",
+          "date_latest": "2007-03-04",
+          "date_precision": "day",
+          "text": "A suicide bomber attacked an American convoy which left 16 civilians dead in the aftermath as the American convey begins to sporadically fire at civilian cars around them. In a separate incident, two British soldiers were killed when a Taliban rocket was fired on them during clashes in Southern Helmand Province."
+        },
+        {
+          "date": "2007-03-17",
+          "date_latest": "2007-03-17",
+          "date_precision": "day",
+          "text": "A suicide bomber targeting a Canadian military convoy left one dead and three injured, including one NATO soldier. The attack took place in Kandahar."
+        },
+        {
+          "date": "2007-03-19",
+          "date_latest": "2007-03-19",
+          "date_precision": "day",
+          "text": "A car bomb blew up near a three-vehicle US embassy convoy injuring many in the convoy."
+        },
+        {
+          "date": "2007-03-27",
+          "date_latest": "2007-03-27",
+          "date_precision": "day",
+          "text": "Four police officers were killed in the southern Helmand Province after a suicide bomber blew himself up outside a police station."
+        },
+        {
+          "date": "2007-03-29",
+          "date_latest": "2007-03-29",
+          "date_precision": "day",
+          "text": "A suicide bomber near Kabul detonated explosives close to a high-ranking Afghan intelligence official's car, killing 4 civilians."
+        },
+        {
+          "date": "2007-04-06",
+          "date_latest": "2007-04-06",
+          "date_precision": "day",
+          "text": "Karzai said that he spoke to the Taliban to bring about peace in Afghanistan. He noted that the Afghan Taliban are \"always welcome\" in Afghanistan, although foreign militants are not."
+        },
+        {
+          "date": "2007-04-09",
+          "date_latest": "2007-04-09",
+          "date_precision": "day",
+          "text": "Six Canadian soldiers were killed in southern Afghanistan when they struck a roadside bomb. A separate roadside bombing, also in south Afghanistan, left another NATO soldier dead and one wounded. In another incident, a statement from the Taliban's spokesperson claimed that they had beheaded a translator for a kidnapped Italian journalist."
+        },
+        {
+          "date": "2007-04-15",
+          "date_latest": "2007-04-15",
+          "date_precision": "day",
+          "text": "A suicide bomber struck a US-private security firm, killing four Afghans working for the company."
+        },
+        {
+          "date": "2007-04-16",
+          "date_latest": "2007-04-16",
+          "date_precision": "day",
+          "text": "A suicide bomber ran onto a police training field and detonated his explosive device, killed 10 police officers and wounded dozens of others. The attack took place in the relatively quiet city of Kunduz. The Taliban claimed responsibility for the attack."
+        },
+        {
+          "date": "2007-04-20",
+          "date_latest": "2007-04-20",
+          "date_precision": "day",
+          "text": "Separate explosions in Southern Afghanistan leave two NATO soldiers dead.{{cite web"
+        },
+        {
+          "date": "2007-04-22",
+          "date_latest": "2007-04-22",
+          "date_precision": "day",
+          "text": "A suicide bomber blew himself up in an eastern city of Afghanistan, killing six. A roadside bomb also hit an Afghan intelligence service vehicle, killing all four who were inside.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2007-04-30",
+          "date_latest": "2007-04-30",
+          "date_precision": "day",
+          "text": "Hundreds of Afghans took to the streets in western Afghanistan, accusing US soldiers of killing scores of civilians in fighting which the coalition said killed 136 Taliban in a three-week operation."
+        },
+        {
+          "date": "2007-05-13",
+          "date_latest": "2007-05-13",
+          "date_precision": "day",
+          "text": "Mullah Dadullah, the Taliban's top military commander in Afghanistan, was killed in fighting in the south."
+        },
+        {
+          "date": "2007-05-23",
+          "date_latest": "2007-05-23",
+          "date_precision": "day",
+          "text": "The Taliban's newly named top field commander, Mullah Bakht Mohammed, brother and replacement of deceased field commander Mullah Dadullah, made his first public statement, saying the Taliban will \"pursue holy war until the occupying countries leave.\""
+        },
+        {
+          "date": "2007-07-19",
+          "date_latest": "2007-07-19",
+          "date_precision": "day",
+          "text": "The South Korean hostage crisis involved the hostage taking by the Taliban of twenty-three South Korean Christian aid workers in Ghazni Province. The Taliban killed two hostages later that month. The crisis ended on 30 August with the release of the remaining hostages as part of a deal with South Korean government diplomats.",
+          "duplicate_of": "Timeline of the War in Afghanistan (2001–2021)"
+        },
+        {
+          "date": "2007-08-31",
+          "date_latest": "2007-08-31",
+          "date_precision": "day",
+          "text": "A suicide bomber detonated his explosive-laden vehicle after ramming three military vehicles at the military gate of Kabul International Airport. Two Afghan soldiers were killed and ten people were injured."
+        },
+        {
+          "date": "2007-09-29",
+          "date_latest": "2007-09-29",
+          "date_precision": "day",
+          "text": "In an effort to reach a compromise with the Taliban leaders, Karzai suggested quid quo pro by allowing militants to have a place in government if they stopped fighting. Taliban leaders replied by saying there would be no compromise unless intervening forces such as NATO and the US left."
+        },
+        {
+          "date": "2007-11-02",
+          "date_latest": "2007-11-02",
+          "date_precision": "day",
+          "text": "Mawlawi Abdul Manan, an important Taliban figure, was killed by Afghan Security forces. His death was confirmed by the Taliban."
+        },
+        {
+          "date": "2008-02-24",
+          "date_latest": "2008-02-24",
+          "date_precision": "day",
+          "text": "Poor military intelligence leads to conflicted reports of a possible Taliban spring offensive."
+        },
+        {
+          "date": "2008-08-19",
+          "date_latest": "2008-08-19",
+          "date_precision": "day",
+          "text": "Taliban forces kill 9 French troops (with a 10th death in an accident) near Kabul."
+        },
+        {
+          "date": "2008-10-06",
+          "date_latest": "2008-10-06",
+          "date_precision": "day",
+          "text": "CNN reported that, via Saudi intermediaries, the Taliban is negotiating to end the conflict in Afghanistan, and that the Taliban has split from Al Qaeda."
+        },
+        {
+          "date": "2008-12-07",
+          "date_latest": "2008-12-07",
+          "date_precision": "day",
+          "text": "200 Taliban armed with RPGs and automatic weapons attack two NATO supply depots outside of Peshawar destroying 100 vehicles packed with supplies intended to support the NATO effort in Afghanistan."
+        },
+        {
+          "date": "2008-12-08",
+          "date_latest": "2008-12-08",
+          "date_precision": "day",
+          "text": "200 Taliban armed with RPGs and automatic weapons attack a NATO supply depot outside of Peshawar destroying 53 container trucks packed with supplies intended to support the NATO effort in Afghanistan.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2009-06-30",
+          "date_latest": "2009-06-30",
+          "date_precision": "day",
+          "text": "US Army Private First Class soldier Bowe R. Bergdahl is captured by the Taliban in Southern Afghanistan."
+        },
+        {
+          "date": "2009-07-18",
+          "date_latest": "2009-07-18",
+          "date_precision": "day",
+          "text": "The Taliban release a video showing Bergdahl being interviewed by one of his captors."
+        },
+        {
+          "date": "2009-08-12",
+          "date_latest": "2009-08-12",
+          "date_precision": "day",
+          "text": "Taliban spokesmen threaten the public not to vote in the upcoming presidential elections.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2009-08-15",
+          "date_latest": "2009-08-15",
+          "date_precision": "day",
+          "text": "2009 NATO Afghanistan headquarters bombing"
+        },
+        {
+          "date": "2009-08-25",
+          "date_latest": "2009-08-25",
+          "date_precision": "day",
+          "text": "A massive car bomb shakes Kandahar, killing at least 30 and wounding dozens as buildings collapse in the city's center. The attack comes after the first results of the presidential elections were announced. Four US soldiers die in an IED explosion in southern Afghanistan bringing ISAF losses to 295, eclipsing 2008's coalition death toll of 294."
+        },
+        {
+          "date": "2009-09-04",
+          "date_latest": "2009-09-04",
+          "date_precision": "day",
+          "text": "US airstrike on two fuel tankers kill at least 70 people in Farah Province after it was hijacked by Taliban militants. Angry relatives of those killed claim civilians were collecting fuel from the tankers when the airstrike came."
+        },
+        {
+          "date": "2010-02-26",
+          "date_latest": "2010-02-26",
+          "date_precision": "day",
+          "text": "Militants target hotels and guest houses in Kabul. Up to nine Indians, an Italian diplomat and a French film maker were among the dead in the worst assault on the Afghan capital for several months. A four-hour battle began with a car bombing and included suicide bombers and Taliban fighters throwing grenades. The attacks appeared to be aimed at Indian government officials and medical workers. Three Afghan police were killed, and six more officers were among the 38 people wounded in what was described as a well-planned and co-ordinated attack."
+        },
+        {
+          "date": "2010-08-06",
+          "date_latest": "2010-08-06",
+          "date_precision": "day",
+          "text": "killing of 10 members of a Christian charity's medical team in the mountains of Badakhshan."
+        },
+        {
+          "date": "2010-08-10",
+          "date_latest": "2010-08-10",
+          "date_precision": "day",
+          "text": "Amnesty International states that the International Criminal Court should open a formal investigation into crimes committed by the Taliban and other insurgent groups in Afghanistan."
+        },
+        {
+          "date": "2011-01-29",
+          "date_latest": "2011-01-29",
+          "date_precision": "day",
+          "text": "The deputy governor of Kandahar was killed in a suicide attack. Three months later, on 15 April the Kandahar chief police, General Khan Mohammed Mujahid was killed."
+        },
+        {
+          "date": "2011-05-28",
+          "date_latest": "2011-05-28",
+          "date_precision": "day",
+          "text": "The Taliban assassinated one of their main opponents, Mohammed Daud, in a bomb attack. Six others were also killed. He was the chief of the police for the northern of Afghanistan."
+        },
+        {
+          "date": "2011-07-18",
+          "date_latest": "2011-07-18",
+          "date_precision": "day",
+          "text": "President Karzai's advisor, Jan Mohammad Khan, was assassinated in Kabul by the Taliban in an attack that also killed an Afghan deputy."
+        },
+        {
+          "date": "2011-07-19",
+          "date_latest": "2011-07-19",
+          "date_precision": "day",
+          "text": "ISAF General Chief David Petraeus left his position with mixed results. During his time as the head of ISAF, 3775 insurgents were killed or captured in 2832 raids while 713 NATO soldiers were killed. Overall the level of violence in the country increased. He was replaced by General John Allen."
+        },
+        {
+          "date": "2011-07-24",
+          "date_latest": "2011-07-24",
+          "date_precision": "day",
+          "text": "A US military investigation discovered that a portion of the 2 billion dollars in funds given by the United States in contracts had fallen in the hands of the insurgency."
+        },
+        {
+          "date": "2011-07-27",
+          "date_latest": "2011-07-27",
+          "date_precision": "day",
+          "text": "The mayor of Kandahar, Ghulam Haidar Hameedi, was killed in a suicide attack."
+        },
+        {
+          "date": "2011-07-28",
+          "date_latest": "2011-07-28",
+          "date_precision": "day",
+          "text": "Suicide bombers and snipers attacked the police headquarters of Tarin Kowt in a large-scale attack which killed more than 21 people including Afghan reporter Ahmed Omed Khpulwak. According to the Afghan interior minister, for the 2-year period between 19 March 2009 and 19 March 2011, 2770 Afghan policemen were killed and 4785 wounded while 1052 Afghan soldiers were killed and 2413 wounded."
+        },
+        {
+          "date": "2011-07-31",
+          "date_latest": "2011-07-31",
+          "date_precision": "day",
+          "text": "10 Afghan policemen were killed in a suicide attack in Lashkar Gah where Afghan security forces had taken over from NATO a week before. The same day, 10 Afghan guards who were protecting a NATO supplies convoy were killed in the attack. One day before, 5 Afghans soldiers and 2 NATO soldiers were killed in a bomb attack on their patrol."
+        },
+        {
+          "date": "2011-08-06",
+          "date_latest": "2011-08-06",
+          "date_precision": "day",
+          "text": "31 American Special Forces soldiers were killed in the crash of their helicopter probably shot down during a fight with the Taliban. Seven Afghan soldiers were also killed. This was the biggest death toll for NATO troops in the whole war. Most of the American soldiers killed were Navy SEALs."
+        },
+        {
+          "date": "2011-08-07",
+          "date_latest": "2011-08-07",
+          "date_precision": "day",
+          "text": "4 NATO soldiers were killed, including two French Foreign Legion members, and 5 others were wounded."
+        },
+        {
+          "date": "2013-01-06",
+          "date_latest": "2013-01-06",
+          "date_precision": "day",
+          "text": "Suicide bombers kill four in an attack in Spin Boldak."
+        },
+        {
+          "date": "2013-01-16",
+          "date_latest": "2013-01-16",
+          "date_precision": "day",
+          "text": "The Afghan National Directorate of Security headquarters in Kabul are attacked by a team of suicide bombers, leaving a security guard dead and 17 others injured."
+        },
+        {
+          "date": "2013-01-26",
+          "date_latest": "2013-01-26",
+          "date_precision": "day",
+          "text": "A suicide bombing at a market in Kunduz kills at least ten people and wounds up to twenty others."
+        },
+        {
+          "date": "2013-01-27",
+          "date_latest": "2013-01-27",
+          "date_precision": "day",
+          "text": "At least twenty members of the Afghan National Police have been killed in bomb attacks over the past day with eight police officers killed in the latest attack in Kandahar."
+        },
+        {
+          "date": "2013-02-27",
+          "date_latest": "2013-02-27",
+          "date_precision": "day",
+          "text": "Taliban insurgents kill 17 Afghan government-affiliated militia personnel in an overnight attack in Andar District of eastern Ghazni Province."
+        },
+        {
+          "date": "2013-03-11",
+          "date_latest": "2013-03-11",
+          "date_precision": "day",
+          "text": "Two US and three Afghan soldiers are killed in Wardak Province in the latest insider attack against coalition forces. In a separate incident, two Afghan civilians are shot dead by American soldiers after failing to stop at a checkpoint near Kabul."
+        },
+        {
+          "date": "2013-03-13",
+          "date_latest": "2013-03-13",
+          "date_precision": "day",
+          "text": "A suicide bomber kills 10 spectators, including the district police chief, during a local gaming event in Kunduz province of northern Afghanistan."
+        },
+        {
+          "date": "2013-04-03",
+          "date_latest": "2013-04-03",
+          "date_precision": "day",
+          "text": "more than 46 people are killed and more than 100 injured following an attack by Taliban militants armed with suicide vests on a courthouse in Farah."
+        },
+        {
+          "date": "2013-04-05",
+          "date_latest": "2013-04-05",
+          "date_precision": "day",
+          "text": "An explosive-laden donkey is used in an attack on a police security post in the Alingar District of Laghman Province in eastern Afghanistan, killing a policeman and wounding three civilians."
+        },
+        {
+          "date": "2013-04-06",
+          "date_latest": "2013-04-06",
+          "date_precision": "day",
+          "text": "A bombing in Qalat, capital of the southern Kabul Province, kills three U.S. soldiers and two U.S. civilians, along with an Afghan doctor. An American civilian dies in another attack in the east of the country."
+        },
+        {
+          "date": "2013-04-12",
+          "date_latest": "2013-04-12",
+          "date_precision": "day",
+          "text": "Thirteen soldiers of the Afghan National Army are killed and one is injured in an ambush in the eastern Kunar Province."
+        },
+        {
+          "date": "2013-04-26",
+          "date_latest": "2013-04-26",
+          "date_precision": "day",
+          "text": "At least 30 people die in southern Afghanistan after a bus crashes into the wreckage of a truck attacked by Taliban insurgents."
+        },
+        {
+          "date": "2013-04-26",
+          "date_latest": "2013-04-26",
+          "date_precision": "day",
+          "text": "Six police officers are poisoned and fatally shot in Kunduz Province while another one is missing."
+        },
+        {
+          "date": "2013-04-29",
+          "date_latest": "2013-04-29",
+          "date_precision": "day",
+          "text": "A Boeing 747 crashes near an American military base in Bagram, killing all seven American crew members on board."
+        },
+        {
+          "date": "2013-04-30",
+          "date_latest": "2013-04-30",
+          "date_precision": "day",
+          "text": "A roadside bomb kills three members of NATO's ISAF force in Afghanistan."
+        },
+        {
+          "date": "2013-05-04",
+          "date_latest": "2013-05-04",
+          "date_precision": "day",
+          "text": "Five US soldiers are killed when a bomb detonates in Kandahar. Additionally, three more soldiers are killed in separate incidents. In Farah Province two US Marines and a military working dog are killed in an insider attack by a member of the ANA."
+        },
+        {
+          "date": "2013-05-06",
+          "date_latest": "2013-05-06",
+          "date_precision": "day",
+          "text": "An Afghan border police guard is killed and two Pakistani troops are injured in border violence."
+        },
+        {
+          "date": "2013-05-14",
+          "date_latest": "2013-05-14",
+          "date_precision": "day",
+          "text": "The Taliban kills four US soldiers in Kandahar Province."
+        },
+        {
+          "date": "2013-05-16",
+          "date_latest": "2013-05-16",
+          "date_precision": "day",
+          "text": "A suicide bomber killed 15 people including two US soldiers and four NATO employees in Kabul. The explosion also wounded 39 people."
+        },
+        {
+          "date": "2013-05-24",
+          "date_latest": "2013-05-24",
+          "date_precision": "day",
+          "text": "Afghan security forces battle Taliban insurgents in central Kabul. An Afghan policeman, a Nepalese soldier, and numerous insurgents are killed."
+        },
+        {
+          "date": "2013-06-02",
+          "date_latest": "2013-06-02",
+          "date_precision": "day",
+          "text": "Taliban insurgents attack two checkpoints in the Kamdesh District in eastern Afghanistan killing four Afghan police officers."
+        },
+        {
+          "date": "2013-06-03",
+          "date_latest": "2013-06-03",
+          "date_precision": "day",
+          "text": "A suicide bombing in eastern Afghanistan kills at least 20 people, including 10 children."
+        },
+        {
+          "date": "2013-06-10",
+          "date_latest": "2013-06-10",
+          "date_precision": "day",
+          "text": "Seven heavily armed Taliban militants launch a coordinated attack near the main international airport of Kabul and seize a five-story building under construction nearby. Afghan security forces retake the building, killing all seven militants and sustaining no military or civilian casualties."
+        },
+        {
+          "date": "2013-06-11",
+          "date_latest": "2013-06-11",
+          "date_precision": "day",
+          "text": "A bomb detonates near the Afghan Supreme Court killing eight people and wounding dozens."
+        },
+        {
+          "date": "2013-06-25",
+          "date_latest": "2013-06-25",
+          "date_precision": "day",
+          "text": "Taliban forces attack near the Presidential Palace in Kabul.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-07-02",
+          "date_latest": "2013-07-02",
+          "date_precision": "day",
+          "text": "Militants attack NATO headquarters in the north of Kabul resulting in at least two deaths."
+        },
+        {
+          "date": "2013-07-09",
+          "date_latest": "2013-07-09",
+          "date_precision": "day",
+          "text": "Seventeen people are killed by a roadside bomb."
+        },
+        {
+          "date": "2013-07-23",
+          "date_latest": "2013-07-23",
+          "date_precision": "day",
+          "text": "A bomb kills eight people in Awardak Province, including three United States Army soldiers, four Afghan National Army soldiers and an Afghan interpreter.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-08-03",
+          "date_latest": "2013-08-03",
+          "date_precision": "day",
+          "text": "Nine children die in a suicide bombing near the Indian consulate in Jalalabad."
+        },
+        {
+          "date": "2013-08-05",
+          "date_latest": "2013-08-05",
+          "date_precision": "day",
+          "text": "A bomb explodes at a market in Kandahar, killing at least four people."
+        },
+        {
+          "date": "2013-08-08",
+          "date_latest": "2013-08-08",
+          "date_precision": "day",
+          "text": "A bomb explodes at a cemetery in Nangarhar Province, killing at least 14 people.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-08-11",
+          "date_latest": "2013-08-11",
+          "date_precision": "day",
+          "text": "Three U.S. soldiers are killed in an attack in Paktia province.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-08-23",
+          "date_latest": "2013-08-23",
+          "date_precision": "day",
+          "text": "A routine joint patrol composed of British paratroopers, US Marines and Afghan soldiers targeted a village to search for illegal weapons in Helmand Province. After insertion by a Chinook helicopter, the patrol was ambushed by the Taliban, the resulting skirmish lasted approximately 45 minutes which killed 11 insurgents and wounded four more, a US Marine officer was also wounded, one soldier was awarded the Victoria Cross.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-09-08",
+          "date_latest": "2013-09-08",
+          "date_precision": "day",
+          "text": "The Taliban kills four Afghan National Army troops in an attack on an intelligence office near Kabul."
+        },
+        {
+          "date": "2013-09-13",
+          "date_latest": "2013-09-13",
+          "date_precision": "day",
+          "text": "Taliban insurgents attack the United States consulate in Herat, with two members of the Afghan National Police reported as killed and about 20 civilians injured."
+        },
+        {
+          "date": "2013-10-15",
+          "date_latest": "2013-10-15",
+          "date_precision": "day",
+          "text": "A bomb in a mosque in Logar Province kills the governor Arsala Jamal and results in other injuries."
+        },
+        {
+          "date": "2013-10-27",
+          "date_latest": "2013-10-27",
+          "date_precision": "day",
+          "text": "A roadside bomb in eastern Afghanistan kills 18 people.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2013-11-16",
+          "date_latest": "2013-11-16",
+          "date_precision": "day",
+          "text": "Suicide car bombing in Kabul kills six people and injures twenty."
+        },
+        {
+          "date": "2013-12-23",
+          "date_latest": "2013-12-23",
+          "date_precision": "day",
+          "text": "Captain Richard Holloway of the Special Boat Service was killed by Taliban gunfire whilst on a joint SBS-Afghan forces raid (with air support) on Taliban insurgents in a valley east of Kabul, ahead of the Afghanistan elections."
+        },
+        {
+          "date": "2013-12-27",
+          "date_latest": "2013-12-27",
+          "date_precision": "day",
+          "text": "A suicide bomber attacks a foreign military convoy on the eastern outskirts of Kabul, killing at least three foreign soldiers, police and the NATO-led International Security Assistance Force."
+        },
+        {
+          "date": "2014-01-06",
+          "date_latest": "2014-01-06",
+          "date_precision": "day",
+          "text": "A suicide car bomber detonates at a police checkpoint in Ghazni Province, killing three police officers."
+        },
+        {
+          "date": "2014-01-08",
+          "date_latest": "2014-01-08",
+          "date_precision": "day",
+          "text": "A book released by former U.S. Defense Secretary Robert Gates criticizes President Barack Obama for his handling of the War in Afghanistan."
+        },
+        {
+          "date": "2014-01-09",
+          "date_latest": "2014-01-09",
+          "date_precision": "day",
+          "text": "The government of Afghanistan announces the release of 72 Taliban fighters from jails, despite American objections that they pose a security threat."
+        },
+        {
+          "date": "2014-01-11",
+          "date_latest": "2014-01-11",
+          "date_precision": "day",
+          "text": "A four-year-old Afghan boy is killed by U.S. troops."
+        },
+        {
+          "date": "2014-01-17",
+          "date_latest": "2014-01-17",
+          "date_precision": "day",
+          "text": "Twenty-one people are killed in a suicide bombing attack on a Kabul restaurant."
+        },
+        {
+          "date": "2014-01-26",
+          "date_latest": "2014-01-26",
+          "date_precision": "day",
+          "text": "A suicide bomber attacks an army bus in Kabul, killing two soldiers and two civilians."
+        },
+        {
+          "date": "2014-02-10",
+          "date_latest": "2014-02-10",
+          "date_precision": "day",
+          "text": "A car bomb detonates in Kabul, killing two contractors working with ISAF."
+        },
+        {
+          "date": "2014-02-18",
+          "date_latest": "2014-02-18",
+          "date_precision": "day",
+          "text": "A suicide bombing attack in Kabul kills at least two people.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2014-02-24",
+          "date_latest": "2014-02-24",
+          "date_precision": "day",
+          "text": "Senior Taliban commander Asmatullah Shaheen Bhittani is killed in Khyber Pakhtunkhwa."
+        },
+        {
+          "date": "2014-03-11",
+          "date_latest": "2014-03-11",
+          "date_precision": "day",
+          "text": "Gunmen in Kabul kill Swedish Radio foreign correspondent Nils Horner."
+        },
+        {
+          "date": "2014-03-12",
+          "date_latest": "2014-03-12",
+          "date_precision": "day",
+          "text": "Three Taliban insurgents are killed by a team of Afghan police and private commandos after attacking a former National Directorate of Security headquarters in Kandahar. The Taliban claims they killed four commandos and five policemen, which police deny."
+        },
+        {
+          "date": "2014-03-18",
+          "date_latest": "2014-03-18",
+          "date_precision": "day",
+          "text": "A suicide rickshaw bomber detonates in a marketplace in Maymana, killing 15 people and wounding dozens."
+        },
+        {
+          "date": "2014-04-02",
+          "date_latest": "2014-04-02",
+          "date_precision": "day",
+          "text": "A suicide bomber wearing a military uniform strikes a voter registration office in Kabul, killing six police officers."
+        },
+        {
+          "date": "2014-04-04",
+          "date_latest": "2014-04-04",
+          "date_precision": "day",
+          "text": "Two members of the Associated Press are shot by an Afghan wearing a police uniform in Khost. One of them, Pulitzer Prize winner and photojournalist Anja Niedringhaus, is killed. The other is seriously injured."
+        },
+        {
+          "date": "2014-05-08",
+          "date_latest": "2014-05-08",
+          "date_precision": "day",
+          "text": "A roadside bomb near the Afghan border in North Waziristan, Pakistan, kills eight Pakistani soldiers."
+        },
+        {
+          "date": "2014-05-21",
+          "date_latest": "2014-05-21",
+          "date_precision": "day",
+          "text": "The Taliban launch attacks in Badakhshan and Laghman provinces, killing 10 policemen and three civilians."
+        },
+        {
+          "date": "2014-05-23",
+          "date_latest": "2014-05-23",
+          "date_precision": "day",
+          "text": "Gunmen attack the Indian consulate in Herat Province."
+        },
+        {
+          "date": "2014-06-09",
+          "date_latest": "2014-06-09",
+          "date_precision": "day",
+          "text": "Five NATO International Security Assistance Force troops are killed in fighting the Taliban."
+        },
+        {
+          "date": "2014-07-02",
+          "date_latest": "2014-07-02",
+          "date_precision": "day",
+          "text": "A suicide bomber attacks an Afghan National Army air force bus in Kabul killing at least five people.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2014-07-08",
+          "date_latest": "2014-07-08",
+          "date_precision": "day",
+          "text": "The Taliban claims responsibility for an attack in central Afghanistan that claims the lives of 10 civilians, four Czech members of the International Security Assistance Force and two Afghan police officers."
+        },
+        {
+          "date": "2014-07-12",
+          "date_latest": "2014-07-12",
+          "date_precision": "day",
+          "text": "A cross border attack by the Afghan Taliban kills three Pakistan Army soldiers in Bajaur Agency of the Federally Administered Tribal Areas."
+        },
+        {
+          "date": "2014-07-15",
+          "date_latest": "2014-07-15",
+          "date_precision": "day",
+          "text": "A car bomb explodes at a market in the eastern Afghanistan province of Paktika, killing at least 89 people and injuring scores more in one of the deadliest attacks of the war."
+        },
+        {
+          "date": "2014-07-17",
+          "date_latest": "2014-07-17",
+          "date_precision": "day",
+          "text": "Explosions and gunfire are reported near Kabul International Airport as militants temporarily capture a building under construction."
+        },
+        {
+          "date": "2014-07-22",
+          "date_latest": "2014-07-22",
+          "date_precision": "day",
+          "text": "A Taliban suicide bomber blows himself up outside Kabul International Airport, killing three foreign advisers and an Afghan interpreter."
+        },
+        {
+          "date": "2014-07-24",
+          "date_latest": "2014-07-24",
+          "date_precision": "day",
+          "text": "In Herat, two Finnish women working for a foreign aid organization are shot and killed."
+        },
+        {
+          "date": "2014-07-25",
+          "date_latest": "2014-07-25",
+          "date_precision": "day",
+          "text": "Afghan insurgents killed 17 Shia civilians travelling from Kabul."
+        },
+        {
+          "date": "2014-07-26",
+          "date_latest": "2014-07-26",
+          "date_precision": "day",
+          "text": "Insurgents stop minibuses in Ghōr Province and execute 14 Shiite Muslims."
+        },
+        {
+          "date": "2014-07-29",
+          "date_latest": "2014-07-29",
+          "date_precision": "day",
+          "text": "A suicide bomber kills Hashmat Karzai, the cousin of the President of Afghanistan and a regional powerbroker, in the city of Kandahar."
+        },
+        {
+          "date": "2014-08-05",
+          "date_latest": "2014-08-05",
+          "date_precision": "day",
+          "text": "A U.S. major general Harold J. Greene is killed, and a German brigadier general and several American troops are among the 15 wounded, in an attack by an Afghan soldier gunman – who was killed by Afghan soldiers – at Kabul's Marshal Fahim National Defense University."
+        },
+        {
+          "date": "2014-08-14",
+          "date_latest": "2014-08-14",
+          "date_precision": "day",
+          "text": "A roadside bomb detonates next to a police car in Laghman Province, killing three police officers and injuring another four.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2014-08-30",
+          "date_latest": "2014-08-30",
+          "date_precision": "day",
+          "text": "Taliban insurgents attack the National Directorate of Security building in Jalalabad resulting in at least six deaths."
+        },
+        {
+          "date": "2014-09-08",
+          "date_latest": "2014-09-08",
+          "date_precision": "day",
+          "text": "A suicide bomb attack kills the police chief of southern Kandahar Province."
+        },
+        {
+          "date": "2014-09-16",
+          "date_latest": "2014-09-16",
+          "date_precision": "day",
+          "text": "A large bomb explodes in Kabul resulting in the death of three international troops (including a U.S Army Major) and five injuries."
+        },
+        {
+          "date": "2014-09-30",
+          "date_latest": "2014-09-30",
+          "date_precision": "day",
+          "text": "A double suicide attack killed seven people and wounded 21 others including Afghan soldiers in Kabul."
+        },
+        {
+          "date": "2014-10-01",
+          "date_latest": "2014-10-01",
+          "date_precision": "day",
+          "text": "Taliban suicide bombers attack an Afghan National Army convoy in Kabul, killing at least seven people and injuring 19."
+        },
+        {
+          "date": "2014-10-08",
+          "date_latest": "2014-10-08",
+          "date_precision": "day",
+          "text": "A suicide bomber kills at least four people and wounds 16 in Helmand province."
+        },
+        {
+          "date": "2014-10-13",
+          "date_latest": "2014-10-13",
+          "date_precision": "day",
+          "text": "A Taliban attack killed 22 Afghan military in northern Afghanistan"
+        },
+        {
+          "date": "2014-10-21",
+          "date_latest": "2014-10-21",
+          "date_precision": "day",
+          "text": "A Kabul roadside bomb kills at least four Afghan National Security Force soldiers with six other soldiers and six civilians injured."
+        },
+        {
+          "date": "2014-11-10",
+          "date_latest": "2014-11-10",
+          "date_precision": "day",
+          "text": "Ten policemen, including a commander, are killed by bomb blasts in Jalalabad and Logar Province."
+        },
+        {
+          "date": "2014-11-18",
+          "date_latest": "2014-11-18",
+          "date_precision": "day",
+          "text": "A suicide bomber attacks in Kabul and kills at least two people.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2014-11-27",
+          "date_latest": "2014-11-27",
+          "date_precision": "day",
+          "text": "A suicide attack in Kabul killed six people including a Briton.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2014-12-01",
+          "date_latest": "2014-12-01",
+          "date_precision": "day",
+          "text": "A suicide bomb kills at least nine, including two policemen, at a funeral for a tribal elder in Baghlan Province."
+        },
+        {
+          "date": "2014-12-11",
+          "date_latest": "2014-12-11",
+          "date_precision": "day",
+          "text": "A Taliban suicide bomber kills at least six Afghan National Army soldiers in Tangi Tarakhil on the outskirts of Kabul."
+        },
+        {
+          "date": "2014-12-13",
+          "date_latest": "2014-12-13",
+          "date_precision": "day",
+          "text": "Assassination of Atiqullah Raufi."
+        },
+        {
+          "date": "2016-05-31",
+          "date_latest": "2016-05-31",
+          "date_precision": "day",
+          "text": "kidnapping a bus with 220 people, killing 10"
+        },
+        {
+          "date": "2016-06-01",
+          "date_latest": "2016-06-30",
+          "date_precision": "month",
+          "text": "Taliban have 25,000 fighters in Helmand, Kandahar and Uruzgan, according to US sources"
+        },
+        {
+          "date": "2016-07-01",
+          "date_latest": "2016-07-31",
+          "date_precision": "month",
+          "text": "20% of Afghanistan is in Taliban hands, said Time magazine"
+        },
+        {
+          "date": "2016-12-01",
+          "date_latest": "2016-12-31",
+          "date_precision": "month",
+          "text": "Taliban controls 10% of Afghanistan, said the US military.",
+          "duplicate_of": "Taliban insurgency"
+        },
+        {
+          "date": "2016-12-31",
+          "date_latest": "2016-12-31",
+          "date_precision": "day",
+          "text": "Withdrawal of the majority of U.S. troops from Afghanistan after 15 years of war."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "War in Afghanistan (2001–2021)",
+      "pageid": 19666611,
+      "revid": 1368236004,
+      "revision_timestamp": "2026-08-07T21:35:05Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=19666611",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2001-09-11",
+          "date_latest": "2001-09-11",
+          "date_precision": "day",
+          "text": ", September 2001]] On the morning of 11 September 2001 (9/11), 19 members of al-Qaeda carried out coordinated attacks in the United States by hijacking four commercial airliners. The hijackers intentionally crashed two of them into the World Trade Center in New York City. The center collapsed as a result. The hijackers crashed a third airliner into the Pentagon in Arlington, Virginia. The fourth plane, which had been targeted at Washington, D.C., crashed into a field in Pennsylvania. No one aboard the four flights survived. Total deaths were 2,996, including the 19 hijackers. Osama bin Laden planned and coordinated the attacks, and the US desire to hold him accountable became the casus belli for invasion. After the invasion was declared, bin Laden sought, successfully, to draw the US into an extended war similar to that fought against the Soviets. The Taliban publicly condemned 9/11. They also greatly underestimated the US' willingness to go to war. The US was mistaken in its belief that the Taliban and al-Qaeda were almost inseparable when, in fact, they had very different goals and leaders."
+        },
+        {
+          "date": "2001-09-11",
+          "date_latest": "2001-09-11",
+          "date_precision": "day",
+          "text": "Immediately after 9/11, the US National Security Council agreed that military action would probably have to be taken against al-Qaeda and the Taliban. However, Bush decided to issue an ultimatum to the Taliban first, demanding that the Taliban hand over bin Laden, \"close immediately every terrorist training camp, hand over every terrorist and their supporters, and give the US full access to terrorist training camps for inspection.\" The same day, religious scholars met in Kabul, deciding that bin Laden should be surrendered; however, Taliban founder Mullah Omar decided that \"turning over Osama would only be a disgrace for us and Islamic thought and belief would be a weakness\", and that the US would continue making demands after surrendering bin Laden, who he claimed was innocent. The Taliban refused the ultimatum, saying that Osama bin Laden was protected by the traditional Pashtun laws of hospitality. In the weeks ahead and at the beginning of the US and NATO invasion of Afghanistan, the Taliban demanded evidence of bin Laden's guilt but subsequently offered to hand him over to a third country if the US stopped its bombing and provided evidence of his guilt. A Bush administration official later stated that their demands were \"not subject to negotiation\" and that it was \"time for the Taliban to act now.\" Covert US military action began soon after, and the war started officially on 7 October 2001.",
+          "names_later_date": true
+        },
+        {
+          "date": "2001-09-11",
+          "date_latest": "2001-09-11",
+          "date_precision": "day",
+          "text": "The war contained two main factions: the Coalition, which included the US and its allies (eventually supporting the government of the Islamic Republic of Afghanistan), fighting against the Taliban, its allies, and its militias. Complicating the fight were Taliban splinter groups and other, more radical religious groups such as al-Qaeda, and later, the Islamic State. These radical groups sometimes fought for the Taliban, sometimes fought for their own goals, and sometimes fought against both the Taliban and the government. Afghanistan is a rural country; in 2020, some 80% of its 33 million people lived in the countryside. This predisposes warfare to rural areas, and provides ample hiding spots for guerrilla fighters. The country also has harsh winters, which favors spring or summertime military offensives after winter lulls in fighting. Afghanistan is 99.7% Muslim, which affected the ideology of both the Taliban and the Afghan government. Centuries of foreign invasion by non-Muslims cemented the religious nature of resisting outsiders and the Afghan identity. Local religious leaders (mullahs) could influence the population as much as the government. Mullahs have traditionally been important in prescribing resistance to outsiders through calls for holy war or jihad. Afghanistan is a largely tribal society, and this significantly influences Afghan society and politics. Tribalism is largely a source of division, unlike Islam. Pashtuns are the largest ethnic group in Afghanistan, comprising between 38% and 50% of the population. Pashtunwali, the traditional way of life for the Pashtuns, guided most tribal decision making. Tribal unity was often weak as well due to Pashtunwali's method of dealing with feuds. Traditionally, Afghan leaders have depended on tribes to keep order in rural areas because without their cooperation the state was often ineffective and weak. Afghans were more loyal to their own community and tribe, not the state, which meant that tribes would align with either the Taliban or the Government as was most beneficial. The significant difference in power between high-tech Coalition militaries and the guerrilla Taliban led to asymmetric warfare. Owing to their roots in the anti-Soviet mujahideen, the Taliban carried on the guerrilla tactics developed in the 1980s. The mujahideen operated in small cadres of 10 to 50 men, armed with a combination of outdated and (usually looted) modern weapons. The Taliban increasingly used guerrilla tactics such as suicide, car and roadside bombs (IEDs), and targeted assassinations. By 2009, IEDs had become the Taliban's weapon of choice. The Taliban also used insider attacks as the war drew on, by planting personnel in the Afghan military and police forces."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

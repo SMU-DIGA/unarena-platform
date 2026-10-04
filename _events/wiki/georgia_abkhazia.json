@@ -1,0 +1,498 @@
+{
+  "topic": "georgia_abkhazia",
+  "label": "Georgia, Abkhazia and South Ossetia",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 69,
+  "flagged_vote_language": 3,
+  "flagged_names_later_date": 6,
+  "vague_dated_segments": 28,
+  "cross_article_duplicates": 3,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Abkhazia conflict",
+      "pageid": 1243011,
+      "revid": 1370812694,
+      "revision_timestamp": "2026-08-23T05:39:44Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=1243011",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "On August 10, 2008, the Russo-Georgian War spread to Abkhazia, where separatist rebels and the Russian air force launched an all-out attack on Georgian forces. Abkhazia's pro-Moscow separatist President Sergei Bagapsh said that his troops had launched a major \"military operation\" to force Georgian troops out of the Kodori Gorge, which they still controlled. As a result of this attack, Georgian troops were driven out of Abkhazia entirely. On August 26, 2008, the Russian Federation officially recognized both South Ossetia and Abkhazia as independent states."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Georgian–Ossetian conflict",
+      "pageid": 1550334,
+      "revid": 1370620928,
+      "revision_timestamp": "2026-08-22T03:31:22Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1550334",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2006-10-01",
+          "date_latest": "2006-10-31",
+          "date_precision": "month",
+          "text": "On 31 October 2006, the South Ossetian police reported a skirmish in the Java, Georgia district, in which they killed a group of 4 men. The weapons seized from the group included assault rifles, guns, grenade launchers, grenades and explosive devices. Other items found in the militants' possession included extremist Wahhabi literature, maps of Java district and sets of Russian peacekeeping uniforms. Those findings led the South Ossetian authorities to conclude that the militants were planning to carry out acts of sabotage and terrorist attacks. The South Ossetian authorities identified the men as Chechens from Georgia's Pankisi Gorge. South Ossetia accused Georgia of hiring the Chechen mercenaries to carry out terrorist attacks in the region. The Georgian side flatly denied its involvement in the incident. Shota Khizanishvili, a spokesperson for the Georgian Interior Ministry, supposed that the incident could be connected to \"internal conflicts in South Ossetia\"."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Russo-Georgian War",
+      "pageid": 18762503,
+      "revid": 1371976175,
+      "revision_timestamp": "2026-08-29T17:41:58Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=18762503",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2008-04-01",
+          "date_latest": "2008-04-30",
+          "date_precision": "month",
+          "text": "On 16 April 2008, official ties between the Russian authorities and the separatists in Abkhazia and South Ossetia were sanctioned by an order of Russian president Vladimir Putin. The separatist-authored legislative documents and the separatist-accredited bodies were also recognised. After a United Nations Security Council session on 23 April convened at Georgia's demand, the United States, the United Kingdom, France and Germany stated in a declaration: \"We call on the Russian Federation to revoke or not to implement its decision.\" However, this was labelled a \"tall order\" by Vitaly Churkin, Russian Ambassador to the UN. A Georgian reconnaissance drone flying over Abkhazia was shot down by a Russian warplane on 20 April. However, Russia denied responsibility for the incident and Abkhazia claimed that an \"L-39 aircraft of the Abkhaz Air Force\" shot down the UAV. An allegation of an attack by a NATO MiG-29 was made by the Russian Ambassador to NATO, Dmitry Rogozin. NATO Secretary General Jaap de Hoop Scheffer commented that \"he'd eat his tie if it turned out that a NATO MiG-29 had magically appeared in Abkhazia and shot down a Georgian drone.\" On 26 May, a United Nations Observer Mission in Georgia (UNOMIG) inquiry concluded that the Russian warplane, either a MiG-29 \"Fulcrum\" or a Su-27 \"Flanker\", was responsible for the downing. In late April, the Russian government said that Georgia was assembling 1,500 troops and policemen in the upper Kodori Gorge area and was planning to \"invade\" Abkhazia, and that Russia would \"retaliate\" against Georgian offensive and had deployed more military in the separatist regions. No boost in the Kodori Gorge or near the Abkhaz border by either party was confirmed by the UNOMIG. The number of Russian peacekeepers deployed in Abkhazia was boosted to 2,542 in early May. But Russian troop levels remained under the cap of 3,000 troops imposed by a 1994 decision of CIS heads of state. Georgia demonstrated video footage captured by a drone to the BBC allegedly proving that Russian forces used heavy weaponry in Abkhazia and were combat troops, rather than peacekeepers; Russia rejected the accusations. On 15 May, the United Nations General Assembly passed a motion calling for the return of all exiled and uprooted people to Abkhazia. Russia opposed the Georgian-advocated motion. The Russian Foreign Ministry said that the resolution was \"a counterproductive move\". Russia deployed railroad troops on 31 May to repair a rail line in Abkhazia. According to the Russian defence ministry, railroad troops were not armed. Georgia stated that the development was an \"aggressive\" act. The European Parliament adopted a resolution on 5 June which condemned the deployment of Russian forces to Abkhazia. The resolution stated that the peacekeeping structure should be changed because Russia was no longer an unbiased player. Russian railroad troops started to withdraw from Abkhazia on 30 July after attending the inauguration of the railroad. The fixed railroad was used to transport military equipment by at least a part of the 9,000 Russian soldiers who entered Georgia from Abkhazia during the war. In late June, Russian military expert Pavel Felgenhauer predicted that Vladimir Putin would start a war against Georgia in Abkhazia and South Ossetia supposedly in August. Aleksandr Dugin, known for his strong ties with the Russian military and intelligence, suggested at a press conference in South Ossetia on 30 June that the existence of Georgian enclaves in South Ossetia was the last remaining barrier to the recognition and South Ossetia had to solve this problem. He further stated that South Ossetia's independence would block Georgia's NATO membership and the recognition must take place before December 2008. The Kavkaz Center reported in early July that Chechen separatists had intelligence data that Russia was preparing a military operation against Georgia in August–September 2008 which mainly aimed to expel Georgian forces from the Kodori Gorge; this would be followed by the expulsion of Georgian units and population from South Ossetia. In early July, the conditions in South Ossetia aggravated, when a South Ossetian separatist militia official was killed by blasts on 3 July and several hours later an unsuccessful assassination attempt on Dmitry Sanakoyev, pro-Georgian president of South Ossetia, wounded three police officers. On 7 July, four Georgian servicemen were captured by South Ossetian separatists. The next day, the Georgian law enforcement was ordered by the president to arrange the liberation of the soldiers. Four Russian Air Force jets flew over South Ossetia on 8 July. A scheduled visit of Condoleezza Rice, the US Secretary of State, to Georgia on the next day nearly coincided with the timing of the flight. Georgia summoned back its ambassador to Russia after Russia admitted its jets had flown in Georgia's airspace to \"let hot heads in Tbilisi cool down\". This was the first time in the 2000s that Russia had confessed to an overflight of Georgia. On 15 July, the United States and Russia began two parallel military trainings in the Caucasus, though Russia denied that the identical timing was intentional. The joint US-Georgian exercise was called Immediate Response 2008 and also included servicemen from Ukraine, Azerbaijan and Armenia. A total of 1,630 servicemen, including 1,000 American troops, took part in the exercise, which concluded on 31 July. Counter-insurgency action was the focal point of the joint exercise. The Georgian brigade was trained to serve in Iraq. The Russian exercise was named Caucasus 2008 and units of the North Caucasus Military District, including the 58th Army, took part. The exercise included training to aid peacekeeping forces stationed in Abkhazia and South Ossetia. During exercises, a pamphlet named \"Soldier! Know your probable enemy!\" was circulated among the Russian soldiers. The pamphlet described the Georgian Armed Forces. Russian troops stayed near the border with Georgia after the end of their exercise on 2 August, instead of going back to their barracks. Later, Dale Herspring, an expert on Russian military affairs at Kansas State University, described the Russian exercise as \"exactly what they executed in Georgia just a few weeks later [...] a complete dress rehearsal.\""
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "(green) and planned Nabucco gas pipeline (tangerine)]] The 2008 war was the first time since the fall of the Soviet Union that the Russian military had been used against an independent state, demonstrating Russia's willingness to use military force to attain its political objectives. Robert Kagan argued that \"Historians will come to view Aug. 8, 2008, as a turning point\" because it \"marked the official return of history\". The failure of the Western security organisations to react swiftly to Russia's attempt to violently revise the borders of an OSCE country revealed its deficiencies. The division between Western European and Eastern European states also became apparent over the relationship with Russia. Ukraine and other ex-Soviet countries received a clear message from the Russian leadership that the possible accession to NATO would cause a foreign incursion and the break-up of the country. Effective takeover of Abkhazia was also one of Russia's geopolitical goals. The war in Georgia showed Russia's assertiveness in revising international relations and undermining the hegemony of the United States. Shortly after the war, Russian president Medvedev unveiled a five-point Russian foreign policy. The Medvedev Doctrine stated that \"protecting the lives and dignity of our citizens, wherever they may be, is an unquestionable priority for our country\". The presence of Russian citizens in foreign countries would form a doctrinal foundation for invasion. Medvedev's statement on the existence of territories with Russian \"privileged interests\" attached to them underlined Russia's particular stake in the post-Soviet states and the fact that Russia would feel endangered by subversion of local Russia-friendly administrations. The war also affected Georgia's ongoing and future memberships in international organisations. On 12 August 2008 the country proclaimed that it would quit the Commonwealth of Independent States, which it held responsible for not avoiding the war. Its departure became effective in August 2009. The war hindered Georgia's prospects for joining NATO for the foreseeable future. Medvedev stated in November 2011 that NATO would have accepted former Soviet republics if Russia had not attacked Georgia. \"If you ... had faltered back in 2008, the geopolitical situation would be different now,\" Medvedev told the officers of a Vladikavkaz military base. According to academic Martin Malek, western countries did not feel it was necessary to aggravate tensions with Russia over \"tiny and insignificant\" Georgia. He wrote in the Caucasian Review of International Affairs that Western policy makers did not want to alienate Russia because its support was necessary to solve \"international problems\". The May 2015 report by the Committee on Foreign Affairs of the European Parliament stated that \"the reaction of the EU to Russia's aggression towards, and violation of the territorial integrity of, Georgia in 2008 may have encouraged Russia to act in a similar way in Ukraine\". The Russian invasion of Ukraine brought the memories of the Russo-Georgian War again into a broader geopolitical focus. In an opinion piece published in The New York Times on 6 March 2022, the Prime Minister of the United Kingdom, Boris Johnson, stated that Russia's actions in Georgia in 2008 was one of the lessons of the past that the West has failed to learn.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "(left), Dmitry Medvedev (middle) and Eduard Kokoity (right) shortly after the recognition of Abkhazia and South Ossetia]] On 25 August 2008, the Russian parliament passed a motion, with no one voting against. The motion called for the diplomatic recognition of Abkhazia and South Ossetia by President Medvedev. On 26 August, Medvedev issued orders recognising the two states, saying that recognising the independence of the two entities \"represents the only possibility to save human lives.\" The recognition by Russia was condemned by the United States, France, the secretary-general of the Council of Europe, the president of the Parliamentary Assembly of the Council of Europe, the OSCE chairman, NATO and the G7 on the grounds that it violated Georgia's territorial integrity, United Nations Security Council resolutions and the ceasefire agreement. In response to Russia's action, the Georgian government severed diplomatic relations with Russia. Russia sought approval for its recognition from the Shanghai Cooperation Organisation. However, because of anxiety about secessionist areas in SCO states, especially in China, the organisation did not endorse recognition.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "A direct result of the war has been the increased and emboldened Russian military presence in both South Ossetia and Abkhazia. While Russian armed forces were present in both regions before the outbreak of the war, in the capacity of peacekeeping forces since the civil wars in the 1990s, this was limited to 500 servicemen in South Ossetia (JPKF) and 1,600 in Abkhazia (CISPKF), with the latter being expanded to over 2,000 in the months leading to the 2008 war. With these mechanisms becoming obsolete after the 2008 war, the Russian recognition of the independence of both regions was a prerequisite to legitimise the post-war stay of Russian armed forces with the conclusion of \"bilateral\" military cooperation and integration agreements with the newly recognised \"states\". From 2009 onwards, the Russian Federation expanded existing military infrastructure in both regions. First the 4th Guards Military Base in South Ossetia and the 7th Military Base in Abkhazia were established, formalised in an agreement valid for 49 years. Then, Russia started the construction of border guard bases under the command of the Russian FSB Border Guard Service to demarcate and \"protect the state border\" of both South Ossetia and Abkhazia. In total more than 30 of these so called \"militarized border guard bases\" have been constructed near the boundary line of both regions with Tbilisi controlled Georgia. In each region an estimated 3,500 Russian military servicemen and around 1,500 FSB personnel are deployed. Georgia considers the two regions occupied by Russia."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "A sizeable portion of the Russian 58th Army, one of the foremost military units in Russia, was included in the Russian order of battle. It exceeds the Georgian Army in the number of forces, heavy hardware and planes. The 58th Army fought in Second Chechen War."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "According to the Moscow Defence Brief, an English-language magazine published by the Russian non-governmental organisation the Centre for Analysis of Strategies and Technologies, the Georgian troops included the 2nd, 3rd and 4th Infantry Brigades, the Artillery Brigade, part of the 1st Infantry Brigade and the standalone Gori Tank Battalion. Additionally, special forces and Ministry of Internal Affairs troops were deployed. The total number of troops was 16,000 according to the magazine. According to the International Institute for Strategic Studies, ten light infantry battalions of the 2nd, 3rd and 4th infantry brigades, special forces and an artillery brigade, totalling approximately 12,000 troops, had been concentrated by the start of the conflict. The primary task of securing Tskhinvali was accomplished by the 4th Brigade with support from the 2nd and 3rd Brigades. According to the EU fact-finding mission, 10,000–11,000 soldiers took part in the war. The 1st Infantry Brigade, the only one instructed to NATO standards, was serving in Iraq at the beginning of the war; on 11 August, the United States Air Force flew it to Georgia. The best Georgian troops were overdue from Iraq and could not participate in the fighting. The presence of prime 2,000 Georgian military and the bulk of Georgian high-level government officials abroad before the war meant that Georgia did not intend to begin hostilities."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "At 8:00 am on 1 August, an improvised explosive device detonated on the road near Tskhinvali near a Georgian police vehicle, wounding five police officers. In response, Georgian snipers fired on South Ossetian positions, killing four Ossetians and wounding seven. According to the majority of reports, the South Ossetians were responsible for instigating the bomb explosion which marked the opening of hostilities. South Ossetian separatists began intensively shelling Georgian villages on 1 August. This caused Georgian peacekeepers and servicemen in the area to return fire. Grenades and mortar fire were exchanged during the night of 1/2 August. The total Ossetian fatalities became six and the total wounded were now fifteen, among them several civilians; the Georgian casualties were six wounded civilians and one wounded policeman. According to the OSCE mission, the incident was the worst outbreak of violence since 2004. On 2–3 and again on 3–4 August, firing recommenced during the night. A 1992 ceasefire agreement was breached by Ossetian artillery attacks. Nikolay Pankov, the Russian deputy defence minister, had a confidential meeting with the separatist authorities in Tskhinvali on 3 August. An evacuation of Ossetian women and children to Russia began on the same day. According to researcher Andrey Illarionov, the South Ossetian separatists evacuated more than 20,000 civilians, which represented more than 90 per cent of the civilian population of the future combat zone. On 4 August, South Ossetian president Eduard Kokoity said that about 300 volunteers had arrived from North Ossetia to help fight the Georgians and thousands more were expected from the North Caucasus. On 5 August, South Ossetian presidential envoy to Moscow, Dmitry Medoyev, declared that South Ossetia would start a \"rail war\" against Georgia. The razing of the village of Nuli was ordered by South Ossetian interior minister Mikhail Mindzaev. Georgian authorities organised a tour for diplomats and journalists to demonstrate the damage supposedly caused by separatists. That day, Russian Ambassador-at-Large Yuri Popov declared that his country would be involved in the conflict on the side of South Ossetia. About 50 Russian journalists had come to Tskhnivali for \"something to happen\". A pro-government Russian newspaper reported on 6 August: \"Don Cossacks prepare to fight in South Ossetia\". Nezavisimaya Gazeta reported that Russian military was being deployed to the Georgian border on 6 August and that \"there is no doubt that Russia thus demonstrates determination to protect its citizens in South Ossetia. Up until the operation to enforce peace is carried out.\" On the evening of 6 August, an attempt by Saakashvili to contact the President of Russia about the conflict was curbed by the Russian Foreign Ministry, which said: \"the time for presidential negotiations has not yet arrived.\" Mortar and artillery exchange between the South Ossetian and Georgian forces erupted in the afternoon of 6 August across almost the entire front line, which lasted until the dawn of 7 August. Exchanges resumed following a brief gap in the morning. South Ossetian leader Eduard Kokoity announced that the South Ossetian armed forces were ready to go on the offensive in the next few hours. At 14:00 on 7 August, two Georgian peacekeepers in Avnevi became casualties of Ossetian shelling. At about 14:30, Georgian tanks, 122 mm howitzers and 203 mm self-propelled artillery began heading towards South Ossetia to dissuade separatists from additional attacks. During the afternoon, OSCE monitors noted Georgian military traffic, including artillery, on roads near Gori. In the afternoon, Georgian personnel left the Joint Peacekeeping Force headquarters in Tskhinvali. At 16:00, Temur Iakobashvili (the Georgian Minister for Reintegration) arrived in Tskhinvali for a previously arranged meeting with South Ossetians and Russian diplomat Yuri Popov; however, Russia's emissary, who blamed a flat tire, did not appear; and neither did the Ossetians. One day earlier the South Ossetians rejected direct negotiations with Georgian authorities, demanding a meeting of the Joint Control Commission for Georgian–Ossetian Conflict Resolution. Tbilisi had left the Commission in March, demanding that a new mediation scheme included the European Union, the OSCE and the Provisional Administrative Entity of South Ossetia. Iakobashvili contacted General Marat Kulakhmetov (the Russian commander of the Joint Peacekeeping Force) who said that Ossetians could not be restrained by Russian peacekeepers and Georgia should implement a ceasefire. \"Nobody was in the streets – no cars, no people,\" Iakobashvili later told journalists. At around 19:00, Georgian President Saakashvili announced a unilateral ceasefire and no-response order. The ceasefire reportedly held for about three hours. The separatists bombarded Tamarasheni and Prisi. They razed Avnevi and a police building in Kurta, the centre of the Provisional Administrative Entity of South Ossetia. The escalated assaults forced Georgian civilians to flee their homes. A high-ranking officer of the Georgian Ministry of Defence said late on 7 August that his country was going to \"restore constitutional order\" in response to the shelling. Georgian Interior Ministry official later told Russian newspaper Kommersant on 8 August that after Ossetians had responded to the ceasefire by shelling, \"it became clear\" that South Ossetians wouldn't stop firing and that the Georgian casualties were 10 killed and 50 wounded. According to Pavel Felgenhauer, the Ossetians intentionally provoked the Georgians, so Russia would use the Georgian response as a pretext for premeditated military invasion. According to Felgenhauer's analysis, Russia could not wage the war against Georgia after August since the Caucasus mountains would be covered with snow already in October. Russian military was participating in the attacks on Georgian villages. According to Georgian intelligence, and several Russian media reports, parts of the regular (non-peacekeeping) Russian Army had already moved to South Ossetian territory through the Roki Tunnel before the Georgian military operation. Even the state-controlled Russian TV aired Abkhazia's de facto president Sergei Bagapsh on 7 August as saying: \"I have spoken to the president of South Ossetia. It has more or less stabilized now. A battalion from the North Caucasus District has entered the area.\" Georgian authorities did not announce Russian military incursion in public on 7 August since they relied on the Western guidance and did not want to aggravate tensions. The entrance of second batch of Russian military through the Roki Tunnel during the night of 7/8 August pressured Georgian president Saakashvili to respond militarily around 23:00 to check Russian all-out incursion near the Roki Tunnel before the Western response would be late."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "Dmitry Medvedev and French President Nicolas Sarkozy after negotiations on the plan]] On 12 August, Russian President Medvedev announced the cessation of the \"peace enforcement\" operation in Georgia. Later that day he met French President Nicolas Sarkozy (who held the rotating EU Council presidency) and approved a six-point proposal. The proposal originally had four points, but Russia firmly requested to add two more. Georgia requested that the additions be parenthesised; Russia objected and Sarkozy prevailed upon Saakashvili to accept the agreement. According to Sarkozy and Saakashvili, a sixth point in the Sarkozy proposal was removed with Medvedev's consent. On 14 August, South Ossetian President Eduard Kokoity and Abkhaz President Sergei Bagapsh also endorsed the plan. The following day Condoleezza Rice travelled to Tbilisi, where Saakashvili signed the document in her presence. On 16 August, Russian President Dmitry Medvedev signed the agreement. The plan embodied the following statutes (dismissed additions are parenthesised): After the ceasefire was signed, hostilities did not immediately end. Noting that civilians were fleeing before advancing Russian armour, troops and mercenaries, a reporter for The Guardian wrote on 13 August that \"the idea there is a ceasefire is ridiculous\"."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "During the fighting in South Ossetia, the Russian Air Force repeatedly attacked Tbilisi and its surrounding areas. On 8 August, the Georgian Interior Ministry reported that Vaziani Military Base near the city was hit by two bombs. Prior to the war, the bombed base near Tbilisi had housed the Russian military before the government of Georgia forced their withdrawal. The Daily Telegraph described this bombing as \"Russia's revenge\". A Georgian military airstrip in Marneuli was attacked and three persons were killed. The Georgian government vacated their offices on 9 August. Georgian authorities reported on 9 August that Russian air attacks had targeted the Baku–Tbilisi–Ceyhan pipeline, but missed. Reporters for Reuters in Tbilisi reported hearing three explosions in the early-morning hours of 10 August and a Georgian Interior Ministry representative said that three bombs were dropped on Tbilisi International Airport by Russian warplanes. A military manufacturing plant near the airport was also attacked by Russia that day. A civilian radar station in Tbilisi was bombed the following day. Although an end to hostilities was declared on 12 August, Russian warplanes did not stop dropping bombs in Georgia throughout 12 August. The Wall Street Journal reported on 14 August that a reporter had witnessed 45 craters near the intersection of Baku–Tbilisi–Ceyhan pipeline and Baku–Supsa Pipeline south of Tbilisi."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "In November 2008, Georgia called on the EU to conduct an independent inquiry who was to blame for the conflict. Heidi Tagliavini, a national of Switzerland (non-EU state), oversaw the making of the EU-sponsored report which was published in September 2009. The report stated that open hostilities started \"... with a large-scale Georgian military operation against the town of Tskhinvali and the surrounding areas, launched in the night of 7 to 8 August 2008\", This conclusion was widely reported on by international media. However, the report also noted \"... any explanation of the origins of the conflict cannot focus solely on the artillery attack on Tskhinvali in the night of 7/8 August\", since \"... it was only the culminating point of a long period of increasing tensions, provocations and incidents\", and there was \"... no way to assign overall responsibility for the conflict to one side alone.\" The report said it \"is not in a position\" to consider the Georgian claims of the Russian invasion before 8 August to be substantiated enough, while recognising reports in Russian media which indicated Russian troops and equipment which did not fall under the peacekeeping mandate were already present on the southern side of the Caucasus range, in South Ossetia. The report also stated that it could not claim \"veracity or completeness in an absolute sense\", and could not give \"total assurance that there are no mistakes or omissions\". The BBC reported that \"the EU may welcome the report itself, but may want to distance itself from the content.\" The report was heavily criticised for some of its pro-Kremlin statements by independent Russian and American researchers who pointed out that the report had omitted facts implicating Russia and South Ossetians in starting the war. An article by DELFI detailed some cases of bias in the Tagliavini commission's work, such as the omission of the Russian troop deployments to South Ossetia before the Georgian counterattack on Tskhinvali, and concluded that \"the flexible Swiss diplomat and her minions made it seem like Georgia was the provocateur\" and thus emboldened aggressive Russia's president to attack Ukraine. According to the European Council on Foreign Relations think tank, the EU report was influenced by Russian state propaganda. The Atlantic Council members stated on anniversary of the war in 2021 that Russia and South Ossetia initiated the 2008 conflict and that the EU report was erroneous."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "NATO increased its naval presence in the Black Sea significantly following the Russian invasion, with ships dropping anchors in Georgian ports, and according to the US Navy, bringing humanitarian assistance. NATO said that its presence in the Black Sea was not related to the Georgian crisis; its vessels were carrying out typical visits and preplanned naval trainings with Romania and Bulgaria. Russian General Anatoliy Nogovitsyn recalled the limit on the number of vessels admitted into the Black Sea under the 1936 Montreux convention. Russian President Dmitry Medvedev questioned the claim that ships going to Georgia were bringing only humanitarian assistance, alleging the delivery of military material. According to political analyst Vladimir Socor, in spite of the limits on vessel's weight and length of visits set by the Montreux Convention, the US kept a continual presence in the Black Sea by alternating vessels from time to time."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "On 17 August, Medvedev announced that Russian military would start to pull out of Georgia the following day. Prisoners of war were swapped by the two countries on 19 August. A Georgian official said that although his country swapped five Russian soldiers for fifteen Georgians, among them two non-combatants, Georgia suspected that Russia kept two more Georgians. On 22 August, Russian forces withdrew from Igoeti and the Georgian police proceeded in the direction of Gori. Russia claimed that withdrawal of Russian forces was finished; however, Russian checkpoints stayed near Gori and two Russian lookout stations stayed near Poti. On 8 September, Sarkozy and Medvedev signed another agreement on a Russian pullback from Georgia. After meeting with the French president, Medvedev said the withdrawal depended on assurances that Georgia would not use force; Russian forces would withdraw \"from the zones adjacent to South Ossetia and Abkhazia to the line preceding the start of hostilities\". However, a military withdrawal from South Ossetia and Abkhazia was not proclaimed. On 13 September, Russian troops began withdrawing from western Georgia and by 11:00 Moscow Time, the posts near Poti were abandoned. Withdrawals from Senaki and Khobi also took place. Russian forces pulled back from the buffer areas bordering Abkhazia and South Ossetia on 8 October 2008 and the European Union Monitoring Mission in Georgia would now oversee the areas. Russia continued to maintain a single station in the border village of Perevi. On 12 December 2008, Russian forces withdrew; eight hours later they re-entered the village and Georgian police withdrew after the Russians warned they would fire. Russian forces then set up three stations in the village. On 18 October 2010, all Russian forces in Perevi withdrew to South Ossetia and Georgian soldiers entered. On 9 September 2008, Russia announced that Russian forces in South Ossetia and Abkhazia would remain under bilateral agreements with their respective de facto governments. Russian Foreign Minister Sergey Lavrov said that a Russian deployment in Abkhazia and South Ossetia would prove decisive in preventing Georgia from recovering territories. Georgia considers Abkhazia and South Ossetia Russian-occupied territories. In November 2011, the European Parliament passed a resolution acknowledging Abkhazia and South Ossetia as occupied Georgian territories.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "Poti is the crucial seaport of Georgia on the Black Sea and serves as an essential entrance for Transcaucasia and the landlocked Central Asia. Russian aircraft attacked the town of Poti on 8 August, causing a two-day shutdown of the seaport. Russia positioned ships in the vicinity of Poti and other Georgian ports on 10 August 2008. The next day, Georgian and Russian representatives said that Russian troops were in Poti. However, Russia claimed it had only sent a task force for surveying the area. On 13 August, six Georgian watercraft were sunk by Russian troops in Poti. Anatoliy Nogovitsyn, Russian deputy chief of the General staff, denied the Russian presence in Poti the following day. One day after Russia's declaration of the beginning of the withdrawal from Georgia, 70 Russian soldiers moved into the seaport on the morning of 19 August. Russian soldiers took twenty-one Georgian troops prisoner and grabbed five US Humvees in Poti, taking them to a Russian-occupied military base in Senaki. The Wall Street Journal said that Russian actions in Poti constituted an additional attack on the Georgian economy. The Russian military plundered and damaged properties during their presence in Poti, even ransacking toilets."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "Tanks (4, of which destroyed: 4) Armoured Fighting Vehicles (4, of which destroyed: 3, captured: 1) Infantry Fighting Vehicles (20, of which destroyed: 19, damaged: 1) Armoured Personnel Carriers (5, of which destroyed: 3, damaged: 1, captured: 1) Armoured Recovery Vehicles (1, of which destroyed: 1) Artillery Support Vehicles (1, of which destroyed: 1) Self-Propelled Artillery (1, of which destroyed: 1) Aircraft (8, of which destroyed: 8) Helicopters (2, of which destroyed: 2) Trucks, Vehicles and Jeeps (32, of which destroyed: 32)"
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "Tanks (44, of which destroyed: 27, captured: 17) Armoured Fighting Vehicles (2, of which destroyed: 1, captured: 1) Infantry Fighting Vehicles (25, of which destroyed: 6, captured: 19) Armoured Personnel Carriers (3, of which destroyed: 2, captured: 1) Infantry Mobility Vehicles (3, of which captured: 3) Command Posts (1, of which captured: 1) Engineering Vehicles And Equipment (5, of which destroyed: 1, captured: 4) Towed Artillery (25, of which destroyed: 1, captured: 24) Self-Propelled Artillery (9, of which destroyed: 6, captured: 3) Anti-Aircraft Guns (2, of which captured: 2) Surface-To-Air Missile Systems (6, of which captured: 6) Radars (2, of which destroyed: 2) Aircraft (3, of which destroyed: 3). Helicopters (3, of which destroyed: 3) Naval Ships (9, of which destroyed: 7, captured: 2) Trucks, Vehicles and Jeeps (44, of which destroyed: 17, damaged: 1, captured: 26)",
+          "duplicate_of": "Russo-Georgian War"
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "The Russian Command, Control, Communications and Intelligence (C³I) performed poorly during the conflict. The Russian communication systems were outdated, with a 58th Army commander allegedly making contact with his combat troops via a journalist-owned satellite phone. Without the modern GLONASS, precision-guided munitions could not be used and the US-controlled GPS was unavailable, since the war zone was blacked out. Due to the negligence of Russian defence minister, the use of unmanned aerial vehicles was not sanctioned; an RIA Novosti editorial said that Russian forces were without reliable aerial-reconnaissance systems, once using a Tupolev Tu-22M3 bomber instead. However, Russian reconnaissance battalions and regiments were also deployed during the war. Deputy chief of the General staff of Russia, General Anatoly Nogovitsyn, said that in the conflict new weapons were not tried out. The RIA Novosti editorial also said that Russian Su-25 ground-attack jets did not have radar vision and ground-target coordinate computing. They also did not have long-range surface-to-air missiles that could be fired beyond the air-defence zones of an adversary. Opposition-affiliated Russian analyst Konstantin Makienko observed the substandard conduct of the Russian Air Force: \"It is totally unbelievable that the Russian Air Force was unable to establish air superiority almost to the end of the five-day war, despite the fact that the enemy had no fighter aviation\". According to Russian expert Anton Lavrov, on 8 August, Russian and South Ossetian troops deployed in South Ossetia were unaware that Russian aviation was involved in the war. Russian troops and South Ossetians often assessed Russian aircraft as enemy and shot at them before precise identification took place. On 8 August, the air force performed 63 flights in support of Russian ground troops. A total of six Russian warplanes were lost during the war: one Su-25SM, two Su-25BMs, two Su-24Ms and one Tu-22M3; friendly fire was the cause of the loss of three aircraft. Lavrov denies that the shot-down Tu-22M was being used for reconnaissance. Communication between the North Caucasus Military District commander and the air force was poor and their roles were unclear. Colonel-General Aleksandr Zelin, commander-in-chief of the Air Force, did not set foot in the command post, instead running Air-force operations on a mobile phone from his workroom without any help from his air-defence aides. The air force was blamed of rendering no assistance to land campaign. Swedish analysts Carolina Vendil Pallin and Fredrik Westerlund said that although the Russian Black Sea Fleet did not meet significant resistance, it proved effective at implementing elaborate operations. Mechanised infantry opened a new front in Abkhazia, which contributed to the quickness of the Russian military success. Heritage Foundation researchers said in their assessment of the preparation of Russian general-staff that the manoeuvres were planned and implemented effectively, with a crucial confusion being engineered by the Russians. A Reuters analyst described Russia's army as \"strong but flawed\"; the war demonstrated that Russia's \"armed forces have emerged from years of neglect as a formidable fighting force, but revealed important deficiencies.\" He stated that Russia fell short of its role of a first-rate military power due to these faults. Unlike the Second Chechen War, Russia's force in Georgia was composed primarily of professional soldiers instead of conscripts. Reuters journalists in Georgia stated that they found the Russian forces to be well-outfitted and orderly forces. CAST director Ruslan Pukhov said that \"the victory over the Georgian army ... should become for Russia not a cause for euphoria and excessive joy, but serve to speed up military transformations.\" Roger McDermott wrote that slight dissimilarity in criticism by civilian and official references after the conflict was \"an orchestrated effort by the government to 'sell' reform to the military and garner support among the populace.\" The evolution of the Russian Army into a professional force was not deemed as fruitful. In September 2008, General Vladimir Boldyrev acknowledged that many of the professional soldiers did not have better training than the conscripts. Most of the land combat warfare was conducted by Russian Airborne Troops and special troops. Due to the failure of the Russian Air Force to penetrate Georgian air defence, airborne troops could not be airlifted behind Georgian lines. A surprise attack on a land-forces commander, in which only five of thirty vehicles in his convoy made it, demonstrated information-gathering negligence. Many Russian land units reportedly were short of ammo."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "The mandate of the OSCE mission in Georgia expired on 1 January 2009, after Russia refused to support its continuation. OSCE monitors had been denied access to South Ossetia since the war. The mandate of the UNOMIG ended on 16 June 2009; its extension was also blocked by Russia, which argued that the mandate did not properly reflect Russia's position on recognition of Abkhazia's independence. According to UN mission head Johan Verbeke, about 60,000 ethnic Georgians in Abkhazia became vulnerable after the mission's end. field office-]] Since October 2008 the European Union Monitoring Mission (EUMM) monitors the Administrative Boundary Lines of both South Ossetia and Abkhazia. Although the mission is mandated to operate in the entire territory of Georgia, it is not admitted into South Ossetia and Abkhazia by the local de facto authorities. Besides monitoring the mission is also involved in confidence building and incident mediation by providing an incident hotline. As of December 2021, 220 EUMM monitors from 26 EU member states operate in Georgia based in 3 Field Offices and the Tbilisi Headquarters, while 2 support staff operate from Brussels.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "The war was accompanied by a media battle between Russia and Georgia. The Russian military took Russian journalists to the combat zone to report news discrediting Georgia and portraying Russia as the saviour of Russian citizens in the conflict zone. Russia also aired records on TV supporting its actions which had a strong effect on the local populations of South Ossetia and Abkhazia. For the first time, a Russian Armed Forces spokesman was provided by the Russian authorities to give TV interviews about the war. Despite these tactics and domestic success, the Russian information operation against Georgia was not successful internationally. In response to the information war, the Georgian government halted the broadcasting of Russian television channels in Georgia and blocked access to Russian websites. The information skirmishes between Georgia and Russia continued after armed hostilities had ended. According to political scientist Svante Cornell, the Kremlin spent millions in an international information campaign to blame Georgia for the war; however, there is evidence, including some in Russian media, that Russia actually started the war. During the war, hackers attacked Georgian government and news websites and disabled host servers. Some Russian news websites were also attacked. Some experts noted this as the first time in history that a notable cyberattack and an actual military engagement happened at the same time."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "United States officials said that \"one of the few effective elements of the [Georgia]'s military\" was air defence, with the analysts crediting the SA-11 Buk-1M with shooting down a Tupolev-22M bomber and contributing to the loss of some Su-25s. This view was supported by independent Russian analysis. Colonel-General Anatoliy Nogovitsyn, Russian deputy chief of general staff, said the Soviet-made Tor and Buk anti-aircraft missile systems, bought by Georgia from Ukraine, were responsible for shooting down Russian aircraft during the war. A Russian assessment, reported by Roger McDermott, said that Russian losses would have been significantly higher if the Georgians had not left behind a portion of their Buk-M1 systems near Senaki in western Georgia and several Osa missile launchers in South Ossetia. According to some reports, Georgia also possessed a battery of the Israeli-made SPYDER-SR short-range self-propelled anti-aircraft system. The Georgian air-defence early-warning and command-control tactical system was linked via Turkey to a NATO Air Situation Data Exchange (ASDE), which provided Georgia with intelligence during the conflict. Georgia has said that its key deficiencies were ineffective communication during action and its lacking air strength. Konstantin Makienko of CAST saw substandard instruction of pilots as the primary reason for the paltry conduct of Georgian air sorties. According to Georgian first deputy defence minister Batu Kutelia, Georgia was required to have a complex, multi-layered air-defence system to protect its airspace. Western officers involved with Georgia's military indicated that Georgian military deficiencies were too great to be eliminated by new weapons. According to a 2 September 2008 New York Times article, \"Georgia's Army fled ahead of the Russian Army's advance, turning its back and leaving Georgian civilians in an enemy's path. Its planes did not fly after the first few hours of contact. Its navy was sunk in the harbor, and its patrol boats were hauled away by Russian trucks on trailers.\" A sweeping Russian offensive caught Georgia by surprise, who had never got ready for confronting such invasion. Many managerial and procedural problems surfaced during the war. According to a Western officer, Georgian logistical readiness was mediocre; there was interference between subdivisions during the action. Training to simulate combat against a probable enemy, the 58th Army, had never been organised by the Georgian Army. During the war, communications broke down in the mountains and troops had to resort to mobile phones. There was insufficient planning; according to Giorgi Tavdgiridze, nobody thought about sealing the Roki Tunnel. There was a dismal organisation of the delivery of 10,000 Georgian reservists in Gori on 9 August; they had no specific targets and went back to Tbilisi the following day. The conflict was named by Georgian journalists as the war \"that was hidden from history\" because there was very little video recording of the fighting. According to their American trainers, Georgian soldiers were unprepared for fighting despite having \"warrior spirit\". There was a small number of disciplined and knowledgeable officers in high ranking positions, and Saakashvili's government had no military background.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "]] A naval confrontation occurred between Russian and Georgian vessels on 10 August. According to the Russian Ministry of Defence, the Russian fleet sank one Georgian ship after Georgian boats had attacked the Russian Navy ships. The Russian patrol ship Mirazh was probably responsible for the sinking. The Georgian coast was blockaded by vessels of the Russian Black Sea Fleet on 10 August. This was first activity since 1945 for the Black Sea Fleet, which had probably departed from Sevastopol before full-scale hostilities between Russia and Georgia began. Abkhaz forces opened a second front by attacking the Kodori Gorge, held by Georgia. Abkhaz artillery and aircraft began a bombardment against Georgian troops in the upper Kodori Gorge on 9 August. Three days later, a military offensive against the Kodori Gorge was officially initiated by Abkhaz separatists. Abkhaz defence officer said that Georgian forces were driven out of the Kodori Gorge. Although he claimed that Russians did not participate in the battle, Russian military traffic headed for the gorge was witnessed by an Associated Press correspondent. Casualties were light on both sides; Abkhaz fighters accidentally killed one of their comrades, and two Georgian soldiers were also killed. About 2,000 people living in the Kodori Gorge fled. Russian forces advanced into western Georgia from Abkhazia on 11 August. This marked the opening of another front. Russian troops captured the police buildings in Zugdidi in spite of earlier Russian official claims of not intending to expand assault to Georgia proper. Russian forces arrived in the town of Senaki that day and took a military base there."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "]] After the ceasefire agreement Stratfor states that Russia \"has largely destroyed Georgia's war-fighting capability\". After the ceasefire was signed on 12 August, in Georgia proper, Russian troops attempted to seize and destroy Georgian armament, a process termed by the Moscow Defence Brief as the \"demilitarization of the Georgian Armed Forces\". Most losses of armaments were sustained after the ceasefire. About 20 armoured fighting vehicles, including tanks, were destroyed in the fighting. Before the conflict, Georgia possessed 230–240 tanks in total. At the time of the conflict, Georgia operated 191 T-72 tanks, of which 75 were deployed into South Ossetia. Georgia lost at least 10 T-72 tanks destroyed in and near Tskhinvali. After the end of hostilities, the Russian military seized a total of 65 Georgian tanks. About 20 of those were subsequently destroyed. The Georgian army possessed 154 IFVs, 16 reconnaissance vehicles, 66 APCs and 86 multi-purpose tracked armoured vehicles before the conflict. Less than 10 armoured vehicles were destroyed in combat. Two BMP-2s were destroyed in combat and two were captured. At least 20 BMPs were captured after the hostilities, including several BMP-1s that were upgraded to BMP-1U. Georgia lost two Otokar Cobra armoured vehicles. Dozens of automobiles and lorries were also lost. Two DANA self-propelled howitzers of the Georgian army were destroyed in combat and two DANAs were captured in and near Gori. Further 20 artillery pieces, including 120 mm mortars, were left behind. Six 2S7 Pions were captured after the hostilities. Two Buk-M1 launch vehicles and their transport loaders, as well as up to five OSA-AKM SAMs were also captured. The Russian military seized 1,728 firearms at the Senaki Second Infantry Brigade base. The Georgian Navy lost one boat at sea according to Russia. In Poti, four boats were submerged. Nine rigid-hull inflatables were captured. The Air Force sustained limited damage as only three transport planes and four helicopters were confirmed lost. The Georgian air force ceased all sorties after 8 August. Instead all fighter and training aircraft, including the Su-25s, were tucked away. Russian bombers impaired the airstrips in Georgia. A Russian air attack on Marneuli Air Force Base destroyed three AN-2 aircraft. Russian airborne forces set fire to two Mi-24 helicopters and one Mi-14 on 11 August. Georgian Defence Minister Davit Kezerashvili said that Georgia lost materiel worth $250 million. According to Georgian president Mikheil Saakashvili, his country saved 95 percent of its armed forces. In 2009, Russian Army Chief of General Staff Nikolai Makarov stated that Georgia was rearming, although the armament was not directly provided by the United States. According to Makarov, the Georgian Armed Forces had exceeded their pre-war strength by 2009.",
+          "duplicate_of": "Russo-Georgian War"
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "]] Russia admitted that three of its Su-25 strike aircraft and one Tu-22 long-range bomber were lost. Georgia at that time claimed it had downed no less than 21 Russian aircraft. Moscow Defence Brief provided a higher estimate for air force losses, saying that Russian Air Force total losses during the war were one Tu-22M3 long-range bomber, one Su-24M Fencer fighter-bomber, one Su-24MR Fencer E reconnaissance plane and four Su-25 attack planes. Anton Lavrov listed one Su-25SM, two Su-25BM, two Su-24M and one Tu-22M3 lost. Two helicopters, a Mi-8MTKO and a Mi-24, were wrecked in an accident after the hostilities. While there are no official figures, Russian ground equipment losses in the war are estimated to be three tanks, at least 20 armoured and 32 non-armoured vehicles lost in combat. Several more vehicles were impaired in accidents. During one engagement, Georgian forces destroyed 25 out of 30 vehicles of a Russian military unit commanded by General Anatoly Khrulyov. The Russian military had no losses in the artillery, air defence and naval forces. According to Nezavisimaya Gazeta, the five-day war cost Russia an estimated 12.5 billion rubles, a daily cost of 2.5 billion rubles. South Ossetian forces lost two BMP-2s."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "and President of Georgia Mikheil Saakashvili at a Tbilisi press conference, August 2008]] ]] Russian actions during the war were heavily criticised by several Western countries: France and Germany took an intermediate position, abstaining from naming a guilty party: A few leaders supported Russia's position",
+          "mentions_vote": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "from the 58th Army in South Ossetia]] Georgian artillery launched smoke bombs into South Ossetia at 23:35 on 7 August. This was followed by a 15-minute intermission, which purportedly enabled the civilians to escape, before the Georgian forces began bombarding hostile positions. Georgian military intentionally targeted South Ossetian military objects, not civilian ones. Although Georgian military had pledged safety to the Russian peacekeepers for their neutrality, the Russian peacekeepers had to follow the Russian command to attack the Georgian troops. Georgian forces started moving in the direction of Tskhinvali following several hours of bombardment and engaged South Ossetian forces and militia near Tskhinvali at 04:00 on 8 August, with Georgian tanks remotely shelling South Ossetian positions. An attempt to take the village of Kvaysa from the west of South Ossetia by Georgian special police forces was thwarted by South Ossetian troops occupying reinforced posts, and several Georgians were wounded. The Georgian 4th Brigade advanced on the left side of Tskhinvali early in the morning on 8 August; the 3rd Brigade advanced on the right side. The purpose of these actions was to advance to the north after capturing key positions. The Georgian troops would secure the Gupta bridge and the road to the Roki Tunnel, barring the Russian military from moving southward. By the morning, the South Ossetian authorities had reported that the Georgian shelling had killed at least 15 civilians. Georgian forces, among them special troops of the Ministry of Internal Affairs, entered Tskhinvali after taking the high points near the town. The centre of the town was reached by 1,500 Georgian infantrymen by 10:00. The Russian air force began raiding targets inside South Ossetia and Georgia proper after 10:00 on 8 August. According to Russia, it suffered its first casualties at around 12:00 when two servicemen were killed and five injured following an attempt by the Georgian troops to storm the northern peacekeeping base in Tskhinvali. Georgia has stated that it only targeted Russian peacekeepers in self-defence, after coming under fire from them. Most of Tskhinvali and several villages had been secured by Georgian troops by the afternoon; however, they failed to blockade the Gupta bridge and the key roads linking Tshkinvali with the Roki Tunnel and the Russian military base in Java. One Georgian diplomat told Kommersant on the same day that by taking control of Tskhinvali, Tbilisi wanted to demonstrate that Georgia wouldn't tolerate the killing of Georgian citizens. By 15:00 MSK, an urgent session of Security Council of Russia had been convened by Russian president Dmitry Medvedev and Russia's options regarding the conflict had been discussed. Russia accused Georgia of \"aggression\" against South Ossetia. Russia has stated it was defending both peacekeepers and South Ossetian civilians who were Russian citizens. While Russia claimed that it had to conduct peacekeeping operations according to the international mandates, in reality such accords had only arranged the ceasefire observer status; according to political scientist Roy Allison, Russia could evacuate its peacekeepers if attacked. At around 16:00 MSK, it became known that two heavy armoured columns of the 58th Army passed the Roki Tunnel and Java and were on the road to Tskhinvali. According to Kommersant, the column had begun moving towards South Ossetia at the same time as President Medvedev was giving a televised speech. At around 17:00 MSK, Russian tank columns surrounded Tskhinvali and began bombing the Georgian positions. The Russian Air Force mounted attacks on Georgian infantry and artillery on 8 August, but suspended sorties for two days after taking early losses from anti-aircraft fire. Georgian troops left the centre of the town in the evening. Military expert Ralph Peters later noted that anyone \"above the grade of private\" knew that such a large-scale Russian \"response\" was not spontaneous since it was impossible \"even to get one armored brigade over the Caucasus Mountains\" without lengthy planning. In the afternoon of 9 August, a Georgian effort to push deeper into Tskhinvali was repulsed with Georgian losses and they withdrew. According to the Georgian Defence Minister, the Georgian military had tried to push into Tskhinvali three times by 9 August. During the last attempt they were met with a serious counterattack, which Georgian officers described as \"something like hell.\" On the same day a Russian advance column, led by Lieutenant-General Anatoly Khrulyov, was ambushed by Georgian special forces near Tskhinvali; Khrulyov was wounded in the leg. The number of Russian forces deployed in South Ossetia exceeded the number of Georgian fighters already by 9 August. A ceasefire was unilaterally announced on 10 August by Georgian authorities, who stated an aim to pull Georgian troops out of South Ossetia. However, Russia did not embrace this truce offer. After the ceasefire agreement was negotiated by French president Nicolas Sarkozy on 12 August, 15:00 on 12 August was set as a deadline for the cessation of military action; however, Russian forces didn't stop pushing forward."
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "in Alagir, North Ossetia]] , after arson attack, on the road from Tskhinvali to Java.]] Human Rights Watch (HRW) states that all parties to the war seriously breached international laws governing war and caused many fatalities among civilians. HRW reported that no proof of intentional attacks on non-combatants by Georgian troops had been discovered. The South Ossetian parliament and several schools and nurseries were used as military posts by South Ossetian troops and volunteer militias and targeted by Georgian artillery fire. Georgia stated that its strikes only intended to \"neutralize firing positions from where Georgian positions were being targeted\". HRW documented witness accounts of the usage of civilian objects by South Ossetian fighters. Such usage made civilian objects permissible military aims, and HRW concluded that South Ossetian fighters put non-combatant population at risk by setting up military positions near or in civilian structures. Georgia was responsible for the indiscriminate use of force by using inaccurate weapons to target military targets in civilian areas. Russia deliberately attacked fleeing civilians in South Ossetia and the Gori district of Georgia. Russian warplanes bombed civilian population centres in Georgia proper and villages of ethnic Georgians in South Ossetia. Armed militias engaged in looting, burning and kidnappings. Attacks by militias compelled Georgian civilians to run away. The use of M85S cluster bombs by the Georgians and RBK 250 cluster bombs by the Russians caused fatalities among civilians. Georgia reportedly used cluster munitions twice to hit non-combatants escaping via the important Dzara road and confessed attacking Russian forces and the vicinity of the Roki Tunnel by cluster bombs. Russia denied using cluster bombs. from the conflict zone]] HRW reported that during the war, ethnic-Georgian villages in South Ossetia were set on fire and pillaged by South Ossetian militias. This impeded the comeback of 20,000 uprooted people after the conflict. According to the Memorial society, the villages of Kekhvi, Kurta, Achabeti, Tamarasheni, Eredvi, Vanati and Avnevi were \"virtually fully burnt down\". South Ossetian president Eduard Kokoity said in an interview that Georgian villages had been demolished and no Georgian refugees would be allowed to return. The Georgian civilians, who resided in the Akhalgori district and were willing to live in South Ossetia, were coerced into obtaining a Russian passport. The EU Commission said it was likely that during the hostilities and in the aftermath of the war, an ethnic cleansing of Georgians was committed in South Ossetia. Russia accused Georgia of committing \"genocide\" in South Ossetia. Russian authorities initially claimed that up to 2,000 ethnic Ossetian civilians of Tskhinvali were killed by Georgian forces; according to Russia, the reason for the Russian involvement in the conflict in Georgia was this large number of fatalities. Public opinion among Ossetians was impacted by claims of high casualties; according to HRW, some Ossetian civilians said in interviews that they approved of burning and pillaging of Georgian villages because of the \"thousands of civilian casualties in South Ossetia\" announced by Russian television. In December 2008, the figures were revised down to a total of 162 South Ossetian casualties by the Investigative Committee of the Prosecutor's Office of the Russian Federation. Georgia and South Ossetia have filed complaints about alleged war crimes committed by the other side with international courts, including the International Criminal Court, the International Court of Justice, and the European Court of Human Rights. The war displaced 192,000 people, including 127,000 within the undisputed parts of Georgia and 65,000 within South Ossetia or from South Ossetia to North Ossetia. Many were able to go back to their homes after the war, but a year later around 30,000 ethnic Georgians were still uprooted. As of May 2014, 20,272 persons were still displaced, with their return being blocked by de facto authorities. The International Criminal Court concluded its investigation in the Situation in Georgia in December 2022, delivering arrest warrants for three de facto South Ossetian officials believed to bear responsibility for war crimes committed during the 2008 war — Mikhail Mindzaev, Gamlet Guchmazov and David Sanakoev, respectively, holding the positions of Minister of Internal Affairs, head of a detention centre in Tskhinvali, and Presidential Representative for Human Rights of South Ossetia, at the relevant time. The fourth suspect, Russian general Vyacheslav Borisov, was not indicted as he had died in 2021. Georgia started a series of legal battles to hold Russia accountable for the 2008 conflict. In the 2021 Georgia v. Russia (II) judgment, the European Court of Human Rights ruled that the European Convention on Human Rights does not apply to extraterritorial actions during the active, chaotic phase of a military conflict. However, the Court held Russia responsible for widespread human rights violations committed during the subsequent occupation phase, asserting that Russia exercised effective control over the territory. On 14 October 2025, the European Court of Human Rights ordered Russia to pay Georgia more than 250 million euros ($289,000,000) for violations committed following the war. On 23 June 2026, the European Court of Human Rights ruled Russia liable for the torture and unlawful deaths of eight Georgian prisoners of war during the 2008 conflict, including national hero Giorgi Antsukhelidze, establishing Russian jurisdiction and responsibility over South Ossetian forces despite Moscow's legislative refusal to execute the monetary judgments.",
+          "names_later_date": true
+        },
+        {
+          "date": "2008-08-01",
+          "date_latest": "2008-08-31",
+          "date_precision": "month",
+          "text": "in a Gori house]] Gori is an important city in the centre of Georgia, located about 25 km from Tskhinvali. On 9 August, Russia indiscriminately bombed Gori, with targets ranging from a military garrison to several large civilian apartment buildings and a school. The Georgian government reported that the air raid had killed 60 civilians. No less than 5 Georgian cities had been bombed by 9 August. After Georgian troops had left Tskhinvali on 10 August, the Russians indiscriminately bombed the civilian areas in Gori on 11 August. The Georgian forces withdrew from Gori on 11 August. A Georgian official said that the troops were ordered to secure Tbilisi, the capital of Georgia. By late 11 August, the majority of inhabitants and Georgian troops had abandoned Gori. Georgian president Saakashvili stated that Russians had split Georgia into two by occupying an important intersection near Gori. Russian bombers attacked Gori on 12 August, killing seven people and wounding over thirty. Dutch TV journalist Stan Storimans was among those killed and another foreign reporter was injured. According to Georgian authorities, the Russians aimed at the city's administrative offices. The air raids set the post office and the Gori University on fire. The Gori Military Hospital carrying a Red Cross flag was struck by a rocket. The attack killed one doctor. The Russian military was warning during the march towards Gori on 13 August that they would not spare ethnic Georgian civilians in villages if the latter did not demonstrate signs of surrender. Escaping Georgians blamed Russian president Medvedev for their suffering because they, trusting Medvedev's statement on ceasefire, had remained in their homes before the Russian advance. The Russian military captured Gori on 13 August. The destruction of Georgian military bases began. Major General Vyacheslav Borisov, the commander of the Russian occupying troops, stated on 14 August that the Georgian police and Russian forces were in charge of Gori together. He also said that Russian troops would begin leaving Gori in two days. Combined guard efforts by the Russian Army and Georgian police in Gori soon broke down. The next day, Russian forces pushed to about 25 mi from Tbilisi, the nearest during the war, and stopped in Igoeti at the same time as Condoleezza Rice was received by Saakashvili. In 2014, Anatoly Khrulyov, the commander of the 58th Army, said that Russian troops had to act in accordance with operational objective and plan issued before 8 August 2008. If Khrulyov had not contacted the General Staff during the war and received new orders, the 58th Army would have taken Tbilisi. The humanitarian conditions in Gori by 16 August was assessed as \"desperate\" by the United Nations. Human Rights Watch (HRW) reported that following Russian takeover of Georgian areas, Georgians from Gori and the adjacent villages reported South Ossetian militias pillaging and assaulting Georgian properties as well as abducting civilians. New checkpoints were erected by the Russian forces on the Tbilisi-Gori road on 17 August. South Ossetian forces occupied Akhalgori and one fighter said that \"It will be part of an independent country within the Russian Federation.\" The Guardian commented that Moscow's apparent plan to recreate Greater South Ossetia was coming to fruition. The Times reported from Gori on 18 August that Russian troops had reportedly told Georgian civilians fleeing South Ossetia: \"Putin has given us an order that everyone must be either shot or forced to leave\". The occupation lasted until 22 August, when Russian troops departed and Georgian police re-entered the city. Georgia's principal highway connecting east with west was now free for transit."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "War in Abkhazia (1992–1993)",
+      "pageid": 9288347,
+      "revid": 1372463322,
+      "revision_timestamp": "2026-08-31T21:31:09Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=9288347",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1918-06-11",
+          "date_latest": "1918-06-11",
+          "date_precision": "day",
+          "text": "Abkhaz autonomy had existed within the Democratic Republic of Georgia since 11 June 1918 and was officially confirmed on 20 March 1919 by the elected Abkhaz People's Council.",
+          "names_later_date": true
+        },
+        {
+          "date": "1921-02-25",
+          "date_latest": "1921-02-25",
+          "date_precision": "day",
+          "text": "Through these acts, Georgia recognized Soviet power and all legal acts adopted by it from 25 February 1921 as illegal and void."
+        },
+        {
+          "date": "1989-03-18",
+          "date_latest": "1989-03-18",
+          "date_precision": "day",
+          "text": "On 18 March 1989, the Lykhny Appeal was issued at a meeting in the eponymous village, signed by the first secretary of the Abkhaz Regional Committee of the Communist Party of the Soviet Union, Boris Adleyba, and the chairman of the Abkhaz Supreme Soviet, Valerian Kobakhia."
+        },
+        {
+          "date": "1989-03-25",
+          "date_latest": "1989-03-25",
+          "date_precision": "day",
+          "text": "The local Georgian population of Abkhazia responded with counter-protests in the regional capital of Sukhumi, beginning on 25 March 1989."
+        },
+        {
+          "date": "1991-03-17",
+          "date_latest": "1991-03-17",
+          "date_precision": "day",
+          "text": "Georgia boycotted the 17 March 1991 all-Union referendum on the preservation of the Soviet Union proposed by Mikhail Gorbachev."
+        },
+        {
+          "date": "1991-04-09",
+          "date_latest": "1991-04-09",
+          "date_precision": "day",
+          "text": "Within weeks, Georgia declared independence from the Soviet Union on 9 April 1991 under former Soviet dissident Zviad Gamsakhurdia."
+        },
+        {
+          "date": "1992-01-08",
+          "date_latest": "1992-01-08",
+          "date_precision": "day",
+          "text": "On 8 January 1992, 2,000 supporters of Gamsakhurdia rallied in Sukhumi, defying a ban on rallies imposed by the interim ruling Military Council."
+        },
+        {
+          "date": "1992-05-15",
+          "date_latest": "1992-05-15",
+          "date_precision": "day",
+          "text": "On 15 May 1992, at the Tashkent CIS summit meeting, in which Georgia participated as an observer, Georgia and seven CIS states - Armenia, Azerbaijan, Belarus, Kazakhstan, Moldova, Russia and Ukraine – established quotas on dividing Soviet assets limited under the 1990 Treaty on Conventional Armed Forces in Europe."
+        },
+        {
+          "date": "1992-06-24",
+          "date_latest": "1992-06-24",
+          "date_precision": "day",
+          "text": "Tensions escalated on 24 June 1992 when Abkhaz armed formations broke into the office of the ethnic Georgian Minister of Internal Affairs of Abkhazia, Givi Lominadze, beat him, and forcibly removed him from office, replacing him with an Abkhaz candidate who was appointed without the consent of the Georgian deputies of the Abkhaz Supreme Soviet."
+        },
+        {
+          "date": "1992-07-23",
+          "date_latest": "1992-07-23",
+          "date_precision": "day",
+          "text": "According to Agnieszka Miarka, the restoration of the Abkhazian SSR-era constitution on 23 July 1992, which declared Abkhazia as a sovereign state exercising independent authority on its territory, must be construed as a declaration of independence, serving as the immediate cause of the conflict."
+        },
+        {
+          "date": "1992-07-23",
+          "date_latest": "1992-07-23",
+          "date_precision": "day",
+          "text": "On 23 July 1992, in response to Georgia's restoration of the 1921 Georgian Constitution, the Abkhaz Supreme Soviet restored the 1925 Abkhaz Constitution by a simple majority of 35 of its 65 deputies."
+        },
+        {
+          "date": "1992-08-11",
+          "date_latest": "1992-08-11",
+          "date_precision": "day",
+          "text": "On 11 August, 1992, the Georgian civil war reached another point of escalation when six Georgian government officials were taken hostage by pro-Gamsakhurdia guerrillas in Zugdidi, where the Georgian ruling State Council exercised only loose control."
+        },
+        {
+          "date": "1992-08-13",
+          "date_latest": "1992-08-13",
+          "date_precision": "day",
+          "text": "On 13 August 1992, 3,000 Georgian troops arrived outside Zugdidi, after the State Council ordered them to take control of roads, bridges, and railways in western Georgia."
+        },
+        {
+          "date": "1992-08-14",
+          "date_latest": "1992-08-14",
+          "date_precision": "day",
+          "text": "After beginning of the war on 14 August 1992, the Abkhaz separatists and North Caucasian terrorists in Gudauta committed various human rights abuses against ethnic Georgians."
+        },
+        {
+          "date": "1992-08-22",
+          "date_latest": "1992-08-22",
+          "date_precision": "day",
+          "text": "On 22 August 1992, the Confederation of Mountain Peoples of the Caucasus published a decree of its president Musa Shanibov and the chairman of the parliament Iysuph Soslanbekov: \"As there is no other way to withdraw Georgian occupants' army from the territory of the sovereign Abkhazia and in order to implement the resolution of the 10th Session of the CMPC, we order: # All headquarters of the Confederation have to dispatch volunteers to the territory of Abkhazia to crush the aggressor militarily. # All military formations of the Confederation have to conduct military actions against any forces who oppose them and try to reach the territory of Abkhazia by any method. # To announce Tbilisi as a zone of disaster."
+        },
+        {
+          "date": "1992-09-03",
+          "date_latest": "1992-09-03",
+          "date_precision": "day",
+          "text": "On 3 September 1992, Russian president Boris Yeltsin and Head of State Council of the Republic of Georgia Eduard Shevardnadze signed an agreement, formally known as Summary Document of the Moscow Meeting."
+        },
+        {
+          "date": "1992-09-03",
+          "date_latest": "1992-09-03",
+          "date_precision": "day",
+          "text": "On 3 September 1992, a ceasefire was negotiated in Moscow."
+        },
+        {
+          "date": "1992-09-22",
+          "date_latest": "1992-09-22",
+          "date_precision": "day",
+          "text": "The whole Akhaltsikhe motorised rifle division was turned over to Georgia on 22 September 1992."
+        },
+        {
+          "date": "1992-09-25",
+          "date_latest": "1992-09-25",
+          "date_precision": "day",
+          "text": "However, on 25 September 1992, the Russian Supreme Soviet (parliament) passed a resolution which condemned Georgia, supported Abkhazia, demanded the deployment of a Russian peacekeeping force in the region and suspended the delivery of weapons and equipment to Georgia."
+        },
+        {
+          "date": "1992-12-14",
+          "date_latest": "1992-12-14",
+          "date_precision": "day",
+          "text": "On 14 December 1992, the Russian military suffered the loss of another military helicopter, carrying evacuees from Tkvarcheli, with reports of 52 to 64 resulting deaths (including 25 children)."
+        },
+        {
+          "date": "1992-12-31",
+          "date_latest": "1992-12-31",
+          "date_precision": "day",
+          "text": "On 31 December 1992, talks between the Russian defence minister Pavel Grachev and Georgian defence minister Tengiz Kitovani failed to resolve the deadlock between Russia and Georgia."
+        },
+        {
+          "date": "1993-03-04",
+          "date_latest": "1993-03-04",
+          "date_precision": "day",
+          "text": "On 4 March 1993, Eduard Shevardnadze, head of the State Council of Georgia, arrived in the capital of the region to take control over the defensive operations in the city."
+        },
+        {
+          "date": "1993-03-16",
+          "date_latest": "1993-03-16",
+          "date_precision": "day",
+          "text": "On 16 March 1993, at 6 and 9 am the Abkhaz and the Confederation forces launched a full-scale attack on Sukhumi resulting in mass destruction and heavy casualties among civilians."
+        },
+        {
+          "date": "1993-03-19",
+          "date_latest": "1993-03-19",
+          "date_precision": "day",
+          "text": "A Russian Su-27 was shot down by Georgian forces near Gudauta on 19 March 1993."
+        },
+        {
+          "date": "1993-04-05",
+          "date_latest": "1993-04-05",
+          "date_precision": "day",
+          "text": "On 5 April 1993, two Russian Su-25 warplanes, operating alongside separatist forces, attacked Georgian howitzer and mortar positions near Sukhumi."
+        },
+        {
+          "date": "1993-04-28",
+          "date_latest": "1993-04-28",
+          "date_precision": "day",
+          "text": "Georgian Parliament adopted another resolution on 28 April 1993, which openly blamed Russia in political facilitation of ethnic cleansing and genocide against Georgians."
+        },
+        {
+          "date": "1993-07-02",
+          "date_latest": "1993-07-02",
+          "date_precision": "day",
+          "text": "On 2 July 1993 under Russian military directives and naval support, the Abkhaz and their (Confederation of Mountain Peoples of the Caucasus) allies attacked the villages on the Gumista river."
+        },
+        {
+          "date": "1993-07-05",
+          "date_latest": "1993-07-05",
+          "date_precision": "day",
+          "text": "On 5 July 1993, Abkhaz, Armenian Bagramyan battalion, Russian and North Caucasian detachments stormed the villages of Akhalsheni, Guma and Shroma of Sukhumi district."
+        },
+        {
+          "date": "1993-07-27",
+          "date_latest": "1993-07-27",
+          "date_precision": "day",
+          "text": "On 27 July 1993, Georgia and Abkhaz separatists signed a Russian-brokered ceasefire agreement in Russian town of Sochi to end the conflict."
+        },
+        {
+          "date": "1993-07-27",
+          "date_latest": "1993-07-27",
+          "date_precision": "day",
+          "text": "On 27 July 1993, a ceasefire agreement was signed.",
+          "duplicate_of": "War in Abkhazia (1992–1993)"
+        },
+        {
+          "date": "1993-08-15",
+          "date_latest": "1993-08-15",
+          "date_precision": "day",
+          "text": "On 15 August 1993, Greece carried out a humanitarian operation, Operation Golden Fleece, evacuating 1,015 Greeks who had decided to flee from the war-ridden Abkhazia."
+        },
+        {
+          "date": "1993-09-27",
+          "date_latest": "1993-09-27",
+          "date_precision": "day",
+          "text": "Significant human rights violations and atrocities were reported on all sides, peaking in the aftermath of the Abkhaz capture of Sukhumi on 27 September 1993, which was followed by a large-scale campaign of ethnic cleansing against the ethnic Georgian population."
+        },
+        {
+          "date": "1993-10-04",
+          "date_latest": "1993-10-04",
+          "date_precision": "day",
+          "text": "In a Time magazine article published on 4 October 1993, Georgians said Russian Army officers provided Abkhazian separatists, at the beginning using mere hunting rifles and shotguns, with sophisticated weapons like BM-21 multiple rocket launchers and Sukhoi SU-25 jet aircraft, plus battlefield intelligence."
+        },
+        {
+          "date": "1994-04-04",
+          "date_latest": "1994-04-04",
+          "date_precision": "day",
+          "text": "On 4 April 1994 the \"declaration on measures for a political settlement of the Georgian-Abkhazian conflict\" was signed in Moscow."
+        },
+        {
+          "date": "1994-05-14",
+          "date_latest": "1994-05-14",
+          "date_precision": "day",
+          "text": "Instead of the deployment of a traditional UN peacekeeping force, the deployment of a CIS, mainly Russian peacekeeping forces, was agreed in Moscow on 14 May 1994."
+        },
+        {
+          "date": "1994-09-14",
+          "date_latest": "1994-09-14",
+          "date_precision": "day",
+          "text": "On 14 September 1994, Abkhaz leaders appeared on local TV to demand that all ethnic Georgians depart from the region by 27 September (the anniversary of the capture of Sukhumi)."
+        },
+        {
+          "date": "1994-11-30",
+          "date_latest": "1994-11-30",
+          "date_precision": "day",
+          "text": "On 30 November 1994, Abkhazia promulgated a new constitution declaring independence of the breakaway region."
+        },
+        {
+          "date": "1994-12-15",
+          "date_latest": "1994-12-15",
+          "date_precision": "day",
+          "text": "On 15 December 1994, the US State Department condemned Abkhazia's declaration of independence."
+        },
+        {
+          "date": "1995-03-21",
+          "date_latest": "1995-03-21",
+          "date_precision": "day",
+          "text": "On 21 March 1995, The United Nations High Commissioner for Refugees accused Abkhaz militias of torturing and murdering dozens of returning ethnic Georgian refugees in Gali District."
+        },
+        {
+          "date": "2006-08-28",
+          "date_latest": "2006-08-28",
+          "date_precision": "day",
+          "text": "Its sources are diverse and include the Russian imperial hangover, but more practically the fate of the Russian diaspora, the lack of developed defences along the borders of the Russian Federation proper, concern over Islam and discomfort with the spill-over effects of instability in the other republics.\" On 28 August 2006, Senator Richard Lugar, then visiting Georgia's capital Tbilisi, joined the Georgian politicians in criticism of the Russian peacekeeping mission, stating that \"the U.S. administration supports the Georgian government's insistence on the withdrawal of Russian peacekeepers from the conflict zones in Abkhazia and the Tskhinvali district.\""
+        },
+        {
+          "date": "2008-05-15",
+          "date_latest": "2008-05-15",
+          "date_precision": "day",
+          "text": "On 15 May 2008, the UN General Assembly adopted (by 14 votes to 11, with 105 abstentions) a resolution A/RES/62/249 in which it \"Emphasizes the importance of preserving the property rights of refugees and internally displaced persons from Abkhazia, Georgia, including victims of reported \"ethnic cleansing\", and calls upon all Member States to deter persons under their jurisdiction from obtaining property within the territory of Abkhazia, Georgia in violation of the rights of returnees\".",
+          "mentions_vote": true
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

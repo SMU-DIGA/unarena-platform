@@ -1,0 +1,402 @@
+{
+  "topic": "yemen_civil_war",
+  "label": "Yemeni civil war",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 57,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 1,
+  "vague_dated_segments": 47,
+  "cross_article_duplicates": 3,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Yemeni civil war (2014–present)",
+      "pageid": 52823723,
+      "revid": 1371094580,
+      "revision_timestamp": "2026-08-24T15:04:42Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=52823723",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2020-01-01",
+          "date_latest": "2020-01-31",
+          "date_precision": "month",
+          "text": "On 7 January, Houthi rebels shot down a drone belonging to the Saudi-led coalition, in the northeastern province of Jawf. On 18 January, a missile attack on a military training camp in the central province of Marib killed at least 111 soldiers, while dozens were wounded. The Yemeni government blamed Houthi rebels for the attack, as there was no claim of responsibility. The strike targeted a mosque as people met for prayer, military sources told Reuters. On 29 January, Houthi rebels said they carried out missile and drones attacks on Saudi Aramco in the kingdom's southern Jazan province. However, Saudi oil authorities claimed that the missiles were intercepted. Al-Qaeda in the Arabian Peninsula leader Qasim al-Raymi was killed by an American drone strike. On 31 January, Houthi armed forces spokesman Gen. Yahya Saree announced that Houthi forces managed to capture roughly of territory including the city of Naham, and parts of the governorates of Al-Jawf and Marib, from Saudi-led forces. They recaptured the entire Sanaa Governorate. The coalition forces immediately denied this claim, claiming victory and progress in these areas.\"In the Nahm district, east of the capital Sanaa, the National Army managed to regain control of a number of Houthi-controlled areas,\" Majli said."
+        },
+        {
+          "date": "2020-02-01",
+          "date_latest": "2020-02-29",
+          "date_precision": "month",
+          "text": "On 15 February, a Saudi Tornado was shot down during close air support mission in support of Saudi allied Yemeni forces in the Yemeni Al Jouf governorate by Houthis. On the day after, the Saudi command confirmed the loss of a Tornado, while video evidence was released showing the downing using a two-stage surface to air missile. Both pilots ejected and were captured by Houthis according to the Saudi Coalition. The next day, the Saudi-led coalition launched airstrikes, targeting Yemen's northern Al Jawf Governorate and killed 31 civilians."
+        },
+        {
+          "date": "2020-03-01",
+          "date_latest": "2020-03-31",
+          "date_precision": "month",
+          "text": "On 1 March, Houthi forces captured the city of Al Hazm, the capital of Al Jawf Governorate. On 10 March, Houthis forces captured the town of Tabab Al-Bara and other portions of Sirwah District in Marib Governorate in their eastward offensive towards the city of Marib. On 30 March, the Saudi-led coalition carried out an airstrike on the Yemeni capital, Sanaa. The attacks came despite the UN Secretary-General António Guterres and other organizations asking to maintain ceasefire during the COVID-19 pandemic. In their statement, a group of regional experts also said that all political prisoners should be released from prisons to tackle the appalling health care system, and mitigate the COVID-19 pandemic from spreading in Yemen."
+        },
+        {
+          "date": "2020-04-01",
+          "date_latest": "2020-04-30",
+          "date_precision": "month",
+          "text": "On 5 April, at least 5 women were killed and 28 people injured when shelling hit the woman's section of Taiz's main prison. The shelling came from the part of the divided city controlled by the Houthis. The attack was condemned by the High Commissioner of the United Nations High Commissioner for Human Rights (UNHCHR) Michelle Bachelet, who called it a breach of international humanitarian law. After the United Nations urged both sides to pursue peace talks in order to respond to the COVID-19 pandemic in Yemen, Saudi-led coalition spokesman Turki Al-Maliki announced a unilateral ceasefire beginning 9 April at noon, to support efforts to mitigate the COVID-19 pandemic. However, despite pledging to a ceasefire in Yemen, the Saudi-led coalition carried out dozens of airstrikes in the span of a week. The Yemen Data Project stated that at least 106 Saudi-led airstrikes, across 26 raids in Yemen have been carried out by the Kingdom over the last week. On 26 April, the Southern Transitional Council (STC) announced it was establishing self-rule in the parts of south Yemen under their control. The move threatened to renew the conflict with the Saudi-backed Internationally Recognized Government (IRG) of President Abdrabbuh Mansur Hadi. By 28 April, Houthi forces said that they managed to capture eleven of the twelve districts and 95% of the Al-Jawf Governorate with only the eastern district of Khab and al-Shaaf still being in Saudi-led coalition control. They controlled all of the former North Yemen except for Marib Governorate."
+        },
+        {
+          "date": "2020-05-01",
+          "date_latest": "2020-05-31",
+          "date_precision": "month",
+          "text": "On 11 May, the Hadi government forces attacked the separatists' positions in the capital of Abyan province, Zinjibar. An STC official, Nabil al-Hanachi stated that they managed to \"stop the attack and kill many of them\". The renewed fight between the two sides brought additional risks to the already vague Riyadh Agreement. On 19 May, the President of STC Aidarus al-Zoubaidi visited Riyadh for two days, in order to discuss the prolonged impasse with the Hadi government. However, the talks were extended to the eighth day on 26 May, where the Saudi Crown Prince Mohammed bin Salman was facing a challenge to resolve the conflict between the Hadi government it sponsors and the separatists backed by the UAE. The conflict between the two sides reflected rising differences within the Saudi-led coalition, giving rise to a \"war within a war\" that the two are fighting against the Houthi rebels."
+        },
+        {
+          "date": "2020-06-01",
+          "date_latest": "2020-06-30",
+          "date_precision": "month",
+          "text": "On 15 June, an airstrike from the Saudi-led coalition on a vehicle carrying civilians killed 13, including four children. On 14 June, the STC confiscated billions of Yemeni riyals en route to the central bank in the port city Aden. On 21 June, the STC seized full control of Socotra, deposing governor Ramzi Mahroos, who denounced the action as a coup. On 30 June, Houthis forces made further advances on the North of Badya and the South of Marib, seizing 400 km of terrain and inflicting 250 killed, wounded and captured Pro-Hadi Government forces."
+        },
+        {
+          "date": "2020-07-01",
+          "date_latest": "2020-07-31",
+          "date_precision": "month",
+          "text": "On 2 July, coalition fighter jets launched scores of airstrikes on several Yemeni provinces. The operation was a response to ballistic missile and drone launchings by the Houthis against Saudi Arabia. The air raids ended a ceasefire that had been in place since April, as part of efforts to battle the coronavirus. On 21 July 2020, the International Organization for Migration revealed that between 30 March and 18 July, over 10,000 people got internally displaced citing fear of coronavirus."
+        },
+        {
+          "date": "2020-08-01",
+          "date_latest": "2020-08-31",
+          "date_precision": "month",
+          "text": "On 19 August, Houthi forces said they captured part of Al Bayda after they launched an offensive."
+        },
+        {
+          "date": "2020-12-01",
+          "date_latest": "2020-12-31",
+          "date_precision": "month",
+          "text": "On 31 December, explosions and gunfire targeted Aden International Airport whilst a plane carrying members of the recently formed Yemeni government disembarked. The attack left 28 people dead and 107 others injured. None of the passengers were hurt in the attack and the Yemeni cabinet members were quickly transported to Mashiq Palace for safety."
+        },
+        {
+          "date": "2021-02-01",
+          "date_latest": "2021-02-28",
+          "date_precision": "month",
+          "text": "The Houthis launched another offensive on Marib Governorate in late February with the aim of capturing Marib city. After making steady advances in the governorate, the Houthis launched a three pronged assault on the city with occasional ballistic strikes. According to the International Organization for Migration (IOM), over 140,000 displaced refugees from western Marib fled fearing the Houthis' advance."
+        },
+        {
+          "date": "2021-10-01",
+          "date_latest": "2021-10-31",
+          "date_precision": "month",
+          "text": "On 17 October, Houthi forces took control of the Abdiya, and Harib districts in Marib Governorate."
+        },
+        {
+          "date": "2021-11-01",
+          "date_latest": "2021-11-30",
+          "date_precision": "month",
+          "text": "In the first weeks of November Saudi Arabian forces were reported leaving Al-Alam camp and Ataq, the capital of Shabwa Governorate, as well as the city of Aden. Saudi officials said the movement of troops responded to a re-deployment of forces drawn by tactical assessment. On 11 November, Houthi forces seized the US Embassy compound and captured Yemeni national staff. On 13 November, Saudi led-coalition forces left their positions around Hudaydah city. UAE backed forces also withdrew from southern Hudaydah, their positions were later occupied by Houthi forces. On 18 November, Agence France-Presse reported that nearly 15,000 Houthi rebels had been killed in Marib since mid-June, according to sources close to the rebels. On 23 November, the UN published a report stating that, by the end of 2021, the death toll of the war would reach 377,000, including direct and indirect causes. An estimated 70% are children under the age of five."
+        },
+        {
+          "date": "2021-12-01",
+          "date_latest": "2021-12-31",
+          "date_precision": "month",
+          "text": "On 4 December, the Saudi-led Coalition announced it has conducted 11 separate operations targeting Houthis in Yemen, killing 60 Houthis and destroying seven military vehicles in the previous 24 hours. The commander of Yemen's third military region in Marib responsible for combat operations on various fronts of the city said the Yemeni army had also made several advances in recent days in Bayhan, Usaylan and Harib. On 5 December, the Saudi-led coalition said in a statement it had intercepted four drones fired by Houthi rebels towards Saudi Arabia's southern region. The statement also said Houthi rebels fired four ballistic missiles towards Marib province. On 25 December, two people were killed and seven injured in Jazan in southern Saudi Arabia following a projectile attack blamed on Houthi rebels. In response, three died and six were injured in the Houthi-held town Ajama, Yemen in a Saudi-led coalition air strike."
+        },
+        {
+          "date": "2022-01-01",
+          "date_latest": "2022-01-31",
+          "date_precision": "month",
+          "text": "On 2 January, Houthi rebels seized in the Red Sea the UAE-flagged ship Rawabi, which was heading from Socotra to Jizan, claiming the vessel was carrying military supplies. Saudi Arabia said that the ship was carrying hospital equipment. On 17 January in an attack on the UAE capital Abu Dhabi, three people were killed and six others wounded when three fuel tankers exploded in the industrial area of Musaffah near storage facilities belonging to the state-owned oil firm, ADNOC. In the same attack, there was a fire at a construction site at Abu Dhabi International Airport. Houthis claimed responsibility for the attack which was possibly caused by drones. On 21 January an airstrike at a detention center in Saada killed 82 people and injured 266 others (according to Médecins Sans Frontières), which was condemned by the United Nations. The Saudi-led coalition denied involvement in the attack. Amnesty international reported that the coalition had carried out the strike using a laser-guided munition developed by U.S. defense company Raytheon Technologies. On 24 January, the Houthis once again fired rockets at the UAE, but the UAE and US military intercepted them. According to an analysis by Save the Children, January was the deadliest month in the war since 2018, with a total of 599 civilians killed or wounded. Oxfam reported that in the same month there were 43 coalition airstrikes on civilian targets."
+        },
+        {
+          "date": "2022-04-01",
+          "date_latest": "2022-04-30",
+          "date_precision": "month",
+          "text": "The UN brokered a two-month nationwide truce on 2 April 2022 between Yemen's warring parties, which included allowing fuel imports into Houthi-held areas and some flights operating from Sanaa airport to Jordan and Egypt."
+        },
+        {
+          "date": "2022-06-01",
+          "date_latest": "2022-06-30",
+          "date_precision": "month",
+          "text": "The UN announced on 2 June 2022 that the nationwide truce had been further extended by two months. United States welcomed the truce extension in Yemen, praising Saudi Arabia, Jordan, Egypt, and Oman in helping to secure the truce."
+        },
+        {
+          "date": "2022-08-01",
+          "date_latest": "2022-08-31",
+          "date_precision": "month",
+          "text": "In August 2022 the truce was renewed with commitment to 'an expanded truce agreement as soon as possible'. Southern separatists also launched a major offensive capturing the capital of Shabwah and most of the Abyan province."
+        },
+        {
+          "date": "2023-03-01",
+          "date_latest": "2023-03-31",
+          "date_precision": "month",
+          "text": "On 20 March 2023, the United Nations and the International Committee of the Red Cross reported that the Yemeni government and the Houthis agreed to release 887 detainees, following 10 days of negotiations in Switzerland. Both parties also agreed to visitation rights in detention facilities and likely more prisoner swaps in the near future. Hans Grundberg, the UN’s special envoy for Yemen said that things are finally moving \"in the right direction\" toward a resolution of the conflict. The possible end to a devastating war in the region comes after the recent Saudi-Iranian rapprochement mediated by China a week earlier."
+        },
+        {
+          "date": "2023-04-01",
+          "date_latest": "2023-04-30",
+          "date_precision": "month",
+          "text": "On 14 April, former chief of staff Mahmoud al-Subaihi and Hadi's brother and intelligence chief Nasser were released by the Houthis as part of a prisoner swap with the Yemeni government. On 19 April, at least 85 people were killed and 322 people injured in a stampede in Sanaa, Yemen. Negotiations to end the civil war that includes all major combatants begin in April 2023 after Iran and Saudi Arabia resume diplomatic relations."
+        },
+        {
+          "date": "2023-09-01",
+          "date_latest": "2023-09-30",
+          "date_precision": "month",
+          "text": "On 14 September a Houthi delegation visited Riyadh for what could be the final round of peace talks."
+        },
+        {
+          "date": "2023-10-01",
+          "date_latest": "2023-10-31",
+          "date_precision": "month",
+          "text": "Houthi military spokesman Yahya Saree spokesman said the Houthis had launched a \"large number\" of ballistic missiles and drones at Israel."
+        },
+        {
+          "date": "2023-11-01",
+          "date_latest": "2023-11-30",
+          "date_precision": "month",
+          "text": "On 1 November 2023, an Israeli Air Force F-35 shot down a Quds cruise missile. On 9 November 2023, the Houthis launched a ballistic missile, possibly a Hatem, against the southern Israeli city of Eilat & for a 2nd time, it was intercepted in space. 2nd generation 2000 km range is suspected. However, Arrow 3s have a very high interception success rate. But the Houthis remain undeterred & launch Wa'aed drones at will against Israel using a flight path over the Red Sea."
+        },
+        {
+          "date": "2023-12-01",
+          "date_latest": "2023-12-31",
+          "date_precision": "month",
+          "text": "On 11 December, Shia religious leader Abdul-Malik al-Houthi hit the Norwegian MT Strinda oil tanker while it was transiting a load of palm oil to Naples. The entirely Indian crew was uninjured. The ship burned spectacularly, but remarkably didn't sink. For Red Sea maritime security to and from the Suez Canal, Combined Maritime Forces (CMF) in Manama, Bahrain has a 39-nation naval partnership (which includes Norway &) which established (its) Combined Task Force 153 on 17 April 2022. (CDR Fridtjof is CMF's Norwegian Representative.) The International Maritime Security Construct was established on 16 September 2019 & also guards the Bab-el-Mandeb Strait via Coalition Task Force (Operation) Sentinel. Norwegian State Secretary for Foreign Affairs Eivind Vad Petersson (who reports to the Minister of Foreign Affairs of Norway) said the attack will cause \"great financial and material losses\". On 15 December, a Houthi drone hit the German-based shipper Hapag-Lloyd's container ship MV Al Jasrah, causing a fire which was eventually extinguished & a Houthi ballistic missile hit, setting the Swiss-owned container ship MSC Palatium III ablaze. Because NATO's rulers authorized neither CTF 153 nor Operation Sentinel to deter the Houthis, the world's second largest shipping company, Maersk, stopped shipping containers through the Red Sea & the Suez Canal. Hapag-Lloyd paused all shipments through the Bab-el-Mandeb Strait through the weekend. 10% of all oil traded at sea passes through it & a staggering number of dollars of cargo per year. 16 December, HMS Diamond shot down a Wa'aed drone, forcing the Houthis to switch tactics to relying on their various types of ballistic missiles. USS Carney shot down 14 drones. Two more major shipping firms, Italian-Swiss based MSC and France's CMA CGM, suspended ship passage through the Bab-el-Mandeb Straight, costing the Suez (a combined) more than half its traffic. 40% of all exports & imports that are traded at sea transit through the strait. (Notably, Chinese COSTCO was still operating.) On 18 December, the United States-led military operation by a multinational coalition formed in December 2023 was launched to respond to Houthi-led attacks on shipping in the Red Sea.",
+          "duplicate_of": "Timeline of the Yemeni civil war (2014–present)"
+        },
+        {
+          "date": "2024-01-01",
+          "date_latest": "2024-01-31",
+          "date_precision": "month",
+          "text": "On 12 January 2024, the U.S. and the U.K., supported by many of their allies, launched airstrikes against the Houthis due to the group's actions in the Red Sea Crisis, beginning a series of strikes that would last for more than a year."
+        },
+        {
+          "date": "2024-03-01",
+          "date_latest": "2024-03-31",
+          "date_precision": "month",
+          "text": "On 10 March, AQAP reported the death of emir Khalid Batarfi, along the selection of his successor Sa'ad bin Atef al-Awlaki. On 24 March, AQAP ambushed an STC patrol in Wadi Omran, triggering a firefight which killed 2 STC fighters."
+        },
+        {
+          "date": "2024-04-01",
+          "date_latest": "2024-04-30",
+          "date_precision": "month",
+          "text": "On 29 April, an AQAP IED attack targeted an STC military vehicle in Mudiyah. The blast reportedly killed six STC soldiers."
+        },
+        {
+          "date": "2024-05-01",
+          "date_latest": "2024-05-31",
+          "date_precision": "month",
+          "text": "On 26 May 2024, The Houthis, with the help of the International Committee of the Red Cross, released more than 100 detainees in Sanaa, as part of a \"unilateral humanitarian initiative\" aimed at pardoning the prisoners and returning them to their families."
+        },
+        {
+          "date": "2024-06-01",
+          "date_latest": "2024-06-30",
+          "date_precision": "month",
+          "text": "On 21 June, AQAP ambushed an STC vehicle in Abyan, leading to the death of an STC soldier and the injury of two others."
+        },
+        {
+          "date": "2024-07-01",
+          "date_latest": "2024-07-31",
+          "date_precision": "month",
+          "text": "On 20 July, the Israel Defense Forces (IDF) launched an attack at Al Hudaydah Port in Yemen. Israel claimed it targeted weapon storage facilities. However, the attack damaged infrastructures belonging to Yemen Petroleum Corporation (YPC) and port cranes.14 people were killed, including 12 port employees of YPC were killed."
+        },
+        {
+          "date": "2024-08-01",
+          "date_latest": "2024-08-31",
+          "date_precision": "month",
+          "text": "On 16 August, AQAP carried out a suicide car bombing targeting a Security Belt military barracks in Mudiyah district. The attack killed 16 soldiers and injured 18."
+        },
+        {
+          "date": "2024-09-01",
+          "date_latest": "2024-09-30",
+          "date_precision": "month",
+          "text": "On 6 September, An armed attack killed 1 Yemeni Government Soldier. On 29 September, Israel launched attacks in Yemen against the ports of Al Hudaydah and Ras Isa, killing 6 people"
+        },
+        {
+          "date": "2024-10-01",
+          "date_latest": "2024-10-31",
+          "date_precision": "month",
+          "text": "On 15 October, a roadside bomb placed by AQAP killed a commander of the STC fighters. On 19 October, AQAP fighters fired an RPG at an STC military vehicle in Mudiyah district, killing two soldiers. On 21 October, an AQAP grenade attack in Wadi Omran killed an STC soldier and wounded two others, while also wounding two civilians."
+        },
+        {
+          "date": "2024-12-01",
+          "date_latest": "2024-12-31",
+          "date_precision": "month",
+          "text": "On 19 December and 26 December, Israel carried out several strikes against the Houthis in Yemen. Airstrikes by IAF also struck Sanaa International Airport."
+        },
+        {
+          "date": "2025-01-01",
+          "date_latest": "2025-01-31",
+          "date_precision": "month",
+          "text": "On 10 January 2025, the Israeli Air Force conducted airstrikes with the involvement of American and British Air Forces on multiple targets in the coastal strip controlled by the Houthi Movement and deep inside Yemen."
+        },
+        {
+          "date": "2025-03-01",
+          "date_latest": "2025-03-31",
+          "date_precision": "month",
+          "text": "On 15 March 2025, the U.S. began heavily striking Houthi positions in Yemen. From 16 March to 26 March, the U.S. conducted various airstrikes on Houthi controlled territory, destroying and damaging military infrastructures including military headquarters, weapon storage facilities, training bases and targeting the leadership.However, strikes also hit many residential places, leading to severe civilian deaths. The strikes killed security chief of Houthi leader Abdul-Malik al-Houthi. The most significant attack on Houthi leadership occurred on 24 March and 26 March, killing 5 senior high profile Houthi leaders.In response, the Houthis retaliated by attacking on U.S. vessels and military carriers in the Red Sea. On 27 March, The U.S. deployed B-2 Spirit stealth bombers to Diego Garcia and contained to conduct strikes in Yemen."
+        },
+        {
+          "date": "2025-04-01",
+          "date_latest": "2025-04-30",
+          "date_precision": "month",
+          "text": "From April 1 to April 30, The U.S. conducted multiple key Houthi controlled government infrastructures including an attack on Ras Isa oil terminal and an attack on Saada Prison. the U.S. also lost an F/A-18 Super Hornet fighter during the monthly operation. On April 13, 2025, Al-Qaeda in the Arabian Peninsula (AQAP) released a statement claiming responsibility for two drone attacks carried out earlier that day against military outposts manned by UAE-backed STC forces in Yemen's Mudiyah district."
+        },
+        {
+          "date": "2025-05-01",
+          "date_latest": "2025-05-31",
+          "date_precision": "month",
+          "text": "On 6 May, Oman successfully brokered a ceasefire between the U.S. and the Houthis, with the latter agreeing to stop targeting American vessels. However, the Houthis continued to attack international shipping afterwards. On 5 May 2025, Israel started a series of airstrikes against the Houthi movement in Yemen, in response to a Houthi ballistic missile attack on Ben Gurion Airport and attacks on Israel which could last until October 2025.In response, the Houthis started attacking Israel with ballistic missiles and drone strikes. On 24 May, An alleged U.S. air strike kills 5 AQAP militants in Southern Yemen."
+        },
+        {
+          "date": "2025-07-01",
+          "date_latest": "2025-07-31",
+          "date_precision": "month",
+          "text": "On 25 July, the Yemeni government forces announced that they repelled a Houthi attack in Saada, leaving 10 government soldiers dead."
+        },
+        {
+          "date": "2025-08-01",
+          "date_latest": "2025-08-31",
+          "date_precision": "month",
+          "text": "On 10 August, The Yemeni government forces repelled a Houthi attack in Dhalea province, leaving 3 Houthi fighters killed. On 29 August, Houthi Prime Minister Ahmed al-Rahawi was reportedly killed along with many associates during an Israeli airstrike in Sanaa."
+        },
+        {
+          "date": "2025-09-01",
+          "date_latest": "2025-09-30",
+          "date_precision": "month",
+          "text": "On 10 September, the Israeli Air Force airstrikes against various targets in Yemen killed 46 peoples, including 31 media workers according to Committee to Protect Journalists. This marked this attack the deadliest attack on journalists since the Maguindanao massacre."
+        },
+        {
+          "date": "2025-10-01",
+          "date_latest": "2025-10-31",
+          "date_precision": "month",
+          "text": "Since 5 October, the Houthis and Israel halted their attacks on each others in the wake of the ceasefire in Gaza brokered by US President Donald Trump. On 21 October 2025, Al-Qaeda in Arabian Peninsula committed a suicide car attack against the STC forces in Abyan which killed 9-11 soldiers, including 4-5 STC soldiers and 5-6 Al-Qaeda militants."
+        },
+        {
+          "date": "2025-12-01",
+          "date_latest": "2025-12-31",
+          "date_precision": "month",
+          "text": "On 3 December 2025, the STC began an offensive in the Hadhramaut Governorate, claiming to take control of Seiyun after clashes in the city's airport and palace, killing 3. On 4 December, the STC announced control over the Al-Mahrah Governorate, taking the region without much resistance. By 8 December, the STC controlled almost all of the territories that made up the former South Yemen, possibly preparing for a formal declaration of independence from the rest of Yemen. On 23 December, the government and the Houthis agreed to a prisoner swap of 2,900 detainees, the largest swap of the war to that point. On 28 December, STC forces announced that they successfully repelled an assault launched by Houthi fighters in the Lahj governorate. On 30 December 2025, the PLC government declared a 90-day state of emergency across Yemen while also canceling a joint defense agreement with the United Arab Emirates (UAE). The PLC ordered the withdrawal of all remaining UAE forces within 24 hours, and imposed a temporary blockade on entry points. The UAE subsequently announced the full withdrawal of its remaining counterterrorism personnel from Yemen, effectively ending its direct military presence and marking a de facto removal from the Saudi-led coalition's operations in the country."
+        },
+        {
+          "date": "2026-01-01",
+          "date_latest": "2026-01-31",
+          "date_precision": "month",
+          "text": "On 2 January, the Saudi Arabia backed-PLC began a counter-offensive to take control of all military bases and camps under STC control. The Royal Saudi Air Force started conducting air strikes in Al-Khasha and Seiyun to back the government forces. Saudi led airstrikes killed estimated 20 STC fighters. From 3 January to 4 January, the military forces aligned with Saudi Arabia issued a statement confirming they had secured complete control over Hadramaut. From 7 January to 10 January, The Yemeni government forces took over Aden and territory under STC control. Subsequently, the head of STC, Aidarus al-Zoubaidi, allegedly fled to the UAE. On 9 January, following the collapse, the secretary general of STC declares the group dissolved. On 10 January, the PLC announced that it had retaken full control of areas previously held by the STC. On 14 January, the Yemeni government forces announced that they repelled a Houthi attack in Al-Jawf. On 22 January, Bombing of a Yemeni Government force's convoy killed 5 soldiers and wounded 3 others. No group reportedly claimed responsibility for the attack."
+        },
+        {
+          "date": "2026-02-01",
+          "date_latest": "2026-02-28",
+          "date_precision": "month",
+          "text": "On 11 February, the Yemeni government forces dispersed Pro-STC protesters attempting to storm a local government building. The use of force led to the death of 5 people and 39 others injured. On 20 February, the Yemeni government forces killed 1 Pro-STC demonstrator and injured 11 others while they attempted to storm the gate of the al-Maashiq Presidential Palace in Aden."
+        },
+        {
+          "date": "2026-05-01",
+          "date_latest": "2026-05-31",
+          "date_precision": "month",
+          "text": "High-level diplomatic talks began in Oman in December 2025 with representatives from both governments to discuss a prisoner swap involving approximately 2,900 detainees. Following the groundwork laid in that discussion, the parties entered a 14-week negotiation period in Amman, Jordan to flesh out details. Both sides agreed on the specific names and identities of those to be released to ensure the exchange was balanced. This process was conducted under the oversight of U.N. Special Envoy to Yemen Hans Grundberg and representatives of the International Committee of the Red Cross (ICRC). On May 14, 2026, following the negotiations, both governments sign a deal to release nearly 1,700 detainees in the largest prisoner swap in the war's history. The Houthi head of the Prisoner's Affairs committee said that 1,100 of the detainees are Houthi-affiliated, while the remaining 580 from the other side include seven Saudis and 20 Sudanese nationals. The ICRC was chosen to facilitate the repatriation process for both sides."
+        },
+        {
+          "date": "2026-07-01",
+          "date_latest": "2026-07-31",
+          "date_precision": "month",
+          "text": "On 3 July 2026, the Houthis said that they confronted a Saudi aircraft while it tried to block an Iranian plane from landing in Sanaa. On 4 July, the Houthis killed 16 soldiers belonging to the internationally-recognised government in an attack in Hays district. Pro-government soldiers reportedly killed 50 Houthi fighters. On 13 July, the defense ministry announced that it struck Sanaa International Airport's runway to ‌prevent an Iranian aircraft from landing. The Houthis accused Saudi Arabia of conducting the attack. The Houthis later fire missiles towards Abha International Airport in Saudi Arabia. On 14 July, the Houthis claimed to have shot down a Saudi reconnaissance drone. On 16 July, the pro-government force Giants brigades said that they intercepted a boat carrying weapons manufacturing equipment for the Houthis. On 20 July, the Houthis declared a blockade of Saudi Arabian ports and ships in the Bab-el-Mandeb, On the same day, clashes between the Houthis and the forces of the internationally-recognized government of Yemen were recorded in Hodeidah. On 23 July, the Houthis claimed responsibility for strikes against two Saudi tankers in the Red Sea. On 24 July, Saudi Arabia carries out attacks on Hudaydah Port and facilities owned by the state telecommunications corporation in Hodeidah and Kamaran. On 25 July, a Greek air defence system in Saudi Arbia downed two ballistic missiles fired from Yemen. The Yemeni Air Force conducted strikes on Houthi missile and drone firing sites in Marib and Al-Jawf Governorate. The Houthis stated that they conducted operations against Saudi Aramco facilities in Jizan and Yanbu. On 26 July, the Houthis shot down a Saudi UAV. The Houthis stated that they launched attack on Saudi crude oil transport infrastructure with drones. On 28 July, the Houthis claim to have targeted a Saudi ship using ballistic missiles."
+        },
+        {
+          "date": "2026-08-01",
+          "date_latest": "2026-08-31",
+          "date_precision": "month",
+          "text": "On 4 August, the Houthis claimed to have struck a Saudi target in the vicinity of Najran Regional Airport. Indian Shipping Minister Sarbananda Sonowal stated that an Indian vessel was struck, sunk in an attack in the vicinity of Yemen. On 6 August, at least 58 government soldiers were killed in Houthi attacks. A Houthi missile attack in Najran Province injured 11 civilians. On 7 August, eight soldiers were killed and 12 injured in a Houthi attack in Marib Governorate. The government stated that a Houthi attack on Marib killed two civilians. On 9 August, the Houthis stated that they attack a Saudi Aramco refinery in Jizan, and the Port of Mokha. At least seven people were killed including four soldiers in the Houthi attack on Mokha port. On 10 August, the Houthis launched further strikes on the Port of Mokha. The government says seven people including four soldiers were killed in the attack. On 11 August, six crew members are killed in a Houthi attack hit a cargo vessel in the Bab el-Mandeb. On 13 August, the Houthis announced that they launched drone strikes on the Aramco refinery in Jazan. A Houthi attack along the al‑Mafalis front, south of Hayfan district was repelled by government soldiers. The Bab al-Mandab was targeted by Houthi missiles. Saudi Arabia declared the beginning of the Red Sea defence coalition led by the nation. On 14 August, the Houthis launched drone strikes on an Aramco facility in Najran. Six people, including two government soldiers were killed in a Houthi attack on Mokha. On 15 August, at least one security guard was killed, eight others were injured and two sailors went missing in a Houthi ballistic missile attack on the Mokha port. On 17 August, the Houthis claimed to have struck a Saudi military ship and four escort vessels near Mokha. On 18 August, the Houthis fired drones towards an Aramco oil refinery in Jazan. On 20 August, the Houthis stated that they targeted Najran Regional Airport and an Aramco facility in Najran. On 24 August, the Houthis stated they struck a vessel near Yanbu."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Houthi–Saudi Arabian conflict",
+      "pageid": 47695166,
+      "revid": 1370622932,
+      "revision_timestamp": "2026-08-22T03:44:18Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=47695166",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2015-05-05",
+          "date_latest": "2015-05-05",
+          "date_precision": "day",
+          "text": "As a result of the Saudi-led intervention in Yemen, the Houthis shelled the Saudi city of Najran on 5 May 2015."
+        },
+        {
+          "date": "2016-07-25",
+          "date_latest": "2016-07-25",
+          "date_precision": "day",
+          "text": "Saudi Arabia stated on 25 July 2016 that clashes resulted in the deaths of five Saudi border guards."
+        },
+        {
+          "date": "2017-01-14",
+          "date_latest": "2017-01-14",
+          "date_precision": "day",
+          "text": "}} Saudi Arabia stated that at a border guards' post in Najran Province on 14 January 2017, a Saudi corporal was killed as a result of shelling and other intensive fire."
+        },
+        {
+          "date": "2018-01-12",
+          "date_latest": "2018-01-12",
+          "date_precision": "day",
+          "text": "On 11 and 12 January 2018, the Houthis fired missiles at Najran; Saudi Arabia claimed to have intercepted them."
+        },
+        {
+          "date": "2019-05-14",
+          "date_latest": "2019-05-14",
+          "date_precision": "day",
+          "text": "On 14 May 2019, a Houthi attack drone struck the Saudi East–West Crude Oil Pipeline."
+        },
+        {
+          "date": "2020-06-23",
+          "date_latest": "2020-06-23",
+          "date_precision": "day",
+          "text": "On 23 June 2020, the Houthis launched a drone and missile attack targeting the King Khalid Airport and the Saudi Defense Ministry headquarters in Riyadh.On 10 September, the Houthis claimed that they attacked an \"important target\" in Riyadh using a missile and drones."
+        },
+        {
+          "date": "2021-01-15",
+          "date_latest": "2021-01-15",
+          "date_precision": "day",
+          "text": "On 15 January 2021, the coalition intercepted three Houthi attack drones launched from Al Hudaydah.",
+          "duplicate_of": "Timeline of the Yemeni civil war (2014–present)"
+        },
+        {
+          "date": "2022-01-21",
+          "date_latest": "2022-01-21",
+          "date_precision": "day",
+          "text": "Reportedly, on 21 January 2022, at least 70 people were killed and 138 were wounded in northern Yemen, when the coalition launched airstrikes on Houthis in response to a Houthi attack on Abu Dhabi earlier that month.",
+          "duplicate_of": "Timeline of the Yemeni civil war (2014–present)"
+        },
+        {
+          "date": "2022-03-30",
+          "date_latest": "2022-03-30",
+          "date_precision": "day",
+          "text": "(For a map of the military situation in Yemen and border areas in Saudi Arabia, see the detailed map here.) * Ceasefire declared on March 30, 2022 * Escalation during the 2026 Iran War. * ** Royal Saudi Land Force ** Royal Saudi Air Force ** Royal Saudi Navy ** Royal Saudi Air Defense ** National Guard * Supported by: * (Government of Yemen) ** Security Forces ** Yemeni mercenaries ** Salafist fighters * * (2015–2017) * (2015–2019) * Houthi Yemen (Supreme Political Council) ** ** Republican Guard (2015–2017) * Supported by: * (weapons) * (military) * (since 2017) * (since 2019) * Awad Al-Balawi * Muhammad Al Shaalan * Ibrahim Hamzi * Abdulrahman al-Shahrani * Hassan Ageeli * Abdullah al-Balwi * Abdul-Malik al-Houthi * Abu Bakr Abu Ahmed as-Salami * Hasan Almalsi * Abdullah al-Fadeea }} The Houthi–Saudi Arabian conflict is an ongoing armed conflict between the Armed Forces of Saudi Arabia and Iran-backed Yemeni Houthi forces in the Arabian Peninsula, including the southern Saudi provinces of Asir, Jazan, and Najran, and northern Yemeni governorates of Saada, Al-Jawf, and Hajjah, since the onset of the Saudi-led intervention in Yemen in the year 2015."
+        },
+        {
+          "date": "2023-09-26",
+          "date_latest": "2023-09-26",
+          "date_precision": "day",
+          "text": "A Houthi drone attack on 26 September 2023 eventually killed and wounded numerous soldiers Bahrain Defence Forces on the Saudi Arabian border with Yemen. on 2 December 2025, at the start of the 2025–2026 Southern Yemen campaign]]",
+          "names_later_date": true
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Yemeni civil war (2014–present)",
+      "pageid": 46215853,
+      "revid": 1371100436,
+      "revision_timestamp": "2026-08-24T15:46:30Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=46215853",
+      "strategy": null,
+      "segments": [],
+      "needs_review": true,
+      "citation_rows_rejected": 1
+    }
+  ]
+}

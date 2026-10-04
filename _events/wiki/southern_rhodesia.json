@@ -1,0 +1,219 @@
+{
+  "topic": "southern_rhodesia",
+  "label": "Southern Rhodesia",
+  "harvested": "2026-10-01",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 31,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 2,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 1,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Rhodesian Bush War",
+      "pageid": 1800030,
+      "revid": 1377501795,
+      "revision_timestamp": "2026-09-29T18:49:41Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=1800030",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1957-09-12",
+          "date_latest": "1957-09-12",
+          "date_precision": "day",
+          "text": "On 12 September 1957 members of the Youth League and the defunct ANC formed the Southern Rhodesia African National Congress, led by Joshua Nkomo."
+        },
+        {
+          "date": "1964-07-04",
+          "date_latest": "1964-07-04",
+          "date_precision": "day",
+          "text": "On 4 July 1964, ZANU insurgents ambushed and murdered a white foreman from Silverstreams Wattle Company, Pieter Johan Andries (Andrew) Oberholzer."
+        },
+        {
+          "date": "1965-11-11",
+          "date_latest": "1965-11-11",
+          "date_precision": "day",
+          "text": "Britain's unwillingness to compromise led to Rhodesia's unilateral declaration of independence (UDI) on 11 November 1965."
+        },
+        {
+          "date": "1965-11-11",
+          "date_latest": "1965-11-11",
+          "date_precision": "day",
+          "text": "Ian Smith's Rhodesian Front party was elected to power in 1962 and unilaterally declared independence on 11 November 1965 to preserve what it saw as the self-government it had possessed since 1923."
+        },
+        {
+          "date": "1965-11-11",
+          "date_latest": "1965-11-11",
+          "date_precision": "day",
+          "text": "The conflict intensified after Rhodesia's Unilateral Declaration of Independence (UDI) from Britain on 11 November 1965.",
+          "duplicate_of": "Rhodesian Bush War"
+        },
+        {
+          "date": "1966-04-28",
+          "date_latest": "1966-04-28",
+          "date_precision": "day",
+          "text": "Five months later, on 28 April 1966, the Rhodesian Security Forces engaged militants in Sinoia, during the first major engagement of the war."
+        },
+        {
+          "date": "1972-12-21",
+          "date_latest": "1972-12-21",
+          "date_precision": "day",
+          "text": "The conflict continued at a low level until 21 December 1972 when ZANLA conducted the attack on Altena Farm in north-east Rhodesia."
+        },
+        {
+          "date": "1975-06-25",
+          "date_latest": "1975-06-25",
+          "date_precision": "day",
+          "text": "A transitional government was formed within months and Mozambique became independent under FRELIMO rule on 25 June 1975."
+        },
+        {
+          "date": "1976-05-02",
+          "date_latest": "1976-05-02",
+          "date_precision": "day",
+          "text": "The Rhodesian Security Forces called up part-time soldiers on 2 May 1976 in preparation for a major counter-offensive."
+        },
+        {
+          "date": "1976-08-09",
+          "date_latest": "1976-08-09",
+          "date_precision": "day",
+          "text": "On 9 August 1976, Rhodesian Selous Scouts aided by former ZANLA commander Morrison Nyathi attacked a ZANLA camp at Nyadzonya in Mozambique containing over 5,000 guerrillas and several hundred refugees."
+        },
+        {
+          "date": "1976-10-07",
+          "date_latest": "1976-10-07",
+          "date_precision": "day",
+          "text": "Later, on 7 October 1976, militants bombed a railroad bridge over Matetsi River when a train carrying ore passed over."
+        },
+        {
+          "date": "1976-12-21",
+          "date_latest": "1976-12-21",
+          "date_precision": "day",
+          "text": "Black nationalist guerrillas attacked a tea plantation and killed 27 black workers near the Mozambican border on 21 December 1976."
+        },
+        {
+          "date": "1977-02-06",
+          "date_latest": "1977-02-06",
+          "date_precision": "day",
+          "text": "Paul's Mission, Musami on 6 February 1977."
+        },
+        {
+          "date": "1977-04-03",
+          "date_latest": "1977-04-03",
+          "date_precision": "day",
+          "text": "On 3 April 1977, General Peter Walls announced that the government would launch a campaign to win the \"hearts and minds\" of Rhodesia's black citizens."
+        },
+        {
+          "date": "1977-05-30",
+          "date_latest": "1977-05-30",
+          "date_precision": "day",
+          "text": "On 30 May 1977, during Operation Aztec, 500 troops crossed the Mozambican border and travelled 60 mi to Mapai, engaging the ZANLA forces with air cover from the Rhodesian Air Force and paratroopers in C-47 Dakotas."
+        },
+        {
+          "date": "1977-06-30",
+          "date_latest": "1977-06-30",
+          "date_precision": "day",
+          "text": "The United Nations Security Council denounced the incursion of the \"illegal racist minority regime in Southern Rhodesia\" in Resolution 411, on 30 June 1977."
+        },
+        {
+          "date": "1977-08-06",
+          "date_latest": "1977-08-06",
+          "date_precision": "day",
+          "text": "Militants bombed a Woolworths department store in Salisbury on 6 August 1977, killing 11 and injuring 70."
+        },
+        {
+          "date": "1977-11-25",
+          "date_latest": "1977-11-25",
+          "date_precision": "day",
+          "text": "The attack was carried out over three days, from 23 to 25 November 1977."
+        },
+        {
+          "date": "1978-06-23",
+          "date_latest": "1978-06-23",
+          "date_precision": "day",
+          "text": "In the single worst attack on missionaries, 12 British missionaries and their children were killed in the Vumba massacre on 23 June 1978."
+        },
+        {
+          "date": "1978-09-03",
+          "date_latest": "1978-09-03",
+          "date_precision": "day",
+          "text": "Encamped beneath the path of ascent towards Salisbury from Kariba Airport, the ZIPRA cadres downed Air Rhodesia Flight 825 on 3 September 1978 and Air Rhodesia Flight 827 on 12 February 1979.",
+          "names_later_date": true
+        },
+        {
+          "date": "1978-09-03",
+          "date_latest": "1978-09-03",
+          "date_precision": "day",
+          "text": "ZIPRA was responsible for two attacks on civilian Air Rhodesia Viscount aeroplanes, on 3 September 1978 and 12 February 1979.",
+          "names_later_date": true
+        },
+        {
+          "date": "1978-11-04",
+          "date_latest": "1978-11-04",
+          "date_precision": "day",
+          "text": "On 4 November 1978, Walls said 2,000 Patriotic Front militants had been persuaded to defect and fight for the Rhodesian Security Forces."
+        },
+        {
+          "date": "1979-04-24",
+          "date_latest": "1979-04-24",
+          "date_precision": "day",
+          "text": "Under the agreement of March 1978, the country was renamed Zimbabwe-Rhodesia, and in the general election of 24 April 1979, Bishop Abel Muzorewa became the country's first black prime minister."
+        },
+        {
+          "date": "1979-06-01",
+          "date_latest": "1979-06-01",
+          "date_precision": "day",
+          "text": "On 1 June 1979, Josiah Zion Gumede became president."
+        },
+        {
+          "date": "1979-12-11",
+          "date_latest": "1979-12-11",
+          "date_precision": "day",
+          "text": "Under the Constitution of Zimbabwe-Rhodesia (Amendment) (No. 4) Act 1979 of 11 December 1979, the country formally reverted to its colonial status as Southern Rhodesia."
+        },
+        {
+          "date": "1979-12-21",
+          "date_latest": "1979-12-21",
+          "date_precision": "day",
+          "text": "On 21 December 1979, a cease-fire was announced."
+        },
+        {
+          "date": "1980-03-16",
+          "date_latest": "1980-03-16",
+          "date_precision": "day",
+          "text": "By 16 March 1980, all Commonwealth forces had departed, save for 40 infantry instructors who temporarily stayed behind to train the new nation's army."
+        },
+        {
+          "date": "1980-04-18",
+          "date_latest": "1980-04-18",
+          "date_precision": "day",
+          "text": "On 18 April 1980, interim British rule ended and the country was internationally recognised as independent."
+        },
+        {
+          "date": "1980-04-18",
+          "date_latest": "1980-04-18",
+          "date_precision": "day",
+          "text": "ZANU won the election and Mugabe became the first Prime Minister of Zimbabwe on 18 April 1980, when the country achieved internationally recognised independence."
+        },
+        {
+          "date": "1980-04-28",
+          "date_latest": "1980-04-28",
+          "date_precision": "day",
+          "text": "Mugabe himself stated in an interview published in the 28 April 1980 edition of the New York Times \"We did not win a military victory ..."
+        },
+        {
+          "date": "1982-04-18",
+          "date_latest": "1982-04-18",
+          "date_precision": "day",
+          "text": "The colony of Southern Rhodesia was formally renamed Zimbabwe, and on 18 April 1982, the government changed the name of the country's capital from Salisbury to Harare."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

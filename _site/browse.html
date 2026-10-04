@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse records · UN Voting Corpus 1946–2025</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.filters {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 13px; align-items: end; margin-bottom: 16px;
+}
+.filters .f label { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 5px; }
+.filters input[type="text"], .filters input[type="number"], .filters select {
+  width: 100%; font-family: var(--font); font-size: 13.5px; padding: 8px 11px;
+  border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface-1); color: var(--text-primary);
+}
+.filters .checks { display: flex; flex-direction: column; gap: 5px; font-size: 13px; color: var(--text-secondary); }
+.filters .checks label { display: flex; align-items: center; gap: 7px; margin: 0; color: inherit; font-size: 13px; }
+
+.resultbar {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding: 11px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  margin-bottom: 4px; font-size: 13.5px; color: var(--text-secondary);
+}
+.resultbar b { color: var(--text-primary); }
+.resultbar .spacer { flex: 1; }
+
+.rowlist { display: flex; flex-direction: column; }
+.rec {
+  display: grid; grid-template-columns: 92px 1fr auto; gap: 18px; align-items: start;
+  padding: 15px 12px; border-bottom: 1px solid var(--grid);
+  color: inherit; border-radius: 8px;
+}
+.rec .when { font-variant-numeric: tabular-nums; }
+.rec .when .yr { font-size: 19px; font-weight: 640; letter-spacing: -.015em; }
+.rec .when .dt { font-size: 11.5px; color: var(--text-muted); }
+.rec .mid { min-width: 0; }
+.rec .ttl { font-size: 14.5px; font-weight: 570; margin-bottom: 4px; }
+.rec .ag {
+  font-size: 13px; color: var(--text-secondary); line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.rec .meta { font-size: 11.5px; color: var(--text-muted); margin-top: 6px; display: flex; gap: 12px; flex-wrap: wrap; }
+.rec .tags { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; }
+.pill {
+  font-size: 11px; padding: 2px 9px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap;
+}
+.pill.sc { color: var(--series-1); border-color: color-mix(in srgb, var(--series-1) 45%, transparent); }
+.pill.ga { color: var(--series-2); border-color: color-mix(in srgb, var(--series-2) 45%, transparent); }
+.pill.veto { color: var(--critical); border-color: color-mix(in srgb, var(--critical) 45%, transparent); }
+.pill.entry { color: var(--series-3); border-color: color-mix(in srgb, var(--series-3) 45%, transparent); max-width: 190px; overflow: hidden; text-overflow: ellipsis; }
+mark { background: color-mix(in srgb, var(--series-4) 45%, transparent); color: inherit; border-radius: 2px; }
+
+.pager { display: flex; gap: 8px; align-items: center; justify-content: center; padding: 22px 0 6px; }
+.pager button {
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  border-radius: 8px; padding: 7px 13px; font-size: 13.5px; font-family: var(--font); cursor: pointer;
+}
+.pager button:disabled { opacity: .4; cursor: default; }
+.pager .pos { font-size: 13px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Browse the records</h1>
+  <p class="lede" id="lede"></p>
+
+  <div class="card">
+    <div class="filters">
+      <div class="f">
+        <label for="q">Search agenda text</label>
+        <input type="text" id="q" placeholder="e.g. Palestine, Congo, apartheid">
+      </div>
+      <div class="f">
+        <label for="body">Body</label>
+        <select id="body">
+          <option value="">Both bodies</option>
+          <option value="SC">Security Council</option>
+          <option value="GA">General Assembly</option>
+        </select>
+      </div>
+      <div class="f">
+        <label for="y0">From year</label>
+        <input type="number" id="y0" min="1946" max="2025" value="1946">
+      </div>
+      <div class="f">
+        <label for="y1">To year</label>
+        <input type="number" id="y1" min="1946" max="2025" value="2025">
+      </div>
+      <div class="f">
+        <label for="topic">Topic entry</label>
+        <select id="topic"><option value="">Any or none</option></select>
+      </div>
+      <div class="f">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="date">Date, oldest first</option>
+          <option value="-date">Date, newest first</option>
+          <option value="-ns">Most speeches</option>
+          <option value="-nres">Most resolutions</option>
+          <option value="-dl">Longest background entry</option>
+        </select>
+      </div>
+      <div class="f">
+        <label>Only show</label>
+        <div class="checks">
+          <label><input type="checkbox" id="f-speech"> has speeches</label>
+          <label><input type="checkbox" id="f-veto"> has a vetoed draft</label>
+          <label><input type="checkbox" id="f-entry"> carries a topic entry</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="resultbar">
+      <span id="count"></span>
+      <span class="spacer"></span>
+      <button class="ghost" id="reset">Reset filters</button>
+    </div>
+
+    <div class="rowlist" id="rows"></div>
+    <div class="pager" id="pager"></div>
+  </div>
+
+  <p class="note">
+    This is an index only: date, agenda, speech and resolution counts for each record.
+    The underlying meeting records are not published on this site.
+  </p>
+</main>
+
+<script src="data/browse.js"></script>
+<script src="data/topics.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const ROWS = window.BROWSE.rows;
+const TLABEL = Object.fromEntries(window.TOPICS.topics.map((t) => [t.id, t.label]));
+
+/* One row per corpus file. Most are meetings; 59 are files that carry
+   resolutions with no meeting record attached, and they are counted
+   separately rather than folded into a single headline number. */
+const N_MEETINGS = ROWS.filter((r) => !r.ph).length;
+const N_ORPHAN = ROWS.length - N_MEETINGS;
+
+document.getElementById('lede').textContent =
+  `Every file in the corpus — ${fmt(ROWS.length)} of them: ${fmt(N_MEETINGS)} meetings `
+  + `plus ${N_ORPHAN} files that carry resolutions with no meeting record. Filter by body, `
+  + `year, agenda text or topic entry.`;
+const PER = 60;
+let page = 0;
+let view = ROWS;
+
+const $ = (id) => document.getElementById(id);
+
+function highlight(text, q) {
+  const safe = esc(text);
+  if (!q) return safe;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+  return safe.replace(re, '<mark>$1</mark>');
+}
+
+function apply() {
+  const q = $('q').value.trim().toLowerCase();
+  const body = $('body').value;
+  const y0 = +$('y0').value || 1946;
+  const y1 = +$('y1').value || 2025;
+  const onlySpeech = $('f-speech').checked;
+  const onlyVeto = $('f-veto').checked;
+  const onlyEntry = $('f-entry').checked;
+  const topic = $('topic').value;
+
+  view = ROWS.filter((r) => {
+    if (body && r.b !== body) return false;
+    if (r.y < y0 || r.y > y1) return false;
+    if (onlySpeech && !r.ns) return false;
+    if (onlyVeto && !r.res.some((x) => x.vetoed)) return false;
+    if (onlyEntry && !r.tp.length) return false;
+    if (topic && !r.tp.includes(topic)) return false;
+    if (q && !(r.a.toLowerCase().includes(q)
+               || r.res.some((x) => x.id.toLowerCase().includes(q))
+               || String(r.n).includes(q))) return false;
+    return true;
+  });
+
+  const s = $('sort').value;
+  /* Undated placeholder records sort to the end under every order — with an
+     empty date string they would otherwise lead the oldest-first list. */
+  const cmp = {
+    'date': (a, b) => (a.d || '￿').localeCompare(b.d || '￿'),
+    '-date': (a, b) => (b.d || '').localeCompare(a.d || ''),
+    '-ns': (a, b) => b.ns - a.ns,
+    '-nres': (a, b) => b.res.length - a.res.length,
+    '-dl': (a, b) => b.dl - a.dl,
+  }[s];
+  view = view.slice().sort((a, b) => (a.ph - b.ph) || cmp(a, b));
+  page = 0;
+  render();
+}
+
+function render() {
+  const q = $('q').value.trim();
+  const total = view.length;
+  const start = page * PER;
+  const slice = view.slice(start, start + PER);
+
+  $('count').innerHTML = total
+    ? `<b>${total.toLocaleString('en-US')}</b> record${total === 1 ? '' : 's'} match`
+    : 'No records match these filters';
+
+  $('rows').innerHTML = slice.map((r) => {
+    const PH_LABEL = {
+      unattributed: 'Resolutions with no meeting record',
+      no_meeting: 'Resolutions adopted with no meeting on record',
+    };
+    const label = r.ph
+      ? (PH_LABEL[r.phk] || 'Resolutions with no meeting record')
+      : (r.b === 'SC' ? `Council meeting ${r.n}` : `Assembly plenary ${r.n}`);
+    const resIds = r.res.slice(0, 3).map((x) => x.id).join(', ')
+      + (r.res.length > 3 ? ` +${r.res.length - 3} more` : '');
+    return `<div class="rec">
+      <div class="when"><div class="yr">${r.y}</div><div class="dt">${r.d || 'undated'}</div></div>
+      <div class="mid">
+        <div class="ttl">${highlight(label, q)}</div>
+        <div class="ag">${r.a ? highlight(r.a, q)
+          : (r.ph
+             ? `<span style="color:var(--text-muted)">${r.phk === 'no_meeting'
+                 ? 'A Council file holding one resolution with no meeting attached and no tally '
+                   + 'recorded. All 52 of these fall in 2020 and 2021; the corpus does not say why.'
+                 : 'A file carrying resolutions that were not attached to any meeting record. '
+                   + 'Seven of these exist in the Assembly corpus.'}</span>`
+             : '<span style="color:var(--text-muted)">(no agenda recorded)</span>')}</div>
+        <div class="meta">
+          ${r.ns ? `<span>${r.ns} speeches</span>` : ''}
+          ${r.res.length ? `<span>${highlight(resIds, q)}</span>` : ''}
+          ${r.p ? `<span>chair: ${esc(r.p)}</span>` : ''}
+          ${r.dl ? `<span>${fmt(r.dl)} chars of background</span>` : ''}
+        </div>
+      </div>
+      <div class="tags">
+        <span class="pill ${r.b.toLowerCase()}">${r.b === 'SC' ? 'Council' : 'Assembly'}</span>
+        ${r.tp.map((t) => `<span class="pill entry" title="${esc(TLABEL[t] || t)}${
+          r.mb === 'resolution_title' ? ' — matched on a resolution title, not the agenda' : ''
+        }">${esc(TLABEL[t] || t)}${r.mb === 'resolution_title' ? ' ·' : ''}</span>`).join('')}
+        ${r.res.some((x) => x.vetoed) ? '<span class="pill veto">veto</span>' : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  const pages = Math.max(1, Math.ceil(total / PER));
+  $('pager').innerHTML = total > PER ? `
+    <button id="prev" ${page === 0 ? 'disabled' : ''}>← Previous</button>
+    <span class="pos">${start + 1}–${Math.min(start + PER, total)} of ${total.toLocaleString('en-US')}</span>
+    <button id="next" ${page >= pages - 1 ? 'disabled' : ''}>Next →</button>` : '';
+  if (total > PER) {
+    $('prev').onclick = () => { page--; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    $('next').onclick = () => { page++; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  }
+}
+
+/* Entries in the picker are ordered by how many meetings they cover, which is
+   the order they are useful in — alphabetical would bury Palestine. */
+$('topic').innerHTML = '<option value="">Any or none</option>'
+  + window.TOPICS.topics.map((t) =>
+      `<option value="${esc(t.id)}">${esc(t.label)} (${t.total})</option>`).join('');
+
+['q', 'body', 'y0', 'y1', 'topic', 'sort', 'f-speech', 'f-veto', 'f-entry'].forEach((id) => {
+  const el = $(id);
+  el.addEventListener(el.tagName === 'INPUT' && el.type === 'text' ? 'input' : 'change', apply);
+});
+$('reset').onclick = () => {
+  $('q').value = ''; $('body').value = ''; $('y0').value = 1946; $('y1').value = 2025;
+  $('sort').value = 'date'; $('topic').value = '';
+  ['f-speech', 'f-veto', 'f-entry'].forEach((id) => ($(id).checked = false));
+  apply();
+};
+
+/* deep link support: browse.html?y=1971, ?q=Palestine, ?topic=cyprus */
+const qs = new URLSearchParams(location.search);
+if (qs.get('q')) $('q').value = qs.get('q');
+if (qs.get('body')) $('body').value = qs.get('body');
+if (qs.get('y')) { $('y0').value = qs.get('y'); $('y1').value = qs.get('y'); }
+if (qs.get('topic')) $('topic').value = qs.get('topic');
+apply();
+
+</script>
+</body>
+</html>

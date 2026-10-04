@@ -1,0 +1,3780 @@
+{
+  "topic": "central_african_republic",
+  "label": "Central African Republic",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 599,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 14,
+  "cross_article_duplicates": 128,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Central African Republic Civil War",
+      "pageid": 63555284,
+      "revid": 1369332937,
+      "revision_timestamp": "2026-08-14T09:24:48Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=63555284",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2012-12-10",
+          "date_latest": "2012-12-10",
+          "date_precision": "day",
+          "text": "Rebels took control of cities of N'Délé, Sam Ouandja and Ouadda"
+        },
+        {
+          "date": "2012-12-15",
+          "date_latest": "2012-12-15",
+          "date_precision": "day",
+          "text": "Rebels took control of Bamingui",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-18",
+          "date_latest": "2012-12-18",
+          "date_precision": "day",
+          "text": "Rebels took control of Bria",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-19",
+          "date_latest": "2012-12-19",
+          "date_precision": "day",
+          "text": "Rebels took control of Kabo",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-22",
+          "date_latest": "2012-12-22",
+          "date_precision": "day",
+          "text": "Rebels took control of Ippy and Ndassima",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-24",
+          "date_latest": "2012-12-24",
+          "date_precision": "day",
+          "text": "Rebels took control of Bambari",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-25",
+          "date_latest": "2012-12-25",
+          "date_precision": "day",
+          "text": "Rebels took control of Kaga-Bandoro",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2012-12-29",
+          "date_latest": "2012-12-29",
+          "date_precision": "day",
+          "text": "Rebels took control of Sibut",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-01-05",
+          "date_latest": "2013-01-05",
+          "date_precision": "day",
+          "text": "Rebels took control of Alindao"
+        },
+        {
+          "date": "2013-01-30",
+          "date_latest": "2013-01-30",
+          "date_precision": "day",
+          "text": "Rebels took control of Kouango",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-02-08",
+          "date_latest": "2013-02-08",
+          "date_precision": "day",
+          "text": "Rebels took control of Mobaye.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-03-01",
+          "date_latest": "2013-03-01",
+          "date_precision": "day",
+          "text": "Rebels took control of Moyenne-Sido",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-03-12",
+          "date_latest": "2013-03-12",
+          "date_precision": "day",
+          "text": "Rebels took control of Rafai",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-03-18",
+          "date_latest": "2013-03-18",
+          "date_precision": "day",
+          "text": "Rebels took control of Gambo and Bangassou",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-03-21",
+          "date_latest": "2013-03-21",
+          "date_precision": "day",
+          "text": "Rebels took control of Damara, Bouca and Bossangoa",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-03-24",
+          "date_latest": "2013-03-24",
+          "date_precision": "day",
+          "text": "Rebels reached the presidential palace in the centre of the capital."
+        },
+        {
+          "date": "2013-03-25",
+          "date_latest": "2013-03-25",
+          "date_precision": "day",
+          "text": "Séléka leader Michel Djotodia, who served after the January agreement as First Deputy Prime Minister for National Defense, declared himself President, becoming the first Muslim to hold the office. Djotodia said that there would be a three-year transitional period and that Nicolas Tiangaye would continue to serve as Prime Minister."
+        },
+        {
+          "date": "2013-03-28",
+          "date_latest": "2013-03-28",
+          "date_precision": "day",
+          "text": "Séléka forces moved to western part of CAR, capturing Paoua, Bouar and Nola"
+        },
+        {
+          "date": "2013-04-02",
+          "date_latest": "2013-04-02",
+          "date_precision": "day",
+          "text": "FDPC withdrew from Séléka coalition. In response, Séléka launched heavy attack on FDPC positions near Baboua, killing some fighters."
+        },
+        {
+          "date": "2013-08-30",
+          "date_latest": "2013-08-30",
+          "date_precision": "day",
+          "text": "LRA established their base in Fodé in Mbomou."
+        },
+        {
+          "date": "2013-09-06",
+          "date_latest": "2013-09-06",
+          "date_precision": "day",
+          "text": "Anti-balaka attacked Zéré on the road between Bouca and Bossangoa, killing at least 55 civilians."
+        },
+        {
+          "date": "2013-09-09",
+          "date_latest": "2013-09-09",
+          "date_precision": "day",
+          "text": "Anti-balaka attacked Seleka in Bouca.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-09-13",
+          "date_latest": "2013-09-13",
+          "date_precision": "day",
+          "text": "Djotodia formally disbanded Séléka."
+        },
+        {
+          "date": "2013-09-17",
+          "date_latest": "2013-09-17",
+          "date_precision": "day",
+          "text": "Anti-balaka attacked Bossangoa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-10-10",
+          "date_latest": "2013-10-10",
+          "date_precision": "day",
+          "text": "30 Seleka fighters who were occupying Bangassou were arrested by authorities."
+        },
+        {
+          "date": "2013-10-13",
+          "date_latest": "2013-10-13",
+          "date_precision": "day",
+          "text": "Anti-balaka took control of Gaga after six days of battle with Seleka."
+        },
+        {
+          "date": "2013-10-26",
+          "date_latest": "2013-10-26",
+          "date_precision": "day",
+          "text": "anti-Balaka attacked Séléka in Bouar (fr)",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-11-01",
+          "date_latest": "2013-11-01",
+          "date_precision": "day",
+          "text": "RJ established training camp in Boloum near Paoua."
+        },
+        {
+          "date": "2013-11-10",
+          "date_latest": "2013-11-10",
+          "date_precision": "day",
+          "text": "Séléka attacked Anti-balaka in Camp Bangui town north of Yaloke burning many homes."
+        },
+        {
+          "date": "2013-12-12",
+          "date_latest": "2013-12-12",
+          "date_precision": "day",
+          "text": "anti-Balaka killed 27 civilians in Bohong (fr)",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2013-12-24",
+          "date_latest": "2013-12-24",
+          "date_precision": "day",
+          "text": "RJ attacked Beboura killing 45 Seleka fighters."
+        },
+        {
+          "date": "2014-01-08",
+          "date_latest": "2014-01-08",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Boyali. Same day anti-Balaka attack killed local Muslims leading to return of Séléka forces which committed another massacre"
+        },
+        {
+          "date": "2014-01-10",
+          "date_latest": "2014-01-10",
+          "date_precision": "day",
+          "text": "Michel Djotodia resigned. Alexandre-Ferdinand Nguendet became transitional president."
+        },
+        {
+          "date": "2014-01-13",
+          "date_latest": "2014-01-13",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Bozoum"
+        },
+        {
+          "date": "2014-01-16",
+          "date_latest": "2014-01-16",
+          "date_precision": "day",
+          "text": "Anti-balaka entered Bossembélé killing 43 people"
+        },
+        {
+          "date": "2014-01-18",
+          "date_latest": "2014-01-18",
+          "date_precision": "day",
+          "text": "anti-Balaka attacked Bossemptélé killing 100 people (fr)",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-01-20",
+          "date_latest": "2014-01-20",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Baoro. Two days later clashes erupted between anti-Balaka and local Muslim population resulting in 100 deaths (fr)"
+        },
+        {
+          "date": "2014-01-22",
+          "date_latest": "2014-01-22",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted in Boguila between RJ and Seleka leading to 22 Seleka fighters being killed."
+        },
+        {
+          "date": "2014-01-27",
+          "date_latest": "2014-01-27",
+          "date_precision": "day",
+          "text": "Séléka leaders left Bangui under the escort of Chadian peacekeepers."
+        },
+        {
+          "date": "2014-01-28",
+          "date_latest": "2014-01-28",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Kasai military camp in Bangui. Remaining fighters were surrounded in Beal, RDOT and BSS camps in First District."
+        },
+        {
+          "date": "2014-01-29",
+          "date_latest": "2014-01-29",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Boda leaving town largely under Anti-Balaka control"
+        },
+        {
+          "date": "2014-01-30",
+          "date_latest": "2014-01-30",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Berberati"
+        },
+        {
+          "date": "2014-02-01",
+          "date_latest": "2014-02-01",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Carnot leaving city under anti-Balaka control",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-02-02",
+          "date_latest": "2014-02-02",
+          "date_precision": "day",
+          "text": "Séléka withdrew from Sibut"
+        },
+        {
+          "date": "2014-02-12",
+          "date_latest": "2014-02-12",
+          "date_precision": "day",
+          "text": "Anti-balaka captured Nola"
+        },
+        {
+          "date": "2014-02-26",
+          "date_latest": "2014-02-26",
+          "date_precision": "day",
+          "text": "French forces arrived in Beloko border crossing forcing anti-Balaka to move to illegal crossing south of town"
+        },
+        {
+          "date": "2014-03-10",
+          "date_latest": "2014-03-10",
+          "date_precision": "day",
+          "text": "Anti-balaka captured Bayanga sub-prefecture",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-03-18",
+          "date_latest": "2014-03-18",
+          "date_precision": "day",
+          "text": "MISCA dismantled Anti-balaka checkpoints between Nola and Berbérati recovering six shotguns",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-03-29",
+          "date_latest": "2014-03-29",
+          "date_precision": "day",
+          "text": "RJ captured Bedaka north of Paoua after clashes with Séléka forces"
+        },
+        {
+          "date": "2014-04-10",
+          "date_latest": "2014-04-10",
+          "date_precision": "day",
+          "text": "United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) was formed"
+        },
+        {
+          "date": "2014-04-30",
+          "date_latest": "2014-04-30",
+          "date_precision": "day",
+          "text": "European Union Military Operation in the Central African Republic took control of Bangui M'Poko International Airport"
+        },
+        {
+          "date": "2014-05-01",
+          "date_latest": "2014-05-01",
+          "date_precision": "day",
+          "text": "Seleka recaptured Markounda from RJ."
+        },
+        {
+          "date": "2014-05-05",
+          "date_latest": "2014-05-05",
+          "date_precision": "day",
+          "text": "French forces repel Seleka attack on Boguila (fr)"
+        },
+        {
+          "date": "2014-05-28",
+          "date_latest": "2014-05-28",
+          "date_precision": "day",
+          "text": "ex-Séléka fighters threw grenades and discharged firearms at Church of Fatima in Bangui killing at least 11 people"
+        },
+        {
+          "date": "2014-06-10",
+          "date_latest": "2014-06-10",
+          "date_precision": "day",
+          "text": "Popular Front for the Rebirth of Central African Republic (FPRC) was formed in Birao"
+        },
+        {
+          "date": "2014-06-23",
+          "date_latest": "2014-06-23",
+          "date_precision": "day",
+          "text": "Rebels captured Birao Airport"
+        },
+        {
+          "date": "2014-06-24",
+          "date_latest": "2014-06-24",
+          "date_precision": "day",
+          "text": "100 Anti-balaka fighters attacked Bambari. 46 people were killed and 28 wounded."
+        },
+        {
+          "date": "2014-06-26",
+          "date_latest": "2014-06-26",
+          "date_precision": "day",
+          "text": "FACA and international forces left Birao after FPRC ultimatum"
+        },
+        {
+          "date": "2014-07-01",
+          "date_latest": "2014-07-01",
+          "date_precision": "day",
+          "text": "RJ left Bang after MISCA ultimatum",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-07-23",
+          "date_latest": "2014-07-23",
+          "date_precision": "day",
+          "text": "Ceasefire between Anti-balaka and ex-Seleka is signed in Brazzaville"
+        },
+        {
+          "date": "2014-07-30",
+          "date_latest": "2014-07-30",
+          "date_precision": "day",
+          "text": "heavy clashes erupted between Anti-balaka and ex-Seleka in Batangafo resulting in 20,000 people being displaces.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-08-04",
+          "date_latest": "2014-08-04",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted in Batangafo between Seleka and French convoy (fr)",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-08-09",
+          "date_latest": "2014-08-09",
+          "date_precision": "day",
+          "text": "French forces withdrew from Batangafo leaving city to Seleka fighters"
+        },
+        {
+          "date": "2014-09-17",
+          "date_latest": "2014-09-17",
+          "date_precision": "day",
+          "text": "Ali Darassa formed Union for Peace in the Central African Republic (UPC)"
+        },
+        {
+          "date": "2014-12-01",
+          "date_latest": "2014-12-01",
+          "date_precision": "day",
+          "text": "FPRC entered Kaga-Bandoro."
+        },
+        {
+          "date": "2014-12-08",
+          "date_latest": "2014-12-08",
+          "date_precision": "day",
+          "text": "Abdel Kader Baba-Laddé, leader of FPR rebel group was arrested near Kabo"
+        },
+        {
+          "date": "2015-05-15",
+          "date_latest": "2015-05-15",
+          "date_precision": "day",
+          "text": "Peace agreement was signed by 9 of 10 armed groups as a result of Bangui National Forum"
+        },
+        {
+          "date": "2015-09-28",
+          "date_latest": "2015-09-28",
+          "date_precision": "day",
+          "text": "Anti-balakas stormed Ngaragba jail in Bangui freeing hundreds of inmates"
+        },
+        {
+          "date": "2015-12-05",
+          "date_latest": "2015-12-05",
+          "date_precision": "day",
+          "text": "FACA took control of Boali from Anti-balaka"
+        },
+        {
+          "date": "2015-12-14",
+          "date_latest": "2015-12-14",
+          "date_precision": "day",
+          "text": "Independence of Republic of Logone was announced in Kaga-Bandoro"
+        },
+        {
+          "date": "2015-12-30",
+          "date_latest": "2015-12-30",
+          "date_precision": "day",
+          "text": "First round of general elections was held"
+        },
+        {
+          "date": "2016-02-14",
+          "date_latest": "2016-02-14",
+          "date_precision": "day",
+          "text": "Second round of presidential elections was held"
+        },
+        {
+          "date": "2016-03-18",
+          "date_latest": "2016-03-18",
+          "date_precision": "day",
+          "text": "Berberati was declared to be free from rebel groups."
+        },
+        {
+          "date": "2016-03-30",
+          "date_latest": "2016-03-30",
+          "date_precision": "day",
+          "text": "Faustin-Archange Touadéra was sworn as a president"
+        },
+        {
+          "date": "2016-05-20",
+          "date_latest": "2016-05-20",
+          "date_precision": "day",
+          "text": "FDPC occupied Zoukombo village near Cameroonian border seizing local school."
+        },
+        {
+          "date": "2016-06-08",
+          "date_latest": "2016-06-08",
+          "date_precision": "day",
+          "text": "Four rebel groups, including FPRC, UPC, MPC and anti-Balaka signed peace agreement in Mbres"
+        },
+        {
+          "date": "2016-10-30",
+          "date_latest": "2016-10-30",
+          "date_precision": "day",
+          "text": "France ended operation Sangaris"
+        },
+        {
+          "date": "2016-11-30",
+          "date_latest": "2016-11-30",
+          "date_precision": "day",
+          "text": "FPRC captured Bakala after battle with UPC"
+        },
+        {
+          "date": "2016-12-11",
+          "date_latest": "2016-12-11",
+          "date_precision": "day",
+          "text": "UPC recaptured Bakala after battle with FPRC",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2017-01-11",
+          "date_latest": "2017-01-11",
+          "date_precision": "day",
+          "text": "FPRC again captured Bakala"
+        },
+        {
+          "date": "2017-02-22",
+          "date_latest": "2017-02-22",
+          "date_precision": "day",
+          "text": "Ali Darassa and most rebels from Union for Peace in the Central African Republic withdrew from Bambari. Anti-balaka leader followed shortly after."
+        },
+        {
+          "date": "2017-04-19",
+          "date_latest": "2017-04-19",
+          "date_precision": "day",
+          "text": "Uganda announced that it would begin withdrawing forces from the Central African Republic where it has been trying to hunt down Joseph Kony in the country for 9 years."
+        },
+        {
+          "date": "2017-05-02",
+          "date_latest": "2017-05-02",
+          "date_precision": "day",
+          "text": "3R seized control of Niem in Koui sub-prefecture"
+        },
+        {
+          "date": "2017-05-09",
+          "date_latest": "2017-05-09",
+          "date_precision": "day",
+          "text": "UPC repelled Anti-Balaka attack on Alindao"
+        },
+        {
+          "date": "2017-05-13",
+          "date_latest": "2017-05-13",
+          "date_precision": "day",
+          "text": "Anti-Balaka forces attacked Bangassou killing more than 30 people and displacing thousands"
+        },
+        {
+          "date": "2017-05-15",
+          "date_latest": "2017-05-15",
+          "date_precision": "day",
+          "text": "MINUSCA retook most of Bangassou freeing hostages"
+        },
+        {
+          "date": "2017-05-18",
+          "date_latest": "2017-05-18",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted between Anti-balaka and ex-Seleka in Bria resulting in 26 deaths."
+        },
+        {
+          "date": "2017-06-06",
+          "date_latest": "2017-06-06",
+          "date_precision": "day",
+          "text": "FPRC attacked anti-Balaka positions in Nzako. 18 civilians were killed"
+        },
+        {
+          "date": "2017-06-11",
+          "date_latest": "2017-06-11",
+          "date_precision": "day",
+          "text": "FPRC captured Nzacko from Anti-balaka",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2017-06-28",
+          "date_latest": "2017-06-28",
+          "date_precision": "day",
+          "text": "Ugandan forces withdrew from Zemio. Armed Muslims entered town killing at least 28 civilians"
+        },
+        {
+          "date": "2017-09-18",
+          "date_latest": "2017-09-18",
+          "date_precision": "day",
+          "text": "FACA was deployed in Anti-balaka-held Bouar"
+        },
+        {
+          "date": "2017-09-23",
+          "date_latest": "2017-09-23",
+          "date_precision": "day",
+          "text": "3R captured Bocaranga from Anti-balaka"
+        },
+        {
+          "date": "2018-01-12",
+          "date_latest": "2018-01-12",
+          "date_precision": "day",
+          "text": "MINUSCA launched operation Mbaranga securing Paoua city and forcing armed groups to move 50 km from city"
+        },
+        {
+          "date": "2018-01-20",
+          "date_latest": "2018-01-20",
+          "date_precision": "day",
+          "text": "Heavy clashes broke out between RJ and MNLC north of Paoua forcing 60,000 people to seek refugee in city"
+        },
+        {
+          "date": "2018-01-25",
+          "date_latest": "2018-01-25",
+          "date_precision": "day",
+          "text": "FACA was deployed in Paoua"
+        },
+        {
+          "date": "2018-01-30",
+          "date_latest": "2018-01-30",
+          "date_precision": "day",
+          "text": "Revolution and Justice voluntarily dissolved itself"
+        },
+        {
+          "date": "2018-03-03",
+          "date_latest": "2018-03-03",
+          "date_precision": "day",
+          "text": "UPC captured Rafai subprefecture"
+        },
+        {
+          "date": "2018-03-06",
+          "date_latest": "2018-03-06",
+          "date_precision": "day",
+          "text": "Anti-balaka recaptured Rafai"
+        },
+        {
+          "date": "2018-06-21",
+          "date_latest": "2018-06-21",
+          "date_precision": "day",
+          "text": "FACA was deployed in Bangassou. Their convoy was attacked by UPC in Bambari leading to three people being wounded before reaching the destination.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2018-08-17",
+          "date_latest": "2018-08-17",
+          "date_precision": "day",
+          "text": "FACA took control of Dekoa"
+        },
+        {
+          "date": "2018-08-28",
+          "date_latest": "2018-08-28",
+          "date_precision": "day",
+          "text": "Four main rebel groups, including anti-Balaka, FPRC, UPC and MPC signed peace agreement in Khartoum (fr)"
+        },
+        {
+          "date": "2018-10-31",
+          "date_latest": "2018-10-31",
+          "date_precision": "day",
+          "text": "Heavy clashes broke out between anti-Balaka and ex-Séléka fighters in Batangafo resulting in at least 15 deaths"
+        },
+        {
+          "date": "2018-11-15",
+          "date_latest": "2018-11-15",
+          "date_precision": "day",
+          "text": "At least 112 people were killed and 27 injured in UPC and Anti-balaka attacks on Alindao refugee camp."
+        },
+        {
+          "date": "2018-12-31",
+          "date_latest": "2018-12-31",
+          "date_precision": "day",
+          "text": "FPRC and UPC rebels took control of Bakouma"
+        },
+        {
+          "date": "2019-01-07",
+          "date_latest": "2019-01-07",
+          "date_precision": "day",
+          "text": "FACA took control of Bocaranga from 3R forces without a fight"
+        },
+        {
+          "date": "2019-01-10",
+          "date_latest": "2019-01-10",
+          "date_precision": "day",
+          "text": "UPC launched heavy attack on MINUSCA forces in Bambari"
+        },
+        {
+          "date": "2019-01-29",
+          "date_latest": "2019-01-29",
+          "date_precision": "day",
+          "text": "18 people were killed and 23 wounded when UPC fighters opened fire during funeral ceremony in Ippy"
+        },
+        {
+          "date": "2019-02-06",
+          "date_latest": "2019-02-06",
+          "date_precision": "day",
+          "text": "Fourteen armed groups signed Khartoum Agreement"
+        },
+        {
+          "date": "2019-02-25",
+          "date_latest": "2019-02-25",
+          "date_precision": "day",
+          "text": "Firmin Ngrébada was appointed as a prime minister as a result of peace agreement"
+        },
+        {
+          "date": "2019-04-05",
+          "date_latest": "2019-04-05",
+          "date_precision": "day",
+          "text": "MINUSCA captured Zoukombo killing three FDPC fighters"
+        },
+        {
+          "date": "2019-04-15",
+          "date_latest": "2019-04-15",
+          "date_precision": "day",
+          "text": "Ali Darassa, UPC leader, returned to Bambari following peace agreement"
+        },
+        {
+          "date": "2019-05-21",
+          "date_latest": "2019-05-21",
+          "date_precision": "day",
+          "text": "3R fighters killed 46 civilians in Ouham-Pendé prefecture"
+        },
+        {
+          "date": "2019-09-02",
+          "date_latest": "2019-09-02",
+          "date_precision": "day",
+          "text": "MLCJ took control of Birao"
+        },
+        {
+          "date": "2019-09-27",
+          "date_latest": "2019-09-27",
+          "date_precision": "day",
+          "text": "Three people were killed when combat helicopter used by MINUSCA forces crashed in Bouar"
+        },
+        {
+          "date": "2019-10-04",
+          "date_latest": "2019-10-04",
+          "date_precision": "day",
+          "text": "FPRC repelled MLCJ attack on Tissi"
+        },
+        {
+          "date": "2019-10-14",
+          "date_latest": "2019-10-14",
+          "date_precision": "day",
+          "text": "MLCJ took control of Am Dafok",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2019-11-19",
+          "date_latest": "2019-11-19",
+          "date_precision": "day",
+          "text": "FACA took control of Camp Beal in Bangui killing 10 ex-Seleka fighters"
+        },
+        {
+          "date": "2019-12-26",
+          "date_latest": "2019-12-26",
+          "date_precision": "day",
+          "text": "Security forces regained control over PK5 neighborhood in Bangui after local merchants killer 30 members of self-defense groups who ruled the area."
+        },
+        {
+          "date": "2020-02-01",
+          "date_latest": "2020-02-01",
+          "date_precision": "day",
+          "text": "Central African military forces (FACA) were deployed in UPC-held Alindao"
+        },
+        {
+          "date": "2020-02-05",
+          "date_latest": "2020-02-05",
+          "date_precision": "day",
+          "text": "UPC allegedly withdrew from Bambouti"
+        },
+        {
+          "date": "2020-02-17",
+          "date_latest": "2020-02-17",
+          "date_precision": "day",
+          "text": "FPRC attack on MINUSCA forces in Birao is repelled, leading to 12 FPRC forces being killed."
+        },
+        {
+          "date": "2020-03-04",
+          "date_latest": "2020-03-04",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted in N'Délé between FPRC and RPRC"
+        },
+        {
+          "date": "2020-03-15",
+          "date_latest": "2020-03-15",
+          "date_precision": "day",
+          "text": "Clashes erupted between Anti-balaka and MINUSCA in Grimari"
+        },
+        {
+          "date": "2020-04-09",
+          "date_latest": "2020-04-09",
+          "date_precision": "day",
+          "text": "MINUSCA forces withdrew from Beboura in Ouham Pende after a crowd destroyed their base following a road accident."
+        },
+        {
+          "date": "2020-05-01",
+          "date_latest": "2020-05-01",
+          "date_precision": "day",
+          "text": "3R took control of Baboua. Despite partial disarmament group remains in control of big parts of Nana-Mambéré prefecture."
+        },
+        {
+          "date": "2020-05-05",
+          "date_latest": "2020-05-05",
+          "date_precision": "day",
+          "text": "3R withdrew from Baboua to their base near Beloko"
+        },
+        {
+          "date": "2020-05-09",
+          "date_latest": "2020-05-09",
+          "date_precision": "day",
+          "text": "FACA repelled UPC attack on Obo killing 11 militants"
+        },
+        {
+          "date": "2020-05-13",
+          "date_latest": "2020-05-13",
+          "date_precision": "day",
+          "text": "3R leader, Sidiki Abass, escaped from Bouar. His fighters disarmed local gendarmerie seizing Besson and Koundé"
+        },
+        {
+          "date": "2020-05-18",
+          "date_latest": "2020-05-18",
+          "date_precision": "day",
+          "text": "FACA repelled another UPC attack on Obo",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-05-20",
+          "date_latest": "2020-05-20",
+          "date_precision": "day",
+          "text": "FACA with support of MINUSCA repelled another UPC attack on Obo killing 12 militants",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-05-27",
+          "date_latest": "2020-05-27",
+          "date_precision": "day",
+          "text": "3R took control of Koundjili in Ouham-Pende. Local population fled to bush."
+        },
+        {
+          "date": "2020-06-08",
+          "date_latest": "2020-06-08",
+          "date_precision": "day",
+          "text": "Prefect of Nana-Grébizi prefecture fled his residence in Kaga-Bandoro after demonstrators accused him of collaborating with MPC rebels in city. They ransacked his residence."
+        },
+        {
+          "date": "2020-06-09",
+          "date_latest": "2020-06-09",
+          "date_precision": "day",
+          "text": "3R attacked USMS base in Wantiguira, located 8 km from Bouar with heavy weapons."
+        },
+        {
+          "date": "2020-06-20",
+          "date_latest": "2020-06-20",
+          "date_precision": "day",
+          "text": "Anti-balaka in Bozoum held a meeting demanding resignation of Ouham-Pende prefect accusing him of collaborating with 3R rebels."
+        },
+        {
+          "date": "2020-06-25",
+          "date_latest": "2020-06-25",
+          "date_precision": "day",
+          "text": "MPC took control of Boguila, Nana-Bakassa and Beboura following MINUSCA withdrawal"
+        },
+        {
+          "date": "2020-06-30",
+          "date_latest": "2020-06-30",
+          "date_precision": "day",
+          "text": "Bangladeshi paratroopers from MINUSCA attacked 3R in Koui."
+        },
+        {
+          "date": "2020-07-09",
+          "date_latest": "2020-07-09",
+          "date_precision": "day",
+          "text": "Demonstrators burned down police headquarters in Bagandou after police killed ex-Anti-balaka commander."
+        },
+        {
+          "date": "2020-07-11",
+          "date_latest": "2020-07-11",
+          "date_precision": "day",
+          "text": "Police forces from Bangui were sent to Bagandou to restore peace, however they were stopped by a crowd."
+        },
+        {
+          "date": "2020-07-13",
+          "date_latest": "2020-07-13",
+          "date_precision": "day",
+          "text": "A UN peacekeeper was killed and two others wounded in an ambush set up by the 3R militia."
+        },
+        {
+          "date": "2020-07-19",
+          "date_latest": "2020-07-19",
+          "date_precision": "day",
+          "text": "3R forces attacked Ngbama village near Bocaranga kidnapping 40 people and stealing 50 million CFA francs."
+        },
+        {
+          "date": "2020-07-22",
+          "date_latest": "2020-07-22",
+          "date_precision": "day",
+          "text": "MINUSCA forces recaptured Niem from 3R forces."
+        },
+        {
+          "date": "2020-07-23",
+          "date_latest": "2020-07-23",
+          "date_precision": "day",
+          "text": "3R forces captured Bang village near Ngaoundaye"
+        },
+        {
+          "date": "2020-07-28",
+          "date_latest": "2020-07-28",
+          "date_precision": "day",
+          "text": "MINUSCA forces recaptured Besson from 3R forces.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-07-31",
+          "date_latest": "2020-07-31",
+          "date_precision": "day",
+          "text": "Janjaweed militias attacked village near Am Dafock killing more than 140 people and displacing thousands."
+        },
+        {
+          "date": "2020-08-03",
+          "date_latest": "2020-08-03",
+          "date_precision": "day",
+          "text": "Anti-balaka attacked Grimari blocking roads to Sibut and Bambari. FACA managed to recapture city the same day killing one Anti-balaka commander."
+        },
+        {
+          "date": "2020-08-17",
+          "date_latest": "2020-08-17",
+          "date_precision": "day",
+          "text": "FACA captured Koui after battle with 3R."
+        },
+        {
+          "date": "2020-08-30",
+          "date_latest": "2020-08-30",
+          "date_precision": "day",
+          "text": "Local militias took control of Gaga town near Yaloké after clashes with FACA soldiers. They ransacked buildings of Chinese companies operating in the area."
+        },
+        {
+          "date": "2020-09-08",
+          "date_latest": "2020-09-08",
+          "date_precision": "day",
+          "text": "Three armed Anti-balaka fighters from Gaga raided home of brigade commander of Yaloké's gendarmerie and forced him to free one of their fighters who was arrested for looting. Local population organizer a protest against his decision."
+        },
+        {
+          "date": "2020-09-14",
+          "date_latest": "2020-09-14",
+          "date_precision": "day",
+          "text": "3R briefly captured Bohong and Mbotoga before withdrawing later that day. Local population fled to bush."
+        },
+        {
+          "date": "2020-09-17",
+          "date_latest": "2020-09-17",
+          "date_precision": "day",
+          "text": "3R captured four villages (Yambassa, Bavara, Bondja and Bimbi) near Paoua. They withdrew day later, but returned on 19 September."
+        },
+        {
+          "date": "2020-09-22",
+          "date_latest": "2020-09-22",
+          "date_precision": "day",
+          "text": "MINUSCA and FACA forces were sent to recapture Bavara from 3R but were forced to withdraw after their vehicles were unable to cross a bridge."
+        },
+        {
+          "date": "2020-09-27",
+          "date_latest": "2020-09-27",
+          "date_precision": "day",
+          "text": "3R took control of Nanga-Boguila.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-10-01",
+          "date_latest": "2020-10-01",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted in Ngaoundaye between 3R and MINUSCA after authorities tried to conduct voter registration in the area despite 3R's ban. Officials were forced to retreat.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-10-02",
+          "date_latest": "2020-10-02",
+          "date_precision": "day",
+          "text": "Traffic resumed at Moumdji bridge after Rwandan peacekeepers removed land mines."
+        },
+        {
+          "date": "2020-10-07",
+          "date_latest": "2020-10-07",
+          "date_precision": "day",
+          "text": "3R took control of Nana-Bakassa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-10-23",
+          "date_latest": "2020-10-23",
+          "date_precision": "day",
+          "text": "Clashes erupted between two factions of Anti-balaka in Batangafo. Clashes were also reported later between Anti-balaka and ex-Séléka in the city. Seven people were killed (including three civilians and four militiamen) and more than 100 injured.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-11-19",
+          "date_latest": "2020-11-19",
+          "date_precision": "day",
+          "text": "FACA withdrew from Bozoum."
+        },
+        {
+          "date": "2020-11-21",
+          "date_latest": "2020-11-21",
+          "date_precision": "day",
+          "text": "Five people were killed and seven injured after clashes between UPC and FPRC in Aigbando, 70 km from Bria."
+        },
+        {
+          "date": "2020-11-23",
+          "date_latest": "2020-11-23",
+          "date_precision": "day",
+          "text": "In response, self-defense forces from South Sudan attacked Bambouti, kicking UPC out of the city and killing some of their fighters. They withdrew a few hours later. UPC militants kidnapped the local mayor after returning to Bambouti.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-01",
+          "date_latest": "2020-12-01",
+          "date_precision": "day",
+          "text": "Sudanese Arab militias attacked Boromata village. They were repulsed by Goula militias. A few people were killed."
+        },
+        {
+          "date": "2020-12-02",
+          "date_latest": "2020-12-02",
+          "date_precision": "day",
+          "text": "Fulani rebels attacked Ngouvota village near Kaga-Bandoro killing four people including pregnant woman. One rebel was killed by civilians."
+        },
+        {
+          "date": "2020-12-08",
+          "date_latest": "2020-12-08",
+          "date_precision": "day",
+          "text": "Clashes erupted between FACA and UPC rebels in Bambari resulting in a few rebels being killed."
+        },
+        {
+          "date": "2020-12-10",
+          "date_latest": "2020-12-10",
+          "date_precision": "day",
+          "text": "Sudanese Arab militias attacked Ndélembé village near Birao injuring a few people. They were repulsed after 13 hours by forces from Boromata.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-18",
+          "date_latest": "2020-12-18",
+          "date_precision": "day",
+          "text": "Anti-balaka attacked Yaloké and Bossembélé. Yaloké was captured by rebels and four soldiers were killed. Bossembélé was also reportedly captured by rebels. Reinforcement was sent from Bangui to recapture Bossembélé. Boda and Mbaiki were also reportedly captured by rebels."
+        },
+        {
+          "date": "2020-12-19",
+          "date_latest": "2020-12-19",
+          "date_precision": "day",
+          "text": "MINUSCA was deployed in rebel-held Bossembélé and Bossemptele to restore peace. Gallo was captured by rebels. Heavy clashes erupted in Mbaiki between rebels and FACA supported by Russian mercenaries.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-20",
+          "date_latest": "2020-12-20",
+          "date_precision": "day",
+          "text": "UPC captured Grimari after bypassing MINUSCA roadblock. North of Sibut UPC advances were blocked in Gbakobanga. Rebels captured barrier in Bouar."
+        },
+        {
+          "date": "2020-12-21",
+          "date_latest": "2020-12-21",
+          "date_precision": "day",
+          "text": "Rebels took control of Baboua. Heavy clashes erupted between rebels and government forces on the road between Bossembele and Boali.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-22",
+          "date_latest": "2020-12-22",
+          "date_precision": "day",
+          "text": "UPC captured center of Bambari. Rebels reportedly captured Boyali. Government reinforcement was sent from Boali."
+        },
+        {
+          "date": "2020-12-23",
+          "date_latest": "2020-12-23",
+          "date_precision": "day",
+          "text": "Rebels took control of Mambere near Berberati on Nola axis. Rebels took control of Beloko and Cantonnier near Cameroonian border. Rebels withdrew from Bouar and Bambari.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-24",
+          "date_latest": "2020-12-24",
+          "date_precision": "day",
+          "text": "Rebels encircled Boali. Heavy clashes erupted between rebels and government forces in Bobangui near Pissa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-25",
+          "date_latest": "2020-12-25",
+          "date_precision": "day",
+          "text": "Three peacekeepers were killed by unknown attackers in Bakouma and Dekoa."
+        },
+        {
+          "date": "2020-12-27",
+          "date_latest": "2020-12-27",
+          "date_precision": "day",
+          "text": "First round of general elections was held. Rebels again took control of Bouar."
+        },
+        {
+          "date": "2020-12-28",
+          "date_latest": "2020-12-28",
+          "date_precision": "day",
+          "text": "Rebels took control of Gamboula and Baoro.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-12-29",
+          "date_latest": "2020-12-29",
+          "date_precision": "day",
+          "text": "Government forces withdrew from Bakouma after being surrounded by UPC and FPRC fighters."
+        },
+        {
+          "date": "2020-12-30",
+          "date_latest": "2020-12-30",
+          "date_precision": "day",
+          "text": "Rebels withdrew from Beloko and Cantonnier. Rebels withdrew from Carnot."
+        },
+        {
+          "date": "2021-01-03",
+          "date_latest": "2021-01-03",
+          "date_precision": "day",
+          "text": "Rebels took control of Bangassou forcing soldiers to withdraw towards MINUSCA base according to reports."
+        },
+        {
+          "date": "2021-01-06",
+          "date_latest": "2021-01-06",
+          "date_precision": "day",
+          "text": "Government forces recaptured Bagandou killing 24 rebels. Anti-balaka rebels took control of it earlier this week."
+        },
+        {
+          "date": "2021-01-09",
+          "date_latest": "2021-01-09",
+          "date_precision": "day",
+          "text": "MINUSCA forces assisted by French jets repelled rebel attack on Bouar."
+        },
+        {
+          "date": "2021-01-13",
+          "date_latest": "2021-01-13",
+          "date_precision": "day",
+          "text": "Rebels attack the capital city, Bangui with a 200 strong force killing one UN peacekeeper, but they were repelled."
+        },
+        {
+          "date": "2021-01-15",
+          "date_latest": "2021-01-15",
+          "date_precision": "day",
+          "text": "Rebels ambushed a Burundian peacekeeper in the town of Grimari killing him and injuring two Bangladeshi peacekeepers."
+        },
+        {
+          "date": "2021-01-16",
+          "date_latest": "2021-01-16",
+          "date_precision": "day",
+          "text": "Rebels withdrew from Bangassou.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-01-17",
+          "date_latest": "2021-01-17",
+          "date_precision": "day",
+          "text": "Rebels again took control of Bouar.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-01-18",
+          "date_latest": "2021-01-18",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted between UPC rebels and MINUSCA 15 kilometers from Bangassou on Gambo axis resulting in eight rebels and three peacekeepers being killed."
+        },
+        {
+          "date": "2021-01-24",
+          "date_latest": "2021-01-24",
+          "date_precision": "day",
+          "text": "Government forces recaptured Boda from rebels.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-01-26",
+          "date_latest": "2021-01-26",
+          "date_precision": "day",
+          "text": "Government forces reportedly recaptured Boyali killing 44 rebels.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-01-29",
+          "date_latest": "2021-01-29",
+          "date_precision": "day",
+          "text": "Government forces recaptured Mpoko Ngbodo from rebels.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-04",
+          "date_latest": "2021-02-04",
+          "date_precision": "day",
+          "text": "Government forces recaptured Bossembele.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-06",
+          "date_latest": "2021-02-06",
+          "date_precision": "day",
+          "text": "Government forces recaptured Yaloke.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-08",
+          "date_latest": "2021-02-08",
+          "date_precision": "day",
+          "text": "Government forces recaptured Baoro and Bossemptele. Rebels withdrew from Bouar."
+        },
+        {
+          "date": "2021-02-11",
+          "date_latest": "2021-02-11",
+          "date_precision": "day",
+          "text": "Government forces recaptured Beloko border crossing from rebels."
+        },
+        {
+          "date": "2021-02-12",
+          "date_latest": "2021-02-12",
+          "date_precision": "day",
+          "text": "Government forces repelled UPC attack on Ndassima after four hour combat."
+        },
+        {
+          "date": "2021-02-18",
+          "date_latest": "2021-02-18",
+          "date_precision": "day",
+          "text": "Government forces pushed UPC rebels from Bambari."
+        },
+        {
+          "date": "2021-02-19",
+          "date_latest": "2021-02-19",
+          "date_precision": "day",
+          "text": "Government forces captured Ippy."
+        },
+        {
+          "date": "2021-02-22",
+          "date_latest": "2021-02-22",
+          "date_precision": "day",
+          "text": "Rebels repelled attack by government forces on Bossangoa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-23",
+          "date_latest": "2021-02-23",
+          "date_precision": "day",
+          "text": "Rebels repelled government attack west of Berberati."
+        },
+        {
+          "date": "2021-02-24",
+          "date_latest": "2021-02-24",
+          "date_precision": "day",
+          "text": "Government forces captured Bossangoa. Rebels returned to Bozoum.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-25",
+          "date_latest": "2021-02-25",
+          "date_precision": "day",
+          "text": "Government forces captured Benzambe near Bossangoa and Bozoum.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-02-26",
+          "date_latest": "2021-02-26",
+          "date_precision": "day",
+          "text": "Government forces captured Kambakota near Bossangoa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-04",
+          "date_latest": "2021-03-04",
+          "date_precision": "day",
+          "text": "Government forces took control of Babaza village 30 km west of Berberati and Bouca."
+        },
+        {
+          "date": "2021-03-05",
+          "date_latest": "2021-03-05",
+          "date_precision": "day",
+          "text": "Government forces captured road to Gamboula and Abba Government forces recaptured Bozoum–Paoua road.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-07",
+          "date_latest": "2021-03-07",
+          "date_precision": "day",
+          "text": "Government forces captured Ngakobo., Amada Gaza. and Gamboula.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-08",
+          "date_latest": "2021-03-08",
+          "date_precision": "day",
+          "text": "Government forces captured Kouango and Bokolobo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-09",
+          "date_latest": "2021-03-09",
+          "date_precision": "day",
+          "text": "UPC rebels took control of Niakari north of Bangassou."
+        },
+        {
+          "date": "2021-03-11",
+          "date_latest": "2021-03-11",
+          "date_precision": "day",
+          "text": "Government forces recaptured Manga village between Bozoum and Bocaranga."
+        },
+        {
+          "date": "2021-03-12",
+          "date_latest": "2021-03-12",
+          "date_precision": "day",
+          "text": "Government forces recaptured Ndjoukou.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-17",
+          "date_latest": "2021-03-17",
+          "date_precision": "day",
+          "text": "Government forces recaptured Nanga-Boguila.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-18",
+          "date_latest": "2021-03-18",
+          "date_precision": "day",
+          "text": "Rebels withdrew from Ngaoundaye and Bakouma, however they remained present in the vicinity of them. Russian mercenaries took control of Alindao."
+        },
+        {
+          "date": "2021-03-21",
+          "date_latest": "2021-03-21",
+          "date_precision": "day",
+          "text": "Government forces repelled rebel attack on Bokolobo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-22",
+          "date_latest": "2021-03-22",
+          "date_precision": "day",
+          "text": "Government forces recaptured Bria. One FPRC fighter was killed."
+        },
+        {
+          "date": "2021-03-23",
+          "date_latest": "2021-03-23",
+          "date_precision": "day",
+          "text": "Rebels stole seven vehicles belonging to humanitarian mission in Bakouma and forced workers to return to Bangassou."
+        },
+        {
+          "date": "2021-03-24",
+          "date_latest": "2021-03-24",
+          "date_precision": "day",
+          "text": "Government forces attacked rebel positions in Bessan near Bouar. The village was captured by government forces.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-03-25",
+          "date_latest": "2021-03-25",
+          "date_precision": "day",
+          "text": "3R rebels returned to Ngaoundaye. Nana-Bakassa and Kouki were reported to be under government control."
+        },
+        {
+          "date": "2021-03-27",
+          "date_latest": "2021-03-27",
+          "date_precision": "day",
+          "text": "Russian mercenaries captured Mbrès from rebels, killing two rebels."
+        },
+        {
+          "date": "2021-03-28",
+          "date_latest": "2021-03-28",
+          "date_precision": "day",
+          "text": "Russian mercenaries withdrew from Mbres to Bamingui. Rebels returned to the village."
+        },
+        {
+          "date": "2021-04-02",
+          "date_latest": "2021-04-02",
+          "date_precision": "day",
+          "text": "Rebels attacked Bria which was repelled. One soldiers and two rebels were killed."
+        },
+        {
+          "date": "2021-04-05",
+          "date_latest": "2021-04-05",
+          "date_precision": "day",
+          "text": "Government forces recaptured Aba town northwest of Bouar."
+        },
+        {
+          "date": "2021-04-07",
+          "date_latest": "2021-04-07",
+          "date_precision": "day",
+          "text": "Government forces captured Niem.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-09",
+          "date_latest": "2021-04-09",
+          "date_precision": "day",
+          "text": "Russian mercenaries again arrived in Mbres forcing rebels to withdraw."
+        },
+        {
+          "date": "2021-04-12",
+          "date_latest": "2021-04-12",
+          "date_precision": "day",
+          "text": "Government forces recaptured Batangafo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-15",
+          "date_latest": "2021-04-15",
+          "date_precision": "day",
+          "text": "Government forces recaptured Kabo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-16",
+          "date_latest": "2021-04-16",
+          "date_precision": "day",
+          "text": "Three FACA soldiers were killed near Am Dafock by Misseriya Arabs aligned with CPC."
+        },
+        {
+          "date": "2021-04-19",
+          "date_latest": "2021-04-19",
+          "date_precision": "day",
+          "text": "Government forces recaptured Moyenne-Sido and Markounda."
+        },
+        {
+          "date": "2021-04-22",
+          "date_latest": "2021-04-22",
+          "date_precision": "day",
+          "text": "Russian mercenaries took control of Yalinga.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-27",
+          "date_latest": "2021-04-27",
+          "date_precision": "day",
+          "text": "Russian mercenaries took control of Nzako.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-28",
+          "date_latest": "2021-04-28",
+          "date_precision": "day",
+          "text": "Government forces recaptured Yelowa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-04-30",
+          "date_latest": "2021-04-30",
+          "date_precision": "day",
+          "text": "Russian forces arrived in Paviika village near Alindao after information about UPC rebels presence night before. They withdrew after murdering one man. Rebels returned and started burning homes and murdered seven people.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-03",
+          "date_latest": "2021-05-03",
+          "date_precision": "day",
+          "text": "3R rebels entered Berra village near Abba."
+        },
+        {
+          "date": "2021-05-04",
+          "date_latest": "2021-05-04",
+          "date_precision": "day",
+          "text": "Government forces captured Mobaye.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-05",
+          "date_latest": "2021-05-05",
+          "date_precision": "day",
+          "text": "Government forces repelled 3R attack on Abba.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-06",
+          "date_latest": "2021-05-06",
+          "date_precision": "day",
+          "text": "Government forces recaptured Dimbi, Kembe, Poumbolo and Gambo."
+        },
+        {
+          "date": "2021-05-08",
+          "date_latest": "2021-05-08",
+          "date_precision": "day",
+          "text": "3R rebels attacked Baboua.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-10",
+          "date_latest": "2021-05-10",
+          "date_precision": "day",
+          "text": "Government forces recaptured Bakouma.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-11",
+          "date_latest": "2021-05-11",
+          "date_precision": "day",
+          "text": "Government forces destroyed rebel base on Batangafo-Bekondjo axis near border with Chad seizing equipment."
+        },
+        {
+          "date": "2021-05-12",
+          "date_latest": "2021-05-12",
+          "date_precision": "day",
+          "text": "Armed forces withdrew from Am Dafock following attacks by Misseriya Arabs."
+        },
+        {
+          "date": "2021-05-15",
+          "date_latest": "2021-05-15",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted in Boyo between Russian mercenaries and UPC rebels. 20 people were killed and the village was seized by Russians day later."
+        },
+        {
+          "date": "2021-05-17",
+          "date_latest": "2021-05-17",
+          "date_precision": "day",
+          "text": "Rebels killed 10 people in Grevaï village near Kaga-Bandoro."
+        },
+        {
+          "date": "2021-05-24",
+          "date_latest": "2021-05-24",
+          "date_precision": "day",
+          "text": "Government forces recaptured Grevaï.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-27",
+          "date_latest": "2021-05-27",
+          "date_precision": "day",
+          "text": "3R rebels encircled Djim forcing local population to flee. Ngaoundaye was captured by Russian mercenaries."
+        },
+        {
+          "date": "2021-05-29",
+          "date_latest": "2021-05-29",
+          "date_precision": "day",
+          "text": "Government forces recaptured Koui.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-05-30",
+          "date_latest": "2021-05-30",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked Sourou in Chad killing six soldiers. In response Chadian soldiers raided territory of Central African Republic."
+        },
+        {
+          "date": "2021-05-31",
+          "date_latest": "2021-05-31",
+          "date_precision": "day",
+          "text": "3R rebels attacked Makounzi Wali village on Bocaranga-Bouar axis before withdrawing few hours later."
+        },
+        {
+          "date": "2021-06-05",
+          "date_latest": "2021-06-05",
+          "date_precision": "day",
+          "text": "One soldiers and two rebels were killed in UPC attack on Bambari.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-06-10",
+          "date_latest": "2021-06-10",
+          "date_precision": "day",
+          "text": "14 people were in killed in clashes between herders and farmers in Bamingui-Bangoran province."
+        },
+        {
+          "date": "2021-06-19",
+          "date_latest": "2021-06-19",
+          "date_precision": "day",
+          "text": "Russian mercenaries took control of Aigbando killing 10 people."
+        },
+        {
+          "date": "2021-06-22",
+          "date_latest": "2021-06-22",
+          "date_precision": "day",
+          "text": "3R rebels attack armed forces in Kaïna and Djaoro lim villages killing some of them."
+        },
+        {
+          "date": "2021-06-23",
+          "date_latest": "2021-06-23",
+          "date_precision": "day",
+          "text": "Eight armed men attacked Beltounou village near Kabo killing four people and forcing most of local population to flee to Kabo."
+        },
+        {
+          "date": "2021-06-24",
+          "date_latest": "2021-06-24",
+          "date_precision": "day",
+          "text": "Armed forces reportedly withdrew from Koui, Man, Ndim, Wouro, Soûlé and Bowaï."
+        },
+        {
+          "date": "2021-06-25",
+          "date_latest": "2021-06-25",
+          "date_precision": "day",
+          "text": "Government forces took control of Kaga-Bandoro–Ndele axis."
+        },
+        {
+          "date": "2021-06-27",
+          "date_latest": "2021-06-27",
+          "date_precision": "day",
+          "text": "Government forces recaptured Ndele.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-06-28",
+          "date_latest": "2021-06-28",
+          "date_precision": "day",
+          "text": "UPC rebels attacked Alindao."
+        },
+        {
+          "date": "2021-06-29",
+          "date_latest": "2021-06-29",
+          "date_precision": "day",
+          "text": "Armed forces repelled attack on Alindao. However, as of 1 July it was reported that UPC rebels were still present in the town.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-07-08",
+          "date_latest": "2021-07-08",
+          "date_precision": "day",
+          "text": "Russian forces clashed with 3R rebels."
+        },
+        {
+          "date": "2021-07-10",
+          "date_latest": "2021-07-10",
+          "date_precision": "day",
+          "text": "3R rebels erected checkpoints in Bokongo, Boyabane and Bongbalo at Bozoum-Bossemptele road."
+        },
+        {
+          "date": "2021-07-12",
+          "date_latest": "2021-07-12",
+          "date_precision": "day",
+          "text": "3R rebels blocked road from Bozoum to Bossangoa, Paoua, Bossemptele and Bouar."
+        },
+        {
+          "date": "2021-07-14",
+          "date_latest": "2021-07-14",
+          "date_precision": "day",
+          "text": "Russians killed four FPRC rebels in Aigbando."
+        },
+        {
+          "date": "2021-07-15",
+          "date_latest": "2021-07-15",
+          "date_precision": "day",
+          "text": "CPC rebels raided Miamani village on Ndele-Golongosso axis looting local shops."
+        },
+        {
+          "date": "2021-07-16",
+          "date_latest": "2021-07-16",
+          "date_precision": "day",
+          "text": "3R rebels withdrew from villages on roads to Bozoum and moved to mining areas near the town."
+        },
+        {
+          "date": "2021-07-21",
+          "date_latest": "2021-07-21",
+          "date_precision": "day",
+          "text": "12 civilians were killed near Bossangoa. It is unclear who was responsible for this with Russian mercenaries, UN peacekeepers and CPC rebels both being blamed."
+        },
+        {
+          "date": "2021-07-26",
+          "date_latest": "2021-07-26",
+          "date_precision": "day",
+          "text": "Two soldiers were killed in 3R attack 15 km from Yéléwa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-07-27",
+          "date_latest": "2021-07-27",
+          "date_precision": "day",
+          "text": "31 FPRC fighters led by Ousta Ali surrendered their weapons in Bria. They were hiding in bush near the town since April."
+        },
+        {
+          "date": "2021-08-05",
+          "date_latest": "2021-08-05",
+          "date_precision": "day",
+          "text": "Heavy clashes between 3R rebels and Russian mercenaries erupted west of Koui.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-08-09",
+          "date_latest": "2021-08-09",
+          "date_precision": "day",
+          "text": "Armed forces reportedly destroyed rebel base 1 km from place where massacre near Bossangoa happened."
+        },
+        {
+          "date": "2021-08-10",
+          "date_latest": "2021-08-10",
+          "date_precision": "day",
+          "text": "Government forces with support of Rwandans and Russians launched disarmament campaign in Ouham-Pende including Bang, Bocaranga, Koui, Ndim, Mann and Niem villages."
+        },
+        {
+          "date": "2021-08-17",
+          "date_latest": "2021-08-17",
+          "date_precision": "day",
+          "text": "3R rebels killed two motorcycle drivers in Boyabane village on Bozoum-Bossemptele road."
+        },
+        {
+          "date": "2021-08-20",
+          "date_latest": "2021-08-20",
+          "date_precision": "day",
+          "text": "Russian forces using four helicopters attacked 3R positions west of Koui killing three people."
+        },
+        {
+          "date": "2021-08-23",
+          "date_latest": "2021-08-23",
+          "date_precision": "day",
+          "text": "Heavy clashes were ongoing between Russian mercenaries and 3R rebels in Sabewa, Bozou and other villages. At least one rebel and Russian soldier were killed. Three Russian vehicles were torched."
+        },
+        {
+          "date": "2021-08-24",
+          "date_latest": "2021-08-24",
+          "date_precision": "day",
+          "text": "3R rebels kidnapped three people on the outskirts of Bozoum."
+        },
+        {
+          "date": "2021-08-25",
+          "date_latest": "2021-08-25",
+          "date_precision": "day",
+          "text": "Two motorcycle drivers were killed by mine explosions in Ouham-Pende."
+        },
+        {
+          "date": "2021-08-29",
+          "date_latest": "2021-08-29",
+          "date_precision": "day",
+          "text": "Around 50 3R rebels attacked Dilapoko village killing one person."
+        },
+        {
+          "date": "2021-09-02",
+          "date_latest": "2021-09-02",
+          "date_precision": "day",
+          "text": "3R rebels occupied Zoukombo village on Beloko-Baboua road. They withdrew later that day."
+        },
+        {
+          "date": "2021-09-07",
+          "date_latest": "2021-09-07",
+          "date_precision": "day",
+          "text": "Russian mercenaries killed 40 Fulani herders in Nassoya village 40 km from Baboua."
+        },
+        {
+          "date": "2021-09-10",
+          "date_latest": "2021-09-10",
+          "date_precision": "day",
+          "text": "An aid worker of the Danish Refugee Council was killed and three others wounded by an IED in Ouham-Pendé."
+        },
+        {
+          "date": "2021-09-12",
+          "date_latest": "2021-09-12",
+          "date_precision": "day",
+          "text": "UPC rebels entered Kpokpo village near Yalinga before withdrawing later that day.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-09-13",
+          "date_latest": "2021-09-13",
+          "date_precision": "day",
+          "text": "Russian mercenaries using 3 helicopters landed in Gbéti village in Cameroon and Banga village in CAR. They clashes with 3R rebels. Operation continued on next day."
+        },
+        {
+          "date": "2021-09-14",
+          "date_latest": "2021-09-14",
+          "date_precision": "day",
+          "text": "3R rebels entered Mann village pillaging local shops before withdrawing later that day."
+        },
+        {
+          "date": "2021-09-15",
+          "date_latest": "2021-09-15",
+          "date_precision": "day",
+          "text": "During operation in Mambere-Kadei near Bolambili village armed forces discovered rebel warehouse with land mines and anti-air missiles."
+        },
+        {
+          "date": "2021-09-18",
+          "date_latest": "2021-09-18",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted between Russian mercenaries and UPC rebels in Mingala.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-09-19",
+          "date_latest": "2021-09-19",
+          "date_precision": "day",
+          "text": "Two soldiers were killed in rebel attack on Kakomale village near Kaga-Bandoro.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-09-20",
+          "date_latest": "2021-09-20",
+          "date_precision": "day",
+          "text": "Banga village in Mambéré-Kadéï was recaptured by 3R rebels after heavy fighting."
+        },
+        {
+          "date": "2021-09-22",
+          "date_latest": "2021-09-22",
+          "date_precision": "day",
+          "text": "One soldier was killed in UPC attack on Biadé village on Bambari-Ippy axis."
+        },
+        {
+          "date": "2021-09-25",
+          "date_latest": "2021-09-25",
+          "date_precision": "day",
+          "text": "Two people were killed and three injured by unidentified armed men on Kabo-Moyenne Sido axis."
+        },
+        {
+          "date": "2021-09-27",
+          "date_latest": "2021-09-27",
+          "date_precision": "day",
+          "text": "Russian mercenaries again captured Banga village one week after it was seized by rebels."
+        },
+        {
+          "date": "2021-09-28",
+          "date_latest": "2021-09-28",
+          "date_precision": "day",
+          "text": "Two soldiers were killed and two kidnapped in UPC attack on Kombele village near Bambari."
+        },
+        {
+          "date": "2021-09-30",
+          "date_latest": "2021-09-30",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked UPC positions near Ngakobo, in Pouloubou and Kolo. In Nagkobo, 13 civilians were killed. In Pouloubou 19 civilians and 6 UPC rebels were killed and a UPC general was injured. In Kolo an estimated 42 people were killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-10-02",
+          "date_latest": "2021-10-02",
+          "date_precision": "day",
+          "text": "Three mercenaries and two rebels were killed in a rebel attack on a Russian convoy in Bombo in Mambéré-Kadéï."
+        },
+        {
+          "date": "2021-10-06",
+          "date_latest": "2021-10-06",
+          "date_precision": "day",
+          "text": "Rebels arrived in Lafolo, Pananga and Ngaboudou villages near Ippy forcing population to flee to Bria."
+        },
+        {
+          "date": "2021-10-08",
+          "date_latest": "2021-10-08",
+          "date_precision": "day",
+          "text": "UPC rebels took control of Dimbi in Basse-Kotto."
+        },
+        {
+          "date": "2021-10-11",
+          "date_latest": "2021-10-11",
+          "date_precision": "day",
+          "text": "Five Wagner Corporation mercenaries were killed and one injured when their convoy was ambushed by 3R rebels in Banga in Mambéré-Kadéï. Three rebels were killed and others three wounded carrying out the ambush."
+        },
+        {
+          "date": "2021-10-13",
+          "date_latest": "2021-10-13",
+          "date_precision": "day",
+          "text": "A man and woman were injured on Kabo-Moyenne Sido axis by unidentified armed men.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-10-16",
+          "date_latest": "2021-10-16",
+          "date_precision": "day",
+          "text": "Seven people were killed by Russian mercenaries in Benzambe village northeast of Bossangoa."
+        },
+        {
+          "date": "2021-10-19",
+          "date_latest": "2021-10-19",
+          "date_precision": "day",
+          "text": "Two UPC generals who wanted to surrender to the government were arrested by Ali Darassa in Boyo village."
+        },
+        {
+          "date": "2021-10-26",
+          "date_latest": "2021-10-26",
+          "date_precision": "day",
+          "text": "One person was killed by alleged 3R rebels in Kaita village near Mann."
+        },
+        {
+          "date": "2021-10-28",
+          "date_latest": "2021-10-28",
+          "date_precision": "day",
+          "text": "14 UPC soldiers and some generals including Moussa Issa left UPC to join Hassan Bouba's splinter faction."
+        },
+        {
+          "date": "2021-11-01",
+          "date_latest": "2021-11-01",
+          "date_precision": "day",
+          "text": "10 Egyptian peacekeepers were injured by FACA soldiers."
+        },
+        {
+          "date": "2021-11-06",
+          "date_latest": "2021-11-06",
+          "date_precision": "day",
+          "text": "3R rebels attacked Létélé northwest of Bocaranga. One soldier and 10 rebels were killed."
+        },
+        {
+          "date": "2021-11-07",
+          "date_latest": "2021-11-07",
+          "date_precision": "day",
+          "text": "Russian mercenaries executed UPC general Ali Tato with his wife in Shimbolo village on Bambari-Alindao axis. He was reportedly trying to surrender."
+        },
+        {
+          "date": "2021-11-11",
+          "date_latest": "2021-11-11",
+          "date_precision": "day",
+          "text": "Armed forces attacked 3R position in Bagari village near border with Cameroon killing three rebels and freeing four teenage boys kidnapped by them."
+        },
+        {
+          "date": "2021-11-16",
+          "date_latest": "2021-11-16",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked 3R rebels in Kowone village near Ndim forcing them to retreat. They killed one civilian."
+        },
+        {
+          "date": "2021-11-17",
+          "date_latest": "2021-11-17",
+          "date_precision": "day",
+          "text": "Seven soldiers were killed and two injured in 3R attack somewhere in Nana-Mambere province."
+        },
+        {
+          "date": "2021-11-18",
+          "date_latest": "2021-11-18",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked rebel positions Kparé village near Baboua. Four Russians and one 3R rebels were killed. One Anti-balaka fighter was injured.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-11-20",
+          "date_latest": "2021-11-20",
+          "date_precision": "day",
+          "text": "Five people were killed and five injured in Yidéré village near Cameroonian border by Russian mercenaries."
+        },
+        {
+          "date": "2021-11-21",
+          "date_latest": "2021-11-21",
+          "date_precision": "day",
+          "text": "3R rebels attacked Russians in Yidéré village in Mambéré-Kadéï. Fighting lasted for two hours with killed on both sides."
+        },
+        {
+          "date": "2021-11-23",
+          "date_latest": "2021-11-23",
+          "date_precision": "day",
+          "text": "12 people were killed by Russian mercenaries in Godawa village near Dilapoko, according to testimony of woman who survived and fled to Cameroon."
+        },
+        {
+          "date": "2021-11-24",
+          "date_latest": "2021-11-24",
+          "date_precision": "day",
+          "text": "Armed forces destroyed UPC camp led by general Garga near Bokolobo freeing one hostage. Rebels fled towards Ngakobo."
+        },
+        {
+          "date": "2021-11-25",
+          "date_latest": "2021-11-25",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked Aïgbado village near Bria killing people and livestock, burning down building and arresting 12 people."
+        },
+        {
+          "date": "2021-11-26",
+          "date_latest": "2021-11-26",
+          "date_precision": "day",
+          "text": "15 CPC rebels allegedly surrounded and disarmed group of five MINUSCA peacekeepers on Bodjomo-Boguila road. However MINUSCA officially denied this claiming that peacekeepers repelled attack by rebels."
+        },
+        {
+          "date": "2021-11-29",
+          "date_latest": "2021-11-29",
+          "date_precision": "day",
+          "text": "At least 20 civilians were killed in 3R attack on Ndakaya village west of Koui."
+        },
+        {
+          "date": "2021-11-30",
+          "date_latest": "2021-11-30",
+          "date_precision": "day",
+          "text": "Two Russian mercenaries were killed in 3R attack on Yidéré village.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-12-02",
+          "date_latest": "2021-12-02",
+          "date_precision": "day",
+          "text": "UPC rebels took control of Kouango after clashing with government forces. One police officer was killed and one civilian injured.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-12-03",
+          "date_latest": "2021-12-03",
+          "date_precision": "day",
+          "text": "Government forces recaptured Kouango.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-12-05",
+          "date_latest": "2021-12-05",
+          "date_precision": "day",
+          "text": "UPC rebels killed 5 civilians in Ngouroundou village on Bria-Yalinga axis."
+        },
+        {
+          "date": "2021-12-06",
+          "date_latest": "2021-12-06",
+          "date_precision": "day",
+          "text": "Eight people including seven women were reportedly lynched by Anti-balaka for witchcraft in Ndoumbou village near Bouca."
+        },
+        {
+          "date": "2021-12-11",
+          "date_latest": "2021-12-11",
+          "date_precision": "day",
+          "text": "Anti-balaka fighters from pro-government faction attacked Goya village near Kouango killing 10 civilians."
+        },
+        {
+          "date": "2021-12-12",
+          "date_latest": "2021-12-12",
+          "date_precision": "day",
+          "text": "Ali Darassa was appointed chief of staff of Coalition of Patriots for Change, two weeks after UPC officially returned to CPC."
+        },
+        {
+          "date": "2021-12-16",
+          "date_latest": "2021-12-16",
+          "date_precision": "day",
+          "text": "Pro-government faction of Anti-balaka murdered five people in Zimako village on Ippy-Galougou axis."
+        },
+        {
+          "date": "2021-12-28",
+          "date_latest": "2021-12-28",
+          "date_precision": "day",
+          "text": "Five people were injured in 3R attack on Bezéré. Two civilians were injured in another attack on Mbinaï village near Cameroon."
+        },
+        {
+          "date": "2021-12-30",
+          "date_latest": "2021-12-30",
+          "date_precision": "day",
+          "text": "Three MINUSCA peacekeepers were injured in landmine explosion in near Batouri Bole village in Mambéré-Kadéï."
+        },
+        {
+          "date": "2022-01-06",
+          "date_latest": "2022-01-06",
+          "date_precision": "day",
+          "text": "90 UPC rebels including general Robo surrendered in Ngakobo."
+        },
+        {
+          "date": "2022-01-09",
+          "date_latest": "2022-01-09",
+          "date_precision": "day",
+          "text": "Two civilians were killed in Ouham-Pende, one in Boina village by 3R rebels, other in Boyabane village by FACA soldiers."
+        },
+        {
+          "date": "2022-01-11",
+          "date_latest": "2022-01-11",
+          "date_precision": "day",
+          "text": "Three civilians were killed and six injured by Chadian mercenaries in Kare village on Batangafo-Kambakota axis."
+        },
+        {
+          "date": "2022-01-16",
+          "date_latest": "2022-01-16",
+          "date_precision": "day",
+          "text": "Russian mercenaries conducted operation in Aïgbado village against UPC rebels. During the operation they killed around 65 civilians. Two Russians were killed."
+        },
+        {
+          "date": "2022-01-18",
+          "date_latest": "2022-01-18",
+          "date_precision": "day",
+          "text": "Russian mercenaries and UPC rebels clashes in Nguipa village on Bokolobo-Lema axis."
+        },
+        {
+          "date": "2022-01-24",
+          "date_latest": "2022-01-24",
+          "date_precision": "day",
+          "text": "At least 11 people were killed in attack by Russian mercenaries on Sabo village near border with Chad."
+        },
+        {
+          "date": "2022-02-01",
+          "date_latest": "2022-02-01",
+          "date_precision": "day",
+          "text": "UPC rebels attacked Atongo Bakari village killing three people."
+        },
+        {
+          "date": "2022-02-02",
+          "date_latest": "2022-02-02",
+          "date_precision": "day",
+          "text": "Pro-government faction of Anti-balaka attacked Komayo village near Boyo killing seven people. In response UPC rebels attacked them. Four Anti-balaka and one UPC militiamen were killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-02-07",
+          "date_latest": "2022-02-07",
+          "date_precision": "day",
+          "text": "Six people were killed and one injured by unknown gunmen in Nguia-Bouar."
+        },
+        {
+          "date": "2022-02-09",
+          "date_latest": "2022-02-09",
+          "date_precision": "day",
+          "text": "90 civilians were allegedly killed by Russian mercenaries in Mouka and Yangoudroudja villages in Haute-Kotto. However other sources denied this."
+        },
+        {
+          "date": "2022-02-12",
+          "date_latest": "2022-02-12",
+          "date_precision": "day",
+          "text": "Damane Zakaria, leader of RPRC armed groups was killed with 20 rebels in Ouadda by Russian mercenaries."
+        },
+        {
+          "date": "2022-02-13",
+          "date_latest": "2022-02-13",
+          "date_precision": "day",
+          "text": "Four people were killed and three injured after armed men suspected to be 3R rebels set fire to homes in Touga village near Ngaoundaye."
+        },
+        {
+          "date": "2022-02-18",
+          "date_latest": "2022-02-18",
+          "date_precision": "day",
+          "text": "3R rebels attacked Gadzi town displacing and injuring many people."
+        },
+        {
+          "date": "2022-02-20",
+          "date_latest": "2022-02-20",
+          "date_precision": "day",
+          "text": "Armed forces repelled UPC attack on Alindao."
+        },
+        {
+          "date": "2022-02-25",
+          "date_latest": "2022-02-25",
+          "date_precision": "day",
+          "text": "Anti-balaka fighters attacked merchants killing one person and kidnapping and looting others in Gbakara village on Bossangoa-Bouca axis."
+        },
+        {
+          "date": "2022-03-05",
+          "date_latest": "2022-03-05",
+          "date_precision": "day",
+          "text": "Russian mercenaries captured Nzacko village clashing with FPRC rebels. 2 Russians and 5 rebels were killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-03-08",
+          "date_latest": "2022-03-08",
+          "date_precision": "day",
+          "text": "FPRC rebels recaptured Nzacko village after Wagner mercenaries left the town."
+        },
+        {
+          "date": "2022-03-11",
+          "date_latest": "2022-03-11",
+          "date_precision": "day",
+          "text": "Russian mercenaries and FPRC rebels clashes in Gounda village near N'dele. Four Russians, six rebels and two civilians were killed. Rebels withdrew from the village and Russians continued to Gordile, where they killed at least 15 people. They also arrived in Tirigoulou where they killed 12 people including former FPRC general.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-03-12",
+          "date_latest": "2022-03-12",
+          "date_precision": "day",
+          "text": "At least 17 civilians were killed by Russian mercenaries in Kota-Gbaya near Markounda."
+        },
+        {
+          "date": "2022-03-14",
+          "date_latest": "2022-03-14",
+          "date_precision": "day",
+          "text": "Rwandan forces attacked rebel position in Ramadan village on Bamingui-Mbrés axis killing two rebels."
+        },
+        {
+          "date": "2022-03-18",
+          "date_latest": "2022-03-18",
+          "date_precision": "day",
+          "text": "Armed forces repelled CPC attack on Bouca.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-03-22",
+          "date_latest": "2022-03-22",
+          "date_precision": "day",
+          "text": "3R rebels took control of Nzakoundou village after battle with government forces."
+        },
+        {
+          "date": "2022-03-23",
+          "date_latest": "2022-03-23",
+          "date_precision": "day",
+          "text": "3R rebels attacked mining site near Nguia-Bouar killing two people."
+        },
+        {
+          "date": "2022-03-27",
+          "date_latest": "2022-03-27",
+          "date_precision": "day",
+          "text": "Government forces again recaptured Nzacko."
+        },
+        {
+          "date": "2022-03-29",
+          "date_latest": "2022-03-29",
+          "date_precision": "day",
+          "text": "Government forces clashed with FPRC rebels in Gbolo village nar Bakouma. One person was injured."
+        },
+        {
+          "date": "2022-04-02",
+          "date_latest": "2022-04-02",
+          "date_precision": "day",
+          "text": "A few merchants were kidnapped by CPC rebels in Zeré village on Bossangoa-Bouca axis. Some of them were injured with bullets."
+        },
+        {
+          "date": "2022-04-07",
+          "date_latest": "2022-04-07",
+          "date_precision": "day",
+          "text": "CPC rebels attacked humanitarian convoy on Alindao-Mingala axis injuring five people."
+        },
+        {
+          "date": "2022-04-09",
+          "date_latest": "2022-04-09",
+          "date_precision": "day",
+          "text": "Armed men attacked a humanitarian vehicle in Nzeleté village on Alindao-Bambari axis, injuring two people."
+        },
+        {
+          "date": "2022-04-13",
+          "date_latest": "2022-04-13",
+          "date_precision": "day",
+          "text": "Armed men ambushed healthcare workers in Koui stealing medications, cash, motorcycles and cell phones."
+        },
+        {
+          "date": "2022-04-14",
+          "date_latest": "2022-04-14",
+          "date_precision": "day",
+          "text": "Armed Chadians attacked Gbazara village on Batangafo-Kabo axis injuring two women."
+        },
+        {
+          "date": "2022-04-16",
+          "date_latest": "2022-04-16",
+          "date_precision": "day",
+          "text": "Russian mercenaries clashes with 3R rebels west of Amada-Gaza town near border with Cameroon. One rebel was killed, one rebel and one Russian injured, rebels withdrew from the position."
+        },
+        {
+          "date": "2022-04-17",
+          "date_latest": "2022-04-17",
+          "date_precision": "day",
+          "text": "A South Sudanese citizen was killed by UPC rebels in Bambouti."
+        },
+        {
+          "date": "2022-04-18",
+          "date_latest": "2022-04-18",
+          "date_precision": "day",
+          "text": "Cameroon deployed hundreds of troops to the eastern border with C.A.R. to free hostages who were kidnapped by rebels operating at the border. 35 people were kidnapped by them in previous three weeks."
+        },
+        {
+          "date": "2022-04-22",
+          "date_latest": "2022-04-22",
+          "date_precision": "day",
+          "text": "Group of armen men entered Batangafo trying to loot local merchant. Armed forces arrived and repelled them>"
+        },
+        {
+          "date": "2022-04-23",
+          "date_latest": "2022-04-23",
+          "date_precision": "day",
+          "text": "Six people including local imam were killed by Russian mercenaries in Ndassima."
+        },
+        {
+          "date": "2022-04-25",
+          "date_latest": "2022-04-25",
+          "date_precision": "day",
+          "text": "Russians supported by armed forces attacked a UPC position in Lioto villages, killing two rebels. One Russian was injured."
+        },
+        {
+          "date": "2022-04-28",
+          "date_latest": "2022-04-28",
+          "date_precision": "day",
+          "text": "11 soldiers and three rebels were killed in rebel attack on Nzacko."
+        },
+        {
+          "date": "2022-04-29",
+          "date_latest": "2022-04-29",
+          "date_precision": "day",
+          "text": "3R rebels looted belongings of 200 people on Abba-Gallo axis injuring one person."
+        },
+        {
+          "date": "2022-05-07",
+          "date_latest": "2022-05-07",
+          "date_precision": "day",
+          "text": "Russian mercenaries and armed forces clashed with 3R rebels 90 km from Gadzi on Zawa axis forcing them to withdraw. 200 people were displaced by the clashes."
+        },
+        {
+          "date": "2022-05-08",
+          "date_latest": "2022-05-08",
+          "date_precision": "day",
+          "text": "FPRC general Moctar Adam was gunned down by Russian mercenaries in N'délé together with his two brothers while trying to evade arrest. Five people were injured including at least one soldier."
+        },
+        {
+          "date": "2022-05-09",
+          "date_latest": "2022-05-09",
+          "date_precision": "day",
+          "text": "UPC rebels launched attacks on two checkpoints outside Bokolobo. Two soldiers, three UPC rebels, eight militiamen from the pro-government faction of Anti-balaka and one woman were killed. Afterwards pro-government forces allegedly murdered 23 people in Fulani camp."
+        },
+        {
+          "date": "2022-05-15",
+          "date_latest": "2022-05-15",
+          "date_precision": "day",
+          "text": "Armed forces repelled 3R attack on Nzakoundou killing three attackers. In Sam Ouandja UPC rebels stabbed a trader.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-05-24",
+          "date_latest": "2022-05-24",
+          "date_precision": "day",
+          "text": "Seven people were killed by unidentified armed men outside of Nana-Bakassa."
+        },
+        {
+          "date": "2022-05-25",
+          "date_latest": "2022-05-25",
+          "date_precision": "day",
+          "text": "Russian mercenaries arrived in Tiringoulou causing local population to flee to bush. After that they looted houses."
+        },
+        {
+          "date": "2022-05-28",
+          "date_latest": "2022-05-28",
+          "date_precision": "day",
+          "text": "Russians looted a market in Sikikede."
+        },
+        {
+          "date": "2022-05-30",
+          "date_latest": "2022-05-30",
+          "date_precision": "day",
+          "text": "3R rebels destroyed two trucks near Bocaranga killing some soldiers."
+        },
+        {
+          "date": "2022-05-31",
+          "date_latest": "2022-05-31",
+          "date_precision": "day",
+          "text": "A motorcycle driver was shot dead by Chadian mercenaries on Batangafo-Ouandago axis."
+        },
+        {
+          "date": "2022-06-05",
+          "date_latest": "2022-06-05",
+          "date_precision": "day",
+          "text": "One soldier was killed and other captured by 3R rebels in Doko village on Bocaranga-Bang axis."
+        },
+        {
+          "date": "2022-06-07",
+          "date_latest": "2022-06-07",
+          "date_precision": "day",
+          "text": "Armed forces went to Goya. They clashed with UPC rebels north of Goya for two days after which they occupied Goya for three days looting shops and killing one person."
+        },
+        {
+          "date": "2022-06-08",
+          "date_latest": "2022-06-08",
+          "date_precision": "day",
+          "text": "3R rebels again killed one soldier and captured another in Doko village.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-06-14",
+          "date_latest": "2022-06-14",
+          "date_precision": "day",
+          "text": "MINUSCA peacekeepers were deployed until 30 August in Bakouma and Nzacko to protect from rebel attacks."
+        },
+        {
+          "date": "2022-06-17",
+          "date_latest": "2022-06-17",
+          "date_precision": "day",
+          "text": "RPRC, FPRC and UPC rebels took control of Ouadda-Djalle village after clashing with armed forces and killing at least one pro-government fighter. Local population fled to bush.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-06-23",
+          "date_latest": "2022-06-23",
+          "date_precision": "day",
+          "text": "Armed forces repelled CPC attack on Bakouma. Six rebels and one civilian were killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-06-26",
+          "date_latest": "2022-06-26",
+          "date_precision": "day",
+          "text": "Armed forces recaptured Ouanda-Djalle after clashing with rebels."
+        },
+        {
+          "date": "2022-07-03",
+          "date_latest": "2022-07-03",
+          "date_precision": "day",
+          "text": "Armed forces repelled rebel attack on Dimbi killing 12 rebels and capturing five.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-07-14",
+          "date_latest": "2022-07-14",
+          "date_precision": "day",
+          "text": "UPC took control of Kembé."
+        },
+        {
+          "date": "2022-07-16",
+          "date_latest": "2022-07-16",
+          "date_precision": "day",
+          "text": "Rebels withdrew from Kembé following arrival of MINUSCA forces."
+        },
+        {
+          "date": "2022-07-18",
+          "date_latest": "2022-07-18",
+          "date_precision": "day",
+          "text": "Armed forces destroyed Anti-balaka base in Ewou village in Basse-Kotto prefecture arresting two people. Anti-balaka commander Nguiambi fled."
+        },
+        {
+          "date": "2022-08-01",
+          "date_latest": "2022-08-01",
+          "date_precision": "day",
+          "text": "Four people including police officer were shot dead near Moyenne Sido by armed men."
+        },
+        {
+          "date": "2022-08-02",
+          "date_latest": "2022-08-02",
+          "date_precision": "day",
+          "text": "Two people were killed by 3R rebels in Lokoti-Bangi village near Baboua."
+        },
+        {
+          "date": "2022-08-03",
+          "date_latest": "2022-08-03",
+          "date_precision": "day",
+          "text": "3R rebels killed four civilians in Ndiba village near Baboua.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-08-04",
+          "date_latest": "2022-08-04",
+          "date_precision": "day",
+          "text": "3R rebels killed young boy on Nana-Bakassa–Kouki axis. Armed forces attacked Poussierre mine nearby killing one Anti-balaka fighter."
+        },
+        {
+          "date": "2022-08-06",
+          "date_latest": "2022-08-06",
+          "date_precision": "day",
+          "text": "Soldier was killed and another injured by Anti-balaka fighters from CPC near Lady village on Bouca-Batangafo axis."
+        },
+        {
+          "date": "2022-08-17",
+          "date_latest": "2022-08-17",
+          "date_precision": "day",
+          "text": "Six armed men were killed by armed forces near Batangafo. Two civilians were killed by armed men."
+        },
+        {
+          "date": "2022-08-18",
+          "date_latest": "2022-08-18",
+          "date_precision": "day",
+          "text": "CPC rebels withdrew from Sam Ouandja following arrival of MINUSCA peacekeepers.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-08-29",
+          "date_latest": "2022-08-29",
+          "date_precision": "day",
+          "text": "Armed rebels looted two groups of people near Bouca and Batangafo."
+        },
+        {
+          "date": "2022-09-02",
+          "date_latest": "2022-09-02",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Akoursoulbak. After day of heavy fighting rebels managed to expel armed forces from the town before withdrawing on 4 September."
+        },
+        {
+          "date": "2022-09-09",
+          "date_latest": "2022-09-09",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Aigbando near Bria. After two days of fighting they managed to take control of the town."
+        },
+        {
+          "date": "2022-09-13",
+          "date_latest": "2022-09-13",
+          "date_precision": "day",
+          "text": "Armed forces repelled CPC attack on Gobolo neighborhood in Bria. CPC rebels attacked Kpassoro village near Bria displacing around 500 people.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-10-03",
+          "date_latest": "2022-10-03",
+          "date_precision": "day",
+          "text": "Three MINUSCA peacekeepers were killed and one injured in mine explosion in Koui."
+        },
+        {
+          "date": "2022-10-09",
+          "date_latest": "2022-10-09",
+          "date_precision": "day",
+          "text": "CPC rebels clashes with armed forces near Markounda with killed and injured on both sides."
+        },
+        {
+          "date": "2022-10-13",
+          "date_latest": "2022-10-13",
+          "date_precision": "day",
+          "text": "Two soldiers were killed and one captured in rebel attack on Ndiba Molé village near Gallo."
+        },
+        {
+          "date": "2022-10-17",
+          "date_latest": "2022-10-17",
+          "date_precision": "day",
+          "text": "Armed forces launched attack on UPC position in Kembe with killed and injured on both sides.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-10-19",
+          "date_latest": "2022-10-19",
+          "date_precision": "day",
+          "text": "Armed forces repelled 3R attack on Mann. One civilian was killed and six people including two soldiers were injured.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-10-20",
+          "date_latest": "2022-10-20",
+          "date_precision": "day",
+          "text": "Five people were kidnapped by Misseriya Arabs from Am Dafock."
+        },
+        {
+          "date": "2022-10-22",
+          "date_latest": "2022-10-22",
+          "date_precision": "day",
+          "text": "10 Chadian mercenaries were killed by armed forces near Batangafo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-10-23",
+          "date_latest": "2022-10-23",
+          "date_precision": "day",
+          "text": "3R rebels attacked Mann forcing soldiers to withdraw. 100 houses were burnt by rebels and three civilians killed by soldiers."
+        },
+        {
+          "date": "2022-11-01",
+          "date_latest": "2022-11-01",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Bokolobo kidnapping three soldiers."
+        },
+        {
+          "date": "2022-11-02",
+          "date_latest": "2022-11-02",
+          "date_precision": "day",
+          "text": "CPC rebels attacked soldiers in Koumbélé village 10 km from Bambari."
+        },
+        {
+          "date": "2022-11-03",
+          "date_latest": "2022-11-03",
+          "date_precision": "day",
+          "text": "Two men were shot dead by suspected UPC rebels in forest near Dimbi."
+        },
+        {
+          "date": "2022-11-04",
+          "date_latest": "2022-11-04",
+          "date_precision": "day",
+          "text": "Russian paratroopers raided CPC base in Blakadja village killing one rebel."
+        },
+        {
+          "date": "2022-11-08",
+          "date_latest": "2022-11-08",
+          "date_precision": "day",
+          "text": "UPC rebels attacked armed forces in Ngakobo village.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-11-11",
+          "date_latest": "2022-11-11",
+          "date_precision": "day",
+          "text": "PRNC rebels kidnapped three government workers in Ndiffa village in Vakaga province."
+        },
+        {
+          "date": "2022-11-17",
+          "date_latest": "2022-11-17",
+          "date_precision": "day",
+          "text": "UPC rebels attacked Ngouaboudou village on Bria-Ippy axis driving out armed forces. Rebels promptly withdrew from the town. After 24 hours armed forces clashed with them killing two rebels and injuring many others.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-11-18",
+          "date_latest": "2022-11-18",
+          "date_precision": "day",
+          "text": "Two traders were kidnapped by 3R rebels on the outskirts of Bocaranga."
+        },
+        {
+          "date": "2022-11-19",
+          "date_latest": "2022-11-19",
+          "date_precision": "day",
+          "text": "UPC launched attack on Kouango. The attack was repelled, with one soldier being wounded."
+        },
+        {
+          "date": "2022-11-22",
+          "date_latest": "2022-11-22",
+          "date_precision": "day",
+          "text": "Armed forces were deployed in Ndjoukou after three months of Anti-balaka infighting."
+        },
+        {
+          "date": "2022-11-25",
+          "date_latest": "2022-11-25",
+          "date_precision": "day",
+          "text": "Unidentified armed men invaded Maloum village in Ouaka looting houses."
+        },
+        {
+          "date": "2022-11-27",
+          "date_latest": "2022-11-27",
+          "date_precision": "day",
+          "text": "Sudanese fighters, members of CPC, attacked Am Dafock looting gendarmerie building. They withdrew few hours later due to pressure of local population."
+        },
+        {
+          "date": "2022-12-01",
+          "date_latest": "2022-12-01",
+          "date_precision": "day",
+          "text": "11 people were killed and seven injured by UPC rebels in Kolo village on Bakouma-Bangassou axis."
+        },
+        {
+          "date": "2022-12-04",
+          "date_latest": "2022-12-04",
+          "date_precision": "day",
+          "text": "Four armed groups (MLCJ, RPRC, UFR and UFR-R) signed in Bangui an agreement announcing their dissolution."
+        },
+        {
+          "date": "2022-12-12",
+          "date_latest": "2022-12-12",
+          "date_precision": "day",
+          "text": "Rebels attacked Bokolobo village, temporarily seizing it. Two attackers and one civilian were killed. One soldier was injured."
+        },
+        {
+          "date": "2022-12-14",
+          "date_latest": "2022-12-14",
+          "date_precision": "day",
+          "text": "UPC rebels torched vehicle of minister Amit Idriss on Bambari-Ngakobo axis."
+        },
+        {
+          "date": "2022-12-16",
+          "date_latest": "2022-12-16",
+          "date_precision": "day",
+          "text": "Two people were kidnapped by unknown armed men near Ouanda Djalle."
+        },
+        {
+          "date": "2022-12-17",
+          "date_latest": "2022-12-17",
+          "date_precision": "day",
+          "text": "UPC rebels attacked Ngakobo occupying it temporarily."
+        },
+        {
+          "date": "2022-12-20",
+          "date_latest": "2022-12-20",
+          "date_precision": "day",
+          "text": "Two Chadian fighters were killed by armed forces in Kérengué village near Batangafo.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2022-12-23",
+          "date_latest": "2022-12-23",
+          "date_precision": "day",
+          "text": "Four soldiers were killed and three injured in rebel attack near Gallo village. One rebel and two civilians were killed in attack by soldiers on Ngbada village. Rebels and civilians fled to village.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-01-04",
+          "date_latest": "2023-01-04",
+          "date_precision": "day",
+          "text": "Armed men looted vehicle in Gouzé village on Paoua-Bozoum axis. Next day they attacked motorcycle drivers in Kparé village killing one person."
+        },
+        {
+          "date": "2023-01-06",
+          "date_latest": "2023-01-06",
+          "date_precision": "day",
+          "text": "Russian mercenaries attacked UPC rebels in Goya village killing three of them."
+        },
+        {
+          "date": "2023-01-07",
+          "date_latest": "2023-01-07",
+          "date_precision": "day",
+          "text": "CPC rebels ambushed armed forces in Yenga village near Bouar. Two soldiers were killed and two captured, one civilian was injured."
+        },
+        {
+          "date": "2023-01-09",
+          "date_latest": "2023-01-09",
+          "date_precision": "day",
+          "text": "Four soldiers and three Russians were killed in a clash between the two groups in Digui."
+        },
+        {
+          "date": "2023-01-12",
+          "date_latest": "2023-01-12",
+          "date_precision": "day",
+          "text": "3R and Anti-balaka rebels attacked Abba. One soldier was killed and another injured. Attack was repelled."
+        },
+        {
+          "date": "2023-01-14",
+          "date_latest": "2023-01-14",
+          "date_precision": "day",
+          "text": "Two Russian mercenaries and three rebels were killed in 3R attack on Yidéré site in Nana-Mambéré."
+        },
+        {
+          "date": "2023-01-18",
+          "date_latest": "2023-01-18",
+          "date_precision": "day",
+          "text": "Rebels occupied Linguiri village on Bamingui-M'brés axis where they assaulted and robbed local trader."
+        },
+        {
+          "date": "2023-01-21",
+          "date_latest": "2023-01-21",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Béloko. Two Russian mercenaries and one civilian were killed. One soldier was injured and custom building was burned down."
+        },
+        {
+          "date": "2023-01-25",
+          "date_latest": "2023-01-25",
+          "date_precision": "day",
+          "text": "3R rebels attacked armed forces in Bondiba in Nana-Mambéré forcing them to withdraw."
+        },
+        {
+          "date": "2023-01-28",
+          "date_latest": "2023-01-28",
+          "date_precision": "day",
+          "text": "Government forces took control of Gounda, Gordil and Ndah after clashing with rebels. Dozens people were killed including seven Russian mercenaries."
+        },
+        {
+          "date": "2023-02-07",
+          "date_latest": "2023-02-07",
+          "date_precision": "day",
+          "text": "Two soldiers were killed and three injured in mine explosion on Ndim-Kowone axis."
+        },
+        {
+          "date": "2023-02-08",
+          "date_latest": "2023-02-08",
+          "date_precision": "day",
+          "text": "CPC rebels invaded Banguéla village on Bakala–Bambari axis, robbing local population before withdrawing to bush."
+        },
+        {
+          "date": "2023-02-10",
+          "date_latest": "2023-02-10",
+          "date_precision": "day",
+          "text": "Six people including two priests were injured in mine explosion in the Ouham-Péndé prefecture."
+        },
+        {
+          "date": "2023-02-14",
+          "date_latest": "2023-02-14",
+          "date_precision": "day",
+          "text": "CPC rebels recaptured Ndah, killing 16 soldiers and capturing 24. One rebel was killed and four injured. Captured soldiers were eventually released in early April."
+        },
+        {
+          "date": "2023-02-17",
+          "date_latest": "2023-02-17",
+          "date_precision": "day",
+          "text": "After withdrawing from Gordil, government forces bombed the town with helicopters causing most civilian population and rebels to leave."
+        },
+        {
+          "date": "2023-02-23",
+          "date_latest": "2023-02-23",
+          "date_precision": "day",
+          "text": "Pro-government forces were redeployed in Sikikédé."
+        },
+        {
+          "date": "2023-02-25",
+          "date_latest": "2023-02-25",
+          "date_precision": "day",
+          "text": "A soldier was killed and a few Russians were injured in mine explosion in Ouham-Pende region."
+        },
+        {
+          "date": "2023-03-04",
+          "date_latest": "2023-03-04",
+          "date_precision": "day",
+          "text": "Rebels attacked a truck near Nana-Bakassa injuring a few people."
+        },
+        {
+          "date": "2023-03-08",
+          "date_latest": "2023-03-08",
+          "date_precision": "day",
+          "text": "Three workers kidnapped by PRNC rebels in November 2022 were fred."
+        },
+        {
+          "date": "2023-03-13",
+          "date_latest": "2023-03-13",
+          "date_precision": "day",
+          "text": "Three Chinese national were kidnapped by armed men near Abba in Nana-Mambéré prefecture. They were eventually released in early April."
+        },
+        {
+          "date": "2023-03-16",
+          "date_latest": "2023-03-16",
+          "date_precision": "day",
+          "text": "Cardinal Dieudonné Nzapalainga was kidnapped by alleged PRNC rebels near Ouadda."
+        },
+        {
+          "date": "2023-03-19",
+          "date_latest": "2023-03-19",
+          "date_precision": "day",
+          "text": "Gunmen attacked Chimbolo mining site near Bambari killing nine Chinese nationals. CPC rebels denied responsibility."
+        },
+        {
+          "date": "2023-03-22",
+          "date_latest": "2023-03-22",
+          "date_precision": "day",
+          "text": "CPC rebels invaded Mala village in Kemo, attacking and kidnapping people before withdrawing later that day."
+        },
+        {
+          "date": "2023-03-23",
+          "date_latest": "2023-03-23",
+          "date_precision": "day",
+          "text": "Four soldiers were killed in attack by FPRC and MPC rebels on Markounda. The same day one soldier was killed in CPC attack near Bozoum."
+        },
+        {
+          "date": "2023-03-29",
+          "date_latest": "2023-03-29",
+          "date_precision": "day",
+          "text": "Two soldiers were killed and three Russian mercenaries were injured in rebel ambush near Gallo."
+        },
+        {
+          "date": "2023-04-04",
+          "date_latest": "2023-04-04",
+          "date_precision": "day",
+          "text": "Armed forces repelled rebel attack on Bossemptélé. Two soldiers and one Russian were injured."
+        },
+        {
+          "date": "2023-04-05",
+          "date_latest": "2023-04-05",
+          "date_precision": "day",
+          "text": "Azande self-defense group launched attack on base of armed forces in Obo freeing two prisoners."
+        },
+        {
+          "date": "2023-04-07",
+          "date_latest": "2023-04-07",
+          "date_precision": "day",
+          "text": "Three soldiers were killed in an ambush by armed men near Boda",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-04-16",
+          "date_latest": "2023-04-16",
+          "date_precision": "day",
+          "text": "Five soldiers were killed in a rebel attack near Sikikédé."
+        },
+        {
+          "date": "2023-04-19",
+          "date_latest": "2023-04-19",
+          "date_precision": "day",
+          "text": "Three Russian mercenaries and one soldier were killed by a landmine explosion near Koui."
+        },
+        {
+          "date": "2023-04-23",
+          "date_latest": "2023-04-23",
+          "date_precision": "day",
+          "text": "Azande self-defense group repelled attack by South Sudanese militia on Bambouti with killed and injured on both sides."
+        },
+        {
+          "date": "2023-04-26",
+          "date_latest": "2023-04-26",
+          "date_precision": "day",
+          "text": "Armed forces attacked CPC position in Bakouma. Two rebels and two civilians were killed. They withdrew a few hours later allowing rebel to return."
+        },
+        {
+          "date": "2023-04-28",
+          "date_latest": "2023-04-28",
+          "date_precision": "day",
+          "text": "Soldier was shot dead by unidentified armen men near Kouki in Ouham."
+        },
+        {
+          "date": "2023-05-05",
+          "date_latest": "2023-05-05",
+          "date_precision": "day",
+          "text": "CPC took control of Tiringoulou. Two soldiers were killed, two captured and one injured. They retreated two days later allowing government forces to regain the town."
+        },
+        {
+          "date": "2023-05-07",
+          "date_latest": "2023-05-07",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted 10 km from Mboki between UPC and Azande armed groups.Centrafrique : Violent affrontement en cours entre les miliciens AZANDE ANI KPI GBE et les rebelles de l’UPC à Mboki, 7 May 2023< Centrafrique : 4 militaires centrafricains tués dans une embuscade non loin de Bossangoa"
+        },
+        {
+          "date": "2023-05-14",
+          "date_latest": "2023-05-14",
+          "date_precision": "day",
+          "text": "Chadian forces launched operation against Chadian rebels north of Paoua in the Central African Republic allegedly destroying two bases, killing 12 and arresting 30."
+        },
+        {
+          "date": "2023-05-15",
+          "date_latest": "2023-05-15",
+          "date_precision": "day",
+          "text": "Four FACA soldiers were killed in rebel ambush near Bossangoa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-05-17",
+          "date_latest": "2023-05-17",
+          "date_precision": "day",
+          "text": "Azande militiamen looted building of NGO in Obo."
+        },
+        {
+          "date": "2023-05-23",
+          "date_latest": "2023-05-23",
+          "date_precision": "day",
+          "text": "UPC rebels recaptured Kadjema near Mboki, two civilians and one Azande militant were killed."
+        },
+        {
+          "date": "2023-05-26",
+          "date_latest": "2023-05-26",
+          "date_precision": "day",
+          "text": "Heavy clashes erupted between CPC rebels and local self-defense forces in Sikikédé. 10 rebels and two civilians were killed, four people were injured, rebels retreated from the village."
+        },
+        {
+          "date": "2023-05-30",
+          "date_latest": "2023-05-30",
+          "date_precision": "day",
+          "text": "Armed forces repelled CPC attack on Kabo with multiple people killed and wounded."
+        },
+        {
+          "date": "2023-06-05",
+          "date_latest": "2023-06-05",
+          "date_precision": "day",
+          "text": "CPC rebels attacked base in Baoro, killing four Russians and injuring five."
+        },
+        {
+          "date": "2023-06-08",
+          "date_latest": "2023-06-08",
+          "date_precision": "day",
+          "text": "Four soldiers were killed and seven injured in CPC attack on patrol in Bodjomo village near Markounda. Russians ambushed rebels capturing one of them.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-06-11",
+          "date_latest": "2023-06-11",
+          "date_precision": "day",
+          "text": "One rebel was killed and four injured in Russian ambush in Bongou 55 km north of Bria. Clashes continued the next day with rebels claiming to have killed 10 pro-government fighters and government claiming PRNC chief of staff Mohamed Ali was killed."
+        },
+        {
+          "date": "2023-06-13",
+          "date_latest": "2023-06-13",
+          "date_precision": "day",
+          "text": "3R rebels attacked Makoundji Ouali village near Bocaranga. Three members of security forces were captured."
+        },
+        {
+          "date": "2023-06-17",
+          "date_latest": "2023-06-17",
+          "date_precision": "day",
+          "text": "Russians again entered Nzacko, with rebels withdrawing shortly before."
+        },
+        {
+          "date": "2023-06-20",
+          "date_latest": "2023-06-20",
+          "date_precision": "day",
+          "text": "Azande militiamen again launched attack on Mboki town, attack was repelled by UPC rebels. Reportedly at least 40 fighters were killed on both sides as well as four civilians."
+        },
+        {
+          "date": "2023-06-23",
+          "date_latest": "2023-06-23",
+          "date_precision": "day",
+          "text": "Russian mercenaries clashed with CPC rebels in Zere village near Bossangoa. Four vehicles of Russians were burned."
+        },
+        {
+          "date": "2023-07-03",
+          "date_latest": "2023-07-03",
+          "date_precision": "day",
+          "text": "Four soldiers and one civilian were killed and one civilian injured in CPC attack on Gobolo near Abba.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-07-04",
+          "date_latest": "2023-07-04",
+          "date_precision": "day",
+          "text": "PRNC attacked Sam Ouandja. Six people were killed, including the gendarmerie brigade commander, two gendarmerie personnel, two teenagers, and one rebel."
+        },
+        {
+          "date": "2023-07-06",
+          "date_latest": "2023-07-06",
+          "date_precision": "day",
+          "text": "Fighters were killed and injured and one UPC rebel captured after clashes between UPC and self-defense militia in Dembia village."
+        },
+        {
+          "date": "2023-07-10",
+          "date_latest": "2023-07-10",
+          "date_precision": "day",
+          "text": "Rwandan peacekeepers conducted an operation against PRNC rebels outside the Sam Ouandja town. Three rebels (including general Bin Laden) were killed and one captured and one peacekeeper was killed."
+        },
+        {
+          "date": "2023-07-12",
+          "date_latest": "2023-07-12",
+          "date_precision": "day",
+          "text": "Two soldiers were killed and one injured in rebel attack on Liré village near Bossangoa.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-07-24",
+          "date_latest": "2023-07-24",
+          "date_precision": "day",
+          "text": "CPC rebels occupied Nana-Bakassa after brief battle with armed forces before retreating a few hours later. Three rebels were killed and two injured."
+        },
+        {
+          "date": "2023-08-01",
+          "date_latest": "2023-08-01",
+          "date_precision": "day",
+          "text": "Armed men attacked Tiri village near N'dele killing 13 people including mayor."
+        },
+        {
+          "date": "2023-08-05",
+          "date_latest": "2023-08-05",
+          "date_precision": "day",
+          "text": "pro-government forces attacked UPC position in Grignanda village on Bokolobo-Chimbolo axis. Three soldiers and four Black Russians were killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-08-13",
+          "date_latest": "2023-08-13",
+          "date_precision": "day",
+          "text": "Following kidnapping of Muslim civilian by Azande militiaman, the latest clashed with soldiers leaving one Azande fighter injured."
+        },
+        {
+          "date": "2023-08-25",
+          "date_latest": "2023-08-25",
+          "date_precision": "day",
+          "text": "Armed forces attacked UPC position in Goya village forcing rebels to withdraw. Deaths were reported on both sides.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-08-29",
+          "date_latest": "2023-08-29",
+          "date_precision": "day",
+          "text": "Azande AKG militia launched attack on Mboki with killed on both sides.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-08-31",
+          "date_latest": "2023-08-31",
+          "date_precision": "day",
+          "text": "Azande AKG militia killed several people on Mboki–Zemio road."
+        },
+        {
+          "date": "2023-09-07",
+          "date_latest": "2023-09-07",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Zamasinda village in Bamingui-Bangoran injuring one soldier."
+        },
+        {
+          "date": "2023-09-10",
+          "date_latest": "2023-09-10",
+          "date_precision": "day",
+          "text": "Three Russian mercenaries were killed in a clash with 3R rebels near Nguia-Bouar."
+        },
+        {
+          "date": "2023-09-11",
+          "date_latest": "2023-09-11",
+          "date_precision": "day",
+          "text": "One soldier was killed in rebel attack on Miamere village in Bamingui-Bangoran."
+        },
+        {
+          "date": "2023-09-18",
+          "date_latest": "2023-09-18",
+          "date_precision": "day",
+          "text": "Armed forces repelled 3R attack on Beloko. One civilian was injured.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-09-21",
+          "date_latest": "2023-09-21",
+          "date_precision": "day",
+          "text": "Three soldiers were killed in rebel attack on Zombossinda in Bamingui-Bangoran.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-09-24",
+          "date_latest": "2023-09-24",
+          "date_precision": "day",
+          "text": "3R rebels launched attack on Besson forcing soldiers to withdraw."
+        },
+        {
+          "date": "2023-10-01",
+          "date_latest": "2023-10-01",
+          "date_precision": "day",
+          "text": "Two Catholic priests were robbed by Anti-balaka militiamen on Baoro–Bozoum axis. Day before another group of people was robbed and assaulted near Bozoum."
+        },
+        {
+          "date": "2023-10-07",
+          "date_latest": "2023-10-07",
+          "date_precision": "day",
+          "text": "3R rebels attacked Anti-balaka militiamen in Bata village killing six of them and freeing 10 hostages."
+        },
+        {
+          "date": "2023-10-12",
+          "date_latest": "2023-10-12",
+          "date_precision": "day",
+          "text": "3R rebels attacked army position in Bézèrè near Bocaranga killing three soldiers."
+        },
+        {
+          "date": "2023-10-18",
+          "date_latest": "2023-10-18",
+          "date_precision": "day",
+          "text": "One soldier was killed and two wounded in rebel ambush 25 km from Nana-Bakassa."
+        },
+        {
+          "date": "2023-10-20",
+          "date_latest": "2023-10-20",
+          "date_precision": "day",
+          "text": "UPC seized Mbo village from the government forces. Later the government recaptured it."
+        },
+        {
+          "date": "2023-10-21",
+          "date_latest": "2023-10-21",
+          "date_precision": "day",
+          "text": "CPC rebels attacked FACA position between Miamani and Tiri, capturing weapons."
+        },
+        {
+          "date": "2023-10-22",
+          "date_latest": "2023-10-22",
+          "date_precision": "day",
+          "text": "Wagner Group attacked mining sites near Kouki and Markounda killing four rebels (including MPC general Adjadj) and 12 civilians."
+        },
+        {
+          "date": "2023-11-02",
+          "date_latest": "2023-11-02",
+          "date_precision": "day",
+          "text": "CPC rebels attacked Moyenne-Sido seizing the town before withdrawing later that day. Five people were killed and eight injured."
+        },
+        {
+          "date": "2023-11-07",
+          "date_latest": "2023-11-07",
+          "date_precision": "day",
+          "text": "Two people including two gendarmes and a woman were killed by armed men on Baoro-Carnot axis."
+        },
+        {
+          "date": "2023-11-18",
+          "date_latest": "2023-11-18",
+          "date_precision": "day",
+          "text": "Four Chinese citizens were kidnapped by armed men in Abba subprefecture.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-11-24",
+          "date_latest": "2023-11-24",
+          "date_precision": "day",
+          "text": "CPC rebels took control of Moyenne-Sido and attacked nearby village of Mboh. Armed forces recaptured Sido four days later."
+        },
+        {
+          "date": "2023-11-27",
+          "date_latest": "2023-11-27",
+          "date_precision": "day",
+          "text": "Two Russian mercenaries were killed and two soldiers injured by CPC rebels near Yenga village in Nana-Mambéré prefecture.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2023-11-30",
+          "date_latest": "2023-11-30",
+          "date_precision": "day",
+          "text": "3R rebels attacked Ndim and Létélé killing two civilians and injuring a soldier."
+        },
+        {
+          "date": "2023-12-07",
+          "date_latest": "2023-12-07",
+          "date_precision": "day",
+          "text": "FACA and Wagner Group launched an attack against UPC armed elements at the Bara mining site, in which 12 UPC fighters were reportedly killed and 30 apprehended. General Khalité, Mahamat Al-Khatim’s father-in-law, was among those killed. The attack took place while the Government of the Central African Republic was in negotiations for a peaceful settlement with Al-Khatim of MPC."
+        },
+        {
+          "date": "2023-12-10",
+          "date_latest": "2023-12-10",
+          "date_precision": "day",
+          "text": "From 2.45 a.m. to 3 a.m., six waves of explosions were heard at the Wagner Group base in Kaga Bandoro, Nana-Grébizi Prefecture. Seven people were injured and three Russian merceneries were killed."
+        },
+        {
+          "date": "2023-12-21",
+          "date_latest": "2023-12-21",
+          "date_precision": "day",
+          "text": "FACA clashed with 3R rebels in Nzakoundou, Ouham-Pendé. One soldier and 15 civilians were killed."
+        },
+        {
+          "date": "2024-01-10",
+          "date_latest": "2024-01-10",
+          "date_precision": "day",
+          "text": "CPC rebels attacked army base in Tiri forcing soldiers to retreat."
+        },
+        {
+          "date": "2024-01-15",
+          "date_latest": "2024-01-15",
+          "date_precision": "day",
+          "text": "CPC rebels attacked army base in Boungou near Bria.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2024-01-31",
+          "date_latest": "2024-01-31",
+          "date_precision": "day",
+          "text": "PRNC rebels from Ndiffa attacked a FACA checkpoint 5 km from Gordil in Manou and briefly occupied it before the army's reinforcements arrived. One FACA soldier was killed."
+        },
+        {
+          "date": "2024-02-02",
+          "date_latest": "2024-02-02",
+          "date_precision": "day",
+          "text": "Military High Command announced the death of Mohamed Ali, alias B13, leader of the PRNC armed movement, active in the region, he died as a result of injuries sustained in a previous attack."
+        },
+        {
+          "date": "2024-02-11",
+          "date_latest": "2024-02-11",
+          "date_precision": "day",
+          "text": "Two soldiers were killed in CPC attack on a village near Amada-Gaza."
+        },
+        {
+          "date": "2024-02-24",
+          "date_latest": "2024-02-24",
+          "date_precision": "day",
+          "text": "Armed forces conducted armed operation against armed groups in Miamani, Chari and Diki villages in Bamingui-Bangoran."
+        },
+        {
+          "date": "2024-03-06",
+          "date_latest": "2024-03-06",
+          "date_precision": "day",
+          "text": "10 civilians were kidnapped by armed men near Yaloke."
+        },
+        {
+          "date": "2024-03-08",
+          "date_latest": "2024-03-08",
+          "date_precision": "day",
+          "text": "The Central African Armed Forces (FACA) and their Russian allies have regained control of the town of Sikikédé, also called Ndah, from the rebels of the Coalition of Patriots for Change (CPC).The clash resulted in the death of 5 Faca soldiers with 2 injured and about 40 rebels were killed."
+        },
+        {
+          "date": "2024-04-02",
+          "date_latest": "2024-04-02",
+          "date_precision": "day",
+          "text": "At least 18 civilians were killed by 3R rebels near Kella-Maoulé village in Nana-Mambéré province."
+        },
+        {
+          "date": "2024-04-07",
+          "date_latest": "2024-04-07",
+          "date_precision": "day",
+          "text": "Wagner attacked Joseph Kony's hideout 10 miles from Yemen. They torched the villages and arrested the village chief. Two civilians and two Wagner militias were killed. Nevertheless, Wagner failed to capture Kony as he and his 71 men fled towards Sudan."
+        },
+        {
+          "date": "2024-04-13",
+          "date_latest": "2024-04-13",
+          "date_precision": "day",
+          "text": "UPC killed three civilians in Tabane, Haut-Mbomou."
+        },
+        {
+          "date": "2024-04-15",
+          "date_latest": "2024-04-15",
+          "date_precision": "day",
+          "text": "CPC stormed FACA position in Kadjama. Two soldiers and one civilian were killed."
+        },
+        {
+          "date": "2024-05-06",
+          "date_latest": "2024-05-06",
+          "date_precision": "day",
+          "text": "Six civilians were killed and many houses burned after 3R rebels attacked the Gazi-Beya village."
+        },
+        {
+          "date": "2024-05-12",
+          "date_latest": "2024-05-12",
+          "date_precision": "day",
+          "text": "At least four people are killed in an attack by the Coalition of Patriots for Change in the gold-mining town of Gaga, Ombella-M'Poko."
+        },
+        {
+          "date": "2024-05-22",
+          "date_latest": "2024-05-22",
+          "date_precision": "day",
+          "text": "12 men were killed by unidentified armed men near Kaga-Bandoro."
+        },
+        {
+          "date": "2024-06-05",
+          "date_latest": "2024-06-05",
+          "date_precision": "day",
+          "text": "FACA and MINUSCA have successfully recaptured the village of Mouka and the town of Ouadda from rebels."
+        },
+        {
+          "date": "2024-06-15",
+          "date_latest": "2024-06-15",
+          "date_precision": "day",
+          "text": "Three UPC rebels were killed while trying to surrender by Azande militiamen in Zemio."
+        },
+        {
+          "date": "2024-06-22",
+          "date_latest": "2024-06-22",
+          "date_precision": "day",
+          "text": "CPC attacked a mining site near Bossangoa and killed 5 civilians, including 4 Burkinabè."
+        },
+        {
+          "date": "2024-07-08",
+          "date_latest": "2024-07-08",
+          "date_precision": "day",
+          "text": "Two Chinese nationals were kidnapped by armed men near Beloko.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2024-07-17",
+          "date_latest": "2024-07-17",
+          "date_precision": "day",
+          "text": "Three civilians were murdered by alleged PRNC rebels on Ouadda–Ouanda Djalle axis."
+        },
+        {
+          "date": "2024-07-19",
+          "date_latest": "2024-07-19",
+          "date_precision": "day",
+          "text": "About 250 CPC rebels surrendered to the FACA in Korompoko in Ouham."
+        },
+        {
+          "date": "2024-07-20",
+          "date_latest": "2024-07-20",
+          "date_precision": "day",
+          "text": "Armed forces clashed with UPC rebels in Zangba. Before withdrawing UPC rebels looted the property of local residents."
+        },
+        {
+          "date": "2024-07-22",
+          "date_latest": "2024-07-22",
+          "date_precision": "day",
+          "text": "José Befio, leader of Anti-balaka in Ouham was killed together with his lieutant in Bouca by armed forces and their Russian allies."
+        },
+        {
+          "date": "2024-07-25",
+          "date_latest": "2024-07-25",
+          "date_precision": "day",
+          "text": "3R rebels attacked Russian position in Sagna mine near Bozoum."
+        },
+        {
+          "date": "2024-08-02",
+          "date_latest": "2024-08-02",
+          "date_precision": "day",
+          "text": "3R rebels killed two FACA soldiers in an ambush near Amada-Gaza.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2024-08-04",
+          "date_latest": "2024-08-04",
+          "date_precision": "day",
+          "text": "Armed forces captured Pombolo killing one UPC rebel and capturing two."
+        },
+        {
+          "date": "2024-08-08",
+          "date_latest": "2024-08-08",
+          "date_precision": "day",
+          "text": "CPC fighters 8 Aug killed five traders in ambush in Gambo sub-prefecture, Mbomou prefecture."
+        },
+        {
+          "date": "2024-08-13",
+          "date_latest": "2024-08-13",
+          "date_precision": "day",
+          "text": "3R rebels killed two Russian paramilitaries in ambush near mining site in Markounda sub-prefecture, Ouham prefecture."
+        },
+        {
+          "date": "2024-08-19",
+          "date_latest": "2024-08-19",
+          "date_precision": "day",
+          "text": "UPC carried out ambush against Azande Ani Kpi Gbe near Guinikoumba, killing four AAKG militia."
+        },
+        {
+          "date": "2024-09-11",
+          "date_latest": "2024-09-11",
+          "date_precision": "day",
+          "text": "3R rebels stormed the FACA position Ngoutéré, killing four soldiers. The attackers retreated when Wagner arrived in the village a few hours after the attack."
+        },
+        {
+          "date": "2024-09-30",
+          "date_latest": "2024-09-30",
+          "date_precision": "day",
+          "text": "A soldiers was killed in rebel ambush near Ouandja-Djalle."
+        },
+        {
+          "date": "2024-10-06",
+          "date_latest": "2024-10-06",
+          "date_precision": "day",
+          "text": "Alleged AAKG militias killed around 20 civilians in Dembia."
+        },
+        {
+          "date": "2024-10-08",
+          "date_latest": "2024-10-08",
+          "date_precision": "day",
+          "text": "CPC rebels launched unsuccessful attack against position in Ngarba, Bamingui-Bangoran. During the attack, the rebels looted shops and houses. One soldier and three civilians were killed."
+        },
+        {
+          "date": "2024-10-09",
+          "date_latest": "2024-10-09",
+          "date_precision": "day",
+          "text": "A clash between FACA and UPC took place in Fadama, 3 KM from Bakouma. FACA killed two rebels and several of them injured."
+        },
+        {
+          "date": "2024-10-31",
+          "date_latest": "2024-10-31",
+          "date_precision": "day",
+          "text": "3R rebels carried out ambush against FACA convoy who escorted a Chinese citizen near Alim. Two FACA soldiers were killed and the rebels took hostage of the vehicle occupants, including a Chinese citizen."
+        },
+        {
+          "date": "2024-11-06",
+          "date_latest": "2024-11-06",
+          "date_precision": "day",
+          "text": "UPC rebels attacked FACA checkpoint in Yangouhoda near Nzacko. One soldier was killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2024-11-08",
+          "date_latest": "2024-11-08",
+          "date_precision": "day",
+          "text": "Wagner and FACA launched a military operation against 3R rebels in Ngaoukala."
+        },
+        {
+          "date": "2024-11-12",
+          "date_latest": "2024-11-12",
+          "date_precision": "day",
+          "text": "CPC-F rebels attacked FACA outpost near Ndembo. Two soldiers were reportedly killed and FACA retreated to the bush."
+        },
+        {
+          "date": "2024-11-14",
+          "date_latest": "2024-11-14",
+          "date_precision": "day",
+          "text": "UPC rebels ambushed Wagner and its allies near Gbenga, killing one soldier."
+        },
+        {
+          "date": "2024-11-18",
+          "date_latest": "2024-11-18",
+          "date_precision": "day",
+          "text": "UPC rebels occupied Serenga and Langangdji villages in Basse-Kotto abducting local authorities. Two days later MINUSCA peacekepeers reportedly repelled the attackers."
+        },
+        {
+          "date": "2024-11-24",
+          "date_latest": "2024-11-24",
+          "date_precision": "day",
+          "text": "An alleged CPC rebels attacked FACA position in Boulo. Although the attack was repelled, a woman was injured and four houses were burned."
+        },
+        {
+          "date": "2024-11-27",
+          "date_latest": "2024-11-27",
+          "date_precision": "day",
+          "text": "An armed group stormed FACA soldiers in Goboundo."
+        },
+        {
+          "date": "2024-12-01",
+          "date_latest": "2024-12-01",
+          "date_precision": "day",
+          "text": "3R rebels attacked FACA soldiers in Yadé near Koui.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2024-12-04",
+          "date_latest": "2024-12-04",
+          "date_precision": "day",
+          "text": "CPC-F rebels ambushed FACA and Wagner soldiers near the village of May-mbaya."
+        },
+        {
+          "date": "2024-12-25",
+          "date_latest": "2024-12-25",
+          "date_precision": "day",
+          "text": "3R rebels attacked a mining site in Garo, Ouham-Pendé. Around 14 people were killed."
+        },
+        {
+          "date": "2025-01-04",
+          "date_latest": "2025-01-04",
+          "date_precision": "day",
+          "text": "CPC-F stormed the FACA position in Zarami. Rebels attack prompted FACA soldiers to withdraw from the village."
+        },
+        {
+          "date": "2025-02-03",
+          "date_latest": "2025-02-03",
+          "date_precision": "day",
+          "text": "CMSPR rebels attacked FACA position in Bodjomo, killing five soldiers."
+        },
+        {
+          "date": "2025-03-09",
+          "date_latest": "2025-03-09",
+          "date_precision": "day",
+          "text": "Alleged 3R rebels burned Gbamboro and Yahoo in Ouham-Pendé."
+        },
+        {
+          "date": "2025-03-24",
+          "date_latest": "2025-03-24",
+          "date_precision": "day",
+          "text": "Alleged CPC rebels attacked a mining site in Kéyé, Vakaga."
+        },
+        {
+          "date": "2025-03-29",
+          "date_latest": "2025-03-29",
+          "date_precision": "day",
+          "text": "An unknown armed group launched an ambush against MINUSCA patrols in Tabane, Haut-Mbomou. The armed group killed a MINUSCA peacekeeper from Kenya."
+        },
+        {
+          "date": "2025-04-30",
+          "date_latest": "2025-04-30",
+          "date_precision": "day",
+          "text": "A clash between FACA-Wagner and Azande Ani Kpi Gbe ensued in Koumboli after attempting to disarm Azande militias, injuring two and killing four soldiers."
+        },
+        {
+          "date": "2025-05-06",
+          "date_latest": "2025-05-06",
+          "date_precision": "day",
+          "text": "Azande Ani Kpi Gbe captured Mboki from FACA after a brief clash. The attack prompted hundreds of town residents to flee to MINUSCA camp."
+        },
+        {
+          "date": "2025-05-09",
+          "date_latest": "2025-05-09",
+          "date_precision": "day",
+          "text": "Azande Ani Kpi Gbe ambushed FACA-Wagner forces in Koumboli.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2025-05-14",
+          "date_latest": "2025-05-14",
+          "date_precision": "day",
+          "text": "An unknown armed group attacked FACA positions in Ouadda."
+        },
+        {
+          "date": "2025-06-17",
+          "date_latest": "2025-06-17",
+          "date_precision": "day",
+          "text": "Internal fighting within the 3R rebels occurred in Dan-Gbabiri, Ouham-Pende."
+        },
+        {
+          "date": "2025-06-20",
+          "date_latest": "2025-06-20",
+          "date_precision": "day",
+          "text": "An unknown armed group attacked the Zambian contingent of MINUSCA near Birao, wounding two soldiers. Later, one of the wounded soldiers died."
+        },
+        {
+          "date": "2025-07-28",
+          "date_latest": "2025-07-28",
+          "date_precision": "day",
+          "text": "Azande Ani Kpi Gbe militia ambush Wagner patrols near Barre."
+        },
+        {
+          "date": "2025-08-02",
+          "date_latest": "2025-08-02",
+          "date_precision": "day",
+          "text": "Alleged 3R rebels attacked FACA soldiers in Bodoro, Ouham."
+        },
+        {
+          "date": "2025-08-21",
+          "date_latest": "2025-08-21",
+          "date_precision": "day",
+          "text": "3R rebels attacked Kémo-Bac and killed two people."
+        },
+        {
+          "date": "2025-09-05",
+          "date_latest": "2025-09-05",
+          "date_precision": "day",
+          "text": "FACA and Wagner attacked PRNC rebels 10 KM from Ouanda Djalle."
+        },
+        {
+          "date": "2025-10-12",
+          "date_latest": "2025-10-12",
+          "date_precision": "day",
+          "text": "FACA and Wagner stormed the LRA camp near Sam Ouandja, killing nine militias and seizing a cache of weapons."
+        },
+        {
+          "date": "2025-11-01",
+          "date_latest": "2025-11-01",
+          "date_precision": "day",
+          "text": "CPC-Fundamental attacked the Birao Self-Defense group, and Wagner forces 90 KM from Birao. CPC claimed that they killed three Wagner members."
+        },
+        {
+          "date": "2025-12-01",
+          "date_latest": "2025-12-01",
+          "date_precision": "day",
+          "text": "FACA and Wagner launched an operation against UPC, CPC-F, and FPRC in the Aouk area."
+        },
+        {
+          "date": "2025-12-15",
+          "date_latest": "2025-12-15",
+          "date_precision": "day",
+          "text": "An alleged Azande Ani Kpi Gbe militia attacked MINUSCA forces 20 km from Zemio, wounding two troops."
+        },
+        {
+          "date": "2025-12-27",
+          "date_latest": "2025-12-27",
+          "date_precision": "day",
+          "text": "Government and Russian forces launched an offensive against rebel positions at Tissi in Vakaga. According to opposition source two Russian mercenaries, two Boromata militiamen, two FPRC rebels, and thirty-two civilians were killed were killed during the operation, though authorities deny this."
+        },
+        {
+          "date": "2025-12-28",
+          "date_latest": "2025-12-28",
+          "date_precision": "day",
+          "text": "An alleged Azande Ani Kpi Gbe militia attacked the FACA position in Bambouti.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2026-01-03",
+          "date_latest": "2026-01-03",
+          "date_precision": "day",
+          "text": "AAKG attacked FACA troops in Dembia, capturing four."
+        },
+        {
+          "date": "2026-03-10",
+          "date_latest": "2026-03-10",
+          "date_precision": "day",
+          "text": "AAKG ambushed FACA and Wagner patrols near Mboki and around Obo."
+        },
+        {
+          "date": "2026-04-10",
+          "date_latest": "2026-04-10",
+          "date_precision": "day",
+          "text": "AAKG attacked FACA and Wagner convoy on the Zemio-Dembia axis and two AAKG members were captured."
+        },
+        {
+          "date": "2026-05-27",
+          "date_latest": "2026-05-27",
+          "date_precision": "day",
+          "text": "Alleged CPC rebels attacked FACA soldiers and killed one near Bouca."
+        },
+        {
+          "date": "2026-06-30",
+          "date_latest": "2026-06-30",
+          "date_precision": "day",
+          "text": "ASP rebels captured Am Dafok."
+        },
+        {
+          "date": "2026-07-05",
+          "date_latest": "2026-07-05",
+          "date_precision": "day",
+          "text": "FACA and Wagner seized Am Dafok from rebel."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Central African Bush War",
+      "pageid": 7900510,
+      "revid": 1370610482,
+      "revision_timestamp": "2026-08-22T02:32:46Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=7900510",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "2006-11-13",
+          "date_latest": "2006-11-13",
+          "date_precision": "day",
+          "text": "On November 13, 2006, a third town in northern CAR, Sam Ouandja, was seized by the UFDR."
+        },
+        {
+          "date": "2007-02-02",
+          "date_latest": "2007-02-02",
+          "date_precision": "day",
+          "text": "The FDPC's Abdoulaye Miskine signed a peace agreement with the government on 2 February 2007 in Syrte."
+        },
+        {
+          "date": "2007-04-01",
+          "date_latest": "2007-04-01",
+          "date_precision": "day",
+          "text": "After French Mirage jets bombed the UFDR headquarters in Birao, the UFDR and the CAR government signed the Birao Peace Agreement on 1 April 2007."
+        },
+        {
+          "date": "2008-05-09",
+          "date_latest": "2008-05-09",
+          "date_precision": "day",
+          "text": "On 9 May 2008 the APRD signed a cease fire and peace agreement with the government in Libreville."
+        },
+        {
+          "date": "2008-06-21",
+          "date_latest": "2008-06-21",
+          "date_precision": "day",
+          "text": "On 21 June 2008 the FDPC joined the APRD and UFDR in signing the Libreville Comprehensive Peace Agreement, which reiterated and extended the provisions of the previous two agreements."
+        },
+        {
+          "date": "2008-06-21",
+          "date_latest": "2008-06-21",
+          "date_precision": "day",
+          "text": "The most important agreement, the Global Peace Accord (signed in Libreville, Gabon, on 21 June 2008), was first signed by the ARPD, UFDR, and FDPC groups."
+        },
+        {
+          "date": "2008-08-25",
+          "date_latest": "2008-08-25",
+          "date_precision": "day",
+          "text": "On 25 August 2008 the CPJP finally acceded to the Libreville comprehensive agreement."
+        },
+        {
+          "date": "2012-08-25",
+          "date_latest": "2012-08-25",
+          "date_precision": "day",
+          "text": "The only major group not to sign an agreement at the time was the CPJP, which continued its activities and signed a peace agreement with the government on 25 August 2012."
+        },
+        {
+          "date": "2012-12-10",
+          "date_latest": "2012-12-10",
+          "date_precision": "day",
+          "text": "On 10 December 2012, the conflict restarted with rebel groups accusing President Bozizé of violating the terms of their earlier agreement."
+        },
+        {
+          "date": "2013-03-24",
+          "date_latest": "2013-03-24",
+          "date_precision": "day",
+          "text": "The new rebel coalition, known as Séléka, overthrew Bozizé and took the capital, Bangui, on 24 March 2013, and rebel leader Michel Djotodia declared himself President of the Central African Republic."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Central African Republic Civil War",
+      "pageid": 38024441,
+      "revid": 1370610539,
+      "revision_timestamp": "2026-08-22T02:32:55Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=38024441",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2013-03-01",
+          "date_latest": "2013-03-31",
+          "date_precision": "month",
+          "text": "around 130 people killed in Bangui. 78 bodies in Bangui a week after captured by rebels."
+        },
+        {
+          "date": "2013-09-09",
+          "date_latest": "2013-09-09",
+          "date_precision": "day",
+          "text": "Bouca violence – 73-153 killed."
+        },
+        {
+          "date": "2013-12-01",
+          "date_latest": "2013-12-31",
+          "date_precision": "month",
+          "text": "600+ killed in \"Battle of Bangui\", as antibalaka militias unsuccessfully attempt to overthrow Djotodia. Two children were beheaded with a total of 16 children killed in Bangui in late December."
+        },
+        {
+          "date": "2014-01-22",
+          "date_latest": "2014-01-22",
+          "date_precision": "day",
+          "text": "people were killed after gunmen in Bouar attacked a convoy in an attempt to halt Muslim refugees trying to flee the violence."
+        },
+        {
+          "date": "2014-02-01",
+          "date_latest": "2014-02-28",
+          "date_precision": "month",
+          "text": "75 people were killed in the town of Boda, in Lobaye province, according to a local priest. Anti-balaka militants attacked Guen resulting in the deaths of 60 people. As a result, hundreds of Muslim refugees sought shelter at a church in Carnot.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2014-03-29",
+          "date_latest": "2014-03-29",
+          "date_precision": "day",
+          "text": "Chadian peacekeepers not a part of MISCA entered Bangui's PK12 district market and allegedly indiscriminately opened fire resulting in 30 deaths and over 300 injuries."
+        },
+        {
+          "date": "2014-03-30",
+          "date_latest": "2014-03-30",
+          "date_precision": "day",
+          "text": "A Muslim throws a grenade at a group of Christian mourners resulting in 11 deaths."
+        },
+        {
+          "date": "2014-05-01",
+          "date_latest": "2014-05-31",
+          "date_precision": "month",
+          "text": "Séléka rebels kill at least 30 at a Catholic church compound."
+        },
+        {
+          "date": "2014-06-23",
+          "date_latest": "2014-06-23",
+          "date_precision": "day",
+          "text": "Anti-balaka forces killed 18 at Bambari. Several Séléka then killed 10 anti-balaka."
+        },
+        {
+          "date": "2014-07-08",
+          "date_latest": "2014-07-08",
+          "date_precision": "day",
+          "text": "17 people were killed when Séléka forces attacked a Catholic church in Bambari."
+        },
+        {
+          "date": "2014-08-01",
+          "date_latest": "2014-08-31",
+          "date_precision": "month",
+          "text": "34 people were reported killed by Séléka fighters around Mbrès."
+        },
+        {
+          "date": "2015-09-01",
+          "date_latest": "2015-09-30",
+          "date_precision": "month",
+          "text": "At least 42 people were reported killed."
+        },
+        {
+          "date": "2016-10-25",
+          "date_latest": "2016-10-25",
+          "date_precision": "day",
+          "text": "people were reported killed in Bambari."
+        },
+        {
+          "date": "2019-05-01",
+          "date_latest": "2019-05-31",
+          "date_precision": "month",
+          "text": "3R massacres more than 50 people in several villages in the northwest."
+        },
+        {
+          "date": "2020-02-01",
+          "date_latest": "2020-02-29",
+          "date_precision": "month",
+          "text": "Members of the Popular Front for the Rebirth of Central Africa (FPRC) attacked MINUSCA forces in Birao, leading to 12 FPRC forces being killed.",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2020-04-01",
+          "date_latest": "2020-04-30",
+          "date_precision": "month",
+          "text": "At least 25 people killed in Ndele when the Gula faction of the FPRC attacked the Runga faction."
+        },
+        {
+          "date": "2020-12-01",
+          "date_latest": "2020-12-31",
+          "date_precision": "month",
+          "text": "3 UN peacekeepers from Burundi were killed in Dekoa",
+          "duplicate_of": "Timeline of the Central African Republic Civil War"
+        },
+        {
+          "date": "2021-01-01",
+          "date_latest": "2021-01-31",
+          "date_precision": "month",
+          "text": "One UN peacekeeper killed when CPC launched an attack on Bangui."
+        },
+        {
+          "date": "2021-10-01",
+          "date_latest": "2021-10-31",
+          "date_precision": "month",
+          "text": "34 civilians were killed by alleged UPC rebels in the village of Matchika near Bambari."
+        },
+        {
+          "date": "2022-04-01",
+          "date_latest": "2022-04-30",
+          "date_precision": "month",
+          "text": "6 soldiers were killed when CPC militants attacked a military camp at the outskirts of Bakouma."
+        },
+        {
+          "date": "2023-11-01",
+          "date_latest": "2023-11-30",
+          "date_precision": "month",
+          "text": "5 civilians were killed when CPC launched an attack on Moyenne Sido."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

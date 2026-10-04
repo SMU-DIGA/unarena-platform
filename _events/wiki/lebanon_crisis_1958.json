@@ -1,0 +1,84 @@
+{
+  "topic": "lebanon_crisis_1958",
+  "label": "Lebanon crisis and the Eisenhower Doctrine",
+  "harvested": "2026-10-01",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 9,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 0,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "1958 Lebanon crisis",
+      "pageid": 287824,
+      "revid": 1370279391,
+      "revision_timestamp": "2026-08-20T04:55:59Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=287824",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1957-06-06",
+          "date_latest": "1957-06-06",
+          "date_precision": "day",
+          "text": "The United States agreed to provide military assistance to the Lebanese government from 6 June 1957."
+        },
+        {
+          "date": "1958-02-01",
+          "date_latest": "1958-02-01",
+          "date_precision": "day",
+          "text": "On 1 February 1958, Syria and Egypt united, forming the UAR."
+        },
+        {
+          "date": "1958-05-08",
+          "date_latest": "1958-05-08",
+          "date_precision": "day",
+          "text": "On 8 May 1958, a Lebanese journalist, Nasib Al Matni, was assassinated in his office in Beirut."
+        },
+        {
+          "date": "1958-05-10",
+          "date_latest": "1958-05-10",
+          "date_precision": "day",
+          "text": "The New York Times dated the beginning of a formal armed rebellion to 10 May 1958."
+        },
+        {
+          "date": "1958-05-22",
+          "date_latest": "1958-05-22",
+          "date_precision": "day",
+          "text": "Various nations, including Lebanon, blamed Nasser's actions for the increase in sectarian unrest, and the Lebanese government filed a formal complaint to the United Nations Security Council (UNSC) on 22 May 1958, accusing the UAR of meddling in the nation's affairs."
+        },
+        {
+          "date": "1958-06-11",
+          "date_latest": "1958-06-11",
+          "date_precision": "day",
+          "text": "The UNSC passed a resolution on 11 June 1958 that recommended sending a group to Lebanon \"to ensure that there is no illegal infiltration of personnel or supply of arms or other material across the Lebanese borders\"."
+        },
+        {
+          "date": "1958-07-15",
+          "date_latest": "1958-07-15",
+          "date_precision": "day",
+          "text": "Eisenhower responded by authorizing the American military intervention Operation Blue Bat on 15 July 1958, in the first application of the Eisenhower Doctrine, in which the U.S. announced that it would intervene to protect regimes that it considered to be threatened by international communism."
+        },
+        {
+          "date": "1958-09-23",
+          "date_latest": "1958-09-23",
+          "date_precision": "day",
+          "text": "Although Chamoun's term would have expired on 23 September 1958, he intended to run for president again, which was not permitted in the Constitution of Lebanon, and asked for American support in his effort."
+        },
+        {
+          "date": "1958-10-25",
+          "date_latest": "1958-10-25",
+          "date_precision": "day",
+          "text": "The US withdrew its forces on 25 October 1958."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

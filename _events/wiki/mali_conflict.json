@@ -1,0 +1,2007 @@
+{
+  "topic": "mali_conflict",
+  "label": "Northern Mali conflict",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 321,
+  "flagged_vote_language": 3,
+  "flagged_names_later_date": 5,
+  "vague_dated_segments": 22,
+  "cross_article_duplicates": 15,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Mali War",
+      "pageid": 38313078,
+      "revid": 1368465684,
+      "revision_timestamp": "2026-08-09T05:26:47Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=38313078",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2012-01-24",
+          "date_latest": "2012-01-24",
+          "date_precision": "day",
+          "text": "Battle of Aguelhok between the MNLA (and possibly Islamist groups like Al-Qaeda in the Islamic Maghreb and Movement for Oneness and Jihad in West Africa) and the army of Mali. When they surrendered, 97 members of the army of Mali were killed."
+        },
+        {
+          "date": "2012-02-01",
+          "date_latest": "2012-02-01",
+          "date_precision": "day",
+          "text": "After regaining the town of Ménaka after the battle in January, the military of Mali retreats and the MNLA takes the town over."
+        },
+        {
+          "date": "2012-02-02",
+          "date_latest": "2012-02-02",
+          "date_precision": "day",
+          "text": "Large-scale protests against the violence in the north take place in Bamako, the capital of Mali, and cause disruptions and shut down much of the city."
+        },
+        {
+          "date": "2012-03-05",
+          "date_latest": "2012-03-05",
+          "date_precision": "day",
+          "text": "Units of the military of Mali fail to end the siege of the military garrison in Tessalit that had existed for weeks."
+        },
+        {
+          "date": "2012-03-10",
+          "date_latest": "2012-03-10",
+          "date_precision": "day",
+          "text": "Spiritual leaders in Mali issue a call for peace."
+        },
+        {
+          "date": "2012-03-12",
+          "date_latest": "2012-03-12",
+          "date_precision": "day",
+          "text": "The MNLA (and allies) take over Tessalit."
+        },
+        {
+          "date": "2012-03-14",
+          "date_latest": "2012-03-14",
+          "date_precision": "day",
+          "text": "Rebel forces took control of the towns of Diré and Goundam."
+        },
+        {
+          "date": "2012-03-21",
+          "date_latest": "2012-03-21",
+          "date_precision": "day",
+          "text": "soldiers dissatisfied with the course of the conflict attacked Defense Minister Sadio Gassama as he arrived to speak to them at the Kati military camp."
+        },
+        {
+          "date": "2012-03-30",
+          "date_latest": "2012-03-30",
+          "date_precision": "day",
+          "text": "Rebels captured Kidal and Ansongo and Bourem in Gao Region."
+        },
+        {
+          "date": "2012-04-01",
+          "date_latest": "2012-04-01",
+          "date_precision": "day",
+          "text": "Rebels attack Timbuktu Reports that Ansar Dine takes over the city and chases away MNLA fighters."
+        },
+        {
+          "date": "2012-04-02",
+          "date_latest": "2012-04-02",
+          "date_precision": "day",
+          "text": "ECOWAS and Mauritanian and Algeria place wide-ranging sanctions on the military government of Mali."
+        },
+        {
+          "date": "2012-04-03",
+          "date_latest": "2012-04-03",
+          "date_precision": "day",
+          "text": "Armed groups looted 2,354 tons of food from United Nations' World Food Programme's warehouses in Kidal, Gao and Timbuktu, causing the WFP to suspend its operations in northern Mali."
+        },
+        {
+          "date": "2012-04-04",
+          "date_latest": "2012-04-04",
+          "date_precision": "day",
+          "text": "Civil society and 50 political parties in Mali refuse to take part in a discussion with the military government on plans for the future."
+        },
+        {
+          "date": "2012-04-05",
+          "date_latest": "2012-04-05",
+          "date_precision": "day",
+          "text": "Islamists, possibly from AQIM or MOJWA, entered the Algerian consulate in Gao and took hostages."
+        },
+        {
+          "date": "2012-04-06",
+          "date_latest": "2012-04-06",
+          "date_precision": "day",
+          "text": "The MNLA declares independence of the northern part of Mali."
+        },
+        {
+          "date": "2012-04-08",
+          "date_latest": "2012-04-08",
+          "date_precision": "day",
+          "text": "President Amadou Toumani Touré resigns and Dioncounda Traoré is named interim President."
+        },
+        {
+          "date": "2012-04-08",
+          "date_latest": "2012-04-08",
+          "date_precision": "day",
+          "text": "The National Liberation Front of Azawad (FNLA) announced its formation and intention to oppose Tuareg rule, battle the MNLA, and \"return to peace and economic activity\"; the group claimed to consist of 500 fighters."
+        },
+        {
+          "date": "2012-05-04",
+          "date_latest": "2012-05-04",
+          "date_precision": "day",
+          "text": "Ansar Dine members reportedly burned the tomb of a Sufi saint."
+        },
+        {
+          "date": "2012-05-14",
+          "date_latest": "2012-05-14",
+          "date_precision": "day",
+          "text": "Protesters and the MNLA clashed in the city of Gao, reportedly injuring four and killing one."
+        },
+        {
+          "date": "2012-05-26",
+          "date_latest": "2012-05-26",
+          "date_precision": "day",
+          "text": "MNLA and Ansar Dine agree to merge and create an independent state together. This alliance falls apart days later."
+        },
+        {
+          "date": "2012-06-08",
+          "date_latest": "2012-06-08",
+          "date_precision": "day",
+          "text": "MNLA and Ansar Dine forces fight with one another in Kidal, killing two in the skirmish, as a result of protests in the city opposed to the imposition of Sharia law."
+        },
+        {
+          "date": "2012-06-29",
+          "date_latest": "2012-06-29",
+          "date_precision": "day",
+          "text": "Islamists are in charge of most of northern Mali and the MNLA holds few cities."
+        },
+        {
+          "date": "2012-06-30",
+          "date_latest": "2012-06-30",
+          "date_precision": "day",
+          "text": "Destruction of tombs in Timbuktu by Islamist forces."
+        },
+        {
+          "date": "2012-07-29",
+          "date_latest": "2012-07-29",
+          "date_precision": "day",
+          "text": "A couple was stoned to death by Islamists in Aguelhok for having children outside of marriage."
+        },
+        {
+          "date": "2012-08-09",
+          "date_latest": "2012-08-09",
+          "date_precision": "day",
+          "text": "Islamist militants chopped off the hand of an alleged thief in the town of Ansongo, despite a crowd pleading with the militants for mercy."
+        },
+        {
+          "date": "2012-09-01",
+          "date_latest": "2012-09-01",
+          "date_precision": "day",
+          "text": "MOJWA takes over the southern town of Douentza, which had previously been held by a Songhai secular militia, the Ganda Iso"
+        },
+        {
+          "date": "2012-09-08",
+          "date_latest": "2012-09-08",
+          "date_precision": "day",
+          "text": "Malian soldiers detained 17 unarmed Tablighi preachers from Mauritania in Dogofry (north of Diabaly) while en route to a religious conference in Bamako and executed all but one of them without reporting to their own command. The Malian government expressed its condolences for the incident, which Associated Press considered a symptom of the disintegration reached by the Malian Army as a result of the 21 March Coup."
+        },
+        {
+          "date": "2012-09-24",
+          "date_latest": "2012-09-24",
+          "date_precision": "day",
+          "text": "A group broke off from the MNLA, calling itself the Front for the Liberation of the Azawad (FPA), aiming to focus efforts on fighting the Islamists."
+        },
+        {
+          "date": "2012-10-12",
+          "date_latest": "2012-10-12",
+          "date_precision": "day",
+          "text": "United Nations Security Council unanimously passes United Nations Security Council Resolution 2071 which approved the creation of the African-led International Support Mission to Mali (AFISMA).",
+          "mentions_vote": true
+        },
+        {
+          "date": "2012-11-11",
+          "date_latest": "2012-11-11",
+          "date_precision": "day",
+          "text": "Economic Community of West African States (ECOWAS) authorizes 3,000 troops for involvement in AFISMA."
+        },
+        {
+          "date": "2012-11-16",
+          "date_latest": "2012-11-16",
+          "date_precision": "day",
+          "text": "MNLA forces launch an offensive against Gao, but fail to retake the town."
+        },
+        {
+          "date": "2012-11-19",
+          "date_latest": "2012-11-19",
+          "date_precision": "day",
+          "text": "MOJWA and AQIM forces took over the eastern town of Ménaka, which had previously been held by the MNLA."
+        },
+        {
+          "date": "2012-12-11",
+          "date_latest": "2012-12-11",
+          "date_precision": "day",
+          "text": "Prime Minister Cheick Modibo Diarra is forced to resign by the military."
+        },
+        {
+          "date": "2012-12-20",
+          "date_latest": "2012-12-20",
+          "date_precision": "day",
+          "text": "The United Nations Security Council passes United Nations Security Council Resolution 2085 which approved the deployment of AFISMA and international action.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2013-01-04",
+          "date_latest": "2013-01-04",
+          "date_precision": "day",
+          "text": "A ceasefire between Ansar Dine and the army of Mali is ended by Ansar Dine claiming the terms were not met."
+        },
+        {
+          "date": "2013-01-10",
+          "date_latest": "2013-01-10",
+          "date_precision": "day",
+          "text": "Islamist forces captured the strategic town of Konna, located 600 km from the capital."
+        },
+        {
+          "date": "2013-01-11",
+          "date_latest": "2013-01-11",
+          "date_precision": "day",
+          "text": "France launched Opération Serval, militarily intervening in the conflict. The operation included the use of Gazelle helicopters from the Special forces, which stopped an Islamist column advancing to Mopti, and the use of four Mirage 2000-D jets of the Armée de l'Air operating from a base in Chad. 12 targets were hit by the Mirages during the night between the 11th and the 12th."
+        },
+        {
+          "date": "2013-01-12",
+          "date_latest": "2013-01-12",
+          "date_precision": "day",
+          "text": "the British government announced that it was deploying two Royal Air Force C-17 transport planes in a non-combat role to ferry primarily French but also potentially African forces into Mali."
+        },
+        {
+          "date": "2013-01-14",
+          "date_latest": "2013-01-14",
+          "date_precision": "day",
+          "text": "Islamists attacked the city of Diabaly from the Mauritanian border where they fled to avoid the airstrikes. The AQIM leader known as Abu Zeid was leading the operation."
+        },
+        {
+          "date": "2013-01-16",
+          "date_latest": "2013-01-16",
+          "date_precision": "day",
+          "text": "The prosecutor of the International Criminal Court opened a formal investigation of alleged war crimes in Mali."
+        },
+        {
+          "date": "2013-01-18",
+          "date_latest": "2013-01-18",
+          "date_precision": "day",
+          "text": "Malian army reclaims control of Konna without resistance."
+        },
+        {
+          "date": "2013-01-19",
+          "date_latest": "2013-01-19",
+          "date_precision": "day",
+          "text": "Human Rights Watch report killings and other human rights abuses committed by the Malian army in the central Malian town of Niono. Tuaregs and Arabs were especially targeted."
+        },
+        {
+          "date": "2013-01-19",
+          "date_latest": "2013-01-19",
+          "date_precision": "day",
+          "text": "Residents of Gao had lynched Aliou Toure, a prominent Islamist leader and the MOJWA police commissioner of the city, in retaliation for the killing of a local journalist, Kader Toure."
+        },
+        {
+          "date": "2013-01-19",
+          "date_latest": "2013-01-19",
+          "date_precision": "day",
+          "text": "Two Nigerian soldiers were killed and five were injured by Islamists near the Nigerian town of Okene as they were heading toward Mali."
+        },
+        {
+          "date": "2013-02-19",
+          "date_latest": "2013-02-19",
+          "date_precision": "day",
+          "text": "25 March: Operation Panther"
+        },
+        {
+          "date": "2013-03-30",
+          "date_latest": "2013-03-30",
+          "date_precision": "day",
+          "text": "1 April: Second Battle of Timbuktu"
+        },
+        {
+          "date": "2013-04-12",
+          "date_latest": "2013-04-12",
+          "date_precision": "day",
+          "text": "2013 Kidal suicide attack"
+        },
+        {
+          "date": "2013-10-23",
+          "date_latest": "2013-10-23",
+          "date_precision": "day",
+          "text": "civilians and 2 peacekeepers killed."
+        },
+        {
+          "date": "2014-01-17",
+          "date_latest": "2014-01-17",
+          "date_precision": "day",
+          "text": "A Chadian MINUSMA peacekeeper was killed in an attack on a French-UN camp in Kidal."
+        },
+        {
+          "date": "2014-06-11",
+          "date_latest": "2014-06-11",
+          "date_precision": "day",
+          "text": "a car bomb killed four Chadian peacekeepers in Aguelhok."
+        },
+        {
+          "date": "2014-09-18",
+          "date_latest": "2014-09-18",
+          "date_precision": "day",
+          "text": "five Chadian MINUSMA peacekeepers were killed by a land mine. The Chadian government described the incident as \"discriminatory\" and said its soldiers were being used as \"shields\"."
+        },
+        {
+          "date": "2014-10-23",
+          "date_latest": "2014-10-23",
+          "date_precision": "day",
+          "text": "Two Chadian peacekeepers were killed in an attack in Tessalit."
+        },
+        {
+          "date": "2015-03-07",
+          "date_latest": "2015-03-07",
+          "date_precision": "day",
+          "text": "Gunmen attacked a restaurant in Bamako, killing five."
+        },
+        {
+          "date": "2015-06-20",
+          "date_latest": "2015-06-20",
+          "date_precision": "day",
+          "text": "The CMA signed the Algiers Peace Accord, which intended to end hostilities in northern Mali."
+        },
+        {
+          "date": "2015-08-07",
+          "date_latest": "2015-08-07",
+          "date_precision": "day",
+          "text": "Militants attacked a hotel in Sévaré, killing civilians, soldiers and foreign contractors."
+        },
+        {
+          "date": "2015-11-20",
+          "date_latest": "2015-11-20",
+          "date_precision": "day",
+          "text": "Militants took 170 hostages at the Radisson Blu Hotel in Bamako."
+        },
+        {
+          "date": "2016-01-15",
+          "date_latest": "2016-01-15",
+          "date_precision": "day",
+          "text": "Gunmen attacked both a hotel and coffeehouse in Burkina Faso, killing thirty."
+        },
+        {
+          "date": "2016-02-13",
+          "date_latest": "2016-02-13",
+          "date_precision": "day",
+          "text": "Five UN peacekeepers killed by an attack on the MINUSMA camp in Kidal."
+        },
+        {
+          "date": "2016-05-31",
+          "date_latest": "2016-05-31",
+          "date_precision": "day",
+          "text": "Militants coordinated attacks on UN bases, killing several."
+        },
+        {
+          "date": "2016-07-19",
+          "date_latest": "2016-07-19",
+          "date_precision": "day",
+          "text": "Militants attacked a Malian military base in Nampala, killing 17 soldiers."
+        },
+        {
+          "date": "2017-05-05",
+          "date_latest": "2017-05-05",
+          "date_precision": "day",
+          "text": "A rocket hit a MINUSMA base killing a Liberian soldier and injuring 7 other soldiers, including several Liberians and a Swedish soldier."
+        },
+        {
+          "date": "2017-06-18",
+          "date_latest": "2017-06-18",
+          "date_precision": "day",
+          "text": "Jama'at Nasr al-Islam wal Muslimin Islamists attacked a luxury resort in Bamako killing 5 people, including one Portuguese soldier. 6 attackers were also killed in the shooting and hostage-taking."
+        },
+        {
+          "date": "2017-07-26",
+          "date_latest": "2017-07-26",
+          "date_precision": "day",
+          "text": "2 German pilots died in a helicopter-crash."
+        },
+        {
+          "date": "2018-01-11",
+          "date_latest": "2018-01-11",
+          "date_precision": "day",
+          "text": "Three French soldiers of the Barkhane force were wounded, one of them seriously, by a suicide bomber in eastern Mali."
+        },
+        {
+          "date": "2018-01-24",
+          "date_latest": "2018-01-24",
+          "date_precision": "day",
+          "text": "Two Malian customs officers have been killed in a suspected jihadist attack at a market in the small village of Toubakoro."
+        },
+        {
+          "date": "2020-01-09",
+          "date_latest": "2020-01-09",
+          "date_precision": "day",
+          "text": "Twenty people, including eighteen U.N. peacekeepers, were wounded following a rocket attack on a MINUSMA base in Tessalit, Kidal Region."
+        },
+        {
+          "date": "2020-01-26",
+          "date_latest": "2020-01-26",
+          "date_precision": "day",
+          "text": "A Malian Armed Forces camp in Sokolo, Niono Cercle was attacked, leading to the deaths of 19 Malian soldiers."
+        },
+        {
+          "date": "2020-01-29",
+          "date_latest": "2020-01-29",
+          "date_precision": "day",
+          "text": "Prime Minister Boubou Cisse announced his intention to hire 10,000 new soldiers for the Malian Armed Forces in order to combat jihadist groups."
+        },
+        {
+          "date": "2020-02-13",
+          "date_latest": "2020-02-13",
+          "date_precision": "day",
+          "text": "A \"reconstituted\" battalion of the Armed Forces of Mali, incorporating former rebel soldiers, arrived at Kidal, becoming the first government soldiers to be based in the city since March 2012. The battalion was escorted by MINUSMA forces and based at Camp General Abdoulaye Soumaré."
+        },
+        {
+          "date": "2020-04-06",
+          "date_latest": "2020-04-06",
+          "date_precision": "day",
+          "text": "An attack on a military camp in Mali left at least 23 dead, while several others injured. The Malian News Agency reported that the incident was carried out by unidentified gunmen, who took away the military equipment and also burned the camp."
+        },
+        {
+          "date": "2020-05-17",
+          "date_latest": "2020-05-17",
+          "date_precision": "day",
+          "text": "Malian Armed Forces returned to Labbézanga after they withdrew in November 2019"
+        },
+        {
+          "date": "2020-06-03",
+          "date_latest": "2020-06-03",
+          "date_precision": "day",
+          "text": "Malian forces killed AQIM leader, Abdelmalek Droukdel in operation near Algerian border."
+        },
+        {
+          "date": "2021-03-17",
+          "date_latest": "2021-03-17",
+          "date_precision": "day",
+          "text": "At least 33 soldiers are killed and 14 others are wounded in an attack on a military post in Gao, Mali."
+        },
+        {
+          "date": "2021-07-04",
+          "date_latest": "2021-07-04",
+          "date_precision": "day",
+          "text": "Four Malian soldiers were killed in an ambush on their patrol near the town of Léré. No group claimed responsibility for the attack, which came as France resumed joint military exercises with members of the Malian Armed Forces, which had been suspended following the coup d'état that year led by Colonel Assimi Goïta."
+        },
+        {
+          "date": "2021-12-30",
+          "date_latest": "2021-12-30",
+          "date_precision": "day",
+          "text": "Mali's army announced 8 soldiers had died and 7 had been wounded during an attack in Sahel this day. They also said 31 assailants were also killed but did not identify the group."
+        },
+        {
+          "date": "2022-01-22",
+          "date_latest": "2022-01-22",
+          "date_precision": "day",
+          "text": "A French soldier was killed and nine were injured in a mortar attack on Barkhane military camp in Gao, northern Mali."
+        },
+        {
+          "date": "2022-03-01",
+          "date_latest": "2022-03-31",
+          "date_precision": "month",
+          "text": "government forces set siege to the town of Mourrah. According to Human Rights Watch, over 300 civilians were massacred."
+        },
+        {
+          "date": "2022-06-01",
+          "date_latest": "2022-06-01",
+          "date_precision": "day",
+          "text": "one Jordanian peacekeeper was killed in the town of Kidal in northern Mali."
+        },
+        {
+          "date": "2022-10-01",
+          "date_latest": "2022-10-31",
+          "date_precision": "month",
+          "text": "The Islamic State in the Greater Sahara took over the rural areas of Ansongo district."
+        },
+        {
+          "date": "2022-12-16",
+          "date_latest": "2022-12-16",
+          "date_precision": "day",
+          "text": "Two Nigerian peacekeepers killed, four wounded in attack in Mali, UN says"
+        },
+        {
+          "date": "2023-04-01",
+          "date_latest": "2023-04-30",
+          "date_precision": "month",
+          "text": "The Islamic State in the Greater Sahara capture Tidermène"
+        },
+        {
+          "date": "2023-09-07",
+          "date_latest": "2023-09-07",
+          "date_precision": "day",
+          "text": "Tombouctou and Bamba attacks"
+        },
+        {
+          "date": "2023-11-01",
+          "date_latest": "2023-11-30",
+          "date_precision": "month",
+          "text": "The Malian Army recaptured the town of Kidal from the MNLA."
+        },
+        {
+          "date": "2025-05-23",
+          "date_latest": "2025-05-23",
+          "date_precision": "day",
+          "text": "JNIM militants attacked Dioura, where they raided a nearby military base. During the attack, 41 soldiers died."
+        },
+        {
+          "date": "2025-09-08",
+          "date_latest": "2025-09-08",
+          "date_precision": "day",
+          "text": "Jama'at Nasr al-Islam wal Muslimin (JNIM) imposes a nationwide blockade on fuel and other goods imported from neighboring countries while besieging Malian government-held cities and towns. An unknown number of fuel trucks from Senegal and the Ivory Coast violating JNIM's blockade have been attacked and burned by militants."
+        },
+        {
+          "date": "2025-10-02",
+          "date_latest": "2025-10-02",
+          "date_precision": "day",
+          "text": "Malian army and allied militias kill at least 21 civilians in Kamona village, Segou region."
+        },
+        {
+          "date": "2025-10-07",
+          "date_latest": "2025-10-07",
+          "date_precision": "day",
+          "text": "Around 300 fuel tankers reach Bamako despite the blockade."
+        },
+        {
+          "date": "2025-10-13",
+          "date_latest": "2025-10-13",
+          "date_precision": "day",
+          "text": "Malian forces and Dozo militia kill at least 10 civilians in Balle village, Segou region.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2025-10-26",
+          "date_latest": "2025-10-26",
+          "date_precision": "day",
+          "text": "Government suspends schools and universities nationwide until 9 November due to security and fuel crisis."
+        },
+        {
+          "date": "2025-11-21",
+          "date_latest": "2025-11-21",
+          "date_precision": "day",
+          "text": "France reduced its diplomatic staff in Mali because of the deteriorating security situation tied to the jihadist insurgency and fuel blockade."
+        },
+        {
+          "date": "2025-12-20",
+          "date_latest": "2025-12-20",
+          "date_precision": "day",
+          "text": "The Alliance of Sahel States (Mali, Burkina Faso, Niger) inaugurated a unified military force to counter jihadist insurgent groups."
+        },
+        {
+          "date": "2026-04-25",
+          "date_latest": "2026-04-25",
+          "date_precision": "day",
+          "text": "2026 Mali attacks: al-Qaeda-linked JNIM and Tuareg-led Azawad Liberation Front (FLA) launched coordinated simultaneous strikes across Mali. Defense Minister Sadio Camara was killed in the attacks. Later, a deal was reportedly brokered allowing Malian and Russian Africa Corps forces to withdraw from the former MINUSMA camp in Kidal under rebel escort."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Insurgency in the Maghreb (2002–present)",
+      "pageid": 13153771,
+      "revid": 1370786596,
+      "revision_timestamp": "2026-08-23T02:36:41Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=13153771",
+      "strategy": "bold_bullets",
+      "segments": [
+        {
+          "date": "2002-04-11",
+          "date_latest": "2002-04-11",
+          "date_precision": "day",
+          "text": "Ghriba synagogue bombing killed 22 (14 German tourists, 5 Tunisians, and 2 French nationals and the suicide bomber)."
+        },
+        {
+          "date": "2002-05-05",
+          "date_latest": "2002-05-05",
+          "date_precision": "day",
+          "text": "15 government soldiers are killed in an ambush near Tizi Ouzou, in the Kabylie region of northern Algeria. About 50 members of the Salafist Group for Preaching and Combat (GSPC) were blamed for the assault."
+        },
+        {
+          "date": "2002-06-23",
+          "date_latest": "2002-06-23",
+          "date_precision": "day",
+          "text": "Militants killed 6 civilians in an attack on youths playing football near a bus station in Zéralda in suburban Algiers."
+        },
+        {
+          "date": "2002-07-17",
+          "date_latest": "2002-07-17",
+          "date_precision": "day",
+          "text": "Militants killed 7 civilians in Ouled Allal, Bouïra Province. Bringing the death toll of the previous three days to 22."
+        },
+        {
+          "date": "2002-09-13",
+          "date_latest": "2002-09-13",
+          "date_precision": "day",
+          "text": "Militants killed 11 civilians on a road in Aïn Defla Province, northern Algeria. The previous month, according to a toll compiled from press reports and official accounts, an estimated 140 people were killed in extremist violence, bringing the number of people who had been killed since the beginning of the year to 1,070."
+        },
+        {
+          "date": "2002-09-19",
+          "date_latest": "2002-09-19",
+          "date_precision": "day",
+          "text": "15 people are reported to have been arrested in Kabylie under suspicion of providing money and logistical help to the GSPC."
+        },
+        {
+          "date": "2002-10-02",
+          "date_latest": "2002-10-02",
+          "date_precision": "day",
+          "text": "Militants killed 13 civilians in a remote village in Aïn Defla Province, western Algeria.",
+          "duplicate_of": "Insurgency in the Maghreb (2002–present)"
+        },
+        {
+          "date": "2003-01-06",
+          "date_latest": "2003-01-06",
+          "date_precision": "day",
+          "text": "Militants ambushed a military convoy in north-east Algeria killing 43 soldiers and wounding 19 others. Also militants attacked families near the capital, Algiers, killing 13 people."
+        },
+        {
+          "date": "2003-05-16",
+          "date_latest": "2003-05-16",
+          "date_precision": "day",
+          "text": "2003 Casablanca bombings killed 45 including 12 suicide-bombers."
+        },
+        {
+          "date": "2003-09-01",
+          "date_latest": "2003-09-30",
+          "date_precision": "month",
+          "text": "Nabil Sahraoui was reported to have replaced Hassan Hattab as leader of the GSPC but other media reports have denied that any change has taken place."
+        },
+        {
+          "date": "2003-11-27",
+          "date_latest": "2003-11-27",
+          "date_precision": "day",
+          "text": "In Messad, Djelfa Province, Algeria, a well-known poet and member of the extended Royal Saudi family was killed and 4 others were injured in an apparent terrorist attack, according to press reports."
+        },
+        {
+          "date": "2004-05-02",
+          "date_latest": "2004-05-02",
+          "date_precision": "day",
+          "text": "It was reported that in the previous two days 7 members of the security forces, 6 civilians and 2 militants were killed in several locations: near Algiers and in the provinces of Medea, Bouira and Relizane."
+        },
+        {
+          "date": "2004-05-18",
+          "date_latest": "2004-05-18",
+          "date_precision": "day",
+          "text": "2 bombs exploded, killing 2 soldiers and wounding 13 people, including 4 soldiers, in Setif in eastern Algeria."
+        },
+        {
+          "date": "2004-06-02",
+          "date_latest": "2004-06-02",
+          "date_precision": "day",
+          "text": "Fighters ambushed an Algerian military convoy in Béjaïa in eastern Algeria, killing 10 soldiers and wounding 45 others."
+        },
+        {
+          "date": "2004-06-28",
+          "date_latest": "2004-06-28",
+          "date_precision": "day",
+          "text": "The Algerian army killed three Islamic extremists in a raid near the capital, Algiers."
+        },
+        {
+          "date": "2004-09-20",
+          "date_latest": "2004-09-20",
+          "date_precision": "day",
+          "text": "Militants killed 4 people at a roadblock they set up near Kalous in Bouira Province."
+        },
+        {
+          "date": "2004-09-29",
+          "date_latest": "2004-09-29",
+          "date_precision": "day",
+          "text": "Militants attacked a civil defense post near the city of Ain Defla, killing 6 members of the civil defense force."
+        },
+        {
+          "date": "2004-10-22",
+          "date_latest": "2004-10-22",
+          "date_precision": "day",
+          "text": "Militants attacked a vehicle near Médéa carrying fans to a football match in the capital Algiers, killing 16 people."
+        },
+        {
+          "date": "2005-04-09",
+          "date_latest": "2005-04-09",
+          "date_precision": "day",
+          "text": "Militants killed 14 people at a mock roadblock near Algier. In addition another 36 people, including 15 security force members have been killed since the start of March."
+        },
+        {
+          "date": "2005-04-25",
+          "date_latest": "2005-04-25",
+          "date_precision": "day",
+          "text": "Mauritania dismantled its first domestic jihadist cell in the suburbs of Nouakchott."
+        },
+        {
+          "date": "2005-05-15",
+          "date_latest": "2005-05-15",
+          "date_precision": "day",
+          "text": "Fighters ambushed an army convoy in the region of Khenchela killing 12 soldiers."
+        },
+        {
+          "date": "2005-06-04",
+          "date_latest": "2005-06-04",
+          "date_precision": "day",
+          "text": "Militants attacked a Mauritanian army barracks, killing 17 soldiers, injuring 17, and capturing 35, with around 5–9 militants killed."
+        },
+        {
+          "date": "2005-06-13",
+          "date_latest": "2005-06-13",
+          "date_precision": "day",
+          "text": "An explosive device kills 3 soldiers and 3 civilians west of Tipaza."
+        },
+        {
+          "date": "2005-06-18",
+          "date_latest": "2005-06-18",
+          "date_precision": "day",
+          "text": "An explosive device killed a policeman during a police raid in El-Djer."
+        },
+        {
+          "date": "2005-06-23",
+          "date_latest": "2005-06-23",
+          "date_precision": "day",
+          "text": "An explosive device kills 11 policeman on the road linking Azzefoune and Aghrib in the province of Tizi Ouzou."
+        },
+        {
+          "date": "2005-07-18",
+          "date_latest": "2005-07-18",
+          "date_precision": "day",
+          "text": "Islamist militants killed 5 policemen in an ambush in Ain Defla in western Algeria."
+        },
+        {
+          "date": "2005-09-25",
+          "date_latest": "2005-09-25",
+          "date_precision": "day",
+          "text": "Militants killed 5 members of the security forces. Three days before, 7 soldiers and 3 civilians were killed in two other attacks. Since the beginning of the month, another 16 soldiers, 12 civilians and 1 policeman were killed. The attacks took place in Boumerdes Province and close to Saida."
+        },
+        {
+          "date": "2006-02-01",
+          "date_latest": "2006-02-01",
+          "date_precision": "day",
+          "text": "The Algerian daily Liberté reports that spiritual leader Ahmed Abou al-Baraa (real name Ahmed Zarabib) has been killed by Algerian government forces in the mountains near Toudja on January 17."
+        },
+        {
+          "date": "2006-03-30",
+          "date_latest": "2006-03-30",
+          "date_precision": "day",
+          "text": "Hassan Hattab, a founder of the group, is reported to have called on its remaining members to accept an amnesty offered by the Algerian government."
+        },
+        {
+          "date": "2006-04-07",
+          "date_latest": "2006-04-07",
+          "date_precision": "day",
+          "text": "Fighters ambushed a government convoy in the desert region of Ghardaïa in Algeria carrying customs agents killing 31 people."
+        },
+        {
+          "date": "2006-04-26",
+          "date_latest": "2006-04-26",
+          "date_precision": "day",
+          "text": "A suicide bomber attacked the base of the Multinational Forces and Observers at al-Jura wounding two members of the force."
+        },
+        {
+          "date": "2006-06-21",
+          "date_latest": "2006-06-21",
+          "date_precision": "day",
+          "text": "The Algerian army killed 10 Islamists in Ghzerwal, near Boumerdes."
+        },
+        {
+          "date": "2006-06-26",
+          "date_latest": "2006-06-26",
+          "date_precision": "day",
+          "text": "The Algerian army killed 19 Islamists in the eastern region of Khenchela, bringing the number of people killed since the start of the latest unrest in Algeria to 53, including 36 suspected Islamists. Among the dead were also 7 soldiers killed on June 21 and 5 civilians killed on June 20."
+        },
+        {
+          "date": "2006-07-07",
+          "date_latest": "2006-07-07",
+          "date_precision": "day",
+          "text": "At least 3 soldiers were wounded after an explosive device blast in Mount Bouhench, Jijel, Algeria. The attack was claimed by Aibed Er-Rahman katibet."
+        },
+        {
+          "date": "2006-07-20",
+          "date_latest": "2006-07-20",
+          "date_precision": "day",
+          "text": "Fighters killed 4 government municipal guards near Ain Defla. The attack followed a similar one on July 12 when 5 guards were killed near Tipaza."
+        },
+        {
+          "date": "2006-08-29",
+          "date_latest": "2006-08-29",
+          "date_precision": "day",
+          "text": "Fighters attacked a checkpoint in El-Kseur in Béjaïa Province, killing 2 policemen and 1 civilian."
+        },
+        {
+          "date": "2006-09-02",
+          "date_latest": "2006-09-02",
+          "date_precision": "day",
+          "text": "In separate clashes 6 soldiers were killed in the regions of Béjaïa and Medea."
+        },
+        {
+          "date": "2006-09-14",
+          "date_latest": "2006-09-14",
+          "date_precision": "day",
+          "text": "al-Qaeda announced it will join the GSPC in their fight against France. They plan to attack France, the United States, and their allies."
+        },
+        {
+          "date": "2006-10-01",
+          "date_latest": "2006-10-31",
+          "date_precision": "month",
+          "text": "A series of truck bombs exploded in Algiers killing 3 and wounding 24."
+        },
+        {
+          "date": "2006-11-03",
+          "date_latest": "2006-11-03",
+          "date_precision": "day",
+          "text": "15 militants ambushed an army patrol in the Ain Defla region killing 8 soldiers."
+        },
+        {
+          "date": "2006-11-09",
+          "date_latest": "2006-11-09",
+          "date_precision": "day",
+          "text": "Militants ambushed an army patrol in the Bouira region killing 7 soldiers and wounding 13.",
+          "duplicate_of": "Insurgency in the Maghreb (2002–present)"
+        },
+        {
+          "date": "2006-12-10",
+          "date_latest": "2006-12-10",
+          "date_precision": "day",
+          "text": "A bomb tore apart a bus carrying foreign oil workers in Algiers, killing 4 and wounding 18."
+        },
+        {
+          "date": "2007-01-01",
+          "date_latest": "2007-01-31",
+          "date_precision": "month",
+          "text": "Tunisia said it killed 12 GSPC militants while losing two security men. The militants allegedly planned to attack the U.S. and British embassies in Tunis."
+        },
+        {
+          "date": "2007-01-05",
+          "date_latest": "2007-01-05",
+          "date_precision": "day",
+          "text": "Fighters killed 18 soldiers in an ambush in the region of Biskra."
+        },
+        {
+          "date": "2007-01-21",
+          "date_latest": "2007-01-21",
+          "date_precision": "day",
+          "text": "A roadside bomb exploded under an army vehicle near Jijel in eastern Algeria killing a soldier and wounding another 8."
+        },
+        {
+          "date": "2007-01-30",
+          "date_latest": "2007-01-30",
+          "date_precision": "day",
+          "text": "5 soldiers and 10 Islamists were killed in fighting in the eastern region of Batna."
+        },
+        {
+          "date": "2007-02-06",
+          "date_latest": "2007-02-06",
+          "date_precision": "day",
+          "text": "The United States began Operation Enduring Freedom – Trans Sahara in partnership with the United Kingdom and a number of partner states in the Sahel region."
+        },
+        {
+          "date": "2007-02-13",
+          "date_latest": "2007-02-13",
+          "date_precision": "day",
+          "text": "7 bombs exploded at 7 police stations in the Kabylie region killing 2 policemen and 4 civilians."
+        },
+        {
+          "date": "2007-03-03",
+          "date_latest": "2007-03-03",
+          "date_precision": "day",
+          "text": "A bomb hits a convoy of Russian pipeline workers between the towns of Médéa and Ain Defla, killing 4 Russians and 7 Algerians."
+        },
+        {
+          "date": "2007-03-11",
+          "date_latest": "2007-03-11",
+          "date_precision": "day",
+          "text": "The 2007 Casablanca bombings killed 8."
+        },
+        {
+          "date": "2007-04-07",
+          "date_latest": "2007-04-07",
+          "date_precision": "day",
+          "text": "13 soldiers and 19 Islamists were killed in fighting in a wooded area in the Aïn Defla Province."
+        },
+        {
+          "date": "2007-04-11",
+          "date_latest": "2007-04-11",
+          "date_precision": "day",
+          "text": "A suicide attack at the entrance of the Ministry of Interior killed more than 24 people and wounded 300."
+        },
+        {
+          "date": "2007-05-11",
+          "date_latest": "2007-05-11",
+          "date_precision": "day",
+          "text": "In various incidents 6 Islamists, 1 soldier and 1 policeman were killed near Tizi Ouzou, Saida and Jijel."
+        },
+        {
+          "date": "2007-05-13",
+          "date_latest": "2007-05-13",
+          "date_precision": "day",
+          "text": "A bomb exploded at a police checkpoint in Constantine, Algeria, killing a policeman and wounding 2."
+        },
+        {
+          "date": "2007-05-14",
+          "date_latest": "2007-05-14",
+          "date_precision": "day",
+          "text": "20 militants were killed in clashes near the capital, Algiers."
+        },
+        {
+          "date": "2007-07-11",
+          "date_latest": "2007-07-11",
+          "date_precision": "day",
+          "text": "A suicide truck bomber attacked a military barracks near Bouira, killing 10 soldiers and wounding 45."
+        },
+        {
+          "date": "2007-09-03",
+          "date_latest": "2007-09-03",
+          "date_precision": "day",
+          "text": "During clashes in the Tebessa region 5 security forces members and a civilian were killed."
+        },
+        {
+          "date": "2007-09-05",
+          "date_latest": "2007-09-05",
+          "date_precision": "day",
+          "text": "7 militants were killed when the army bombed a suspected militant hideout in the Tebessa region."
+        },
+        {
+          "date": "2007-09-12",
+          "date_latest": "2007-09-12",
+          "date_precision": "day",
+          "text": "A US C-130 plane was attacked by a machine gun emplacement. The plane reached its destination in Mali and nobody was injured. Since the beginning of OEF-TS, 100 AQIM members have been killed by security forces with 261 noncombat fatalities."
+        },
+        {
+          "date": "2007-09-15",
+          "date_latest": "2007-09-15",
+          "date_precision": "day",
+          "text": "A bomb exploded in front of a police compound in Zemmouri, near Boumerdes, killing 3 people and wounding 5 others."
+        },
+        {
+          "date": "2007-09-22",
+          "date_latest": "2007-09-22",
+          "date_precision": "day",
+          "text": "A suicide bomber wounded 9 people, including 2 Frenchmen and an Italian, in an attack in Lakhdaria, in the Bouira Province."
+        },
+        {
+          "date": "2007-10-09",
+          "date_latest": "2007-10-09",
+          "date_precision": "day",
+          "text": "In clashes in Kabylie, 3 militants, including the GSPC deputy leader, were killed."
+        },
+        {
+          "date": "2007-10-15",
+          "date_latest": "2007-10-15",
+          "date_precision": "day",
+          "text": "In fighting in the Tizi Ouzou province 3 militants were killed."
+        },
+        {
+          "date": "2007-11-16",
+          "date_latest": "2007-11-16",
+          "date_precision": "day",
+          "text": "Algerian forces killed the treasurer of al-Qaeda in Algeria, Abdelhamid Sadaoui, also known as Abou el Haythem, near Tizi Ouzou."
+        },
+        {
+          "date": "2007-12-11",
+          "date_latest": "2007-12-11",
+          "date_precision": "day",
+          "text": "2 suicide truck bombers attacked U.N. offices in Algiers, killing 37 people and injuring 171. The United Nations Security Council officially condemned this attack."
+        },
+        {
+          "date": "2007-12-24",
+          "date_latest": "2007-12-24",
+          "date_precision": "day",
+          "text": "Four French tourists were killed by gunmen in Mauritania and a fifth seriously injured. The victims were all part of the same family."
+        },
+        {
+          "date": "2007-12-27",
+          "date_latest": "2007-12-27",
+          "date_precision": "day",
+          "text": "Three Mauritanian soldiers were killed in an ambush by AQIM near El Ghallaouiya, a fort in the remote northern desert."
+        },
+        {
+          "date": "2008-02-01",
+          "date_latest": "2008-02-01",
+          "date_precision": "day",
+          "text": "At least three alleged AQIM gunmen attacked the Israeli embassy in Nouakchott, Mauritania, injuring three bystanders."
+        },
+        {
+          "date": "2008-04-01",
+          "date_latest": "2008-04-30",
+          "date_precision": "month",
+          "text": "An armed confrontation in Nouakchott, Mauritania followed the escape of a key suspect linked to earlier AQIM-related attacks, triggering a large security operation."
+        },
+        {
+          "date": "2008-06-06",
+          "date_latest": "2008-06-06",
+          "date_precision": "day",
+          "text": "A roadside bomb killed six soldiers and wounded four in Cap Djenat. The bombing came a day after a suicide bomber targeted a military barracks in an eastern Algiers suburb but killed only himself."
+        },
+        {
+          "date": "2008-06-08",
+          "date_latest": "2008-06-08",
+          "date_precision": "day",
+          "text": "2 bombs in quick succession rocked a train station in Beni Amrane, about 60 mi east of Algiers. The first bomb killed a Frenchman working on a renovation project at the station along with his driver. The second bomb came about five minutes later hitting the first responders and killing 8 soldiers and 3 firefighters."
+        },
+        {
+          "date": "2008-06-11",
+          "date_latest": "2008-06-11",
+          "date_precision": "day",
+          "text": "A Moroccan court convicted a cell of 29 recruiters and sentenced them to prison."
+        },
+        {
+          "date": "2008-07-02",
+          "date_latest": "2008-07-02",
+          "date_precision": "day",
+          "text": "Moroccan forces arrested 35 Al Qaeda recruiters."
+        },
+        {
+          "date": "2008-07-14",
+          "date_latest": "2008-07-14",
+          "date_precision": "day",
+          "text": "A leader of Al-Qaida in Algeria was killed in a security forces raid."
+        },
+        {
+          "date": "2008-07-23",
+          "date_latest": "2008-07-23",
+          "date_precision": "day",
+          "text": "A suicide bomber on a motorcycle blew himself up, injuring 13 members of a military convoy in Lakhdaria, Algeria."
+        },
+        {
+          "date": "2008-08-03",
+          "date_latest": "2008-08-03",
+          "date_precision": "day",
+          "text": "A suicide bomber directed a vehicle against a police station in Tizi Ouzou, Algeria, injuring 25 people."
+        },
+        {
+          "date": "2008-08-08",
+          "date_latest": "2008-08-08",
+          "date_precision": "day",
+          "text": "The Algerian army killed 12 jihadists in an ambush near Beni Douala, Algeria."
+        },
+        {
+          "date": "2008-08-10",
+          "date_latest": "2008-08-10",
+          "date_precision": "day",
+          "text": "A suicide bomber drove a van loaded with explosives into the gendarmerie brigade in Boumerdès, Algeria, killing eight people and injuring 19."
+        },
+        {
+          "date": "2008-08-19",
+          "date_latest": "2008-08-19",
+          "date_precision": "day",
+          "text": "A suicide car-bomber attacked a police academy in Les Issers as recruits lined up in front of the building, 43 people were killed, only one of them a policeman. This attack was officially condemned by the United Nations Security Council."
+        },
+        {
+          "date": "2008-08-20",
+          "date_latest": "2008-08-20",
+          "date_precision": "day",
+          "text": "2 car bombs exploded at a hotel in Bouira killing 11 civilians a day after the car bomb attack in Les Issers."
+        },
+        {
+          "date": "2008-09-14",
+          "date_latest": "2008-09-14",
+          "date_precision": "day",
+          "text": "12 Mauritanian soldiers were killed in an ambush in the village of Tourine in northern Mauritania."
+        },
+        {
+          "date": "2009-01-19",
+          "date_latest": "2009-01-19",
+          "date_precision": "day",
+          "text": "The bubonic plague infected and killed at least 40 members of AQIM in a training camp."
+        },
+        {
+          "date": "2009-01-22",
+          "date_latest": "2009-01-22",
+          "date_precision": "day",
+          "text": "Gunmen abducted a Swiss couple, a German woman, and a British man in Niger. In February, Al-Qaeda in the Maghreb claimed to have abducted the four tourists as well as Canadian diplomat Robert Fowler in December. Fowler and three others were released in April while the British man, Edwin Dyer, was executed in June."
+        },
+        {
+          "date": "2009-02-22",
+          "date_latest": "2009-02-22",
+          "date_precision": "day",
+          "text": "Militants attack a gas installation at the Ziama Mansouriah commune in the coastal province of Jijel, killing 9 security guards in the deadliest strike since August."
+        },
+        {
+          "date": "2009-06-17",
+          "date_latest": "2009-06-17",
+          "date_precision": "day",
+          "text": "18 gendarmerie troops and a civilian were killed in an attack on a military convoy near Bordj Bou Arréridj, about 125 mi southeast of Algiers. Local sources said that the soldiers were returning after escorting to base a group of Chinese workers building the future motorway intended to cross the whole of the north African country from east to west."
+        },
+        {
+          "date": "2009-06-23",
+          "date_latest": "2009-06-23",
+          "date_precision": "day",
+          "text": "American aid worker and teacher Christopher Leggett, was shot and killed in Nouakchott, Mauritania, by gunmen near his workplace. AQIM claimed responsibility, citing accusations of proselytizing."
+        },
+        {
+          "date": "2009-07-30",
+          "date_latest": "2009-07-30",
+          "date_precision": "day",
+          "text": "At least 14 Algerian security guards were killed in an ambush by alleged Islamic fighters."
+        },
+        {
+          "date": "2009-08-09",
+          "date_latest": "2009-08-09",
+          "date_precision": "day",
+          "text": "2009 Nouakchott suicide bombing."
+        },
+        {
+          "date": "2009-10-08",
+          "date_latest": "2009-10-08",
+          "date_precision": "day",
+          "text": "2 brothers suspected of links to AQIM were arrested in France. One of the two was a CERN researcher."
+        },
+        {
+          "date": "2009-11-26",
+          "date_latest": "2009-11-26",
+          "date_precision": "day",
+          "text": "Frenchman Pierre Camatte was kidnapped in Ménaka, Mali by al-Qaeda."
+        },
+        {
+          "date": "2009-11-29",
+          "date_latest": "2009-11-29",
+          "date_precision": "day",
+          "text": "Spanish aid workers Roque Pascual, Albert Vilalta, and Alicia Gamez were kidnapped on a coastal road in Mauritania. Gamez was released in March 2010, while Pascual and Vilalta was released in August 2010."
+        },
+        {
+          "date": "2009-12-19",
+          "date_latest": "2009-12-19",
+          "date_precision": "day",
+          "text": "An Italian and his wife from Burkina Faso were kidnapped in eastern Mauritania. They were released on April 19, 2010.",
+          "names_later_date": true
+        },
+        {
+          "date": "2009-12-28",
+          "date_latest": "2009-12-28",
+          "date_precision": "day",
+          "text": "3 Saudi tourists were killed and 3 others injured in an attack near Djambala, Niger. A fourth Saudi died two days later."
+        },
+        {
+          "date": "2010-01-29",
+          "date_latest": "2010-01-29",
+          "date_precision": "day",
+          "text": "A bomb exploded at the passage of a freight train loan Timezrit. Nobody was injured."
+        },
+        {
+          "date": "2010-03-08",
+          "date_latest": "2010-03-08",
+          "date_precision": "day",
+          "text": "At least 5 soldiers were killed close to Niger's border with Mali, in a sunrise ambush in which rebels attacked a convoy with rockets and machine gun fire at an isolated border post."
+        },
+        {
+          "date": "2010-03-21",
+          "date_latest": "2010-03-21",
+          "date_precision": "day",
+          "text": "3 militants were killed by security forces near El Ma Labiod, 35 km from Tebessa."
+        },
+        {
+          "date": "2010-03-25",
+          "date_latest": "2010-03-25",
+          "date_precision": "day",
+          "text": "2 soldiers were killed and five others wounded in an attack in the city of Kadiria."
+        },
+        {
+          "date": "2010-03-26",
+          "date_latest": "2010-03-26",
+          "date_precision": "day",
+          "text": "3 militants were killed while another was captured by security forces in Ait Yahia Moussa, 30 km from Tizi Ouzou."
+        },
+        {
+          "date": "2010-04-01",
+          "date_latest": "2010-04-01",
+          "date_precision": "day",
+          "text": "A bomb attack against a taxi killed 2 people in Tizi-Ouzou. Another attack against a police patrol resulted in no injuries."
+        },
+        {
+          "date": "2010-04-03",
+          "date_latest": "2010-04-03",
+          "date_precision": "day",
+          "text": "7 security officers and a soldier were killed in a double bomb attack in the region of Béjaïa. 2 other soldiers were wounded in the second explosion."
+        },
+        {
+          "date": "2010-04-14",
+          "date_latest": "2010-04-14",
+          "date_precision": "day",
+          "text": "According to Algerian officials, at least 10 militants were killed since a counter-terrorist operation started in Bordj Bou Arreridj raion. The operation is ongoing. Top militant Abdelmalek Droukdel could be surrounded with other militants, a military spokesman said."
+        },
+        {
+          "date": "2010-04-23",
+          "date_latest": "2010-04-23",
+          "date_precision": "day",
+          "text": "At least 9 policemen were killed and another was slightly wounded when a bomb exploded in Irraguern (between Béjaïa and Jijel) while they were passing by. No other details have been reported."
+        },
+        {
+          "date": "2010-04-28",
+          "date_latest": "2010-04-28",
+          "date_precision": "day",
+          "text": "A fierce gunbattle between Algerian army and a group of militants occurred near Tidjellabine (2 km from Boumerdes). It is known that one soldier was killed, but the counter-terrorist operation was still going on according to Algerian officials."
+        },
+        {
+          "date": "2010-05-02",
+          "date_latest": "2010-05-02",
+          "date_precision": "day",
+          "text": "One militant was killed in a clash with Algerian forces in a forest between Akfadou and Adekar. \"He was wearing an old military jacket (...) he was killed on the spot\" a military spokesman said. \"The counter-terrorist operation is still going on\" he added. This heavily forested area is often the scene of clashes between militants from Al Qaeda in the Islamic Maghreb (AQIM, former GSPC) and Algerian army."
+        },
+        {
+          "date": "2010-05-04",
+          "date_latest": "2010-05-04",
+          "date_precision": "day",
+          "text": "3 militants, including the emir of \"Takhoukht Jamaat\" Zakaria Abdelkahar, were killed by security forces in Draa El Mizen (45 km from Tizi-Ouzou). It was reported that the authorities demanded them to stop their car and to surrender, but they refused and were killed. Several weapons and a large amount of ammunition were discovered in the car. No other details have been reported."
+        },
+        {
+          "date": "2010-05-09",
+          "date_latest": "2010-05-09",
+          "date_precision": "day",
+          "text": "2 people including a child were killed in an ambush in Kabylie. Another person is missing."
+        },
+        {
+          "date": "2010-06-07",
+          "date_latest": "2010-06-07",
+          "date_precision": "day",
+          "text": "2 people were killed and a third critically injured in a bomb attack near Derguina."
+        },
+        {
+          "date": "2010-06-11",
+          "date_latest": "2010-06-11",
+          "date_precision": "day",
+          "text": "A suicide car bomb directed by a suicide bomber against a fixed barrier of the gendarmerie in Ammal resulted in 8 dead, including 3 policemen, four civilians and a Chinese national. Thus a score of wounded including 10 policemen and 10 civilians. At least three terrorists were killed during the violent clash that occurred after the blast."
+        },
+        {
+          "date": "2010-06-24",
+          "date_latest": "2010-06-24",
+          "date_precision": "day",
+          "text": "5 people were killed and one wounded by gunfire during a wedding at douar Ghrab near Tébessa."
+        },
+        {
+          "date": "2010-07-01",
+          "date_latest": "2010-07-01",
+          "date_precision": "day",
+          "text": "11 policemen were killed in an ambush in the city of Tinzaouatine. This attack was claimed by AQIM."
+        },
+        {
+          "date": "2010-07-04",
+          "date_latest": "2010-07-04",
+          "date_precision": "day",
+          "text": "3 policemen killed by a bomb on a road near Jijel by suspected Islamists."
+        },
+        {
+          "date": "2010-07-14",
+          "date_latest": "2010-07-14",
+          "date_precision": "day",
+          "text": "4 soldiers were killed and 13 others wounded in several bomb attacks."
+        },
+        {
+          "date": "2010-07-22",
+          "date_latest": "2010-07-22",
+          "date_precision": "day",
+          "text": "Six militants were killed in a Franco-Mauritanian raid against a camp of Al-Qaeda in Mali to try to free the hostage Michel Germaneau."
+        },
+        {
+          "date": "2010-07-25",
+          "date_latest": "2010-07-25",
+          "date_precision": "day",
+          "text": "One person was killed and 10 wounded in a suicide attack against a police brigade in Tizi-Ouzou, Algeria."
+        },
+        {
+          "date": "2010-07-26",
+          "date_latest": "2010-07-26",
+          "date_precision": "day",
+          "text": "A few days after AQIM claimed he was executed in reprisal against the French-Mauritanian raid, the French president confirms the death of 78-year-old French volunteer aid worker Michel Germaneau, who had been kidnapped on April 21. It cannot be ruled out that he died as a result of running out of heart drugs."
+        },
+        {
+          "date": "2010-08-07",
+          "date_latest": "2010-08-07",
+          "date_precision": "day",
+          "text": "The mayor of the town of Baghlia, Mohammed Idir, was murdered when he went to the mosque."
+        },
+        {
+          "date": "2010-08-20",
+          "date_latest": "2010-08-20",
+          "date_precision": "day",
+          "text": "An attack against a military convoy near Baghlia killed 13 people and injured at least two."
+        },
+        {
+          "date": "2010-08-22",
+          "date_latest": "2010-08-22",
+          "date_precision": "day",
+          "text": "A former terrorist was assassinated by bullets in the town of Baghlia in Algeria."
+        },
+        {
+          "date": "2010-08-25",
+          "date_latest": "2010-08-25",
+          "date_precision": "day",
+          "text": "AQIM carried out a suicide car bombing against a Mauritanian military barracks in Néma, injuring three soldiers."
+        },
+        {
+          "date": "2010-08-30",
+          "date_latest": "2010-08-30",
+          "date_precision": "day",
+          "text": "A suicide car bomb against a military convoy left 3 dead and at least 20 wounded in the town of Zemmouri in Kabylie."
+        },
+        {
+          "date": "2010-09-16",
+          "date_latest": "2010-09-16",
+          "date_precision": "day",
+          "text": "Gunmen abduct five Frenchmen, a Togolese, and a Malagasy from a uranium mine in northern Niger."
+        },
+        {
+          "date": "2010-09-17",
+          "date_latest": "2010-09-17",
+          "date_precision": "day",
+          "text": "A battle between Mauritanian army and members of Al-Qaeda killed at least 6 members of the army and 12 militants."
+        },
+        {
+          "date": "2010-10-03",
+          "date_latest": "2010-10-03",
+          "date_precision": "day",
+          "text": "Five soldiers were killed and ten others injured in a bomb attack against their convoy in Zekri, a town of Kabylie, during a search operation.",
+          "duplicate_of": "Insurgency in the Maghreb (2002–present)"
+        },
+        {
+          "date": "2010-10-12",
+          "date_latest": "2010-10-12",
+          "date_precision": "day",
+          "text": "A departmental head in public works, his two collaborators and two contractors were killed in a bomb attack in Tlidjene."
+        },
+        {
+          "date": "2010-10-25",
+          "date_latest": "2010-10-25",
+          "date_precision": "day",
+          "text": "1 soldier was killed and four others wounded by a bomb explosion in the passage their patrol in the Boumerdes region."
+        },
+        {
+          "date": "2011-01-04",
+          "date_latest": "2011-01-04",
+          "date_precision": "day",
+          "text": "An attack against the embassy of France in Mali's capital Bamako resulting in 1 injuries. This is the first such attack on Malian territory."
+        },
+        {
+          "date": "2011-01-07",
+          "date_latest": "2011-01-07",
+          "date_precision": "day",
+          "text": "Two French citizens were kidnapped in Niamey, Niger and died in Mali while French troops were attempting to rescue them. AQIM declared on 15 January that it had executed one of them while the other one was killed by the French military. A post-mortem examination established that one of them received a direct shot, while the other one was killed by the \"thermal effects of fire\"."
+        },
+        {
+          "date": "2011-01-29",
+          "date_latest": "2011-01-29",
+          "date_precision": "day",
+          "text": "A member of the municipal guard was killed and three others wounded in an attack against the headquarters of the communal guard in the southwest of Tizi Ouzou."
+        },
+        {
+          "date": "2011-02-01",
+          "date_latest": "2011-02-01",
+          "date_precision": "day",
+          "text": "AQIM attempted a coordinated truck-bomb attack in Nouakchott targeting the president and the French Embassy, but Mauritanian forces intercepted the vehicles and stopped the plot, killing the attackers."
+        },
+        {
+          "date": "2011-03-09",
+          "date_latest": "2011-03-09",
+          "date_precision": "day",
+          "text": "An attack near Djelfa left 5 dead, in what appeared to be a response to the death of Abou Tourab, a leader of AQIM."
+        },
+        {
+          "date": "2011-04-17",
+          "date_latest": "2011-04-17",
+          "date_precision": "day",
+          "text": "20 Algerian soldiers were killed and twenty-two injured in three attacks claimed by Al Qaeda. Eleven militants were also killed."
+        },
+        {
+          "date": "2011-04-28",
+          "date_latest": "2011-04-28",
+          "date_precision": "day",
+          "text": "2011 Marrakesh bombing. A remote controlled bomb explode in Argana café, on Jemaa el-Fnaa square. Amongst the dead are 7 French national, 2 Canadians and a Dutch."
+        },
+        {
+          "date": "2011-04-29",
+          "date_latest": "2011-04-29",
+          "date_precision": "day",
+          "text": "The explosion of a bomb in the town of Oued Djemaa has killed five communal guards who went to their place of work."
+        },
+        {
+          "date": "2011-05-04",
+          "date_latest": "2011-05-04",
+          "date_precision": "day",
+          "text": "Four policemen were killed in a bomb attack on the road between Tizi-Ouzou, the main town of Kabylie, in Algiers the capital of the country."
+        },
+        {
+          "date": "2011-05-06",
+          "date_latest": "2011-05-06",
+          "date_precision": "day",
+          "text": "A bomb that exploded at the passage of a military convoy killed five soldiers and wounded five other in a region of Jijel. Since April 15 and the address to the nation of Abdelaziz Bouteflika there were fifty deaths in Islamist attacks."
+        },
+        {
+          "date": "2011-05-06",
+          "date_latest": "2011-05-06",
+          "date_precision": "day",
+          "text": "Three soldiers were killed and two others wounded by gunmen in the region of Jijel. One was initially killed by firing a gun, the others were killed by a bomb attack."
+        },
+        {
+          "date": "2011-05-12",
+          "date_latest": "2011-05-12",
+          "date_precision": "day",
+          "text": "Seven soldiers were killed and three terrorists killed in an attack against a military outpost in the region of Jijel, Algeria. An eighth member is missing and two were wounded in the attack with machine guns and Assault rifles, perpetrated in Tizrarane."
+        },
+        {
+          "date": "2011-06-24",
+          "date_latest": "2011-06-24",
+          "date_precision": "day",
+          "text": "Malian and Mauritanian forces launch a joint offensive against AQIM positions in the Wagadou Forest near Nara, Mali, destroying a jihadist base and killing multiple militants."
+        },
+        {
+          "date": "2011-07-05",
+          "date_latest": "2011-07-05",
+          "date_precision": "day",
+          "text": "Clashes between Mauritanian forces and AQIM near Bassikounou, Mauritania, resulting in militant casualties and detainees."
+        },
+        {
+          "date": "2011-07-16",
+          "date_latest": "2011-07-16",
+          "date_precision": "day",
+          "text": "Four people were killed and twenty injured in attacks, including two attacks by suicide bombers in the east of Algiers. In addition near the Tunisian border, two gunmen were killed."
+        },
+        {
+          "date": "2011-08-14",
+          "date_latest": "2011-08-14",
+          "date_precision": "day",
+          "text": "A suicide bombing against a police station injured more than 30 in the city of Tizi Ouzou, Similarly, two people were killed in a double bomb attack targeting a police station in Bordj Menaiel."
+        },
+        {
+          "date": "2011-08-17",
+          "date_latest": "2011-08-17",
+          "date_precision": "day",
+          "text": "A soldier was killed and five injured in a bomb attack in the town of Thenia."
+        },
+        {
+          "date": "2011-08-22",
+          "date_latest": "2011-08-22",
+          "date_precision": "day",
+          "text": "A soldier was killed and two others wounded in the explosion of a roadside bomb in Taourga. In addition, two officers from the Hasnaoui were murdered and a young civilian was hit by bullets."
+        },
+        {
+          "date": "2011-08-24",
+          "date_latest": "2011-08-24",
+          "date_precision": "day",
+          "text": "One militant was wounded and policemen recovered two Kalashnikovs in a clash near Tizi-Ouzou."
+        },
+        {
+          "date": "2011-08-27",
+          "date_latest": "2011-08-27",
+          "date_precision": "day",
+          "text": "A suicide attack against the Military Academy Cherchell, a hundred kilometers west of Algiers, killed 18 people, 16 officers and two civilians and wounded 20 others. The attack occurred less than ten minutes after breaking the fast of Ramadan."
+        },
+        {
+          "date": "2011-09-27",
+          "date_latest": "2011-09-27",
+          "date_precision": "day",
+          "text": "5 men suspected of funding AQIM were arrested by Spanish police. Since 2004, over 400 suspected AQIM members have been arrested by Spain."
+        },
+        {
+          "date": "2011-10-23",
+          "date_latest": "2011-10-23",
+          "date_precision": "day",
+          "text": "Two Spaniards and an Italian were abducted near Tindouf in western Algeria. The Spaniards were identified as Ainhoa Fernandez de Rincon, a pro-Sahrawi activist, and Enric Gonyalons, a member of the Basque non-profit group Mundubat. The Italian was named as Rossella Urru from Rome-based Comitato Italiano Sviluppo dei Popoli. The three were freed on July 18, 2012.",
+          "names_later_date": true
+        },
+        {
+          "date": "2011-11-23",
+          "date_latest": "2011-11-23",
+          "date_precision": "day",
+          "text": "Gunmen kidnapped two French workers in Hombori, Mali."
+        },
+        {
+          "date": "2011-11-25",
+          "date_latest": "2011-11-25",
+          "date_precision": "day",
+          "text": "Gunmen killed a German tourist and kidnapped a Swede, a Dutchman and a British/South African in Timbuktu, Mali."
+        },
+        {
+          "date": "2011-12-20",
+          "date_latest": "2011-12-20",
+          "date_precision": "day",
+          "text": "Militants from AQIM attacked a Mauritanian gendarmerie post in Adel Bagrou and kidnapped a gendarme."
+        },
+        {
+          "date": "2012-01-16",
+          "date_latest": "2012-01-16",
+          "date_precision": "day",
+          "text": "The start of the Mali Civil War."
+        },
+        {
+          "date": "2013-01-16",
+          "date_latest": "2013-01-16",
+          "date_precision": "day",
+          "text": "In Aménas hostage crisis in Algeria."
+        },
+        {
+          "date": "2014-04-19",
+          "date_latest": "2014-04-19",
+          "date_precision": "day",
+          "text": "AQIM militants killed eleven soldiers in the Tizi Ouzou region of Algeria, east of Algiers. It was one of the deadliest attacks on the Algerian military in several years."
+        },
+        {
+          "date": "2014-09-14",
+          "date_latest": "2014-09-14",
+          "date_precision": "day",
+          "text": "Jund al-Khilafah leader Khaled Abu-Suleiman announces the group's split from al-Qaeda in the Islamic Maghreb, and pledges allegiance to Abu Bakr al-Baghdadi, leader of the Islamic State."
+        },
+        {
+          "date": "2014-09-21",
+          "date_latest": "2014-09-21",
+          "date_precision": "day",
+          "text": "Hervé Gourdel is abducted by Jund al-Khilafah in the Djurdjura National Park in Algeria."
+        },
+        {
+          "date": "2014-09-22",
+          "date_latest": "2014-09-22",
+          "date_precision": "day",
+          "text": "Jund al-Khilafah releases a video showing Hervé Gourdel being held captive. The group stated that the kidnapping was in response to France conducting Airstrikes against \"Islamic State\" and threatened to behead him if France continued to carry out airstrikes against IS."
+        },
+        {
+          "date": "2014-09-24",
+          "date_latest": "2014-09-24",
+          "date_precision": "day",
+          "text": "The group releases a video purporting to show the beheading of Hervé Gourdel. The militants shown stated that the beheading was in response to the order of IS spokesman Abu Mohammed al-Adnani, in which he called on followers to attack citizens of member nations of the anti-IS coalition."
+        },
+        {
+          "date": "2014-10-01",
+          "date_latest": "2014-10-31",
+          "date_precision": "month",
+          "text": "One of the Jund al-Khilafah militants responsible for the beheading of Hervé Gourdel was killed in an Algerian military operation in October."
+        },
+        {
+          "date": "2014-12-11",
+          "date_latest": "2014-12-11",
+          "date_precision": "day",
+          "text": "The Algerian justice ministry states that Algerian soldiers had killed two Jund al-Khilafah members believed to have been involved in the murder of Hervé Gourdel."
+        },
+        {
+          "date": "2014-12-20",
+          "date_latest": "2014-12-20",
+          "date_precision": "day",
+          "text": "Algerian soldiers kill three Jund al-Khilafah members in the mountains near Sidi Daoud."
+        },
+        {
+          "date": "2014-12-22",
+          "date_latest": "2014-12-22",
+          "date_precision": "day",
+          "text": "Jund al-Khilafah leader Abdelmalek Gouri and two other militants were killed by the Algerian army in a military operation in Issers. Afterwards, troops recovered two automatic rifles, explosive belts, and a large amount of ammunition and mobile phones."
+        },
+        {
+          "date": "2015-03-19",
+          "date_latest": "2015-03-19",
+          "date_precision": "day",
+          "text": "The Bardo National Museum attack in Tunis killed 21, mostly foreign tourists."
+        },
+        {
+          "date": "2015-03-28",
+          "date_latest": "2015-03-28",
+          "date_precision": "day",
+          "text": "Tunisian Special Forces killed Khaled Chaieb, leader of Okba Ibn Nafaa Brigade along with 8 more militants in Sidi Aïch, Gafsa Governorate south west of Tunisia."
+        },
+        {
+          "date": "2015-04-28",
+          "date_latest": "2015-04-28",
+          "date_precision": "day",
+          "text": "The Algerian military killed 5 Jund al-Khilafah militants, in an ambush in the region of Tizi Ouzou, east of Algiers."
+        },
+        {
+          "date": "2015-05-20",
+          "date_latest": "2015-05-20",
+          "date_precision": "day",
+          "text": "Algerian security forces ambushed a Jund al-Khilafah meeting east of Algiers, killing at least 21 fighters and capturing two others."
+        },
+        {
+          "date": "2015-06-26",
+          "date_latest": "2015-06-26",
+          "date_precision": "day",
+          "text": "The Sousse attacks at the resort at Port El Kantaoui killed 39 European tourists, mostly British citizens."
+        },
+        {
+          "date": "2015-07-17",
+          "date_latest": "2015-07-17",
+          "date_precision": "day",
+          "text": "At least 9 Algerian soldiers were killed in an ambush by AQIM militants in the south of Aïn Defla province, southwest of Algiers."
+        },
+        {
+          "date": "2015-11-25",
+          "date_latest": "2015-11-25",
+          "date_precision": "day",
+          "text": "IS has claimed responsibility for bombing a bus carrying members of Tunisia's presidential guard killing 12."
+        },
+        {
+          "date": "2016-01-04",
+          "date_latest": "2016-01-04",
+          "date_precision": "day",
+          "text": "7 Libyan guards were killed and 25 wounded at the oil port of Es Sider."
+        },
+        {
+          "date": "2016-01-07",
+          "date_latest": "2016-01-07",
+          "date_precision": "day",
+          "text": "47–70 People are killed and dozens more injured when explosions were set off at a Libyan Coast Guard training camp in the city of Zliten."
+        },
+        {
+          "date": "2016-02-20",
+          "date_latest": "2016-02-20",
+          "date_precision": "day",
+          "text": "Jund al-Khilafah claimed to have killed three Algerian soldiers in Mount Shakshut in Bouira in late February. This claim was denied by the Algerian government."
+        },
+        {
+          "date": "2016-03-07",
+          "date_latest": "2016-03-07",
+          "date_precision": "day",
+          "text": "Morocco's Interior Ministry says it dismantled a five-member IS group cell planning to detonate explosives in crowded public spaces. Also 43 militants, one soldier and four citizens they killed and six militants arrested after IS in Libya Jihadists attacked a border town in Libya-Tunisia border."
+        },
+        {
+          "date": "2016-03-09",
+          "date_latest": "2016-03-09",
+          "date_precision": "day",
+          "text": "10 militants and 1 soldier killed in the ongoing raid of Libyan-Tunisian border. Also, the African Union confirmed that will send a mission to northern Mali in the next of the months to look into setting up a counter-terrorism force to support vulnerable U.N. peacekeepers."
+        },
+        {
+          "date": "2016-03-10",
+          "date_latest": "2016-03-10",
+          "date_precision": "day",
+          "text": "Three IS fighters are killed in Libya-Tunisia border during ongoing classes."
+        },
+        {
+          "date": "2016-03-18",
+          "date_latest": "2016-03-18",
+          "date_precision": "day",
+          "text": "A gas facility in the Algerian desert has been attacked by AQIM, though no one was hurt, Norwegian oil giant Statoil has said."
+        },
+        {
+          "date": "2016-03-24",
+          "date_latest": "2016-03-24",
+          "date_precision": "day",
+          "text": "Morocco captured 9 operatives of Islamic State – Libya Province inside the Moroccan territory."
+        },
+        {
+          "date": "2016-03-28",
+          "date_latest": "2016-03-28",
+          "date_precision": "day",
+          "text": "18 Algerian soldiers killed in an airplane crash in the Tamanrasset region. It is unknown if the crash was because of terrorist attack or a technical problem."
+        },
+        {
+          "date": "2016-03-31",
+          "date_latest": "2016-03-31",
+          "date_precision": "day",
+          "text": "AQIM in Tunisia, has claimed an attack on Tunisian border guards near the town of Bouchebka on the Algerian border, wounding some soldiers. A Mali intelligence spokesman says special forces have arrested a jihadi leader close to Islamic extremist group Ansar Dine in southern Mali."
+        },
+        {
+          "date": "2016-04-05",
+          "date_latest": "2016-04-05",
+          "date_precision": "day",
+          "text": "4 AQIM soldiers killed in Algeria near the Tunisian border.",
+          "duplicate_of": "Insurgency in the Maghreb (2002–present)"
+        },
+        {
+          "date": "2016-04-18",
+          "date_latest": "2016-04-18",
+          "date_precision": "day",
+          "text": "Spanish police said they had detained a Moroccan man in the Mediterranean island resort of Palma de Mallorca suspected of recruiting militants for IS."
+        },
+        {
+          "date": "2016-04-29",
+          "date_latest": "2016-04-29",
+          "date_precision": "day",
+          "text": "Algerian government said that it killed five AQIM fighters in two separate raid in eastern Algeria."
+        },
+        {
+          "date": "2016-05-06",
+          "date_latest": "2016-05-06",
+          "date_precision": "day",
+          "text": "Tunisian forces capture 9 AQIM militants in the Tunisian countryside."
+        },
+        {
+          "date": "2016-05-07",
+          "date_latest": "2016-05-07",
+          "date_precision": "day",
+          "text": "Brother of Abdelhamid Abaaoud jailed by Morocco court over terrorist accusations."
+        },
+        {
+          "date": "2016-05-11",
+          "date_latest": "2016-05-11",
+          "date_precision": "day",
+          "text": "Two suspected ISIL members killed along with four Tunisian soldiers after a raid on Tunisian capital."
+        },
+        {
+          "date": "2016-08-29",
+          "date_latest": "2016-08-29",
+          "date_precision": "day",
+          "text": "In Atlas Mountains nearby Algeria 3 Tunisian soldiers were killed and 7 others wounded by AQIM militants"
+        },
+        {
+          "date": "2016-10-09",
+          "date_latest": "2016-10-09",
+          "date_precision": "day",
+          "text": "In Tamalous, Algeria IS militants detonated an explosive device adjacent to the army convoy as it passed near Tamalous town in northeastern Algeria. It was not immediately clear whether the explosion caused any casualties."
+        },
+        {
+          "date": "2016-10-28",
+          "date_latest": "2016-10-28",
+          "date_precision": "day",
+          "text": "A police officer was killed by three assailants while eating in a restaurant in the Constantine District in Constantine Province, around 240 mi east of Algiers. Islamic State organization claimed responsibility for the attack."
+        },
+        {
+          "date": "2016-11-05",
+          "date_latest": "2016-11-05",
+          "date_precision": "day",
+          "text": "A Tunisian soldier has been killed in his home in Governorate Kasserine, Tunisia by extremists."
+        },
+        {
+          "date": "2016-12-02",
+          "date_latest": "2016-12-02",
+          "date_precision": "day",
+          "text": "Several women committed suicide bombings that killed four Libyan soldiers and two other women. The victims had previously granted them safe passage to leave buildings under the control of Islamic State militants in Sirte, Libya."
+        },
+        {
+          "date": "2016-12-05",
+          "date_latest": "2016-12-05",
+          "date_precision": "day",
+          "text": "Terrorists launched two suicide vehicles towards army lines. 9 soldiers were killed in Benghazi, Libya ."
+        },
+        {
+          "date": "2016-12-07",
+          "date_latest": "2016-12-07",
+          "date_precision": "day",
+          "text": "Terrorists launched a \"double-tap\" car bombing outside the Benghazi headquarters of Saiqa Special Force. The two blasts appear to have killed nobody outright but left 22 people injured."
+        },
+        {
+          "date": "2016-12-18",
+          "date_latest": "2016-12-18",
+          "date_precision": "day",
+          "text": "At least seven people were killed and eight wounded when a suicide bomber targeted forces loyal to Libya's eastern government in Benghazi."
+        },
+        {
+          "date": "2017-01-01",
+          "date_latest": "2017-01-01",
+          "date_precision": "day",
+          "text": "A bomb killed a child and injured 7 others in Blida, Algeria."
+        },
+        {
+          "date": "2017-01-20",
+          "date_latest": "2017-01-20",
+          "date_precision": "day",
+          "text": "A car bomb exploded on Friday near a mosque in Libya's second city of Benghazi, killing one person and wounding 13 people including a former interior minister, medical and security sources said."
+        },
+        {
+          "date": "2017-01-21",
+          "date_latest": "2017-01-21",
+          "date_precision": "day",
+          "text": "A car bomb exploded in Tripoli. The blast, which left at least two people dead, struck near the recently re-opened Italian embassy."
+        },
+        {
+          "date": "2017-02-26",
+          "date_latest": "2017-02-26",
+          "date_precision": "day",
+          "text": "Police killed a suicide bomber heading for their commissariat in Constantine, Algeria. The explosion of the explosive belt caused two wounded."
+        },
+        {
+          "date": "2017-03-12",
+          "date_latest": "2017-03-12",
+          "date_precision": "day",
+          "text": "A police officer and two militants were killed in a shootout at a checkpoint in southern Tunisia that left three other officers injured."
+        },
+        {
+          "date": "2017-05-07",
+          "date_latest": "2017-05-07",
+          "date_precision": "day",
+          "text": "Two fighters from Third Force of Libya were killed and three others were wounded in an IS attack."
+        },
+        {
+          "date": "2017-05-18",
+          "date_latest": "2017-05-18",
+          "date_precision": "day",
+          "text": "Brak al-Shati Airbase raid: At least 141 soldiers and civilians were killed in an attack in Southern Libya."
+        },
+        {
+          "date": "2017-05-19",
+          "date_latest": "2017-05-19",
+          "date_precision": "day",
+          "text": "The head of eastern Libya's largest tribe and other man were killed on Friday when a car bomb exploded outside a mosque on the outskirts of Benghazi, according to a Libyan security official."
+        },
+        {
+          "date": "2017-06-19",
+          "date_latest": "2017-06-19",
+          "date_precision": "day",
+          "text": "4 militants and 2 EU staff, including one Portuguese soldier, were killed in an engagement at Hotel Le Campement Kangaba, an official safe zone for the EU mission in the Malian capital of Bamako."
+        },
+        {
+          "date": "2018-01-20",
+          "date_latest": "2018-01-20",
+          "date_precision": "day",
+          "text": "A Tunisian special operations unit ambushed and killed two commanders of Okba Ibn Nafaa, AQIM's Tunisia branch, in the mountains outside Sbeitla, near the Algerian border. Tunisian authorities identified the men as Bilel Kobbi and Bechir Ben Neji."
+        },
+        {
+          "date": "2018-01-26",
+          "date_latest": "2018-01-26",
+          "date_precision": "day",
+          "text": "Algerian special forces killed eight AQIM commanders in the rugged mountainous area of Chechar in the eastern region of Khenchela. The men were said to have been en route to meet other jihadist leaders, including AQIM leader Abdelmalek Droukdel."
+        },
+        {
+          "date": "2019-07-14",
+          "date_latest": "2019-07-14",
+          "date_precision": "day",
+          "text": "Five people were arrested by the Algerian army during counterterrorist raids in Batna. Those arrested were accused of plotting attacks on the recent protests in the country."
+        },
+        {
+          "date": "2019-10-14",
+          "date_latest": "2019-10-14",
+          "date_precision": "day",
+          "text": "An Islamist stabbed to death a French tourist while wounding a Tunisian soldier in Bizerte, Tunisia."
+        },
+        {
+          "date": "2019-10-20",
+          "date_latest": "2019-10-20",
+          "date_precision": "day",
+          "text": "A leader of AQIM's Tunisian branch Okba Ibn Nafa'a was killed in the Kasserine region of Tunisia, on the border with Algeria."
+        },
+        {
+          "date": "2020-02-09",
+          "date_latest": "2020-02-09",
+          "date_precision": "day",
+          "text": "A suicide car bomb attack in Timiaouine, Algeria, left one Algerian soldier dead."
+        },
+        {
+          "date": "2020-03-06",
+          "date_latest": "2020-03-06",
+          "date_precision": "day",
+          "text": "Two militants on a motorbike blew themselves up outside the US embassy in Tunisia, killing a policeman and injuring five more."
+        },
+        {
+          "date": "2020-06-21",
+          "date_latest": "2020-06-21",
+          "date_precision": "day",
+          "text": "A security operation in Algeria's central region of Aïn Defla left one Algerian soldier dead following an ambush."
+        },
+        {
+          "date": "2020-06-27",
+          "date_latest": "2020-06-27",
+          "date_precision": "day",
+          "text": "A bomb exploded during a sweep operation by the Algerian military in Médéa Province, south of Algiers, killing two soldiers, including an officer."
+        },
+        {
+          "date": "2020-12-17",
+          "date_latest": "2020-12-17",
+          "date_precision": "day",
+          "text": "Algerian authorities captured Rezkane Ahcene, known as 'Abu Dahdah', who joined terrorist groups in 1994, in Jijel Province."
+        },
+        {
+          "date": "2021-01-02",
+          "date_latest": "2021-01-02",
+          "date_precision": "day",
+          "text": "Two Algerian military personnel and four militants were killed in a clash in Tipaza province."
+        },
+        {
+          "date": "2021-01-08",
+          "date_latest": "2021-01-08",
+          "date_precision": "day",
+          "text": "Tunisian authorities arrested five members including a senior leader from the Okba Ibn Nafaa brigade, part of al Qaeda."
+        },
+        {
+          "date": "2021-01-14",
+          "date_latest": "2021-01-14",
+          "date_precision": "day",
+          "text": "Five civilians were killed in the Telidjane district, Algeria when their car was hit with an IED and destroyed."
+        },
+        {
+          "date": "2021-02-03",
+          "date_latest": "2021-02-03",
+          "date_precision": "day",
+          "text": "Four Tunisian soldiers were killed when their vehicle hit a landmine near Mount Mghila on the Algerian border."
+        },
+        {
+          "date": "2023-03-05",
+          "date_latest": "2023-03-05",
+          "date_precision": "day",
+          "text": "Four jihadist prisoners, including members of AQIM, staged a deadly escape from Nouakchott Civil Prison, killing two guards and prompting a week-long national manhunt and mobile internet shutdown."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Mali War",
+      "pageid": 36856978,
+      "revid": 1371054676,
+      "revision_timestamp": "2026-08-24T09:19:34Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=36856978",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-01-31",
+          "date_precision": "month",
+          "text": "According to Stratfor, the first attack began on 16–17 January 2012 by MNLA militants against a military barracks and a national guard base in Menaka. The attack was thwarted by a government helicopter, forcing the attackers to retreat, though there were reports that Tuareg rebels led by Malian army defector Ag Assalat Habbi may still be in the Menaka area. Attacks continued on the morning of 17 January against the disorganized and under resourced government forces in the cities of Ménaka, Aguelhok, and Tessalit. Conflicting reports emerged regarding control of these locations during the clashes, with the Malian government releasing a statement on 20 January indicating that the three towns of Menaka, Aguelhoc, and Tessalit had been reclaimed. The strength of this uprising and the use of heavy weapons, which were not present in the previous conflicts, were said to have \"surprised\" Malian officials and observers. On 24 January, after cutting off supply lines for two days and receiving reinforcements, rebel forces managed to retake Aguelhok, either due to the Malian army's depletion of ammunition or as part of a tactical withdrawal intended to consolidate forces in Kidal. The following day, the Malian military, with the help of airstrikes, once again recaptured the town. Control of Aguelhok and other settlements continued to shift multiple times. In response to complaints from soldiers regarding inadequate supplies, poor strategic planning, and a sense of abandonment, the president attempted to reorganize his senior command. Communiqués emphasized the urgent need for a rapid recovery of lost territory. Mali launched air and land counter operations to take back the seized territory, amid protests in southern Mali due growing dissatisfaction over the government's handling of the rebellion. On 1 February, the MNLA took captured Ménaka, followed by Kidal on 6 February. In March, Ansar Dine emerged publicly through Malian social media, releasing a video showing its fighters taking over the military base at Aguelhok. In the video, the group's deputy leader, Cheikh Ag Aoussa, declared their objective of establishing Sharia law in Mali. Although the United States Air Force air-dropped supplies in support of the besieged Malian soldiers in Tessalit, several government units abandoned attempts to relieve them. A week later, they retreated to Algeria, leaving its base and the airport in rebel hands. In the end, a large number of government soldiers had been killed, captured, or deserted, and significant amounts of ammunition were either destroyed or captured by MNLA. The rebels advanced to about 125 kilometers away from Timbuktu and their advance was unchecked when they entered without fighting in the towns of Diré and Goundam. Ansar Dine stated that it had control of the Mali-Algeria border.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-01-31",
+          "date_precision": "month",
+          "text": "During the uncertainty following the coup, resistance put up by government forces in the north began to melt away, allowing the rebels to take over the three provincial capitals of Timbuktu, Kidal, and Gao from 30 March to 1 April. The speed and ease with which the rebels took control of the north was attributed in large part to the confusion created in the army's coup, leading Reuters to describe it as \"a spectacular own-goal\". Though the offensive ostensibly included both the MNLA and Ansar Dine, according to Jeremy Keenan of the University of London's School of Oriental and African Studies, Ansar Dine's military contribution was slight: \"What seems to happen is that when they move into a town, the MNLA take out the military base – not that there's much resistance – and Iyad [ag Aghaly] goes into town and puts up his flag and starts bossing everyone around about Sharia law.\" On 6 April 2012, stating that it had secured all of its desired territory, the MNLA declared independence from Mali, which was rejected as invalid by the African Union and the European Union. Acherif was made President of the Transitional Council of the State of Azawad. In total, at least 1,000 Malian soldiers had been killed, captured, or deserted.",
+          "names_later_date": true,
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2012-01-01",
+          "date_latest": "2012-01-31",
+          "date_precision": "month",
+          "text": "On 21 March 2012, soldiers displeased with the management of the rebellion attacked several locations in the capital Bamako, including the presidential palace, state television, and military barracks. The next morning, Captain Amadou Sanogo, the chairman of the new National Committee for the Restoration of Democracy and State (CNRDR), made a statement in which he announced that the junta had suspended Mali's constitution and taken control of the nation. The mutineers cited Touré's alleged poor handling of the insurgency and the lack of equipment for the Malian Army as their reasons for the rebellion. The CNRDR would serve as an interim regime until power could be returned to a new, democratically elected government. While the coup was widely supported by population, it was \"unanimously condemned\" by the international community, including by the United Nations Security Council, the African Union, and the Economic Community of West African States (ECOWAS), the latter of which on 27 March imposed sanctions, closed borders, and froze bank accounts, demanding that the coupers leave power before April 6. ECOWAS and the African Union also suspended Mali. The U.S., the World Bank, and the African Development Bank suspended development aid funds in support of ECOWAS and the AU's reactions to the coup. Côte d'Ivoire President Alassane Ouattara, who was the rotational chairman of ECOWAS, said that once the civilian government was restored an ECOWAS stand-by force of 2,000 soldiers could intervene against the rebellion. Burkina Faso's President Blaise Compaore was appointed as a mediator by ECOWAS to resolve the crisis. On the day of the deadline, the junta and ECOWAS reached an agreement in which both Sanogo and Touré would resign, sanctions would be lifted, the mutineers would be granted amnesty, and power would pass to National Assembly of Mali Speaker Dioncounda Traoré. Following Traoré's inauguration, he pledged to \"wage a total and relentless war\" on the Tuareg rebels unless they released their control of northern Malian cities. Despite this de jure transition, Sanogo seemed to remain the \"real\" head of state. In May, further military setbacks trigged protests in favor of a return to military rule, during which some government soldiers allowed protesters to burst into Traoré's office, where they \"grabbed him by the collar and beat him on the head into unconsciousness.\"",
+          "mentions_vote": true,
+          "names_later_date": true,
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2012-06-01",
+          "date_latest": "2012-06-30",
+          "date_precision": "month",
+          "text": "As soon as independence was declared, tensions emerged between the MNLA and jihadist groups due to differences in goals with their common enemy defeated. Tuareg nationalists sought to maintain an independent state, while the jihadist wished to spread Islamic rule to the rest of Mali and neighboring states. To avoid open conflict that would jeopardize their control over northern Mali, the MNLA and Ansar Dine entered negotiations in an attempt to reach a political settlement that would satisfy both parties. On 5 April 2012, Islamists, possibly from AQIM or MOJWA, entered the Algerian consulate in Gao and took hostages. The MNLA succeeded in negotiating their release without violence, and one MNLA commander said that the movement had decided to disarm other armed groups. On 8 April, a mostly Arab militia calling itself the National Liberation Front of Azawad (FNLA) announced its intention to oppose Tuareg rule, battle the MNLA, and \"return to peace and economic activity\"; the group claimed to consist of 500 fighters. On 26 April, this group briefly took over a part of the region, before withdrawing on the request of AQIM to avoid civilian deaths. Later, they split into several factions, including the pro-rebel MAA-Dissident and pro-government MAA-Tabankort. The MNLA clashed with protesters in Gao on 14 May, reportedly injuring four and killing one. On 26 May, the MNLA and Ansar Dine to sign a provisional plan make Azawad an Islamic state and merge the two groups into a single regular army. Less than a week later, the agreement was denounced by MNLA political leadership as a betrayal of its secular values, leading their representatives to walk back on the promises in the initial agreement. On 6 June, residents of Kidal protested against the imposition of Sharia in the town and in support of MNLA, protests which were violently dispersed by Ansar Dine members. The following day, the MNLA announced the formation of its own Transitional Council to govern Azawad, composed entirely of MNLA members. Ansar Dine condemned the move as a violation of the earlier Gao Agreement. The next day, the MNLA encouraged local women and youth to protest against Ansar Dine's implementation Sharia, leading to the two groups clashing in the city with automatic weapons. In early June, Nigerien president Mahamadou Issoufou stated that Afghan and Pakistani jihadists were training Touareg Islamist rebels.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2012-06-01",
+          "date_latest": "2012-06-30",
+          "date_precision": "month",
+          "text": "On 1 September, MOJWA took over the southern town of Douentza, which had previously been held by a Songhai secular militia, the Ganda Iso. A MOJWA spokesman said that the group had had an agreement with the Ganda Iso, but had decided to occupy the town when the militia appeared to be acting independently, and gained control of the town following a brief standoff with Ganda Iso. Once MOJWA troops surrounded the city, the militia reportedly surrendered without a fight and were disarmed. On 16 November, Tuareg MNLA forces launched an offensive against Gao in an attempt to retake the town. However, by the end of the day, the Tuaregs were beaten back by the MOJWA forces after the Islamists laid an ambush for them. A Malian security source said that at least a dozen MNLA fighters were killed while the Islamists suffered only one dead. An MNLA official stated that their forces killed 13 MOJWA fighters and wounded 17, while they suffered only nine wounded. On 19 November, MOJWA and AQIM forces took over the eastern town of Ménaka, which had previously been held by the MNLA, with dozens of fighters from both sides and civilians killed. On the first day of fighting, the MNLA claimed its forces killed 65 Islamist fighters, while they suffered only one dead and 13 wounded. The Islamists for their part stated they killed more than 100 MNLA fighters and captured 20. On 28 November, the AQIM took over Léré without major confrontation. By December, all urban areas had fallen into Islamist hands.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2012-06-01",
+          "date_latest": "2012-06-30",
+          "date_precision": "month",
+          "text": "in northern Mali]] Protests broke out on 26 June 2012 in the city of Gao, the majority of whose people are not Tuaregs, but rather sub-Saharan groups such as the Songhay and Fula peoples. The protestors opposed the Tuareg rebels and the partition of Mali. Two were killed as a result of the protests, allegedly by MNLA troops. The protesters used both Malian and Islamist flags, and France 24 reported that many locals supported the Islamists as a result of their opposition to the Tuareg nationalists and the secession of Azawad. The same day, this tension erupted into all-out combat in Gao between the MNLA and MOJWA, supported by ~100 Boko Haram militants, with both sides deploying heavy weaponry. MNLA Secretary General Acherif was wounded in the battle. The MNLA was soon driven from the city, and subsequently withdrew from Kidal and Timbuktu without resistance, following orders by Ansar Dine. Soon, the jihadist groups had seized control of nearly all of Azawad, with the exception of a few towns and isolated pockets still held by the MNLA and allied militias. Ghali was named emir of the state, with Abdelhamid Abou Zeid, commander of AQIM's Tariq ibn Ziyad brigade, serving as his second-in-command. Zeid also assumed the role of governor of Timbuktu, which came under the joint control of AQIM and the hardline faction of Ansar Dine. Kidal fell under the authority of the group's more moderate wing, while Gao was administered by MOJWA. By October 2012, the MNLA retained control of the city of Ménaka, with hundreds of people taking refuge in the city from the rule of the Islamists, and the city of Tinzawatene near the Algerian border. In the same month, a splinter group broke off from the MNLA; calling itself the Front for the Liberation of the Azawad (FPA), the group stated that Tuareg independence was no longer a realistic goal and that they must concentrate on fighting the Islamists.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-01-31",
+          "date_precision": "month",
+          "text": "Despite internal acknowledgment by jihadist leaders that they were too weak to expand, on 10 January 2013, emirate forces captured the strategic town of Konna, 600 km from the capital, from the Malian army. Later, an estimated 1,200 Islamist fighters advanced to within 20 kilometers of Mopti, a nearby Mali military garrison town. Abd al-Aziz Habib, one of the jihadist leaders in the Emirate, later explained in an interview that the offensive had two motives: as a response against repeated abuses of the Muslims, specifically the massacre of a group of Tablighi preachers by government forces in Diabaly in September 2012; and, more plausibly, as a preemptive strike against a Malian military buildup near Azawad's borders and the looming UN intervention. The planned deployment of AFISMA forces was not scheduled until September, leaving a window for the Islamists to seize strategically important territory. Abdelmalek Droukdel referred to the planned military intervention as \"France's proxy war,\" expressing an expectation that France would remain in the background while Mali's African neighbors carried out the bulk of the fighting, in line with the UN resolution. A direct French military intervention was therefore unexpected, and its launch significantly shortened the potential lifespan of the Emirate. The rapid offensive forced Traoré to seek help from France, which ordered the deployment of 4,000 troops and significant quantities of military equipment to Mali on 11 January as part of Operation Serval, aimed at halting the Islamist advance and launching a counteroffensive. The operation included the use of Gazelle helicopters from the Special forces, which stopped an Islamist column advancing to Mopti, and the use of four Mirage 2000-D jets of the Armée de l'Air operating from a base in Chad. Twelve targets were hit by the Mirages overnight between the 11th and the 12th. The French chief of army staff, Édouard Guillaud, announced that the Islamists had withdrawn from Konna and retreated several dozen of kilometres to the north. The air strikes reportedly destroyed half a dozen Islamist armed pick-up trucks and a rebel command center. One French pilot, Lieutenant Damien Boiteux, was killed after his attack helicopter was downed by ground fire during the operation. During the night of 11 January 2013, the Malian army, backed by French troops, claimed it had regained control of the town of Konna, and claimed to have killed over 100 Islamists. Afterwards, a Malian lieutenant said that mopping up operations were taking place around Konna. AFP witnesses had seen dozens of Islamist corpses around Konna, with one saying he counted 46 bodies. The French stated four rebel vehicles were hit by their airstrikes, while the Malian Army claimed nearly 30 vehicles were bombed. Several dozens of Malian soldiers and 10 civilians were also killed. A resident of Gao, the headquarters of the MOJWA, said that the city's hospital had been overwhelmed with dead and wounded. In all, one local resident counted 148 bodies around Konna. In the wake of the French deployment, ECOWAS said that it had ordered troops to be deployed immediately to Mali, the UN Security Council said that the previously planned UN-led force would be deployed in the near future, and the European Union said it had increased preparations for sending military training troops into Mali. On 12 January, the British government announced that it was deploying two Royal Air Force C-17 transport planes in a non-combat role to ferry primarily French but also potentially African forces into Mali. On 13 January, regional security sources announced the death in Konna of Abdel Krim, nicknamed \"Kojak\", a high level leader in the Ansar Dine group. French defense minister Le Drian said that new airstrikes were ongoing in Mali, had happened during the night and would happen the next day. A resident of Léré said that airstrikes had been conducted in the area. The airstrikes were concentrated on three areas, Konna, Léré and Douentza. Two helicopters were seen attacking Islamist positions in Gao. A dozen strikes targeted the city and its outskirts. A resident reported that all Islamist bases around Gao had been taken out of operation by the strikes. An Islamist base in Kidal was targeted by the French air force. French defence minister Le Drian, announced that four Rafale fighters had participated in the Gao airstrikes. They had left France and were based in Chad. It was reported that following the strikes that destroyed their bases, the MUJAO forces left Gao. Residents reported that 60 Islamists died in the Gao airstrikes. Others were hiding in the houses and picked up the dead bodies during the night. On 14 January, the Islamists attacked the city of Diabaly, 400 km north of Bamako in the government-held areas. They came from the Mauritanian border where they fled to avoid the airstrikes. The AQIM leader known as Abu Zeid was leading the operation. On the same day, Islamists pledged to launch attacks on French soil. On 15 January, the French defense minister confirmed that the Mali military had still not recaptured Konna from rebel forces, despite earlier claims. Meanwhile, the Royal Canadian Air Force dispatched a C-17 transport plane to Mali in a similar role as those of the British C-17s. The Danish Parliament decided to contribute a C-130 transport plane and the Belgian government made the decision to send two C-130s along with one Medical Component Agusta A109 Medevac medical evacuation helicopter along with 80 support personnel to Mali.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-01-31",
+          "date_precision": "month",
+          "text": "Following requests from both the Mali government and ECOWAS for foreign military intervention, on 12 October 2012 the United Nations Security Council unanimously, under Chapter VII of the United Nations Charter, passed a French resolution approving an African-led force to assist the army of Mali in combating the Islamist militants. The resolution gave 45 days for \"detailed and actionable recommendations\" for military intervention which would be drafted by ECOWAS and the African Union, with a figure of 3,000 proposed troops reported. A prior ECOWAS plan had been rejected by diplomats as lacking sufficient detail. While authorising the planning of force, and dedicating UN resources to this planning, UN Security Council Resolution 2071 does not authorize the deployment of force. However, UN Security Council Resolution 2085, passed on 20 December 2012, \"authorizes the deployment of an African-led International Support Mission in Mali (AFISMA) for an initial period of one year.\" On 8 January 2013, rebels were reported by Al Jazeera to have captured 12 Malian government troops near the town of Konna. On the same day, RFI reports that governmental troops fired warning shots and slightly progressed from Konna toward Douentza.",
+          "mentions_vote": true
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-01-31",
+          "date_precision": "month",
+          "text": "On 16 January, French special forces, along with the Malian army, began fighting small and mobile groups of jihadists inside the city of Diabaly, but the French defense minister denied the presence of French troops fighting in Diabaly. The government of Spain approved the dispatch of one transport aircraft to Mali for logistical and training support. Meanwhile, the government of Germany authorized the contribution of two Transall C-160 transport aircraft to ferry African troops into the capital Bamako. Likewise, the government of Italy pledged air transport-based logistical support. On 17 January, Banamba was put on alert after Islamists were reportedly spotted near the town. The Malian army immediately deployed 100 soldiers to the town, which were reinforced later. A convoy of Islamists reportedly left Diabaly and was heading towards Banamba, but ultimately no fighting took place in the town. On 18 January, the Malian Army released a statement claiming to have complete control of Konna. The claim was confirmed by residents of Konna and a spokesman for Ansar al-Dine. The same day, rebels were driven out of Diabaly according to multiple local sources. Reports came out on 19 January that residents of Gao had lynched Aliou Toure, a prominent Islamist leader and the MOJWA police commissioner of the city, in retaliation for the killing of a local journalist, Kader Toure. AFP cited local reports saying that the Islamists were beginning to leave other areas under their control to seek refuge in the mountainous and difficult-to-access Kidal Region. On the same day, two Nigerian soldiers were killed and five were injured by Islamists near the Nigerian town of Okene as they were heading toward Mali. On 20 January, the United States denied that they had attempted to bill the French for American support in the conflict. USAF C-17s began to fly in French troops and supplies the next day. On 21 January, French and Malian troops entered Diabaly without resistance. Douentza was also taken that day. On the evening of 24 January Malian soldiers took control of Hombori. On the same day a splinter group of Ansar al-Dine, calling itself the Islamic Movement of Azawad (MIA), stated that it wanted to seek a peaceful solution to the conflict and urged France and Mali to cease hostilities in the north in order \"to create a climate of peace which will pave the way for an inclusive political dialogue\". On 26 January, French Special Forces took over the airport and an important bridge in the city of Gao which remained largely Islamist-held. The troops reported \"harassment\" from Islamist forces but no solid resistance to their operations. The city was taken by a French-backed Malian force later that day. A new split happened in Ansar Dine, with one of its commanders in Léré, Kamou Ag Meinly, quitting the group and joining the MNLA. On 27 January, French and Malian forces encircled Timbuktu and began securing the city. After gaining the airport on 27 January, the next day, Malian and French military sources claimed that the entire area between Gao and Timbuktu was under government control and access to the city was available. The city was fully taken by French and Malian forces by the next day. On 28 January, the MNLA took control of Kidal with the help of the MIA, an Ansar Dine breakaway group that split after the international intervention. The MNLA also took control of the towns of Tessalit and Khalil. Apparently, fighters who had deserted the MNLA for the better financed Ansar Dine were now returning to the MNLA. Islamists were reported to have fled to the mountains. On 29 January, the first non-Malian African troops entered North Mali. Nigerien soldiers occupied Ansongo and Chadian troops, Ménaka. The more numerous Chadian Army was also reported as moving north from Ménaka in support of the Malian Army. On 30 January, French troops reached Kidal airport. No Malian soldiers were with them, as a confrontation with Tuaregs was feared. The town was reportedly under control of fighters from both the MNLA and MIA. The MNLA, however, denied any collaboration or even a desire to collaborate with the MIA, and stated that their fighters were maintaining control of the town alongside French forces. Many leaders of Ansar Dine left Iyad Ag Ghali. Delegations from the MNLA and MIA left for Ouagadougou to negotiate with Malian officials. On 2 February, Chadian troops from MISMA reached Kidal and were stationed in a deserted base in the city. Their general said that they had no problem with the MNLA and had good relations with them. On the same day, the French President, François Hollande, joined Traoré in a public appearance in recently recaptured Timbuktu. On 8 February, French and Chadian troops announced that they had occupied Tessalit near the Algerian border, the location of one of the last airports still not controlled by the Malian government and its allies.",
+          "duplicate_of": "Timeline of the Mali War"
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-01-31",
+          "date_precision": "month",
+          "text": "On 16 January, it was reported that a group of AQIM militants had crossed the border from Mali into Algeria and had captured an Algerian/Statoil/BP-owned natural gas field, In Aménas, near the border with Libya. The militants were reported to have killed two foreign nationals and were holding 41 foreign nationals hostage, and a spokesman for the group said that the purpose of the attack was to get revenge on the countries that had intervened in Mali. The hostages reportedly included several American, Japanese, British, Romanian, Filipino and Norwegian citizens. Algeria was reportedly negotiating with the militants to try and obtain the hostages' release. On 19 January, 11 militants and 7 hostages were killed in a final assault to end the standoff. In addition, 16 foreign hostages were freed, including 2 Americans, 2 Germans, and 1 Portuguese.",
+          "duplicate_of": "Insurgency in the Maghreb (2002–present)"
+        },
+        {
+          "date": "2013-01-01",
+          "date_latest": "2013-01-31",
+          "date_precision": "month",
+          "text": "The alliance between the Tuareg nationalists and jihadist groups severely damaged the international legitimacy of the broader Tuareg movement. As a result, by December, the now displaced MNLA began peace talks with the Malian government and relinquished its previous goal of Azawadi independence in favor of a request for self-rule within Mali. After the French entry in January 2013, the MNLA spokesman in Paris, Moussa Ag Assarid (who had criticized the splinter group FPA months earlier for giving up on independence) declared that the MNLA was \"ready to help\" their former opponents in the fight against the Islamists. At that time, the MNLA controlled no big localities and was only strong in rural and desert areas near the borders with Mauritania, Algeria and Niger, having been driven off from most of its claimed territory by Islamist groups. Soon, it would begin to support French and Chadian forces in restoring state authority to the cities in the north and in operations against their mountain strongholds, particularly with intelligence, while still opposing the Malian army."
+        },
+        {
+          "date": "2022-08-01",
+          "date_latest": "2022-08-31",
+          "date_precision": "month",
+          "text": "In August, negotiations resumed between the CSP and the junta to address the stalled implementation of the Algiers Accords and continue DDR talks. They agreed on the gradual integration of 26,000 CSP fighters into the national army, including the incorporation of senior CSP officers into the military hierarchy, which the CMA criticised due to the lack of clarity regarding the future roles of CSP commanders within the integrated units. Tensions between the parties escalated following the agreement. By December, the CSP withdrew from peace talks, accusing the junta of refusing to negotiate or implement the 2015 agreement, and inaction in response to escalating jihadist and state violence in northern cities, which had left hundreds dead and thousands displaced. Intensified Inter-Jihadist fighting over control of the north occurred between September 2022 and July 2023, before abating in August 2023."
+        },
+        {
+          "date": "2022-08-01",
+          "date_latest": "2022-08-31",
+          "date_precision": "month",
+          "text": "Throughout 2023, the transitional government consistently obstructed the CSP's efforts to activate the accord's international mediation framework, repeatedly rejecting Algerian offers to host dialogue sessions. Jihadists took advantage of the resulting deadlock, and later vacuum created by the departure of international forces, expanding their control over vast rural areas of the north. In February, the groups making up the CMA formally merged into a single organization. In June, Goïta further strengthened his control through a cabinet reshuffle and the adoption of a new constitution, which passed in a questionable referendum. The CSP, which prevented the referendum from taking place in its stronghold of Kidal, subsequently lost two of the four ministerial posts it previously held, which were reassigned to regime loyalists. On 16 June 2023, the junta requested that MINUSMA peacekeepers withdraw from Mali without delay. On 30 June 2023, the UN Security Council approved the request for the removal of peacekeepers. In July, MINUSMA, which at that point numbered 10,116 troops, started to transfer control of its 12 military bases to the Malian authorities. This sparked tensions between the government and the CSP, particularly over bases located at Ber and in the Kidal region, which they argued, under the accords, they were entitled to, even if small army units may be located there. They would not allow the army to take over the bases without prior negotiations. On 11 August, the CSP and junta forces, along with Wagner, clashed as they vied for control of the Ber base, from which MINUSMA had not yet fully withdrawn. The army seized the base two days later, following the departure of the last UN personnel. The next month, after previously accusing the junta and Wagner of multiple ceasefire and human rights violations, the CMA declared war on the government, leading to the Platform, with the exception of a GATIA faction led by Fahad Ag Almahmoud, leaving the CSP. Amidst the withdrawals, CSP forces continued to attack Mali and Wagner troops, temporarily seizing several military camps and posts across the north and shooting down multiple aircraft, including Mali's only Sukhoi Su-25. On 9 September, JNIM also claimed responsibility for shooting down a Mi-8 helicopter operated by PMC Wagner; visual evidence published by the group confirms the helicopter's destruction.",
+          "names_later_date": true
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

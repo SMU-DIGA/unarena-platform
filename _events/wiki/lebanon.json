@@ -1,0 +1,877 @@
+{
+  "topic": "lebanon",
+  "label": "Lebanon",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 132,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 15,
+  "vague_dated_segments": 43,
+  "cross_article_duplicates": 0,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "1982 Lebanon War",
+      "pageid": 181820,
+      "revid": 1370279817,
+      "revision_timestamp": "2026-08-20T05:00:16Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=181820",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1978-03-19",
+          "date_latest": "1978-03-19",
+          "date_precision": "day",
+          "text": "On 19 March 1978, the United Nations Interim Force in Lebanon, or UNIFIL, was created by the United Nations, with the adoption of the United Nations Security Council Resolution 425 and the United Nations Security Council Resolution 426, to confirm Israeli withdrawal from Lebanon which Israel had invaded five days prior, restore international peace and security, and help the Government of Lebanon restore its effective authority in the area."
+        },
+        {
+          "date": "1978-03-23",
+          "date_latest": "1978-03-23",
+          "date_precision": "day",
+          "text": "The first UNIFIL troops were deployed in the area on 23 March 1978."
+        },
+        {
+          "date": "1980-12-12",
+          "date_latest": "1980-12-12",
+          "date_precision": "day",
+          "text": "In his report for the period of 12 December 1980 to 12 June 1981 on UNIFIL activities, the Security Council Secretary General noted that infiltrations into the border zone by Palestinian armed forces had decreased relative to the previous six months.",
+          "names_later_date": true
+        },
+        {
+          "date": "1981-07-24",
+          "date_latest": "1981-07-24",
+          "date_precision": "day",
+          "text": "There patterns of Israeli-initiated airstrikes and Palestinian retaliations with attacks on northern Israel are in contrast with the official Israeli version \"A ceasefire declared in July 1981 was broken: the terrorists continued to carry out attacks against Israeli targets in Israel and abroad, and the threat to the northern settlements became unbearable.\" On 24 July 1981, United States Undersecretary of State Philip Habib brokered a ceasefire badly needed by both parties, the best achievable result from negotiations via intermediaries, aimed at complying with the decisions of UN Security Council resolution 490."
+        },
+        {
+          "date": "1981-12-20",
+          "date_latest": "1981-12-20",
+          "date_precision": "day",
+          "text": "It was first presented to Israeli cabinet on 20 December 1981 by Begin, but rejected by the majority of ministers."
+        },
+        {
+          "date": "1982-01-30",
+          "date_latest": "1982-01-30",
+          "date_precision": "day",
+          "text": "US Secretary of State, Alexander Haig filed a report with US President Ronald Reagan on Saturday 30 January 1982 that revealed Secretary Haig's fear that Israel might, at the slightest provocation, start a war against Lebanon."
+        },
+        {
+          "date": "1982-04-21",
+          "date_latest": "1982-04-21",
+          "date_precision": "day",
+          "text": "Then, on 21 April 1982, after a landmine killed an Israeli officer while he was visiting a South Lebanese Army gun emplacement in Taibe, Lebanon, the Israeli Air Force attacked the Palestinian-controlled coastal town of Damour, killing 23 people."
+        },
+        {
+          "date": "1982-05-09",
+          "date_latest": "1982-05-09",
+          "date_precision": "day",
+          "text": "On 9 May 1982, Israeli aircraft again attacked targets in Lebanon."
+        },
+        {
+          "date": "1982-05-25",
+          "date_latest": "1982-05-25",
+          "date_precision": "day",
+          "text": "In a meeting my father had with Alexander Haig and Philip Habib on 25 May 1982, Habib repeated what he had already said many times before: \"Terrorist attacks against Israelis and Jews in Europe are not included in the cease-fire agreement."
+        },
+        {
+          "date": "1982-06-03",
+          "date_latest": "1982-06-03",
+          "date_precision": "day",
+          "text": "On 3 June 1982 Israel's ambassador to the United Kingdom, Shlomo Argov was shot and seriously wounded in London by militants belonging to the Iraqi-backed Abu Nidal militant organization."
+        },
+        {
+          "date": "1982-06-04",
+          "date_latest": "1982-06-04",
+          "date_precision": "day",
+          "text": "This figure included victims of the 4 June 1982, bombing, which occurred two days before the operation officially started."
+        },
+        {
+          "date": "1982-06-06",
+          "date_latest": "1982-06-06",
+          "date_precision": "day",
+          "text": "Also see Casualties below. }} The 1982 Lebanon War, also called the Second Israeli invasion of Lebanon, began on 6 June 1982, when Israel invaded southern Lebanon."
+        },
+        {
+          "date": "1982-06-06",
+          "date_latest": "1982-06-06",
+          "date_precision": "day",
+          "text": "On 6 June 1982, Israeli forces under direction of Defense Minister Ariel Sharon launched a three-pronged invasion of southern Lebanon in \"Operation Peace for Galilee\"."
+        },
+        {
+          "date": "1982-06-10",
+          "date_latest": "1982-06-10",
+          "date_precision": "day",
+          "text": "On 10 June 1982, the Israeli air force mistook a column of IDF Nahal Brigade forces for a Syrian commando unit."
+        },
+        {
+          "date": "1982-06-14",
+          "date_latest": "1982-06-14",
+          "date_precision": "day",
+          "text": "By the end of the first week, 14 June 1982, International Red Cross and Lebanese police figures said that 9,583 had died and 16,608 injured."
+        },
+        {
+          "date": "1982-06-14",
+          "date_latest": "1982-06-14",
+          "date_precision": "day",
+          "text": "The Siege of Beirut had begun on 14 June 1982: Israeli forces had completed the encirclement of the city the previous day."
+        },
+        {
+          "date": "1982-09-14",
+          "date_latest": "1982-09-14",
+          "date_precision": "day",
+          "text": "On 14 September 1982, Bachir Gemayel, the newly elected President of Lebanon, was assassinated by Habib Shartouni of the Syrian Social Nationalist Party."
+        },
+        {
+          "date": "1982-09-16",
+          "date_latest": "1982-09-16",
+          "date_precision": "day",
+          "text": "A total of 11 PKK fighters died in the conflict. * Arab Socialist Action Party – a Communist party headed by Hussein Hamdan mainly active in Southern Lebanon, the organization conducted guerilla operations against Israeli garrisons following the invasion. * The Lebanese National Resistance Front – an alliance formed in September 16, 1982 by George Hawi of the LCP, Mohsen Ibrahim of the OCAL and Hussein Hamdan of the ASAP against the Israeli occupation, its forces totalled about 30,000 fighting men and women and was the successor of the Lebanese National Movement."
+        },
+        {
+          "date": "1982-09-25",
+          "date_latest": "1982-09-25",
+          "date_precision": "day",
+          "text": "This culminated in a large protest rally in Tel Aviv on 25 September 1982, organized by the Peace Now movement, following the 1982 Sabra and Shatila massacre."
+        },
+        {
+          "date": "1982-09-29",
+          "date_latest": "1982-09-29",
+          "date_precision": "day",
+          "text": "The IDF withdrew from Beirut and ended its operation on 29 September 1982."
+        },
+        {
+          "date": "1982-12-16",
+          "date_latest": "1982-12-16",
+          "date_precision": "day",
+          "text": "On 16 December 1982, the United Nations General Assembly condemned the Sabra and Shatila massacre and declared it to be an act of genocide."
+        },
+        {
+          "date": "1983-02-08",
+          "date_latest": "1983-02-08",
+          "date_precision": "day",
+          "text": "The commission's report{{cite book Following a four-month investigation, on 8 February 1983, the Kahan Commission submitted its report, which was released to the public by spokesman Bezalel Gordon simultaneously in Hebrew and English."
+        },
+        {
+          "date": "1983-06-24",
+          "date_latest": "1983-06-24",
+          "date_precision": "day",
+          "text": "When Arafat castigated the Syrian government for blocking PLO supplies in June 1983, the Syrian government declared Arafat a persona non-grata on 24 June 1983."
+        },
+        {
+          "date": "1983-09-03",
+          "date_latest": "1983-09-03",
+          "date_precision": "day",
+          "text": "Amid rising casualties from guerrilla attacks, the IDF retreated south of the Awali river on 3 September 1983."
+        },
+        {
+          "date": "1985-06-05",
+          "date_latest": "1985-06-05",
+          "date_precision": "day",
+          "text": "or 5 June 1985 (most Israeli forces withdrawn) * Israeli tactical victories * Israeli strategic failures * PLO withdrawal from Lebanon * End of the Palestinian insurgency in South Lebanon * Beginning of the Southern Lebanon conflict }} ---- Support: Civilians at Sabra-Shatila massacre: 800–3,500 killed."
+        },
+        {
+          "date": "2000-06-16",
+          "date_latest": "2000-06-16",
+          "date_precision": "day",
+          "text": "The UN Secretary-General had concluded that, as of 16 June 2000, Israel had withdrawn its forces from Lebanon in accordance with UN Security Council Resolution 425 of 1978, bringing closure to the 1982 invasion as far as the UN was concerned."
+        },
+        {
+          "date": "2005-04-26",
+          "date_latest": "2005-04-26",
+          "date_precision": "day",
+          "text": "On 26 April 2005 the Syrian occupation forces withdrew from Lebanon."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "2006 Lebanon War",
+      "pageid": 6299613,
+      "revid": 1370280239,
+      "revision_timestamp": "2026-08-20T05:04:26Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=6299613",
+      "strategy": null,
+      "segments": [],
+      "needs_review": true,
+      "citation_rows_rejected": 2
+    },
+    {
+      "title": "Lebanese Civil War",
+      "pageid": 312905,
+      "revid": 1370626682,
+      "revision_timestamp": "2026-08-22T04:20:42Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=312905",
+      "strategy": "table",
+      "segments": [
+        {
+          "date": "1976-01-01",
+          "date_latest": "1976-01-31",
+          "date_precision": "month",
+          "text": "The Karantina massacre and the Damour massacre."
+        },
+        {
+          "date": "1976-05-01",
+          "date_latest": "1976-05-31",
+          "date_precision": "month",
+          "text": "Elias Sarkis is elected president."
+        },
+        {
+          "date": "1976-10-01",
+          "date_latest": "1976-10-31",
+          "date_precision": "month",
+          "text": "An Arab League summit occurs to instill a ceasefire backed by the deployment of peacekeeping troops."
+        },
+        {
+          "date": "1977-03-01",
+          "date_latest": "1977-03-31",
+          "date_precision": "month",
+          "text": "Multiple massacres of Christians occur in the Chouf following the assassination of Kamal Jumblatt."
+        },
+        {
+          "date": "1978-02-01",
+          "date_latest": "1978-02-28",
+          "date_precision": "month",
+          "text": "The Hundred Days' War begins and the ceasefire ends. The United Nations sends troops and foreign powers deploy aid to the two sides of the war."
+        },
+        {
+          "date": "1979-02-01",
+          "date_latest": "1979-02-28",
+          "date_precision": "month",
+          "text": "The Iranian revolution occurs helping to radicalize the Shiite movement in Lebanon."
+        },
+        {
+          "date": "1980-07-01",
+          "date_latest": "1980-07-31",
+          "date_precision": "month",
+          "text": "Bashir Gemayel, leader of the Kataeb militia, unites all the Christian militias by force, putting in place the political party, Lebanese Forces."
+        },
+        {
+          "date": "1982-09-14",
+          "date_latest": "1982-09-14",
+          "date_precision": "day",
+          "text": "Bashir Gemayel was assassinated 22 days after getting elected."
+        },
+        {
+          "date": "1983-04-01",
+          "date_latest": "1983-04-30",
+          "date_precision": "month",
+          "text": "1983 United States embassy bombing occurs."
+        },
+        {
+          "date": "1983-10-01",
+          "date_latest": "1983-10-31",
+          "date_precision": "month",
+          "text": "1983 Beirut barracks bombing occurs."
+        },
+        {
+          "date": "1984-02-01",
+          "date_latest": "1984-02-29",
+          "date_precision": "month",
+          "text": "The Lebanese army, who controlled Beirut since the Israeli withdrawal, were accused of partisanship with the Lebanese forces, mass arrests, etc. They were expelled from West Beirut following their defeat in the February 6 Intifada."
+        },
+        {
+          "date": "1985-02-01",
+          "date_latest": "1985-02-28",
+          "date_precision": "month",
+          "text": "The Israelis withdraw from Sidon but remain in the south. Armed resistance to Israeli occupation intensifies. Especially from Hezbollah."
+        },
+        {
+          "date": "1985-03-01",
+          "date_latest": "1985-03-31",
+          "date_precision": "month",
+          "text": "Assassination attempt on Hezbollah leader, Mohammad Hussein Fadlallah."
+        },
+        {
+          "date": "1987-06-01",
+          "date_latest": "1987-06-30",
+          "date_precision": "month",
+          "text": "Rashid Karami is assassinated on 1 June 1987. The First Intifada begins and the anger toward Israel in Lebanon increases. There are hundreds of Lebanese and Palestinians imprisoned by Israel."
+        },
+        {
+          "date": "1988-09-01",
+          "date_latest": "1988-09-30",
+          "date_precision": "month",
+          "text": "Amin Gemayel's presidential term expires and he appoints the commander of the army, General Michel Aoun as interim prime minister."
+        },
+        {
+          "date": "1989-03-14",
+          "date_latest": "1989-03-14",
+          "date_precision": "day",
+          "text": "General Aoun declares war on the Syrian presence in Lebanon. After seven months of shelling a ceasefire is negotiated by the Arab League."
+        },
+        {
+          "date": "1989-10-01",
+          "date_latest": "1989-10-31",
+          "date_precision": "month",
+          "text": "The Taif Agreement occurs. René Moawad is elected president and is assassinated 17 days later. Elias Hrawi is then elected. General Aoun denounces the legitimacy of these presidencies and a new commander of the army is appointed."
+        },
+        {
+          "date": "1990-01-30",
+          "date_latest": "1990-01-30",
+          "date_precision": "day",
+          "text": "Heavy fighting begins between the Lebanese army still under General Aoun's control and the Lebanese Forces. As well as fighting between Amal and Hezbollah and continued resistance to Israeli occupation and Israeli reprisal raids."
+        },
+        {
+          "date": "1990-10-13",
+          "date_latest": "1990-10-13",
+          "date_precision": "day",
+          "text": "General Aoun is forced out of the presidential palace and goes into exile. The October 13 massacre occurs. Selim Hoss assumes command of the country except for the part still occupied by Israel. The armed forces are reunited under a central command."
+        },
+        {
+          "date": "1990-12-24",
+          "date_latest": "1990-12-24",
+          "date_precision": "day",
+          "text": "A National Reconciliation is formed under the leadership of Omar Karami. The Taif Agreement is for the first time being put into practice."
+        },
+        {
+          "date": "1991-08-26",
+          "date_latest": "1991-08-26",
+          "date_precision": "day",
+          "text": "Parliament passes the law of General Amnesty."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Interim Force in Lebanon",
+      "pageid": 787766,
+      "revid": 1370758635,
+      "revision_timestamp": "2026-08-22T23:10:49Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=787766",
+      "strategy": "table",
+      "segments": [
+        {
+          "date": "1978-03-01",
+          "date_latest": "1978-03-31",
+          "date_precision": "month",
+          "text": "February 1981 Emmanuel A. Erskine"
+        },
+        {
+          "date": "1978-03-29",
+          "date_latest": "1978-03-29",
+          "date_precision": "day",
+          "text": "A Swedish soldier, Karl-Oscar Johansson was killed and another, Marc Lindoberg, was injured when their vehicle hit a landmine in the vicinity of the Khardala Bridge. Johansson was UNIFIL's first fatality."
+        },
+        {
+          "date": "1979-01-01",
+          "date_latest": "1979-12-31",
+          "date_precision": "year",
+          "text": "Three Fijian soldiers shot in ambush by PFLP."
+        },
+        {
+          "date": "1981-02-01",
+          "date_latest": "1981-02-28",
+          "date_precision": "month",
+          "text": "May 1986 William O'Callaghan"
+        },
+        {
+          "date": "1981-03-16",
+          "date_latest": "1981-03-16",
+          "date_precision": "day",
+          "text": "Three Nigerian soldiers killed in bombardment by SLA artillery."
+        },
+        {
+          "date": "1981-06-25",
+          "date_latest": "1981-06-25",
+          "date_precision": "day",
+          "text": "Two Fijian soldiers were killed and one wounded by PLO gunmen. They had been among the nine Fijian soldiers captured by the PFLP in an ambush. Three of them where tortured and 'executed' one by one by being shot in the head. One survived."
+        },
+        {
+          "date": "1982-10-27",
+          "date_latest": "1982-10-27",
+          "date_precision": "day",
+          "text": "An Irish soldier, Private Michael McAleavey, opened fire and killed three other Irish soldiers. He originally claimed Lebanese gunmen had killed them, but later admitted the killings, saying he had \"snapped\" due to dehydration and heat exhaustion. He received a life sentence at court martial, being paroled in 2009."
+        },
+        {
+          "date": "1986-06-01",
+          "date_latest": "1986-06-30",
+          "date_precision": "month",
+          "text": "June 1988 Gustav Hägglund"
+        },
+        {
+          "date": "1986-08-22",
+          "date_latest": "1986-08-22",
+          "date_precision": "day",
+          "text": "An Irish soldier was killed and two others wounded by a roadside bomb. Two heavily armed men with bomb-making equipment were subsequently caught by a UNIFIL patrol and handed over to Lebanese police."
+        },
+        {
+          "date": "1986-09-28",
+          "date_latest": "1986-09-28",
+          "date_precision": "day",
+          "text": "Three French soldiers were killed by a roadside bomb while jogging. UN officials attributed the attack to Shiite fundamentalists, particularly Hezbollah."
+        },
+        {
+          "date": "1986-11-20",
+          "date_latest": "1986-11-20",
+          "date_precision": "day",
+          "text": "Three Fijian soldiers and three Lebanese were killed in a suicide car bombing, and three UNIFIL soldiers, two Lebanese civilians, and an SLA soldier were injured. The car, with two occupants inside, had run through a UNIFIL roadblock, apparently aiming for the Israeli border, but after being fired at as it approached an SLA roadblock, it returned to the UNIFIL roadblock, and exploded as Fijian and SLA soldiers approached."
+        },
+        {
+          "date": "1987-01-11",
+          "date_latest": "1987-01-11",
+          "date_precision": "day",
+          "text": "An Irish soldier, Corporal Dermot McLoughlin, was killed when an Israeli tank shelled an Irish UNIFIL position. The Israelis had opened fire after spotting a large squad of guerrillas near the position. Two senior Israeli officers were later disciplined over the incident."
+        },
+        {
+          "date": "1988-07-01",
+          "date_latest": "1988-07-31",
+          "date_precision": "month",
+          "text": "February 1993 Lars-Eric Wahlgren"
+        },
+        {
+          "date": "1989-02-24",
+          "date_latest": "1989-02-24",
+          "date_precision": "day",
+          "text": "An Irish soldier was shot dead by SLA in Haddatha."
+        },
+        {
+          "date": "1989-03-21",
+          "date_latest": "1989-03-21",
+          "date_precision": "day",
+          "text": "Three Irish soldiers were killed by a landmine on the road to their outpost near Baraachit. Officers on the ground are reported as believing that the SLA were responsible and that UNIFIL were being deliberately targeted."
+        },
+        {
+          "date": "1990-02-19",
+          "date_latest": "1990-02-19",
+          "date_precision": "day",
+          "text": "Two Nepali soldiers were killed and six injured by SLA mortar fire that hit their compound. The SLA and IDF claimed that the fire had come in response to Hezbollah RPG and mortar fire."
+        },
+        {
+          "date": "1991-09-03",
+          "date_latest": "1991-09-03",
+          "date_precision": "day",
+          "text": "A Swedish soldier, Kenneth Fransson was killed when he was caught in the middle of a shootout between Palestinians and SLA soldiers in Naqoura."
+        },
+        {
+          "date": "1991-09-15",
+          "date_latest": "1991-09-15",
+          "date_precision": "day",
+          "text": "A Swedish soldier was killed and five Swedish and French soldiers were wounded when Palestinian gunmen intending to carry out an attack on the Israeli city of Nahariya en route to their target by boat mistakenly landed in Naqoura and confronted UNIFIL troops. One of the gunmen was also killed, another injured, and four captured. In a separate incident, two gunmen ambushed a Nepali UNIFIL patrol near Yater, just north of the security zone, killing one soldier and wounding another. One of the gunmen was killed by return fire while the other escaped."
+        },
+        {
+          "date": "1993-02-01",
+          "date_latest": "1993-02-28",
+          "date_precision": "month",
+          "text": "February 1995 Trond Furuhovde"
+        },
+        {
+          "date": "1993-02-23",
+          "date_latest": "1993-02-23",
+          "date_precision": "day",
+          "text": "A Nepali soldier was killed and another seriously wounded after being caught in an exchange of fire between Hezbollah and the SLA in the vicinity of their post. The UN claimed that they had been killed by SLA shelling, while a senior IDF officer said it was uncertain who was at fault."
+        },
+        {
+          "date": "1993-12-27",
+          "date_latest": "1993-12-27",
+          "date_precision": "day",
+          "text": "A Norwegian soldier, Private Gorm Bjørnar Hagen, was killed and another, Lieutenant Øyvind Berg, was wounded when an Israeli tank patrol engaged in a nighttime search for guerrillas mistook a Norwegian UNIFIL unit for enemy fighters and fired three tank shells at them. The Israeli unit subsequently assisted the Norwegian unit and called in a helicopter to airlift the injured soldier to an Israeli hospital."
+        },
+        {
+          "date": "1995-03-20",
+          "date_latest": "1995-03-20",
+          "date_precision": "day",
+          "text": "A Nepali soldier was killed and three others wounded by Israeli shelling near Yater."
+        },
+        {
+          "date": "1995-04-01",
+          "date_latest": "1995-04-30",
+          "date_precision": "month",
+          "text": "1 October 1997 Stanisław Woźniak",
+          "names_later_date": true
+        },
+        {
+          "date": "1996-04-18",
+          "date_latest": "1996-04-18",
+          "date_precision": "day",
+          "text": "4 Fijian soldiers were wounded when the headquarters compound of the Fijian battalion of the United Nations Interim Force in Lebanon in the village of Qana came under fire by Israeli artillery, at the time where more than 800 Lebanese had sought refuge inside the compound in which an estimated 100 persons were killed and a larger number wounded. This incident is known as Qana massacre."
+        },
+        {
+          "date": "1997-02-01",
+          "date_latest": "1997-02-28",
+          "date_precision": "month",
+          "text": "September 1999 Jioje Konousi Koronte"
+        },
+        {
+          "date": "1999-05-31",
+          "date_latest": "1999-05-31",
+          "date_precision": "day",
+          "text": "An Irish soldier, Pte. William Kedian was killed in an exchange of fire between Hezbollah and the SLA."
+        },
+        {
+          "date": "1999-09-30",
+          "date_latest": "1999-09-30",
+          "date_precision": "day",
+          "text": "1 December 1999 James Sreenan",
+          "names_later_date": true
+        },
+        {
+          "date": "1999-11-16",
+          "date_latest": "1999-11-16",
+          "date_precision": "day",
+          "text": "15 May 2001 Seth Kofi Obeng",
+          "names_later_date": true
+        },
+        {
+          "date": "2000-01-01",
+          "date_latest": "2000-12-31",
+          "date_precision": "year",
+          "text": "15 January 2001 Rolf Göran Knutsson",
+          "names_later_date": true
+        },
+        {
+          "date": "2001-01-15",
+          "date_latest": "2001-01-15",
+          "date_precision": "day",
+          "text": "April 2005 Staffan de Mistura"
+        },
+        {
+          "date": "2001-05-15",
+          "date_latest": "2001-05-15",
+          "date_precision": "day",
+          "text": "17 August 2001 Ganesan Athmanathan",
+          "names_later_date": true
+        },
+        {
+          "date": "2001-08-17",
+          "date_latest": "2001-08-17",
+          "date_precision": "day",
+          "text": "17 February 2004 Lalit Mohan Tewari",
+          "names_later_date": true
+        },
+        {
+          "date": "2004-02-17",
+          "date_latest": "2004-02-17",
+          "date_precision": "day",
+          "text": "2 February 2007 Alain Pellegrini",
+          "names_later_date": true
+        },
+        {
+          "date": "2005-01-09",
+          "date_latest": "2005-01-09",
+          "date_precision": "day",
+          "text": "A French officer was killed and a Swedish officer and a Lebanese civilian were wounded by Israeli shelling that was in retaliation to a Hezbollah attack that killed an Israeli soldier. A Hezbollah fighter was also killed."
+        },
+        {
+          "date": "2006-07-25",
+          "date_latest": "2006-07-25",
+          "date_precision": "day",
+          "text": "Four UN observers, one each from Canada, Finland, Austria, and China, were killed in an Israeli airstrike that hit their position in Khiam during the 2006 Lebanon War."
+        },
+        {
+          "date": "2006-09-01",
+          "date_latest": "2006-09-30",
+          "date_precision": "month",
+          "text": "16 October 2006 Giuseppe De Giorgi",
+          "names_later_date": true
+        },
+        {
+          "date": "2006-09-25",
+          "date_latest": "2006-09-25",
+          "date_precision": "day",
+          "text": "A French engineer officer was killed in a road accident near the town of Sofar."
+        },
+        {
+          "date": "2006-10-16",
+          "date_latest": "2006-10-16",
+          "date_precision": "day",
+          "text": "March 2007 Andreas Krause"
+        },
+        {
+          "date": "2007-02-02",
+          "date_latest": "2007-02-02",
+          "date_precision": "day",
+          "text": "28 January 2010 Claudio Graziano",
+          "names_later_date": true
+        },
+        {
+          "date": "2007-03-01",
+          "date_latest": "2007-03-31",
+          "date_precision": "month",
+          "text": "September 2007 Karl-Wilhelm Bollow"
+        },
+        {
+          "date": "2007-03-09",
+          "date_latest": "2007-03-09",
+          "date_precision": "day",
+          "text": "Three Belgian soldiers were killed in an armoured vehicle accident."
+        },
+        {
+          "date": "2007-06-24",
+          "date_latest": "2007-06-24",
+          "date_precision": "day",
+          "text": "Three Colombian and three Spanish soldiers were killed in a bomb blast between Marjayoun and Khiam."
+        },
+        {
+          "date": "2007-07-25",
+          "date_latest": "2007-07-25",
+          "date_precision": "day",
+          "text": "A French soldier was killed near the village of Chamaa while clearing unexploded munitions."
+        },
+        {
+          "date": "2007-09-01",
+          "date_latest": "2007-09-30",
+          "date_precision": "month",
+          "text": "February 2008 Christian Luther"
+        },
+        {
+          "date": "2007-10-11",
+          "date_latest": "2007-10-11",
+          "date_precision": "day",
+          "text": "A British man, Craig Appleby (36) was killed while clearing munitions near Bint Jbeil."
+        },
+        {
+          "date": "2007-11-12",
+          "date_latest": "2007-11-12",
+          "date_precision": "day",
+          "text": "Two French soldiers were wounded as a result of the accidental discharge of a weapon. One of the wounded men subsequently died while being evacuated to Hospital."
+        },
+        {
+          "date": "2008-02-01",
+          "date_latest": "2008-02-29",
+          "date_precision": "month",
+          "text": "August 2008 Ruggiero di Biase"
+        },
+        {
+          "date": "2008-06-15",
+          "date_latest": "2008-06-15",
+          "date_precision": "day",
+          "text": "A Spanish soldier was killed and two injured in a road accident."
+        },
+        {
+          "date": "2008-09-01",
+          "date_latest": "2008-09-30",
+          "date_precision": "month",
+          "text": "February 2009 Jean-Louis Kerignard"
+        },
+        {
+          "date": "2008-09-03",
+          "date_latest": "2008-09-03",
+          "date_precision": "day",
+          "text": "A Belgian soldier was killed near the village of Aitaroun while clearing munitions left over from the 2006 conflict."
+        },
+        {
+          "date": "2009-03-01",
+          "date_latest": "2009-03-31",
+          "date_precision": "month",
+          "text": "May 2009 Jean-Thierry Pynoo"
+        },
+        {
+          "date": "2009-08-01",
+          "date_latest": "2009-08-31",
+          "date_precision": "month",
+          "text": "August 2009 Ruggiero Di Biase"
+        },
+        {
+          "date": "2009-09-01",
+          "date_latest": "2009-09-30",
+          "date_precision": "month",
+          "text": "November 2009 Jürgen Mannhardt"
+        },
+        {
+          "date": "2009-12-01",
+          "date_latest": "2009-12-31",
+          "date_precision": "month",
+          "text": "February 2011 Paolo Sandalli"
+        },
+        {
+          "date": "2010-01-28",
+          "date_latest": "2010-01-28",
+          "date_precision": "day",
+          "text": "28 January 2012 Alberto Asarta Cuevas",
+          "names_later_date": true
+        },
+        {
+          "date": "2011-02-01",
+          "date_latest": "2011-02-28",
+          "date_precision": "month",
+          "text": "February 2012 Luiz Henrique Caroli"
+        },
+        {
+          "date": "2011-05-27",
+          "date_latest": "2011-05-27",
+          "date_precision": "day",
+          "text": "Six Italian soldiers were wounded when their VM-90 military truck was destroyed by a roadside bomb near Sidon."
+        },
+        {
+          "date": "2012-02-01",
+          "date_latest": "2012-02-29",
+          "date_precision": "month",
+          "text": "February 2013 Wagner Lopes de Moraes Zamith"
+        },
+        {
+          "date": "2013-02-01",
+          "date_latest": "2013-02-28",
+          "date_precision": "month",
+          "text": "February 2014 Joese de Andrade Bandeira Leandro"
+        },
+        {
+          "date": "2014-02-01",
+          "date_latest": "2014-02-28",
+          "date_precision": "month",
+          "text": "February 2015 Walter Eduardo Bombarda"
+        },
+        {
+          "date": "2014-07-24",
+          "date_latest": "2014-07-24",
+          "date_precision": "day",
+          "text": "24 July 2016 Luciano Portolano",
+          "names_later_date": true
+        },
+        {
+          "date": "2015-02-01",
+          "date_latest": "2015-02-28",
+          "date_precision": "month",
+          "text": "February 2016 Flavio Macedo Brasil"
+        },
+        {
+          "date": "2016-02-01",
+          "date_latest": "2016-02-29",
+          "date_precision": "month",
+          "text": "February 2017 Claudio Henrique Mello de Almeida"
+        },
+        {
+          "date": "2016-07-24",
+          "date_latest": "2016-07-24",
+          "date_precision": "day",
+          "text": "7 August 2018 Michael Beary",
+          "names_later_date": true
+        },
+        {
+          "date": "2017-02-01",
+          "date_latest": "2017-02-28",
+          "date_precision": "month",
+          "text": "February 2018 Sergio Fernando de Amaral Chaves Junior"
+        },
+        {
+          "date": "2018-02-01",
+          "date_latest": "2018-02-28",
+          "date_precision": "month",
+          "text": "February 2019 Eduardo Machado Vazquez"
+        },
+        {
+          "date": "2018-08-07",
+          "date_latest": "2018-08-07",
+          "date_precision": "day",
+          "text": "28 February 2022 Stefano Del Col",
+          "names_later_date": true
+        },
+        {
+          "date": "2019-02-01",
+          "date_latest": "2019-02-28",
+          "date_precision": "month",
+          "text": "February 2020 Eduardo Augusto Wieland"
+        },
+        {
+          "date": "2020-02-01",
+          "date_latest": "2020-02-29",
+          "date_precision": "month",
+          "text": "December 2020 Sergio Renato Berna Salgueirinho"
+        },
+        {
+          "date": "2020-08-04",
+          "date_latest": "2020-08-04",
+          "date_precision": "day",
+          "text": "The Bangladesh Navy corvette was anchored in the Port of Beirut during the 2020 Beirut explosion. The ship received moderate damage and 21 crew members were injured in the blast."
+        },
+        {
+          "date": "2022-02-28",
+          "date_latest": "2022-02-28",
+          "date_precision": "day",
+          "text": "24 June 2025 Aroldo Lázaro Sáenz",
+          "names_later_date": true
+        },
+        {
+          "date": "2022-12-02",
+          "date_latest": "2022-12-02",
+          "date_precision": "day",
+          "text": "Present Maj Gen Chok Bahadur Dhakal"
+        },
+        {
+          "date": "2022-12-14",
+          "date_latest": "2022-12-14",
+          "date_precision": "day",
+          "text": "An Irish soldier, Pte. Seán Rooney (23) was killed, and three wounded when their convoy of two armoured vehicles was surrounded by a mob and fired on while en route to Beirut."
+        },
+        {
+          "date": "2023-10-15",
+          "date_latest": "2023-10-15",
+          "date_precision": "day",
+          "text": "UNIFIL mentioned that its headquarters in Naqoura, was hit by a rocket during the 2023 Israel–Lebanon border clashes with no injuries reported."
+        },
+        {
+          "date": "2023-10-28",
+          "date_latest": "2023-10-28",
+          "date_precision": "day",
+          "text": "UNIFIL reported that a shell landed in its headquarters, the second such incident since the border clashes began. Later that day, a UNIFIL peacekeeper was injured after two mortar shells hit their base near Houla."
+        },
+        {
+          "date": "2024-03-30",
+          "date_latest": "2024-03-30",
+          "date_precision": "day",
+          "text": "UNIFIL reported three observers from the UN Truce Supervision Organization and a Lebanese translator were wounded when a shell exploded near them while they were patrolling the southern Lebanese border with Israel. Israel denied reports that it was responsible for the attack."
+        },
+        {
+          "date": "2024-09-02",
+          "date_latest": "2024-09-02",
+          "date_precision": "day",
+          "text": "Two people, including an independent contractor working for UNIFIL, were killed during an Israeli airstrike against a vehicle on the Tyre-Naqoura road in Lebanon."
+        },
+        {
+          "date": "2024-11-15",
+          "date_latest": "2024-11-15",
+          "date_precision": "day",
+          "text": "One French soldier were killed and three people were injured in road incident near the village of Shama"
+        },
+        {
+          "date": "2025-06-28",
+          "date_latest": "2025-06-28",
+          "date_precision": "day",
+          "text": "One Turkish air infantry colonel died of a heart attack."
+        },
+        {
+          "date": "2026-03-29",
+          "date_latest": "2026-03-29",
+          "date_precision": "day",
+          "text": "An Indonesian soldier was killed by a 120mm shell fired from an Israeli Merkava tank. The second Indonesian soldier, a 31-year-old corporal Rico Pramudia, died of his wounds on April 24."
+        },
+        {
+          "date": "2026-03-30",
+          "date_latest": "2026-03-30",
+          "date_precision": "day",
+          "text": "Two Indonesian soldiers were killed by an explosion caused by an IED most likely planted by Hezbollah."
+        },
+        {
+          "date": "2026-04-18",
+          "date_latest": "2026-04-18",
+          "date_precision": "day",
+          "text": "French soldier staff sergeant Florian Montorio killed in shooting ambush."
+        },
+        {
+          "date": "2026-04-22",
+          "date_latest": "2026-04-22",
+          "date_precision": "day",
+          "text": "French chief corporal Anicet Girardin died after returning to France from wounds sustained in an ambush."
+        },
+        {
+          "date": "2026-06-04",
+          "date_latest": "2026-06-04",
+          "date_precision": "day",
+          "text": "Serbian soldier Sergeant Milovan Jovanovic died after sustaining injuries during a shelling near Marjayoun. Two other peacekeepers from El Salvador and Spain were also injured at the scene."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

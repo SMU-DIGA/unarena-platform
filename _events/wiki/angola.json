@@ -1,0 +1,443 @@
+{
+  "topic": "angola",
+  "label": "Angola",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 63,
+  "flagged_vote_language": 5,
+  "flagged_names_later_date": 2,
+  "vague_dated_segments": 0,
+  "cross_article_duplicates": 0,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Angolan Civil War",
+      "pageid": 2057171,
+      "revid": 1371337338,
+      "revision_timestamp": "2026-08-25T23:42:26Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=2057171",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1975-01-15",
+          "date_latest": "1975-01-15",
+          "date_precision": "day",
+          "text": "After the Carnation Revolution in Lisbon and the end of the Angolan War of Independence, the parties of the conflict signed the Alvor Accords on 15 January 1975."
+        },
+        {
+          "date": "1975-05-13",
+          "date_latest": "1975-05-13",
+          "date_precision": "day",
+          "text": "Mulcahy presented three options for U.S. policy towards Angola on 13 May 1975."
+        },
+        {
+          "date": "1975-07-18",
+          "date_latest": "1975-07-18",
+          "date_precision": "day",
+          "text": "US President Gerald Ford approved covert aid to UNITA and the FNLA through Operation IA Feature on 18 July 1975, despite strong opposition from officials in the State Department and the Central Intelligence Agency (CIA)."
+        },
+        {
+          "date": "1975-11-11",
+          "date_latest": "1975-11-11",
+          "date_precision": "day",
+          "text": "Agostinho Neto, the leader of the MPLA, declared the independence of the Portuguese Overseas Province of Angola as the People's Republic of Angola on 11 November 1975."
+        },
+        {
+          "date": "1975-12-13",
+          "date_latest": "1975-12-13",
+          "date_precision": "day",
+          "text": "Dick Clark, a Democratic Senator from Iowa, discovered the operation during a fact-finding mission in Africa, but Seymour Hersh, a reporter for The New York Times, revealed IA Feature to the public on 13 December 1975."
+        },
+        {
+          "date": "1975-12-19",
+          "date_latest": "1975-12-19",
+          "date_precision": "day",
+          "text": "The Senate passed the bill, voting 54–22 on 19 December 1975, and the House of Representatives passed the bill, voting 323–99 on 27 January 1976.",
+          "mentions_vote": true,
+          "names_later_date": true
+        },
+        {
+          "date": "1976-02-09",
+          "date_latest": "1976-02-09",
+          "date_precision": "day",
+          "text": "Ford signed the bill into law on 9 February 1976."
+        },
+        {
+          "date": "1976-02-12",
+          "date_latest": "1976-02-12",
+          "date_precision": "day",
+          "text": "However, the pivotal intervention came from 18,000 Cuban troops, who defeated the FNLA in the north and UNITA in the south, concluding the conventional war by 12 February 1976."
+        },
+        {
+          "date": "1976-06-23",
+          "date_latest": "1976-06-23",
+          "date_precision": "day",
+          "text": "The U.S. government vetoed Angolan entry into the United Nations on 23 June 1976.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1976-12-28",
+          "date_latest": "1976-12-28",
+          "date_precision": "day",
+          "text": "Zambia forbade UNITA from launching attacks from its territory on 28 December 1976 after Angola under MPLA rule became a member of the United Nations."
+        },
+        {
+          "date": "1977-03-07",
+          "date_latest": "1977-03-07",
+          "date_precision": "day",
+          "text": ", Zaire]] About 1,500 members of the Congolese National Liberation Front (FNLC) invaded the Shaba Province (modern-day Katanga Province) in Zaire from eastern Angola on 7 March 1977."
+        },
+        {
+          "date": "1977-05-27",
+          "date_latest": "1977-05-27",
+          "date_precision": "day",
+          "text": "On the 44th anniversary of the May 27, 1977 attempted coup by Nito Alves, Angolan president João Lourenço apologized for the execution of thousands of Alves' followers by the MPLA in the aftermath of the failed coup and promised to return the remains of the victims to their families."
+        },
+        {
+          "date": "1977-07-22",
+          "date_latest": "1977-07-22",
+          "date_precision": "day",
+          "text": "Neto and Mobutu signed a border agreement on 22 July 1977."
+        },
+        {
+          "date": "1978-05-11",
+          "date_latest": "1978-05-11",
+          "date_precision": "day",
+          "text": "The FNLC invaded Shaba again on 11 May 1978, capturing Kolwezi in two days."
+        },
+        {
+          "date": "1979-09-10",
+          "date_latest": "1979-09-10",
+          "date_precision": "day",
+          "text": "When he died on 10 September 1979, the party's Central Committee unanimously voted to elect dos Santos as president.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1980-05-12",
+          "date_latest": "1980-05-12",
+          "date_precision": "day",
+          "text": "The South African military attacked insurgents in Cunene Province on 12 May 1980."
+        },
+        {
+          "date": "1981-02-11",
+          "date_latest": "1981-02-11",
+          "date_precision": "day",
+          "text": "Designated as the \"Commander Bula National Military Aviation School\", it was set up on 11 February 1981 in Negage."
+        },
+        {
+          "date": "1984-01-07",
+          "date_latest": "1984-01-07",
+          "date_precision": "day",
+          "text": "Between 3 and 7 January 1984, the SADF attacked a SWAPO camp near Cuvelai, battling MPLA and Cuban reinforcements, with 21 South Africans killed, while claiming 324 enemy combatants killed, 11 T-55 tanks and 14 armored cars destroyed, and a SAM-6 system captured."
+        },
+        {
+          "date": "1985-06-02",
+          "date_latest": "1985-06-02",
+          "date_precision": "day",
+          "text": "On 2 June 1985, American conservative activists held the Democratic International, a symbolic meeting of anti-Communist militants, at UNITA's headquarters in Jamba."
+        },
+        {
+          "date": "1985-07-11",
+          "date_latest": "1985-07-11",
+          "date_precision": "day",
+          "text": "The United States House of Representatives voted 236 to 185 to repeal the Clark Amendment on 11 July 1985.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1986-02-08",
+          "date_latest": "1986-02-08",
+          "date_precision": "day",
+          "text": "UNITA forces attacked Camabatela in Cuanza Norte province on 8 February 1986."
+        },
+        {
+          "date": "1987-10-03",
+          "date_latest": "1987-10-03",
+          "date_precision": "day",
+          "text": "On 3 October 1987, over 600 MPLA troops were killed, and 127 tanks, armored cars, and other vehicles were destroyed or captured, while only 1 SADF soldier was killed and 5 were wounded."
+        },
+        {
+          "date": "1988-01-28",
+          "date_latest": "1988-01-28",
+          "date_precision": "day",
+          "text": "The Cuban government joined negotiations on 28 January 1988, and all three parties held a round of negotiations on 9 March."
+        },
+        {
+          "date": "1988-06-26",
+          "date_latest": "1988-06-26",
+          "date_precision": "day",
+          "text": "On 26 June 1988, South African forces engaged Cuban forces at Techipa, killing several Cuban troops."
+        },
+        {
+          "date": "1988-12-22",
+          "date_latest": "1988-12-22",
+          "date_precision": "day",
+          "text": "Representatives from the governments of Angola, Cuba, and South Africa signed the New York Accords, granting independence to Namibia and ending the direct involvement of foreign troops in the civil war, in New York City on 22 December 1988."
+        },
+        {
+          "date": "1991-05-31",
+          "date_latest": "1991-05-31",
+          "date_precision": "day",
+          "text": "President dos Santos met with Savimbi in Lisbon, Portugal and signed the Bicesse Accords, the first of three major peace agreements, on 31 May 1991, with the mediation of the Portuguese government."
+        },
+        {
+          "date": "1993-09-15",
+          "date_latest": "1993-09-15",
+          "date_precision": "day",
+          "text": "The United Nations Security Council sanctioned UNITA through Resolution 864 on 15 September 1993, prohibiting the sale of weapons or fuel to UNITA."
+        },
+        {
+          "date": "1994-10-31",
+          "date_latest": "1994-10-31",
+          "date_precision": "day",
+          "text": "Manuvakola and Angolan Foreign Minister Venancio de Moura signed the Lusaka Protocol in Lusaka, Zambia on 31 October 1994, agreeing to integrate and disarm UNITA."
+        },
+        {
+          "date": "1994-11-15",
+          "date_latest": "1994-11-15",
+          "date_precision": "day",
+          "text": "Zimbabwean President Robert Mugabe and South African President Nelson Mandela met in Lusaka on 15 November 1994 to boost support symbolically for the protocol."
+        },
+        {
+          "date": "1996-02-08",
+          "date_latest": "1996-02-08",
+          "date_precision": "day",
+          "text": "The UN extended its mandate on 8 February 1996."
+        },
+        {
+          "date": "1997-05-16",
+          "date_latest": "1997-05-16",
+          "date_precision": "day",
+          "text": "Mobutu's government fell to the opposition coalition on 16 May 1997."
+        },
+        {
+          "date": "1997-08-28",
+          "date_latest": "1997-08-28",
+          "date_precision": "day",
+          "text": "The UN Security Council voted on 28 August 1997, to impose sanctions on UNITA through Resolution 1127, prohibiting UNITA leaders from traveling abroad, closing UNITA's embassies abroad, and making UNITA-controlled areas a no-fly zone.",
+          "mentions_vote": true
+        },
+        {
+          "date": "1997-10-12",
+          "date_latest": "1997-10-12",
+          "date_precision": "day",
+          "text": "Between 11 and 12 October 1997, Angolan air force fighter jets conducted a number of air strikes on government positions within Brazzaville."
+        },
+        {
+          "date": "1997-10-16",
+          "date_latest": "1997-10-16",
+          "date_precision": "day",
+          "text": "On 16 October 1997 rebel militia supported by tanks and a force of 1,000 Angolan troops cemented their control of Brazzaville forcing Lisouba to flee."
+        },
+        {
+          "date": "1998-06-12",
+          "date_latest": "1998-06-12",
+          "date_precision": "day",
+          "text": "The Security Council expanded the sanctions through Resolution 1173 on 12 June 1998, requiring government certification for the purchase of Angolan diamonds and freezing UNITA's bank accounts."
+        },
+        {
+          "date": "1998-12-04",
+          "date_latest": "1998-12-04",
+          "date_precision": "day",
+          "text": "The Angolan military attacked UNITA forces in the Central Highlands on 4 December 1998, the day before the MPLA's fourth Congress."
+        },
+        {
+          "date": "2000-04-03",
+          "date_latest": "2000-04-03",
+          "date_precision": "day",
+          "text": "Angola agreed to trade oil to Slovakia in return for arms, buying six Sukhoi Su-17 attack aircraft on 3 April 2000."
+        },
+        {
+          "date": "2000-09-21",
+          "date_latest": "2000-09-21",
+          "date_precision": "day",
+          "text": "On 21 September 2000, a Russian freighter delivered 500 tons of Ukrainian 7.62 mm ammunition to Simportex, a division of the Angolan government, with the help of a shipping agent in London."
+        },
+        {
+          "date": "2001-01-30",
+          "date_latest": "2001-01-30",
+          "date_precision": "day",
+          "text": "From 30 January 2001 and 14 February 2001 the NDF carried out anti-UNITA operations around Chimbara near Licua which led to 19 UNITA fighters being killed.",
+          "names_later_date": true
+        },
+        {
+          "date": "2001-02-24",
+          "date_latest": "2001-02-24",
+          "date_precision": "day",
+          "text": "The Spanish government in the Canary Islands prevented a Ukrainian freighter from delivering 636 tons of military equipment to Angola on 24 February 2001."
+        },
+        {
+          "date": "2002-02-22",
+          "date_latest": "2002-02-22",
+          "date_precision": "day",
+          "text": "Government troops killed Jonas Savimbi on 22 February 2002, in Moxico province."
+        },
+        {
+          "date": "2002-04-04",
+          "date_latest": "2002-04-04",
+          "date_precision": "day",
+          "text": "The government spent $187 million settling internally displaced persons (IDPs) between 4 April 2002, and 2004, after which the World Bank gave $33 million to continue the settling process."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Angolan War of Independence",
+      "pageid": 1053409,
+      "revid": 1370428662,
+      "revision_timestamp": "2026-08-21T02:25:52Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1053409",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1933-06-13",
+          "date_latest": "1933-06-13",
+          "date_precision": "day",
+          "text": "highlighted on a map of modern-day Africa]] The Portuguese Colonial Act – passed on 13 June 1933 – defined the relationship between the Portuguese overseas territories and the metropole, until being revised in 1951."
+        },
+        {
+          "date": "1951-06-11",
+          "date_latest": "1951-06-11",
+          "date_precision": "day",
+          "text": "In 1944, José Ferreira Bossa, former Minister of the Colonies, proposed the revision of the Act, including the end up of the designation \"colonies\" and the resume of the traditional designation \"overseas provinces.\" On 11 June 1951, a new law passed in the Portuguese National Assembly reviewed the Constitution, finally repulsing the Colonial Act."
+        },
+        {
+          "date": "1951-06-11",
+          "date_latest": "1951-06-11",
+          "date_precision": "day",
+          "text": "The provincial status was restored on 11 June 1951."
+        },
+        {
+          "date": "1954-07-07",
+          "date_latest": "1954-07-07",
+          "date_precision": "day",
+          "text": "UPA was created on 7 July 1954, as the Union of the Peoples of Northern Angola, by Holden Roberto, a descendant of the old Kongo Royal House, who was born in northern Angola but had lived since his early childhood in the Belgian Congo, where he came to work for the local colonial authorities."
+        },
+        {
+          "date": "1961-01-11",
+          "date_latest": "1961-01-11",
+          "date_precision": "day",
+          "text": "From 9 to 11 January 1961, the situation worsened, with the murder of a mixed race Cotonang foreman and with the surrounding of a 3rd CCE patrol by hundreds of rebels."
+        },
+        {
+          "date": "1961-01-20",
+          "date_latest": "1961-01-20",
+          "date_precision": "day",
+          "text": "Kennedy was inaugurated as President of the United States on 20 January 1961."
+        },
+        {
+          "date": "1961-02-04",
+          "date_latest": "1961-02-04",
+          "date_precision": "day",
+          "text": "At a time when Luanda was full of foreign journalists that were covering the possible arriving at Angola of the hijacked liner Santa Maria and with the Baixa de Casanje revolt on its peak, on the early morning of 4 February 1961, a number of black militants, mostly armed with machetes, ambushed a Public Security Police (PSP) patrol-car and stormed the Civil Jail of São Paulo, the Military Detection House and the PSP Mobile Company Barracks, with the apparent objective of freeing political prisoners that were being held in those facilities."
+        },
+        {
+          "date": "1961-02-10",
+          "date_latest": "1961-02-10",
+          "date_precision": "day",
+          "text": "The facts about the events of 4 and 10 February 1961 are still very much clouded by the propaganda and contradictory information issued by the various parties about what really happened."
+        },
+        {
+          "date": "1961-03-15",
+          "date_latest": "1961-03-15",
+          "date_precision": "day",
+          "text": "Apparently, these measures were successful in greatly reducing the discontent among the laborers of the Baixa de Cassanje, with the region remaining peaceful even after the UPA attacks of 15 March 1961."
+        },
+        {
+          "date": "1961-03-15",
+          "date_latest": "1961-03-15",
+          "date_precision": "day",
+          "text": "]] On 15 March 1961, the Union of Peoples of Angola (UPA), under the leadership of Holden Roberto, launched an incursion into northern Angola from its base in the Congo-Léopoldville (the former Belgian Congo), leading 4,000 to 5,000 militants."
+        },
+        {
+          "date": "1961-05-02",
+          "date_latest": "1961-05-02",
+          "date_precision": "day",
+          "text": "The Governor-General Silva Tavares took measures to calm down the situation and on 2 May 1961, the Government decreed the change of the labor legislation related with cotton culture."
+        },
+        {
+          "date": "1961-06-17",
+          "date_latest": "1961-06-17",
+          "date_precision": "day",
+          "text": "Until 17 June 1961, there was no appointed Commander-in-Chief, with the joint command in the early stages of the conflict exercised by the commanders of the land forces, generals (until June 1961) and Silva Freire (from June to September 1961)."
+        },
+        {
+          "date": "1961-10-09",
+          "date_latest": "1961-10-09",
+          "date_precision": "day",
+          "text": "A UPA patrol took 21 MPLA militant prisoners and then executed them on 9 October 1961 in the Ferreira incident, sparking further violence between the two sides."
+        },
+        {
+          "date": "1966-12-25",
+          "date_latest": "1966-12-25",
+          "date_precision": "day",
+          "text": "UNITA carried out its first attack on 25 December 1966, preventing trains from passing through the Benguela railway at Teixeira de Sousa on the border with Zambia."
+        },
+        {
+          "date": "1968-05-19",
+          "date_latest": "1968-05-19",
+          "date_precision": "day",
+          "text": "On 19 May 1968, FNLA entered Eastern Angola and carried out its first violent actions in the region against the local populations."
+        },
+        {
+          "date": "1974-04-25",
+          "date_latest": "1974-04-25",
+          "date_precision": "day",
+          "text": "The MFA was an organisation of lower-ranked officers in the Portuguese Armed Forces which was responsible for the Carnation Revolution of 25 April 1974, which ended the Portuguese Colonial War and led to the independence of the Portuguese overseas territories."
+        },
+        {
+          "date": "1975-01-05",
+          "date_latest": "1975-01-05",
+          "date_precision": "day",
+          "text": "The three party leaders met again in Mombasa, Kenya on 5 January 1975 and agreed to stop fighting each other, further outlining constitutional negotiations with the Portuguese."
+        },
+        {
+          "date": "1975-10-23",
+          "date_latest": "1975-10-23",
+          "date_precision": "day",
+          "text": "South African forces invaded Angola on 23 October 1975, covertly sending 1,500 to 2,000 troops from Namibia into southern Angola."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "United Nations Angola Verification Mission II",
+      "pageid": 3669478,
+      "revid": 1217747870,
+      "revision_timestamp": "2024-04-07T17:03:38Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=3669478",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1991-05-30",
+          "date_latest": "1991-05-30",
+          "date_precision": "day",
+          "text": "The mission's original mandate was established by United Nations Security Council Resolution 696 (1991), passed on May 30, 1991."
+        },
+        {
+          "date": "1992-03-24",
+          "date_latest": "1992-03-24",
+          "date_precision": "day",
+          "text": "The subsequent resolution Resolution 747 (1992), passed March 24, 1992 altered the mandate to include electoral monitoring duties."
+        },
+        {
+          "date": "1994-11-20",
+          "date_latest": "1994-11-20",
+          "date_precision": "day",
+          "text": "Finally, in late 1994, with Security Council Resolutions 952 (1994) and 966 (1994), UNAVEM II began observation and verification of the Lusaka Protocol of November 20, 1994."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "topic": "rwanda_genocide",
+  "label": "Rwandan genocide",
+  "harvested": "2026-08-27",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution_note": "Text is quoted from English Wikipedia. Each article's title and revision id are recorded per source below; reuse requires attribution and share-alike.",
+  "segment_count": 16,
+  "flagged_vote_language": 0,
+  "flagged_names_later_date": 0,
+  "vague_dated_segments": 2,
+  "cross_article_duplicates": 0,
+  "slicing_note": "Slice on date_latest, not date, to keep the no-hindsight guarantee: a segment dated only to a year or a month could have occurred as late as the end of that period.",
+  "articles": [
+    {
+      "title": "Timeline of the Rwandan genocide",
+      "pageid": 17615335,
+      "revid": 1183305242,
+      "revision_timestamp": "2023-11-03T13:49:01Z",
+      "scope": "main",
+      "url": "https://en.wikipedia.org/wiki/?curid=17615335",
+      "strategy": null,
+      "segments": [],
+      "needs_review": true
+    },
+    {
+      "title": "Rwandan Civil War",
+      "pageid": 1796650,
+      "revid": 1371242033,
+      "revision_timestamp": "2026-08-25T11:24:35Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=1796650",
+      "strategy": "header_prose",
+      "segments": [
+        {
+          "date": "1991-01-01",
+          "date_latest": "1991-01-31",
+          "date_precision": "month",
+          "text": ", with the Virunga Mountains in the background|alt=Photograph of Ruhengeri, Rwanda, with buildings, a street, and people visible, and mountains in the background, partially in cloud]] After three months of regrouping, Kagame decided in January 1991 that the RPF was ready to fight again. The target for the first attack was the northern city of Ruhengeri, south of the Virunga mountains. The city was the only provincial capital that could be attacked quickly from the Virungas while maintaining an element of surprise. Kagame also favoured an attack on Ruhengeri for cultural reasons. President Habyarimana, as well as his wife and her powerful family, came from the north-west of Rwanda and most Rwandans regarded the region as the heartland of the regime. An attack there guaranteed the population would become aware of the RPF's presence and Kagame hoped this would destabilise the government. During the night of 22 January, seven hundred RPF fighters descended from the mountains into hidden locations around the city, assisted by RPF sympathisers living in the area. They attacked on the morning of 23 January. The Rwandan forces were taken by surprise and were mostly unable to defend against the invasion. The Rwandan Police and army succeeded in briefly repelling the invasion in areas around their stations, killing large numbers of rebel fighters in the process. It is likely the Rwandan Army forces were assisted by French troops, as the French Government later rewarded around fifteen French paratroopers for having taken part in the rearguard. By noon, the defending forces were defeated and the RPF held the whole city. Most of the civilian population fled. One of the principal RPF targets in Ruhengeri was the prison, which was Rwanda's largest. When he learnt of the invasion the warden, , telephoned the government in Kigali to request instructions. He spoke to Colonel Elie Sagatwa, one of the akazu, who ordered him to kill every inmate in the prison to avoid escape and defections during the fighting. He also wanted to prevent high-profile political prisoners and former insiders from sharing secret information with the RPF. Uwihoreye refused to obey, even after Sagatwa called him and repeated the order, having confirmed it with the president. Eventually, the RPF stormed the buildings and the prisoners were liberated. Several prisoners were recruited into the RPF, including Théoneste Lizinde, a former close ally of President Habyarimana, who had been arrested following a failed coup attempt in 1980. The RPF forces held Ruhengeri through the afternoon of 23 January, before withdrawing into the mountains for the night. The raid undermined the Rwandan Government's claims that the RPF had been ejected from the country and had been reduced to conducting guerrilla operations from Uganda. The government sent troops to the city the following day and a state of emergency was declared, with strict curfews in Ruhengeri and the surrounding area. The RPF raided the city almost every night for several months, fighting with Rwandan army forces, and the country was back at war for the first time since the October invasion."
+        },
+        {
+          "date": "1993-02-01",
+          "date_latest": "1993-02-28",
+          "date_precision": "month",
+          "text": "Paul Kagame responded by pulling out of the Arusha process and resuming the war, ending the six-month cease-fire. The RPF cited the CDR and MRND-hardliner violence as its reason for this, but according to foreign policy scholar Bruce D. Jones the offensive may actually have been intended primarily to increase the rebels' bargaining power at the peace talks. The next subject for the negotiations was the proportion of troops and officers to be allocated to each side in the new unified army. By demonstrating its military power in the field, through a successful offensive against the Rwandan Government forces, the RPF was able to secure an increased percentage of troops in the agreement. The RPF began its offensive on 8February, fighting southwards from the territory it already held in Rwanda's northern border regions. In contrast to the October 1990 and 1991–1992 campaigns, the RPF advance in 1993 was met by weak resistance from the Rwandan Army forces. The likely reason was a significant deterioration in morale and military experience within the government forces. The impact of the long-running war on the economy, and a heavy devaluation of the Rwandan franc, had left the government struggling to pay its soldiers regularly. The armed forces had also expanded rapidly, at one point growing from less than 10,000 troops to almost 30,000 in one-year. The new recruits were often poorly disciplined and not battle ready, with a tendency to get drunk and carry out abuse and rapes of civilians. The RPF advance continued unchecked in February, its forces moving steadily south and gaining territory without opposition. They took Ruhengeri on the first day of fighting, and later the city of Byumba. Local Hutu civilians fled en masse from the areas the RPF were taking, most of them ending up in refugee camps on the outskirts of Kigali. The civilian cost of the offensive is unclear; according to André Guichaoua several thousand were killed, while Prunier labelled the RPF killing as \"small-scale\". This violence alienated the rebels from their potential allies in the democratic Rwandan opposition parties. When it became clear that the Rwandan Army was losing ground to the RPF, Habyarimana requested urgent assistance from France. Fearing that the RPF could soon be in a position to seize Kigali, the French immediately dispatched 150 troops to Rwanda, along with arms and ammunition, to bolster the Rwandan Army forces. A further 250 French soldiers were sent on 20 February. The arrival of French troops in Kigali significantly changed the military situation on the ground. The RPF now found themselves under attack, French shells bombarding them as they advanced southwards. By 20 February the RPF had advanced to within 30 km of the capital, Kigali, and many observers believed an assault on the city was imminent. The assault did not take place, and the RPF instead declared a cease-fire. Whether or not the RPF intended to advance on the capital is unknown. Kagame later said his aim at this point was to inflict as much damage as possible on Rwandan Army forces, capture their weapons, and gain ground slowly, but not to attack the capital or seek to end the war with an outright RPF victory. Kagame told journalist and author Stephen Kinzer such a victory would have ended international goodwill towards the RPF and led to charges that the war had simply been a bid to replace the Hutu state with a Tutsi one. The increased presence of French troops and the fierce loyalty of the Hutu population to the government meant an invasion of Kigali would not have been achieved with the same ease that the RPF had conquered the north. Fighting for the capital would have been a much more difficult and dangerous operation. Several of Kagame's senior officers urged him to go for outright victory but he overruled them. By the end of the February war more than a million civilians, mostly Hutu, had left their homes in the country's largest exodus to date."
+        }
+      ],
+      "low_confidence": false,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    },
+    {
+      "title": "Rwandan genocide",
+      "pageid": 676659,
+      "revid": 1370478654,
+      "revision_timestamp": "2026-08-21T09:36:59Z",
+      "scope": "detail",
+      "url": "https://en.wikipedia.org/wiki/?curid=676659",
+      "strategy": "prose",
+      "segments": [
+        {
+          "date": "1959-11-01",
+          "date_latest": "1959-11-01",
+          "date_precision": "day",
+          "text": "This was the first document to label the Tutsi and Hutu as separate races, and called for the transfer of power from Tutsi to Hutu based on what it termed \"statistical law\". ]] On 1 November 1959 Dominique Mbonyumutwa, a Hutu sub-chief, was attacked close to his home in Byimana, Gitarama prefecture, by supporters of the pro-Tutsi party."
+        },
+        {
+          "date": "1990-10-11",
+          "date_latest": "1990-10-11",
+          "date_precision": "day",
+          "text": "A pogrom was organised on 11 October 1990 in a commune in Gisenyi Province, killing 383 Tutsi."
+        },
+        {
+          "date": "1994-01-11",
+          "date_latest": "1994-01-11",
+          "date_precision": "day",
+          "text": "On 11 January 1994, General Roméo Dallaire, commander of UNAMIR, sent his \"Genocide Fax\" to UN headquarters."
+        },
+        {
+          "date": "1994-04-06",
+          "date_latest": "1994-04-06",
+          "date_precision": "day",
+          "text": "However, the assassination of President Juvénal Habyarimana on 6 April 1994 ignited the genocide, as Hutu extremists used the power vacuum to target Tutsi and moderate Hutu leaders."
+        },
+        {
+          "date": "1994-04-06",
+          "date_latest": "1994-04-06",
+          "date_precision": "day",
+          "text": "On 6 April 1994, the airplane carrying Rwandan President Juvénal Habyarimana and Cyprien Ntaryamira, the Hutu president of Burundi, was shot down as it prepared to land in Kigali, killing everyone on board."
+        },
+        {
+          "date": "1994-04-07",
+          "date_latest": "1994-04-07",
+          "date_precision": "day",
+          "text": "The ICTR prosecution was unable to prove that a conspiracy to commit genocide existed prior to 7 April 1994."
+        },
+        {
+          "date": "1994-04-28",
+          "date_latest": "1994-04-28",
+          "date_precision": "day",
+          "text": "The first rumours of RPF killings emerged after 250,000 mostly Hutu refugees streamed into Tanzania at the border crossing of Rusumo on 28 April 1994."
+        },
+        {
+          "date": "1994-05-17",
+          "date_latest": "1994-05-17",
+          "date_precision": "day",
+          "text": "Before the international embargo against Rwanda on 17 May 1994, South Africa and France were two of the main suppliers of arms to Rwanda."
+        },
+        {
+          "date": "1994-05-17",
+          "date_latest": "1994-05-17",
+          "date_precision": "day",
+          "text": "On 17 May 1994, the UN passed Resolution 918, which imposed an arms embargo and reinforced UNAMIR, which would be known as UNAMIR II."
+        },
+        {
+          "date": "1996-08-30",
+          "date_latest": "1996-08-30",
+          "date_precision": "day",
+          "text": "It was not until 1996 that courts finally began trials for genocide cases with the enactment of Organic Law No. 08/96 of 30 on 30 August 1996."
+        },
+        {
+          "date": "2007-07-25",
+          "date_latest": "2007-07-25",
+          "date_precision": "day",
+          "text": "On 25 July 2007 the Organic Law Relating to the Abolition of the Death Penalty came into law, abolishing capital punishment and converting all existing death sentences to life in prison under solitary confinement."
+        },
+        {
+          "date": "2012-06-18",
+          "date_latest": "2012-06-18",
+          "date_precision": "day",
+          "text": "On 18 June 2012, the Gacaca court system was officially closed after facing criticism."
+        },
+        {
+          "date": "2015-12-31",
+          "date_latest": "2015-12-31",
+          "date_precision": "day",
+          "text": "With the announcement of its closing, there was a concern over how residual issues would be handled, because \"The nature of criminal judicial work ... is such that it never really ends.\" The ICTR officially closed on 31 December 2015, and its remaining functions were handed over to the Mechanism for International Criminal Tribunals."
+        },
+        {
+          "date": "2017-03-20",
+          "date_latest": "2017-03-20",
+          "date_precision": "day",
+          "text": "On 20 March 2017, Pope Francis acknowledged that while some Catholic nuns and priests in the country were killed during the genocide, others were complicit in it and took part in preparing and executing the genocide."
+        }
+      ],
+      "low_confidence": true,
+      "citation_rows_rejected": 0,
+      "needs_review": false
+    }
+  ]
+}
