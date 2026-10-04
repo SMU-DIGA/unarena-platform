@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Entries &amp; map · UN Voting Corpus 1946–2025</title>
+<title data-zh="专题地图 · 联合国表决记录 1946–2025">Entries &amp; map · UN Voting Corpus 1946–2025</title>
+<script src="assets/boot.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 <style>
 /* ---- page opening, in the same key as the landing page ------------------- */
@@ -16,7 +17,7 @@
   margin: 0 0 16px; max-width: 24ch; }
 .phero h1 em {
   font-style: normal;
-  background: linear-gradient(100deg, var(--seq-400), var(--series-3) 92%);
+  background: linear-gradient(100deg, var(--un-blue), var(--hero-end) 92%);
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .phero p.lede { font-size: 16px; max-width: 66ch; margin-bottom: 26px; }
@@ -104,8 +105,8 @@ table#full td:first-child { font-weight: 540; }
 <main>
   <section class="phero">
     <div class="kicker" id="kicker"></div>
-    <h1>Which question is each country <em>the subject of</em>?</h1>
-    <p class="lede">
+    <h1 data-zh="每个国家<em>是哪个问题的主角</em>？">Which question is each country <em>the subject of</em>?</h1>
+    <p class="lede" data-zh="同一语料库的两张地图。第一张问的是一个国家<em>作为什么被讨论</em>；第二张问的是<em>谁在会场里</em>。将鼠标悬停在第一张地图的着色区域上，可查看它所挂的专题条目，并点击进入。">
       Two maps of the same corpus. The first asks what a country was <em>discussed as</em>; the
       second asks <em>who was in the room</em>. Hover anything shaded on the first map to see the
       entries it carries, and click through to one.
@@ -116,48 +117,50 @@ table#full td:first-child { font-weight: 540; }
   <div class="plate">
     <header>
       <div>
-        <h2>Topic entries on the map</h2>
-        <p>Shading is the number of meetings the corpus holds on that country's questions —
-          Council and Assembly together. A country is shaded because an entry is <em>about</em>
+        <h2 data-zh="地图上的专题条目">Topic entries on the map</h2>
+        <p data-zh="着色深浅表示语料库中关于该国问题的会议数——安理会与大会合计。一个国家被着色，是因为某个条目<em>关于</em>它，这是记录在 <code>build_topics.py</code> 中的人工判断，而不是它的名字在表决记录中出现的次数。">Shading is the number of meetings the corpus holds on that country's questions —Council and Assembly together. A country is shaded because an entry is <em>about</em>
           it, a curated judgement recorded in <code>build_topics.py</code>, not a count of times
           its name appears in a vote record.</p>
       </div>
       <div class="scalekey">
-        meetings per country
+        <span data-zh="每国会议数">meetings per country</span>
         <span class="ramp"></span>
         <span class="ends"><span>0</span><span id="emax"></span></span>
       </div>
     </header>
     <div class="inset"><div id="emap" class="chart"></div></div>
-    <p class="hint" id="ehint"><b>Hover</b> a shaded country for its entries · <b>click</b> to open
+    <p class="hint" id="ehint" data-zh="<b>悬停</b>在着色国家上查看其条目 · <b>点击</b>打开 · <b>拖动</b>和<b>滚动</b>可移动、缩放地图"><b>Hover</b> a shaded country for its entries · <b>click</b> to open
       one · <b>drag</b> and <b>scroll</b> to move around the map</p>
     <div class="selpanel" id="selpanel" style="display:none"></div>
   </div>
 
   <div class="card">
     <header>
-      <h2>Entries with no country</h2>
+      <h2 data-zh="不对应国家的条目">Entries with no country</h2>
       <p id="globals-desc">Some entries are about a regime or an institution rather than a place, so
         they appear on no polygon.</p>
     </header>
     <div class="entrygrid" id="globals"></div>
   </div>
 
-  <div class="secdiv">The other question</div>
+  <div class="secdiv" data-zh="另一个问题">The other question</div>
 
-  <h2 style="margin:0 0 8px;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em">Who was in the room</h2>
-  <p class="lede">
+  <h2 style="margin:0 0 8px;font-size:clamp(24px,3vw,34px);letter-spacing:-.02em" data-zh="谁在会场里">Who was in the room</h2>
+  <p class="lede" data-zh="谁坐在桌边，谁被邀请进入会场，谁投了反对票。切换指标即可重绘地图；页面底部的表格同时按所有指标列出每个国家。">
     Who sat at the table, who was invited into the chamber, and who voted against. Switch the
     metric to redraw the map; the table at the foot of the page ranks every state on all of them
     at once.
   </p>
 
-  <div class="callout critical">
+  <div class="callout critical" data-l="zh">
+    <strong>本页后半部分基本上只关于安理会。</strong>
+    大会的 JSON 只记录每次会议的<strong>主席国</strong>——没有成员或受邀名单——且只有 929 条国家层面的表决记录。因此地图和表格几乎完全由安理会数据构成（成员出席 <span class="sc-member"></span> 次、受邀 <span class="sc-invited"></span> 次、担任主席 <span class="sc-pres"></span> 次）。把本页当作大会的写照是错误的。</div>
+  <div class="callout critical" data-l="en">
     <strong>This second half of the page is essentially about the Security Council.</strong>
     The Assembly JSON records only the <strong>presiding country</strong> for each meeting — no
     member or invited lists — and holds just 929 country-level vote records. The map and the table
-    are therefore built almost entirely from Council data (<span id="sc-member"></span> member appearances,
-    <span id="sc-invited"></span> invitations, <span id="sc-pres"></span> presidencies). Reading this page as a portrait of the Assembly would be wrong.
+    are therefore built almost entirely from Council data (<span class="sc-member"></span> member appearances,
+    <span class="sc-invited"></span> invitations, <span class="sc-pres"></span> presidencies). Reading this page as a portrait of the Assembly would be wrong.
   </div>
 
   <div class="tiles" id="tiles"></div>
@@ -176,7 +179,9 @@ table#full td:first-child { font-weight: 540; }
     </header>
     <div class="controls" style="margin-bottom:14px"><div class="seg" id="metric-seg"></div></div>
     <div class="inset"><div id="map" class="chart"></div></div>
-    <p class="note">
+    <p class="note" data-l="zh">
+      着色是单一色相、由浅到深的连续量。灰色表示该指标下没有记录。历史实体——苏联、南斯拉夫、扎伊尔——在表格中保留各自身份，但借用其继承国的轮廓才能出现在地图上；这是绘图上的折中，并不表示两者等同。有 6 个国家（马尔代夫、摩纳哥、圣马力诺、圣基茨和尼维斯、瑙鲁、马绍尔群岛）在底图中没有轮廓，因此出现在表格中但无法着色。</p>
+    <p class="note" data-l="en">
       Shading is a continuous magnitude on a single-hue ramp, light to dark. Grey means no record
       under that metric. Historical entities — the USSR, Yugoslavia, Zaire — keep their own
       identity in the table but borrow their successor's polygon to appear on the map at all;
@@ -188,22 +193,25 @@ table#full td:first-child { font-weight: 540; }
 
   <div class="card">
     <header>
-      <h2>Every state and entity</h2>
-      <p>All <span id="ncount"></span> of them, on every metric at once. Click a column to sort;
+      <h2 data-zh="全部国家与实体">Every state and entity</h2>
+      <p data-l="zh">共 <span class="ncount"></span> 个，同时列出所有指标。点击列标题排序；<em>作为什么被讨论</em>一列链接到该国所挂的条目。该列通过底图轮廓关联，因此借用继承国轮廓的历史实体——苏联、扎伊尔——留空，而不是把晚于它们的问题算到它们头上。</p>
+      <p data-l="en">All <span class="ncount"></span> of them, on every metric at once. Click a column to sort;
         <em>Discussed as</em> links to the entries that country carries. That column is a join
-        through the basemap polygon, so historical entities borrowing a successor's polygon —
-        the USSR, Zaire — are left blank rather than credited with a question that postdates
+        through the basemap polygon, so historical entities borrowing a successor's polygon —the USSR, Zaire — are left blank rather than credited with a question that postdates
         them.</p>
     </header>
     <div class="tablebar">
-      <input type="text" id="tq" placeholder="Find a state…">
+      <input type="text" id="tq" placeholder="Find a state…" data-zh-ph="查找国家…">
       <span class="n" id="tn"></span>
     </div>
     <div class="tablewrap" style="max-height:560px"><table id="full"></table></div>
-    <p class="note">
+    <p class="note" data-l="zh">
+      语料库中共有 439 个不同的国家名称字符串，其中 209 个出现不超过三次，大多是 OCR 噪声（<code>Aus t r a l i a</code>、<code>Fran~e</code>）。规范化后，<span class="res-pct"></span> 的国家记录得以识别；其余 <span class="unres"></span>
+      条无法识别或根本不是国家（巴解组织、秘书长），已被排除。</p>
+    <p class="note" data-l="en">
       The corpus contains 439 distinct country strings, 209 of which occur three times or fewer
       and are mostly OCR noise (<code>Aus t r a l i a</code>, <code>Fran~e</code>). After
-      normalisation <span id="res-pct"></span> of country records resolve; the remaining <span id="unres"></span>
+      normalisation <span class="res-pct"></span> of country records resolve; the remaining <span class="unres"></span>
       are unresolvable or are not states at all (the PLO, the Secretary-General) and are excluded.
     </p>
   </div>
@@ -214,6 +222,7 @@ table#full td:first-child { font-weight: 540; }
 <script src="data/geo.js"></script>
 <script src="data/topics.js"></script>
 <script src="data/topic_images.js"></script>
+<script src="data/zh.js"></script>
 <script src="assets/common.js"></script>
 <script>
 echarts.registerMap('world', window.WORLD_GEOJSON);
@@ -230,23 +239,26 @@ const TP = window.TOPICS;
   const g = TP.topics.filter((t) => t.global);
   const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six'];
   const big = Math.max(0, ...g.map((t) => t.total));
-  document.getElementById('globals-desc').textContent =
+  document.getElementById('globals-desc').textContent = L(
     `${words[g.length] || g.length} entr${g.length === 1 ? 'y is' : 'ies are'} about a regime or an institution rather than a place, so `
     + `${g.length === 1 ? 'it appears' : 'they appear'} on no polygon.`
-    + (big ? ` They are not smaller for it — one of them carries ${fmt(big)} meetings.` : '');
+    + (big ? ` They are not smaller for it — one of them carries ${fmt(big)} meetings.` : ''),
+    `有 ${g.length} 个条目关于某种机制或机构，而非某个地点，因此不对应任何地图轮廓。`
+    + (big ? `它们并不因此更小——其中一个挂有 ${fmt(big)} 次会议。` : ''));
 }
 const BY_ID = Object.fromEntries(TP.topics.map((t) => [t.id, t]));
 const BY_COUNTRY = Object.fromEntries(TP.countries.map((c) => [c.name, c]));
 const EMAX = Math.max(...TP.countries.map((x) => x.total));
 
-document.getElementById('kicker').textContent =
-  `${TP.totals.topics} entries · ${TP.totals.polygons} countries · ${fmt(TP.totals.meetings)} meetings`;
+document.getElementById('kicker').textContent = L(
+  `${TP.totals.topics} entries · ${TP.totals.polygons} countries · ${fmt(TP.totals.meetings)} meetings`,
+  `${TP.totals.topics} 个条目 · ${TP.totals.polygons} 个国家 · ${fmt(TP.totals.meetings)} 次会议`);
 document.getElementById('emax').textContent = fmt(EMAX);
 document.getElementById('pnums').innerHTML = [
-  [fmt(TP.totals.polygons), 'countries carry at least one entry'],
-  [fmt(TP.totals.meetings), 'meetings the entries cover between them'],
-  [String(TP.totals.topics - TP.topics.filter((t) => t.global).length), 'entries tied to a place'],
-  [String(TP.topics.filter((t) => t.global).length), 'about a regime or an institution instead'],
+  [fmt(TP.totals.polygons), L('countries carry at least one entry', '个国家至少挂有一个条目')],
+  [fmt(TP.totals.meetings), L('meetings the entries cover between them', '次会议被这些条目覆盖')],
+  [String(TP.totals.topics - TP.topics.filter((t) => t.global).length), L('entries tied to a place', '个条目对应具体地点')],
+  [String(TP.topics.filter((t) => t.global).length), L('about a regime or an institution instead', '个条目关于机制或机构')],
 ].map(([n, l]) => `<div><div class="n">${n}</div><div class="l">${esc(l)}</div></div>`).join('');
 
 mountChart(document.getElementById('emap'), (c, base, ax) => {
@@ -258,10 +270,10 @@ mountChart(document.getElementById('emap'), (c, base, ax) => {
       formatter: (p) => {
         const rec = BY_COUNTRY[p.name];
         if (!rec) {
-          return `<div class="maphover"><div class="h">${esc(p.name)}</div>
-            <div class="foot">No entry is about this country. It may still appear
+          return `<div class="maphover"><div class="h">${esc(cname(p.name))}</div>
+            <div class="foot">${L(`No entry is about this country. It may still appear
             throughout the records as a member, a sponsor or a voter — the second
-            map below covers that.</div></div>`;
+            map below covers that.`, '没有关于这个国家的条目。它仍可能以成员、提案国或投票方的身份出现在记录中——下方第二张地图涵盖这一点。')}</div></div>`;
         }
         /* Each row carries a bar of its own share, so a country with one big
            entry and one small one reads as that rather than as two numbers. */
@@ -273,15 +285,15 @@ mountChart(document.getElementById('emap'), (c, base, ax) => {
             <span class="bar" style="width:${(t.n / top * 100).toFixed(1)}%"></span>
           </div>`).join('');
         return `<div class="maphover">
-          <div class="h">${esc(p.name)}</div>
+          <div class="h">${esc(cname(p.name))}</div>
           ${rows}
           ${rec.topics.length > 1 ? `
             <div class="row" style="border-top:1px solid var(--grid);margin-top:6px;padding-top:6px">
-              <span class="lab">meetings in total</span>
+              <span class="lab">${L('meetings in total', '会议合计')}</span>
               <span class="num">${fmt(rec.total)}</span></div>` : ''}
           <div class="foot">${rec.topics.length > 1
-            ? 'Click to choose between these entries.'
-            : 'Click to open this entry.'}</div>
+            ? L('Click to choose between these entries.', '点击在这些条目中选择。')
+            : L('Click to open this entry.', '点击打开此条目。')}</div>
         </div>`;
       },
     },
@@ -312,12 +324,12 @@ function entryCard(t, extra) {
   return `<a class="ecard" href="entry.html?id=${encodeURIComponent(t.id)}">
     <div class="pic">
       ${pictureFor(key, { title: t.label, years: t.years, id: t.id, kicker: 'entry' })}
-      <span class="n">${fmt(t.total)} meetings</span>
+      <span class="n">${L(`${fmt(t.total)} meetings`, `${fmt(t.total)} 次会议`)}</span>
     </div>
     <div class="body">
       <div class="t">${esc(t.label)}</div>
       <div class="d">${esc(t.blurb)}</div>
-      <div class="w">${extra || (t.countries.length ? t.countries.join(' · ') : 'global')} ·
+      <div class="w">${extra || (t.countries.length ? t.countries.join(' · ') : L('global', '全球'))} ·
         ${t.first.slice(0, 4)}–${t.last.slice(0, 4)}</div>
     </div>
   </a>`;
@@ -329,7 +341,7 @@ function selectCountry(name, navigate = true) {
   if (!rec) {
     panel.style.display = 'none';
     document.getElementById('ehint').textContent =
-      `${name} carries no entry. Hover a shaded country instead.`;
+      L(`${name} carries no entry. Hover a shaded country instead.`, `${cname(name)}没有挂任何条目。请悬停在着色的国家上。`);
     return;
   }
   /* A click on a country with one entry has nothing to choose, so it goes
@@ -342,9 +354,10 @@ function selectCountry(name, navigate = true) {
   panel.style.display = '';
   panel.innerHTML = `
     <div class="hd">
-      <h3>${esc(name)}</h3>
-      <span class="n">${rec.topics.length} entries · ${fmt(rec.total)} meetings between them</span>
-      <button class="ghost" id="closesel">Close</button>
+      <h3>${esc(cname(name))}</h3>
+      <span class="n">${L(`${rec.topics.length} entries · ${fmt(rec.total)} meetings between them`,
+        `${rec.topics.length} 个条目 · 合计 ${fmt(rec.total)} 次会议`)}</span>
+      <button class="ghost" id="closesel">${L('Close', '关闭')}</button>
     </div>
     <div class="entrygrid">
       ${rec.topics.map((x) => entryCard(BY_ID[x.id])).join('')}
@@ -355,7 +368,7 @@ function selectCountry(name, navigate = true) {
 
 document.getElementById('globals').innerHTML = TP.topics
   .filter((t) => t.global)
-  .map((t) => entryCard(t, 'global'))
+  .map((t) => entryCard(t, L('global', '全球')))
   .join('');
 
 /* deep link: geo.html?country=Iraq */
@@ -363,16 +376,20 @@ const qsC = new URLSearchParams(location.search).get('country');
 if (qsC && BY_COUNTRY[qsC]) selectCountry(qsC, false);
 
 const METRICS = [
-  ['member', 'Council attendance',
-   'How often a state appears as a sitting Council member in the meeting records. The permanent members top this by construction, so the interesting signal is the spread among elected members.'],
-  ['invited', 'Invited to attend',
-   'How often a non-member was invited into the chamber to speak — usually because it was a party to that day’s question. This is the most direct measure of who gets discussed.'],
-  ['president', 'Held the presidency',
-   'The Council presidency rotates monthly in the English alphabetical order of member names, so the count is roughly proportional to months served.'],
-  ['against', 'Voted against',
-   'Votes cast against a Council resolution. Note that this is not the same as a veto: a vetoed draft is normally never numbered, so it never enters the corpus at all.'],
-  ['sponsored', 'Submitted drafts',
-   'How often a state appears as the submitting sponsor of a draft resolution.'],
+  ['member', L('Council attendance', '安理会出席'),
+   L('How often a state appears as a sitting Council member in the meeting records. The permanent members top this by construction, so the interesting signal is the spread among elected members.',
+     '一个国家以在任安理会成员身份出现在会议记录中的次数。常任理事国按制度必然居首，因此值得关注的是非常任理事国之间的差异。')],
+  ['invited', L('Invited to attend', '受邀出席'),
+   L('How often a non-member was invited into the chamber to speak — usually because it was a party to that day’s question. This is the most direct measure of who gets discussed.',
+     '非成员国被邀请进入会场发言的次数——通常是因为它是当天议题的当事方。这是衡量谁被讨论的最直接指标。')],
+  ['president', L('Held the presidency', '担任主席'),
+   L('The Council presidency rotates monthly in the English alphabetical order of member names, so the count is roughly proportional to months served.',
+     '安理会主席按成员国英文名称字母顺序每月轮换，因此次数大致与任职月数成正比。')],
+  ['against', L('Voted against', '投反对票'),
+   L('Votes cast against a Council resolution. Note that this is not the same as a veto: a vetoed draft is normally never numbered, so it never enters the corpus at all.',
+     '对安理会决议投下的反对票。注意这与否决不同：被否决的草案通常不会获得编号，因此根本不会进入语料库。')],
+  ['sponsored', L('Submitted drafts', '提交草案'),
+   L('How often a state appears as the submitting sponsor of a draft resolution.', '一个国家作为决议草案提交方出现的次数。')],
 ];
 let metric = 0;
 
@@ -387,7 +404,7 @@ function metricGeo() {
   const labelFor = {};
   rows.forEach((d) => {
     perNe[d.ne] = (perNe[d.ne] || 0) + val(d);
-    (labelFor[d.ne] = labelFor[d.ne] || []).push(`${d.name} ${fmt(val(d))}`);
+    (labelFor[d.ne] = labelFor[d.ne] || []).push(`${cname(d.name)} ${fmt(val(d))}`);
   });
   return { perNe, labelFor, max: Math.max(...Object.values(perNe)) };
 }
@@ -405,9 +422,9 @@ document.getElementById('metric-seg').onclick = (e) => {
 
 function syncText() {
   const [, label, desc] = METRICS[metric];
-  document.getElementById('map-title').textContent = `World map — ${label.toLowerCase()}`;
+  document.getElementById('map-title').textContent = L(`World map — ${label.toLowerCase()}`, `世界地图——${label}`);
   document.getElementById('map-desc').textContent = desc;
-  document.getElementById('metric-unit').textContent = `${label.toLowerCase()} per country`;
+  document.getElementById('metric-unit').textContent = L(`${label.toLowerCase()} per country`, `每国${label}次数`);
   document.getElementById('mmax').textContent = fmt(metricGeo().max);
 }
 syncText();
@@ -419,10 +436,10 @@ mountChart(document.getElementById('map'), (c, base, ax) => {
     ...base,
     tooltip: {
       ...base.tooltip, trigger: 'item',
-      formatter: (p) => (p.value ? `<b>${p.name}</b><br>${METRICS[metric][1]}: <b>${fmt(p.value)}</b>`
+      formatter: (p) => (p.value ? `<b>${esc(cname(p.name))}</b><br>${METRICS[metric][1]}: <b>${fmt(p.value)}</b>`
         + (labelFor[p.name] && labelFor[p.name].length > 1
-          ? `<br><span style="color:${c.muted};font-size:11.5px">includes ${labelFor[p.name].join(', ')}</span>` : '')
-        : `<b>${p.name}</b><br><span style="color:${c.muted}">no record</span>`),
+          ? `<br><span style="color:${c.muted};font-size:11.5px">${L('includes', '包括')} ${labelFor[p.name].join(', ')}</span>` : '')
+        : `<b>${esc(cname(p.name))}</b><br><span style="color:${c.muted}">${L('no record', '无记录')}</span>`),
     },
     visualMap: { show: false, min: 0, max, inRange: { color: c.seq } },
     series: [{
@@ -441,36 +458,38 @@ const withSeat = C.filter((d) => d.member_years).length;
 const invitedN = C.filter((d) => d.invited).length;
 const topInvited = C.slice().sort((a, b) => b.invited - a.invited)[0];
 document.getElementById('tiles').innerHTML = `
-  <div class="tile"><div class="k">States &amp; entities present</div><div class="v">${C.length}</div>
-    <div class="s">including entities that no longer exist</div></div>
-  <div class="tile"><div class="k">Have held a Council seat</div><div class="v">${withSeat}</div>
-    <div class="s">appear in the corpus as members</div></div>
-  <div class="tile"><div class="k">Have been invited</div><div class="v">${invitedN}</div>
-    <div class="s">non-members called into the chamber</div></div>
-  <div class="tile"><div class="k">Most often invited</div><div class="v" style="font-size:21px">${topInvited.name}</div>
-    <div class="s">${fmt(topInvited.invited)} times</div></div>`;
+  <div class="tile"><div class="k">${L('States &amp; entities present', '出现的国家与实体')}</div><div class="v">${C.length}</div>
+    <div class="s">${L('including entities that no longer exist', '包括已不存在的实体')}</div></div>
+  <div class="tile"><div class="k">${L('Have held a Council seat', '曾任安理会成员')}</div><div class="v">${withSeat}</div>
+    <div class="s">${L('appear in the corpus as members', '在语料库中以成员身份出现')}</div></div>
+  <div class="tile"><div class="k">${L('Have been invited', '曾受邀出席')}</div><div class="v">${invitedN}</div>
+    <div class="s">${L('non-members called into the chamber', '被请入会场的非成员国')}</div></div>
+  <div class="tile"><div class="k">${L('Most often invited', '受邀最多')}</div><div class="v" style="font-size:21px">${esc(cname(topInvited.name))}</div>
+    <div class="s">${L(`${fmt(topInvited.invited)} times`, `${fmt(topInvited.invited)} 次`)}</div></div>`;
 
 /* ---------------------------------------------------------- full table
    With the two ranking panels gone this table is the only ranking on the
    page, so it carries the entry column as well: the same country row now
    answers both "how often was it in the room" and "what was it discussed
    as". Entries are keyed by basemap polygon, which is what `ne` holds. */
-document.getElementById('ncount').textContent = C.length;
-document.getElementById('unres').textContent = fmt(G.unresolved_records);
+/* Some figures appear in both language versions of a passage, so they are
+   filled by class rather than id. */
+const fill = (cls, v) => document.querySelectorAll('.' + cls).forEach((el) => { el.textContent = v; });
+fill('ncount', C.length);
+fill('unres', fmt(G.unresolved_records));
 {
   const tot = (k) => C.reduce((s, d) => s + (d[k] || 0), 0);
   const placed = ['member', 'invited', 'president', 'ga_president', 'against', 'abstain', 'sponsored']
     .reduce((s, k) => s + tot(k), 0);
-  document.getElementById('sc-member').textContent = fmt(tot('member'));
-  document.getElementById('sc-invited').textContent = fmt(tot('invited'));
-  document.getElementById('sc-pres').textContent = fmt(tot('president'));
-  document.getElementById('res-pct').textContent =
-    (100 * placed / (placed + G.unresolved_records)).toFixed(1) + '%';
+  fill('sc-member', fmt(tot('member')));
+  fill('sc-invited', fmt(tot('invited')));
+  fill('sc-pres', fmt(tot('president')));
+  fill('res-pct', (100 * placed / (placed + G.unresolved_records)).toFixed(1) + '%');
 }
-const COLS = [['name', 'State / entity'], ['topics', 'Discussed as'],
-  ['member_years', 'Seat years'], ['member', 'Attendance'],
-  ['invited', 'Invited'], ['president', 'Presidencies'], ['against', 'Against'],
-  ['abstain', 'Abstained'], ['sponsored', 'Drafts'], ['first', 'First'], ['last', 'Last']];
+const COLS = [['name', L('State / entity', '国家 / 实体')], ['topics', L('Discussed as', '作为什么被讨论')],
+  ['member_years', L('Seat years', '任期年数')], ['member', L('Attendance', '出席')],
+  ['invited', L('Invited', '受邀')], ['president', L('Presidencies', '主席')], ['against', L('Against', '反对')],
+  ['abstain', L('Abstained', '弃权')], ['sponsored', L('Drafts', '草案')], ['first', L('First', '首次')], ['last', L('Last', '最近')]];
 let sortKey = 'member', sortDesc = true;
 
 /* The join runs through the basemap polygon, and historical entities borrow
@@ -483,6 +502,7 @@ const entriesFor = (d) =>
 function renderTable() {
   const q = document.getElementById('tq').value.trim().toLowerCase();
   let rows = C.filter((d) => !q || d.name.toLowerCase().includes(q)
+    || cname(d.name).toLowerCase().includes(q)
     || entriesFor(d).some((t) => t.label.toLowerCase().includes(q)));
   rows.sort((a, b) => {
     if (sortKey === 'topics') {
@@ -490,13 +510,17 @@ function renderTable() {
       const y = entriesFor(b).reduce((s, t) => s + t.n, 0);
       return sortDesc ? y - x : x - y;
     }
+    if (sortKey === 'name') {
+      const coll = L('en', 'zh-CN');
+      return sortDesc ? cname(b.name).localeCompare(cname(a.name), coll) : cname(a.name).localeCompare(cname(b.name), coll);
+    }
     const x = a[sortKey], y = b[sortKey];
     if (typeof x === 'string') return sortDesc ? y.localeCompare(x) : x.localeCompare(y);
     return sortDesc ? (y ?? -1) - (x ?? -1) : (x ?? -1) - (y ?? -1);
   });
 
   document.getElementById('tn').textContent =
-    rows.length === C.length ? `${C.length} rows` : `${rows.length} of ${C.length}`;
+    rows.length === C.length ? L(`${C.length} rows`, `共 ${C.length} 行`) : L(`${rows.length} of ${C.length}`, `${C.length} 行中的 ${rows.length} 行`);
 
   const cell = (d, k) => {
     if (k === 'topics') {
@@ -512,8 +536,8 @@ function renderTable() {
   document.getElementById('full').innerHTML =
     `<thead><tr>${COLS.map(([k, l]) =>
       `<th data-k="${k}" style="cursor:pointer">${l}${sortKey === k ? (sortDesc ? ' ↓' : ' ↑') : ''}</th>`).join('')}</tr></thead>`
-    + `<tbody>${rows.map((d) => `<tr><td>${esc(d.name)}${d.historical
-        ? ' <span class="badge">historical</span>' : ''}</td>`
+    + `<tbody>${rows.map((d) => `<tr><td>${esc(cname(d.name))}${d.historical
+        ? ` <span class="badge">${L('historical', '历史实体')}</span>` : ''}</td>`
       + COLS.slice(1).map(([k]) =>
           `<td${k === 'topics' ? ' style="text-align:left;white-space:normal;max-width:280px"' : ''}>${cell(d, k)}</td>`).join('')
       + '</tr>').join('')}</tbody>`;

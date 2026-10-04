@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Entry · UN Voting Corpus</title>
+<title data-zh="专题条目 · 联合国表决记录">Entry · UN Voting Corpus</title>
+<script src="assets/boot.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 <style>
 .backlink { font-size: 13.5px; color: var(--series-1); text-decoration: none; }
@@ -67,16 +68,17 @@ mark { background: color-mix(in srgb, var(--series-4) 45%, transparent); color: 
 <body>
 <main>
   <p style="margin:0 0 18px">
-    <a class="backlink" href="entries.html">← All entries</a> &nbsp;·&nbsp;
-    <a class="backlink" href="geo.html">Map</a>
+    <a class="backlink" href="entries.html" data-zh="← 全部专题">← All entries</a> &nbsp;·&nbsp;
+    <a class="backlink" href="geo.html" data-zh="地图">Map</a>
   </p>
-  <div id="content"><p class="note">Loading…</p></div>
+  <div id="content"><p class="note" data-zh="加载中…">Loading…</p></div>
 </main>
 
 <script src="assets/echarts.min.js"></script>
 <script src="data/topics.js"></script>
 <script src="data/topic_meetings.js"></script>
 <script src="data/topic_images.js"></script>
+<script src="data/zh.js"></script>
 <script src="assets/common.js"></script>
 <script>
 const ID = new URLSearchParams(location.search).get('id');
@@ -88,12 +90,12 @@ function render() {
   const key = `topic:${T.id}`;
   const where = T.countries.length
     ? T.countries.map((c) => `<span>${esc(c)}</span>`).join('')
-    : '<span>no single country — this entry is global</span>';
+    : `<span>${L('no single country — this entry is global', '不针对单一国家——这是一个全球性条目')}</span>`;
   const mat = T.material;
 
   document.getElementById('content').innerHTML = `
     <div style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px">
-      Topic entry
+      ${L('Topic entry', '专题条目')}
     </div>
 
     <div class="ehero" style="margin-bottom:26px">
@@ -105,29 +107,29 @@ function render() {
       </div>
       <div>
         <div class="pic">${pictureFor(key, { title: T.label, years: T.years, id: T.id, kicker: 'entry' })}</div>
-        ${creditFor(key, 'Drawn from this entry’s own record: meetings per year in the corpus.')}
+        ${creditFor(key, L('Drawn from this entry’s own record: meetings per year in the corpus.', '根据本条目自身的记录绘制：语料库中每年的会议数。'))}
       </div>
     </div>
 
     <div class="tiles">
-      <div class="tile"><div class="k">Meetings carrying this entry</div><div class="v">${fmt(T.total)}</div>
-        <div class="s">Council ${fmt(T.sc)} · Assembly ${fmt(T.ga)}</div></div>
-      <div class="tile"><div class="k">First and last</div><div class="v" style="font-size:21px">${T.first} → ${T.last}</div>
-        <div class="s">by meeting date, not by when the events happened</div></div>
-      <div class="tile"><div class="k">Dated passages behind it</div><div class="v">${fmt(mat.segments)}</div>
-        <div class="s">${fmt(mat.prose)} pulled from prose rather than a dated timeline</div></div>
-      <div class="tile"><div class="k">Median description</div><div class="v">${fmt(T.chars.median)}</div>
-        <div class="s">characters per meeting; longest ${fmt(T.chars.max)}</div></div>
-      <div class="tile"><div class="k">Matched on</div><div class="v" style="font-size:21px">${fmt(T.basis.agenda)} / ${fmt(T.basis.resolution_title)}</div>
-        <div class="s">the meeting’s agenda / a resolution title</div></div>
+      <div class="tile"><div class="k">${L('Meetings carrying this entry', '挂有本条目的会议')}</div><div class="v">${fmt(T.total)}</div>
+        <div class="s">${L(`Council ${fmt(T.sc)} · Assembly ${fmt(T.ga)}`, `安理会 ${fmt(T.sc)} · 大会 ${fmt(T.ga)}`)}</div></div>
+      <div class="tile"><div class="k">${L('First and last', '首次与最近')}</div><div class="v" style="font-size:21px">${T.first} → ${T.last}</div>
+        <div class="s">${L('by meeting date, not by when the events happened', '按会议日期，而非事件发生日期')}</div></div>
+      <div class="tile"><div class="k">${L('Dated passages behind it', '背后的带日期段落')}</div><div class="v">${fmt(mat.segments)}</div>
+        <div class="s">${L(`${fmt(mat.prose)} pulled from prose rather than a dated timeline`, `其中 ${fmt(mat.prose)} 段取自正文叙述，而非带日期的年表`)}</div></div>
+      <div class="tile"><div class="k">${L('Median description', '描述长度中位数')}</div><div class="v">${fmt(T.chars.median)}</div>
+        <div class="s">${L(`characters per meeting; longest ${fmt(T.chars.max)}`, `每次会议的字符数；最长 ${fmt(T.chars.max)}`)}</div></div>
+      <div class="tile"><div class="k">${L('Matched on', '匹配依据')}</div><div class="v" style="font-size:21px">${fmt(T.basis.agenda)} / ${fmt(T.basis.resolution_title)}</div>
+        <div class="s">${L('the meeting’s agenda / a resolution title', '会议议程 / 决议标题')}</div></div>
     </div>
 
     <div class="card">
       <header>
-        <h2>When this question was in front of the two bodies</h2>
-        <p>Meetings per year that carry this entry. This is a reading of the corpus, not of the
-          conflict: a year with no bar is a year in which neither body recorded a vote on it —
-          or, before 1993, a year the Assembly corpus may simply be missing.</p>
+        <h2>${L('When this question was in front of the two bodies', '这个问题何时摆在两个机构面前')}</h2>
+        <p>${L(`Meetings per year that carry this entry. This is a reading of the corpus, not of the
+          conflict: a year with no bar is a year in which neither body recorded a vote on it —or, before 1993, a year the Assembly corpus may simply be missing.`,
+          `每年挂有本条目的会议数。这反映的是语料库，而不是冲突本身：没有柱的年份，是两个机构都没有就此记录表决的年份——或者在 1993 年之前，只是大会语料库缺失的年份。`)}</p>
       </header>
       <div id="years" class="chart short"></div>
     </div>
@@ -135,9 +137,10 @@ function render() {
     <div class="grid2">
       <div class="card">
         <header>
-          <h2>Where the text comes from</h2>
-          <p>Every passage is quoted from English Wikipedia. Each article is recorded with the
-            exact revision it was taken from, so any sentence on this site can be traced back.</p>
+          <h2>${L('Where the text comes from', '文字来源')}</h2>
+          <p>${L(`Every passage is quoted from English Wikipedia. Each article is recorded with the
+            exact revision it was taken from, so any sentence on this site can be traced back.`,
+            `每一段都引自英文维基百科，并保持英文原文。每篇文章都记录了所取文本的具体修订版本，因此本站任何一句话都可以追溯来源。`)}</p>
         </header>
         <div class="srclist">
           ${T.articles.map((a) => `
@@ -145,26 +148,35 @@ function render() {
               <div>
                 ${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>`
                         : esc(a.title)}
-                ${a.low_confidence ? '<span class="badge warning" style="margin-left:6px">sentence-extracted</span>' : ''}
+                ${a.low_confidence ? `<span class="badge warning" style="margin-left:6px">${L('sentence-extracted', '逐句抽取')}</span>` : ''}
               </div>
-              <div class="n">${fmt(a.segments)} passages</div>
-              <div class="rev">rev ${a.revid ?? '—'}</div>
+              <div class="n">${L(`${fmt(a.segments)} passages`, `${fmt(a.segments)} 段`)}</div>
+              <div class="rev">${L('rev', '修订')} ${a.revid ?? '—'}</div>
             </div>`).join('')}
         </div>
         <p class="note">
-          Text is available under
-          <a href="${esc(T.licence_url)}" target="_blank" rel="noopener">${esc(T.licence)}</a>.
-          Reuse requires attribution to the articles above and share-alike.
+          ${L('Text is available under', '文字采用')}
+          <a href="${esc(T.licence_url)}" target="_blank" rel="noopener">${esc(T.licence)}</a>${L(`.
+          Reuse requires attribution to the articles above and share-alike.`, ` 许可。再利用须署名上述文章，并以相同方式共享。`)}
         </p>
       </div>
 
       <div class="card">
-        <header><h2>How a meeting gets this entry</h2></header>
+        <header><h2>${L('How a meeting gets this entry', '会议如何挂上本条目')}</h2></header>
         <p style="font-size:13.5px;color:var(--text-secondary);margin:0 0 12px">
-          Two things can attach an entry to a meeting, and they are not equally strong, so the
-          corpus records which one it was:
+          ${L(`Two things can attach an entry to a meeting, and they are not equally strong, so the
+          corpus records which one it was:`, '有两种依据可以把条目挂到会议上，两者强度不同，因此语料库会记录具体是哪一种：')}
         </p>
-        <div style="font-size:13.5px;color:var(--text-secondary);line-height:1.7">
+        <div style="font-size:13.5px;color:var(--text-secondary);line-height:1.7" data-l="zh">
+          <div style="margin-bottom:9px">
+            <b style="color:var(--text-primary)">${fmt(T.basis.agenda)} 次依据议程</b>——联合国本身给会议所定的议程名称提到了这一主题。</div>
+          <div style="margin-bottom:9px">
+            <b style="color:var(--text-primary)">${fmt(T.basis.resolution_title)} 次依据决议标题</b>——议程是通用的或为空，但当天通过的某项决议开头提到了该主题。这种依据较弱，并在下方每一行中标出。</div>
+          <div>
+            刻意不使用决议<em>正文</em>：若在正文任何位置匹配，会因顺带提及而再多出约三分之一的会议，而这种精确度无法得到证明。关于标题规则有一点说明——印行的安理会决议常常根本没有主题行，直接从 <em>Resolution 186 (1964)</em>
+            接到 <em>The Security Council,</em>。因此，以这种方式匹配的安理会记录中，约有三分之一的匹配词出现在序言开头几行，而不是标题中。</div>
+        </div>
+        <div style="font-size:13.5px;color:var(--text-secondary);line-height:1.7" data-l="en">
           <div style="margin-bottom:9px">
             <b style="color:var(--text-primary)">${fmt(T.basis.agenda)} on the agenda</b> — the
             label the UN itself gave the meeting names this subject.
@@ -184,7 +196,10 @@ function render() {
             first lines of the preamble rather than in a title.
           </div>
         </div>
-        <div class="callout" style="margin-bottom:0">
+        <div class="callout" style="margin-bottom:0" data-l="zh">
+          <strong>描述止于会议当天。</strong>
+          每次会议只带有它召开之前已经发生的事，因此 1967 年的记录不可能包含 1973 年的内容。表决情况和各代表团立场被刻意排除在描述之外——它们存在于表决记录和发言之中，这正是语料库的用途。</div>
+        <div class="callout" style="margin-bottom:0" data-l="en">
           <strong>The description stops at the meeting's own date.</strong>
           Each meeting carries only what had happened before it sat, so a 1967 record cannot
           contain 1973. Votes and delegation positions are held out of the description on
@@ -196,19 +211,19 @@ function render() {
 
     <div class="card">
       <header>
-        <h2>The ${fmt(MEETINGS.length)} meetings</h2>
-        <p>Every Council and Assembly meeting this entry covers, with its date, agenda and
-          resolutions.</p>
+        <h2>${L(`The ${fmt(MEETINGS.length)} meetings`, `${fmt(MEETINGS.length)} 次会议`)}</h2>
+        <p>${L(`Every Council and Assembly meeting this entry covers, with its date, agenda and
+          resolutions.`, '本条目涵盖的每一次安理会和大会会议，包括日期、议程（英文原文）和决议。')}</p>
       </header>
       <div class="controls" style="margin-bottom:10px">
         <div class="seg" id="bodyseg">
-          <button aria-pressed="true" data-b="">Both bodies</button>
-          <button aria-pressed="false" data-b="SC">Council ${fmt(T.sc)}</button>
-          <button aria-pressed="false" data-b="GA">Assembly ${fmt(T.ga)}</button>
+          <button aria-pressed="true" data-b="">${L('Both bodies', '两个机构')}</button>
+          <button aria-pressed="false" data-b="SC">${L('Council', '安理会')} ${fmt(T.sc)}</button>
+          <button aria-pressed="false" data-b="GA">${L('Assembly', '大会')} ${fmt(T.ga)}</button>
         </div>
         <div class="seg" id="basisseg">
-          <button aria-pressed="true" data-m="">Any match</button>
-          <button aria-pressed="false" data-m="agenda">Agenda only</button>
+          <button aria-pressed="true" data-m="">${L('Any match', '任意匹配')}</button>
+          <button aria-pressed="false" data-m="agenda">${L('Agenda only', '仅限议程')}</button>
         </div>
       </div>
       <div id="mrows"></div>
@@ -217,12 +232,12 @@ function render() {
 
     <div class="card">
       <header>
-        <h2>The entry itself</h2>
-        <p>All ${fmt(mat.segments)} dated passages behind this entry, in order. What any single
+        <h2>${L('The entry itself', '条目原文')}</h2>
+        <p>${L(`All ${fmt(mat.segments)} dated passages behind this entry, in order. What any single
           meeting received is this list truncated at that meeting's date — open a meeting above to
-          see its own slice.</p>
+          see its own slice.`, `本条目背后全部 ${fmt(mat.segments)} 段带日期的材料，按时间排列（英文维基百科原文）。任何一次会议得到的，都是这份列表截至该会议日期的部分。`)}</p>
       </header>
-      <div id="material"><p class="note">Loading the source material…</p></div>
+      <div id="material"><p class="note">${L('Loading the source material…', '正在加载来源材料…')}</p></div>
     </div>`;
 
   drawYears();
@@ -243,23 +258,23 @@ function drawYears() {
     ...base,
     grid: { left: 46, right: 18, top: 26, bottom: 30, containLabel: true },
     legend: { ...base.legend, top: 0, right: 0,
-      data: ['Security Council', 'General Assembly'] },
+      data: [L('Security Council', '安理会'), L('General Assembly', '联合国大会')] },
     tooltip: { ...base.tooltip, trigger: 'axis',
       formatter: (ps) => {
         const y = ps[0].axisValue;
         const tot = map[y] || 0;
         return `<b>${y}</b><br>` + ps.filter((p) => p.value)
           .map((p) => `<span style="color:${p.color}">■</span> ${p.seriesName} <b>${p.value}</b>`)
-          .join('<br>') + (tot ? '' : '<span style="color:var(--text-muted)">no meeting</span>');
+          .join('<br>') + (tot ? '' : `<span style="color:var(--text-muted)">${L('no meeting', '无会议')}</span>`);
       } },
     xAxis: { type: 'category', data: years.map(String), ...ax, splitLine: { show: false },
       axisLabel: { ...ax.axisLabel, interval: 9 } },
-    yAxis: { type: 'value', name: 'meetings', ...ax, minInterval: 1 },
+    yAxis: { type: 'value', name: L('meetings', '会议数'), ...ax, minInterval: 1 },
     series: [
-      { name: 'Security Council', type: 'bar', stack: 'a',
+      { name: L('Security Council', '安理会'), type: 'bar', stack: 'a',
         data: years.map((y) => byBody.SC[y] || 0),
         itemStyle: { color: c.series[0] } },
-      { name: 'General Assembly', type: 'bar', stack: 'a',
+      { name: L('General Assembly', '联合国大会'), type: 'bar', stack: 'a',
         data: years.map((y) => byBody.GA[y] || 0),
         itemStyle: { color: c.series[1] } },
     ],
@@ -294,34 +309,36 @@ function drawMeetings() {
 
   document.getElementById('mrows').innerHTML = slice.map((m) => {
     const co = m.co.map((t) =>
-      `<a class="pill" href="entry.html?id=${encodeURIComponent(t)}">also ${esc(LABELS[t] || t)}</a>`).join('');
+      `<a class="pill" href="entry.html?id=${encodeURIComponent(t)}">${L('also', '另见')} ${esc(LABELS[t] || t)}</a>`).join('');
     return `<div class="mrow">
       <div class="when">
         <div class="d">${esc(m.d || '—')}</div>
-        <div class="b">${m.b === 'SC' ? 'Council' : 'Assembly'} ${esc(String(m.n))}</div>
+        <div class="b">${m.b === 'SC' ? L('Council', '安理会') : L('Assembly', '大会')} ${esc(String(m.n))}</div>
       </div>
       <div class="mid">
-        <div class="ttl">${m.b === 'SC' ? 'Meeting' : 'Plenary'} ${esc(String(m.n))}</div>
-        <div class="ag">${m.a ? esc(m.a) : '<span style="color:var(--text-muted)">(no agenda recorded)</span>'}</div>
+        <div class="ttl">${m.b === 'SC' ? L(`Meeting ${esc(String(m.n))}`, `第 ${esc(String(m.n))} 次会议`)
+                                        : L(`Plenary ${esc(String(m.n))}`, `第 ${esc(String(m.n))} 次全体会议`)}</div>
+        <div class="ag">${m.a ? esc(m.a) : `<span style="color:var(--text-muted)">${L('(no agenda recorded)', '（未记录议程）')}</span>`}</div>
         <div class="meta">
-          ${m.ns ? `<span>${m.ns} speeches</span>` : ''}
+          ${m.ns ? `<span>${L(`${m.ns} speeches`, `发言 ${m.ns} 次`)}</span>` : ''}
           ${m.res.length ? `<span>${esc(m.res.slice(0, 3).join(', '))}${m.res.length > 3 ? ` +${m.res.length - 3}` : ''}</span>` : ''}
-          <span>${fmt(m.dl)} chars of description</span>
+          <span>${L(`${fmt(m.dl)} chars of description`, `描述 ${fmt(m.dl)} 字符`)}</span>
         </div>
       </div>
       <div class="side">
-        <span class="pill ${m.b.toLowerCase()}">${m.b === 'SC' ? 'Council' : 'Assembly'}</span>
-        ${m.mb === 'resolution_title' ? '<span class="pill title">via resolution title</span>' : ''}
+        <span class="pill ${m.b.toLowerCase()}">${m.b === 'SC' ? L('Council', '安理会') : L('Assembly', '大会')}</span>
+        ${m.mb === 'resolution_title' ? `<span class="pill title">${L('via resolution title', '依据决议标题')}</span>` : ''}
         ${co}
       </div>
     </div>`;
-  }).join('') || '<p class="note">No meeting matches that filter.</p>';
+  }).join('') || `<p class="note">${L('No meeting matches that filter.', '没有符合筛选条件的会议。')}</p>`;
 
   const pages = Math.max(1, Math.ceil(view.length / PER));
   document.getElementById('pager').innerHTML = view.length > PER ? `
-    <button id="prev" ${mPage === 0 ? 'disabled' : ''}>← Previous</button>
-    <span class="pos">${start + 1}–${Math.min(start + PER, view.length)} of ${fmt(view.length)}</span>
-    <button id="next" ${mPage >= pages - 1 ? 'disabled' : ''}>Next →</button>` : '';
+    <button id="prev" ${mPage === 0 ? 'disabled' : ''}>${L('← Previous', '← 上一页')}</button>
+    <span class="pos">${L(`${start + 1}–${Math.min(start + PER, view.length)} of ${fmt(view.length)}`,
+      `第 ${start + 1}–${Math.min(start + PER, view.length)} 条，共 ${fmt(view.length)} 条`)}</span>
+    <button id="next" ${mPage >= pages - 1 ? 'disabled' : ''}>${L('Next →', '下一页 →')}</button>` : '';
   if (view.length > PER) {
     document.getElementById('prev').onclick = () => { mPage--; drawMeetings(); };
     document.getElementById('next').onclick = () => { mPage++; drawMeetings(); };
@@ -332,15 +349,15 @@ function drawMeetings() {
 function loadMaterial() {
   const host = document.getElementById('material');
   if (!SERVED) { host.innerHTML = needsServerNotice(); return; }
-  fetch(`../_events/wiki/${encodeURIComponent(T.id)}.json`)
+  fetch(`_events/wiki/${encodeURIComponent(T.id)}.json`)
     .then((r) => { if (!r.ok) throw new Error(`${r.status} ${r.statusText}`); return r.json(); })
     .then(drawMaterial)
     .catch((err) => {
       host.innerHTML = `<div class="callout critical">
-        <strong>Could not load the source material.</strong>
-        <div style="margin-top:6px">${esc(err.message)} — tried
-        <code>/_events/wiki/${esc(T.id)}.json</code>. The counts above come from the
-        index and are unaffected.</div></div>`;
+        <strong>${L('Could not load the source material.', '无法加载来源材料。')}</strong>
+        <div style="margin-top:6px">${esc(err.message)} — ${L('tried', '尝试读取')}
+        <code>/_events/wiki/${esc(T.id)}.json</code>${L(`. The counts above come from the
+        index and are unaffected.`, '。上方的计数来自索引，不受影响。')}</div></div>`;
     });
 }
 
@@ -354,11 +371,13 @@ function drawMaterial(w) {
   const host = document.getElementById('material');
   host.innerHTML = `
     <div class="matbar">
-      <input type="text" id="mq" placeholder="Search these ${fmt(segs.length)} passages…">
+      <input type="text" id="mq" placeholder="${L(`Search these ${fmt(segs.length)} passages…`, `搜索这 ${fmt(segs.length)} 段材料（英文）…`)}">
       <span class="n" id="mn"></span>
     </div>
     <div class="datelines" id="dlines"></div>
-    <p class="note">
+    <p class="note" data-l="zh">
+      只精确到月份或年份的段落，按它可能发生的最后一天切分，而不是第一天——否则三月的会议可能拿到当年十二月的内容。提及表决、或提到晚于自身日期的段落，会被完全排除在描述之外；它们仍显示在这里的材料中，因为本页就是审计记录。</p>
+    <p class="note" data-l="en">
       A passage dated to a month or a year alone is sliced on the last day it could have
       happened, never the first — otherwise a meeting in March could be handed something from
       the following December. Passages that name a vote, or that mention a date later than
@@ -376,8 +395,8 @@ function drawMaterial(w) {
     const shown = tl ? segs.filter((s) => (s.text || '').toLowerCase().includes(tl)
       || (s.date || '').includes(tl)) : segs;
     n.textContent = shown.length === segs.length
-      ? `${fmt(segs.length)} passages`
-      : `${fmt(shown.length)} of ${fmt(segs.length)}`;
+      ? L(`${fmt(segs.length)} passages`, `共 ${fmt(segs.length)} 段`)
+      : L(`${fmt(shown.length)} of ${fmt(segs.length)}`, `${fmt(segs.length)} 段中的 ${fmt(shown.length)} 段`);
     const mark = (t) => {
       const safe = esc(t);
       if (!term) return safe;
@@ -387,14 +406,14 @@ function drawMaterial(w) {
       <div class="dline">
         <div class="d">${esc(s.date)}
           ${s.date_precision && s.date_precision !== 'day'
-            ? `<span class="p">${esc(s.date_precision)} precision</span>` : ''}
-          ${s.mentions_vote ? '<span class="p lowconf">vote — withheld</span>' : ''}
-          ${s.names_later_date ? '<span class="p lowconf">later date — withheld</span>' : ''}
+            ? `<span class="p">${L(`${esc(s.date_precision)} precision`, `精确到${{ month: '月', year: '年' }[s.date_precision] || esc(s.date_precision)}`)}</span>` : ''}
+          ${s.mentions_vote ? `<span class="p lowconf">${L('vote — withheld', '涉及表决——已排除')}</span>` : ''}
+          ${s.names_later_date ? `<span class="p lowconf">${L('later date — withheld', '含更晚日期——已排除')}</span>` : ''}
         </div>
         <div class="t">${mark(s.text || '')}</div>
       </div>`).join('')
       + (shown.length > 1500
-        ? `<div class="dline sec">first 1,500 of ${fmt(shown.length)} shown — narrow the search to see the rest</div>`
+        ? `<div class="dline sec">${L(`first 1,500 of ${fmt(shown.length)} shown — narrow the search to see the rest`, `仅显示 ${fmt(shown.length)} 段中的前 1,500 段——缩小搜索范围以查看其余内容`)}</div>`
         : '');
   }
   q.addEventListener('input', draw);
@@ -407,11 +426,13 @@ function drawMaterial(w) {
    throws before a single meeting row is written. */
 if (!T) {
   document.getElementById('content').innerHTML =
-    `<div class="callout critical"><strong>No such entry.</strong>
+    L(`<div class="callout critical"><strong>No such entry.</strong>
      <div style="margin-top:6px">Nothing is registered under
-     <code>${esc(ID || '(nothing)')}</code>. See <a href="entries.html">all entries</a>.</div></div>`;
+     <code>${esc(ID || '(nothing)')}</code>. See <a href="entries.html">all entries</a>.</div></div>`,
+     `<div class="callout critical"><strong>没有这个条目。</strong>
+     <div style="margin-top:6px"><code>${esc(ID || '(空)')}</code> 下没有登记任何条目。请查看<a href="entries.html">全部专题</a>。</div></div>`);
 } else {
-  document.title = `${T.label} · UN Voting Corpus`;
+  document.title = `${T.label} · ${L('UN Voting Corpus', '联合国表决记录')}`;
   render();
 }
 </script>

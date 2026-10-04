@@ -3,18 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Topics · UN Voting Corpus 1946–2025</title>
+<title data-zh="议题 · 联合国表决记录 1946–2025">Topics · UN Voting Corpus 1946–2025</title>
+<script src="assets/boot.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <main>
-  <h1>Topic drift</h1>
-  <p class="lede">
+  <h1 data-zh="议题变迁">Topic drift</h1>
+  <p class="lede" data-l="en">
     Which regions and which kinds of business the resolutions actually talk about,
     and how that shifted across eighty years.
   </p>
+  <p class="lede" data-l="zh">
+    决议实际谈论的是哪些地区、哪类事务，以及这在八十年间如何变化。</p>
 
-  <div class="callout">
+  <div class="callout" data-l="en">
     <strong>These labels are keyword hits, not an adjudicated subject assignment.</strong>
     The geo and func labels come from keyword matching against resolution text, and sampling found
     mislabels — S/RES/2402 concerns Yemen but is tagged <code>iraq</code>; S/RES/1467 falls into
@@ -22,22 +25,27 @@
     <strong>how often a category's keywords appear in the text</strong>, not as the true share of
     the agenda. One resolution can match several categories, so the shares sum to more than 100%.
   </div>
+  <div class="callout" data-l="zh">
+    <strong>这些标签是关键词命中，而不是经过审定的主题归类。</strong>
+    地区（geo）与职能（func）标签来自对决议文本的关键词匹配，抽样发现存在误标——S/RES/2402 涉及也门，却被标为
+    <code>iraq</code>；S/RES/1467 仅凭一个单词 <code>africa</code> 就被归入非洲类。请把本页理解为
+    <strong>某一类别的关键词在文本中出现的频率</strong>，而不是该类别在议程中的真实占比。一项决议可同时匹配多个类别，因此各类占比之和会超过 100%。</div>
 
   <div class="controls">
     <div class="seg" id="body-seg">
-      <button aria-pressed="true" data-b="SC">Security Council</button>
-      <button aria-pressed="false" data-b="GA">General Assembly</button>
+      <button aria-pressed="true" data-b="SC" data-zh="安理会">Security Council</button>
+      <button aria-pressed="false" data-b="GA" data-zh="联合国大会">General Assembly</button>
     </div>
     <div class="seg" id="norm-seg">
-      <button aria-pressed="true" data-n="share">Share</button>
-      <button aria-pressed="false" data-n="count">Count</button>
+      <button aria-pressed="true" data-n="share" data-zh="占比">Share</button>
+      <button aria-pressed="false" data-n="count" data-zh="数量">Count</button>
     </div>
   </div>
 
   <div class="card">
     <header>
       <h2 id="geo-title"></h2>
-      <p>Five regional categories aggregated by decade. Each bar is the share of that decade's
+      <p data-zh="五个地区类别按十年汇总。每根柱表示该十年中匹配该地区关键词的决议所占比例；由于一项决议可同时匹配多个地区，同一十年内的各柱是并列关系而非互斥，合计可能超过 100%。">Five regional categories aggregated by decade. Each bar is the share of that decade's
       resolutions matching the region's keywords; because one resolution can match several
       regions, the bars within a decade are parallel rather than mutually exclusive and can
       total more than 100%.</p>
@@ -50,7 +58,7 @@
   <div class="card">
     <header>
       <h2 id="func-title"></h2>
-      <p>Nine functional categories, each given its own panel rather than crammed into a
+      <p data-zh="九个职能类别各占一个小图，而不是挤进一张九色堆叠图——九种类别色无法同时满足色觉区分阈值，拆分图表既回避了这一问题，也让每条曲线的形状都能单独看清。纵轴为每年匹配该类别关键词的决议数；<strong>每个小图的纵轴各自缩放</strong>，请比较形状，不要跨图比较高度。">Nine functional categories, each given its own panel rather than crammed into a
       nine-colour stack — nine categorical hues cannot all clear the colour-vision separation
       threshold at once, and splitting the chart sidesteps that while making each curve's shape
       readable on its own. The vertical axis is the number of resolutions matching that
@@ -64,13 +72,13 @@
   <div class="card">
     <header>
       <h2 id="river-title"></h2>
-      <p>The year-by-year view. Drag the slider to zoom a stretch.</p>
+      <p data-zh="逐年视图。拖动下方滑块可放大某一时段。">The year-by-year view. Drag the slider to zoom a stretch.</p>
     </header>
     <div class="controls">
-      <label>Category group
+      <label><span data-zh="类别组">Category group</span>
         <select id="kind-sel">
-          <option value="geo">Regions</option>
-          <option value="func">Functional</option>
+          <option value="geo" data-zh="地区">Regions</option>
+          <option value="func" data-zh="职能">Functional</option>
         </select>
       </label>
     </div>
@@ -80,15 +88,18 @@
 
 <script src="assets/echarts.min.js"></script>
 <script src="data/topicdrift.js"></script>
+<script src="data/zh.js"></script>
 <script src="assets/common.js"></script>
 <script>
 const TP = window.TOPIC_DRIFT;
 const YEARS = [];
 for (let y = 1946; y <= 2025; y++) YEARS.push(y);
 let body = 'SC', norm = 'share', kind = 'geo';
-const BODY_LABEL = { SC: 'Security Council', GA: 'General Assembly' };
+const BODY_LABEL = { SC: L('Security Council', '安理会'), GA: L('General Assembly', '联合国大会') };
 
 const DECADES = ['1946–49', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020–25'];
+/* Decades stay the data keys; this is only how they are printed. */
+const decL = (d) => L(d, d.endsWith('s') ? d.slice(0, -1) + ' 年代' : d);
 
 function decadeRows(k) {
   return TP.decade[body].filter((r) => r.kind === k);
@@ -98,9 +109,9 @@ function cats(k) {
 }
 
 function syncText() {
-  document.getElementById('geo-title').textContent = `${BODY_LABEL[body]} — regional keyword hit rate, by decade`;
-  document.getElementById('func-title').textContent = `${BODY_LABEL[body]} — nine kinds of business, year by year`;
-  document.getElementById('river-title').textContent = `${BODY_LABEL[body]} — year-by-year detail`;
+  document.getElementById('geo-title').textContent = L(`${BODY_LABEL[body]} — regional keyword hit rate, by decade`, `${BODY_LABEL[body]}——各地区关键词命中率（按十年）`);
+  document.getElementById('func-title').textContent = L(`${BODY_LABEL[body]} — nine kinds of business, year by year`, `${BODY_LABEL[body]}——九类事务，逐年变化`);
+  document.getElementById('river-title').textContent = L(`${BODY_LABEL[body]} — year-by-year detail`, `${BODY_LABEL[body]}——逐年详情`);
 }
 
 document.getElementById('body-seg').onclick = (e) => {
@@ -126,7 +137,7 @@ mountChart(document.getElementById('geo-chart'), (c, base, ax) => {
     return r ? (norm === 'share' ? r.share : r.count) : 0;
   };
   document.getElementById('geo-legend').innerHTML = cs.map((cat, i) =>
-    `<span class="item"><span class="swatch" style="background:${c.series[i]}"></span>${cat}</span>`).join('');
+    `<span class="item"><span class="swatch" style="background:${c.series[i]}"></span>${catname(cat)}</span>`).join('');
   return {
     ...base,
     legend: { show: false },
@@ -134,10 +145,10 @@ mountChart(document.getElementById('geo-chart'), (c, base, ax) => {
     tooltip: { ...base.tooltip, trigger: 'axis',
       axisPointer: { type: 'shadow' },
       valueFormatter: (v) => (norm === 'share' ? v.toFixed(1) + '%' : fmt(v)) },
-    xAxis: { type: 'category', data: DECADES, ...ax, splitLine: { show: false } },
-    yAxis: { type: 'value', name: norm === 'share' ? '%' : 'resolutions', ...ax },
+    xAxis: { type: 'category', data: DECADES.map(decL), ...ax, splitLine: { show: false } },
+    yAxis: { type: 'value', name: norm === 'share' ? '%' : L('resolutions', '决议数'), ...ax },
     series: cs.map((cat, i) => ({
-      name: cat, type: 'bar', data: DECADES.map((d) => get(cat, d)),
+      name: catname(cat), type: 'bar', data: DECADES.map((d) => get(cat, d)),
       itemStyle: { color: c.series[i], borderRadius: [3, 3, 0, 0] },
       barGap: '12%', barCategoryGap: '32%',
       label: { show: true, position: 'top', color: c.muted, fontSize: 9.5, distance: 3,
@@ -162,7 +173,7 @@ function drawSmallMultiples() {
   const c = ink(), base = baseOption(), ax = axisStyle();
   cats('func').forEach((cat) => {
     const wrap = document.createElement('div');
-    wrap.innerHTML = `<h3 style="font-size:13px;color:var(--text-secondary);margin:0 0 2px">${cat}</h3>`;
+    wrap.innerHTML = `<h3 style="font-size:13px;color:var(--text-secondary);margin:0 0 2px">${catname(cat)}</h3>`;
     const el = document.createElement('div');
     el.style.height = '150px';
     wrap.appendChild(el);
@@ -174,7 +185,8 @@ function drawSmallMultiples() {
       ...base,
       grid: { left: 38, right: 12, top: 10, bottom: 22 },
       tooltip: { ...base.tooltip, trigger: 'axis',
-        formatter: (ps) => `<b>${ps[0].axisValue}</b> · ${cat}<br><b>${ps[0].value || 0}</b> resolutions matched` },
+        formatter: (ps) => `<b>${ps[0].axisValue}</b> · ${catname(cat)}<br>`
+          + L(`<b>${ps[0].value || 0}</b> resolutions matched`, `匹配决议 <b>${ps[0].value || 0}</b> 项`) },
       xAxis: { type: 'category', data: YEARS.map(String), ...ax,
         splitLine: { show: false }, axisLabel: { ...ax.axisLabel, interval: 19, fontSize: 10 } },
       yAxis: { type: 'value', ...ax, axisLabel: { ...ax.axisLabel, fontSize: 10 }, minInterval: 1 },
@@ -205,13 +217,13 @@ mountChart(document.getElementById('river'), (c, base, ax) => {
   if (cs.length > 5) {
     cs.sort((a, b) => b.data.reduce((x, y) => x + y, 0) - a.data.reduce((x, y) => x + y, 0));
     const rest = cs.slice(4);
-    cs = [...cs.slice(0, 4), { cat: `Other ${rest.length} categories`, other: true,
+    cs = [...cs.slice(0, 4), { cat: L(`Other ${rest.length} categories`, `其他 ${rest.length} 类`), other: true,
       data: YEARS.map((_, i) => rest.reduce((s, r) => s + r.data[i], 0)) }];
   }
   const series = cs.map(({ cat, data, other }, i) => {
     const col = other ? c.axis : c.series[i];
     return {
-      name: cat, type: 'line', stack: 'total', smooth: 0.3, showSymbol: false,
+      name: other ? cat : catname(cat), type: 'line', stack: 'total', smooth: 0.3, showSymbol: false,
       lineStyle: { width: 1.5, color: col },
       itemStyle: { color: col },   // what the legend swatch reads
       areaStyle: { color: col, opacity: kind === 'geo' ? 0.82 : 0.6 },
@@ -226,7 +238,7 @@ mountChart(document.getElementById('river'), (c, base, ax) => {
     tooltip: { ...base.tooltip, trigger: 'axis', axisPointer: { type: 'cross', crossStyle: { color: c.axis } } },
     xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false },
       boundaryGap: false },
-    yAxis: { type: 'value', name: 'resolutions matched (stacked)', ...ax },
+    yAxis: { type: 'value', name: L('resolutions matched (stacked)', '匹配决议数（堆叠）'), ...ax },
     dataZoom: [
       { type: 'inside' },
       { type: 'slider', bottom: 12, height: 22, borderColor: 'transparent',
@@ -242,19 +254,19 @@ function rebuildTables() {
   const gr = decadeRows('geo');
   const gcats = cats('geo');
   tableView(document.getElementById('geo-table'),
-    ['Decade', ...gcats.map((c) => c + ' (n)'), ...gcats.map((c) => c + ' (%)')],
-    DECADES.map((d) => [d,
+    [L('Decade', '年代'), ...gcats.map((c) => catname(c) + ' (n)'), ...gcats.map((c) => catname(c) + ' (%)')],
+    DECADES.map((d) => [decL(d),
       ...gcats.map((cat) => { const r = gr.find((x) => x.category === cat && x.decade === d); return r ? fmt(r.count) : '—'; }),
       ...gcats.map((cat) => { const r = gr.find((x) => x.category === cat && x.decade === d); return r ? r.share.toFixed(1) + '%' : '—'; }),
-    ]), 'Show regional data table');
+    ]), L('Show regional data table', '显示地区数据表'));
 
   const fr = decadeRows('func');
   const fcats = cats('func');
   tableView(document.getElementById('func-table'),
-    ['Decade', ...fcats],
-    DECADES.map((d) => [d,
+    [L('Decade', '年代'), ...fcats.map(catname)],
+    DECADES.map((d) => [decL(d),
       ...fcats.map((cat) => { const r = fr.find((x) => x.category === cat && x.decade === d); return r ? `${fmt(r.count)} (${r.share.toFixed(1)}%)` : '—'; }),
-    ]), 'Show functional data table');
+    ]), L('Show functional data table', '显示职能数据表'));
 }
 
 function rebuild() {

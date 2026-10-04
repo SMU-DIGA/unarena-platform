@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-zh="全部专题 · 联合国表决记录 1946–2025">All entries · UN Voting Corpus 1946–2025</title>
+<script src="assets/boot.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.sortbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
+.sortbar input {
+  font-family: var(--font); font-size: 13.5px; padding: 8px 11px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  min-width: 210px;
+}
+.sortbar .n { font-size: 13px; color: var(--text-muted); margin-left: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="h1"></h1>
+  <p class="lede" data-l="en">
+    Every entry is a question the two bodies kept coming back to. Each one carries a dated
+    chronology quoted from English Wikipedia, and the corpus attaches it to every meeting whose
+    own agenda — or whose adopted resolution's title — names that subject. A meeting only ever
+    receives the part of the chronology that had already happened when it sat.
+  </p>
+  <p class="lede" data-l="zh">
+    每个专题条目都是两个机构反复讨论的一个问题。每个条目附有一份引自英文维基百科的带日期大事记；凡会议议程——或会上通过的决议标题——提及该主题，语料库就会把条目挂到这次会议上。每次会议只会得到在它召开之前已经发生的那部分大事记。</p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="sortbar">
+    <input type="text" id="q" placeholder="Filter by name or country…" data-zh-ph="按名称或国家筛选…">
+    <div class="seg" id="sortseg">
+      <button aria-pressed="true" data-k="total" data-zh="会议最多">Most meetings</button>
+      <button aria-pressed="false" data-k="first" data-zh="最早">Earliest</button>
+      <button aria-pressed="false" data-k="segments" data-zh="材料最多">Most material</button>
+      <button aria-pressed="false" data-k="label" data-zh="按名称">A–Z</button>
+    </div>
+    <span class="n" id="count"></span>
+  </div>
+
+  <div class="entrygrid" id="grid"></div>
+
+  <div class="callout" style="margin-top:26px" data-l="en">
+    <strong>An entry's size measures the corpus, not the conflict.</strong>
+    Syria carries six meetings and Russia–Ukraine eleven, not because those wars were quiet at
+    the UN but because the Council files them under generic agenda headings that are deliberately
+    not matched, and because a vetoed draft never gets a resolution number to be indexed by.
+    Where an entry has a known limit of this kind, its own page says so.
+  </div>
+  <div class="callout" style="margin-top:26px" data-l="zh">
+    <strong>条目的大小衡量的是语料库，而不是冲突本身。</strong>
+    叙利亚只有 6 次会议、俄乌只有 11 次，并不是因为这两场战争在联合国很安静，而是因为安理会把它们归在通用的议程标题之下，而这类标题被刻意排除在匹配之外；同时，被否决的草案永远拿不到决议编号，也就无从索引。凡条目存在这类已知局限，其页面都会注明。</div>
+
+  <p class="note" data-l="en">
+    Text in the entries is quoted from English Wikipedia under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>;
+    each entry page lists its source articles with the revision id the text was taken from.
+    Photographs come from Wikimedia Commons and are credited where they appear. Entries with no
+    freely-licensed photograph get a cover drawn from their own record instead.
+  </p>
+  <p class="note" data-l="zh">
+    条目文字引自英文维基百科，采用
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+    许可；每个条目页面都列出了来源文章及所取文本的修订版本号。图片来自维基共享资源，并在显示处注明作者。没有自由许可图片的条目，改用根据其自身记录绘制的封面。</p>
+</main>
+
+<script src="data/topics.js"></script>
+<script src="data/topic_images.js"></script>
+<script src="data/zh.js"></script>
+<script src="assets/common.js"></script>
+<script>
+const P = window.TOPICS;
+const ALL = P.topics;
+let sortKey = 'total';
+document.getElementById('h1').textContent = L(`The ${ALL.length} topic entries`, `${ALL.length} 个专题条目`);
+
+document.getElementById('tiles').innerHTML = `
+  <div class="tile"><div class="k">${L('Entries', '专题条目')}</div><div class="v">${P.totals.topics}</div>
+    <div class="s">${L(`${ALL.filter((t) => t.global).length} of them global rather than territorial`,
+      `其中 ${ALL.filter((t) => t.global).length} 个为全球性议题，而非针对某一地区`)}</div></div>
+  <div class="tile"><div class="k">${L('Meetings carrying one', '挂有条目的会议')}</div><div class="v">${fmt(P.totals.meetings)}</div>
+    <div class="s">${L(`of ${fmt(P.totals.sc_total + P.totals.ga_total)} in the corpus`,
+      `语料库共 ${fmt(P.totals.sc_total + P.totals.ga_total)} 次会议`)}</div></div>
+  <div class="tile"><div class="k">${L('Council coverage', '安理会覆盖')}</div><div class="v">${pct(100 * P.totals.sc / P.totals.sc_total)}</div>
+    <div class="s">${L(`${fmt(P.totals.sc)} of ${fmt(P.totals.sc_total)} Council meetings`,
+      `安理会 ${fmt(P.totals.sc_total)} 次会议中的 ${fmt(P.totals.sc)} 次`)}</div></div>
+  <div class="tile"><div class="k">${L('Assembly coverage', '大会覆盖')}</div><div class="v">${pct(100 * P.totals.ga / P.totals.ga_total)}</div>
+    <div class="s">${L(`${fmt(P.totals.ga)} of ${fmt(P.totals.ga_total)}; most plenary votes are procedural`,
+      `${fmt(P.totals.ga_total)} 次中的 ${fmt(P.totals.ga)} 次；全体会议的表决大多是程序性的`)}</div></div>
+  <div class="tile"><div class="k">${L('Countries on the map', '地图上的国家')}</div><div class="v">${P.totals.polygons}</div>
+    <div class="s">${L('shaded on the <a href="geo.html">map page</a>', '在<a href="geo.html">地图页</a>上着色显示')}</div></div>`;
+
+function draw() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const rows = ALL.filter((t) => !q
+    || t.label.toLowerCase().includes(q)
+    || (t.label_en || '').toLowerCase().includes(q)
+    || t.id.includes(q)
+    || [...t.countries, ...(t.countries_en || [])].some((c) => c.toLowerCase().includes(q)));
+
+  const cmp = {
+    total: (a, b) => b.total - a.total,
+    first: (a, b) => (a.first || '').localeCompare(b.first || ''),
+    segments: (a, b) => b.material.segments - a.material.segments,
+    label: (a, b) => a.label.localeCompare(b.label, L('en', 'zh-CN')),
+  }[sortKey];
+  rows.sort(cmp);
+
+  document.getElementById('count').textContent =
+    rows.length === ALL.length ? L(`${ALL.length} entries`, `共 ${ALL.length} 个条目`)
+      : L(`${rows.length} of ${ALL.length}`, `${ALL.length} 个中的 ${rows.length} 个`);
+
+  document.getElementById('grid').innerHTML = rows.map((t) => {
+    const key = `topic:${t.id}`;
+    const where = t.countries.length ? t.countries.join(' · ') : L('global', '全球');
+    return `<a class="ecard" href="entry.html?id=${encodeURIComponent(t.id)}">
+      <div class="pic">
+        ${pictureFor(key, { title: t.label, years: t.years, id: t.id, kicker: 'entry' })}
+        <span class="n">${L(`${fmt(t.total)} meetings`, `${fmt(t.total)} 次会议`)}</span>
+      </div>
+      <div class="body">
+        <div class="t">${esc(t.label)}</div>
+        <div class="d">${esc(t.blurb)}</div>
+        <div class="w">${esc(where)} · ${t.first.slice(0, 4)}–${t.last.slice(0, 4)} ·
+          ${L(`${fmt(t.material.segments)} passages`, `${fmt(t.material.segments)} 段材料`)}</div>
+      </div>
+    </a>`;
+  }).join('') || `<p class="note">${L('Nothing matches that filter.', '没有符合筛选条件的条目。')}</p>`;
+}
+
+document.getElementById('q').addEventListener('input', draw);
+document.getElementById('sortseg').onclick = (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  sortKey = b.dataset.k;
+  [...e.currentTarget.children].forEach((x) => x.setAttribute('aria-pressed', x === b));
+  draw();
+};
+draw();
+</script>
+</body>
+</html>

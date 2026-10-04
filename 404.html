@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · UN Voting Corpus</title>
+<!-- GitHub Pages serves this file for any address that does not exist, at
+     that address — so it carries its own styling instead of linking the site
+     stylesheet, whose relative path would not resolve from an arbitrary depth.
+
+     Its main job: the pages used to live under _site/, and links to those
+     addresses are already out there. Any …/_site/… address is sent on to the
+     same page without the folder, keeping its query (?id=, ?lang=) and anchor. -->
+<script>
+(function () {
+  var p = location.pathname;
+  if (p.indexOf('/_site/') !== -1 || /\/_site$/.test(p)) {
+    location.replace(p.replace(/\/_site(\/|$)/, '/') + location.search + location.hash);
+  }
+})();
+</script>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f3f6f9; color: #0d1b2a; border-top: 6px solid #009edb;
+  }
+  @media (prefers-color-scheme: dark) { body { background: #08131d; color: #eef4f9; } }
+  main { padding: 24px 16px; max-width: 34rem; }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  p { margin: 0 0 6px; line-height: 1.6; opacity: .8; }
+  a { color: #009edb; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Page not found · 页面不存在</h1>
+  <p>This address does not exist on the site. · 网站上没有这个地址。</p>
+  <p><a id="home" href="/">UN Voting Corpus 1946–2025 →</a></p>
+</main>
+<script>
+  /* A project site lives one folder down (user.github.io/<repo>/), so the
+     home link is that folder, not the host root. */
+  if (/\.github\.io$/.test(location.hostname)) {
+    var seg = location.pathname.split('/')[1];
+    if (seg) document.getElementById('home').href = '/' + seg + '/';
+  }
+</script>
+</body>
+</html>

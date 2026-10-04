@@ -3,54 +3,66 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Charts by year · UN Voting Corpus 1946–2025</title>
+<title data-zh="年度图表 · 联合国表决记录 1946–2025">Charts by year · UN Voting Corpus 1946–2025</title>
+<script src="assets/boot.js"></script>
 <link rel="stylesheet" href="assets/style.css">
+<style>
+/* the year-detail labels are long; on a phone they must wrap, not widen the page */
+#year-detail td:first-child { white-space: normal; }
+</style>
 </head>
 <body>
 <main>
-  <h1>Activity timeline, 1946—2025</h1>
-  <p class="lede">
+  <h1 data-zh="活动时间线，1946—2025">Activity timeline, 1946—2025</h1>
+  <p class="lede" data-l="en">
     Annual output from both bodies, aligned on the <strong>calendar year</strong>. The Assembly
     corpus is stored by session (the Nth session opens in September and runs into the following
     September), so each resolution has been re-dated here using the <strong>adoption date</strong>
     printed in its own text — which is what makes a year-for-year comparison possible.
     Drag the slider below to zoom any stretch; all three panels move together.
   </p>
+  <p class="lede" data-l="zh">
+    两个机构的年度产出，按<strong>日历年</strong>对齐。大会语料库按届会存储（第 N 届会议于 9 月开幕，持续到次年 9 月），因此这里依据每项决议正文中印有的<strong>通过日期</strong>重新定年——正是这一点使逐年比较成为可能。拖动下方滑块可放大任一时段，三个面板同步移动。</p>
 
   <div class="tiles" id="tiles"></div>
 
   <div class="controls">
     <div class="seg" id="era-seg"></div>
     <label style="margin-left:6px">
-      <input type="checkbox" id="show-events" checked> Show historical event markers
+      <input type="checkbox" id="show-events" checked> <span data-zh="显示历史事件标记">Show historical event markers</span>
     </label>
   </div>
 
   <div class="card">
     <header>
-      <h2>Annual output and voting structure</h2>
-      <p>Three panels share one time axis and one zoom slider. <strong>No dual y-axis is
+      <h2 data-zh="年度产出与表决结构">Annual output and voting structure</h2>
+      <p data-zh="三个面板共用一条时间轴和一个缩放滑块。<strong>不使用双纵轴</strong>——两个量级不同的序列叠在一起时，交叉点取决于坐标轴缩放而非数据本身，本项目刻意排除这种假象。">Three panels share one time axis and one zoom slider. <strong>No dual y-axis is
       used</strong> — two series of different magnitude laid over one another cross wherever the
       axis scaling puts them rather than where the data does, and that artefact is deliberately
       excluded from this project.</p>
     </header>
     <div class="legend">
-      <span class="item"><span class="swatch" style="background:var(--series-1)"></span>Council resolutions adopted</span>
-      <span class="item"><span class="swatch" style="background:var(--series-2)"></span>Assembly resolutions (corpus ≥80% complete)</span>
-      <span class="item"><span class="swatch hatch"></span>Assembly (coverage &lt;80%, not readable as a trend)</span>
-      <span class="item" style="color:var(--text-muted)">Panel ③:</span>
-      <span class="item"><span class="swatch" style="background:var(--series-1)"></span>US</span>
-      <span class="item"><span class="swatch" style="background:var(--series-2)"></span>UK</span>
-      <span class="item"><span class="swatch" style="background:var(--series-3)"></span>France</span>
-      <span class="item"><span class="swatch" style="background:var(--series-4)"></span>China</span>
-      <span class="item"><span class="swatch" style="background:var(--series-5)"></span>Russia/USSR</span>
+      <span class="item"><span class="swatch" style="background:var(--series-1)"></span><span data-zh="安理会通过的决议">Council resolutions adopted</span></span>
+      <span class="item"><span class="swatch" style="background:var(--series-2)"></span><span data-zh="大会决议（语料库完整度 ≥80%）">Assembly resolutions (corpus ≥80% complete)</span></span>
+      <span class="item"><span class="swatch hatch"></span><span data-zh="大会（覆盖率 &lt;80%，不能视为趋势）">Assembly (coverage &lt;80%, not readable as a trend)</span></span>
+      <span class="item" style="color:var(--text-muted)" data-zh="面板 ③：">Panel ③:</span>
+      <span class="item"><span class="swatch" style="background:var(--series-1)"></span><span data-zh="美国">US</span></span>
+      <span class="item"><span class="swatch" style="background:var(--series-2)"></span><span data-zh="英国">UK</span></span>
+      <span class="item"><span class="swatch" style="background:var(--series-3)"></span><span data-zh="法国">France</span></span>
+      <span class="item"><span class="swatch" style="background:var(--series-4)"></span><span data-zh="中国">China</span></span>
+      <span class="item"><span class="swatch" style="background:var(--series-5)"></span><span data-zh="俄罗斯 / 苏联">Russia/USSR</span></span>
     </div>
     <div id="main-chart" class="chart" style="height:740px"></div>
     <p class="note" id="range-note"></p>
     <div id="main-table"></div>
   </div>
 
-  <div class="callout critical">
+  <div class="callout critical" data-l="zh">
+    <strong>1980 至 1992 年间的大会数据不能解读。</strong>
+    这一时段有 7 届会议的语料库覆盖率仅为 13.4%–44%（1991 年最低，为 13.4%），另有 5 届（1980–82、1984、1986）在 59.9% 到 79.9% 之间。它们以斜线填充的空心柱显示。这些低谷是<strong>收集缺口</strong>，并不代表大会实际产出下降，更不应被解读为冷战后期的某种政治现象。</div>
+  <div class="callout" data-l="zh">
+    <strong>1964 年是唯一的例外。</strong>当年覆盖率为 100%，但大会只通过了 2 项决议。围绕《宪章》第十九条（拖欠会费的国家丧失表决权）的争执，使第 19 届会议根本无法表决，会议推迟到 1964 年 12 月 30 日才通过任何决议。这是整个时段中唯一一个语料库完整而产出确实崩塌的年份，因此也是唯一可以作为结论的低谷。</div>
+  <div class="callout critical" data-l="en">
     <strong>The Assembly line cannot be read between 1980 and 1992.</strong>
     Seven sessions in that stretch sit at 13.4%–44% corpus coverage (1991 is the worst, at 13.4%),
     with a further five (1980–82, 1984, 1986) between 59.9% and 79.9%. They are drawn as hatched, hollow bars. These troughs
@@ -58,7 +70,7 @@
     should certainly not be read as a political phenomenon of the late Cold War.
   </div>
 
-  <div class="callout">
+  <div class="callout" data-l="en">
     <strong>1964 is the one exception.</strong> Coverage that year is 100%, yet the Assembly
     adopted just 2 resolutions. The fight over Article 19 of the Charter — the loss of voting
     rights for states in arrears — kept the 19th session from voting at all, and the session was
@@ -70,16 +82,16 @@
   <div class="grid2">
     <div class="card">
       <header>
-        <h2>Council voting structure</h2>
-        <p>Both series are percentages, so they share one scale and belong on one axis.</p>
+        <h2 data-zh="安理会表决结构">Council voting structure</h2>
+        <p data-zh="两个序列都是百分比，因此共用同一刻度，放在同一坐标轴上。">Both series are percentages, so they share one scale and belong on one axis.</p>
       </header>
       <div id="struct-chart" class="chart short"></div>
       <div id="struct-table"></div>
     </div>
     <div class="card">
       <header>
-        <h2>Year detail</h2>
-        <p>Both bodies for the selected year. Click any year in the main chart to change it.</p>
+        <h2 data-zh="年度详情">Year detail</h2>
+        <p data-zh="所选年份两个机构的数据。点击主图中的任一年份即可切换。">Both bodies for the selected year. Click any year in the main chart to change it.</p>
       </header>
       <div id="year-detail"></div>
     </div>
@@ -87,8 +99,8 @@
 
   <div class="card">
     <header>
-      <h2>Assembly corpus coverage</h2>
-      <p>The share of each calendar year's actual resolutions that the corpus holds. This is the
+      <h2 data-zh="大会语料库覆盖率">Assembly corpus coverage</h2>
+      <p data-zh="语料库收录的决议占每个日历年实际决议的比例。这是解读上方大会序列的前提：低于 80% 时，柱高反映的是收集了多少，而不是通过了多少。">The share of each calendar year's actual resolutions that the corpus holds. This is the
       precondition for reading the Assembly series above: below 80%, bar height reflects how much
       was collected rather than how much was adopted.</p>
     </header>
@@ -99,26 +111,28 @@
 
 <script src="assets/echarts.min.js"></script>
 <script src="data/timeline.js"></script>
+<script src="data/zh.js"></script>
 <script src="assets/common.js"></script>
 <script>
 const T = window.TIMELINE;
 const YEARS = T.years;
-const BAND_LABEL = { RELIABLE: 'corpus complete', DEGRADED: 'coverage low',
-                     UNUSABLE: 'coverage insufficient — unusable',
-                     PARTIAL_YEAR: 'partial year', MISSING: 'missing' };
+const BAND_LABEL = {
+  RELIABLE: L('corpus complete', '语料完整'), DEGRADED: L('coverage low', '覆盖率偏低'),
+  UNUSABLE: L('coverage insufficient — unusable', '覆盖率不足——不可用'),
+  PARTIAL_YEAR: L('partial year', '不完整年份'), MISSING: L('missing', '缺失') };
 
 const ERAS = [
-  ['Full span 1946–2025', 1946, 2025],
-  ['Cold War 1946–1989', 1946, 1989],
-  ['Post-Cold War 1990–2001', 1990, 2001],
-  ['Counter-terrorism 2001–2010', 2001, 2010],
-  ['Contemporary 2011–2025', 2011, 2025],
+  [L('Full span 1946–2025', '全时段 1946–2025'), 1946, 2025],
+  [L('Cold War 1946–1989', '冷战 1946–1989'), 1946, 1989],
+  [L('Post-Cold War 1990–2001', '冷战后 1990–2001'), 1990, 2001],
+  [L('Counter-terrorism 2001–2010', '反恐时期 2001–2010'), 2001, 2010],
+  [L('Contemporary 2011–2025', '当代 2011–2025'), 2011, 2025],
 ];
 let era = 0;
 let selectedYear = 2022;
 const sum = (a) => a.reduce((x, y) => x + (y || 0), 0);
-const VETO_STATES = [['United States', ['USA']], ['United Kingdom', ['GBR']], ['France', ['FRA']],
-  ['China', ['CHN']], ['Russia / USSR', ['RUS', 'USSR']]];
+const VETO_STATES = [[L('United States', '美国'), ['USA']], [L('United Kingdom', '英国'), ['GBR']], [L('France', '法国'), ['FRA']],
+  [L('China', '中国'), ['CHN']], [L('Russia / USSR', '俄罗斯 / 苏联'), ['RUS', 'USSR']]];
 const vetoesOf = (i) => VETO_STATES.map(([lab, codes]) => [lab, sum(codes.map((s) => (T.veto_by_state[s] || [])[i] || 0))]);
 
 /* Coverage decides how a GA bar is drawn: solid when the corpus is complete,
@@ -194,12 +208,12 @@ mountChart(document.getElementById('main-chart'), (c, base, ax) => {
         const i = YEARS.indexOf(+y);
         const label = BAND_LABEL[T.ga.band[i]] || T.ga.band[i];
         return `<b style="font-size:14px">${y}</b><br>`
-          + `<span style="color:${c.series[0]}">■</span> Council adopted <b>${fmt(T.sc.adopted[i])}</b>`
-          + ` (${fmt(T.sc.meetings[i])} meetings)<br>`
-          + (T.sc.vetoes[i] ? `<span style="color:${c.muted}">■</span> Vetoes cast <b>${T.sc.vetoes[i]}</b>: `
+          + `<span style="color:${c.series[0]}">■</span> ${L('Council adopted', '安理会通过')} <b>${fmt(T.sc.adopted[i])}</b>`
+          + L(` (${fmt(T.sc.meetings[i])} meetings)<br>`, `（${fmt(T.sc.meetings[i])} 次会议）<br>`)
+          + (T.sc.vetoes[i] ? `<span style="color:${c.muted}">■</span> ${L('Vetoes cast', '否决次数')} <b>${T.sc.vetoes[i]}</b>: `
             + vetoesOf(i).filter(([, n]) => n).map(([l, n]) => `${l} ${n}`).join(', ') + '<br>' : '')
-          + `<span style="color:${c.series[1]}">■</span> Assembly adopted <b>${fmt(T.ga.adopted[i])}</b><br>`
-          + `<span style="color:${c.muted};font-size:11.5px">Assembly coverage ${pct(T.ga.coverage_pct[i])} · ${label}</span>`;
+          + `<span style="color:${c.series[1]}">■</span> ${L('Assembly adopted', '大会通过')} <b>${fmt(T.ga.adopted[i])}</b><br>`
+          + `<span style="color:${c.muted};font-size:11.5px">${L('Assembly coverage', '大会覆盖率')} ${pct(T.ga.coverage_pct[i])} · ${label}</span>`;
       },
     },
     dataZoom: [
@@ -229,21 +243,24 @@ mountChart(document.getElementById('main-chart'), (c, base, ax) => {
          the grid would need. So this one sits inside the plot instead, in the
          top-left corner the 1940s-50s bars leave empty. Panels ②/③ have no
          markers, so their titles stay above, one clear line off the top tick. */
-      { text: '① Council resolutions adopted (per year) · all 2,811 numbers held, usable throughout',
+      { text: L('① Council resolutions adopted (per year) · all 2,811 numbers held, usable throughout',
+                '① 安理会通过的决议（每年）· 2,811 个编号全部收录，全程可用'),
         left: 78, top: 162,
         textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
-      { text: '② Assembly resolutions adopted (per year) · dated by the adoption date in the text',
+      { text: L('② Assembly resolutions adopted (per year) · dated by the adoption date in the text',
+                '② 大会通过的决议（每年）· 按正文中的通过日期定年'),
         left: 0, top: 312,
         textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
-      { text: '③ Vetoes cast (per year, by permanent member) · read from the vetoed votes; ~80% of the published list held',
+      { text: L('③ Vetoes cast (per year, by permanent member) · read from the vetoed votes; ~80% of the published list held',
+                '③ 否决次数（每年，按常任理事国）· 取自被否决的表决；约收录公布清单的 80%'),
         left: 0, top: 508,
         textStyle: { fontSize: 13, fontWeight: 600, color: c.primary } },
     ],
     series: [
-      { name: 'Council resolutions', type: 'bar', xAxisIndex: 0, yAxisIndex: 0,
+      { name: L('Council resolutions', '安理会决议'), type: 'bar', xAxisIndex: 0, yAxisIndex: 0,
         data: T.sc.adopted, itemStyle: { color: c.series[0], borderRadius: [3, 3, 0, 0] },
         barCategoryGap: '26%', markLine: evMarks },
-      { name: 'Assembly resolutions', type: 'bar', xAxisIndex: 1, yAxisIndex: 1,
+      { name: L('Assembly resolutions', '大会决议'), type: 'bar', xAxisIndex: 1, yAxisIndex: 1,
         data: T.ga.adopted.map((v, i) => ({ value: v, itemStyle: { ...gaBarStyle(i, c), borderRadius: [3, 3, 0, 0] } })),
         barCategoryGap: '26%' },
       /* same member colours as the Analysis page: slot order US UK FR CN RU */
@@ -270,10 +287,10 @@ mountChart(document.getElementById('struct-chart'), (c, base, ax) => ({
            axisLabel: { ...ax.axisLabel, interval: 9 } },
   yAxis: { type: 'value', name: '%', max: 100, ...ax },
   series: [
-    { name: 'Adopted unanimously', type: 'line', data: T.sc.unanimity_pct, smooth: 0.25,
+    { name: L('Adopted unanimously', '一致通过'), type: 'line', data: T.sc.unanimity_pct, smooth: 0.25,
       showSymbol: false, symbolSize: 8, lineStyle: { width: 2, color: c.series[0] },
       itemStyle: { color: c.series[0] }, connectNulls: false },
-    { name: 'Invoking Chapter VII', type: 'line', data: T.sc.chapter_vii_pct, smooth: 0.25,
+    { name: L('Invoking Chapter VII', '援引第七章'), type: 'line', data: T.sc.chapter_vii_pct, smooth: 0.25,
       showSymbol: false, symbolSize: 8, lineStyle: { width: 2, color: c.series[2] },
       itemStyle: { color: c.series[2] }, connectNulls: false },
   ],
@@ -286,14 +303,14 @@ mountChart(document.getElementById('cov-chart'), (c, base, ax) => ({
   tooltip: { ...base.tooltip, trigger: 'axis',
     formatter: (ps) => {
       const i = YEARS.indexOf(+ps[0].axisValue);
-      return `<b>${ps[0].axisValue}</b><br>Coverage <b>${pct(T.ga.coverage_pct[i])}</b><br>`
+      return `<b>${ps[0].axisValue}</b><br>${L('Coverage', '覆盖率')} <b>${pct(T.ga.coverage_pct[i])}</b><br>`
         + `<span style="color:${c.muted};font-size:11.5px">${BAND_LABEL[T.ga.band[i]] || T.ga.band[i]}</span>`;
     } },
   xAxis: { type: 'category', data: YEARS.map(String), ...ax, splitLine: { show: false },
            axisLabel: { ...ax.axisLabel, interval: 9 } },
   yAxis: { type: 'value', name: '%', max: 100, ...ax },
   series: [{
-    name: 'Assembly corpus coverage', type: 'bar',
+    name: L('Assembly corpus coverage', '大会语料库覆盖率'), type: 'bar',
     data: T.ga.coverage_pct.map((v) => ({
       value: v,
       itemStyle: {
@@ -303,7 +320,7 @@ mountChart(document.getElementById('cov-chart'), (c, base, ax) => ({
     })),
     barCategoryGap: '20%',
     markLine: { silent: true, symbol: 'none', lineStyle: { color: c.axis, type: [5, 5] },
-      label: { color: c.muted, fontSize: 11, formatter: '80% usable threshold' },
+      label: { color: c.muted, fontSize: 11, formatter: L('80% usable threshold', '80% 可用阈值') },
       data: [{ yAxis: 80 }] },
   }],
 }));
@@ -317,20 +334,20 @@ function renderYearDetail() {
   document.getElementById('year-detail').innerHTML = `
     <div style="font-size:33px;font-weight:650;letter-spacing:-.02em">${selectedYear}</div>
     ${ev ? `<div style="color:var(--text-secondary);font-size:14px;margin-bottom:14px">${ev[1]}</div>`
-         : '<div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">(no marked event)</div>'}
+         : `<div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">${L('(no marked event)', '（无标记事件）')}</div>`}
     <table style="font-size:13.5px">
       <tbody>
-        <tr><td>Council resolutions adopted</td><td><b>${fmt(T.sc.adopted[i])}</b></td></tr>
-        <tr><td>Council meetings with a vote</td><td>${fmt(T.sc.meetings[i])}</td></tr>
-        <tr><td>Adopted unanimously</td><td>${pct(T.sc.unanimity_pct[i])}</td></tr>
-        <tr><td>Invoking Chapter VII</td><td>${pct(T.sc.chapter_vii_pct[i])}</td></tr>
-        <tr><td>Vetoes cast</td><td>${fmt(T.sc.vetoes[i])}</td></tr>
-        <tr><td>Assembly resolutions adopted</td><td><b>${fmt(T.ga.adopted[i])}</b></td></tr>
-        <tr><td>Assembly corpus coverage</td><td><span class="badge ${cls}">${pct(T.ga.coverage_pct[i])} · ${BAND_LABEL[band] || band}</span></td></tr>
+        <tr><td>${L('Council resolutions adopted', '安理会通过的决议')}</td><td><b>${fmt(T.sc.adopted[i])}</b></td></tr>
+        <tr><td>${L('Council meetings with a vote', '有表决的安理会会议')}</td><td>${fmt(T.sc.meetings[i])}</td></tr>
+        <tr><td>${L('Adopted unanimously', '一致通过')}</td><td>${pct(T.sc.unanimity_pct[i])}</td></tr>
+        <tr><td>${L('Invoking Chapter VII', '援引第七章')}</td><td>${pct(T.sc.chapter_vii_pct[i])}</td></tr>
+        <tr><td>${L('Vetoes cast', '否决次数')}</td><td>${fmt(T.sc.vetoes[i])}</td></tr>
+        <tr><td>${L('Assembly resolutions adopted', '大会通过的决议')}</td><td><b>${fmt(T.ga.adopted[i])}</b></td></tr>
+        <tr><td>${L('Assembly corpus coverage', '大会语料库覆盖率')}</td><td><span class="badge ${cls}">${pct(T.ga.coverage_pct[i])} · ${BAND_LABEL[band] || band}</span></td></tr>
       </tbody>
     </table>
     <a class="badge" style="margin-top:14px;text-decoration:none;border-color:var(--series-1);color:var(--series-1)"
-       href="browse.html?y=${selectedYear}">Open every ${selectedYear} meeting record →</a>`;
+       href="browse.html?y=${selectedYear}">${L(`Open every ${selectedYear} meeting record →`, `打开 ${selectedYear} 年的全部会议记录 →`)}</a>`;
 }
 
 /* --------------------------------------------------------------- tiles */
@@ -340,16 +357,16 @@ const usable = T.ga.band.filter((b) => b === 'RELIABLE').length;
 const peakI = T.sc.adopted.indexOf(Math.max(...T.sc.adopted.map((v) => v || 0)));
 const vetoTotal = sum(T.sc.vetoes);
 document.getElementById('tiles').innerHTML = `
-  <div class="tile"><div class="k">Council resolutions</div><div class="v">${fmt(scTotal)}</div>
-    <div class="s">1946–2025 · every S/RES number held</div></div>
-  <div class="tile"><div class="k">Assembly resolutions</div><div class="v">${fmt(gaTotal)}</div>
-    <div class="s">placed in a calendar year by their adoption date</div></div>
-  <div class="tile"><div class="k">Usable Assembly years</div><div class="v">${usable} <span style="font-size:16px;color:var(--text-muted)">/ 80</span></div>
-    <div class="s">calendar years at ≥80% coverage</div></div>
-  <div class="tile"><div class="k">Council peak year</div><div class="v">${YEARS[peakI]}</div>
-    <div class="s">${T.sc.adopted[peakI]} resolutions, the highest on record</div></div>
-  <div class="tile"><div class="k">Vetoes cast</div><div class="v">${fmt(vetoTotal)}</div>
-    <div class="s">by year and member in panel ③; <a href="assessment.html">analysis</a></div></div>`;
+  <div class="tile"><div class="k">${L('Council resolutions', '安理会决议')}</div><div class="v">${fmt(scTotal)}</div>
+    <div class="s">${L('1946–2025 · every S/RES number held', '1946–2025 · 收录全部 S/RES 编号')}</div></div>
+  <div class="tile"><div class="k">${L('Assembly resolutions', '大会决议')}</div><div class="v">${fmt(gaTotal)}</div>
+    <div class="s">${L('placed in a calendar year by their adoption date', '按通过日期归入日历年')}</div></div>
+  <div class="tile"><div class="k">${L('Usable Assembly years', '可用的大会年份')}</div><div class="v">${usable} <span style="font-size:16px;color:var(--text-muted)">/ 80</span></div>
+    <div class="s">${L('calendar years at ≥80% coverage', '覆盖率 ≥80% 的日历年')}</div></div>
+  <div class="tile"><div class="k">${L('Council peak year', '安理会峰值年份')}</div><div class="v">${YEARS[peakI]}</div>
+    <div class="s">${L(`${T.sc.adopted[peakI]} resolutions, the highest on record`, `${T.sc.adopted[peakI]} 项决议，历史最高`)}</div></div>
+  <div class="tile"><div class="k">${L('Vetoes cast', '否决次数')}</div><div class="v">${fmt(vetoTotal)}</div>
+    <div class="s">${L('by year and member in panel ③; <a href="assessment.html">analysis</a>', '按年份和成员见面板 ③；另见<a href="assessment.html">分析</a>')}</div></div>`;
 
 /* ------------------------------------------------------------ controls */
 document.getElementById('era-seg').innerHTML =
@@ -359,13 +376,15 @@ document.getElementById('era-seg').onclick = (e) => {
   if (!b) return;
   era = +b.dataset.i;
   [...e.currentTarget.children].forEach((x, i) => x.setAttribute('aria-pressed', i === era));
-  document.getElementById('range-note').textContent =
-    `Showing ${ERAS[era][1]}–${ERAS[era][2]}. The slider fine-tunes further; dragging or scrolling zooms all three panels together.`;
+  document.getElementById('range-note').textContent = rangeNote(ERAS[era][1], ERAS[era][2]);
   REGISTRY.forEach((d) => d());
 };
 document.getElementById('show-events').onchange = () => REGISTRY.forEach((d) => d());
-document.getElementById('range-note').textContent =
-  'Showing 1946–2025. The slider fine-tunes further; dragging or scrolling zooms all three panels together.';
+function rangeNote(a, b) {
+  return L(`Showing ${a}–${b}. The slider fine-tunes further; dragging or scrolling zooms all three panels together.`,
+           `当前显示 ${a}–${b} 年。滑块可进一步微调；拖动或滚动会同时缩放三个面板。`);
+}
+document.getElementById('range-note').textContent = rangeNote(1946, 2025);
 
 /* click a year on the main chart to pin it in the detail panel */
 echarts.getInstanceByDom(document.getElementById('main-chart')).on('click', (p) => {
@@ -375,21 +394,22 @@ renderYearDetail();
 
 /* ------------------------------------------------------- table views */
 tableView(document.getElementById('main-table'),
-  ['Year', 'Council adopted', 'Council meetings w/ vote', 'Assembly adopted', 'Assembly coverage', 'Band', 'Vetoes cast'],
+  [L('Year', '年份'), L('Council adopted', '安理会通过'), L('Council meetings w/ vote', '有表决的安理会会议'),
+   L('Assembly adopted', '大会通过'), L('Assembly coverage', '大会覆盖率'), L('Band', '等级'), L('Vetoes cast', '否决次数')],
   YEARS.map((y, i) => [y, fmt(T.sc.adopted[i]), fmt(T.sc.meetings[i]), fmt(T.ga.adopted[i]),
-                       pct(T.ga.coverage_pct[i]), T.ga.band[i], fmt(T.sc.vetoes[i])]),
-  'Show year-by-year table (80 rows)');
+                       pct(T.ga.coverage_pct[i]), BAND_LABEL[T.ga.band[i]] || T.ga.band[i], fmt(T.sc.vetoes[i])]),
+  L('Show year-by-year table (80 rows)', '显示逐年数据表（80 行）'));
 
 tableView(document.getElementById('struct-table'),
-  ['Year', 'Adopted unanimously', 'Chapter VII', 'Abstentions per resolution'],
+  [L('Year', '年份'), L('Adopted unanimously', '一致通过'), L('Chapter VII', '第七章'), L('Abstentions per resolution', '每项决议的弃权数')],
   YEARS.map((y, i) => [y, pct(T.sc.unanimity_pct[i]), pct(T.sc.chapter_vii_pct[i]),
                        T.sc.abstentions_per_voted[i] == null ? '—' : T.sc.abstentions_per_voted[i].toFixed(2)]),
-  'Show voting-structure table');
+  L('Show voting-structure table', '显示表决结构数据表'));
 
 tableView(document.getElementById('cov-table'),
-  ['Year', 'Resolutions in corpus', 'Estimated coverage', 'Band'],
-  YEARS.map((y, i) => [y, fmt(T.ga.adopted[i]), pct(T.ga.coverage_pct[i]), T.ga.band[i]]),
-  'Show coverage table');
+  [L('Year', '年份'), L('Resolutions in corpus', '语料库中的决议'), L('Estimated coverage', '估计覆盖率'), L('Band', '等级')],
+  YEARS.map((y, i) => [y, fmt(T.ga.adopted[i]), pct(T.ga.coverage_pct[i]), BAND_LABEL[T.ga.band[i]] || T.ga.band[i]]),
+  L('Show coverage table', '显示覆盖率数据表'));
 </script>
 </body>
 </html>

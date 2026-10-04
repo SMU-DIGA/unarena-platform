@@ -1,74 +1,129 @@
 /* UN Arena — shared styling.
-   Colour tokens are the validated reference palette; dark values are a
-   selected set stepped for the dark surface, not an automatic inversion. */
+   The palette is the United Nations' own: UN blue (#009EDB) and its deep
+   companion (#00689D) carry the identity — header, accents, the sequential
+   ramp — and the remaining series hues are taken from the SDG colour set,
+   toned so marks clear 3:1 on the surface they sit on. The light theme uses a
+   deeper step of UN blue for series 1 (#0077B8) because the pure brand blue
+   is only 3:1 on white and series 1 also colours link and control text.
+   Dark values are a selected set stepped for the dark surface, not an
+   automatic inversion. */
 
 :root {
   color-scheme: light;
-  --surface-1: #fcfcfb;
-  --plane: #f9f9f7;
-  --text-primary: #0b0b0b;
-  --text-secondary: #52514e;
-  --text-muted: #898781;
-  --grid: #e1e0d9;
-  --axis: #c3c2b7;
-  --border: rgba(11, 11, 11, 0.10);
+  --un-blue: #009edb;
+  --un-deep: #00689d;
+  /* where a headline's gradient ends: deep blue on light, pale blue on dark */
+  --hero-end: #00689d;
 
-  --series-1: #2a78d6;
-  --series-2: #eb6834;
-  --series-3: #1baf7a;
-  --series-4: #eda100;
-  --series-5: #e87ba4;
+  --surface-1: #ffffff;
+  --plane: #f3f6f9;
+  --text-primary: #0d1b2a;
+  --text-secondary: #46566a;
+  --text-muted: #7b8898;
+  --grid: #e1e7ee;
+  --axis: #bdc8d4;
+  --border: rgba(13, 40, 70, 0.12);
 
-  --seq-100: #cde2fb;
-  --seq-250: #86b6ef;
-  --seq-400: #3987e5;
-  --seq-550: #1c5cab;
-  --seq-700: #0d366b;
+  --series-1: #0077b8;
+  --series-2: #e06a1f;
+  --series-3: #2f8a3e;
+  --series-4: #d99a00;
+  --series-5: #c42a6b;
 
-  --good: #0ca30c;
-  --warning: #fab219;
-  --serious: #ec835a;
-  --critical: #d03b3b;
+  --seq-100: #d3edfa;
+  --seq-250: #8ad0f1;
+  --seq-400: #009edb;
+  --seq-550: #00689d;
+  --seq-700: #0b3a5e;
 
-  --font: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  --good: #3f7e44;
+  --warning: #f2b400;
+  --serious: #e06a1f;
+  --critical: #d9283d;
+
+  /* the header bar: deep UN blue with a stripe of the brand blue under it */
+  --hdr-bg: #00689d;
+  --hdr-stripe: #009edb;
+  --hdr-fg: #ffffff;
+  --hdr-fg-2: rgba(255, 255, 255, 0.80);
+  --hdr-hover: rgba(255, 255, 255, 0.13);
+  --hdr-on-bg: #ffffff;
+  --hdr-on-fg: #00689d;
+  --hdr-ctl: rgba(255, 255, 255, 0.10);
+  --hdr-ctl-line: rgba(255, 255, 255, 0.26);
+
+  --font: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+          "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   --maxw: 1240px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
     color-scheme: dark;
-    --surface-1: #1a1a19;
-    --plane: #0d0d0d;
-    --text-primary: #ffffff;
-    --text-secondary: #c3c2b7;
-    --text-muted: #898781;
-    --grid: #2c2c2a;
-    --axis: #383835;
+    --hero-end: #8ad0f1;
+    --surface-1: #0f1e2c;
+    --plane: #08131d;
+    --text-primary: #eef4f9;
+    --text-secondary: #b2c1d0;
+    --text-muted: #7d8fa1;
+    --grid: #1c2e3f;
+    --axis: #2e465c;
     --border: rgba(255, 255, 255, 0.10);
-    --series-1: #3987e5;
-    --series-2: #d95926;
-    --series-3: #199e70;
-    --series-4: #c98500;
-    --series-5: #d55181;
+    --series-1: #2baeea;
+    --series-2: #f08a45;
+    --series-3: #4fb25a;
+    --series-4: #f0ba1e;
+    --series-5: #e04e8c;
+    --good: #5dbb63;
+    --critical: #ed4a5c;
+    --hdr-bg: #0a2236;
+    --hdr-stripe: #009edb;
+    --hdr-fg-2: rgba(255, 255, 255, 0.74);
+    --hdr-hover: rgba(255, 255, 255, 0.09);
+    --hdr-on-bg: #009edb;
+    --hdr-on-fg: #ffffff;
+    --hdr-ctl: rgba(255, 255, 255, 0.06);
+    --hdr-ctl-line: rgba(255, 255, 255, 0.16);
   }
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --surface-1: #1a1a19;
-  --plane: #0d0d0d;
-  --text-primary: #ffffff;
-  --text-secondary: #c3c2b7;
-  --text-muted: #898781;
-  --grid: #2c2c2a;
-  --axis: #383835;
+  --hero-end: #8ad0f1;
+  --surface-1: #0f1e2c;
+  --plane: #08131d;
+  --text-primary: #eef4f9;
+  --text-secondary: #b2c1d0;
+  --text-muted: #7d8fa1;
+  --grid: #1c2e3f;
+  --axis: #2e465c;
   --border: rgba(255, 255, 255, 0.10);
-  --series-1: #3987e5;
-  --series-2: #d95926;
-  --series-3: #199e70;
-  --series-4: #c98500;
-  --series-5: #d55181;
+  --series-1: #2baeea;
+  --series-2: #f08a45;
+  --series-3: #4fb25a;
+  --series-4: #f0ba1e;
+  --series-5: #e04e8c;
+  --good: #5dbb63;
+  --critical: #ed4a5c;
+  --hdr-bg: #0a2236;
+  --hdr-stripe: #009edb;
+  --hdr-fg-2: rgba(255, 255, 255, 0.74);
+  --hdr-hover: rgba(255, 255, 255, 0.09);
+  --hdr-on-bg: #009edb;
+  --hdr-on-fg: #ffffff;
+  --hdr-ctl: rgba(255, 255, 255, 0.06);
+  --hdr-ctl-line: rgba(255, 255, 255, 0.16);
 }
+
+/* Bilingual blocks: a page carries both versions of a long passage side by
+   side, marked data-l="en" / data-l="zh", and only the active one is shown.
+   boot.js sets <html lang> in the <head>, before first paint, so the other
+   language never flashes. Short strings are swapped by common.js instead. */
+html[lang="en"] [data-l="zh"],
+html[lang="zh-CN"] [data-l="en"] { display: none !important; }
+
+/* Chinese reads cramped under the negative tracking the Latin headings use. */
+html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3 { letter-spacing: 0 !important; }
 
 * { box-sizing: border-box; }
 
@@ -96,16 +151,16 @@ body {
   position: absolute; inset: -12%;
   background:
     radial-gradient(56% 42% at 10% 2%,
-      color-mix(in srgb, var(--seq-400) 22%, transparent), transparent 70%),
+      color-mix(in srgb, var(--un-blue) 20%, transparent), transparent 70%),
     radial-gradient(50% 38% at 90% 10%,
-      color-mix(in srgb, var(--series-2) 16%, transparent), transparent 72%),
+      color-mix(in srgb, var(--seq-250) 22%, transparent), transparent 72%),
     radial-gradient(62% 46% at 46% 102%,
-      color-mix(in srgb, var(--series-3) 13%, transparent), transparent 70%);
+      color-mix(in srgb, var(--un-deep) 12%, transparent), transparent 70%);
 }
 .sitebg .dots {
   position: absolute; left: 50%; top: 44%; transform: translate(-50%, -50%);
   width: min(1720px, 138vw); aspect-ratio: 1440 / 580;
-  background: linear-gradient(112deg, var(--seq-550) 4%, var(--series-2) 56%, var(--series-3));
+  background: linear-gradient(112deg, var(--seq-700) 4%, var(--un-blue) 56%, var(--seq-550));
   -webkit-mask: url(worlddots.svg) center / contain no-repeat;
   mask: url(worlddots.svg) center / contain no-repeat;
   /* Low enough that body text stays the strongest thing on the page: the
@@ -131,46 +186,79 @@ body {
 main, footer.site { position: relative; z-index: 1; }
 
 /* ---------------------------------------------------------------- nav --- */
+/* A solid bar in deep UN blue with a stripe of the brand blue under it — the
+   one place the site wears the colour at full strength. */
 header.site {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--plane) 88%, transparent);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: var(--hdr-bg);
+  color: var(--hdr-fg);
+  box-shadow: inset 0 -3px 0 var(--hdr-stripe), 0 4px 18px rgba(0, 40, 70, .10);
 }
 .nav {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 24px;
-  height: 58px;
+  padding: 0 24px 3px;
+  height: 61px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 650;
   font-size: 15px;
   letter-spacing: .01em;
-  margin-right: 20px;
+  margin-right: 18px;
   white-space: nowrap;
+  color: var(--hdr-fg);
+  text-decoration: none;
 }
-.brand span { color: var(--text-muted); font-weight: 400; }
+.brand svg { width: 28px; height: 28px; flex: none; }
+.brand span { color: var(--hdr-fg-2); font-weight: 400; }
 .nav a.tab {
-  padding: 7px 13px;
+  padding: 7px 12px;
   border-radius: 7px;
   text-decoration: none;
-  color: var(--text-secondary);
+  color: var(--hdr-fg-2);
   font-size: 14px;
   white-space: nowrap;
+  transition: background .15s, color .15s;
 }
-.nav a.tab:hover { background: color-mix(in srgb, var(--text-primary) 6%, transparent); }
+.nav a.tab:hover { background: var(--hdr-hover); color: var(--hdr-fg); }
 .nav a.tab[aria-current="page"] {
-  background: color-mix(in srgb, var(--series-1) 14%, transparent);
-  color: var(--series-1);
+  background: var(--hdr-on-bg);
+  color: var(--hdr-on-fg);
   font-weight: 600;
 }
-.nav .spacer { flex: 1; }
+.nav .tabs { display: flex; align-items: center; gap: 2px; min-width: 0; }
+.nav .spacer { flex: 1; min-width: 12px; }
+
+/* The two switches on the bar, after the reference site: a small bordered
+   link naming the other language, and one square button with a half-filled
+   circle that flips light and dark. */
+.langlink, .themebtn {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  height: 28px; border: 1px solid var(--hdr-ctl-line); border-radius: 4px;
+  background: transparent; color: var(--hdr-fg-2); text-decoration: none;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.langlink {
+  padding: 0 9px; margin-right: 8px;
+  font: 500 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, var(--font); letter-spacing: .04em;
+}
+.themebtn { width: 30px; padding: 0; cursor: pointer; }
+.themebtn svg { width: 15px; height: 15px; display: block; }
+.langlink:hover, .themebtn:hover {
+  color: var(--hdr-fg); background: var(--hdr-hover); border-color: var(--hdr-fg-2);
+}
+.themebtn:focus-visible, .nav a:focus-visible {
+  outline: 2px solid var(--hdr-fg); outline-offset: 1px;
+}
+
 button.ghost {
   border: 1px solid var(--border);
   background: var(--surface-1);
@@ -194,6 +282,7 @@ p.note { color: var(--text-muted); font-size: 13px; margin: 10px 0 0; max-width:
 .card {
   background: var(--surface-1);
   border: 1px solid var(--border);
+  border-top: 3px solid color-mix(in srgb, var(--un-blue) 70%, var(--surface-1));
   border-radius: 13px;
   padding: 20px 22px;
   margin-bottom: 22px;
@@ -230,7 +319,9 @@ p.note { color: var(--text-muted); font-size: 13px; margin: 10px 0 0; max-width:
   align-items: center;
   margin-bottom: 16px;
 }
-.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+  max-width: 100%; min-width: 0; overflow-x: auto; }
+.seg button { flex: none; }
 .seg button {
   border: 0;
   background: var(--surface-1);
@@ -324,7 +415,8 @@ tbody tr:hover { background: color-mix(in srgb, var(--series-1) 6%, transparent)
 }
 .callout strong { color: var(--text-primary); }
 
-.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); gap: 22px; }
+/* min(): a 430px floor would push a phone-width page sideways */
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(430px, 100%), 1fr)); gap: 22px; }
 .grid2 > .card { margin-bottom: 0; }
 
 /* ------------------------------------------------------- home hero/cards */
@@ -340,12 +432,12 @@ a.cardlink {
   text-decoration: none;
   color: inherit;
 }
-a.cardlink:hover { border-color: var(--series-1); }
+a.cardlink:hover { border-color: var(--un-blue); }
 a.cardlink .t { font-weight: 620; margin-bottom: 5px; font-size: 15.5px; }
 a.cardlink .d { font-size: 13.5px; color: var(--text-secondary); line-height: 1.55; }
 
 footer.site {
-  border-top: 1px solid var(--border);
+  border-top: 3px solid var(--un-blue);
   color: var(--text-muted);
   font-size: 12.5px;
   padding: 22px 24px 40px;
@@ -431,6 +523,10 @@ a.ecard .body .w { font-size: 11.5px; color: var(--text-muted); margin-top: 8px;
   color: var(--text-muted); position: sticky; top: 0; z-index: 1;
 }
 
+@media (max-width: 1120px) {
+  .brand .full { display: none; }
+}
+
 @media (max-width: 900px) {
   .opening h1 { font-size: 33px; }
   .collage { grid-template-columns: repeat(3, 1fr); }
@@ -441,8 +537,14 @@ a.ecard .body .w { font-size: 11.5px; color: var(--text-muted); margin-top: 8px;
   .vnode .yr, .vnode.right .yr { position: static; left: auto; right: auto; margin-bottom: 4px; }
 }
 
+/* Phones: brand and the two switches on the first row, the tabs on a second
+   row that scrolls sideways, so the switches are never pushed off-screen. */
 @media (max-width: 720px) {
-  .nav { overflow-x: auto; }
+  .nav { flex-wrap: wrap; height: auto; padding: 8px 16px 3px; row-gap: 4px; }
+  .nav .tabs { order: 3; flex: 1 0 100%; overflow-x: auto; scrollbar-width: none; padding-bottom: 6px; }
+  .nav .tabs::-webkit-scrollbar { display: none; }
+  .brand { margin-right: 8px; }
+  .brand .full { display: none; }
   h1 { font-size: 25px; }
   .hero h1 { font-size: 29px; }
   .opening .inner { padding: 34px 16px 30px; }

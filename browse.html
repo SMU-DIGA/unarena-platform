@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Browse records · UN Voting Corpus 1946–2025</title>
+<title data-zh="浏览记录 · 联合国表决记录 1946–2025">Browse records · UN Voting Corpus 1946–2025</title>
+<script src="assets/boot.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 <style>
 .filters {
@@ -65,51 +66,51 @@ mark { background: color-mix(in srgb, var(--series-4) 45%, transparent); color: 
 </head>
 <body>
 <main>
-  <h1>Browse the records</h1>
+  <h1 data-zh="浏览会议记录">Browse the records</h1>
   <p class="lede" id="lede"></p>
 
   <div class="card">
     <div class="filters">
       <div class="f">
-        <label for="q">Search agenda text</label>
-        <input type="text" id="q" placeholder="e.g. Palestine, Congo, apartheid">
+        <label for="q" data-zh="搜索议程文本（英文）">Search agenda text</label>
+        <input type="text" id="q" placeholder="e.g. Palestine, Congo, apartheid" data-zh-ph="例如 Palestine、Congo、apartheid">
       </div>
       <div class="f">
-        <label for="body">Body</label>
+        <label for="body" data-zh="机构">Body</label>
         <select id="body">
-          <option value="">Both bodies</option>
-          <option value="SC">Security Council</option>
-          <option value="GA">General Assembly</option>
+          <option value="" data-zh="两个机构">Both bodies</option>
+          <option value="SC" data-zh="安理会">Security Council</option>
+          <option value="GA" data-zh="联合国大会">General Assembly</option>
         </select>
       </div>
       <div class="f">
-        <label for="y0">From year</label>
+        <label for="y0" data-zh="起始年份">From year</label>
         <input type="number" id="y0" min="1946" max="2025" value="1946">
       </div>
       <div class="f">
-        <label for="y1">To year</label>
+        <label for="y1" data-zh="截止年份">To year</label>
         <input type="number" id="y1" min="1946" max="2025" value="2025">
       </div>
       <div class="f">
-        <label for="topic">Topic entry</label>
-        <select id="topic"><option value="">Any or none</option></select>
+        <label for="topic" data-zh="专题条目">Topic entry</label>
+        <select id="topic"></select>
       </div>
       <div class="f">
-        <label for="sort">Sort</label>
+        <label for="sort" data-zh="排序">Sort</label>
         <select id="sort">
-          <option value="date">Date, oldest first</option>
-          <option value="-date">Date, newest first</option>
-          <option value="-ns">Most speeches</option>
-          <option value="-nres">Most resolutions</option>
-          <option value="-dl">Longest background entry</option>
+          <option value="date" data-zh="日期，由早到晚">Date, oldest first</option>
+          <option value="-date" data-zh="日期，由晚到早">Date, newest first</option>
+          <option value="-ns" data-zh="发言最多">Most speeches</option>
+          <option value="-nres" data-zh="决议最多">Most resolutions</option>
+          <option value="-dl" data-zh="背景材料最长">Longest background entry</option>
         </select>
       </div>
       <div class="f">
-        <label>Only show</label>
+        <label data-zh="仅显示">Only show</label>
         <div class="checks">
-          <label><input type="checkbox" id="f-speech"> has speeches</label>
-          <label><input type="checkbox" id="f-veto"> has a vetoed draft</label>
-          <label><input type="checkbox" id="f-entry"> carries a topic entry</label>
+          <label><input type="checkbox" id="f-speech"> <span data-zh="有发言记录">has speeches</span></label>
+          <label><input type="checkbox" id="f-veto"> <span data-zh="有被否决的草案">has a vetoed draft</span></label>
+          <label><input type="checkbox" id="f-entry"> <span data-zh="挂有专题条目">carries a topic entry</span></label>
         </div>
       </div>
     </div>
@@ -117,21 +118,24 @@ mark { background: color-mix(in srgb, var(--series-4) 45%, transparent); color: 
     <div class="resultbar">
       <span id="count"></span>
       <span class="spacer"></span>
-      <button class="ghost" id="reset">Reset filters</button>
+      <button class="ghost" id="reset" data-zh="重置筛选">Reset filters</button>
     </div>
 
     <div class="rowlist" id="rows"></div>
     <div class="pager" id="pager"></div>
   </div>
 
-  <p class="note">
+  <p class="note" data-l="en">
     This is an index only: date, agenda, speech and resolution counts for each record.
     The underlying meeting records are not published on this site.
   </p>
+  <p class="note" data-l="zh">
+    这里只是一份索引：每条记录的日期、议程、发言数与决议数。议程保留联合国英文原文，因此搜索请使用英文。会议记录原文不在本网站发布。</p>
 </main>
 
 <script src="data/browse.js"></script>
 <script src="data/topics.js"></script>
+<script src="data/zh.js"></script>
 <script src="assets/common.js"></script>
 <script>
 const ROWS = window.BROWSE.rows;
@@ -143,10 +147,12 @@ const TLABEL = Object.fromEntries(window.TOPICS.topics.map((t) => [t.id, t.label
 const N_MEETINGS = ROWS.filter((r) => !r.ph).length;
 const N_ORPHAN = ROWS.length - N_MEETINGS;
 
-document.getElementById('lede').textContent =
+document.getElementById('lede').textContent = L(
   `Every file in the corpus — ${fmt(ROWS.length)} of them: ${fmt(N_MEETINGS)} meetings `
   + `plus ${N_ORPHAN} files that carry resolutions with no meeting record. Filter by body, `
-  + `year, agenda text or topic entry.`;
+  + `year, agenda text or topic entry.`,
+  `语料库中的全部文件，共 ${fmt(ROWS.length)} 个：${fmt(N_MEETINGS)} 次会议，另有 ${N_ORPHAN} 个`
+  + `文件载有决议但没有对应的会议记录。可按机构、年份、议程文本或专题条目筛选。`);
 const PER = 60;
 let page = 0;
 let view = ROWS;
@@ -205,53 +211,58 @@ function render() {
   const slice = view.slice(start, start + PER);
 
   $('count').innerHTML = total
-    ? `<b>${total.toLocaleString('en-US')}</b> record${total === 1 ? '' : 's'} match`
-    : 'No records match these filters';
+    ? L(`<b>${fmt(total)}</b> record${total === 1 ? '' : 's'} match`, `共 <b>${fmt(total)}</b> 条记录符合条件`)
+    : L('No records match these filters', '没有符合这些筛选条件的记录');
 
   $('rows').innerHTML = slice.map((r) => {
     const PH_LABEL = {
-      unattributed: 'Resolutions with no meeting record',
-      no_meeting: 'Resolutions adopted with no meeting on record',
+      unattributed: L('Resolutions with no meeting record', '无会议记录的决议'),
+      no_meeting: L('Resolutions adopted with no meeting on record', '未见会议记录而通过的决议'),
     };
     const label = r.ph
-      ? (PH_LABEL[r.phk] || 'Resolutions with no meeting record')
-      : (r.b === 'SC' ? `Council meeting ${r.n}` : `Assembly plenary ${r.n}`);
+      ? (PH_LABEL[r.phk] || PH_LABEL.unattributed)
+      : (r.b === 'SC' ? L(`Council meeting ${r.n}`, `安理会第 ${r.n} 次会议`)
+                      : L(`Assembly plenary ${r.n}`, `大会第 ${r.n} 次全体会议`));
     const resIds = r.res.slice(0, 3).map((x) => x.id).join(', ')
-      + (r.res.length > 3 ? ` +${r.res.length - 3} more` : '');
+      + (r.res.length > 3 ? L(` +${r.res.length - 3} more`, ` 等另 ${r.res.length - 3} 项`) : '');
     return `<div class="rec">
-      <div class="when"><div class="yr">${r.y}</div><div class="dt">${r.d || 'undated'}</div></div>
+      <div class="when"><div class="yr">${r.y}</div><div class="dt">${r.d || L('undated', '无日期')}</div></div>
       <div class="mid">
         <div class="ttl">${highlight(label, q)}</div>
         <div class="ag">${r.a ? highlight(r.a, q)
           : (r.ph
              ? `<span style="color:var(--text-muted)">${r.phk === 'no_meeting'
-                 ? 'A Council file holding one resolution with no meeting attached and no tally '
-                   + 'recorded. All 52 of these fall in 2020 and 2021; the corpus does not say why.'
-                 : 'A file carrying resolutions that were not attached to any meeting record. '
-                   + 'Seven of these exist in the Assembly corpus.'}</span>`
-             : '<span style="color:var(--text-muted)">(no agenda recorded)</span>')}</div>
+                 ? L('A Council file holding one resolution with no meeting attached and no tally '
+                   + 'recorded. All 52 of these fall in 2020 and 2021; the corpus does not say why.',
+                   '一份安理会文件，载有一项决议，但没有对应的会议，也没有记录票数。这类文件共 52 份，'
+                   + '全部在 2020 和 2021 年；语料库未说明原因。')
+                 : L('A file carrying resolutions that were not attached to any meeting record. '
+                   + 'Seven of these exist in the Assembly corpus.',
+                   '一份载有决议的文件，这些决议未与任何会议记录关联。大会语料库中共有 7 份。')}</span>`
+             : `<span style="color:var(--text-muted)">${L('(no agenda recorded)', '（未记录议程）')}</span>`)}</div>
         <div class="meta">
-          ${r.ns ? `<span>${r.ns} speeches</span>` : ''}
+          ${r.ns ? `<span>${L(`${r.ns} speeches`, `发言 ${r.ns} 次`)}</span>` : ''}
           ${r.res.length ? `<span>${highlight(resIds, q)}</span>` : ''}
-          ${r.p ? `<span>chair: ${esc(r.p)}</span>` : ''}
-          ${r.dl ? `<span>${fmt(r.dl)} chars of background</span>` : ''}
+          ${r.p ? `<span>${L('chair', '主席')}: ${esc(cname(r.p))}</span>` : ''}
+          ${r.dl ? `<span>${L(`${fmt(r.dl)} chars of background`, `背景材料 ${fmt(r.dl)} 字符`)}</span>` : ''}
         </div>
       </div>
       <div class="tags">
-        <span class="pill ${r.b.toLowerCase()}">${r.b === 'SC' ? 'Council' : 'Assembly'}</span>
+        <span class="pill ${r.b.toLowerCase()}">${r.b === 'SC' ? L('Council', '安理会') : L('Assembly', '大会')}</span>
         ${r.tp.map((t) => `<span class="pill entry" title="${esc(TLABEL[t] || t)}${
-          r.mb === 'resolution_title' ? ' — matched on a resolution title, not the agenda' : ''
+          r.mb === 'resolution_title' ? L(' — matched on a resolution title, not the agenda', '——依据决议标题匹配，而非议程') : ''
         }">${esc(TLABEL[t] || t)}${r.mb === 'resolution_title' ? ' ·' : ''}</span>`).join('')}
-        ${r.res.some((x) => x.vetoed) ? '<span class="pill veto">veto</span>' : ''}
+        ${r.res.some((x) => x.vetoed) ? `<span class="pill veto">${L('veto', '否决')}</span>` : ''}
       </div>
     </div>`;
   }).join('');
 
   const pages = Math.max(1, Math.ceil(total / PER));
   $('pager').innerHTML = total > PER ? `
-    <button id="prev" ${page === 0 ? 'disabled' : ''}>← Previous</button>
-    <span class="pos">${start + 1}–${Math.min(start + PER, total)} of ${total.toLocaleString('en-US')}</span>
-    <button id="next" ${page >= pages - 1 ? 'disabled' : ''}>Next →</button>` : '';
+    <button id="prev" ${page === 0 ? 'disabled' : ''}>${L('← Previous', '← 上一页')}</button>
+    <span class="pos">${L(`${start + 1}–${Math.min(start + PER, total)} of ${fmt(total)}`,
+      `第 ${start + 1}–${Math.min(start + PER, total)} 条，共 ${fmt(total)} 条`)}</span>
+    <button id="next" ${page >= pages - 1 ? 'disabled' : ''}>${L('Next →', '下一页 →')}</button>` : '';
   if (total > PER) {
     $('prev').onclick = () => { page--; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
     $('next').onclick = () => { page++; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
@@ -260,7 +271,7 @@ function render() {
 
 /* Entries in the picker are ordered by how many meetings they cover, which is
    the order they are useful in — alphabetical would bury Palestine. */
-$('topic').innerHTML = '<option value="">Any or none</option>'
+$('topic').innerHTML = `<option value="">${L('Any or none', '不限')}</option>`
   + window.TOPICS.topics.map((t) =>
       `<option value="${esc(t.id)}">${esc(t.label)} (${t.total})</option>`).join('');
 
