@@ -207,7 +207,7 @@ function initChrome() {
   document.body.insertAdjacentHTML('afterbegin', `
     <header class="site"><nav class="nav" aria-label="${L('Site', '网站导航')}">
       <a class="brand" href="index.html">${GLOBE}
-        ${L('UN Voting Corpus', '联合国表决记录')} <span class="full">1946–2025</span></a>
+        UNArena Platform</a>
       <div class="tabs">${tabs}</div><div class="spacer"></div>
       <a class="langlink" href="${esc(otherLangHref())}"
         ${LANG === 'zh' ? 'hreflang="en" lang="en">EN' : 'hreflang="zh-CN" lang="zh-CN">中文'}</a>
