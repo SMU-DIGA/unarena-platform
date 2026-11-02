@@ -306,28 +306,15 @@ html[lang="zh-CN"] .node h3 { font-style: normal; font-weight: 600; }
 .node .side:has(.shotn) { justify-content: flex-start; }
 .node .extras { display: flex; flex-direction: column; gap: 10px; margin: 2px 0 14px; }
 
-/* A milestone's year in brief: two figures, then a short label / value list. */
+/* A milestone's year in brief: the two adopted-resolution counts. */
 .node .facts { border-top: 1px solid var(--rule-soft); padding-top: 12px; }
-.node .facts .figs { display: flex; gap: 28px; margin-bottom: 10px; }
+.node .facts .figs { display: flex; gap: 28px; }
 .node .facts .fig { display: flex; align-items: baseline; gap: 8px; }
 .node .facts .fig .v { font-family: var(--serif); font-size: 26px; font-weight: 600; line-height: 1;
   font-variant-numeric: tabular-nums; }
 .node .facts .fig.sc .v { color: var(--series-1); }
 .node .facts .fig.ga .v { color: var(--series-2); }
 .node .facts .fig .k { font-size: 12px; color: var(--text-muted); }
-.node .facts dl { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 0;
-  font-size: 12.5px; line-height: 1.5; }
-.node .facts dl:not(:has(dt)) { display: none; }
-.node .facts dt { color: var(--text-muted); white-space: nowrap; }
-.node .facts dd { margin: 0; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
-.node .facts dd.docs { display: flex; flex-wrap: wrap; gap: 2px 14px; }
-.node .facts dd.docs > span { display: inline-flex; align-items: center; gap: 6px; }
-.node .facts .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
-.node .facts .dot.sc { background: var(--series-1); }
-.node .facts .dot.ga { background: var(--series-2); }
-.node .facts dd.ents a { color: var(--era, var(--series-1)); text-decoration: none; }
-.node .facts dd.ents a:hover { text-decoration: underline; }
-.node .facts .sep { color: var(--text-muted); margin: 0 6px; }
 .statgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }
 .statbox {
   background: var(--surface-1);
@@ -719,7 +706,6 @@ document.getElementById('sections').innerHTML = S.eras.map((era, ei) => {
   const nodes = (byEra[era.id] || []).map((e) => {
     const st = e.year_stats;
     const covCls = st.ga_band === 'RELIABLE' ? '' : 'flag';
-    const live = entriesAtYear(e.year).slice(0, 3);
     const pk = `event:${e.year}`;
     const hasPic = !!(window.TOPIC_IMAGES || {})[pk];
     /* With a photograph the picture takes the whole side column and the year's
@@ -732,13 +718,6 @@ document.getElementById('sections').innerHTML = S.eras.map((era, ei) => {
             <div class="fig ga"><span class="v">${st.ga_adopted ?? '—'}</span>
               <span class="k">${L('Assembly resolutions', '大会决议')}</span></div>
           </div>
-          <dl>
-            ${e.stat ? `<dt>${L('Note', '要点')}</dt><dd>${esc(e.stat)}</dd>` : ''}
-            ${e.docs.length ? `<dt>${L('Documents', '文件')}</dt><dd class="docs">${e.docs.map((d) =>
-              `<span><span class="dot ${d.body.toLowerCase()}"></span>${esc(d.id)}</span>`).join('')}</dd>` : ''}
-            ${live.length ? `<dt>${L(`Entries live in ${e.year}`, '同期条目')}</dt><dd class="ents">${live.map((t) =>
-              `<a href="entry.html?id=${encodeURIComponent(t.id)}">${esc(t.label)}</a>`).join('<span class="sep">·</span>')}</dd>` : ''}
-          </dl>
         </div>
         ${covCls ? `<div class="flag">${L(`Assembly coverage this year is
           ${st.ga_coverage != null ? st.ga_coverage.toFixed(1) + '%' : '—'}
