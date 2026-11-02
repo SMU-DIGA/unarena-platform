@@ -308,7 +308,8 @@ html[lang="zh-CN"] .node h3 { font-style: normal; font-weight: 600; }
 
 /* A milestone's year in brief: the two adopted-resolution counts. */
 .node .facts { border-top: 1px solid var(--rule-soft); padding-top: 12px; }
-.node .facts .figs { display: flex; gap: 28px; }
+.node .facts .figs { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 28px; }
+.node .facts .figs .more { margin-left: auto; }
 .node .facts .fig { display: flex; align-items: baseline; gap: 8px; }
 .node .facts .fig .v { font-family: var(--serif); font-size: 26px; font-weight: 600; line-height: 1;
   font-variant-numeric: tabular-nums; }
@@ -717,6 +718,7 @@ document.getElementById('sections').innerHTML = S.eras.map((era, ei) => {
               <span class="k">${L('Council resolutions', '安理会决议')}</span></div>
             <div class="fig ga"><span class="v">${st.ga_adopted ?? '—'}</span>
               <span class="k">${L('Assembly resolutions', '大会决议')}</span></div>
+            <button class="more" data-y="${e.year}">${L('Detail and vote records →', '详情与表决记录 →')}</button>
           </div>
         </div>
         ${covCls ? `<div class="flag">${L(`Assembly coverage this year is
@@ -732,7 +734,6 @@ document.getElementById('sections').innerHTML = S.eras.map((era, ei) => {
         <p class="lede">${esc(e.lede)}</p>
         <p class="bodytext">${esc(e.body)}</p>
         ${hasPic ? `<div class="extras">${extras}</div>` : ''}
-        <button class="more" data-y="${e.year}">${L('Detail and vote records →', '详情与表决记录 →')}</button>
       </div>
       <div class="side">
         ${hasPic ? `<figure class="shotn"><div class="frame">${pictureFor(pk, { title: e.title })}</div>${creditFor(pk)}</figure>` : extras}
